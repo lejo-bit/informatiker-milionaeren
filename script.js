@@ -172,7 +172,7 @@ function checkAnswer() {
   }
 
   // Wywołanie backendu /check-answer
-  fetch("http://127.0.0.1:8000/check-answer", {
+  fetch("https://quiz-backend-71a3.onrender.com/check-answer", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
