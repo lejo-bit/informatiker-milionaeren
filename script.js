@@ -43,13 +43,13 @@ function normalizeText(text) {
 
 // Gdy skończy się czas na odpowiedź
 function handleTimeUp() {
-  if (!gameActive) return;
+  if (!gameActive || !currentQuestion) return;
 
   resultBox.textContent = "Zeit abgelaufen!";
   resultBox.classList.remove("hidden", "correct", "wrong");
   resultBox.classList.add("wrong");
 
-  const q = fragen[currentQuestionIndex];
+  const q = currentQuestion;
   const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
   correctAnswerText.textContent = correctRaw;
   correctAnswerText.classList.remove("hidden");
@@ -77,7 +77,7 @@ function endGame() {
   finalScoreEl.textContent = score;
 }
 
-// Losowanie i wyświetlenie pytania
+// Losowanie i wyświetlenie pytania (bez powtórek)
 function loadRandomQuestion() {
   if (!gameActive) return;
 
@@ -86,53 +86,19 @@ function loadRandomQuestion() {
     answerInputEl.disabled = true;
     checkBtn.disabled = true;
     nextBtn.classList.add("hidden");
-    endGame(); // albo możesz pokazać osobny ekran
+    endGame();
     return;
   }
 
-  // losujemy indeks
+  // losujemy indeks w remaining questions
   const idx = Math.floor(Math.random() * fragen.length);
   const q = fragen[idx];
 
-  // zapamiętujemy indeks PYTANIA w oryginalnej liście (opcjonalnie)
-  currentQuestionIndex = q.id;
+  currentQuestion = q;
+  currentQuestionIndex = q.id; // opcjonalne, jeśli chcesz ID
 
   // usuwamy pytanie z listy, żeby się nie powtórzyło
   fragen.splice(idx, 1);
-
-  questionTextEl.textContent = q.frage;
-  answerInputEl.value = "";
-  answerInputEl.disabled = false;
-  checkBtn.disabled = false;
-
-  resultBox.classList.add("hidden");
-  correctAnswerText.classList.add("hidden");
-  nextBtn.classList.add("hidden");
-
-  timer = 30;
-  currentPoints = 100;
-  timerEl.textContent = timer;
-
-  clearInterval(timerInterval);
-  timerInterval = setInterval(() => {
-    timer--;
-    timerEl.textContent = timer;
-
-    if (timer <= 20 && timer >= 0) {
-      currentPoints = Math.max(0, 100 - (30 - timer) * 10);
-    }
-
-    if (timer <= 0) {
-      clearInterval(timerInterval);
-      handleTimeUp();
-    }
-  }, 1000);
-
-  answerInputEl.focus();
-}
-
-  currentQuestionIndex = Math.floor(Math.random() * fragen.length);
-  const q = fragen[currentQuestionIndex];
 
   questionTextEl.textContent = q.frage;
   answerInputEl.value = "";
@@ -168,15 +134,14 @@ function loadRandomQuestion() {
 
 // Sprawdzanie odpowiedzi
 function checkAnswer() {
-  if (currentQuestionIndex === null || !gameActive) return;
+  if (currentQuestionIndex === null || !gameActive || !currentQuestion) return;
 
   clearInterval(timerInterval);
+
   const q = currentQuestion;
-  // q już nie jest w fragen, więc najlepiej przechowywać aktualne pytanie globalnie
   const userRaw = answerInputEl.value || "";
   const user = normalizeText(userRaw);
- 
-  
+
   const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
   const correct = normalizeText(correctRaw);
 
@@ -210,7 +175,6 @@ function checkAnswer() {
   if (user === correct) {
     isCorrect = true;
   } else if (user.length > 2 && correct.includes(user)) {
-    // np. user = "berlin", correct = "berlin"
     isCorrect = true;
   }
 
