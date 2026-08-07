@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <title>Milionerzy – pytania</title>
+  <title>Quiz – Fragen</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -107,22 +107,22 @@
 </head>
 <body>
   <div class="container">
-    <h1>Milionerzy – pytania</h1>
+    <h1>Quiz – Fragen</h1>
 
-    <div id="loading" class="loading">Ładowanie pytań...</div>
+    <div id="loading" class="loading">Fragen werden geladen...</div>
     <div id="error" class="error hidden"></div>
 
     <div id="game" class="hidden">
       <div class="question-box" id="questionText">
-        Ładowanie pytania...
+        Frage wird geladen...
       </div>
 
-      <label for="answerInput">Twoja odpowiedź:</label>
-      <input type="text" id="answerInput" placeholder="Wpisz odpowiedź..." />
+      <label for="answerInput">Deine Antwort:</label>
+      <input type="text" id="answerInput" placeholder="Antwort eingeben..." />
 
       <div class="buttons">
-        <button id="checkBtn">Sprawdź</button>
-        <button id="nextBtn" class="secondary hidden">Następne pytanie</button>
+        <button id="checkBtn">Prüfen</button>
+        <button id="nextBtn" class="secondary hidden">Nächste Frage</button>
       </div>
 
       <div id="resultBox" class="result hidden"></div>
@@ -131,7 +131,7 @@
   </div>
 
   <script>
-    let pytania = [];
+    let fragen = [];
     let currentQuestionIndex = null;
 
     const loadingEl = document.getElementById('loading');
@@ -154,15 +154,15 @@
     }
 
     function loadRandomQuestion() {
-      if (pytania.length === 0) {
-        questionTextEl.textContent = "Brak pytań w liście.";
+      if (fragen.length === 0) {
+        questionTextEl.textContent = "Keine Fragen in der Liste.";
         answerInputEl.disabled = true;
         checkBtn.disabled = true;
         return;
       }
 
-      currentQuestionIndex = Math.floor(Math.random() * pytania.length);
-      const q = pytania[currentQuestionIndex];
+      currentQuestionIndex = Math.floor(Math.random() * fragen.length);
+      const q = fragen[currentQuestionIndex];
 
       questionTextEl.textContent = q.frage;
       answerInputEl.value = '';
@@ -179,7 +179,7 @@
     function checkAnswer() {
       if (currentQuestionIndex === null) return;
 
-      const q = pytania[currentQuestionIndex];
+      const q = fragen[currentQuestionIndex];
       const user = normalizeText(answerInputEl.value);
       const correct = normalizeText(q.antwort1);
 
@@ -187,7 +187,7 @@
       correctAnswerText.classList.add('hidden');
 
       if (!user) {
-        resultBox.textContent = "Wpisz jakąś odpowiedź.";
+        resultBox.textContent = "Bitte gib eine Antwort ein.";
         resultBox.classList.add('wrong');
         return;
       }
@@ -207,10 +207,10 @@
       }
 
       if (isCorrect) {
-        resultBox.textContent = "Dobra odpowiedź!";
+        resultBox.textContent = "Richtige Antwort!";
         resultBox.classList.add('correct');
       } else {
-        resultBox.textContent = "Nie do końca. Poprawna odpowiedź:";
+        resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
         resultBox.classList.add('wrong');
         correctAnswerText.textContent = q.antwort1;
         correctAnswerText.classList.remove('hidden');
@@ -225,25 +225,24 @@
     checkBtn.addEventListener('click', checkAnswer);
     nextBtn.addEventListener('click', loadRandomQuestion);
 
-    // Ładowanie pytań z pliku JSON
-    fetch('pytania.json')
+    // Fragen aus JSON laden
+    fetch('fragen.json')
       .then(res => {
         if (!res.ok) {
-          throw new Error('Nie udało się wczytać pytania.json (kod: ' + res.status + ')');
+          throw new Error('fragen.json konnte nicht geladen werden (Status: ' + res.status + ')');
         }
         return res.json();
       })
       .then(data => {
-        pytania = data;
+        fragen = data;
         loadingEl.classList.add('hidden');
         gameEl.classList.remove('hidden');
         loadRandomQuestion();
       })
       .catch(err => {
         loadingEl.classList.add('hidden');
-        errorEl.textContent = 'Błąd: ' + err.message + '. Upewnij się, że plik pytania.json istnieje i jest poprawnym JSON-em.';
+        errorEl.textContent = 'Fehler: ' + err.message + '. Stelle sicher, dass die Datei fragen.json existiert und gültiges JSON enthält.';
         errorEl.classList.remove('hidden');
       });
   </script>
 </body>
-</html>
