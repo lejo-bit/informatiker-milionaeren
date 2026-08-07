@@ -212,6 +212,15 @@ function checkAnswer() {
 checkBtn.addEventListener("click", checkAnswer);
 nextBtn.addEventListener("click", loadRandomQuestion);
 
+answerInputEl.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault(); // żeby nie wysyłało formularza / nie przeładowało strony
+    if (!checkBtn.disabled) {
+      checkAnswer();
+    }
+  }
+});
+
 // --- Ładowanie pytań z JSON ---
 
 fetch("fragen.json")
