@@ -176,52 +176,55 @@
       answerInputEl.focus();
     }
 
-    function checkAnswer() {
-      if (currentQuestionIndex === null) return;
+   function checkAnswer() {
+  if (currentQuestionIndex === null) return;
 
-      const q = fragen[currentQuestionIndex];
-      const user = normalizeText(answerInputEl.value);
-      const correct = normalizeText(q.antwort1);
+  const q = fragen[currentQuestionIndex];
+  const user = normalizeText(answerInputEl.value);
+  const correct = normalizeText(q["antwort 1"]); // <-- zmiana tutaj
 
-      resultBox.classList.remove('hidden', 'correct', 'wrong');
-      correctAnswerText.classList.add('hidden');
+  // Zawsze resetujemy widok
+  resultBox.classList.remove('hidden', 'correct', 'wrong');
+  correctAnswerText.classList.add('hidden');
 
-      if (!user) {
-        resultBox.textContent = "Bitte gib eine Antwort ein.";
-        resultBox.classList.add('wrong');
-        return;
-      }
+  if (!user) {
+    resultBox.textContent = "Bitte gib eine Antwort ein.";
+    resultBox.classList.add('wrong');
+    checkBtn.disabled = true;
+    answerInputEl.disabled = true;
+    nextBtn.classList.remove('hidden');
+    return;
+  }
 
-      const userWords = user.split(' ').filter(w => w.length > 2);
-      const correctWords = correct.split(' ').filter(w => w.length > 2);
+  const userWords = user.split(' ').filter(w => w.length > 2);
+  const correctWords = correct.split(' ').filter(w => w.length > 2);
 
-      const matchCount = userWords.filter(w => correctWords.includes(w)).length;
-      const coverage = matchCount / Math.max(correctWords.length, 1);
+  const matchCount = userWords.filter(w => correctWords.includes(w)).length;
+  const coverage = matchCount / Math.max(correctWords.length, 1);
 
-      let isCorrect = false;
+  let isCorrect = false;
 
-      if (coverage >= 0.7 && matchCount >= 2) {
-        isCorrect = true;
-      } else if (user.length > 0 && correct.includes(user) && user.length > 3) {
-        isCorrect = true;
-      }
+  if (coverage >= 0.7 && matchCount >= 2) {
+    isCorrect = true;
+  } else if (user.length > 0 && correct.includes(user) && user.length > 3) {
+    isCorrect = true;
+  }
 
-      if (isCorrect) {
-        resultBox.textContent = "Richtige Antwort!";
-        resultBox.classList.add('correct');
-      } else {
-        resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
-        resultBox.classList.add('wrong');
-        correctAnswerText.textContent = q.antwort1;
-        correctAnswerText.classList.remove('hidden');
-      }
+  if (isCorrect) {
+    resultBox.textContent = "Richtige Antwort!";
+    resultBox.classList.add('correct');
+  } else {
+    resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
+    resultBox.classList.add('wrong');
+    correctAnswerText.textContent = q["antwort 1"]; // i ewentualnie tu popraw
+    correctAnswerText.classList.remove('hidden');
+  }
 
-      checkBtn.disabled = true;
-      answerInputEl.disabled = true;
-      nextBtn.classList.remove('hidden');
-      nextBtn.focus();
-    }
-
+  checkBtn.disabled = true;
+  answerInputEl.disabled = true;
+  nextBtn.classList.remove('hidden');
+  nextBtn.focus();
+}
     checkBtn.addEventListener('click', checkAnswer);
     nextBtn.addEventListener('click', loadRandomQuestion);
 
