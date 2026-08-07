@@ -133,7 +133,7 @@ function loadRandomQuestion() {
   answerInputEl.focus();
 }
 
-// Sprawdzanie odpowiedzi
+// Sprawdzanie odpowiedzi przez backend AI
 function checkAnswer() {
   if (currentQuestionIndex === null || !gameActive || !currentQuestion) return;
 
@@ -145,11 +145,12 @@ function checkAnswer() {
 
   const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
   const correct = normalizeText(correctRaw);
+  const questionText = q.frage;
 
   resultBox.classList.remove("hidden", "correct", "wrong");
   correctAnswerText.classList.add("hidden");
 
-  // Pusta odpowiedź traktujemy jak błąd
+  // Pusta odpowiedź traktujemy jak błąd (bez AI)
   if (!user) {
     resultBox.textContent = "Keine Antwort!";
     resultBox.classList.add("wrong");
@@ -169,6 +170,81 @@ function checkAnswer() {
     }
     return;
   }
+
+  // Wywołanie backendu /check-answer
+  fetch("http://127.0.0.1:8000/check-answer", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      question: questionText,
+      correct_answer: correctRaw,
+      user_answer: userRaw
+    })
+  })
+    .then(res => res.json())
+    .then(data => {
+      const isCorrect = data.isCorrect;
+
+      resultBox.classList.remove("correct", "wrong");
+
+      if (isCorrect) {
+        resultBox.textContent = "Richtige Antwort! +" + currentPoints + " Punkte";
+        resultBox.classList.add("correct");
+        score += currentPoints;
+        scoreEl.textContent = score;
+      } else {
+        resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
+        resultBox.classList.add("wrong");
+
+        lives--;
+        livesEl.textContent = lives;
+
+        if (lives <= 0) {
+          correctAnswerText.textContent = correctRaw;
+          correctAnswerText.classList.remove("hidden");
+          endGame();
+          return;
+        }
+      }
+
+      correctAnswerText.textContent = correctRaw;
+      correctAnswerText.classList.remove("hidden");
+
+      checkBtn.disabled = true;
+      answerInputEl.disabled = true;
+      nextBtn.classList.remove("hidden");
+      nextBtn.focus();
+    })
+    .catch(err => {
+      console.error("AI-Checker Fehler:", err);
+
+      // Fallback: jeśli backend padł, użyj prostej lokalnej logiki
+      let isCorrectFallback = false;
+      if (user === correct || correct.includes(user)) {
+        isCorrectFallback = true;
+      }
+
+      if (isCorrectFallback) {
+        resultBox.textContent = "Richtige Antwort! +" + currentPoints + " Punkte (Fallback)";
+        resultBox.classList.add("correct");
+        score += currentPoints;
+        scoreEl.textContent = score;
+      } else {
+        resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet: (Fallback)";
+        resultBox.classList.add("wrong");
+        lives--;
+        livesEl.textContent = lives;
+      }
+
+      correctAnswerText.textContent = correctRaw;
+      correctAnswerText.classList.remove("hidden");
+
+      checkBtn.disabled = true;
+      answerInputEl.disabled = true;
+      nextBtn.classList.remove("hidden");
+      nextBtn.focus();
+    });
+}
 
   // Proste sprawdzanie poprawności
   let isCorrect = false;
