@@ -121,7 +121,8 @@ function checkAnswer() {
   clearInterval(timerInterval);
 
   const q = fragen[currentQuestionIndex];
-  const user = normalizeText(answerInputEl.value || "");
+  const userRaw = answerInputEl.value || "";
+  const user = normalizeText(userRaw);
 
   const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
   const correct = normalizeText(correctRaw);
@@ -129,24 +130,63 @@ function checkAnswer() {
   resultBox.classList.remove('hidden', 'correct', 'wrong');
   correctAnswerText.classList.add('hidden');
 
- if (!user) {
-  resultBox.textContent = "Keine Antwort!";
-  resultBox.classList.add('wrong');
+  // Pusta odpowiedź – traktujemy jak błąd, zabiera życie
+  if (!user) {
+    resultBox.textContent = "Keine Antwort!";
+    resultBox.classList.add('wrong');
 
-  // Odejmij życie
-  lives--;
-  livesEl.textContent = lives;
+    lives--;
+    livesEl.textContent = lives;
+
+    answerInputEl.disabled = true;
+    checkBtn.disabled = true;
+    nextBtn.classList.remove('hidden');
+
+    correctAnswerText.textContent = correctRaw;
+    correctAnswerText.classList.remove('hidden');
+
+    if (lives <= 0) {
+      endGame();
+    }
+    return;
+  }
+
+  // Proste sprawdzanie: dokładne dopasowanie po normalizacji
+  let isCorrect = false;
+
+  if (user === correct) {
+    isCorrect = true;
+  } else if (user.length > 2 && correct.includes(user)) {
+    // np. user = "berlin", correct = "berlin"
+    isCorrect = true;
+  }
+
+  if (isCorrect) {
+    resultBox.textContent = "Richtige Antwort! +" + currentPoints + " Punkte";
+    resultBox.classList.add('correct');
+    score += currentPoints;
+    scoreEl.textContent = score;
+    correctAnswerText.textContent = correctRaw;
+    correctAnswerText.classList.remove('hidden');
+  } else {
+    resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
+    resultBox.classList.add('wrong');
+    correctAnswerText.textContent = correctRaw;
+    correctAnswerText.classList.remove('hidden');
+
+    lives--;
+    livesEl.textContent = lives;
+
+    if (lives <= 0) {
+      endGame();
+      return;
+    }
+  }
 
   checkBtn.disabled = true;
   answerInputEl.disabled = true;
   nextBtn.classList.remove('hidden');
-
-  // Koniec gry, jeśli brak żyć
-  if (lives <= 0) {
-    endGame();
-  }
-
-  return;
+  nextBtn.focus();
 }
 
   const userWords = user.split(' ').filter(w => w.length > 2);
