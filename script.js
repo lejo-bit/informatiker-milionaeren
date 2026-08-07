@@ -1,11 +1,25 @@
 let fragen = [];
 let currentQuestionIndex = null;
 
+let lives = 3;
+let score = 0;
+let timer = 30;
+let timerInterval = null;
+let currentPoints = 100;
+let gameActive = false;
+
 const loadingEl = document.getElementById('loading');
 const errorEl = document.getElementById('error');
 const startScreen = document.getElementById('startScreen');
 const gameEl = document.getElementById('game');
 const startBtn = document.getElementById('startBtn');
+
+const livesEl = document.getElementById('lives');
+const scoreEl = document.getElementById('score');
+const timerEl = document.getElementById('timer');
+const gameOverEl = document.getElementById('gameOver');
+const finalScoreEl = document.getElementById('finalScore');
+const restartBtn = document.getElementById('restartBtn');
 
 const questionTextEl = document.getElementById('questionText');
 const answerInputEl = document.getElementById('answerInput');
@@ -13,6 +27,7 @@ const checkBtn = document.getElementById('checkBtn');
 const nextBtn = document.getElementById('nextBtn');
 const resultBox = document.getElementById('resultBox');
 const correctAnswerText = document.getElementById('correctAnswerText');
+
 
 function normalizeText(text) {
   return text
@@ -23,6 +38,8 @@ function normalizeText(text) {
 }
 
 function loadRandomQuestion() {
+  if (!gameActive) return;
+
   if (fragen.length === 0) {
     questionTextEl.textContent = "Keine Fragen in der Liste.";
     answerInputEl.disabled = true;
@@ -42,20 +59,40 @@ function loadRandomQuestion() {
   correctAnswerText.classList.add('hidden');
   nextBtn.classList.add('hidden');
 
+  // Reset timer i punktów
+  timer = 30;
+  currentPoints = 100;
+  timerEl.textContent = timer;
+
+  clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    timer--;
+    timerEl.textContent = timer;
+
+    if (timer <= 20 && timer >= 0) {
+      currentPoints = Math.max(0, 100 - (30 - timer) * 10);
+    }
+
+    if (timer <= 0) {
+      clearInterval(timerInterval);
+      handleTimeUp();
+    }
+  }, 1000);
+
   answerInputEl.focus();
 }
 
 function checkAnswer() {
-  if (currentQuestionIndex === null) return;
+  if (currentQuestionIndex === null || !gameActive) return;
+
+  clearInterval(timerInterval);
 
   const q = fragen[currentQuestionIndex];
   const user = normalizeText(answerInputEl.value || "");
 
-  // Bezpieczne odczytanie odpowiedzi
   const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
   const correct = normalizeText(correctRaw);
 
-  // Zawsze resetujemy widok
   resultBox.classList.remove('hidden', 'correct', 'wrong');
   correctAnswerText.classList.add('hidden');
 
@@ -83,8 +120,10 @@ function checkAnswer() {
   }
 
   if (isCorrect) {
-    resultBox.textContent = "Richtige Antwort!";
+    resultBox.textContent = "Richtige Antwort! +" + currentPoints + " Punkte";
     resultBox.classList.add('correct');
+    score += currentPoints;
+    scoreEl.textContent = score;
     correctAnswerText.textContent = correctRaw;
     correctAnswerText.classList.remove('hidden');
   } else {
@@ -92,6 +131,14 @@ function checkAnswer() {
     resultBox.classList.add('wrong');
     correctAnswerText.textContent = correctRaw;
     correctAnswerText.classList.remove('hidden');
+
+    lives--;
+    livesEl.textContent = lives;
+
+    if (lives <= 0) {
+      endGame();
+      return;
+    }
   }
 
   checkBtn.disabled = true;
@@ -99,9 +146,6 @@ function checkAnswer() {
   nextBtn.classList.remove('hidden');
   nextBtn.focus();
 }
-
-checkBtn.addEventListener('click', checkAnswer);
-nextBtn.addEventListener('click', loadRandomQuestion);
 
 // Fragen aus JSON laden
 fetch('fragen.json')
@@ -128,5 +172,60 @@ fetch('fragen.json')
 startBtn.addEventListener('click', () => {
   startScreen.classList.add('hidden');
   gameEl.classList.remove('hidden');
+  gameOverEl.classList.add('hidden');
+
+  lives = 3;
+  score = 0;
+  livesEl.textContent = lives;
+  scoreEl.textContent = score;
+
+  gameActive = true;
   loadRandomQuestion();
+});
+
+restartBtn.addEventListener('click', () => {
+  gameOverEl.classList.add('hidden');
+  gameEl.classList.remove('hidden');
+
+  lives = 3;
+  score = 0;
+  livesEl.textContent = lives;
+  scoreEl.textContent = score;
+
+  gameActive = true;
+  loadRandomQuestion();
+  
+  function handleTimeUp() {
+  if (!gameActive) return;
+
+  resultBox.textContent = "Zeit abgelaufen!";
+  resultBox.classList.remove('hidden', 'correct', 'wrong');
+  resultBox.classList.add('wrong');
+
+  const q = fragen[currentQuestionIndex];
+  const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
+  correctAnswerText.textContent = correctRaw;
+  correctAnswerText.classList.remove('hidden');
+
+  lives--;
+  livesEl.textContent = lives;
+
+  answerInputEl.disabled = true;
+  checkBtn.disabled = true;
+  nextBtn.classList.remove('hidden');
+  nextBtn.focus();
+
+  if (lives <= 0) {
+    endGame();
+  }
+}
+
+function endGame() {
+  gameActive = false;
+  clearInterval(timerInterval);
+
+  gameEl.classList.add('hidden');
+  gameOverEl.classList.remove('hidden');
+  finalScoreEl.textContent = score;
+}
 });
