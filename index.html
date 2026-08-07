@@ -176,12 +176,15 @@
       answerInputEl.focus();
     }
 
-   function checkAnswer() {
+function checkAnswer() {
   if (currentQuestionIndex === null) return;
 
   const q = fragen[currentQuestionIndex];
-  const user = normalizeText(answerInputEl.value);
-  const correct = normalizeText(q["antwort 1"]); // <-- zmiana tutaj
+  const user = normalizeText(answerInputEl.value || "");
+
+  // Bezpieczne odczytanie odpowiedzi
+  const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
+  const correct = normalizeText(correctRaw);
 
   // Zawsze resetujemy widok
   resultBox.classList.remove('hidden', 'correct', 'wrong');
@@ -216,7 +219,7 @@
   } else {
     resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
     resultBox.classList.add('wrong');
-    correctAnswerText.textContent = q["antwort 1"]; // i ewentualnie tu popraw
+    correctAnswerText.textContent = correctRaw;
     correctAnswerText.classList.remove('hidden');
   }
 
