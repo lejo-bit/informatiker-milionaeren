@@ -59,7 +59,7 @@
     "antwort1": "Die Wärmeleitpaste füllt kleine Unebenheiten zwischen Kühler und CPU, da Luft ein schlechter Wärmeleiter ist.",
     "antwort2": ""
   },
-   {
+  {
     "nr": 11,
     "frage": "Erläutern Sie, was Sie beim Einsetzen der beiden Speicherriegel beachten müssen, damit der RAM im Dual-Channel-Modus arbeitet.",
     "antwort1": "Die zwei RAM-Module müssen in die richtigen Kanäle, zum Beispiel A1/B1 oder A2/B2, eingesetzt werden und die gleiche Größe sowie den gleichen Typ haben.",
