@@ -235,7 +235,7 @@ checkBtn.addEventListener('click', checkAnswer);
 nextBtn.addEventListener('click', loadRandomQuestion);
 
 // Fragen aus JSON laden
-fetch('fragen.json')
+fetch("fragen.json")
   .then(res => {
     if (!res.ok) {
       throw new Error('fragen.json konnte nicht geladen werden (Status: ' + res.status + ')');
