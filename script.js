@@ -28,7 +28,6 @@ const nextBtn = document.getElementById('nextBtn');
 const resultBox = document.getElementById('resultBox');
 const correctAnswerText = document.getElementById('correctAnswerText');
 
-
 function normalizeText(text) {
   return text
     .toLowerCase()
@@ -147,6 +146,40 @@ function checkAnswer() {
   nextBtn.focus();
 }
 
+function handleTimeUp() {
+  if (!gameActive) return;
+
+  resultBox.textContent = "Zeit abgelaufen!";
+  resultBox.classList.remove('hidden', 'correct', 'wrong');
+  resultBox.classList.add('wrong');
+
+  const q = fragen[currentQuestionIndex];
+  const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
+  correctAnswerText.textContent = correctRaw;
+  correctAnswerText.classList.remove('hidden');
+
+  lives--;
+  livesEl.textContent = lives;
+
+  answerInputEl.disabled = true;
+  checkBtn.disabled = true;
+  nextBtn.classList.remove('hidden');
+  nextBtn.focus();
+
+  if (lives <= 0) {
+    endGame();
+  }
+}
+
+function endGame() {
+  gameActive = false;
+  clearInterval(timerInterval);
+
+  gameEl.classList.add('hidden');
+  gameOverEl.classList.remove('hidden');
+  finalScoreEl.textContent = score;
+}
+
 // Fragen aus JSON laden
 fetch('fragen.json')
   .then(res => {
@@ -194,38 +227,4 @@ restartBtn.addEventListener('click', () => {
 
   gameActive = true;
   loadRandomQuestion();
-  
-  function handleTimeUp() {
-  if (!gameActive) return;
-
-  resultBox.textContent = "Zeit abgelaufen!";
-  resultBox.classList.remove('hidden', 'correct', 'wrong');
-  resultBox.classList.add('wrong');
-
-  const q = fragen[currentQuestionIndex];
-  const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
-  correctAnswerText.textContent = correctRaw;
-  correctAnswerText.classList.remove('hidden');
-
-  lives--;
-  livesEl.textContent = lives;
-
-  answerInputEl.disabled = true;
-  checkBtn.disabled = true;
-  nextBtn.classList.remove('hidden');
-  nextBtn.focus();
-
-  if (lives <= 0) {
-    endGame();
-  }
-}
-
-function endGame() {
-  gameActive = false;
-  clearInterval(timerInterval);
-
-  gameEl.classList.add('hidden');
-  gameOverEl.classList.remove('hidden');
-  finalScoreEl.textContent = score;
-}
 });
