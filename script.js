@@ -129,14 +129,25 @@ function checkAnswer() {
   resultBox.classList.remove('hidden', 'correct', 'wrong');
   correctAnswerText.classList.add('hidden');
 
-  if (!user) {
-    resultBox.textContent = "Bitte gib eine Antwort ein.";
-    resultBox.classList.add('wrong');
-    checkBtn.disabled = true;
-    answerInputEl.disabled = true;
-    nextBtn.classList.remove('hidden');
-    return;
+ if (!user) {
+  resultBox.textContent = "Keine Antwort!";
+  resultBox.classList.add('wrong');
+
+  // Odejmij życie
+  lives--;
+  livesEl.textContent = lives;
+
+  checkBtn.disabled = true;
+  answerInputEl.disabled = true;
+  nextBtn.classList.remove('hidden');
+
+  // Koniec gry, jeśli brak żyć
+  if (lives <= 0) {
+    endGame();
   }
+
+  return;
+}
 
   const userWords = user.split(' ').filter(w => w.length > 2);
   const correctWords = correct.split(' ').filter(w => w.length > 2);
