@@ -115,19 +115,20 @@ function loadRandomQuestion() {
   timerEl.textContent = timer;
 
   clearInterval(timerInterval);
-  timerInterval = setInterval(() => {
-    timer--;
-    timerEl.textContent = timer;
+ timerInterval = setInterval(() => {
+  timer--;
+  timerEl.textContent = timer;
 
-    if (timer <= 20 && timer >= 0) {
-      currentPoints = Math.max(0, 100 - (30 - timer) * 10);
-    }
+  // Punkty: start 100, od 20 sekund w dół -10 punktów na sekundę
+  if (timer <= 20 && timer >= 0) {
+    currentPoints = Math.max(0, currentPoints - 10);
+  }
 
-    if (timer <= 0) {
-      clearInterval(timerInterval);
-      handleTimeUp();
-    }
-  }, 1000);
+  if (timer <= 0) {
+    clearInterval(timerInterval);
+    handleTimeUp();
+  }
+}, 1000);
 
   answerInputEl.focus();
 }
