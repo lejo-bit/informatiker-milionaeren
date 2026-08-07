@@ -81,11 +81,54 @@ function loadRandomQuestion() {
   if (!gameActive) return;
 
   if (!fragen || fragen.length === 0) {
-    questionTextEl.textContent = "Keine Fragen in der Liste.";
+    questionTextEl.textContent = "Keine Fragen mehr.";
     answerInputEl.disabled = true;
     checkBtn.disabled = true;
+    nextBtn.classList.add("hidden");
+    endGame(); // albo możesz pokazać osobny ekran
     return;
   }
+
+  // losujemy indeks
+  const idx = Math.floor(Math.random() * fragen.length);
+  const q = fragen[idx];
+
+  // zapamiętujemy indeks PYTANIA w oryginalnej liście (opcjonalnie)
+  currentQuestionIndex = q.id;
+
+  // usuwamy pytanie z listy, żeby się nie powtórzyło
+  fragen.splice(idx, 1);
+
+  questionTextEl.textContent = q.frage;
+  answerInputEl.value = "";
+  answerInputEl.disabled = false;
+  checkBtn.disabled = false;
+
+  resultBox.classList.add("hidden");
+  correctAnswerText.classList.add("hidden");
+  nextBtn.classList.add("hidden");
+
+  timer = 30;
+  currentPoints = 100;
+  timerEl.textContent = timer;
+
+  clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    timer--;
+    timerEl.textContent = timer;
+
+    if (timer <= 20 && timer >= 0) {
+      currentPoints = Math.max(0, 100 - (30 - timer) * 10);
+    }
+
+    if (timer <= 0) {
+      clearInterval(timerInterval);
+      handleTimeUp();
+    }
+  }, 1000);
+
+  answerInputEl.focus();
+}
 
   currentQuestionIndex = Math.floor(Math.random() * fragen.length);
   const q = fragen[currentQuestionIndex];
