@@ -8,6 +8,7 @@ let timer = 30;
 let timerInterval = null;
 let currentPoints = 100;
 let gameActive = false;
+let currentQuestion = null;
 
 // --- Elementy DOM ---
 const loadingEl = document.getElementById('loading');
@@ -170,11 +171,12 @@ function checkAnswer() {
   if (currentQuestionIndex === null || !gameActive) return;
 
   clearInterval(timerInterval);
-
-  const q = fragen[currentQuestionIndex];
+  const q = currentQuestion;
+  // q już nie jest w fragen, więc najlepiej przechowywać aktualne pytanie globalnie
   const userRaw = answerInputEl.value || "";
   const user = normalizeText(userRaw);
-
+ 
+  
   const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
   const correct = normalizeText(correctRaw);
 
