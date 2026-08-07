@@ -144,13 +144,13 @@ function checkAnswer() {
   const matchCount = userWords.filter(w => correctWords.includes(w)).length;
   const coverage = matchCount / Math.max(correctWords.length, 1);
 
-  let isCorrect = false;
+ let isCorrect = false;
 
-  if (coverage >= 0.7 && matchCount >= 2) {
-    isCorrect = true;
-  } else if (user.length > 0 && correct.includes(user) && user.length > 3) {
-    isCorrect = true;
-  }
+if (coverage >= 0.8 && matchCount >= 3) {
+  isCorrect = true;
+} else if (user.length > 10 && correct.includes(user) && user.length > correct.length * 0.6) {
+  isCorrect = true;
+}
 
  if (isCorrect) {
   resultBox.textContent = "Richtige Antwort! +" + currentPoints + " Punkte";
