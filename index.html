@@ -214,13 +214,15 @@ function checkAnswer() {
   }
 
   if (isCorrect) {
-    resultBox.textContent = "Richtige Antwort!";
-    resultBox.classList.add('correct');
+  resultBox.textContent = "Richtige Antwort!";
+  resultBox.classList.add('correct');
+  correctAnswerText.textContent = correctRaw;
+  correctAnswerText.classList.remove('hidden');
   } else {
-    resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
-    resultBox.classList.add('wrong');
-    correctAnswerText.textContent = correctRaw;
-    correctAnswerText.classList.remove('hidden');
+  resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
+  resultBox.classList.add('wrong');
+  correctAnswerText.textContent = correctRaw;
+  correctAnswerText.classList.remove('hidden');
   }
 
   checkBtn.disabled = true;
