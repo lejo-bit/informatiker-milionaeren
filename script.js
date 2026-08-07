@@ -152,28 +152,27 @@ function checkAnswer() {
     isCorrect = true;
   }
 
-  if (isCorrect) {
-    resultBox.textContent = "Richtige Antwort! +" + currentPoints + " Punkte";
-    resultBox.classList.add('correct');
-    score += currentPoints;
-    scoreEl.textContent = score;
-    correctAnswerText.textContent = correctRaw;
-    correctAnswerText.classList.remove('hidden');
-  } else {
-    resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
-    resultBox.classList.add('wrong');
-    correctAnswerText.textContent = correctRaw;
-    correctAnswerText.classList.remove('hidden');
+ if (isCorrect) {
+  resultBox.textContent = "Richtige Antwort! +" + currentPoints + " Punkte";
+  resultBox.classList.add('correct');
+  score += currentPoints;
+  scoreEl.textContent = score;
+  correctAnswerText.textContent = correctRaw;
+  correctAnswerText.classList.remove('hidden');
+} else {
+  resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
+  resultBox.classList.add('wrong');
+  correctAnswerText.textContent = correctRaw;
+  correctAnswerText.classList.remove('hidden');
 
-    lives--;
-    livesEl.textContent = lives;
+  lives--;
+  livesEl.textContent = lives;
 
-    if (lives <= 0) {
-      endGame();
-      return;
-    }
+  if (lives <= 0) {
+    endGame();
+    return;
   }
-
+}
   checkBtn.disabled = true;
   answerInputEl.disabled = true;
   nextBtn.classList.remove('hidden');
