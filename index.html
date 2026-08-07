@@ -3,107 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Quiz – Fragen</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0b0f19;
-      color: #fff;
-      margin: 0;
-      padding: 20px;
-    }
-    .container {
-      max-width: 700px;
-      margin: 40px auto;
-      background: #111827;
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-    }
-    h1 {
-      text-align: center;
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    .question-box {
-      background: #1f2937;
-      border-radius: 8px;
-      padding: 16px;
-      margin-bottom: 20px;
-      font-size: 18px;
-      line-height: 1.4;
-      min-height: 60px;
-    }
-    label {
-      display: block;
-      margin-bottom: 8px;
-      font-size: 16px;
-    }
-    input[type="text"] {
-      width: 100%;
-      padding: 10px 12px;
-      font-size: 16px;
-      border-radius: 6px;
-      border: 1px solid #374151;
-      background: #0b0f19;
-      color: #fff;
-      box-sizing: border-box;
-    }
-    .buttons {
-      margin-top: 16px;
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    button {
-      padding: 10px 16px;
-      font-size: 16px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      background: #3b82f6;
-      color: #fff;
-    }
-    button.secondary {
-      background: #374151;
-    }
-    button:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-    .result {
-      margin-top: 16px;
-      padding: 12px;
-      border-radius: 6px;
-      font-size: 16px;
-    }
-    .result.correct {
-      background: #064e3b;
-      border: 1px solid #10b981;
-    }
-    .result.wrong {
-      background: #7f1d1d;
-      border: 1px solid #ef4444;
-    }
-    .hidden {
-      display: none;
-    }
-    .correct-answer {
-      margin-top: 8px;
-      font-size: 14px;
-      color: #9ca3af;
-    }
-    .loading {
-      text-align: center;
-      color: #9ca3af;
-    }
-    .error {
-      color: #fca5a5;
-      background: #7f1d1d;
-      border: 1px solid #ef4444;
-      padding: 12px;
-      border-radius: 6px;
-    }
-  </style>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -111,6 +11,10 @@
 
     <div id="loading" class="loading">Fragen werden geladen...</div>
     <div id="error" class="error hidden"></div>
+
+    <div id="startScreen" class="hidden">
+      <button id="startBtn">Start</button>
+    </div>
 
     <div id="game" class="hidden">
       <div class="question-box" id="questionText">
@@ -130,127 +34,5 @@
     </div>
   </div>
 
-  <script>
-    let fragen = [];
-    let currentQuestionIndex = null;
-
-    const loadingEl = document.getElementById('loading');
-    const errorEl = document.getElementById('error');
-    const gameEl = document.getElementById('game');
-
-    const questionTextEl = document.getElementById('questionText');
-    const answerInputEl = document.getElementById('answerInput');
-    const checkBtn = document.getElementById('checkBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    const resultBox = document.getElementById('resultBox');
-    const correctAnswerText = document.getElementById('correctAnswerText');
-
-    function normalizeText(text) {
-      return text
-        .toLowerCase()
-        .replace(/[.,;:!?()"\[\]]/g, ' ')
-        .replace(/\s+/g, ' ')
-        .trim();
-    }
-
-    function loadRandomQuestion() {
-      if (fragen.length === 0) {
-        questionTextEl.textContent = "Keine Fragen in der Liste.";
-        answerInputEl.disabled = true;
-        checkBtn.disabled = true;
-        return;
-      }
-
-      currentQuestionIndex = Math.floor(Math.random() * fragen.length);
-      const q = fragen[currentQuestionIndex];
-
-      questionTextEl.textContent = q.frage;
-      answerInputEl.value = '';
-      answerInputEl.disabled = false;
-      checkBtn.disabled = false;
-
-      resultBox.classList.add('hidden');
-      correctAnswerText.classList.add('hidden');
-      nextBtn.classList.add('hidden');
-
-      answerInputEl.focus();
-    }
-
-function checkAnswer() {
-  if (currentQuestionIndex === null) return;
-
-  const q = fragen[currentQuestionIndex];
-  const user = normalizeText(answerInputEl.value || "");
-
-  // Bezpieczne odczytanie odpowiedzi
-  const correctRaw = q["antwort 1"] || q["antwort1"] || q["antwort_1"] || "";
-  const correct = normalizeText(correctRaw);
-
-  // Zawsze resetujemy widok
-  resultBox.classList.remove('hidden', 'correct', 'wrong');
-  correctAnswerText.classList.add('hidden');
-
-  if (!user) {
-    resultBox.textContent = "Bitte gib eine Antwort ein.";
-    resultBox.classList.add('wrong');
-    checkBtn.disabled = true;
-    answerInputEl.disabled = true;
-    nextBtn.classList.remove('hidden');
-    return;
-  }
-
-  const userWords = user.split(' ').filter(w => w.length > 2);
-  const correctWords = correct.split(' ').filter(w => w.length > 2);
-
-  const matchCount = userWords.filter(w => correctWords.includes(w)).length;
-  const coverage = matchCount / Math.max(correctWords.length, 1);
-
-  let isCorrect = false;
-
-  if (coverage >= 0.7 && matchCount >= 2) {
-    isCorrect = true;
-  } else if (user.length > 0 && correct.includes(user) && user.length > 3) {
-    isCorrect = true;
-  }
-
-  if (isCorrect) {
-  resultBox.textContent = "Richtige Antwort!";
-  resultBox.classList.add('correct');
-  correctAnswerText.textContent = correctRaw;
-  correctAnswerText.classList.remove('hidden');
-  } else {
-  resultBox.textContent = "Nicht ganz. Die richtige Antwort lautet:";
-  resultBox.classList.add('wrong');
-  correctAnswerText.textContent = correctRaw;
-  correctAnswerText.classList.remove('hidden');
-  }
-
-  checkBtn.disabled = true;
-  answerInputEl.disabled = true;
-  nextBtn.classList.remove('hidden');
-  nextBtn.focus();
-}
-    checkBtn.addEventListener('click', checkAnswer);
-    nextBtn.addEventListener('click', loadRandomQuestion);
-
-    // Fragen aus JSON laden
-    fetch('fragen.json')
-      .then(res => {
-        if (!res.ok) {
-          throw new Error('fragen.json konnte nicht geladen werden (Status: ' + res.status + ')');
-        }
-        return res.json();
-      })
-      .then(data => {
-        fragen = data;
-        loadingEl.classList.add('hidden');
-        gameEl.classList.remove('hidden');
-        loadRandomQuestion();
-      })
-      .catch(err => {
-        loadingEl.classList.add('hidden');
-        errorEl.textContent = 'Fehler: ' + err.message + '. Stelle sicher, dass die Datei fragen.json existiert und gültiges JSON enthält.';
-        errorEl.classList.remove('hidden');
-      });
-  </script>
+  <script src="script.js"></script>
 </body>
