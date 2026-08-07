@@ -58,7 +58,7 @@
     "frage": "Erläutern Sie, welche Aufgabe die Wärmeleitpaste hat.",
     "antwort1": "Die Wärmeleitpaste füllt kleine Unebenheiten zwischen Kühler und CPU, da Luft ein schlechter Wärmeleiter ist.",
     "antwort2": ""
-  }
+  },
    {
     "nr": 11,
     "frage": "Erläutern Sie, was Sie beim Einsetzen der beiden Speicherriegel beachten müssen, damit der RAM im Dual-Channel-Modus arbeitet.",
@@ -238,7 +238,7 @@
     "frage": "Beschreiben Sie die Auswirkungen jeder Ziffer der gesetzten Rechte Eigentümer, Gruppe, Andere des chmod-Befehls.",
     "antwort1": "Die erste Ziffer beschreibt die Rechte des Eigentümers, die zweite Ziffer die Rechte der Gruppe und die dritte Ziffer die Rechte der anderen.",
     "antwort2": "Dabei steht 4 für lesen, 2 für schreiben und 1 für ausführen."
-  }
+  },
    {
     "nr": 41,
     "frage": "Benennen Sie zwei allgemeine Aufgaben des BSI.",
