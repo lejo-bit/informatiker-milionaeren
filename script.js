@@ -6,6 +6,7 @@ let lives = 3;
 let score = 0;
 let timer = 30;
 let timerInterval = null;
+let delayInterval = null; // krótki, 2‑sekundowy timer między pytaniami
 let selectedChoice = null;
 
 async function loadQuestions() {
@@ -76,21 +77,22 @@ function renderQuestion() {
   resultBox.textContent = "";
   correctAnswerText.textContent = "";
 
+  // przy każdym nowym pytaniu pokaż "Prüfen", ukryj "Nächste Frage"
   document.getElementById("checkBtn").classList.remove("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
- if (q.questionType === "open") {
-  input.value = "";
-  input.disabled = false;
-  input.classList.remove("hidden");
+  if (q.questionType === "open") {
+    input.value = "";
+    input.disabled = false;
+    input.classList.remove("hidden");
 
-  choiceContainer.classList.add("hidden");
-  choiceButtons.forEach(btn => {
-    btn.textContent = "";
-    btn.dataset.isCorrect = "";
-    btn.disabled = true;
-    btn.classList.remove("selected");
-  });
+    choiceContainer.classList.add("hidden");
+    choiceButtons.forEach(btn => {
+      btn.textContent = "";
+      btn.dataset.isCorrect = "";
+      btn.disabled = true;
+      btn.classList.remove("selected");
+    });
   } else if (q.questionType === "choice") {
     input.value = "";
     input.disabled = true;
@@ -137,6 +139,7 @@ function handleAnswer() {
       ? "Richtig! Das ist die korrekte Antwort."
       : "Nicht ganz. Die richtige Antwort lautet: " + q.antwort;
   }
+
   resultBox.textContent = message;
   resultBox.classList.remove("hidden");
 
@@ -150,29 +153,35 @@ function handleAnswer() {
 
   updateHud();
 
-  document.getElementById("checkBtn").classList.add("hidden");
-  document.getElementById("nextBtn").classList.remove("hidden");
-  document.getElementById("answerInput").disabled = true;
+  const input = document.getElementById("answerInput");
+  if (input) input.disabled = true;
 
-  if (lives <= 0) {
-    endGame();
-  }
+  goToNextQuestionWithDelay();
 }
 
-function nextQuestion() {
-  if (lives <= 0) {
-    endGame();
-    return;
-  }
+function goToNextQuestionWithDelay() {
+  // zatrzymaj główny timer
+  clearInterval(timerInterval);
 
-  currentIndex++;
-  if (currentIndex >= questions.length) {
-    endGame();
-  } else {
-    timer = 30;
-    updateHud();
-    renderQuestion();
+  // ukryj przyciski, żeby nie klikać dalej
+  document.getElementById("checkBtn").classList.add("hidden");
+  document.getElementById("nextBtn").classList.add("hidden");
+
+  // po 2 sekundach przejdź do kolejnego pytania albo zakończ grę
+  if (delayInterval) {
+    clearTimeout(delayInterval);
   }
+  delayInterval = setTimeout(() => {
+    if (lives <= 0 || currentIndex + 1 >= questions.length) {
+      endGame();
+    } else {
+      currentIndex++;
+      timer = 30;
+      updateHud();
+      renderQuestion();
+      startTimer();
+    }
+  }, 2000);
 }
 
 function startTimer() {
@@ -201,17 +210,17 @@ function handleTimeout() {
 
   updateHud();
 
-  document.getElementById("checkBtn").classList.add("hidden");
-  document.getElementById("nextBtn").classList.remove("hidden");
-  document.getElementById("answerInput").disabled = true;
+  const input = document.getElementById("answerInput");
+  if (input) input.disabled = true;
 
-  if (lives <= 0) {
-    endGame();
-  }
+  goToNextQuestionWithDelay();
 }
 
 function endGame() {
   clearInterval(timerInterval);
+  if (delayInterval) {
+    clearTimeout(delayInterval);
+  }
 
   document.getElementById("game").classList.add("hidden");
   document.getElementById("gameOver").classList.remove("hidden");
@@ -223,8 +232,10 @@ function restartGame() {
   score = 0;
   currentIndex = 0;
   timer = 30;
+
   document.getElementById("gameOver").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
+
   updateHud();
   renderQuestion();
   startTimer();
@@ -235,7 +246,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("startBtn").addEventListener("click", startGame);
   document.getElementById("checkBtn").addEventListener("click", handleAnswer);
-  document.getElementById("nextBtn").addEventListener("click", nextQuestion);
+  document.getElementById("nextBtn").addEventListener("click", () => {
+    // przy automatycznym przejściu nie używamy, ale zostawiamy dla bezpieczeństwa
+    goToNextQuestionWithDelay();
+  });
   document.getElementById("restartBtn").addEventListener("click", restartGame);
 
   const choiceContainer = document.getElementById("choiceContainer");
@@ -247,7 +261,6 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.classList.add("selected");
       selectedChoice = btn;
 
-      // jeśli aktualne pytanie jest typu choice, od razu zatwierdź odpowiedź
       const q = questions[currentIndex];
       if (q && q.questionType === "choice") {
         handleAnswer();
