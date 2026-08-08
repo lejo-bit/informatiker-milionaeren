@@ -1,54 +1,4209 @@
 [
   {
     "nr": 1,
-    "questionType": "choice",
-    "frage": "Nennen Sie die aktuell vorliegende Marktform.",
-    "antwort": "Oligopol",
-    "falseAnswers": ["Polypol", "Monopol", "Duopol"]
+    "questionType": "open",
+    "frage": "Was macht eine CPU im Computer?",
+    "antwort": "Befehle verarbeiten"
   },
   {
     "nr": 2,
-    "questionType": "choice",
-    "frage": "Nennen Sie die neue Marktform, mit der die Package AG zukünftig rechnen sollte?",
-    "antwort": "Polypol",
-    "falseAnswers": ["Oligopol", "Monopol", "Kartell"]
+    "questionType": "open",
+    "frage": "Wofür wird der RAM-Speicher benötigt?",
+    "antwort": "Daten zwischenspeichern"
   },
   {
     "nr": 3,
-    "questionType": "choice",
-    "frage": "Welches Marktverhalten ist typisch für ein Oligopol?",
-    "antwort": "Reaktion auf Aktionen weniger Konkurrenten",
-    "falseAnswers": ["Völlige Unabhängigkeit von Konkurrenten", "Preisdiktaut durch einen einzelnen Anbieter", "Vollständige Markttransparenz ohne Wettbewerb"]
+    "questionType": "open",
+    "frage": "Welche Funktion erfüllt eine SSD?",
+    "antwort": "Daten dauerhaft speichern"
   },
   {
     "nr": 4,
-    "questionType": "choice",
-    "frage": "Welcher Schritt gehört zum physischen Einbau einer CPU?",
-    "antwort": "Sockelhebel öffnen und wieder schließen",
-    "falseAnswers": ["RAM-Riegel festschrauben", "Netzteil mit Sockel verbinden", "Wärmeleitpaste auf die Pins auftragen"]
+    "questionType": "open",
+    "frage": "Wozu dient das Netzteil im PC?",
+    "antwort": "Spannung umwandeln"
   },
   {
     "nr": 5,
     "questionType": "open",
-    "frage": "Nennen Sie drei geeignete betriebliche Informationen für die Präsentationsfolie.",
-    "antwort": "Langjährige Marktpräsenz, Anzahl der Mitarbeiter, internationale Standorte"
+    "frage": "Welche Rolle spielt das Mainboard im System?",
+    "antwort": "Komponenten verbinden"
   },
   {
     "nr": 6,
     "questionType": "open",
-    "frage": "Wählen Sie drei Begriffe aus dem Unternehmensportfolio und beschreiben Sie diese dem Kunden.",
-    "antwort": "Industrie 4.0, Support im Prozess- und IT-Management, Migrationsunterstützung"
+    "frage": "Wofür ist die GPU zuständig?",
+    "antwort": "Bilder berechnen"
   },
   {
     "nr": 7,
     "questionType": "open",
-    "frage": "Welche formale Information könnte darüber hinaus auch noch erforderlich sein?",
-    "antwort": "Name und Kontaktdaten des Ansprechpartners, Bindefrist des Angebots, Datum der Anfrage"
+    "frage": "Warum ist ein Kühlkörper verbaut?",
+    "antwort": "Wärme ableiten"
   },
   {
     "nr": 8,
     "questionType": "open",
-    "frage": "Nennen Sie die drei Schritte für den Einbau der CPU.",
-    "antwort": "Hebel am Sockel öffnen, CPU richtig orientiert einsetzen, Hebel schließen"
+    "frage": "Was macht das BIOS beim Systemstart?",
+    "antwort": "Hardware initialisieren"
+  },
+  {
+    "nr": 9,
+    "questionType": "open",
+    "frage": "Welchen Zweck erfüllt die UEFI-Firmware?",
+    "antwort": "Firmware starten"
+  },
+  {
+    "nr": 10,
+    "questionType": "open",
+    "frage": "Wozu dient ein Gerätetreiber?",
+    "antwort": "Hardware ansteuern"
+  },
+  {
+    "nr": 11,
+    "questionType": "open",
+    "frage": "Was ist die Kernaufgabe eines Betriebssystems?",
+    "antwort": "Ressourcen verwalten"
+  },
+  {
+    "nr": 12,
+    "questionType": "open",
+    "frage": "Wofür wird ein Benutzerkonto benötigt?",
+    "antwort": "Zugriff zuordnen"
+  },
+  {
+    "nr": 13,
+    "questionType": "open",
+    "frage": "Was leistet ein Dateisystem auf dem Speichermedium?",
+    "antwort": "Dateien organisieren"
+  },
+  {
+    "nr": 14,
+    "questionType": "open",
+    "frage": "Was ist der Zweck eines laufenden Prozesses?",
+    "antwort": "Programm ausführen"
+  },
+  {
+    "nr": 15,
+    "questionType": "open",
+    "frage": "Wofür nutzt eine Software Threads?",
+    "antwort": "Aufgabe parallelisieren"
+  },
+  {
+    "nr": 16,
+    "questionType": "open",
+    "frage": "Wozu nutzt man den Task-Manager?",
+    "antwort": "Prozesse anzeigen"
+  },
+  {
+    "nr": 17,
+    "questionType": "open",
+    "frage": "Welchen Zweck dient die Windows-Registry?",
+    "antwort": "Konfiguration speichern"
+  },
+  {
+    "nr": 18,
+    "questionType": "open",
+    "frage": "Warum wird ein Software-Patch eingespielt?",
+    "antwort": "Sicherheitslücke schließen"
+  },
+  {
+    "nr": 19,
+    "questionType": "open",
+    "frage": "Welche Funktion erfüllt ein System-Update?",
+    "antwort": "Software aktualisieren"
+  },
+  {
+    "nr": 20,
+    "questionType": "open",
+    "frage": "Wozu dient ein Backup?",
+    "antwort": "Daten sichern"
+  },
+  {
+    "nr": 21,
+    "questionType": "open",
+    "frage": "Was ist die primäre Funktion eines Netzwerkswitches?",
+    "antwort": "LAN-Geräte verbinden"
+  },
+  {
+    "nr": 22,
+    "questionType": "open",
+    "frage": "Wofür wird ein Router eingesetzt?",
+    "antwort": "Netzwerke verbinden"
+  },
+  {
+    "nr": 23,
+    "questionType": "open",
+    "frage": "Was macht eine Firewall im Netzwerk?",
+    "antwort": "Verkehr filtern"
+  },
+  {
+    "nr": 24,
+    "questionType": "open",
+    "frage": "Welchen Zweck erfüllt ein Access Point?",
+    "antwort": "WLAN bereitstellen"
+  },
+  {
+    "nr": 25,
+    "questionType": "open",
+    "frage": "Warum setzt man einen Repeater ein?",
+    "antwort": "Funksignal verstärken"
+  },
+  {
+    "nr": 26,
+    "questionType": "open",
+    "frage": "Was leistet ein Modem an der Anschlussleitung?",
+    "antwort": "Signale umwandeln"
+  },
+  {
+    "nr": 27,
+    "questionType": "open",
+    "frage": "Wofür dient ein Patchpanel im Netzwerkschrank?",
+    "antwort": "Kabel auflegen"
+  },
+  {
+    "nr": 28,
+    "questionType": "open",
+    "frage": "Welche Funktion hat eine Netzwerkkarte?",
+    "antwort": "Netzwerkzugang ermöglichen"
+  },
+  {
+    "nr": 29,
+    "questionType": "open",
+    "frage": "Was ist die Aufgabe eines Gateways?",
+    "antwort": "Netzwerke verlassen"
+  },
+  {
+    "nr": 30,
+    "questionType": "open",
+    "frage": "Warum schaltet man einen Proxy-Server dazwischen?",
+    "antwort": "Anfragen vermitteln"
+  },
+  {
+    "nr": 31,
+    "questionType": "open",
+    "frage": "Welchen Zweck hat der DNS-Dienst?",
+    "antwort": "Namen auflösen"
+  },
+  {
+    "nr": 32,
+    "questionType": "open",
+    "frage": "Was macht ein DHCP-Server im Netzwerk?",
+    "antwort": "IP-Adressen vergeben"
+  },
+  {
+    "nr": 33,
+    "questionType": "open",
+    "frage": "Wofür wird das Address Resolution Protocol verwendet?",
+    "antwort": "MAC-Adressen ermitteln"
+  },
+  {
+    "nr": 34,
+    "questionType": "open",
+    "frage": "Welche Rolle spielt ICMP bei der Diagnose?",
+    "antwort": "Netzwerkfehler melden"
+  },
+  {
+    "nr": 35,
+    "questionType": "open",
+    "frage": "Warum nutzt man das TCP-Protokoll?",
+    "antwort": "Verbindungen sichern"
+  },
+  {
+    "nr": 36,
+    "questionType": "open",
+    "frage": "Welcher Vorteil zeichnet UDP aus?",
+    "antwort": "Daten schnell senden"
+  },
+  {
+    "nr": 37,
+    "questionType": "open",
+    "frage": "Wozu dient das HTTP-Protokoll?",
+    "antwort": "Webseiten übertragen"
+  },
+  {
+    "nr": 38,
+    "questionType": "open",
+    "frage": "Warum sollte man HTTPS statt HTTP verwenden?",
+    "antwort": "Webdaten verschlüsseln"
+  },
+  {
+    "nr": 39,
+    "questionType": "open",
+    "frage": "Wofür ist das File Transfer Protocol gedacht?",
+    "antwort": "Dateien übertragen"
+  },
+  {
+    "nr": 40,
+    "questionType": "open",
+    "frage": "Welchen Zweck erfüllt SSH bei der Fernwartung?",
+    "antwort": "Systemzugriff absichern"
+  },
+  {
+    "nr": 41,
+    "questionType": "open",
+    "frage": "Welches Protokoll übernimmt das Versenden von E-Mails?",
+    "antwort": "SMTP"
+  },
+  {
+    "nr": 42,
+    "questionType": "open",
+    "frage": "Warum nutzt man IMAP zum Abrufen von E-Mails?",
+    "antwort": "Postfach synchronisieren"
+  },
+  {
+    "nr": 43,
+    "questionType": "open",
+    "frage": "Welche Aufgabe hatte klassischerweise POP3?",
+    "antwort": "E-Mails abholen"
+  },
+  {
+    "nr": 44,
+    "questionType": "open",
+    "frage": "Wozu dient das Network Time Protocol?",
+    "antwort": "Uhren synchronisieren"
+  },
+  {
+    "nr": 45,
+    "questionType": "open",
+    "frage": "Welche Funktion erfüllt SNMP im Systemmanagement?",
+    "antwort": "Netzwerk überwachen"
+  },
+  {
+    "nr": 46,
+    "questionType": "open",
+    "frage": "Warum nutzt man eine VPN-Verbindung?",
+    "antwort": "Verbindung tunneln"
+  },
+  {
+    "nr": 47,
+    "questionType": "open",
+    "frage": "Welchen Zweck hat die Einrichtung eines VLANs?",
+    "antwort": "Netzwerk segmentieren"
+  },
+  {
+    "nr": 48,
+    "questionType": "open",
+    "frage": "Was bewirkt Network Address Translation?",
+    "antwort": "Adressen umsetzen"
+  },
+  {
+    "nr": 49,
+    "questionType": "open",
+    "frage": "Wozu dient die SSID bei einem Funknetzwerk?",
+    "antwort": "WLAN benennen"
+  },
+  {
+    "nr": 50,
+    "questionType": "open",
+    "frage": "Welcher Sicherheitsstandard wird mit WPA3 umgesetzt?",
+    "antwort": "WLAN absichern"
+  },
+  {
+    "nr": 51,
+    "questionType": "open",
+    "frage": "Was ist das Ziel einer Phishing-Attacke?",
+    "antwort": "Zugangsdaten stehlen"
+  },
+  {
+    "nr": 52,
+    "questionType": "open",
+    "frage": "Wie schadet Ransomware einem System?",
+    "antwort": "Daten erpressen"
+  },
+  {
+    "nr": 53,
+    "questionType": "open",
+    "frage": "Wie schleicht sich ein Trojaner auf ein System ein?",
+    "antwort": "Schadcode tarnen"
+  },
+  {
+    "nr": 54,
+    "questionType": "open",
+    "frage": "Wie richtet ein Computervirus Schaden an?",
+    "antwort": "Dateien infizieren"
+  },
+  {
+    "nr": 55,
+    "questionType": "open",
+    "frage": "Wie breitet sich ein Netzwerkwurm selbstständig aus?",
+    "antwort": "Netzwerke verbreiten"
+  },
+  {
+    "nr": 56,
+    "questionType": "open",
+    "frage": "Warum wird Multi-Faktor-Authentifizierung eingesetzt?",
+    "antwort": "Anmeldung verstärken"
+  },
+  {
+    "nr": 57,
+    "questionType": "open",
+    "frage": "Welchen Vorteil bietet eine Passphrase?",
+    "antwort": "Zugang absichern"
+  },
+  {
+    "nr": 58,
+    "questionType": "open",
+    "frage": "Wozu nutzt man einen Hashwert?",
+    "antwort": "Daten prüfen"
+  },
+  {
+    "nr": 59,
+    "questionType": "open",
+    "frage": "Welchen Zweck erfüllt ein digitales Zertifikat?",
+    "antwort": "Identität bestätigen"
+  },
+  {
+    "nr": 60,
+    "questionType": "open",
+    "frage": "Was belegt eine digitale Signatur?",
+    "antwort": "Herkunft bestätigen"
+  },
+  {
+    "nr": 61,
+    "questionType": "open",
+    "frage": "Was bedeutet Vertraulichkeit in der Informationssicherheit?",
+    "antwort": "Zugriff beschränken"
+  },
+  {
+    "nr": 62,
+    "questionType": "open",
+    "frage": "Was sichert das Schutzziel der Integrität ab?",
+    "antwort": "Änderungen verhindern"
+  },
+  {
+    "nr": 63,
+    "questionType": "open",
+    "frage": "Was garantiert das Schutzziel der Verfügbarkeit?",
+    "antwort": "Dienste erreichen"
+  },
+  {
+    "nr": 64,
+    "questionType": "open",
+    "frage": "Welchen Funktionszweck hat RAID 1?",
+    "antwort": "Daten spiegeln"
+  },
+  {
+    "nr": 65,
+    "questionType": "open",
+    "frage": "Wie schützt RAID 5 vor Datenverlust?",
+    "antwort": "Parität verteilen"
+  },
+  {
+    "nr": 66,
+    "questionType": "open",
+    "frage": "Warum installiert man eine unterbrechungsfreie Stromversorgung?",
+    "antwort": "Strom überbrücken"
+  },
+  {
+    "nr": 67,
+    "questionType": "open",
+    "frage": "Was zeichnet ein Vollbackup aus?",
+    "antwort": "Alle Daten sichern"
+  },
+  {
+    "nr": 68,
+    "questionType": "open",
+    "frage": "Wie spart ein inkrementelles Backup Speicherplatz?",
+    "antwort": "Änderungen sichern"
+  },
+  {
+    "nr": 69,
+    "questionType": "open",
+    "frage": "Was versteht man unter einem Restore-Prozess?",
+    "antwort": "Daten wiederherstellen"
+  },
+  {
+    "nr": 70,
+    "questionType": "open",
+    "frage": "Welcher Zweck steht bei der Datenarchivierung im Vordergrund?",
+    "antwort": "Daten langfristig speichern"
+  },
+  {
+    "nr": 71,
+    "questionType": "open",
+    "frage": "Wozu dient ein Ticket im IT-Support?",
+    "antwort": "Anfrage dokumentieren"
+  },
+  {
+    "nr": 72,
+    "questionType": "open",
+    "frage": "Was wird in einem Service Level Agreement festgelegt?",
+    "antwort": "Service regeln"
+  },
+  {
+    "nr": 73,
+    "questionType": "open",
+    "frage": "Wann greift eine Eskalation im Supportfall?",
+    "antwort": "Support weitergeben"
+  },
+  {
+    "nr": 74,
+    "questionType": "open",
+    "frage": "Welche Aufgabe hat der First-Level-Support?",
+    "antwort": "Standardprobleme lösen"
+  },
+  {
+    "nr": 75,
+    "questionType": "open",
+    "frage": "Wie wird ein Incident im Service Management gehandhabt?",
+    "antwort": "Störung bearbeiten"
+  },
+  {
+    "nr": 76,
+    "questionType": "open",
+    "frage": "Was unterscheidet ein Problem von einem Incident?",
+    "antwort": "Ursache analysieren"
+  },
+  {
+    "nr": 77,
+    "questionType": "open",
+    "frage": "Was beinhaltet ein kontrollierter Change Management-Prozess?",
+    "antwort": "Änderung steuern"
+  },
+  {
+    "nr": 78,
+    "questionType": "open",
+    "frage": "Wann führt man einen Rollback durch?",
+    "antwort": "Änderung zurücknehmen"
+  },
+  {
+    "nr": 79,
+    "questionType": "open",
+    "frage": "Welchen Vorteil bietet eine Knowledge Base?",
+    "antwort": "Lösungen sammeln"
+  },
+  {
+    "nr": 80,
+    "questionType": "open",
+    "frage": "Was ermöglicht Remote Support?",
+    "antwort": "Fernhilfe leisten"
+  },
+  {
+    "nr": 81,
+    "questionType": "open",
+    "frage": "Was hält der Auftraggeber im Lastenheft fest?",
+    "antwort": "Anforderungen beschreiben"
+  },
+  {
+    "nr": 82,
+    "questionType": "open",
+    "frage": "Welche Funktion erfüllt das Pflichtenheft?",
+    "antwort": "Umsetzung beschreiben"
+  },
+  {
+    "nr": 83,
+    "questionType": "open",
+    "frage": "Welche Rolle spielen Stakeholder in einem Projekt?",
+    "antwort": "Projektinteressen vertreten"
+  },
+  {
+    "nr": 84,
+    "questionType": "open",
+    "frage": "Wozu dienen Meilensteine im Projektverlauf?",
+    "antwort": "Projektfortschritt markieren"
+  },
+  {
+    "nr": 85,
+    "questionType": "open",
+    "frage": "Was wird in einem Gantt-Diagramm visualisiert?",
+    "antwort": "Zeiten darstellen"
+  },
+  {
+    "nr": 86,
+    "questionType": "open",
+    "frage": "Warum analysiert man den kritischen Pfad im Projekt?",
+    "antwort": "Projektdauer bestimmen"
+  },
+  {
+    "nr": 87,
+    "questionType": "open",
+    "frage": "Wozu wird eine Nutzwertanalyse eingesetzt?",
+    "antwort": "Optionen bewerten"
+  },
+  {
+    "nr": 88,
+    "questionType": "open",
+    "frage": "Was ist das Ziel einer Risikoanalyse?",
+    "antwort": "Gefahren bewerten"
+  },
+  {
+    "nr": 89,
+    "questionType": "open",
+    "frage": "Warum baut man vorab einen Prototyp?",
+    "antwort": "Lösung erproben"
+  },
+  {
+    "nr": 90,
+    "questionType": "open",
+    "frage": "Was geschieht während der Rollout-Phase?",
+    "antwort": "Lösung ausrollen"
+  },
+  {
+    "nr": 91,
+    "questionType": "open",
+    "frage": "Wozu dient der SQL-Befehl SELECT?",
+    "antwort": "Daten abfragen"
+  },
+  {
+    "nr": 92,
+    "questionType": "open",
+    "frage": "Was bewirkt die SQL-Anweisung INSERT?",
+    "antwort": "Daten einfügen"
+  },
+  {
+    "nr": 93,
+    "questionType": "open",
+    "frage": "Welche Aufgabe erfüllt der SQL-Befehl UPDATE?",
+    "antwort": "Daten ändern"
+  },
+  {
+    "nr": 94,
+    "questionType": "open",
+    "frage": "Was macht das SQL-Kommando DELETE?",
+    "antwort": "Daten löschen"
+  },
+  {
+    "nr": 95,
+    "questionType": "open",
+    "frage": "Welche Funktion hat ein Primärschlüssel in einer Datenbank?",
+    "antwort": "Datensatz identifizieren"
+  },
+  {
+    "nr": 96,
+    "questionType": "open",
+    "frage": "Wozu dient ein Fremdschlüssel?",
+    "antwort": "Tabellen verbinden"
+  },
+  {
+    "nr": 97,
+    "questionType": "open",
+    "frage": "Was soll durch ein Entity-Relationship-Modell erreicht werden?",
+    "antwort": "Daten modellieren"
+  },
+  {
+    "nr": 98,
+    "questionType": "open",
+    "frage": "Welches Hauptziel verfolgt die Daten-Normalisierung?",
+    "antwort": "Redundanz verringern"
+  },
+  {
+    "nr": 99,
+    "questionType": "open",
+    "frage": "Warum legt man einen Datenbank-Index an?",
+    "antwort": "Suche beschleunigen"
+  },
+  {
+    "nr": 100,
+    "questionType": "open",
+    "frage": "Was ist der Zweck einer Datenbank-Transaktion?",
+    "antwort": "Änderungen bündeln"
+  },
+  {
+    "nr": 101,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt die CPU im PC?",
+    "antwort": "Befehle verarbeiten",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Sicherheitslücke schließen",
+      "Uhren synchronisieren"
+    ]
+  },
+  {
+    "nr": 102,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert die CPU. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Befehle verarbeiten",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Sicherheitslücke schließen",
+      "Uhren synchronisieren"
+    ]
+  },
+  {
+    "nr": 103,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur CPU im Unternehmensnetz?",
+    "antwort": "Befehle verarbeiten",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Sicherheitslücke schließen",
+      "Uhren synchronisieren"
+    ]
+  },
+  {
+    "nr": 104,
+    "questionType": "choice",
+    "frage": "Warum wird eine CPU bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Befehle verarbeiten",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Sicherheitslücke schließen",
+      "Uhren synchronisieren"
+    ]
+  },
+  {
+    "nr": 105,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt der RAM im laufenden Betrieb?",
+    "antwort": "Daten zwischenspeichern",
+    "falseAnswers": [
+      "Daten dauerhaft speichern",
+      "Software aktualisieren",
+      "Netzwerk überwachen"
+    ]
+  },
+  {
+    "nr": 106,
+    "questionType": "choice",
+    "frage": "Ein Administrator erweitert den RAM. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Daten zwischenspeichern",
+    "falseAnswers": [
+      "Daten dauerhaft speichern",
+      "Software aktualisieren",
+      "Netzwerk überwachen"
+    ]
+  },
+  {
+    "nr": 107,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum RAM im Server?",
+    "antwort": "Daten zwischenspeichern",
+    "falseAnswers": [
+      "Daten dauerhaft speichern",
+      "Software aktualisieren",
+      "Netzwerk überwachen"
+    ]
+  },
+  {
+    "nr": 108,
+    "questionType": "choice",
+    "frage": "Warum wird RAM bei dieser IT-Lösung benötigt?",
+    "antwort": "Daten zwischenspeichern",
+    "falseAnswers": [
+      "Daten dauerhaft speichern",
+      "Software aktualisieren",
+      "Netzwerk überwachen"
+    ]
+  },
+  {
+    "nr": 109,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt eine SSD im System?",
+    "antwort": "Daten dauerhaft speichern",
+    "falseAnswers": [
+      "Spannung umwandeln",
+      "Daten sichern",
+      "Verbindung tunneln"
+    ]
+  },
+  {
+    "nr": 110,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert die SSD. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Daten dauerhaft speichern",
+    "falseAnswers": [
+      "Spannung umwandeln",
+      "Daten sichern",
+      "Verbindung tunneln"
+    ]
+  },
+  {
+    "nr": 111,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur SSD im Unternehmensnetz?",
+    "antwort": "Daten dauerhaft speichern",
+    "falseAnswers": [
+      "Spannung umwandeln",
+      "Daten sichern",
+      "Verbindung tunneln"
+    ]
+  },
+  {
+    "nr": 112,
+    "questionType": "choice",
+    "frage": "Warum wird eine SSD bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Daten dauerhaft speichern",
+    "falseAnswers": [
+      "Spannung umwandeln",
+      "Daten sichern",
+      "Verbindung tunneln"
+    ]
+  },
+  {
+    "nr": 113,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt das Netzteil im Gehäuse?",
+    "antwort": "Spannung umwandeln",
+    "falseAnswers": [
+      "Komponenten verbinden",
+      "LAN-Geräte verbinden",
+      "Netzwerk segmentieren"
+    ]
+  },
+  {
+    "nr": 114,
+    "questionType": "choice",
+    "frage": "Ein Techniker tauscht das Netzteil aus. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Spannung umwandeln",
+    "falseAnswers": [
+      "Komponenten verbinden",
+      "LAN-Geräte verbinden",
+      "Netzwerk segmentieren"
+    ]
+  },
+  {
+    "nr": 115,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Netzteil im PC?",
+    "antwort": "Spannung umwandeln",
+    "falseAnswers": [
+      "Komponenten verbinden",
+      "LAN-Geräte verbinden",
+      "Netzwerk segmentieren"
+    ]
+  },
+  {
+    "nr": 116,
+    "questionType": "choice",
+    "frage": "Warum wird ein Netzteil bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Spannung umwandeln",
+    "falseAnswers": [
+      "Komponenten verbinden",
+      "LAN-Geräte verbinden",
+      "Netzwerk segmentieren"
+    ]
+  },
+  {
+    "nr": 117,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt das Mainboard?",
+    "antwort": "Komponenten verbinden",
+    "falseAnswers": [
+      "Bilder berechnen",
+      "Netzwerke verbinden",
+      "Adressen umsetzen"
+    ]
+  },
+  {
+    "nr": 118,
+    "questionType": "choice",
+    "frage": "Ein Techniker montiert das Mainboard. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Komponenten verbinden",
+    "falseAnswers": [
+      "Bilder berechnen",
+      "Netzwerke verbinden",
+      "Adressen umsetzen"
+    ]
+  },
+  {
+    "nr": 119,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Mainboard im PC?",
+    "antwort": "Komponenten verbinden",
+    "falseAnswers": [
+      "Bilder berechnen",
+      "Netzwerke verbinden",
+      "Adressen umsetzen"
+    ]
+  },
+  {
+    "nr": 120,
+    "questionType": "choice",
+    "frage": "Warum wird ein Mainboard bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Komponenten verbinden",
+    "falseAnswers": [
+      "Bilder berechnen",
+      "Netzwerke verbinden",
+      "Adressen umsetzen"
+    ]
+  },
+  {
+    "nr": 121,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt die GPU?",
+    "antwort": "Bilder berechnen",
+    "falseAnswers": [
+      "Wärme ableiten",
+      "Verkehr filtern",
+      "WLAN benennen"
+    ]
+  },
+  {
+    "nr": 122,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert die GPU. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Bilder berechnen",
+    "falseAnswers": [
+      "Wärme ableiten",
+      "Verkehr filtern",
+      "WLAN benennen"
+    ]
+  },
+  {
+    "nr": 123,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur GPU in einer Workstation?",
+    "antwort": "Bilder berechnen",
+    "falseAnswers": [
+      "Wärme ableiten",
+      "Verkehr filtern",
+      "WLAN benennen"
+    ]
+  },
+  {
+    "nr": 124,
+    "questionType": "choice",
+    "frage": "Warum wird eine GPU bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Bilder berechnen",
+    "falseAnswers": [
+      "Wärme ableiten",
+      "Verkehr filtern",
+      "WLAN benennen"
+    ]
+  },
+  {
+    "nr": 125,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Kühlkörper?",
+    "antwort": "Wärme ableiten",
+    "falseAnswers": [
+      "Hardware initialisieren",
+      "WLAN bereitstellen",
+      "WLAN absichern"
+    ]
+  },
+  {
+    "nr": 126,
+    "questionType": "choice",
+    "frage": "Ein Techniker montiert einen Kühlkörper. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Wärme ableiten",
+    "falseAnswers": [
+      "Hardware initialisieren",
+      "WLAN bereitstellen",
+      "WLAN absichern"
+    ]
+  },
+  {
+    "nr": 127,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Kühlkörper auf dem Prozessor?",
+    "antwort": "Wärme ableiten",
+    "falseAnswers": [
+      "Hardware initialisieren",
+      "WLAN bereitstellen",
+      "WLAN absichern"
+    ]
+  },
+  {
+    "nr": 128,
+    "questionType": "choice",
+    "frage": "Warum wird ein Kühlkörper bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Wärme ableiten",
+    "falseAnswers": [
+      "Hardware initialisieren",
+      "WLAN bereitstellen",
+      "WLAN absichern"
+    ]
+  },
+  {
+    "nr": 129,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt das BIOS beim Start?",
+    "antwort": "Hardware initialisieren",
+    "falseAnswers": [
+      "Firmware starten",
+      "Funksignal verstärken",
+      "Zugangsdaten stehlen"
+    ]
+  },
+  {
+    "nr": 130,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert das BIOS. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Hardware initialisieren",
+    "falseAnswers": [
+      "Firmware starten",
+      "Funksignal verstärken",
+      "Zugangsdaten stehlen"
+    ]
+  },
+  {
+    "nr": 131,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum BIOS auf der Hauptplatine?",
+    "antwort": "Hardware initialisieren",
+    "falseAnswers": [
+      "Firmware starten",
+      "Funksignal verstärken",
+      "Zugangsdaten stehlen"
+    ]
+  },
+  {
+    "nr": 132,
+    "questionType": "choice",
+    "frage": "Warum wird das BIOS bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Hardware initialisieren",
+    "falseAnswers": [
+      "Firmware starten",
+      "Funksignal verstärken",
+      "Zugangsdaten stehlen"
+    ]
+  },
+  {
+    "nr": 133,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt UEFI im Startprozess?",
+    "antwort": "Firmware starten",
+    "falseAnswers": [
+      "Hardware ansteuern",
+      "Signale umwandeln",
+      "Daten erpressen"
+    ]
+  },
+  {
+    "nr": 134,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert UEFI. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Firmware starten",
+    "falseAnswers": [
+      "Hardware ansteuern",
+      "Signale umwandeln",
+      "Daten erpressen"
+    ]
+  },
+  {
+    "nr": 135,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu UEFI in modernen Computern?",
+    "antwort": "Firmware starten",
+    "falseAnswers": [
+      "Hardware ansteuern",
+      "Signale umwandeln",
+      "Daten erpressen"
+    ]
+  },
+  {
+    "nr": 136,
+    "questionType": "choice",
+    "frage": "Warum wird UEFI bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Firmware starten",
+    "falseAnswers": [
+      "Hardware ansteuern",
+      "Signale umwandeln",
+      "Daten erpressen"
+    ]
+  },
+  {
+    "nr": 137,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Treiber?",
+    "antwort": "Hardware ansteuern",
+    "falseAnswers": [
+      "Ressourcen verwalten",
+      "Kabel auflegen",
+      "Schadcode tarnen"
+    ]
+  },
+  {
+    "nr": 138,
+    "questionType": "choice",
+    "frage": "Ein Administrator installiert einen Treiber. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Hardware ansteuern",
+    "falseAnswers": [
+      "Ressourcen verwalten",
+      "Kabel auflegen",
+      "Schadcode tarnen"
+    ]
+  },
+  {
+    "nr": 139,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Treiber?",
+    "antwort": "Hardware ansteuern",
+    "falseAnswers": [
+      "Ressourcen verwalten",
+      "Kabel auflegen",
+      "Schadcode tarnen"
+    ]
+  },
+  {
+    "nr": 140,
+    "questionType": "choice",
+    "frage": "Warum wird ein Treiber bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Hardware ansteuern",
+    "falseAnswers": [
+      "Ressourcen verwalten",
+      "Kabel auflegen",
+      "Schadcode tarnen"
+    ]
+  },
+  {
+    "nr": 141,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Betriebssystem?",
+    "antwort": "Ressourcen verwalten",
+    "falseAnswers": [
+      "Zugriff zuordnen",
+      "Netzwerkzugang ermöglichen",
+      "Dateien infizieren"
+    ]
+  },
+  {
+    "nr": 142,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert das Betriebssystem. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Ressourcen verwalten",
+    "falseAnswers": [
+      "Zugriff zuordnen",
+      "Netzwerkzugang ermöglichen",
+      "Dateien infizieren"
+    ]
+  },
+  {
+    "nr": 143,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Betriebssystem?",
+    "antwort": "Ressourcen verwalten",
+    "falseAnswers": [
+      "Zugriff zuordnen",
+      "Netzwerkzugang ermöglichen",
+      "Dateien infizieren"
+    ]
+  },
+  {
+    "nr": 144,
+    "questionType": "choice",
+    "frage": "Warum wird ein Betriebssystem eingesetzt?",
+    "antwort": "Ressourcen verwalten",
+    "falseAnswers": [
+      "Zugriff zuordnen",
+      "Netzwerkzugang ermöglichen",
+      "Dateien infizieren"
+    ]
+  },
+  {
+    "nr": 145,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Benutzerkonto?",
+    "antwort": "Zugriff zuordnen",
+    "falseAnswers": [
+      "Dateien organisieren",
+      "Netzwerke verlassen",
+      "Netzwerke verbreiten"
+    ]
+  },
+  {
+    "nr": 146,
+    "questionType": "choice",
+    "frage": "Ein Administrator richtet ein Benutzerkonto ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Zugriff zuordnen",
+    "falseAnswers": [
+      "Dateien organisieren",
+      "Netzwerke verlassen",
+      "Netzwerke verbreiten"
+    ]
+  },
+  {
+    "nr": 147,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Benutzerkonto im Unternehmensnetz?",
+    "antwort": "Zugriff zuordnen",
+    "falseAnswers": [
+      "Dateien organisieren",
+      "Netzwerke verlassen",
+      "Netzwerke verbreiten"
+    ]
+  },
+  {
+    "nr": 148,
+    "questionType": "choice",
+    "frage": "Warum wird ein Benutzerkonto bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Zugriff zuordnen",
+    "falseAnswers": [
+      "Dateien organisieren",
+      "Netzwerke verlassen",
+      "Netzwerke verbreiten"
+    ]
+  },
+  {
+    "nr": 149,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt das Dateisystem?",
+    "antwort": "Dateien organisieren",
+    "falseAnswers": [
+      "Programm ausführen",
+      "Anfragen vermitteln",
+      "Anmeldung verstärken"
+    ]
+  },
+  {
+    "nr": 150,
+    "questionType": "choice",
+    "frage": "Ein Administrator formatiert ein Dateisystem. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Dateien organisieren",
+    "falseAnswers": [
+      "Programm ausführen",
+      "Anfragen vermitteln",
+      "Anmeldung verstärken"
+    ]
+  },
+  {
+    "nr": 151,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Dateisystem?",
+    "antwort": "Dateien organisieren",
+    "falseAnswers": [
+      "Programm ausführen",
+      "Anfragen vermitteln",
+      "Anmeldung verstärken"
+    ]
+  },
+  {
+    "nr": 152,
+    "questionType": "choice",
+    "frage": "Warum wird ein Dateisystem bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Dateien organisieren",
+    "falseAnswers": [
+      "Programm ausführen",
+      "Anfragen vermitteln",
+      "Anmeldung verstärken"
+    ]
+  },
+  {
+    "nr": 153,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Prozess?",
+    "antwort": "Programm ausführen",
+    "falseAnswers": [
+      "Aufgabe parallelisieren",
+      "Namen auflösen",
+      "Zugang absichern"
+    ]
+  },
+  {
+    "nr": 154,
+    "questionType": "choice",
+    "frage": "Das Betriebssystem startet einen Prozess. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Programm ausführen",
+    "falseAnswers": [
+      "Aufgabe parallelisieren",
+      "Namen auflösen",
+      "Zugang absichern"
+    ]
+  },
+  {
+    "nr": 155,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Prozess im Arbeitsspeicher?",
+    "antwort": "Programm ausführen",
+    "falseAnswers": [
+      "Aufgabe parallelisieren",
+      "Namen auflösen",
+      "Zugang absichern"
+    ]
+  },
+  {
+    "nr": 156,
+    "questionType": "choice",
+    "frage": "Warum erzeugt das Betriebssystem einen Prozess?",
+    "antwort": "Programm ausführen",
+    "falseAnswers": [
+      "Aufgabe parallelisieren",
+      "Namen auflösen",
+      "Zugang absichern"
+    ]
+  },
+  {
+    "nr": 157,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Thread?",
+    "antwort": "Aufgabe parallelisieren",
+    "falseAnswers": [
+      "Prozesse anzeigen",
+      "IP-Adressen vergeben",
+      "Daten prüfen"
+    ]
+  },
+  {
+    "nr": 158,
+    "questionType": "choice",
+    "frage": "Ein Entwickler nutzt zusätzliche Threads. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Aufgabe parallelisieren",
+    "falseAnswers": [
+      "Prozesse anzeigen",
+      "IP-Adressen vergeben",
+      "Daten prüfen"
+    ]
+  },
+  {
+    "nr": 159,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Thread?",
+    "antwort": "Aufgabe parallelisieren",
+    "falseAnswers": [
+      "Prozesse anzeigen",
+      "IP-Adressen vergeben",
+      "Daten prüfen"
+    ]
+  },
+  {
+    "nr": 160,
+    "questionType": "choice",
+    "frage": "Warum werden Threads in der Programmierung eingesetzt?",
+    "antwort": "Aufgabe parallelisieren",
+    "falseAnswers": [
+      "Prozesse anzeigen",
+      "IP-Adressen vergeben",
+      "Daten prüfen"
+    ]
+  },
+  {
+    "nr": 161,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt der Task-Manager?",
+    "antwort": "Prozesse anzeigen",
+    "falseAnswers": [
+      "Konfiguration speichern",
+      "MAC-Adressen ermitteln",
+      "Identität bestätigen"
+    ]
+  },
+  {
+    "nr": 162,
+    "questionType": "choice",
+    "frage": "Ein Anwender öffnet den Task-Manager. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Prozesse anzeigen",
+    "falseAnswers": [
+      "Konfiguration speichern",
+      "MAC-Adressen ermitteln",
+      "Identität bestätigen"
+    ]
+  },
+  {
+    "nr": 163,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Task-Manager?",
+    "antwort": "Prozesse anzeigen",
+    "falseAnswers": [
+      "Konfiguration speichern",
+      "MAC-Adressen ermitteln",
+      "Identität bestätigen"
+    ]
+  },
+  {
+    "nr": 164,
+    "questionType": "choice",
+    "frage": "Warum nutzt man den Task-Manager zur Systemdiagnose?",
+    "antwort": "Prozesse anzeigen",
+    "falseAnswers": [
+      "Konfiguration speichern",
+      "MAC-Adressen ermitteln",
+      "Identität bestätigen"
+    ]
+  },
+  {
+    "nr": 165,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt die Registry in Windows?",
+    "antwort": "Konfiguration speichern",
+    "falseAnswers": [
+      "Sicherheitslücke schließen",
+      "Netzwerkfehler melden",
+      "Herkunft bestätigen"
+    ]
+  },
+  {
+    "nr": 166,
+    "questionType": "choice",
+    "frage": "Ein Administrator bearbeitet die Registry. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Konfiguration speichern",
+    "falseAnswers": [
+      "Sicherheitslücke schließen",
+      "Netzwerkfehler melden",
+      "Herkunft bestätigen"
+    ]
+  },
+  {
+    "nr": 167,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur Registry?",
+    "antwort": "Konfiguration speichern",
+    "falseAnswers": [
+      "Sicherheitslücke schließen",
+      "Netzwerkfehler melden",
+      "Herkunft bestätigen"
+    ]
+  },
+  {
+    "nr": 168,
+    "questionType": "choice",
+    "frage": "Warum wird die Registry in Windows genutzt?",
+    "antwort": "Konfiguration speichern",
+    "falseAnswers": [
+      "Sicherheitslücke schließen",
+      "Netzwerkfehler melden",
+      "Herkunft bestätigen"
+    ]
+  },
+  {
+    "nr": 169,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Patch?",
+    "antwort": "Sicherheitslücke schließen",
+    "falseAnswers": [
+      "Software aktualisieren",
+      "Verbindungen sichern",
+      "Zugriff beschränken"
+    ]
+  },
+  {
+    "nr": 170,
+    "questionType": "choice",
+    "frage": "Ein Administrator installiert einen Patch. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Sicherheitslücke schließen",
+    "falseAnswers": [
+      "Software aktualisieren",
+      "Verbindungen sichern",
+      "Zugriff beschränken"
+    ]
+  },
+  {
+    "nr": 171,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Sicherheits-Patch?",
+    "antwort": "Sicherheitslücke schließen",
+    "falseAnswers": [
+      "Software aktualisieren",
+      "Verbindungen sichern",
+      "Zugriff beschränken"
+    ]
+  },
+  {
+    "nr": 172,
+    "questionType": "choice",
+    "frage": "Warum wird ein Patch eingespielt?",
+    "antwort": "Sicherheitslücke schließen",
+    "falseAnswers": [
+      "Software aktualisieren",
+      "Verbindungen sichern",
+      "Zugriff beschränken"
+    ]
+  },
+  {
+    "nr": 173,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Update?",
+    "antwort": "Software aktualisieren",
+    "falseAnswers": [
+      "Daten sichern",
+      "Daten schnell senden",
+      "Änderungen verhindern"
+    ]
+  },
+  {
+    "nr": 174,
+    "questionType": "choice",
+    "frage": "Ein Administrator führt ein Update aus. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Software aktualisieren",
+    "falseAnswers": [
+      "Daten sichern",
+      "Daten schnell senden",
+      "Änderungen verhindern"
+    ]
+  },
+  {
+    "nr": 175,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Software-Update?",
+    "antwort": "Software aktualisieren",
+    "falseAnswers": [
+      "Daten sichern",
+      "Daten schnell senden",
+      "Änderungen verhindern"
+    ]
+  },
+  {
+    "nr": 176,
+    "questionType": "choice",
+    "frage": "Warum wird ein Update auf den Systemen verteilt?",
+    "antwort": "Software aktualisieren",
+    "falseAnswers": [
+      "Daten sichern",
+      "Daten schnell senden",
+      "Änderungen verhindern"
+    ]
+  },
+  {
+    "nr": 177,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Backup?",
+    "antwort": "Daten sichern",
+    "falseAnswers": [
+      "LAN-Geräte verbinden",
+      "Webseiten übertragen",
+      "Dienste erreichen"
+    ]
+  },
+  {
+    "nr": 178,
+    "questionType": "choice",
+    "frage": "Ein Administrator richtet ein Backup ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Daten sichern",
+    "falseAnswers": [
+      "LAN-Geräte verbinden",
+      "Webseiten übertragen",
+      "Dienste erreichen"
+    ]
+  },
+  {
+    "nr": 179,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur Erstellung eines Backups?",
+    "antwort": "Daten sichern",
+    "falseAnswers": [
+      "LAN-Geräte verbinden",
+      "Webseiten übertragen",
+      "Dienste erreichen"
+    ]
+  },
+  {
+    "nr": 180,
+    "questionType": "choice",
+    "frage": "Warum werden regelmäßig Backups angelegt?",
+    "antwort": "Daten sichern",
+    "falseAnswers": [
+      "LAN-Geräte verbinden",
+      "Webseiten übertragen",
+      "Dienste erreichen"
+    ]
+  },
+  {
+    "nr": 181,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Switch im lokalen Netz?",
+    "antwort": "LAN-Geräte verbinden",
+    "falseAnswers": [
+      "Netzwerke verbinden",
+      "Webdaten verschlüsseln",
+      "Daten spiegeln"
+    ]
+  },
+  {
+    "nr": 182,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert den Switch. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "LAN-Geräte verbinden",
+    "falseAnswers": [
+      "Netzwerke verbinden",
+      "Webdaten verschlüsseln",
+      "Daten spiegeln"
+    ]
+  },
+  {
+    "nr": 183,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Switch im Netzwerkraum?",
+    "antwort": "LAN-Geräte verbinden",
+    "falseAnswers": [
+      "Netzwerke verbinden",
+      "Webdaten verschlüsseln",
+      "Daten spiegeln"
+    ]
+  },
+  {
+    "nr": 184,
+    "questionType": "choice",
+    "frage": "Warum wird ein Switch in der IT-Infrastruktur eingesetzt?",
+    "antwort": "LAN-Geräte verbinden",
+    "falseAnswers": [
+      "Netzwerke verbinden",
+      "Webdaten verschlüsseln",
+      "Daten spiegeln"
+    ]
+  },
+  {
+    "nr": 185,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Router?",
+    "antwort": "Netzwerke verbinden",
+    "falseAnswers": [
+      "Verkehr filtern",
+      "Dateien übertragen",
+      "Parität verteilen"
+    ]
+  },
+  {
+    "nr": 186,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert den Router. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Netzwerke verbinden",
+    "falseAnswers": [
+      "Verkehr filtern",
+      "Dateien übertragen",
+      "Parität verteilen"
+    ]
+  },
+  {
+    "nr": 187,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Router an der Netzgrenze?",
+    "antwort": "Netzwerke verbinden",
+    "falseAnswers": [
+      "Verkehr filtern",
+      "Dateien übertragen",
+      "Parität verteilen"
+    ]
+  },
+  {
+    "nr": 188,
+    "questionType": "choice",
+    "frage": "Warum wird ein Router bei dieser IT-Lösung eingesetzt?",
+    "antwort": "Netzwerke verbinden",
+    "falseAnswers": [
+      "Verkehr filtern",
+      "Dateien übertragen",
+      "Parität verteilen"
+    ]
+  },
+  {
+    "nr": 189,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt eine Firewall?",
+    "antwort": "Verkehr filtern",
+    "falseAnswers": [
+      "WLAN bereitstellen",
+      "Systemzugriff absichern",
+      "Strom überbrücken"
+    ]
+  },
+  {
+    "nr": 190,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert die Firewall. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Verkehr filtern",
+    "falseAnswers": [
+      "WLAN bereitstellen",
+      "Systemzugriff absichern",
+      "Strom überbrücken"
+    ]
+  },
+  {
+    "nr": 191,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur Firewall im Unternehmensnetz?",
+    "antwort": "Verkehr filtern",
+    "falseAnswers": [
+      "WLAN bereitstellen",
+      "Systemzugriff absichern",
+      "Strom überbrücken"
+    ]
+  },
+  {
+    "nr": 192,
+    "questionType": "choice",
+    "frage": "Warum wird eine Firewall zum Schutz eingesetzt?",
+    "antwort": "Verkehr filtern",
+    "falseAnswers": [
+      "WLAN bereitstellen",
+      "Systemzugriff absichern",
+      "Strom überbrücken"
+    ]
+  },
+  {
+    "nr": 193,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Access Point?",
+    "antwort": "WLAN bereitstellen",
+    "falseAnswers": [
+      "Funksignal verstärken",
+      "E-Mails versenden",
+      "Alle Daten sichern"
+    ]
+  },
+  {
+    "nr": 194,
+    "questionType": "choice",
+    "frage": "Ein Administrator montiert einen Access Point. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "WLAN bereitstellen",
+    "falseAnswers": [
+      "Funksignal verstärken",
+      "E-Mails versenden",
+      "Alle Daten sichern"
+    ]
+  },
+  {
+    "nr": 195,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Access Point im Büro?",
+    "antwort": "WLAN bereitstellen",
+    "falseAnswers": [
+      "Funksignal verstärken",
+      "E-Mails versenden",
+      "Alle Daten sichern"
+    ]
+  },
+  {
+    "nr": 196,
+    "questionType": "choice",
+    "frage": "Warum wird ein Access Point in Räumlichkeiten installiert?",
+    "antwort": "WLAN bereitstellen",
+    "falseAnswers": [
+      "Funksignal verstärken",
+      "E-Mails versenden",
+      "Alle Daten sichern"
+    ]
+  },
+  {
+    "nr": 197,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Repeater?",
+    "antwort": "Funksignal verstärken",
+    "falseAnswers": [
+      "Signale umwandeln",
+      "Postfach synchronisieren",
+      "Änderungen sichern"
+    ]
+  },
+  {
+    "nr": 198,
+    "questionType": "choice",
+    "frage": "Ein Anwender steckt einen Repeater ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Funksignal verstärken",
+    "falseAnswers": [
+      "Signale umwandeln",
+      "Postfach synchronisieren",
+      "Änderungen sichern"
+    ]
+  },
+  {
+    "nr": 199,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Repeater?",
+    "antwort": "Funksignal verstärken",
+    "falseAnswers": [
+      "Signale umwandeln",
+      "Postfach synchronisieren",
+      "Änderungen sichern"
+    ]
+  },
+  {
+    "nr": 200,
+    "questionType": "choice",
+    "frage": "Warum wird ein Repeater zur Netzabdeckung eingesetzt?",
+    "antwort": "Funksignal verstärken",
+    "falseAnswers": [
+      "Signale umwandeln",
+      "Postfach synchronisieren",
+      "Änderungen sichern"
+    ]
+  },
+  {
+    "nr": 201,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Modem?",
+    "antwort": "Signale umwandeln",
+    "falseAnswers": [
+      "Kabel auflegen",
+      "E-Mails abholen",
+      "Daten wiederherstellen"
+    ]
+  },
+  {
+    "nr": 202,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert das Modem. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Signale umwandeln",
+    "falseAnswers": [
+      "Kabel auflegen",
+      "E-Mails abholen",
+      "Daten wiederherstellen"
+    ]
+  },
+  {
+    "nr": 203,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Modem am Anschluss?",
+    "antwort": "Signale umwandeln",
+    "falseAnswers": [
+      "Kabel auflegen",
+      "E-Mails abholen",
+      "Daten wiederherstellen"
+    ]
+  },
+  {
+    "nr": 204,
+    "questionType": "choice",
+    "frage": "Warum wird ein Modem für den Internetzugang benötigt?",
+    "antwort": "Signale umwandeln",
+    "falseAnswers": [
+      "Kabel auflegen",
+      "E-Mails abholen",
+      "Daten wiederherstellen"
+    ]
+  },
+  {
+    "nr": 205,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Patchpanel?",
+    "antwort": "Kabel auflegen",
+    "falseAnswers": [
+      "Netzwerkzugang ermöglichen",
+      "Uhren synchronisieren",
+      "Daten langfristig speichern"
+    ]
+  },
+  {
+    "nr": 206,
+    "questionType": "choice",
+    "frage": "Ein Techniker verkabelt das Patchpanel. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Kabel auflegen",
+    "falseAnswers": [
+      "Netzwerkzugang ermöglichen",
+      "Uhren synchronisieren",
+      "Daten langfristig speichern"
+    ]
+  },
+  {
+    "nr": 207,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Patchpanel?",
+    "antwort": "Kabel auflegen",
+    "falseAnswers": [
+      "Netzwerkzugang ermöglichen",
+      "Uhren synchronisieren",
+      "Daten langfristig speichern"
+    ]
+  },
+  {
+    "nr": 208,
+    "questionType": "choice",
+    "frage": "Warum nutzt man Patchpanels in Schaltschränken?",
+    "antwort": "Kabel auflegen",
+    "falseAnswers": [
+      "Netzwerkzugang ermöglichen",
+      "Uhren synchronisieren",
+      "Daten langfristig speichern"
+    ]
+  },
+  {
+    "nr": 209,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt eine Netzwerkkarte im PC?",
+    "antwort": "Netzwerkzugang ermöglichen",
+    "falseAnswers": [
+      "Netzwerke verlassen",
+      "Netzwerk überwachen",
+      "Anfrage dokumentieren"
+    ]
+  },
+  {
+    "nr": 210,
+    "questionType": "choice",
+    "frage": "Ein Administrator baut eine Netzwerkkarte ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Netzwerkzugang ermöglichen",
+    "falseAnswers": [
+      "Netzwerke verlassen",
+      "Netzwerk überwachen",
+      "Anfrage dokumentieren"
+    ]
+  },
+  {
+    "nr": 211,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur Netzwerkkarte?",
+    "antwort": "Netzwerkzugang ermöglichen",
+    "falseAnswers": [
+      "Netzwerke verlassen",
+      "Netzwerk überwachen",
+      "Anfrage dokumentieren"
+    ]
+  },
+  {
+    "nr": 212,
+    "questionType": "choice",
+    "frage": "Warum ist eine Netzwerkkarte im Gerät verbaut?",
+    "antwort": "Netzwerkzugang ermöglichen",
+    "falseAnswers": [
+      "Netzwerke verlassen",
+      "Netzwerk überwachen",
+      "Anfrage dokumentieren"
+    ]
+  },
+  {
+    "nr": 213,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Gateway?",
+    "antwort": "Netzwerke verlassen",
+    "falseAnswers": [
+      "Anfragen vermitteln",
+      "Verbindung tunneln",
+      "Service regeln"
+    ]
+  },
+  {
+    "nr": 214,
+    "questionType": "choice",
+    "frage": "Ein Administrator richtet das Gateway ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Netzwerke verlassen",
+    "falseAnswers": [
+      "Anfragen vermitteln",
+      "Verbindung tunneln",
+      "Service regeln"
+    ]
+  },
+  {
+    "nr": 215,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Standard-Gateway?",
+    "antwort": "Netzwerke verlassen",
+    "falseAnswers": [
+      "Anfragen vermitteln",
+      "Verbindung tunneln",
+      "Service regeln"
+    ]
+  },
+  {
+    "nr": 216,
+    "questionType": "choice",
+    "frage": "Warum wird ein Gateway in der Netzwerkkonfiguration eingetragen?",
+    "antwort": "Netzwerke verlassen",
+    "falseAnswers": [
+      "Anfragen vermitteln",
+      "Verbindung tunneln",
+      "Service regeln"
+    ]
+  },
+  {
+    "nr": 217,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Proxy-Server?",
+    "antwort": "Anfragen vermitteln",
+    "falseAnswers": [
+      "Namen auflösen",
+      "Netzwerk segmentieren",
+      "Support weitergeben"
+    ]
+  },
+  {
+    "nr": 218,
+    "questionType": "choice",
+    "frage": "Ein Administrator stellt einen Proxy-Server bereit. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Anfragen vermitteln",
+    "falseAnswers": [
+      "Namen auflösen",
+      "Netzwerk segmentieren",
+      "Support weitergeben"
+    ]
+  },
+  {
+    "nr": 219,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Proxy im Unternehmensnetz?",
+    "antwort": "Anfragen vermitteln",
+    "falseAnswers": [
+      "Namen auflösen",
+      "Netzwerk segmentieren",
+      "Support weitergeben"
+    ]
+  },
+  {
+    "nr": 220,
+    "questionType": "choice",
+    "frage": "Warum wird ein Proxy eingesetzt?",
+    "antwort": "Anfragen vermitteln",
+    "falseAnswers": [
+      "Namen auflösen",
+      "Netzwerk segmentieren",
+      "Support weitergeben"
+    ]
+  },
+  {
+    "nr": 221,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt das Domain Name System (DNS)?",
+    "antwort": "Namen auflösen",
+    "falseAnswers": [
+      "IP-Adressen vergeben",
+      "Adressen umsetzen",
+      "Standardprobleme lösen"
+    ]
+  },
+  {
+    "nr": 222,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert den DNS-Server. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Namen auflösen",
+    "falseAnswers": [
+      "IP-Adressen vergeben",
+      "Adressen umsetzen",
+      "Standardprobleme lösen"
+    ]
+  },
+  {
+    "nr": 223,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum DNS im Netzwerk?",
+    "antwort": "Namen auflösen",
+    "falseAnswers": [
+      "IP-Adressen vergeben",
+      "Adressen umsetzen",
+      "Standardprobleme lösen"
+    ]
+  },
+  {
+    "nr": 224,
+    "questionType": "choice",
+    "frage": "Warum wird DNS im Internet und in Firmennetzen benötigt?",
+    "antwort": "Namen auflösen",
+    "falseAnswers": [
+      "IP-Adressen vergeben",
+      "Adressen umsetzen",
+      "Standardprobleme lösen"
+    ]
+  },
+  {
+    "nr": 225,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein DHCP-Server?",
+    "antwort": "IP-Adressen vergeben",
+    "falseAnswers": [
+      "MAC-Adressen ermitteln",
+      "WLAN benennen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 226,
+    "questionType": "choice",
+    "frage": "Ein Administrator richtet DHCP ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "IP-Adressen vergeben",
+    "falseAnswers": [
+      "MAC-Adressen ermitteln",
+      "WLAN benennen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 227,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu DHCP im lokalen Netzwerk?",
+    "antwort": "IP-Adressen vergeben",
+    "falseAnswers": [
+      "MAC-Adressen ermitteln",
+      "WLAN benennen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 228,
+    "questionType": "choice",
+    "frage": "Warum wird DHCP für Endgeräte genutzt?",
+    "antwort": "IP-Adressen vergeben",
+    "falseAnswers": [
+      "MAC-Adressen ermitteln",
+      "WLAN benennen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 229,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ARP?",
+    "antwort": "MAC-Adressen ermitteln",
+    "falseAnswers": [
+      "Netzwerkfehler melden",
+      "WLAN absichern",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 230,
+    "questionType": "choice",
+    "frage": "Ein Host sendet einen ARP-Request. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "MAC-Adressen ermitteln",
+    "falseAnswers": [
+      "Netzwerkfehler melden",
+      "WLAN absichern",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 231,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum Protokoll ARP?",
+    "antwort": "MAC-Adressen ermitteln",
+    "falseAnswers": [
+      "Netzwerkfehler melden",
+      "WLAN absichern",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 232,
+    "questionType": "choice",
+    "frage": "Warum wird ARP im Ethernet-Netzwerk benötigt?",
+    "antwort": "MAC-Adressen ermitteln",
+    "falseAnswers": [
+      "Netzwerkfehler melden",
+      "WLAN absichern",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 233,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ICMP?",
+    "antwort": "Netzwerkfehler melden",
+    "falseAnswers": [
+      "Verbindungen sichern",
+      "Zugangsdaten stehlen",
+      "Änderung steuern"
+    ]
+  },
+  {
+    "nr": 234,
+    "questionType": "choice",
+    "frage": "Ein Administrator nutzt Ping oder Traceroute. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Netzwerkfehler melden",
+    "falseAnswers": [
+      "Verbindungen sichern",
+      "Zugangsdaten stehlen",
+      "Änderung steuern"
+    ]
+  },
+  {
+    "nr": 235,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu ICMP?",
+    "antwort": "Netzwerkfehler melden",
+    "falseAnswers": [
+      "Verbindungen sichern",
+      "Zugangsdaten stehlen",
+      "Änderung steuern"
+    ]
+  },
+  {
+    "nr": 236,
+    "questionType": "choice",
+    "frage": "Warum wird ICMP für Netzwerkdiagnosen verwendet?",
+    "antwort": "Netzwerkfehler melden",
+    "falseAnswers": [
+      "Verbindungen sichern",
+      "Zugangsdaten stehlen",
+      "Änderung steuern"
+    ]
+  },
+  {
+    "nr": 237,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt das TCP-Protokoll?",
+    "antwort": "Verbindungen sichern",
+    "falseAnswers": [
+      "Daten schnell senden",
+      "Daten erpressen",
+      "Änderung zurücknehmen"
+    ]
+  },
+  {
+    "nr": 238,
+    "questionType": "choice",
+    "frage": "Eine Anwendung wählt TCP als Transportschicht. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Verbindungen sichern",
+    "falseAnswers": [
+      "Daten schnell senden",
+      "Daten erpressen",
+      "Änderung zurücknehmen"
+    ]
+  },
+  {
+    "nr": 239,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu TCP?",
+    "antwort": "Verbindungen sichern",
+    "falseAnswers": [
+      "Daten schnell senden",
+      "Daten erpressen",
+      "Änderung zurücknehmen"
+    ]
+  },
+  {
+    "nr": 240,
+    "questionType": "choice",
+    "frage": "Warum wird TCP für verlässliche Datenübertragungen eingesetzt?",
+    "antwort": "Verbindungen sichern",
+    "falseAnswers": [
+      "Daten schnell senden",
+      "Daten erpressen",
+      "Änderung zurücknehmen"
+    ]
+  },
+  {
+    "nr": 241,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt das UDP-Protokoll?",
+    "antwort": "Daten schnell senden",
+    "falseAnswers": [
+      "Webseiten übertragen",
+      "Schadcode tarnen",
+      "Lösungen sammeln"
+    ]
+  },
+  {
+    "nr": 242,
+    "questionType": "choice",
+    "frage": "Eine Streaming-Software nutzt UDP. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Daten schnell senden",
+    "falseAnswers": [
+      "Webseiten übertragen",
+      "Schadcode tarnen",
+      "Lösungen sammeln"
+    ]
+  },
+  {
+    "nr": 243,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu UDP?",
+    "antwort": "Daten schnell senden",
+    "falseAnswers": [
+      "Webseiten übertragen",
+      "Schadcode tarnen",
+      "Lösungen sammeln"
+    ]
+  },
+  {
+    "nr": 244,
+    "questionType": "choice",
+    "frage": "Warum wird UDP bei Echtzeitanwendungen verwendet?",
+    "antwort": "Daten schnell senden",
+    "falseAnswers": [
+      "Webseiten übertragen",
+      "Schadcode tarnen",
+      "Lösungen sammeln"
+    ]
+  },
+  {
+    "nr": 245,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt HTTP?",
+    "antwort": "Webseiten übertragen",
+    "falseAnswers": [
+      "Webdaten verschlüsseln",
+      "Dateien infizieren",
+      "Fernhilfe leisten"
+    ]
+  },
+  {
+    "nr": 246,
+    "questionType": "choice",
+    "frage": "Ein Webbrowser kommuniziert per HTTP. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Webseiten übertragen",
+    "falseAnswers": [
+      "Webdaten verschlüsseln",
+      "Dateien infizieren",
+      "Fernhilfe leisten"
+    ]
+  },
+  {
+    "nr": 247,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu HTTP?",
+    "antwort": "Webseiten übertragen",
+    "falseAnswers": [
+      "Webdaten verschlüsseln",
+      "Dateien infizieren",
+      "Fernhilfe leisten"
+    ]
+  },
+  {
+    "nr": 248,
+    "questionType": "choice",
+    "frage": "Warum nutzt man das HTTP-Protokoll im Web?",
+    "antwort": "Webseiten übertragen",
+    "falseAnswers": [
+      "Webdaten verschlüsseln",
+      "Dateien infizieren",
+      "Fernhilfe leisten"
+    ]
+  },
+  {
+    "nr": 249,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt HTTPS?",
+    "antwort": "Webdaten verschlüsseln",
+    "falseAnswers": [
+      "Dateien übertragen",
+      "Netzwerke verbreiten",
+      "Anforderungen beschreiben"
+    ]
+  },
+  {
+    "nr": 250,
+    "questionType": "choice",
+    "frage": "Ein Webserver erzwingt HTTPS. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Webdaten verschlüsseln",
+    "falseAnswers": [
+      "Dateien übertragen",
+      "Netzwerke verbreiten",
+      "Anforderungen beschreiben"
+    ]
+  },
+  {
+    "nr": 251,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu HTTPS?",
+    "antwort": "Webdaten verschlüsseln",
+    "falseAnswers": [
+      "Dateien übertragen",
+      "Netzwerke verbreiten",
+      "Anforderungen beschreiben"
+    ]
+  },
+  {
+    "nr": 252,
+    "questionType": "choice",
+    "frage": "Warum wird HTTPS gegenüber unverschlüsseltem HTTP vorgezogen?",
+    "antwort": "Webdaten verschlüsseln",
+    "falseAnswers": [
+      "Dateien übertragen",
+      "Netzwerke verbreiten",
+      "Anforderungen beschreiben"
+    ]
+  },
+  {
+    "nr": 253,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt FTP?",
+    "antwort": "Dateien übertragen",
+    "falseAnswers": [
+      "Systemzugriff absichern",
+      "Anmeldung verstärken",
+      "Umsetzung beschreiben"
+    ]
+  },
+  {
+    "nr": 254,
+    "questionType": "choice",
+    "frage": "Ein Anwender nutzt einen FTP-Client. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Dateien übertragen",
+    "falseAnswers": [
+      "Systemzugriff absichern",
+      "Anmeldung verstärken",
+      "Umsetzung beschreiben"
+    ]
+  },
+  {
+    "nr": 255,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu FTP?",
+    "antwort": "Dateien übertragen",
+    "falseAnswers": [
+      "Systemzugriff absichern",
+      "Anmeldung verstärken",
+      "Umsetzung beschreiben"
+    ]
+  },
+  {
+    "nr": 256,
+    "questionType": "choice",
+    "frage": "Warum wird FTP auf Servern eingerichtet?",
+    "antwort": "Dateien übertragen",
+    "falseAnswers": [
+      "Systemzugriff absichern",
+      "Anmeldung verstärken",
+      "Umsetzung beschreiben"
+    ]
+  },
+  {
+    "nr": 257,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt SSH?",
+    "antwort": "Systemzugriff absichern",
+    "falseAnswers": [
+      "E-Mails versenden",
+      "Zugang absichern",
+      "Projektinteressen vertreten"
+    ]
+  },
+  {
+    "nr": 258,
+    "questionType": "choice",
+    "frage": "Ein Administrator stellt eine Verbindung per SSH her. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Systemzugriff absichern",
+    "falseAnswers": [
+      "E-Mails versenden",
+      "Zugang absichern",
+      "Projektinteressen vertreten"
+    ]
+  },
+  {
+    "nr": 259,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu SSH?",
+    "antwort": "Systemzugriff absichern",
+    "falseAnswers": [
+      "E-Mails versenden",
+      "Zugang absichern",
+      "Projektinteressen vertreten"
+    ]
+  },
+  {
+    "nr": 260,
+    "questionType": "choice",
+    "frage": "Warum wird SSH bei der Remote-Verwaltung eingesetzt?",
+    "antwort": "Systemzugriff absichern",
+    "falseAnswers": [
+      "E-Mails versenden",
+      "Zugang absichern",
+      "Projektinteressen vertreten"
+    ]
+  },
+  {
+    "nr": 261,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt SMTP?",
+    "antwort": "E-Mails versenden",
+    "falseAnswers": [
+      "Postfach synchronisieren",
+      "Daten prüfen",
+      "Projektfortschritt markieren"
+    ]
+  },
+  {
+    "nr": 262,
+    "questionType": "choice",
+    "frage": "Ein Mailserver nutzt SMTP. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "E-Mails versenden",
+    "falseAnswers": [
+      "Postfach synchronisieren",
+      "Daten prüfen",
+      "Projektfortschritt markieren"
+    ]
+  },
+  {
+    "nr": 263,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu SMTP?",
+    "antwort": "E-Mails versenden",
+    "falseAnswers": [
+      "Postfach synchronisieren",
+      "Daten prüfen",
+      "Projektfortschritt markieren"
+    ]
+  },
+  {
+    "nr": 264,
+    "questionType": "choice",
+    "frage": "Warum wird SMTP in Mail-Infrastrukturen verwendet?",
+    "antwort": "E-Mails versenden",
+    "falseAnswers": [
+      "Postfach synchronisieren",
+      "Daten prüfen",
+      "Projektfortschritt markieren"
+    ]
+  },
+  {
+    "nr": 265,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt IMAP?",
+    "antwort": "Postfach synchronisieren",
+    "falseAnswers": [
+      "E-Mails abholen",
+      "Identität bestätigen",
+      "Zeiten darstellen"
+    ]
+  },
+  {
+    "nr": 266,
+    "questionType": "choice",
+    "frage": "Ein Nutzer verbindet sein Smartphone per IMAP. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Postfach synchronisieren",
+    "falseAnswers": [
+      "E-Mails abholen",
+      "Identität bestätigen",
+      "Zeiten darstellen"
+    ]
+  },
+  {
+    "nr": 267,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu IMAP?",
+    "antwort": "Postfach synchronisieren",
+    "falseAnswers": [
+      "E-Mails abholen",
+      "Identität bestätigen",
+      "Zeiten darstellen"
+    ]
+  },
+  {
+    "nr": 268,
+    "questionType": "choice",
+    "frage": "Warum bevorzugt man IMAP gegenüber POP3 für moderne Mailclients?",
+    "antwort": "Postfach synchronisieren",
+    "falseAnswers": [
+      "E-Mails abholen",
+      "Identität bestätigen",
+      "Zeiten darstellen"
+    ]
+  },
+  {
+    "nr": 269,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt POP3?",
+    "antwort": "E-Mails abholen",
+    "falseAnswers": [
+      "Uhren synchronisieren",
+      "Herkunft bestätigen",
+      "Projektdauer bestimmen"
+    ]
+  },
+  {
+    "nr": 270,
+    "questionType": "choice",
+    "frage": "Ein Mailclient verwendet POP3. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "E-Mails abholen",
+    "falseAnswers": [
+      "Uhren synchronisieren",
+      "Herkunft bestätigen",
+      "Projektdauer bestimmen"
+    ]
+  },
+  {
+    "nr": 271,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zum POP3-Protokoll?",
+    "antwort": "E-Mails abholen",
+    "falseAnswers": [
+      "Uhren synchronisieren",
+      "Herkunft bestätigen",
+      "Projektdauer bestimmen"
+    ]
+  },
+  {
+    "nr": 272,
+    "questionType": "choice",
+    "frage": "Warum wird POP3 bei einfachen Mailaufrufen eingesetzt?",
+    "antwort": "E-Mails abholen",
+    "falseAnswers": [
+      "Uhren synchronisieren",
+      "Herkunft bestätigen",
+      "Projektdauer bestimmen"
+    ]
+  },
+  {
+    "nr": 273,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt NTP im Netz?",
+    "antwort": "Uhren synchronisieren",
+    "falseAnswers": [
+      "Netzwerk überwachen",
+      "Zugriff beschränken",
+      "Optionen bewerten"
+    ]
+  },
+  {
+    "nr": 274,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert einen NTP-Server. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Uhren synchronisieren",
+    "falseAnswers": [
+      "Netzwerk überwachen",
+      "Zugriff beschränken",
+      "Optionen bewerten"
+    ]
+  },
+  {
+    "nr": 275,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu NTP?",
+    "antwort": "Uhren synchronisieren",
+    "falseAnswers": [
+      "Netzwerk überwachen",
+      "Zugriff beschränken",
+      "Optionen bewerten"
+    ]
+  },
+  {
+    "nr": 276,
+    "questionType": "choice",
+    "frage": "Warum ist NTP in domänenbasierten Netzwerken kritisch?",
+    "antwort": "Uhren synchronisieren",
+    "falseAnswers": [
+      "Netzwerk überwachen",
+      "Zugriff beschränken",
+      "Optionen bewerten"
+    ]
+  },
+  {
+    "nr": 277,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt SNMP?",
+    "antwort": "Netzwerk überwachen",
+    "falseAnswers": [
+      "Verbindung tunneln",
+      "Änderungen verhindern",
+      "Gefahren bewerten"
+    ]
+  },
+  {
+    "nr": 278,
+    "questionType": "choice",
+    "frage": "Ein Administrator richtet SNMP-Traps ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Netzwerk überwachen",
+    "falseAnswers": [
+      "Verbindung tunneln",
+      "Änderungen verhindern",
+      "Gefahren bewerten"
+    ]
+  },
+  {
+    "nr": 279,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu SNMP?",
+    "antwort": "Netzwerk überwachen",
+    "falseAnswers": [
+      "Verbindung tunneln",
+      "Änderungen verhindern",
+      "Gefahren bewerten"
+    ]
+  },
+  {
+    "nr": 280,
+    "questionType": "choice",
+    "frage": "Warum wird SNMP von Monitoring-Tools verwendet?",
+    "antwort": "Netzwerk überwachen",
+    "falseAnswers": [
+      "Verbindung tunneln",
+      "Änderungen verhindern",
+      "Gefahren bewerten"
+    ]
+  },
+  {
+    "nr": 281,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein VPN?",
+    "antwort": "Verbindung tunneln",
+    "falseAnswers": [
+      "Netzwerk segmentieren",
+      "Dienste erreichen",
+      "Lösung erproben"
+    ]
+  },
+  {
+    "nr": 282,
+    "questionType": "choice",
+    "frage": "Ein Mitarbeiter startet den VPN-Client. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Verbindung tunneln",
+    "falseAnswers": [
+      "Netzwerk segmentieren",
+      "Dienste erreichen",
+      "Lösung erproben"
+    ]
+  },
+  {
+    "nr": 283,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einer VPN-Lösung?",
+    "antwort": "Verbindung tunneln",
+    "falseAnswers": [
+      "Netzwerk segmentieren",
+      "Dienste erreichen",
+      "Lösung erproben"
+    ]
+  },
+  {
+    "nr": 284,
+    "questionType": "choice",
+    "frage": "Warum wird VPN für Homeoffice-Arbeitsplätze genutzt?",
+    "antwort": "Verbindung tunneln",
+    "falseAnswers": [
+      "Netzwerk segmentieren",
+      "Dienste erreichen",
+      "Lösung erproben"
+    ]
+  },
+  {
+    "nr": 285,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein VLAN?",
+    "antwort": "Netzwerk segmentieren",
+    "falseAnswers": [
+      "Adressen umsetzen",
+      "Daten spiegeln",
+      "Lösung ausrollen"
+    ]
+  },
+  {
+    "nr": 286,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert ein VLAN. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Netzwerk segmentieren",
+    "falseAnswers": [
+      "Adressen umsetzen",
+      "Daten spiegeln",
+      "Lösung ausrollen"
+    ]
+  },
+  {
+    "nr": 287,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem VLAN?",
+    "antwort": "Netzwerk segmentieren",
+    "falseAnswers": [
+      "Adressen umsetzen",
+      "Daten spiegeln",
+      "Lösung ausrollen"
+    ]
+  },
+  {
+    "nr": 288,
+    "questionType": "choice",
+    "frage": "Warum werden VLANs in großen Firmennetzen verwendet?",
+    "antwort": "Netzwerk segmentieren",
+    "falseAnswers": [
+      "Adressen umsetzen",
+      "Daten spiegeln",
+      "Lösung ausrollen"
+    ]
+  },
+  {
+    "nr": 289,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt NAT am Router?",
+    "antwort": "Adressen umsetzen",
+    "falseAnswers": [
+      "WLAN benennen",
+      "Parität verteilen",
+      "Daten abfragen"
+    ]
+  },
+  {
+    "nr": 290,
+    "questionType": "choice",
+    "frage": "Ein Administrator aktiviert NAT. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Adressen umsetzen",
+    "falseAnswers": [
+      "WLAN benennen",
+      "Parität verteilen",
+      "Daten abfragen"
+    ]
+  },
+  {
+    "nr": 291,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu NAT?",
+    "antwort": "Adressen umsetzen",
+    "falseAnswers": [
+      "WLAN benennen",
+      "Parität verteilen",
+      "Daten abfragen"
+    ]
+  },
+  {
+    "nr": 292,
+    "questionType": "choice",
+    "frage": "Warum wird NAT an Übergängen ins Internet verwendet?",
+    "antwort": "Adressen umsetzen",
+    "falseAnswers": [
+      "WLAN benennen",
+      "Parität verteilen",
+      "Daten abfragen"
+    ]
+  },
+  {
+    "nr": 293,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt eine SSID?",
+    "antwort": "WLAN benennen",
+    "falseAnswers": [
+      "WLAN absichern",
+      "Strom überbrücken",
+      "Daten einfügen"
+    ]
+  },
+  {
+    "nr": 294,
+    "questionType": "choice",
+    "frage": "Ein Administrator vergibt eine neue SSID. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "WLAN benennen",
+    "falseAnswers": [
+      "WLAN absichern",
+      "Strom überbrücken",
+      "Daten einfügen"
+    ]
+  },
+  {
+    "nr": 295,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur SSID?",
+    "antwort": "WLAN benennen",
+    "falseAnswers": [
+      "WLAN absichern",
+      "Strom überbrücken",
+      "Daten einfügen"
+    ]
+  },
+  {
+    "nr": 296,
+    "questionType": "choice",
+    "frage": "Warum wird eine SSID für Drahtlosnetzwerke festgelegt?",
+    "antwort": "WLAN benennen",
+    "falseAnswers": [
+      "WLAN absichern",
+      "Strom überbrücken",
+      "Daten einfügen"
+    ]
+  },
+  {
+    "nr": 297,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt WPA3?",
+    "antwort": "WLAN absichern",
+    "falseAnswers": [
+      "Zugangsdaten stehlen",
+      "Alle Daten sichern",
+      "Daten ändern"
+    ]
+  },
+  {
+    "nr": 298,
+    "questionType": "choice",
+    "frage": "Ein Administrator konfiguriert WPA3. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "WLAN absichern",
+    "falseAnswers": [
+      "Zugangsdaten stehlen",
+      "Alle Daten sichern",
+      "Daten ändern"
+    ]
+  },
+  {
+    "nr": 299,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu WPA3?",
+    "antwort": "WLAN absichern",
+    "falseAnswers": [
+      "Zugangsdaten stehlen",
+      "Alle Daten sichern",
+      "Daten ändern"
+    ]
+  },
+  {
+    "nr": 300,
+    "questionType": "choice",
+    "frage": "Warum wird WPA3 bei WLAN-Netzen eingesetzt?",
+    "antwort": "WLAN absichern",
+    "falseAnswers": [
+      "Zugangsdaten stehlen",
+      "Alle Daten sichern",
+      "Daten ändern"
+    ]
+  },
+  {
+    "nr": 301,
+    "questionType": "choice",
+    "frage": "Welche Absicht steckt hinter einer Phishing-Mail?",
+    "antwort": "Zugangsdaten stehlen",
+    "falseAnswers": [
+      "Daten erpressen",
+      "Änderungen sichern",
+      "Daten löschen"
+    ]
+  },
+  {
+    "nr": 302,
+    "questionType": "choice",
+    "frage": "Ein Angreifer nutzt Phishing. Welches Ergebnis ist von ihm beabsichtigt?",
+    "antwort": "Zugangsdaten stehlen",
+    "falseAnswers": [
+      "Daten erpressen",
+      "Änderungen sichern",
+      "Daten löschen"
+    ]
+  },
+  {
+    "nr": 303,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zur Bedrohung durch Phishing?",
+    "antwort": "Zugangsdaten stehlen",
+    "falseAnswers": [
+      "Daten erpressen",
+      "Änderungen sichern",
+      "Daten löschen"
+    ]
+  },
+  {
+    "nr": 304,
+    "questionType": "choice",
+    "frage": "Warum führen Kriminelle Phishing-Angriffe durch?",
+    "antwort": "Zugangsdaten stehlen",
+    "falseAnswers": [
+      "Daten erpressen",
+      "Änderungen sichern",
+      "Daten löschen"
+    ]
+  },
+  {
+    "nr": 305,
+    "questionType": "choice",
+    "frage": "Welche Absicht steckt hinter Ransomware?",
+    "antwort": "Daten erpressen",
+    "falseAnswers": [
+      "Schadcode tarnen",
+      "Daten wiederherstellen",
+      "Datensatz identifizieren"
+    ]
+  },
+  {
+    "nr": 306,
+    "questionType": "choice",
+    "frage": "Ein Angreifer schleust Ransomware ein. Welches Ergebnis ist von ihm beabsichtigt?",
+    "antwort": "Daten erpressen",
+    "falseAnswers": [
+      "Schadcode tarnen",
+      "Daten wiederherstellen",
+      "Datensatz identifizieren"
+    ]
+  },
+  {
+    "nr": 307,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu Ransomware?",
+    "antwort": "Daten erpressen",
+    "falseAnswers": [
+      "Schadcode tarnen",
+      "Daten wiederherstellen",
+      "Datensatz identifizieren"
+    ]
+  },
+  {
+    "nr": 308,
+    "questionType": "choice",
+    "frage": "Warum wird Ransomware von Cyberkriminellen genutzt?",
+    "antwort": "Daten erpressen",
+    "falseAnswers": [
+      "Schadcode tarnen",
+      "Daten wiederherstellen",
+      "Datensatz identifizieren"
+    ]
+  },
+  {
+    "nr": 309,
+    "questionType": "choice",
+    "frage": "Welche Absicht steckt hinter einem Trojaner?",
+    "antwort": "Schadcode tarnen",
+    "falseAnswers": [
+      "Dateien infizieren",
+      "Daten langfristig speichern",
+      "Tabellen verbinden"
+    ]
+  },
+  {
+    "nr": 310,
+    "questionType": "choice",
+    "frage": "Ein Angreifer verwendet einen Trojaner. Welches Ergebnis ist von ihm beabsichtigt?",
+    "antwort": "Schadcode tarnen",
+    "falseAnswers": [
+      "Dateien infizieren",
+      "Daten langfristig speichern",
+      "Tabellen verbinden"
+    ]
+  },
+  {
+    "nr": 311,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Trojaner?",
+    "antwort": "Schadcode tarnen",
+    "falseAnswers": [
+      "Dateien infizieren",
+      "Daten langfristig speichern",
+      "Tabellen verbinden"
+    ]
+  },
+  {
+    "nr": 312,
+    "questionType": "choice",
+    "frage": "Warum verpacken Angreifer Schadsoftware als Trojaner?",
+    "antwort": "Schadcode tarnen",
+    "falseAnswers": [
+      "Dateien infizieren",
+      "Daten langfristig speichern",
+      "Tabellen verbinden"
+    ]
+  },
+  {
+    "nr": 313,
+    "questionType": "choice",
+    "frage": "Welche Absicht steckt hinter einem Computervirus?",
+    "antwort": "Dateien infizieren",
+    "falseAnswers": [
+      "Netzwerke verbreiten",
+      "Anfrage dokumentieren",
+      "Daten modellieren"
+    ]
+  },
+  {
+    "nr": 314,
+    "questionType": "choice",
+    "frage": "Ein schädlicher Virus wird ausgeführt. Welches Ergebnis wird dadurch verursacht?",
+    "antwort": "Dateien infizieren",
+    "falseAnswers": [
+      "Netzwerke verbreiten",
+      "Anfrage dokumentieren",
+      "Daten modellieren"
+    ]
+  },
+  {
+    "nr": 315,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Computervirus?",
+    "antwort": "Dateien infizieren",
+    "falseAnswers": [
+      "Netzwerke verbreiten",
+      "Anfrage dokumentieren",
+      "Daten modellieren"
+    ]
+  },
+  {
+    "nr": 316,
+    "questionType": "choice",
+    "frage": "Warum ist ein Computervirus gefährlich?",
+    "antwort": "Dateien infizieren",
+    "falseAnswers": [
+      "Netzwerke verbreiten",
+      "Anfrage dokumentieren",
+      "Daten modellieren"
+    ]
+  },
+  {
+    "nr": 317,
+    "questionType": "choice",
+    "frage": "Welche Absicht steckt hinter einem Netzwerkwurm?",
+    "antwort": "Netzwerke verbreiten",
+    "falseAnswers": [
+      "Anmeldung verstärken",
+      "Service regeln",
+      "Redundanz verringern"
+    ]
+  },
+  {
+    "nr": 318,
+    "questionType": "choice",
+    "frage": "Ein Netzwerkwurm dringt in ein System ein. Welches Ergebnis ist die Folge?",
+    "antwort": "Netzwerke verbreiten",
+    "falseAnswers": [
+      "Anmeldung verstärken",
+      "Service regeln",
+      "Redundanz verringern"
+    ]
+  },
+  {
+    "nr": 319,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Netzwerkwurm?",
+    "antwort": "Netzwerke verbreiten",
+    "falseAnswers": [
+      "Anmeldung verstärken",
+      "Service regeln",
+      "Redundanz verringern"
+    ]
+  },
+  {
+    "nr": 320,
+    "questionType": "choice",
+    "frage": "Warum ist die Ausbreitung eines Netzwerkwurms so effektiv?",
+    "antwort": "Netzwerke verbreiten",
+    "falseAnswers": [
+      "Anmeldung verstärken",
+      "Service regeln",
+      "Redundanz verringern"
+    ]
+  },
+  {
+    "nr": 321,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt Multi-Faktor-Authentifizierung (MFA)?",
+    "antwort": "Anmeldung verstärken",
+    "falseAnswers": [
+      "Zugang absichern",
+      "Support weitergeben",
+      "Suche beschleunigen"
+    ]
+  },
+  {
+    "nr": 322,
+    "questionType": "choice",
+    "frage": "Ein Administrator richtet MFA ein. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Anmeldung verstärken",
+    "falseAnswers": [
+      "Zugang absichern",
+      "Support weitergeben",
+      "Suche beschleunigen"
+    ]
+  },
+  {
+    "nr": 323,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu MFA?",
+    "antwort": "Anmeldung verstärken",
+    "falseAnswers": [
+      "Zugang absichern",
+      "Support weitergeben",
+      "Suche beschleunigen"
+    ]
+  },
+  {
+    "nr": 324,
+    "questionType": "choice",
+    "frage": "Warum wird MFA für alle Benutzerkonten empfohlen?",
+    "antwort": "Anmeldung verstärken",
+    "falseAnswers": [
+      "Zugang absichern",
+      "Support weitergeben",
+      "Suche beschleunigen"
+    ]
+  },
+  {
+    "nr": 325,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt eine Passphrase?",
+    "antwort": "Zugang absichern",
+    "falseAnswers": [
+      "Daten prüfen",
+      "Standardprobleme lösen",
+      "Änderungen bündeln"
+    ]
+  },
+  {
+    "nr": 326,
+    "questionType": "choice",
+    "frage": "Ein Administrator erzwingt Passphrasen. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Zugang absichern",
+    "falseAnswers": [
+      "Daten prüfen",
+      "Standardprobleme lösen",
+      "Änderungen bündeln"
+    ]
+  },
+  {
+    "nr": 327,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einer Passphrase?",
+    "antwort": "Zugang absichern",
+    "falseAnswers": [
+      "Daten prüfen",
+      "Standardprobleme lösen",
+      "Änderungen bündeln"
+    ]
+  },
+  {
+    "nr": 328,
+    "questionType": "choice",
+    "frage": "Warum wird eine Passphrase statt eines kurzen Passworts gewählt?",
+    "antwort": "Zugang absichern",
+    "falseAnswers": [
+      "Daten prüfen",
+      "Standardprobleme lösen",
+      "Änderungen bündeln"
+    ]
+  },
+  {
+    "nr": 329,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein Hashwert?",
+    "antwort": "Daten prüfen",
+    "falseAnswers": [
+      "Befehle verarbeiten",
+      "Identität bestätigen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 330,
+    "questionType": "choice",
+    "frage": "Ein System berechnet einen Hashwert. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Daten prüfen",
+    "falseAnswers": [
+      "Befehle verarbeiten",
+      "Identität bestätigen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 331,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Hashwert?",
+    "antwort": "Daten prüfen",
+    "falseAnswers": [
+      "Befehle verarbeiten",
+      "Identität bestätigen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 332,
+    "questionType": "choice",
+    "frage": "Warum werden Hashwerte bei der Datenübertragung genutzt?",
+    "antwort": "Daten prüfen",
+    "falseAnswers": [
+      "Befehle verarbeiten",
+      "Identität bestätigen",
+      "Störung bearbeiten"
+    ]
+  },
+  {
+    "nr": 333,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt ein digitales Zertifikat?",
+    "antwort": "Identität bestätigen",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Herkunft bestätigen",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 334,
+    "questionType": "choice",
+    "frage": "Ein Server verwendet ein SSL-Zertifikat. Welches Ergebnis ist beabsichtigt?",
+    "antwort": "Identität bestätigen",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Herkunft bestätigen",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 335,
+    "questionType": "choice",
+    "frage": "Welche Beschreibung passt zu einem Zertifikat?",
+    "antwort": "Identität bestätigen",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Herkunft bestätigen",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 336,
+    "questionType": "choice",
+    "frage": "Warum werden digitale Zertifikate im Web verwendet?",
+    "antwort": "Identität bestätigen",
+    "falseAnswers": [
+      "Daten zwischenspeichern",
+      "Herkunft bestätigen",
+      "Ursache analysieren"
+    ]
+  },
+  {
+    "nr": 337,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe übernimmt eine digitale Signatur?",
+    "antwort": "Herkunft bestätigen",
+    "falseAnswers": [
+      "Daten dauerhaft speichern",
+      "Zugriff beschränken",
+      "Änderung steuern"
+    ]
+  },
+   {
+    "nr": 501,
+    "questionType": "open",
+    "frage": "Welches Kabel überträgt Bild und Ton digital gleichzeitig?",
+    "antwort": "HDMI oder DisplayPort"
+  },
+  {
+    "nr": 502,
+    "questionType": "open",
+    "frage": "Welche Maßeinheit gibt die Bildwiederholfrequenz eines Monitors an?",
+    "antwort": "Hertz (Hz)"
+  },
+  {
+    "nr": 503,
+    "questionType": "open",
+    "frage": "Wie heißt die Schnittstelle zum direkten Einbau schneller NVMe-SSDs auf dem Mainboard?",
+    "antwort": "M.2 Slot"
+  },
+  {
+    "nr": 504,
+    "questionType": "open",
+    "frage": "Welches Bauteil versorgt alle Komponenten des PCs mit Gleichstrom?",
+    "antwort": "Netzteil (PSU)"
+  },
+  {
+    "nr": 505,
+    "questionType": "open",
+    "frage": "Wie nennt man die physikalische Auflösung eines Monitors in Pixeln pro Zoll?",
+    "antwort": "Pixeldichte (PPI)"
+  },
+  {
+    "nr": 506,
+    "questionType": "open",
+    "frage": "Welcher RAM-Typ ist aktuell der modernste Standard für PC-Arbeitsspeicher?",
+    "antwort": "DDR5-RAM"
+  },
+  {
+    "nr": 507,
+    "questionType": "open",
+    "frage": "Welche Norm regelt Anforderungen an die Bildschirmarbeitsverordnung bzgl. Ergonomie?",
+    "antwort": "DIN EN ISO 9241"
+  },
+  {
+    "nr": 508,
+    "questionType": "open",
+    "frage": "Wie lautet die deutsche Abkürzung für eine unterbrechungsfreie Stromversorgung?",
+    "antwort": "USV"
+  },
+  {
+    "nr": 509,
+    "questionType": "open",
+    "frage": "Welcher Druckertyp nutzt Hitze und speziell beschichtetes Papier?",
+    "antwort": "Thermodirektdrucker"
+  },
+  {
+    "nr": 510,
+    "questionType": "open",
+    "frage": "Welches Bauteil kühlt die CPU direkt durch Wärmeleitung?",
+    "antwort": "Kühlkörper"
+  },
+  {
+    "nr": 511,
+    "questionType": "open",
+    "frage": "Wie heißt der Sockel für moderne AMD-Desktop-Prozessoren der Ryzen-7000er-Serie?",
+    "antwort": "AM5"
+  },
+  {
+    "nr": 512,
+    "questionType": "open",
+    "frage": "Welche Tastatur-Verbindung gilt als am wenigsten anfällig für Latenz?",
+    "antwort": "USB-Kabelverbindung"
+  },
+  {
+    "nr": 513,
+    "questionType": "open",
+    "frage": "Wie nennt man den Hauptplatine-Chip, der die grundlegende Systemstart-Firmware enthält?",
+    "antwort": "BIOS / UEFI"
+  },
+  {
+    "nr": 514,
+    "questionType": "open",
+    "frage": "Welcher Farbraum wird primär für Druckmedien genutzt?",
+    "antwort": "CMYK"
+  },
+  {
+    "nr": 515,
+    "questionType": "open",
+    "frage": "Welche Akku-Technologie wird standardmäßig in mobilen IT-Geräten verbaut?",
+    "antwort": "Lithium-Ionen"
+  },
+  {
+    "nr": 516,
+    "questionType": "open",
+    "frage": "Wie heißt der Abstand zwischen den Augen und dem Bildschirm bei ergonomischer Ausrichtung?",
+    "antwort": "Sehabstand"
+  },
+  {
+    "nr": 517,
+    "questionType": "open",
+    "frage": "Welcher Bussystem-Standard ermöglicht Datenraten von bis zu 40 Gbit/s über Typ-C?",
+    "antwort": "Thunderbolt 4"
+  },
+  {
+    "nr": 518,
+    "questionType": "open",
+    "frage": "Welcher Druckertyp verwendet flüssige Tinte?",
+    "antwort": "Tintenstrahl-Drucker"
+  },
+  {
+    "nr": 519,
+    "questionType": "open",
+    "frage": "Welche Gehäuse-Bauform ist bei Standard-Büro-PCs am weitesten verbreitet?",
+    "antwort": "Mid-Tower (ATX)"
+  },
+  {
+    "nr": 520,
+    "questionType": "open",
+    "frage": "Wie heißt das Bauteil, das digitale Signale in optische für Glasfaser umwandelt?",
+    "antwort": "Transceiver (SFP)"
+  },
+  {
+    "nr": 521,
+    "questionType": "choice",
+    "frage": "Was beschreibt der Begriff 'Hot-Swapping'?",
+    "antwort": "Das Tauschen von Hardwarekomponenten ohne Ausschalten des Systems",
+    "falseAnswers": [
+      "Das Übertakten von Prozessoren im laufenden Betrieb",
+      "Das schnelle Wechseln zwischen zwei Betriebssystemen",
+      "Das automatische Drosseln der CPU bei Überhitzung"
+    ]
+  },
+  {
+    "nr": 522,
+    "questionType": "choice",
+    "frage": "Welche Schutzklasse gegen Festkörper und Wasser beschreibt IP68?",
+    "antwort": "Staubdicht und Schutz gegen dauerndes Untertauchen",
+    "falseAnswers": [
+      "Spritzwassergeschützt und staubgeschützt",
+      "Schutz gegen Tropfwasser und Berührung mit dem Finger",
+      "Wasserdicht bis 100 Meter Tiefe"
+    ]
+  },
+  {
+    "nr": 523,
+    "questionType": "choice",
+    "frage": "Welcher Bildschirm-Paneltyp bietet von Natur aus die besten Blickwinkel und Farbtreue?",
+    "antwort": "IPS (In-Plane Switching)",
+    "falseAnswers": [
+      "TN (Twisted Nematic)",
+      "VA (Vertical Alignment)",
+      "TFT Standard"
+    ]
+  },
+  {
+    "nr": 524,
+    "questionType": "choice",
+    "frage": "Welche Spannung liefert ein gelbes Kabel bei einem Standard-ATX-Netzteil?",
+    "antwort": "+12 V",
+    "falseAnswers": [
+      "+3.3 V",
+      "+5 V",
+      "-12 V"
+    ]
+  },
+  {
+    "nr": 525,
+    "questionType": "choice",
+    "frage": "Was ist die primäre Aufgabe des ECC-Arbeitsspeichers?",
+    "antwort": "Automatische Erkennung und Korrektur von Speicherfehlern",
+    "falseAnswers": [
+      "Verdopplung der Taktrate",
+      "Reduzierung der Stromaufnahme um 50%",
+      "Direkte Anbindung an die Grafikkarte"
+    ]
+  },
+  {
+    "nr": 526,
+    "questionType": "choice",
+    "frage": "Welches Prinzip nutzt eine Magnetfestplatte (HDD) zum Speichern von Daten?",
+    "antwort": "Magnetische Polarisierung der Oberfläche",
+    "falseAnswers": [
+      "Flash-Zellen-Ladung",
+      "Optische Abtastung mittels Laser",
+      "Phase-Change-Memristoren"
+    ]
+  },
+  {
+    "nr": 527,
+    "questionType": "choice",
+    "frage": "Welches Druckverfahren nutzt Toner-Pulver und eine Belichtungstrommel?",
+    "antwort": "Laserdruck",
+    "falseAnswers": [
+      "Tintenstrahldruck",
+      "Thermotransferdruck",
+      "Nadeldruck"
+    ]
+  },
+  {
+    "nr": 528,
+    "questionType": "choice",
+    "frage": "Was beschreibt die Latenzzeit bei einem Arbeitsspeicher (CAS Latency)?",
+    "antwort": "Zeitspanne zwischen Anforderung und Bereitstellung der Daten",
+    "falseAnswers": [
+      "Maximale Frequenz des Speicherbusses",
+      "Zeit, die zum Entladen der Kondensatoren benötigt wird",
+      "Dichte der integrierten Speicherbausteine"
+    ]
+  },
+  {
+    "nr": 529,
+    "questionType": "choice",
+    "frage": "Welche Schnittstelle wird typischerweise zum Anschluss interner SATA-Festplatten genutzt?",
+    "antwort": "SATA III",
+    "falseAnswers": [
+      "PCIe x16",
+      "Molex",
+      "IDE"
+    ]
+  },
+  {
+    "nr": 530,
+    "questionType": "choice",
+    "frage": "Wie hoch sollte die Beleuchtungsstärke an einem Standard-Büroarbeitsplatz gemäß Arbeitsstättenrichtlinie mindestens sein?",
+    "antwort": "500 Lux",
+    "falseAnswers": [
+      "100 Lux",
+      "300 Lux",
+      "1000 Lux"
+    ]
+  },
+  {
+    "nr": 531,
+    "questionType": "choice",
+    "frage": "Was ist der Hauptvorteil einer NVMe-SSD gegenüber einer SATA-SSD?",
+    "antwort": "Höhere maximale Durchsatzrate durch PCIe-Anbindung",
+    "falseAnswers": [
+      "Geringerer Anschaffungspreis",
+      "Höhere Speicherkapazität",
+      "Unempfindlichkeit gegen Stromausfälle"
+    ]
+  },
+  {
+    "nr": 532,
+    "questionType": "choice",
+    "frage": "Welche Komponente im PC wandelt Wechselstrom (AC) aus der Steckdose in Gleichstrom (DC) um?",
+    "antwort": "Schaltnetzteil",
+    "falseAnswers": [
+      "Mainboard",
+      "CPU-Spannungswandler",
+      "USV"
+    ]
+  },
+  {
+    "nr": 533,
+    "questionType": "choice",
+    "frage": "Was gibt die TPD (Thermal Design Power) bei einem Prozessor an?",
+    "antwort": "Die maximale Verlustleistung, die das Kühlsystem abführen muss",
+    "falseAnswers": [
+      "Die maximale Temperatur vor der Kernschmelze",
+      "Die empfohlene Raumtemperatur für den Betrieb",
+      "Die elektrische Leistung im Standby-Modus"
+    ]
+  },
+  {
+    "nr": 534,
+    "questionType": "choice",
+    "frage": "Welcher Steckverbinder ist reversibel (kann in beiden Richtungen eingesteckt werden)?",
+    "antwort": "USB Typ-C",
+    "falseAnswers": [
+      "USB Typ-A",
+      "USB Typ-B",
+      "Micro-USB"
+    ]
+  },
+  {
+    "nr": 535,
+    "questionType": "choice",
+    "frage": "Welcher Gehäusestandard beschreibt die Abmessungen und Befestigungspunkte von PC-Mainboards?",
+    "antwort": "ATX",
+    "falseAnswers": [
+      "ISO 9001",
+      "ITIL",
+      "RGB"
+    ]
+  },
+  {
+    "nr": 536,
+    "questionType": "choice",
+    "frage": "Welcher Tastatur-Schaltertyp (Mechanical Switch) bietet spürbares taktiles Feedback ohne hörbares Klickgeräusch?",
+    "antwort": "Brown Switches (taktil)",
+    "falseAnswers": [
+      "Red Switches (linear)",
+      "Blue Switches (klickend)",
+      "Black Switches (linear schwer)"
+    ]
+  },
+  {
+    "nr": 537,
+    "questionType": "choice",
+    "frage": "Was versteht man unter dem Begriff 'Kaskadierung' bei USV-Anlagen?",
+    "antwort": "Paralleles Schalten mehrerer Akkus zur Kapazitätserhöhung",
+    "falseAnswers": [
+      "Hintereinanderschalten von Netzteilen",
+      "Automatische Abschaltung von Verbrauchern nach Priorität",
+      "Phasenverschiebung im Drehstromnetz"
+    ]
+  },
+  {
+    "nr": 538,
+    "questionType": "choice",
+    "frage": "Welcher Faktor ist beim Erwerb eines Monitors im Hinblick auf Ergonomie besonders wichtig?",
+    "antwort": "Höhenverstellbarkeit und Neigbarkeit",
+    "falseAnswers": [
+      "Maximale Helligkeit von 2000 Nits",
+      "Integrierte RGB-Beleuchtung",
+      "Glänzendes Display (Glossy)"
+    ]
+  },
+  {
+    "nr": 539,
+    "questionType": "choice",
+    "frage": "Wie viele Pins besitzt ein Standard-24-Pin-ATX-Hauptstromstecker?",
+    "antwort": "24",
+    "falseAnswers": [
+      "20",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "nr": 540,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe hat das Wärmeleitmittel (Wärmeleitpaste) zwischen CPU und Kühler?",
+    "antwort": "Ausgleichen mikroskopischer Unebenheiten zur besseren Wärmeübertragung",
+    "falseAnswers": [
+      "Elektrische Isolierung des Prozessors",
+      "Festkleben des Kühlers auf dem Sockel",
+      "Schutz des Prozessors vor Staub"
+    ]
+  },
+  {
+    "nr": 541,
+    "questionType": "choice",
+    "frage": "Welches Signal überträgt ein DVI-D-Kabel?",
+    "antwort": "Nur digitale Video-Signale",
+    "falseAnswers": [
+      "Nur analoge Video-Signale",
+      "Digitale Video- und Audiosignale",
+      "Analoge und digitale Videosignale"
+    ]
+  },
+  {
+    "nr": 542,
+    "questionType": "choice",
+    "frage": "Welche USV-Klasse bietet den besten Schutz vor Netzstörungen und Spannungsschwankungen?",
+    "antwort": "VFI (Online / Doppelwandler)",
+    "falseAnswers": [
+      "VFD (Offline)",
+      "VI (Line-Interactive)",
+      "Standby-USV"
+    ]
+  },
+  {
+    "nr": 543,
+    "questionType": "choice",
+    "frage": "Welche Display-Technologie benötigt KEINE Hintergrundbeleuchtung, da die Pixel selbst leuchten?",
+    "antwort": "OLED",
+    "falseAnswers": [
+      "TFT-LCD",
+      "IPS",
+      "TN"
+    ]
+  },
+  {
+    "nr": 544,
+    "questionType": "choice",
+    "frage": "Welcher Standard beschreibt das Einsparen von Energie bei Computermonitoren und -peripherie?",
+    "antwort": "Energy Star",
+    "falseAnswers": [
+      "ISO 27001",
+      "GDPR",
+      "Bluetooth 5.0"
+    ]
+  },
+  {
+    "nr": 545,
+    "questionType": "choice",
+    "frage": "Was versteht man unter dem Begriff 'Formfaktor' in der Hardwareentwicklung?",
+    "antwort": "Standardisierte Angaben zu Form, Größe und Befestigung von Komponenten",
+    "falseAnswers": [
+      "Die Geschwindigkeit einer Schnittstelle",
+      "Das Verhältnis zwischen Stromverbrauch und Rechenleistung",
+      "Die Anzahl der Prozessorkerne"
+    ]
+  },
+  {
+    "nr": 546,
+    "questionType": "choice",
+    "frage": "Welcher Bus-Typ wird zur internen Anbindung von Grafikkarte und modernen NVMe-SSDs genutzt?",
+    "antwort": "PCI Express (PCIe)",
+    "falseAnswers": [
+      "ISA",
+      "AGP",
+      "USB"
+    ]
+  },
+  {
+    "nr": 547,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe hat der CMOS-Akku (z.B. CR2032) auf dem Mainboard?",
+    "antwort": "Stromversorgung der Echtzeituhr (RTC) und Speicherung der BIOS-Einstellungen",
+    "falseAnswers": [
+      "Notstromversorgung für die CPU bei Stromausfall",
+      "Beschleunigung des Systemstarts",
+      "Speichern des Betriebssystems"
+    ]
+  },
+  {
+    "nr": 548,
+    "questionType": "choice",
+    "frage": "Welcher Begriff beschreibt den Stromverbrauch einer Komponente im ausgeschalteten, aber eingesteckten Zustand?",
+    "antwort": "Standby-Leistung / Ruhestrom",
+    "falseAnswers": [
+      "Nennleistung",
+      "Spitzenlast",
+      "Wirkleistung"
+    ]
+  },
+  {
+    "nr": 549,
+    "questionType": "choice",
+    "frage": "Was kennzeichnet eine optische Maus im Vergleich zu einer Laser-Maus?",
+    "antwort": "Optische Mäuse nutzen eine LED zur Oberflächenabtastung",
+    "falseAnswers": [
+      "Laser-Mäuse funktionieren nicht auf Glas",
+      "Optische Mäuse benötigen keine Treiber",
+      "Laser-Mäuse sind immer kabellos"
+    ]
+  },
+  {
+    "nr": 550,
+    "questionType": "choice",
+    "frage": "Welches Speichermedium nutzt NAND-Flash-Zellen?",
+    "antwort": "SSD",
+    "falseAnswers": [
+      "Magnetband (LTO)",
+      "DVD-RAM",
+      "Cache der CPU"
+    ]
+  },
+  {
+    "nr": 551,
+    "questionType": "choice",
+    "frage": "Was ist die Einheit zur Messung des Lichtstroms einer Lichtquelle?",
+    "antwort": "Lumen",
+    "falseAnswers": [
+      "Lux",
+      "Candela",
+      "Watt"
+    ]
+  },
+  {
+    "nr": 552,
+    "questionType": "choice",
+    "frage": "Welche Schnittstelle wird primär für das Anschließen von externen High-Speed-Speichermedien und Monitoren an Notebooks verwendet?",
+    "antwort": "Thunderbolt / USB4",
+    "falseAnswers": [
+      "RS232",
+      "VGA",
+      "PS/2"
+    ]
+  },
+  {
+    "nr": 553,
+    "questionType": "choice",
+    "frage": "Welcher Standard regelt die Schutzzielanforderungen für elektrische Geräte im Hinblick auf Produktsicherheit in der EU?",
+    "antwort": "CE-Kennzeichnung",
+    "falseAnswers": [
+      "DIN 9001",
+      "ITIL v4",
+      "IP65"
+    ]
+  },
+  {
+    "nr": 554,
+    "questionType": "choice",
+    "frage": "Was bewirkt der Einsatz von Dual-Channel-Arbeitsspeicher?",
+    "antwort": "Verdopplung der theoretischen Datenübertragungsrate zum Speichercontroller",
+    "falseAnswers": [
+      "Verdopplung des verfügbaren Speicherplatzes",
+      "Halbiereung der Zugriffszeiten",
+      "Ausfallsicherheit bei Speicherdefekt"
+    ]
+  },
+  {
+    "nr": 555,
+    "questionType": "choice",
+    "frage": "Was ist der Hauptunterschied zwischen DDR4- und DDR5-RAM?",
+    "antwort": "DDR5 integriert die Spannungsregelung (PMIC) direkt auf dem Riegel",
+    "falseAnswers": [
+      "DDR5 hat weniger Pins",
+      "DDR4 benötigt höhere Betriebsspannungen als DDR3",
+      "DDR5 ist abwärtskompatibel zu DDR4"
+    ]
+  },
+  {
+    "nr": 556,
+    "questionType": "choice",
+    "frage": "Welcher Drucker zeichnet sich durch extrem geringe Verbrauchskosten bei hohem Druckvolumen im Textbereich aus?",
+    "antwort": "Schwarz-Weiß-Laserdrucker",
+    "falseAnswers": [
+      "Fotodrucker",
+      "Nadeldrucker",
+      "3D-Drucker"
+    ]
+  },
+  {
+    "nr": 557,
+    "questionType": "choice",
+    "frage": "Welche Komponente eines Notebooks verbraucht unter Volllast neben der GPU am meisten Energie?",
+    "antwort": "Prozessor (CPU)",
+    "falseAnswers": [
+      "Web-Cam",
+      "Touchpad",
+      "Bluetooth-Modul"
+    ]
+  },
+  {
+    "nr": 558,
+    "questionType": "choice",
+    "frage": "Welcher Begriff beschreibt den Helligkeitsunterschied zwischen dem hellsten Weiß und dem dunkelsten Schwarz eines Displays?",
+    "antwort": "Kontrastverhältnis",
+    "falseAnswers": [
+      "Reaktionszeit",
+      "Farbtiefe",
+      "Blickwinkel"
+    ]
+  },
+  {
+    "nr": 559,
+    "questionType": "choice",
+    "frage": "Welches Werkzeug wird benötigt, um RJ45-Stecker an ein Netzwerkkabel anzubringen?",
+    "antwort": "Crimpzange",
+    "falseAnswers": [
+      "Lötkolben",
+      "Abisolierzange",
+      "Seitenschneider"
+    ]
+  },
+  {
+    "nr": 560,
+    "questionType": "choice",
+    "frage": "Was gibt die Maßeinheit 'DPI' bei einem Scanner oder Drucker an?",
+    "antwort": "Dots Per Inch",
+    "falseAnswers": [
+      "Data Per Inch",
+      "Displays Per Inch",
+      "Dynamic Processing Interface"
+    ]
+  },
+  {
+    "nr": 561,
+    "questionType": "choice",
+    "frage": "Welches Kabel wird zur analogen Bildübertragung an älteren Monitoren verwendet?",
+    "antwort": "VGA",
+    "falseAnswers": [
+      "DisplayPort",
+      "HDMI",
+      "DVI-D"
+    ]
+  },
+  {
+    "nr": 562,
+    "questionType": "choice",
+    "frage": "Welche Temperatur wird für ein ergonomisch optimales Büroklima empfohlen?",
+    "antwort": "20–22 °C",
+    "falseAnswers": [
+      "15–18 °C",
+      "25–28 °C",
+      "Unabhängig von der Raumtemperatur"
+    ]
+  },
+  {
+    "nr": 563,
+    "questionType": "choice",
+    "frage": "Welcher RAM-Formfaktor wird in Laptops und Mini-PCs verbaut?",
+    "antwort": "SO-DIMM",
+    "falseAnswers": [
+      "DIMM",
+      "Micro-DIMM",
+      "Registered DIMM"
+    ]
+  },
+  {
+    "nr": 564,
+    "questionType": "choice",
+    "frage": "Was beschreibt der Begriff 'S.M.A.R.T.' bei Festplatten und SSDs?",
+    "antwort": "Ein System zur Selbstüberwachung und Fehleranalyse",
+    "falseAnswers": [
+      "Ein Übertragungsprotokoll",
+      "Eine Verschlüsselungsmethode",
+      "Ein Partitionierungsschema"
+    ]
+  },
+  {
+    "nr": 565,
+    "questionType": "choice",
+    "frage": "Welche Stromspannung wird typischerweise über PoE (Power over Ethernet) gemäß IEEE 802.3af geliefert?",
+    "antwort": "48 V",
+    "falseAnswers": [
+      "5 V",
+      "12 V",
+      "230 V"
+    ]
+  },
+  {
+    "nr": 566,
+    "questionType": "choice",
+    "frage": "Welche Architektur nutzen moderne Apple-M-Prozessoren sowie viele Smartphones?",
+    "antwort": "ARM",
+    "falseAnswers": [
+      "x86",
+      "x64",
+      "PowerPC"
+    ]
+  },
+  {
+    "nr": 567,
+    "questionType": "choice",
+    "frage": "Welches Phänomen kann bei langen Kabelstrecken von Kupfer-Netzwerkkabeln zu Signalverlust führen?",
+    "antwort": "Dämpfung (Attenuation)",
+    "falseAnswers": [
+      "Refraktion",
+      "Modulation",
+      "Fragmentierung"
+    ]
+  },
+  {
+    "nr": 568,
+    "questionType": "choice",
+    "frage": "Welcher Parameter ist bei der Auswahl einer USV entscheidend für die maximale Belastbarkeit?",
+    "antwort": "Nennleistung in VA / Watt",
+    "falseAnswers": [
+      "Gewicht des Gehäuses",
+      "Anzahl der RJ45-Ports",
+      "Farbe der Status-LED"
+    ]
+  },
+  {
+    "nr": 569,
+    "questionType": "choice",
+    "frage": "Was versteht man unter der 'Acoustic Noise'-Angabe bei Server- und PC-Komponenten?",
+    "antwort": "Die Geräuschemission in Dezibel (dB)",
+    "falseAnswers": [
+      "Den Frequenzbereich der Lautsprecher",
+      "Die Abschirmung gegen elektromagnetische Wellen",
+      "Die Datenübertragungsstörung"
+    ]
+  },
+  {
+    "nr": 570,
+    "questionType": "choice",
+    "frage": "Welche Art von Tastatur-Layout wird im deutschsprachigen Raum verwendet?",
+    "antwort": "QWERTZ",
+    "falseAnswers": [
+      "QWERTY",
+      "AZERTY",
+      "DSK"
+    ]
+  },
+  {
+    "nr": 571,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe erfüllt der Chipsatz (Northbridge/Southbridge bzw. PCH) auf einem Mainboard?",
+    "antwort": "Steuerung der Kommunikation zwischen CPU, Speicher und Peripherie",
+    "falseAnswers": [
+      "Umwandlung von Grafiksignalen",
+      "Speicherung des Betriebssystems",
+      "Kühlung des Prozessors"
+    ]
+  },
+  {
+    "nr": 572,
+    "questionType": "choice",
+    "frage": "Wie groß ist die Standard-Breite von Servergehäusen und Racks im IT-Bereich?",
+    "antwort": "19 Zoll",
+    "falseAnswers": [
+      "10 Zoll",
+      "15 Zoll",
+      "24 Zoll"
+    ]
+  },
+  {
+    "nr": 573,
+    "questionType": "choice",
+    "frage": "Was ist die Maßeinheit für die Höhe von Geräten in einem Server-Rack?",
+    "antwort": "Höheneinheit (HE / U)",
+    "falseAnswers": [
+      "Zentimeter (cm)",
+      "Rack-Unit-Density (RUD)",
+      "Slot (S)"
+    ]
+  },
+  {
+    "nr": 574,
+    "questionType": "choice",
+    "frage": "Wie viel Millimeter entspricht eine Höheneinheit (1 HE) in einem Server-Rack?",
+    "antwort": "44,45 mm",
+    "falseAnswers": [
+      "25,4 mm",
+      "50,0 mm",
+      "100,0 mm"
+    ]
+  },
+  {
+    "nr": 575,
+    "questionType": "choice",
+    "frage": "Welche Eigenschaft zeichnet ein NAS (Network Attached Storage) aus?",
+    "antwort": "Dateibasierter Speicherdienst im Netzwerk",
+    "falseAnswers": [
+      "Direkter Anschluss über PCIe an den PC",
+      "Blockbasierte Speicherung über Fibre Channel",
+      "Reine Sicherung auf Magnetbändern"
+    ]
+  },
+  {
+    "nr": 576,
+    "questionType": "choice",
+    "frage": "Welcher Steckertyp wird standardmäßig für optische Glasfaserkabel im LAN-Bereich genutzt?",
+    "antwort": "LC / SC",
+    "falseAnswers": [
+      "RJ45",
+      "BNC",
+      "TAE"
+    ]
+  },
+  {
+    "nr": 577,
+    "questionType": "choice",
+    "frage": "Welche Schutzmaßnahme verhindert Beschädigungen elektronischer Bauteile durch statische Elektrizität beim Zusammenbau?",
+    "antwort": "Erden über ein ESD-Armband",
+    "falseAnswers": [
+      "Nutzen von Gummihandschuhen",
+      "Arbeiten auf einem Wollteppich",
+      "Befeuchten der Platine"
+    ]
+  },
+  {
+    "nr": 578,
+    "questionType": "choice",
+    "frage": "Welcher Begriff beschreibt das Zusammenführen mehrerer physischer Festplatten zu einer logischen Einheit zur Datenredundanz oder Leistungssteigerung?",
+    "antwort": "RAID",
+    "falseAnswers": [
+      "SAN",
+      "NAS",
+      "LUN"
+    ]
+  },
+  {
+    "nr": 579,
+    "questionType": "choice",
+    "frage": "Welche Festplattengröße (Formfaktor) wird primär in Standard-3,5-Zoll-Schächten von Desktop-PCs eingesetzt?",
+    "antwort": "3,5 Zoll",
+    "falseAnswers": [
+      "1,8 Zoll",
+      "2,5 Zoll",
+      "M.2"
+    ]
+  },
+  {
+    "nr": 580,
+    "questionType": "choice",
+    "frage": "Welche Schutzart bietet ein Gehäuse mit der Norm IP20?",
+    "antwort": "Schutz gegen feste Fremdkörper > 12,5 mm, kein Wasserschutz",
+    "falseAnswers": [
+      "Vollständig staub- und wasserdicht",
+      "Schutz gegen Strahlwasser",
+      "Explosionsgeschützt"
+    ]
+  },
+  {
+    "nr": 581,
+    "questionType": "choice",
+    "frage": "Welches Kabel wird verwendet, um zwei PCs direkt ohne Switch miteinander zu verbinden (älterer Standard)?",
+    "antwort": "Crossover-Kabel",
+    "falseAnswers": [
+      "Straight-Through-Kabel",
+      "Patchkabel Kat. 3",
+      "Koaxialkabel"
+    ]
+  },
+  {
+    "nr": 582,
+    "questionType": "choice",
+    "frage": "Welcher Standard beschreibt kabelgebundenes Ethernet?",
+    "antwort": "IEEE 802.3",
+    "falseAnswers": [
+      "IEEE 802.11",
+      "IEEE 802.15",
+      "IEEE 802.1Q"
+    ]
+  },
+  {
+    "nr": 583,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe hat das TPM (Trusted Platform Module) auf einer Hauptplatine?",
+    "antwort": "Hardwarebasierte Speicherung von kryptografischen Schlüsseln",
+    "falseAnswers": [
+      "Erhöhung der Grafikleistung",
+      "Bereitstellung von schnellerem RAM-Cache",
+      "Verwaltung von Netzwerkverbindungen"
+    ]
+  },
+  {
+    "nr": 584,
+    "questionType": "choice",
+    "frage": "Welcher Monitor-Anschluss unterstützt die Übertragung von High-Dynamic-Range (HDR) und sehr hohen Bildwiederholraten am effektivsten?",
+    "antwort": "DisplayPort 2.1 / HDMI 2.1",
+    "falseAnswers": [
+      "VGA",
+      "DVI-I Single Link",
+      "S-Video"
+    ]
+  },
+  {
+    "nr": 585,
+    "questionType": "choice",
+    "frage": "Welcher Effekt tritt auf, wenn ein Monitor eine geringere Bildwiederholrate liefert als die Grafikkarte Bilder ausgibt (ohne V-Sync/G-Sync)?",
+    "antwort": "Screen Tearing",
+    "falseAnswers": [
+      "Motion Blur",
+      "Burn-in",
+      "Ghosting"
+    ]
+  },
+  {
+    "nr": 586,
+    "questionType": "choice",
+    "frage": "Welche Technologie verhindert das Einbrennen von statischen Bildern bei OLED-Bildschirmen?",
+    "antwort": "Pixel Shift",
+    "falseAnswers": [
+      "Overclocking",
+      "Raytracing",
+      "Antialiasing"
+    ]
+  },
+  {
+    "nr": 587,
+    "questionType": "choice",
+    "frage": "Welche Komponente transportiert Wärme in einer All-In-One (AIO) Wasserkühlung?",
+    "antwort": "Kühlflüssigkeit (Wasser-Glykol-Gemisch)",
+    "falseAnswers": [
+      "Öl",
+      "Flüssigmetall",
+      "Luftzug allein"
+    ]
+  },
+  {
+    "nr": 588,
+    "questionType": "choice",
+    "frage": "Was beschreibt die MTBF (Mean Time Between Failures) bei Hardwarekomponenten?",
+    "antwort": "Mittlere Zeit zwischen zwei Ausfällen",
+    "falseAnswers": [
+      "Maximale Betriebstemperatur",
+      "Maximale Garantiedauer",
+      "Durchlaufzeit in der Produktion"
+    ]
+  },
+  {
+    "nr": 589,
+    "questionType": "choice",
+    "frage": "Welche Netztopologie ist bei der Verkabelung mit Ethernet-Switches der Standard?",
+    "antwort": "Stern-Topologie",
+    "falseAnswers": [
+      "Bus-Topologie",
+      "Ring-Topologie",
+      "Vermaschte Topologie"
+    ]
+  },
+  {
+    "nr": 590,
+    "questionType": "choice",
+    "frage": "Welche Eigenschaft kennzeichnet ein Notebook-Display mit der Bezeichnung 'Matte'?",
+    "antwort": "Entspiegelte Oberfläche zur Vermeidung von Reflexionen",
+    "falseAnswers": [
+      "Starke Spiegelung bei Sonneneinstrahlung",
+      "Höherer Stromverbrauch als glänzende Displays",
+      "Niedrigere Auflösung"
+    ]
+  },
+  {
+    "nr": 591,
+    "questionType": "choice",
+    "frage": "Was versteht man unter 'Thermal Throttling'?",
+    "antwort": "Automatische Taktreduzierung der CPU zur Vermeidung von Überhitzung",
+    "falseAnswers": [
+      "Manuelles Heraufsetzen des CPU-Takts",
+      "Das Ausfallen des Lüfters",
+      "Die Erwärmung des Gehäuses"
+    ]
+  },
+  {
+    "nr": 592,
+    "questionType": "choice",
+    "frage": "Welches Bussystem verbindet den Prozessor direkt mit dem Arbeitsspeicher (historischer/architektonischer Begriff)?",
+    "antwort": "Front Side Bus (FSB) / Systembus",
+    "falseAnswers": [
+      "USB",
+      "PCI Bus",
+      "I2C Bus"
+    ]
+  },
+  {
+    "nr": 593,
+    "questionType": "choice",
+    "frage": "Was gibt die Kennzeichnung '80 PLUS Gold' bei einem PC-Netzteil an?",
+    "antwort": "Einen Energie-Wirkungsgrad von mindestens ca. 87% bis 90% bei verschiedenen Laststufen",
+    "falseAnswers": [
+      "Die Maximalleistung von 800 Watt",
+      "Die Haltbarkeit von 80.000 Stunden",
+      "Die Goldbeschichtung der internen Kontakte"
+    ]
+  },
+  {
+    "nr": 594,
+    "questionType": "choice",
+    "frage": "Welches Bauteil speichert Daten flüchtig und verliert alle Inhalte beim Ausschalten?",
+    "antwort": "DDR-RAM",
+    "falseAnswers": [
+      "NVMe-SSD",
+      "CMOS-RAM",
+      "ROM"
+    ]
+  },
+  {
+    "nr": 595,
+    "questionType": "choice",
+    "frage": "Welches Tastatur-Ergonomie-Konzept zielt darauf ab, die natürliche Haltung der Hände zu unterstützen?",
+    "antwort": "Geteiltes/Ergonomisches Tastenfeld (Split Keyboard)",
+    "falseAnswers": [
+      "Mechanische Tastatur",
+      "Tenkeyless (TKL) Tastatur",
+      "Gumminoppen-Tastatur"
+    ]
+  },
+  {
+    "nr": 596,
+    "questionType": "choice",
+    "frage": "Was beschreibt die Lese- und Schreibgeschwindigkeit bei Speichermedien gewöhnlich?",
+    "antwort": "Megabyte pro Sekunde (MB/s) oder GB/s",
+    "falseAnswers": [
+      "Megabit pro Sekunde (Mbit/s)",
+      "Hertz (Hz)",
+      "Input/Output Operations Per Minute (IOPM)"
+    ]
+  },
+  {
+    "nr": 597,
+    "questionType": "choice",
+    "frage": "Welcher Standard regelt den drahtlosen Nahfeld-Datenaustausch über wenige Zentimeter (z.B. für Bezahlsysteme)?",
+    "antwort": "NFC",
+    "falseAnswers": [
+      "WLAN",
+      "LTE",
+      "Zigbee"
+    ]
+  },
+  {
+    "nr": 598,
+    "questionType": "choice",
+    "frage": "Was ist der Hauptunterschied zwischen M.2 SATA und M.2 NVMe SSDs?",
+    "antwort": "Das verwendete Übertragungsprotokoll (SATA-Bus vs. PCIe-Bus)",
+    "falseAnswers": [
+      "Die physische Länge des Riegels",
+      "Die Betriebsspannung",
+      "Der Speicherzellen-Hersteller"
+    ]
+  },
+  {
+    "nr": 599,
+    "questionType": "choice",
+    "frage": "Welche Komponente wird benötigt, um mehrere Monitore an einem einzelnen DisplayPort-Ausgang anzuschließen (Daisy Chaining)?",
+    "antwort": "MST-Hub (Multi-Stream Transport)",
+    "falseAnswers": [
+      "HDMI-Splitter",
+      "VGA-Adapter",
+      "KVM-Switch"
+    ]
+  },
+  {
+    "nr": 600,
+    "questionType": "choice",
+    "frage": "Welche Aufgabe hat ein KVM-Switch?",
+    "antwort": "Steuerung mehrerer Computer mit nur einer Tastatur, einem Monitor und einer Maus",
+    "falseAnswers": [
+      "Verbinden mehrerer Drucker mit einem PC",
+      "Umwandlung von VDSL in Fiber",
+      "Schutz vor Überspannungen im Stromnetz"
+    ]
   }
 ]

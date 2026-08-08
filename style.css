@@ -433,6 +433,15 @@ h1::before {
   box-shadow: 0 1px 0 #171712;
 }
 
+.game-over-answer {
+  margin: 16px 0;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #fff3cd;
+  color: #664d03;
+  font-weight: 600;
+}
+
 /* ===== SCOREBOARD ===== */
 #scoreBoard {
   margin: 32px auto 0;

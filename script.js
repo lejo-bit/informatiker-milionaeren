@@ -1,3 +1,4 @@
+let allQuestions = [];
 let questions = [];
 let currentIndex = 0;
 let lives = 3;
@@ -81,7 +82,10 @@ function renderScoreTable(scores) {
 async function loadQuestions() {
   try {
     const res = await fetch("fragen.json");
-    questions = await res.json();
+    const loadedQuestions = await res.json();
+
+allQuestions = loadedQuestions;
+questions = [...allQuestions];
 
     document.getElementById("loading").classList.add("hidden");
     document.getElementById("startScreen").classList.remove("hidden");
@@ -113,6 +117,11 @@ function startGame() {
 
   questions = shuffleArray(questions);
 
+if (questions.length === 0) {
+  console.error("Keine Fragen geladen.");
+  return;
+}
+
   document.getElementById("startScreen").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
   document.getElementById("gameOver").classList.add("hidden");
@@ -143,11 +152,18 @@ function updateHud() {
 }
 
 function shuffleArray(arr) {
-  return arr
-    .map(value => ({ value, sortKey: Math.random() }))
-    .sort((a, b) => a.sortKey - b.sortKey)
-    .map(entry => entry.value);
+  const shuffled = [...arr];
+
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const randomIndex = Math.floor(Math.random() * (i + 1));
+
+    [shuffled[i], shuffled[randomIndex]] =
+      [shuffled[randomIndex], shuffled[i]];
+  }
+
+  return shuffled;
 }
+
 
 function getShuffledOptions(question) {
   const options = [
@@ -306,7 +322,7 @@ function handleAnswer() {
     lives -= 1;
     if (lives <= 0) {
       updateHud();
-      endGame();
+      endGame(q);
       return;
     }
   }
@@ -400,7 +416,7 @@ function handleTimeout() {
   updateHud();
 
   if (lives <= 0) {
-    endGame();
+    endGame(q);
     return;
   }
 
@@ -416,18 +432,47 @@ function handleTimeout() {
   }, 15000);
 }
 
-function endGame() {
+function endGame(q = null) {
   clearInterval(timerInterval);
-  if (delayInterval) clearTimeout(delayInterval);
-  if (errorDelayInterval) clearTimeout(errorDelayInterval);
+
+  if (delayInterval) {
+    clearTimeout(delayInterval);
+    delayInterval = null;
+  }
+
+  if (errorDelayInterval) {
+    clearTimeout(errorDelayInterval);
+    errorDelayInterval = null;
+  }
 
   const gameEl = document.getElementById("game");
   const gameOverEl = document.getElementById("gameOver");
   const finalScoreEl = document.getElementById("finalScore");
+  const correctAnswerEl =
+    document.getElementById("gameOverCorrectAnswer");
 
-  if (gameEl) gameEl.classList.add("hidden");
-  if (gameOverEl) gameOverEl.classList.remove("hidden");
-  if (finalScoreEl) finalScoreEl.textContent = score;
+  if (gameEl) {
+    gameEl.classList.add("hidden");
+  }
+
+  if (gameOverEl) {
+    gameOverEl.classList.remove("hidden");
+  }
+
+  if (finalScoreEl) {
+    finalScoreEl.textContent = score;
+  }
+
+  if (correctAnswerEl) {
+    if (q && q.antwort) {
+      correctAnswerEl.textContent =
+        `Richtige Antwort: ${q.antwort}`;
+      correctAnswerEl.classList.remove("hidden");
+    } else {
+      correctAnswerEl.textContent = "";
+      correctAnswerEl.classList.add("hidden");
+    }
+  }
 
   saveScoreFirebase(playerName, score);
   fetchScoresFirebase();
@@ -437,6 +482,14 @@ function restartGame() {
   lives = 3;
   score = 0;
   currentIndex = 0;
+  selectedChoice = null;
+  isAnswerSubmitted = false;
+
+  clearInterval(timerInterval);
+  clearTimeout(delayInterval);
+  clearTimeout(errorDelayInterval);
+
+  questions = shuffleArray([...allQuestions]);
 
   document.getElementById("gameOver").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
