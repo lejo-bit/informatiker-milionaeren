@@ -38,17 +38,12 @@ async function fetchScoresFirebase() {
       return;
     }
 
-    const { collection, getDocs, query, orderBy, limit } = helpers;
+    const { collection, getDocs, query, orderBy } = helpers;
 
     const scoresCol = collection(db, "scores");
 
-    const q = query(
-      scoresCol,
-      orderBy("points", "desc"),  // najwięcej punktów
-      orderBy("date", "asc"),    // przy remisie starszy wyżej
-      limit(10)
-    );
-
+    // Możemy zostawić jedno orderBy, żeby Firestore coś posortował
+    const q = query(scoresCol, orderBy("points", "desc"));
     const snap = await getDocs(q);
 
     const scores = [];
@@ -56,12 +51,31 @@ async function fetchScoresFirebase() {
       scores.push(doc.data());
     });
 
-    console.log("Scores from Firestore:", scores);
-    renderScoreTable(scores);
+    console.log("Scores from Firestore (raw):", scores);
+
+    // Lokalne sortowanie: punkty ↓, przy remisie data ↑
+    scores.sort((a, b) => {
+      if (a.points !== b.points) {
+        return b.points - a.points;               // więcej punktów wyżej
+      }
+      // przy tych samych punktach: starsza data wyżej
+      const da = new Date(a.date);
+      const db = new Date(b.date);
+      return da - db;                             // wcześniejsza data wyżej
+    });
+
+    // utnij do TOP 10
+    const top10 = scores.slice(0, 10);
+
+    console.log("Scores after local sort:", top10);
+
+    renderScoreTable(top10);
   } catch (err) {
     console.error("Fehler beim Laden der Scores aus Firestore:", err);
   }
 }
+
+
 function renderScoreTable(scores) {
   const tbody = document.getElementById("scoreTableBody");
   if (!tbody) return;
