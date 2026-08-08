@@ -72,16 +72,16 @@
 </div>
   
 <script type="module">
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
   import {
-    getFirestore,
-    collection,
-    addDoc,
-    getDocs,
-    query,
-    orderBy
-  } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
-
+  getFirestore,
+  collection,
+  addDoc,
+  getDocs,
+  query,
+  orderBy,
+  limit
+} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+  
   const firebaseConfig = {
     apiKey: "AIzaSyAxchRuByrEF-DTz25HCNJc4ab766N7AB8",
     authDomain: "quiz-fragen-80ed4.firebaseapp.com",
@@ -99,12 +99,13 @@
 
   // udostępnij też helpery Firestore w globalnym scope, żeby script.js je widział
   window.firebaseHelpers = {
-    collection,
-    addDoc,
-    getDocs,
-    query,
-    orderBy
-  };
+  collection,
+  addDoc,
+  getDocs,
+  query,
+  orderBy,
+  limit
+};
 </script>
   
   <script src="checker.js"></script>
