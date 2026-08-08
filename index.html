@@ -23,17 +23,20 @@
         <div>Zeit: <span id="timer">30</span>s</div>
       </div>
 
-	<div id="choiceContainer" class="hidden">
-		<button class="choiceBtn"></button>
-		<button class="choiceBtn"></button>
-		<button class="choiceBtn"></button>
-		<button class="choiceBtn"></button>
-	</div>
-
-      <div class="question-box" id="questionText">
-        Frage wird geladen...
+      <!-- Box z pytaniem -->
+      <div class="question-box">
+        <div id="questionText">Frage wird geladen...</div>
       </div>
 
+      <!-- Przyciski wyboru (dla questionType === "choice") -->
+      <div id="choiceContainer" class="hidden">
+        <button class="choiceBtn"></button>
+        <button class="choiceBtn"></button>
+        <button class="choiceBtn"></button>
+        <button class="choiceBtn"></button>
+      </div>
+
+      <!-- Input dla pytań otwartych -->
       <label for="answerInput">Deine Antwort:</label>
       <input type="text" id="answerInput" placeholder="Antwort eingeben..." />
 
@@ -53,8 +56,8 @@
     </div>
   </div>
 
-<script src="checker.js"></script>
-<script src="numbers.js"></script>
-<script src="script.js"></script>
+  <script src="checker.js"></script>
+  <script src="numbers.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
