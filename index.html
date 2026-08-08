@@ -72,43 +72,6 @@
 </div>
   
 <script type="module">
-  import {
-  getFirestore,
-  collection,
-  addDoc,
-  getDocs,
-  query,
-  orderBy,
-  limit
-} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
-  
-  const firebaseConfig = {
-    apiKey: "AIzaSyAxchRuByrEF-DTz25HCNJc4ab766N7AB8",
-    authDomain: "quiz-fragen-80ed4.firebaseapp.com",
-    projectId: "quiz-fragen-80ed4",
-    storageBucket: "quiz-fragen-80ed4.firebasestorage.app",
-    messagingSenderId: "1010639284688",
-    appId: "1:1010639284688:web:56e7bbbe0bbac30724f1d5"
-  };
-
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
-
-  // udostępnij db do użycia w script.js
-  window.firebaseDb = db;
-
-  // udostępnij też helpery Firestore w globalnym scope, żeby script.js je widział
-  window.firebaseHelpers = {
-  collection,
-  addDoc,
-  getDocs,
-  query,
-  orderBy,
-  limit
-};
-</script>
-  
-  <script type="module">
   console.log("Firebase module start");
 
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
@@ -122,14 +85,24 @@
     limit
   } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-  const firebaseConfig = { ... };
+  const firebaseConfig = {
+    apiKey: "AIzaSyAxchRuByrEF-DTz25HCNJc4ab766N7AB8",
+    authDomain: "quiz-fragen-80ed4.firebaseapp.com",
+    projectId: "quiz-fragen-80ed4",
+    storageBucket: "quiz-fragen-80ed4.firebasestorage.app",
+    messagingSenderId: "1010639284688",
+    appId: "1:1010639284688:web:56e7bbbe0bbac30724f1d5"
+  };
 
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
 
   console.log("Firebase initialized", db);
 
+  // udostępnij db do użycia w script.js
   window.firebaseDb = db;
+
+  // udostępnij helpery Firestore w globalnym scope
   window.firebaseHelpers = {
     collection,
     addDoc,
