@@ -114,7 +114,7 @@
   },
   {
     "id": 16,
-    "questionType":choice,
+    "questionType": "choice",
     "frage": "Welche dieser Formen hat vier Ecken?",
     "antwort": "Quadrat",
     "falseAnswers": ["Kreis", "Dreieck", "Ellipse"]
