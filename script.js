@@ -4,26 +4,25 @@ let lives = 3;
 let score = 0;
 
 let timer = 30;
+let initialTimerValue = 30;
 let timerInterval = null;
 let delayInterval = null;
 let errorDelayInterval = null;
 let selectedChoice = null;
 let playerName = "";
+let isAnswerSubmitted = false;
 
 async function saveScoreFirebase(name, points) {
   try {
     const db = window.firebaseDb;
     const helpers = window.firebaseHelpers;
-    if (!db || !helpers) {
-      console.warn("Firebase DB oder Helfer sind nicht verfügbar");
-      return;
-    }
+    if (!db || !helpers) return;
 
     const { collection, addDoc } = helpers;
 
     await addDoc(collection(db, "scores"), {
       name,
-      points,
+      points: Number(points), // Force numeric type
       date: new Date().toISOString()
     });
   } catch (err) {
@@ -32,39 +31,31 @@ async function saveScoreFirebase(name, points) {
 }
 
 async function fetchScoresFirebase() {
-  console.log("fetchScoresFirebase start");
   try {
     const db = window.firebaseDb;
     const helpers = window.firebaseHelpers;
-    if (!db || !helpers) {
-      console.warn("Firebase DB oder Helfer sind nicht verfügbar");
-      return;
-    }
+    if (!db || !helpers) return;
 
-    const { collection, getDocs, query, orderBy } = helpers;
+    const { collection, getDocs, query, limit } = helpers;
     const scoresCol = collection(db, "scores");
-    const q = query(scoresCol, orderBy("points", "desc"));
+    
+    // Fetch records to perform client-side numerical fallback sorting
+    const q = query(scoresCol, limit(50));
     const snap = await getDocs(q);
 
     const scores = [];
     snap.forEach(doc => {
-      scores.push(doc.data());
+      const data = doc.data();
+      scores.push({
+        ...data,
+        points: Number(data.points) || 0 // Converts string "1985" to number 1985
+      });
     });
 
-    console.log("Scores from Firestore (raw):", scores);
+    // Sort numerically descending
+    scores.sort((a, b) => b.points - a.points);
 
-    scores.sort((a, b) => {
-      if (a.points !== b.points) {
-        return b.points - a.points;
-      }
-      const da = new Date(a.date);
-      const db = new Date(b.date);
-      return da - db;
-    });
-
-    const top10 = scores.slice(0, 10);
-    console.log("Scores after local sort:", top10);
-    renderScoreTable(top10);
+    renderScoreTable(scores.slice(0, 10));
   } catch (err) {
     console.error("Fehler beim Laden der Scores aus Firestore:", err);
   }
@@ -113,8 +104,7 @@ function startGame() {
     errorEl.classList.remove("hidden");
     return;
   } else {
-    const errorEl = document.getElementById("error");
-    errorEl.classList.add("hidden");
+    document.getElementById("error").classList.add("hidden");
   }
 
   lives = 3;
@@ -129,7 +119,6 @@ function startGame() {
 
   updateHud();
   renderQuestion();
-  startTimer();
 }
 
 function updateHud() {
@@ -138,8 +127,18 @@ function updateHud() {
   document.getElementById("timer").textContent = timer;
 
   const playerLabel = document.getElementById("playerLabel");
-  if (playerLabel) {
-    playerLabel.textContent = playerName || "";
+  if (playerLabel) playerLabel.textContent = playerName || "";
+
+  const timerBar = document.getElementById("timerBar");
+  if (timerBar) {
+    const percentage = Math.max(0, (timer / initialTimerValue) * 100);
+    timerBar.style.width = `${percentage}%`;
+
+    if (timer <= 5) {
+      timerBar.classList.add("warning");
+    } else {
+      timerBar.classList.remove("warning");
+    }
   }
 }
 
@@ -163,19 +162,14 @@ function getInitialTimeForQuestion(q) {
 }
 
 function calculatePointsForQuestion(q) {
-  if (q.questionType === "choice") {
-    return 100;
-  }
+  if (q.questionType === "choice") return 100;
 
   const elapsed = 30 - timer;
-  if (elapsed <= 10) {
-    return 100;
-  }
+  if (elapsed <= 10) return 100;
 
   const extraSeconds = elapsed - 10;
   let pts = 100 - extraSeconds * 5;
-  if (pts < 0) pts = 0;
-  return pts;
+  return pts < 0 ? 0 : pts;
 }
 
 function hideAnswerInputs() {
@@ -183,28 +177,30 @@ function hideAnswerInputs() {
   if (choiceContainer) choiceContainer.classList.add("hidden");
 
   const input = document.getElementById("answerInput");
+  const label = document.getElementById("answerLabel");
   if (input) input.classList.add("hidden");
+  if (label) label.classList.add("hidden");
 }
 
 function renderQuestion() {
+  isAnswerSubmitted = false;
   const q = questions[currentIndex];
   selectedChoice = null;
 
-  timer = getInitialTimeForQuestion(q);
+  initialTimerValue = getInitialTimeForQuestion(q);
+  timer = initialTimerValue;
   updateHud();
 
   document.getElementById("questionText").textContent = q.frage;
 
   const input = document.getElementById("answerInput");
+  const label = document.getElementById("answerLabel");
   const choiceContainer = document.getElementById("choiceContainer");
   const choiceButtons = choiceContainer.querySelectorAll(".choiceBtn");
-
   const resultBox = document.getElementById("resultBox");
-  const correctAnswerText = document.getElementById("correctAnswerText");
-  resultBox.classList.add("hidden");
-  correctAnswerText.classList.add("hidden");
+
   resultBox.textContent = "";
-  correctAnswerText.textContent = "";
+  resultBox.classList.add("hidden");
 
   document.getElementById("checkBtn").classList.remove("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
@@ -213,18 +209,22 @@ function renderQuestion() {
     input.value = "";
     input.disabled = false;
     input.classList.remove("hidden");
+    if (label) label.classList.remove("hidden");
 
     choiceContainer.classList.add("hidden");
     choiceButtons.forEach(btn => {
       btn.textContent = "";
       btn.dataset.isCorrect = "";
       btn.disabled = true;
-      btn.classList.remove("selected");
+      btn.className = "choiceBtn";
     });
+
+    setTimeout(() => input.focus(), 100);
   } else if (q.questionType === "choice") {
     input.value = "";
     input.disabled = true;
     input.classList.add("hidden");
+    if (label) label.classList.add("hidden");
 
     choiceContainer.classList.remove("hidden");
 
@@ -235,15 +235,18 @@ function renderQuestion() {
       btn.textContent = opt.text;
       btn.dataset.isCorrect = opt.isCorrect ? "true" : "false";
       btn.disabled = false;
-      btn.classList.remove("selected");
+      btn.className = "choiceBtn";
     });
   }
+
+  startTimer();
 }
 
 function handleAnswer() {
+  if (isAnswerSubmitted) return;
+
   const q = questions[currentIndex];
   const resultBox = document.getElementById("resultBox");
-  const correctAnswerText = document.getElementById("correctAnswerText");
 
   let isCorrect = false;
   let message = "";
@@ -252,37 +255,55 @@ function handleAnswer() {
     const inputVal = document.getElementById("answerInput").value;
     const result = checkAnswer(q, inputVal);
     isCorrect = result.isCorrect;
-    message = result.message;
+
+    if (isCorrect) {
+      message = result.message;
+      resultBox.className = "result correct-result";
+    } else {
+      // Highlight correct answer in bold with distinct markup
+      message = `❌ Falsch!<br><div class="highlight-correct">Richtige Antwort: <span>${q.antwort}</span></div>`;
+      resultBox.className = "result wrong-result";
+    }
   } else if (q.questionType === "choice") {
     if (!selectedChoice) {
       resultBox.textContent = "Bitte wähle eine Antwort aus.";
+      resultBox.className = "result";
       resultBox.classList.remove("hidden");
       return;
     }
 
     isCorrect = selectedChoice.dataset.isCorrect === "true";
-    message = isCorrect ? "Richtig! Das ist die korrekte Antwort." : "Nope! Richtige Antwort ist:";
+    if (isCorrect) {
+      message = "✅ Richtig! Das ist die korrekte Antwort.";
+      resultBox.className = "result correct-result";
+    } else {
+      message = `❌ Nicht ganz.<br><div class="highlight-correct">Richtige Antwort: <span>${q.antwort}</span></div>`;
+      resultBox.className = "result wrong-result";
+    }
+    
+    const choiceButtons = document.querySelectorAll(".choiceBtn");
+    choiceButtons.forEach(btn => {
+      btn.disabled = true;
+      if (btn.dataset.isCorrect === "true") {
+        btn.classList.add("correct");
+      }
+    });
 
-    hideAnswerInputs();
+    if (!isCorrect) {
+      selectedChoice.classList.add("wrong");
+    }
   }
 
-  resultBox.textContent = message;
+  isAnswerSubmitted = true;
+  clearInterval(timerInterval);
+
+  resultBox.innerHTML = message;
   resultBox.classList.remove("hidden");
 
   if (isCorrect) {
-    const pointsToAdd = calculatePointsForQuestion(q);
-    score += pointsToAdd;
-    correctAnswerText.classList.add("hidden");
+    score += calculatePointsForQuestion(q);
   } else {
     lives -= 1;
-
-    correctAnswerText.textContent = q.antwort;
-    correctAnswerText.classList.remove("hidden");
-
-    if (q.questionType === "choice") {
-      hideAnswerInputs();
-    }
-
     if (lives <= 0) {
       updateHud();
       endGame();
@@ -298,13 +319,10 @@ function handleAnswer() {
   if (isCorrect) {
     goToNextQuestionWithDelay();
   } else {
-    clearInterval(timerInterval);
     document.getElementById("checkBtn").classList.add("hidden");
     document.getElementById("nextBtn").classList.remove("hidden");
 
-    if (errorDelayInterval) {
-      clearTimeout(errorDelayInterval);
-    }
+    if (errorDelayInterval) clearTimeout(errorDelayInterval);
     errorDelayInterval = setTimeout(() => {
       goToNextQuestionAfterError();
     }, 15000);
@@ -318,9 +336,7 @@ function goToNextQuestionWithDelay() {
   document.getElementById("checkBtn").classList.add("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
-  if (delayInterval) {
-    clearTimeout(delayInterval);
-  }
+  if (delayInterval) clearTimeout(delayInterval);
 
   delayInterval = setTimeout(() => {
     if (lives <= 0 || currentIndex + 1 >= questions.length) {
@@ -328,15 +344,12 @@ function goToNextQuestionWithDelay() {
     } else {
       currentIndex++;
       renderQuestion();
-      startTimer();
     }
   }, 2000);
 }
 
 function goToNextQuestionAfterError() {
-  if (errorDelayInterval) {
-    clearTimeout(errorDelayInterval);
-  }
+  if (errorDelayInterval) clearTimeout(errorDelayInterval);
 
   if (lives <= 0) {
     endGame();
@@ -346,7 +359,6 @@ function goToNextQuestionAfterError() {
       endGame();
     } else {
       renderQuestion();
-      startTimer();
     }
   }
 }
@@ -364,20 +376,25 @@ function startTimer() {
 }
 
 function handleTimeout() {
+  if (isAnswerSubmitted) return;
+  isAnswerSubmitted = true;
   clearInterval(timerInterval);
+
   const q = questions[currentIndex];
   const resultBox = document.getElementById("resultBox");
-  const correctAnswerText = document.getElementById("correctAnswerText");
 
   lives -= 1;
-  resultBox.textContent = "Zeit abgelaufen!";
+  resultBox.textContent = `⏰ Zeit abgelaufen! Richtige Antwort: ${q.antwort}`;
   resultBox.classList.remove("hidden");
 
-  correctAnswerText.textContent = q.antwort;
-  correctAnswerText.classList.remove("hidden");
-
   if (q.questionType === "choice") {
-    hideAnswerInputs();
+    const choiceButtons = document.querySelectorAll(".choiceBtn");
+    choiceButtons.forEach(btn => {
+      btn.disabled = true;
+      if (btn.dataset.isCorrect === "true") {
+        btn.classList.add("correct");
+      }
+    });
   }
 
   updateHud();
@@ -393,9 +410,7 @@ function handleTimeout() {
   document.getElementById("checkBtn").classList.add("hidden");
   document.getElementById("nextBtn").classList.remove("hidden");
 
-  if (errorDelayInterval) {
-    clearTimeout(errorDelayInterval);
-  }
+  if (errorDelayInterval) clearTimeout(errorDelayInterval);
   errorDelayInterval = setTimeout(() => {
     goToNextQuestionAfterError();
   }, 15000);
@@ -428,7 +443,6 @@ function restartGame() {
 
   updateHud();
   renderQuestion();
-  startTimer();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -446,6 +460,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const choiceButtons = choiceContainer.querySelectorAll(".choiceBtn");
   choiceButtons.forEach(btn => {
     btn.addEventListener("click", () => {
+      if (isAnswerSubmitted) return;
       choiceButtons.forEach(b => b.classList.remove("selected"));
       btn.classList.add("selected");
       selectedChoice = btn;

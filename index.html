@@ -2,8 +2,12 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz – Fragen</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
@@ -12,111 +16,90 @@
     <div id="loading" class="loading">Fragen werden geladen...</div>
     <div id="error" class="error hidden"></div>
 
-   <div id="startScreen" class="hidden">
-  <label for="playerName">Dein Name:</label>
-  <input type="text" id="playerName" placeholder="Nick eingeben..." />
-  <button id="startBtn">Start</button>
-</div>
+    <div id="startScreen" class="hidden">
+      <label for="playerName">Dein Name</label>
+      <input type="text" id="playerName" placeholder="Nick eingeben..." />
+      <button id="startBtn">Start</button>
+    </div>
 
     <div id="game" class="hidden">
       <div class="stats-bar">
-  <div>Leben: <span id="lives">3</span></div>
-  <div>Punkte: <span id="score">0</span> – <span id="playerLabel"></span></div>
-  <div>Zeit: <span id="timer">30</span>s</div>
-</div>
+        <div>❤️ Leben: <span id="lives">3</span></div>
+        <div>⭐ Punkte: <span id="score">0</span> – <span id="playerLabel"></span></div>
+        <div>⏱️ Zeit: <span id="timer">30</span>s</div>
+        <div class="timer-bar-container">
+          <div id="timerBar" class="timer-bar"></div>
+        </div>
+      </div>
 
-      <!-- Box z pytaniem -->
       <div class="question-box">
         <div id="questionText">Frage wird geladen...</div>
       </div>
 
-      <!-- JEDEN input dla odpowiedzi otwartej -->
-      <label for="answerInput">Deine Antwort:</label>
-<input type="text" id="answerInput" placeholder="Antwort eingeben..." />
+      <label for="answerInput" id="answerLabel">Deine Antwort:</label>
+      <input type="text" id="answerInput" placeholder="Antwort eingeben..." autocomplete="off" />
 
-<div id="choiceContainer" class="hidden">
-  <button class="choiceBtn"></button>
-  <button class="choiceBtn"></button>
-  <button class="choiceBtn"></button>
-  <button class="choiceBtn"></button>
-</div>
+      <div id="choiceContainer" class="hidden">
+        <button class="choiceBtn"></button>
+        <button class="choiceBtn"></button>
+        <button class="choiceBtn"></button>
+        <button class="choiceBtn"></button>
+      </div>
 
       <div class="buttons">
-  <button id="checkBtn">Prüfen</button>
-</div>
-<div id="resultBox" class="result hidden"></div>
-<div id="correctAnswerText" class="correct-answer hidden"></div>
+        <button id="checkBtn">Prüfen</button>
+      </div>
+      <div id="resultBox" class="result hidden"></div>
 
-<div class="buttons">
-  <button id="nextBtn" class="secondary hidden">Nächste Frage</button>
-</div>
-</div>
+      <div class="buttons">
+        <button id="nextBtn" class="secondary hidden">Nächste Frage</button>
+      </div>
+    </div>
 
-<div id="gameOver" class="hidden">
-  <h2>Spiel vorbei!</h2>
-  <p>Erreichte Punkte: <span id="finalScore">0</span></p>
-  <button id="restartBtn">Noch einmal spielen</button>
-</div>
+    <div id="gameOver" class="hidden">
+      <h2>Spiel vorbei!</h2>
+      <p>Erreichte Punkte: <span id="finalScore">0</span></p>
+      <button id="restartBtn">Noch einmal spielen</button>
+    </div>
 
-<div id="scoreBoard">
-  <h3>Bestenliste</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Name</th>
-        <th>Punkte</th>
-      </tr>
-    </thead>
-    <tbody id="scoreTableBody"></tbody>
-  </table>
-</div>
+    <div id="scoreBoard">
+      <h3>🏆 Bestenliste</h3>
+      <table>
+        <thead>
+          <tr><th>#</th><th>Name</th><th>Punkte</th></tr>
+        </thead>
+        <tbody id="scoreTableBody"></tbody>
+      </table>
+    </div>
+  </div>
 
-</div>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import {
+      getFirestore,
+      collection,
+      addDoc,
+      getDocs,
+      query,
+      orderBy,
+      limit
+    } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-<script type="module">
-  console.log("Firebase module start");
+    const firebaseConfig = {
+      apiKey: "AIzaSyAxchRuByrEF-DTz25HCNJc4ab766N7AB8",
+      authDomain: "quiz-fragen-80ed4.firebaseapp.com",
+      projectId: "quiz-fragen-80ed4",
+      storageBucket: "quiz-fragen-80ed4.firebasestorage.app",
+      messagingSenderId: "1010639284688",
+      appId: "1:1010639284688:web:56e7bbbe0bbac30724f1d5"
+    };
 
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-  import {
-    getFirestore,
-    collection,
-    addDoc,
-    getDocs,
-    query,
-    orderBy,
-    limit
-  } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyAxchRuByrEF-DTz25HCNJc4ab766N7AB8",
-    authDomain: "quiz-fragen-80ed4.firebaseapp.com",
-    projectId: "quiz-fragen-80ed4",
-    storageBucket: "quiz-fragen-80ed4.firebasestorage.app",
-    messagingSenderId: "1010639284688",
-    appId: "1:1010639284688:web:56e7bbbe0bbac30724f1d5"
-  };
-
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
-
-  console.log("Firebase initialized", db);
-
-  // udostępnij db do użycia w script.js
-  window.firebaseDb = db;
-
-  // udostępnij helpery Firestore w globalnym scope
-  window.firebaseHelpers = {
-    collection,
-    addDoc,
-    getDocs,
-    query,
-    orderBy,
-    limit
-  };
-
-  console.log("Helpers set", window.firebaseHelpers);
-</script>
+    window.firebaseDb = db;
+    window.firebaseHelpers = { collection, addDoc, getDocs, query, orderBy, limit };
+  </script>
   <script src="checker.js"></script>
   <script src="numbers.js"></script>
   <script src="script.js"></script>
