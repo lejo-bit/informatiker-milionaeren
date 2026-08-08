@@ -119,3 +119,23 @@ button:disabled {
   font-size: 18px;
   margin-bottom: 24px;
 }
+#choiceContainer {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.choiceBtn {
+  padding: 0.5rem 1rem;
+  background-color: #2b3a55;
+  color: #fff;
+  border: 1px solid #445;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.choiceBtn.selected {
+  background-color: #4c8bf5;
+  border-color: #fff;
+}
