@@ -1,11 +1,14 @@
-// script.js
-
 let questions = [];
 let currentIndex = 0;
 let lives = 3;
 let score = 0;
 
-// Firestore: Scores
+let timer = 30;
+let timerInterval = null;
+let delayInterval = null;
+let errorDelayInterval = null;
+let selectedChoice = null;
+let playerName = "";
 
 async function saveScoreFirebase(name, points) {
   try {
@@ -39,10 +42,7 @@ async function fetchScoresFirebase() {
     }
 
     const { collection, getDocs, query, orderBy } = helpers;
-
     const scoresCol = collection(db, "scores");
-
-    // Możemy zostawić jedno orderBy, żeby Firestore coś posortował
     const q = query(scoresCol, orderBy("points", "desc"));
     const snap = await getDocs(q);
 
@@ -53,28 +53,22 @@ async function fetchScoresFirebase() {
 
     console.log("Scores from Firestore (raw):", scores);
 
-    // Lokalne sortowanie: punkty ↓, przy remisie data ↑
     scores.sort((a, b) => {
       if (a.points !== b.points) {
-        return b.points - a.points;               // więcej punktów wyżej
+        return b.points - a.points;
       }
-      // przy tych samych punktach: starsza data wyżej
       const da = new Date(a.date);
       const db = new Date(b.date);
-      return da - db;                             // wcześniejsza data wyżej
+      return da - db;
     });
 
-    // utnij do TOP 10
     const top10 = scores.slice(0, 10);
-
     console.log("Scores after local sort:", top10);
-
     renderScoreTable(top10);
   } catch (err) {
     console.error("Fehler beim Laden der Scores aus Firestore:", err);
   }
 }
-
 
 function renderScoreTable(scores) {
   const tbody = document.getElementById("scoreTableBody");
@@ -92,14 +86,6 @@ function renderScoreTable(scores) {
     tbody.appendChild(tr);
   });
 }
-
-let timer = 30;
-let timerInterval = null;
-let delayInterval = null;      // 2‑sekundowy timer po poprawnej odpowiedzi
-let errorDelayInterval = null; // 15‑sekundowy timer po błędnej odpowiedzi
-let selectedChoice = null;
-
-let playerName = "";
 
 async function loadQuestions() {
   try {
@@ -122,14 +108,11 @@ function startGame() {
   playerName = enteredName;
 
   if (!enteredName) {
-    // brak nicka → pokaż komunikat i nie startuj gry
     const errorEl = document.getElementById("error");
     errorEl.textContent = "Bitte gib deinen Namen ein, bevor du startest.";
     errorEl.classList.remove("hidden");
     return;
   } else {
-    // zapisujemy nick i chowamy ewentualny stary błąd
-    playerName = enteredName;
     const errorEl = document.getElementById("error");
     errorEl.classList.add("hidden");
   }
@@ -137,9 +120,7 @@ function startGame() {
   lives = 3;
   score = 0;
   currentIndex = 0;
-  timer = 30;
 
-  // losowa kolejność pytań, bez powtórek
   questions = shuffleArray(questions);
 
   document.getElementById("startScreen").classList.add("hidden");
@@ -178,18 +159,37 @@ function getShuffledOptions(question) {
 }
 
 function getInitialTimeForQuestion(q) {
+  return q.questionType === "choice" ? 10 : 30;
+}
+
+function calculatePointsForQuestion(q) {
   if (q.questionType === "choice") {
-    return 10;   // 10 sekund na pytanie wielokrotnego wyboru
-  } else {
-    return 30;   // 30 sekund na pytanie otwarte
+    return 100;
   }
+
+  const elapsed = 30 - timer;
+  if (elapsed <= 10) {
+    return 100;
+  }
+
+  const extraSeconds = elapsed - 10;
+  let pts = 100 - extraSeconds * 5;
+  if (pts < 0) pts = 0;
+  return pts;
+}
+
+function hideAnswerInputs() {
+  const choiceContainer = document.getElementById("choiceContainer");
+  if (choiceContainer) choiceContainer.classList.add("hidden");
+
+  const input = document.getElementById("answerInput");
+  if (input) input.classList.add("hidden");
 }
 
 function renderQuestion() {
   const q = questions[currentIndex];
   selectedChoice = null;
 
-  // Ustaw czas dla danego pytania
   timer = getInitialTimeForQuestion(q);
   updateHud();
 
@@ -206,7 +206,6 @@ function renderQuestion() {
   resultBox.textContent = "";
   correctAnswerText.textContent = "";
 
-  // przy każdym nowym pytaniu: pokaż "Prüfen", ukryj "Nächste Frage"
   document.getElementById("checkBtn").classList.remove("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
@@ -230,7 +229,6 @@ function renderQuestion() {
     choiceContainer.classList.remove("hidden");
 
     const options = getShuffledOptions(q);
-
     options.forEach((opt, index) => {
       const btn = choiceButtons[index];
       if (!btn) return;
@@ -239,28 +237,6 @@ function renderQuestion() {
       btn.disabled = false;
       btn.classList.remove("selected");
     });
-  }
-}
-
-function calculatePointsForQuestion(q) {
-  if (q.questionType === "choice") {
-    // pytania wielokrotnego wyboru – zawsze 100 punktów za poprawną odpowiedź
-    return 100;
-  }
-
-  // pytania otwarte:
-  // start zawsze 30 sekund, więc ile czasu minęło?
-  const elapsed = 30 - timer; // ile sekund już upłynęło
-
-  if (elapsed <= 10) {
-    // pierwsze 10 sekund – pełne 100 punktów
-    return 100;
-  } else {
-    // po 10 sekundach co sekundę -5 punktów
-    const extraSeconds = elapsed - 10;
-    let pts = 100 - extraSeconds * 5;
-    if (pts < 0) pts = 0; // nie schodzimy poniżej 0
-    return pts;
   }
 }
 
@@ -274,7 +250,7 @@ function handleAnswer() {
 
   if (q.questionType === "open") {
     const inputVal = document.getElementById("answerInput").value;
-    const result = checkAnswer(q, inputVal); // z checker.js
+    const result = checkAnswer(q, inputVal);
     isCorrect = result.isCorrect;
     message = result.message;
   } else if (q.questionType === "choice") {
@@ -285,9 +261,9 @@ function handleAnswer() {
     }
 
     isCorrect = selectedChoice.dataset.isCorrect === "true";
-    message = isCorrect
-      ? "Richtig! Das ist die korrekte Antwort."
-      : "Nicht ganz. Die richtige Antwort lautet: " + q.antwort;
+    message = isCorrect ? "Richtig! Das ist die korrekte Antwort." : "Nope! Richtige Antwort ist:";
+
+    hideAnswerInputs();
   }
 
   resultBox.textContent = message;
@@ -296,10 +272,16 @@ function handleAnswer() {
   if (isCorrect) {
     const pointsToAdd = calculatePointsForQuestion(q);
     score += pointsToAdd;
+    correctAnswerText.classList.add("hidden");
   } else {
     lives -= 1;
+
     correctAnswerText.textContent = q.antwort;
     correctAnswerText.classList.remove("hidden");
+
+    if (q.questionType === "choice") {
+      hideAnswerInputs();
+    }
 
     if (lives <= 0) {
       updateHud();
@@ -307,17 +289,16 @@ function handleAnswer() {
       return;
     }
   }
+
   updateHud();
 
   const input = document.getElementById("answerInput");
   if (input) input.disabled = true;
 
   if (isCorrect) {
-    // poprawna odpowiedź → automatycznie dalej po 2 s
     goToNextQuestionWithDelay();
   } else {
-    // błędna odpowiedź → Nächste Frage + 15 s timer
-    clearInterval(timerInterval); // zatrzymaj główny 30 s timer
+    clearInterval(timerInterval);
     document.getElementById("checkBtn").classList.add("hidden");
     document.getElementById("nextBtn").classList.remove("hidden");
 
@@ -332,9 +313,7 @@ function handleAnswer() {
 
 function goToNextQuestionWithDelay() {
   clearInterval(timerInterval);
-  if (errorDelayInterval) {
-    clearTimeout(errorDelayInterval);
-  }
+  if (errorDelayInterval) clearTimeout(errorDelayInterval);
 
   document.getElementById("checkBtn").classList.add("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
@@ -342,21 +321,18 @@ function goToNextQuestionWithDelay() {
   if (delayInterval) {
     clearTimeout(delayInterval);
   }
+
   delayInterval = setTimeout(() => {
     if (lives <= 0 || currentIndex + 1 >= questions.length) {
       endGame();
     } else {
       currentIndex++;
-      const nextQ = questions[currentIndex];
-      timer = getInitialTimeForQuestion(nextQ);
-      updateHud();
       renderQuestion();
       startTimer();
     }
   }, 2000);
 }
 
-// przejście do następnego pytania po błędzie (klik lub 15 s)
 function goToNextQuestionAfterError() {
   if (errorDelayInterval) {
     clearTimeout(errorDelayInterval);
@@ -369,9 +345,6 @@ function goToNextQuestionAfterError() {
     if (currentIndex >= questions.length) {
       endGame();
     } else {
-      const nextQ = questions[currentIndex];
-      timer = getInitialTimeForQuestion(nextQ);
-      updateHud();
       renderQuestion();
       startTimer();
     }
@@ -383,6 +356,7 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timer -= 1;
     updateHud();
+
     if (timer <= 0) {
       handleTimeout();
     }
@@ -402,6 +376,10 @@ function handleTimeout() {
   correctAnswerText.textContent = q.antwort;
   correctAnswerText.classList.remove("hidden");
 
+  if (q.questionType === "choice") {
+    hideAnswerInputs();
+  }
+
   updateHud();
 
   if (lives <= 0) {
@@ -412,7 +390,6 @@ function handleTimeout() {
   const input = document.getElementById("answerInput");
   if (input) input.disabled = true;
 
-  // timeout traktujemy jak błąd → ten sam mechanizm
   document.getElementById("checkBtn").classList.add("hidden");
   document.getElementById("nextBtn").classList.remove("hidden");
 
@@ -426,18 +403,18 @@ function handleTimeout() {
 
 function endGame() {
   clearInterval(timerInterval);
-  if (delayInterval) {
-    clearTimeout(delayInterval);
-  }
-  if (errorDelayInterval) {
-    clearTimeout(errorDelayInterval);
-  }
+  if (delayInterval) clearTimeout(delayInterval);
+  if (errorDelayInterval) clearTimeout(errorDelayInterval);
 
-  document.getElementById("game").classList.add("hidden");
-  document.getElementById("gameOver").classList.remove("hidden");
-  document.getElementById("finalScore").textContent = score;
+  const gameEl = document.getElementById("game");
+  const gameOverEl = document.getElementById("gameOver");
+  const finalScoreEl = document.getElementById("finalScore");
 
-   saveScoreFirebase(playerName, score);
+  if (gameEl) gameEl.classList.add("hidden");
+  if (gameOverEl) gameOverEl.classList.remove("hidden");
+  if (finalScoreEl) finalScoreEl.textContent = score;
+
+  saveScoreFirebase(playerName, score);
   fetchScoresFirebase();
 }
 
@@ -445,7 +422,6 @@ function restartGame() {
   lives = 3;
   score = 0;
   currentIndex = 0;
-  timer = 30;
 
   document.getElementById("gameOver").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
@@ -457,7 +433,7 @@ function restartGame() {
 
 document.addEventListener("DOMContentLoaded", () => {
   loadQuestions();
- fetchScoresFirebase();
+  fetchScoresFirebase();
 
   document.getElementById("startBtn").addEventListener("click", startGame);
   document.getElementById("checkBtn").addEventListener("click", handleAnswer);
@@ -470,7 +446,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const choiceButtons = choiceContainer.querySelectorAll(".choiceBtn");
   choiceButtons.forEach(btn => {
     btn.addEventListener("click", () => {
-      console.log("choice clicked", btn.textContent);
       choiceButtons.forEach(b => b.classList.remove("selected"));
       btn.classList.add("selected");
       selectedChoice = btn;

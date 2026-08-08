@@ -42,22 +42,23 @@
 </div>
 
       <div class="buttons">
-        <button id="checkBtn">Prüfen</button>
-        <button id="nextBtn" class="secondary hidden">Nächste Frage</button>
-      </div>
+  <button id="checkBtn">Prüfen</button>
+</div>
+<div id="resultBox" class="result hidden"></div>
+<div id="correctAnswerText" class="correct-answer hidden"></div>
 
-      <div id="resultBox" class="result hidden"></div>
-      <div id="correctAnswerText" class="correct-answer hidden"></div>
-    </div>
+<div class="buttons">
+  <button id="nextBtn" class="secondary hidden">Nächste Frage</button>
+</div>
+</div>
 
-    <div id="gameOver" class="hidden">
-      <h2>Spiel vorbei!</h2>
-      <p>Erreichte Punkte: <span id="finalScore">0</span></p>
-      <button id="restartBtn">Noch einmal spielen</button>
-    </div>
-  </div>
+<div id="gameOver" class="hidden">
+  <h2>Spiel vorbei!</h2>
+  <p>Erreichte Punkte: <span id="finalScore">0</span></p>
+  <button id="restartBtn">Noch einmal spielen</button>
+</div>
 
- <div id="scoreBoard">
+<div id="scoreBoard">
   <h3>Bestenliste</h3>
   <table>
     <thead>
@@ -70,7 +71,9 @@
     <tbody id="scoreTableBody"></tbody>
   </table>
 </div>
-  
+
+</div>
+
 <script type="module">
   console.log("Firebase module start");
 
