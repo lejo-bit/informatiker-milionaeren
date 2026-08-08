@@ -61,7 +61,8 @@ function getShuffledOptions(question) {
 
 function renderQuestion() {
   const q = questions[currentIndex];
-
+  selectedChoice = null; // reset zaznaczenia
+  
   document.getElementById("questionText").textContent = q.frage;
 
   const input = document.getElementById("answerInput");
@@ -119,26 +120,19 @@ function handleAnswer() {
     const result = checkAnswer(q, inputVal); // z checker.js
     isCorrect = result.isCorrect;
     message = result.message;
+
   } else if (q.questionType === "choice") {
-    const choiceContainer = document.getElementById("choiceContainer");
-    const choiceButtons = choiceContainer.querySelectorAll(".choiceBtn");
-
-    const selected = Array.from(choiceButtons).find(btn =>
-      btn.classList.contains("selected")
-    );
-
-    if (!selected) {
+    if (!selectedChoice) {
       resultBox.textContent = "Bitte wähle eine Antwort aus.";
       resultBox.classList.remove("hidden");
       return;
     }
 
-    isCorrect = selected.dataset.isCorrect === "true";
+    isCorrect = selectedChoice.dataset.isCorrect === "true";
     message = isCorrect
       ? "Richtig! Das ist die korrekte Antwort."
       : "Nicht ganz. Die richtige Antwort lautet: " + q.antwort;
   }
-
   resultBox.textContent = message;
   resultBox.classList.remove("hidden");
 
@@ -244,14 +238,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const choiceButtons = choiceContainer.querySelectorAll(".choiceBtn");
   choiceButtons.forEach(btn => {
     btn.addEventListener("click", () => {
+      console.log("choice clicked", btn.textContent); // opcjonalnie
       choiceButtons.forEach(b => b.classList.remove("selected"));
       btn.classList.add("selected");
+      selectedChoice = btn;
     });
-   choiceButtons.forEach(btn => {
-  btn.addEventListener("click", () => {
-    choiceButtons.forEach(b => b.classList.remove("selected"));
-    btn.classList.add("selected");
-    selectedChoice = btn;
-
   });
 });
