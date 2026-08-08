@@ -7,9 +7,9 @@ body {
 }
 
 .container {
-  max-width: 700px;
-  margin: 40px auto;
-  background: #F6E7C6;          /* karta/box */
+  max-width: 800px;
+  margin: 40px auto;                 /* na środku, z odstępem od góry */
+  background: #F6E7C6;               /* karta/box */
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* delikatniejszy cień */
@@ -144,4 +144,27 @@ button:disabled {
   font-size: 18px;
   margin-bottom: 24px;
   color: #000000;
+}
+
+/* Scoreboard pod grą, wycentrowany */
+#scoreBoard {
+  max-width: 800px;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+#scoreBoard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#scoreBoard th,
+#scoreBoard td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+#scoreBoard th {
+  background-color: #f0f0f0;
 }
