@@ -10,6 +10,8 @@ let delayInterval = null;      // 2‑sekundowy timer po poprawnej odpowiedzi
 let errorDelayInterval = null; // 15‑sekundowy timer po błędnej odpowiedzi
 let selectedChoice = null;
 
+let playerName = "";
+
 async function loadQuestions() {
   try {
     const res = await fetch("fragen.json");
@@ -26,6 +28,22 @@ async function loadQuestions() {
 }
 
 function startGame() {
+  const nameInput = document.getElementById("playerName");
+  const enteredName = nameInput ? nameInput.value.trim() : "";
+
+  if (!enteredName) {
+    // brak nicka → pokaż komunikat i nie startuj gry
+    const errorEl = document.getElementById("error");
+    errorEl.textContent = "Bitte gib deinen Namen ein, bevor du startest.";
+    errorEl.classList.remove("hidden");
+    return;
+  } else {
+    // zapisujemy nick i chowamy ewentualny stary błąd
+    playerName = enteredName;
+    const errorEl = document.getElementById("error");
+    errorEl.classList.add("hidden");
+  }
+
   lives = 3;
   score = 0;
   currentIndex = 0;
