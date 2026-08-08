@@ -246,5 +246,12 @@ document.addEventListener("DOMContentLoaded", () => {
       choiceButtons.forEach(b => b.classList.remove("selected"));
       btn.classList.add("selected");
     });
+    choiceButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    console.log("choice clicked", btn.textContent);
+    choiceButtons.forEach(b => b.classList.remove("selected"));
+    btn.classList.add("selected");
+  });
+});
   });
 });
