@@ -242,10 +242,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const choiceButtons = choiceContainer.querySelectorAll(".choiceBtn");
   choiceButtons.forEach(btn => {
     btn.addEventListener("click", () => {
-      console.log("choice clicked", btn.textContent); // opcjonalnie
+      console.log("choice clicked", btn.textContent);
       choiceButtons.forEach(b => b.classList.remove("selected"));
       btn.classList.add("selected");
       selectedChoice = btn;
     });
+  });
+
+  // NOWE: Enter w pytaniu otwartym = handleAnswer
+  const answerInput = document.getElementById("answerInput");
+  answerInput.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+      const q = questions[currentIndex];
+      if (q && q.questionType === "open") {
+        event.preventDefault();      // żeby nie wysyłać formularza itp.
+        handleAnswer();
+      }
+    }
   });
 });
