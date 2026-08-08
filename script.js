@@ -4,6 +4,74 @@ let questions = [];
 let currentIndex = 0;
 let lives = 3;
 let score = 0;
+
+// Firestore: Scores
+
+async function saveScoreFirebase(name, points) {
+  try {
+    const db = window.firebaseDb;
+    const helpers = window.firebaseHelpers;
+    if (!db || !helpers) {
+      console.warn("Firebase DB oder Helfer sind nicht verfügbar");
+      return;
+    }
+
+    const { collection, addDoc } = helpers;
+
+    await addDoc(collection(db, "scores"), {
+      name,
+      points,
+      date: new Date().toISOString()
+    });
+  } catch (err) {
+    console.error("Fehler beim Speichern des Scores in Firestore:", err);
+  }
+}
+
+async function fetchScoresFirebase() {
+  try {
+    const db = window.firebaseDb;
+    const helpers = window.firebaseHelpers;
+    if (!db || !helpers) {
+      console.warn("Firebase DB oder Helfer sind nicht verfügbar");
+      return;
+    }
+
+    const { collection, getDocs, query, orderBy } = helpers;
+
+    const scoresCol = collection(db, "scores");
+    const q = query(scoresCol, orderBy("points", "desc"));
+    const snap = await getDocs(q);
+
+    const scores = [];
+    snap.forEach(doc => {
+      scores.push(doc.data());
+    });
+
+    renderScoreTable(scores);
+  } catch (err) {
+    console.error("Fehler beim Laden der Scores aus Firestore:", err);
+  }
+}
+
+function renderScoreTable(scores) {
+  const tbody = document.getElementById("scoreTableBody");
+  if (!tbody) return;
+
+  tbody.innerHTML = "";
+
+  scores.forEach((entry, index) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${index + 1}</td>
+      <td>${entry.name}</td>
+      <td>${entry.points}</td>
+      <td>${new Date(entry.date).toLocaleDateString()}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
 let timer = 30;
 let timerInterval = null;
 let delayInterval = null;      // 2‑sekundowy timer po poprawnej odpowiedzi
@@ -300,6 +368,9 @@ function endGame() {
   document.getElementById("game").classList.add("hidden");
   document.getElementById("gameOver").classList.remove("hidden");
   document.getElementById("finalScore").textContent = score;
+
+   saveScoreFirebase(playerName, score);
+  fetchScoresFirebase();
 }
 
 function restartGame() {
@@ -318,6 +389,7 @@ function restartGame() {
 
 document.addEventListener("DOMContentLoaded", () => {
   loadQuestions();
+ fetchScoresFirebase();
 
   document.getElementById("startBtn").addEventListener("click", startGame);
   document.getElementById("checkBtn").addEventListener("click", handleAnswer);
