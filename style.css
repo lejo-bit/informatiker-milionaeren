@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background: #F6E7C6;          /* tło strony */
-  color: #807E79;               /* tekst */
+  color: #000000;               /* tekst */
   margin: 0;
   padding: 20px;
 }
@@ -19,7 +19,7 @@ h1 {
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
-  color: #807E79;
+  color: #000000;
 }
 
 .question-box {
@@ -30,14 +30,14 @@ h1 {
   font-size: 18px;
   line-height: 1.4;
   min-height: 60px;
-  color: #807E79;
+  color: #000000;
 }
 
 label {
   display: block;
   margin-bottom: 8px;
   font-size: 16px;
-  color: #807E79;
+  color: #000000;
 }
 
 input[type="text"] {
@@ -47,7 +47,7 @@ input[type="text"] {
   border-radius: 6px;
   border: 1px solid #BBB9B2;    /* border/mniejsze elementy */
   background: #F6E7C6;          /* tło pola */
-  color: #807E79;
+  color: #000000;
   box-sizing: border-box;
 }
 
@@ -65,12 +65,12 @@ button {
   border-radius: 6px;
   cursor: pointer;
   background: #CFD4AE;          /* przyciski główne */
-  color: #807E79;               /* tekst przycisków */
+  color: #000000;               /* tekst przycisków */
 }
 
 button.secondary {
   background: #E3E3E3;          /* przyciski wtórne */
-  color: #807E79;
+  color: #000000;
 }
 
 button:disabled {
@@ -84,7 +84,7 @@ button:disabled {
   border-radius: 6px;
   font-size: 16px;
   background: #E3E3E3;          /* tło rezultatu */
-  color: #807E79;
+  color: #000000;
 }
 
 .result.correct {
@@ -104,16 +104,16 @@ button:disabled {
 .correct-answer {
   margin-top: 8px;
   font-size: 14px;
-  color: #807E79;
+  color: #000000;
 }
 
 .loading {
   text-align: center;
-  color: #807E79;
+  color: #000000;
 }
 
 .error {
-  color: #807E79;
+  color: #000000;
   background: #E3E3E3;
   border: 1px solid #BBB9B2;
   padding: 12px;
@@ -125,23 +125,23 @@ button:disabled {
   justify-content: space-between;
   margin-bottom: 16px;
   font-size: 16px;
-  color: #807E79;
+  color: #000000;
 }
 
 #gameOver {
   text-align: center;
   padding: 24px;
-  color: #807E79;
+  color: #000000;
 }
 
 #gameOver h2 {
   margin-top: 0;
   margin-bottom: 16px;
-  color: #807E79;
+  color: #000000;
 }
 
 #gameOver p {
   font-size: 18px;
   margin-bottom: 24px;
-  color: #807E79;
+  color: #000000;
 }
