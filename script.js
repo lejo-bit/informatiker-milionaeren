@@ -61,15 +61,14 @@ function getShuffledOptions(question) {
 
 function renderQuestion() {
   const q = questions[currentIndex];
-  selectedChoice = null; // reset zaznaczenia
-  
+  selectedChoice = null;
+
   document.getElementById("questionText").textContent = q.frage;
 
   const input = document.getElementById("answerInput");
   const choiceContainer = document.getElementById("choiceContainer");
   const choiceButtons = choiceContainer.querySelectorAll(".choiceBtn");
 
-  // reset feedback
   const resultBox = document.getElementById("resultBox");
   const correctAnswerText = document.getElementById("correctAnswerText");
   resultBox.classList.add("hidden");
@@ -81,24 +80,28 @@ function renderQuestion() {
   document.getElementById("nextBtn").classList.add("hidden");
 
   if (q.questionType === "open") {
-    // pytanie otwarte
     input.value = "";
     input.disabled = false;
     input.classList.remove("hidden");
 
     choiceContainer.classList.add("hidden");
+    choiceButtons.forEach(btn => {
+      btn.textContent = "";
+      btn.classList.remove("selected");
+      btn.disabled = true;
+    });
   } else if (q.questionType === "choice") {
-    // pytanie wyboru
     input.value = "";
     input.disabled = true;
     input.classList.add("hidden");
 
     choiceContainer.classList.remove("hidden");
 
-    const options = getShuffledOptions(q); // { text, isCorrect }
+    const options = getShuffledOptions(q);
 
     options.forEach((opt, index) => {
       const btn = choiceButtons[index];
+      if (!btn) return;
       btn.textContent = opt.text;
       btn.dataset.isCorrect = opt.isCorrect ? "true" : "false";
       btn.disabled = false;
