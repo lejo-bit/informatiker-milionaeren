@@ -29,6 +29,7 @@ async function saveScoreFirebase(name, points) {
 }
 
 async function fetchScoresFirebase() {
+  console.log("fetchScoresFirebase start");
   try {
     const db = window.firebaseDb;
     const helpers = window.firebaseHelpers;
@@ -40,7 +41,14 @@ async function fetchScoresFirebase() {
     const { collection, getDocs, query, orderBy, limit } = helpers;
 
     const scoresCol = collection(db, "scores");
-    const q = query(scoresCol, orderBy("points", "desc"), limit(10)); // TOP 10
+
+    const q = query(
+      scoresCol,
+      orderBy("points", "desc"),  // najwięcej punktów
+      orderBy("date", "asc"),    // przy remisie starszy wyżej
+      limit(10)
+    );
+
     const snap = await getDocs(q);
 
     const scores = [];
@@ -48,12 +56,12 @@ async function fetchScoresFirebase() {
       scores.push(doc.data());
     });
 
+    console.log("Scores from Firestore:", scores);
     renderScoreTable(scores);
   } catch (err) {
     console.error("Fehler beim Laden der Scores aus Firestore:", err);
   }
 }
-
 function renderScoreTable(scores) {
   const tbody = document.getElementById("scoreTableBody");
   if (!tbody) return;
