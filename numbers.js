@@ -23,11 +23,11 @@ const GERMAN_NUMBER_MAP = {
   "fuenfzehn": "15",
   "fünfzehn": "15",
   "zwanzig": "20"
-  // możesz stopniowo dodawać kolejne
+  // maybe make it more??
 };
 
 function normalizeWithNumbers(text) {
-  const norm = normalize(text); // normalize z checker.js
+  const norm = normalize(text); // normalize from checker.js
   const tokens = norm.split(" ");
   return tokens
     .map(t => GERMAN_NUMBER_MAP[t] ?? t)

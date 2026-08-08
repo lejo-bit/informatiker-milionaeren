@@ -29,7 +29,7 @@ function checkAnswer(question, userAnswer) {
   const keywords = (question.keywords || []).map(normalize);
   const threshold = question.threshold ?? keywords.length;
 
-  const normUser = normalizeWithNumbers(userAnswer);  // z numbers.js
+  const normUser = normalizeWithNumbers(userAnswer);  // from numbers.js
   const normCorrect = normalizeWithNumbers(correct);
 
   // 1. pełne dopasowanie
