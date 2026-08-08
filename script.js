@@ -79,17 +79,18 @@ function renderQuestion() {
   document.getElementById("checkBtn").classList.remove("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
-  if (q.questionType === "open") {
-    input.value = "";
-    input.disabled = false;
-    input.classList.remove("hidden");
+ if (q.questionType === "open") {
+  input.value = "";
+  input.disabled = false;
+  input.classList.remove("hidden");
 
-    choiceContainer.classList.add("hidden");
-    choiceButtons.forEach(btn => {
-      btn.textContent = "";
-      btn.classList.remove("selected");
-      btn.disabled = true;
-    });
+  choiceContainer.classList.add("hidden");
+  choiceButtons.forEach(btn => {
+    btn.textContent = "";
+    btn.dataset.isCorrect = "";
+    btn.disabled = true;
+    btn.classList.remove("selected");
+  });
   } else if (q.questionType === "choice") {
     input.value = "";
     input.disabled = true;
