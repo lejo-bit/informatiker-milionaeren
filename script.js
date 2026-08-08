@@ -246,16 +246,21 @@ document.addEventListener("DOMContentLoaded", () => {
       choiceButtons.forEach(b => b.classList.remove("selected"));
       btn.classList.add("selected");
       selectedChoice = btn;
+
+      // jeśli aktualne pytanie jest typu choice, od razu zatwierdź odpowiedź
+      const q = questions[currentIndex];
+      if (q && q.questionType === "choice") {
+        handleAnswer();
+      }
     });
   });
 
-  // NOWE: Enter w pytaniu otwartym = handleAnswer
   const answerInput = document.getElementById("answerInput");
   answerInput.addEventListener("keydown", event => {
     if (event.key === "Enter") {
       const q = questions[currentIndex];
       if (q && q.questionType === "open") {
-        event.preventDefault();      // żeby nie wysyłać formularza itp.
+        event.preventDefault();
         handleAnswer();
       }
     }
