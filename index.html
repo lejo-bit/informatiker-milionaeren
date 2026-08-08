@@ -28,20 +28,17 @@
         <div id="questionText">Frage wird geladen...</div>
       </div>
 
-      <!-- Przyciski wyboru (dla questionType === "choice") -->
+      <!-- JEDEN input dla odpowiedzi otwartej -->
       <label for="answerInput">Deine Antwort:</label>
-<input type="text" id="answerInput" placeholder="Antwort eingeben..." />
-      
+      <input type="text" id="answerInput" placeholder="Antwort eingeben..." />
+
+      <!-- Kontener na odpowiedzi wyboru -->
       <div id="choiceContainer" class="hidden">
         <button class="choiceBtn"></button>
         <button class="choiceBtn"></button>
         <button class="choiceBtn"></button>
         <button class="choiceBtn"></button>
       </div>
-
-      <!-- Input dla pytań otwartych -->
-      <label for="answerInput">Deine Antwort:</label>
-      <input type="text" id="answerInput" placeholder="Antwort eingeben..." />
 
       <div class="buttons">
         <button id="checkBtn">Prüfen</button>
