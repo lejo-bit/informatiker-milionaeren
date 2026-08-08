@@ -79,7 +79,7 @@ button:disabled {
   border: 1px solid #ef4444;
 }
 .hidden {
-  display: none;
+  display: none !important;
 }
 .correct-answer {
   margin-top: 8px;
