@@ -30,6 +30,7 @@ async function loadQuestions() {
 function startGame() {
   const nameInput = document.getElementById("playerName");
   const enteredName = nameInput ? nameInput.value.trim() : "";
+  playerName = enteredName;
 
   if (!enteredName) {
     // brak nicka → pokaż komunikat i nie startuj gry
@@ -65,6 +66,11 @@ function updateHud() {
   document.getElementById("lives").textContent = lives;
   document.getElementById("score").textContent = score;
   document.getElementById("timer").textContent = timer;
+
+  const playerLabel = document.getElementById("playerLabel");
+  if (playerLabel) {
+    playerLabel.textContent = playerName || "";
+  }
 }
 
 function shuffleArray(arr) {
