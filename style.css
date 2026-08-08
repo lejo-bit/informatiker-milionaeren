@@ -151,12 +151,17 @@ button:disabled {
   max-width: 800px;
   margin: 30px auto 0;
   text-align: center;
+  background: #F6E7C6;      /* tło boxa z tabelą */
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* opcjonalnie ten sam cień co gra */
 }
 
 #scoreBoard table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
+  background: #F6E7C6;      /* tło samej tabeli */
 }
 
 #scoreBoard th,
