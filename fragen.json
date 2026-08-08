@@ -1,152 +1,54 @@
 [
   {
-    "id": 1,
-    "questionType": "open",
-    "frage": "Was ist die Hauptstadt von Deutschland?",
-    "antwort": "Berlin",
-    "keywords": ["berlin"],
-    "threshold": 1
-  },
-  {
-    "id": 2,
-    "questionType": "open",
-    "frage": "Wie viele Tage hat eine Woche?",
-    "antwort": "7",
-    "keywords": ["7", "sieben"],
-    "threshold": 1
-  },
-  {
-    "id": 3,
+    "nr": 1,
     "questionType": "choice",
-    "frage": "Welche Farbe hat der Himmel an einem sonnigen Tag?",
-    "antwort": "Blau",
-    "falseAnswers": ["Rot", "Gelb", "Grün"]
+    "frage": "Nennen Sie die aktuell vorliegende Marktform.",
+    "antwort": "Oligopol",
+    "falseAnswers": ["Polypol", "Monopol", "Duopol"]
   },
   {
-    "id": 4,
+    "nr": 2,
     "questionType": "choice",
-    "frage": "Wie viele Minuten hat eine Stunde?",
-    "antwort": "60",
-    "falseAnswers": ["30", "90", "45"]
+    "frage": "Nennen Sie die neue Marktform, mit der die Package AG zukünftig rechnen sollte?",
+    "antwort": "Polypol",
+    "falseAnswers": ["Oligopol", "Monopol", "Kartell"]
   },
   {
-    "id": 5,
+    "nr": 3,
+    "questionType": "choice",
+    "frage": "Welches Marktverhalten ist typisch für ein Oligopol?",
+    "antwort": "Reaktion auf Aktionen weniger Konkurrenten",
+    "falseAnswers": ["Völlige Unabhängigkeit von Konkurrenten", "Preisdiktaut durch einen einzelnen Anbieter", "Vollständige Markttransparenz ohne Wettbewerb"]
+  },
+  {
+    "nr": 4,
+    "questionType": "choice",
+    "frage": "Welcher Schritt gehört zum physischen Einbau einer CPU?",
+    "antwort": "Sockelhebel öffnen und wieder schließen",
+    "falseAnswers": ["RAM-Riegel festschrauben", "Netzteil mit Sockel verbinden", "Wärmeleitpaste auf die Pins auftragen"]
+  },
+  {
+    "nr": 5,
     "questionType": "open",
-    "frage": "In welchem Kontinent liegt Frankreich?",
-    "antwort": "Europa",
-    "keywords": ["europa"],
-    "threshold": 1
+    "frage": "Nennen Sie drei geeignete betriebliche Informationen für die Präsentationsfolie.",
+    "antwort": "Langjährige Marktpräsenz, Anzahl der Mitarbeiter, internationale Standorte"
   },
   {
-    "id": 6,
+    "nr": 6,
     "questionType": "open",
-    "frage": "Wie viele Monate hat ein Jahr?",
-    "antwort": "12",
-    "keywords": ["12", "zwölf"],
-    "threshold": 1
+    "frage": "Wählen Sie drei Begriffe aus dem Unternehmensportfolio und beschreiben Sie diese dem Kunden.",
+    "antwort": "Industrie 4.0, Support im Prozess- und IT-Management, Migrationsunterstützung"
   },
   {
-    "id": 7,
-    "questionType": "choice",
-    "frage": "Welches Tier ist typischerweise schwarz-weiß gestreift?",
-    "antwort": "Zebra",
-    "falseAnswers": ["Löwe", "Tiger", "Pferd"]
-  },
-  {
-    "id": 8,
-    "questionType": "choice",
-    "frage": "Welches Getränk wird aus Kaffeebohnen hergestellt?",
-    "antwort": "Kaffee",
-    "falseAnswers": ["Tee", "Saft", "Wasser"]
-  },
-  {
-    "id": 9,
+    "nr": 7,
     "questionType": "open",
-    "frage": "Welcher Wochentag kommt direkt nach Montag?",
-    "antwort": "Dienstag",
-    "keywords": ["dienstag"],
-    "threshold": 1
+    "frage": "Welche formale Information könnte darüber hinaus auch noch erforderlich sein?",
+    "antwort": "Name und Kontaktdaten des Ansprechpartners, Bindefrist des Angebots, Datum der Anfrage"
   },
   {
-    "id": 10,
+    "nr": 8,
     "questionType": "open",
-    "frage": "Wie viele Sekunden hat eine Minute?",
-    "antwort": "60",
-    "keywords": ["60"],
-    "threshold": 1
-  },
-  {
-    "id": 11,
-    "questionType": "choice",
-    "frage": "Welches dieser Länder liegt in Europa?",
-    "antwort": "Spanien",
-    "falseAnswers": ["Brasilien", "Japan", "Kanada"]
-  },
-  {
-    "id": 12,
-    "questionType": "choice",
-    "frage": "Welche dieser Zahlen ist eine gerade Zahl?",
-    "antwort": "8",
-    "falseAnswers": ["7", "9", "11"]
-  },
-  {
-    "id": 13,
-    "questionType": "open",
-    "frage": "Wie nennt man das Gerät, mit dem man telefoniert?",
-    "antwort": "Telefon",
-    "keywords": ["telefon", "handy"],
-    "threshold": 1
-  },
-  {
-    "id": 14,
-    "questionType": "open",
-    "frage": "Welche Jahreszeit folgt direkt nach dem Frühling?",
-    "antwort": "Sommer",
-    "keywords": ["sommer"],
-    "threshold": 1
-  },
-  {
-    "id": 15,
-    "questionType": "choice",
-    "frage": "Welches dieser Elemente ist ein Metall?",
-    "antwort": "Eisen",
-    "falseAnswers": ["Sauerstoff", "Wasserstoff", "Kohlenstoff"]
-  },
-  {
-    "id": 16,
-    "questionType": "choice",
-    "frage": "Welche dieser Formen hat vier Ecken?",
-    "antwort": "Quadrat",
-    "falseAnswers": ["Kreis", "Dreieck", "Ellipse"]
-  },
-  {
-    "id": 17,
-    "questionType": "open",
-    "frage": "Wie heißt das große Meer zwischen Europa und Amerika?",
-    "antwort": "Atlantik",
-    "keywords": ["atlantik", "atlantischer ozean"],
-    "threshold": 1
-  },
-  {
-    "id": 18,
-    "questionType": "open",
-    "frage": "Wie nennt man das Gerät, mit dem man Texte auf Papier druckt?",
-    "antwort": "Drucker",
-    "keywords": ["drucker"],
-    "threshold": 1
-  },
-  {
-    "id": 19,
-    "questionType": "choice",
-    "frage": "Welches dieser Geräte ist ein Computer?",
-    "antwort": "Laptop",
-    "falseAnswers": ["Toaster", "Kühlschrank", "Mikrowelle"]
-  },
-  {
-    "id": 20,
-    "questionType": "choice",
-    "frage": "Welches dieser Tiere kann fliegen?",
-    "antwort": "Vogel",
-    "falseAnswers": ["Fisch", "Hund", "Katze"]
+    "frage": "Nennen Sie die drei Schritte für den Einbau der CPU.",
+    "antwort": "Hebel am Sockel öffnen, CPU richtig orientiert einsetzen, Hebel schließen"
   }
 ]
