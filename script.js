@@ -30,6 +30,9 @@ function startGame() {
   currentIndex = 0;
   timer = 30;
 
+  // losowa kolejność pytań, bez powtórek
+  questions = shuffleArray(questions);
+
   document.getElementById("startScreen").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
   document.getElementById("gameOver").classList.add("hidden");
