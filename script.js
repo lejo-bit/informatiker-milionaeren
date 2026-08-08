@@ -177,9 +177,21 @@ function getShuffledOptions(question) {
   return shuffleArray(options);
 }
 
+function getInitialTimeForQuestion(q) {
+  if (q.questionType === "choice") {
+    return 10;   // 10 sekund na pytanie wielokrotnego wyboru
+  } else {
+    return 30;   // 30 sekund na pytanie otwarte
+  }
+}
+
 function renderQuestion() {
   const q = questions[currentIndex];
   selectedChoice = null;
+
+  // Ustaw czas dla danego pytania
+  timer = getInitialTimeForQuestion(q);
+  updateHud();
 
   document.getElementById("questionText").textContent = q.frage;
 
@@ -230,6 +242,28 @@ function renderQuestion() {
   }
 }
 
+function calculatePointsForQuestion(q) {
+  if (q.questionType === "choice") {
+    // pytania wielokrotnego wyboru – zawsze 100 punktów za poprawną odpowiedź
+    return 100;
+  }
+
+  // pytania otwarte:
+  // start zawsze 30 sekund, więc ile czasu minęło?
+  const elapsed = 30 - timer; // ile sekund już upłynęło
+
+  if (elapsed <= 10) {
+    // pierwsze 10 sekund – pełne 100 punktów
+    return 100;
+  } else {
+    // po 10 sekundach co sekundę -5 punktów
+    const extraSeconds = elapsed - 10;
+    let pts = 100 - extraSeconds * 5;
+    if (pts < 0) pts = 0; // nie schodzimy poniżej 0
+    return pts;
+  }
+}
+
 function handleAnswer() {
   const q = questions[currentIndex];
   const resultBox = document.getElementById("resultBox");
@@ -260,13 +294,19 @@ function handleAnswer() {
   resultBox.classList.remove("hidden");
 
   if (isCorrect) {
-    score += 100;
+    const pointsToAdd = calculatePointsForQuestion(q);
+    score += pointsToAdd;
   } else {
     lives -= 1;
     correctAnswerText.textContent = q.antwort;
     correctAnswerText.classList.remove("hidden");
-  }
 
+    if (lives <= 0) {
+      updateHud();
+      endGame();
+      return;
+    }
+  }
   updateHud();
 
   const input = document.getElementById("answerInput");
@@ -307,7 +347,8 @@ function goToNextQuestionWithDelay() {
       endGame();
     } else {
       currentIndex++;
-      timer = 30;
+      const nextQ = questions[currentIndex];
+      timer = getInitialTimeForQuestion(nextQ);
       updateHud();
       renderQuestion();
       startTimer();
@@ -328,7 +369,8 @@ function goToNextQuestionAfterError() {
     if (currentIndex >= questions.length) {
       endGame();
     } else {
-      timer = 30;
+      const nextQ = questions[currentIndex];
+      timer = getInitialTimeForQuestion(nextQ);
       updateHud();
       renderQuestion();
       startTimer();
@@ -361,6 +403,11 @@ function handleTimeout() {
   correctAnswerText.classList.remove("hidden");
 
   updateHud();
+
+  if (lives <= 0) {
+    endGame();
+    return;
+  }
 
   const input = document.getElementById("answerInput");
   if (input) input.disabled = true;
