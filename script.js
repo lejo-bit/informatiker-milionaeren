@@ -37,10 +37,10 @@ async function fetchScoresFirebase() {
       return;
     }
 
-    const { collection, getDocs, query, orderBy } = helpers;
+    const { collection, getDocs, query, orderBy, limit } = helpers;
 
     const scoresCol = collection(db, "scores");
-    const q = query(scoresCol, orderBy("points", "desc"));
+    const q = query(scoresCol, orderBy("points", "desc"), limit(10)); // TOP 10
     const snap = await getDocs(q);
 
     const scores = [];
