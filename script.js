@@ -7,6 +7,7 @@ let score = 0;
 let timer = 30;
 let timerInterval = null;
 let delayInterval = null; // krótki, 2‑sekundowy timer między pytaniami
+let errorDelayInterval = null; // timer 15 s po błędnej odpowiedzi
 let selectedChoice = null;
 
 async function loadQuestions() {
@@ -143,7 +144,7 @@ function handleAnswer() {
       : "Nicht ganz. Die richtige Antwort lautet: " + q.antwort;
   }
 
-  resultBox.textContent = message;
+ resultBox.textContent = message;
   resultBox.classList.remove("hidden");
 
   if (isCorrect) {
@@ -159,9 +160,36 @@ function handleAnswer() {
   const input = document.getElementById("answerInput");
   if (input) input.disabled = true;
 
-  goToNextQuestionWithDelay();
-}
+  // poprawna odpowiedź → automatycznie dalej po 2 s
+  if (isCorrect) {
+    goToNextQuestionWithDelay();
+  } else {
+    // błędna odpowiedź → pokazujemy "Nächste Frage" i uruchamiamy 15 s timer
+    clearInterval(timerInterval); // zatrzymaj główny 30 s timer
+    document.getElementById("checkBtn").classList.add("hidden");
+    document.getElementById("nextBtn").classList.remove("hidden");
 
+    // uruchom 15‑sekundowy timeout na automatyczne przejście
+    if (errorDelayInterval) {
+      clearTimeout(errorDelayInterval);
+    }
+    errorDelayInterval = setTimeout(() => {
+      if (lives <= 0) {
+        endGame();
+      } else {
+        currentIndex++;
+        if (currentIndex >= questions.length) {
+          endGame();
+        } else {
+          timer = 30;
+          updateHud();
+          renderQuestion();
+          startTimer();
+        }
+      }
+    }, 15000);
+  }
+}
 function goToNextQuestionWithDelay() {
   // zatrzymaj główny timer
   clearInterval(timerInterval);
