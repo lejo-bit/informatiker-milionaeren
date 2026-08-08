@@ -66,7 +66,6 @@ function renderScoreTable(scores) {
       <td>${index + 1}</td>
       <td>${entry.name}</td>
       <td>${entry.points}</td>
-      <td>${new Date(entry.date).toLocaleDateString()}</td>
     `;
     tbody.appendChild(tr);
   });
