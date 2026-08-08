@@ -1,0 +1,3002 @@
+[
+  {
+    "nr": 1,
+    "frage": "Nennen Sie die aktuell vorliegende Marktform.",
+    "antwort1": "Die aktuell vorliegende Marktform ist ein Oligopol.",
+    "antwort2": ""
+  },
+  {
+    "nr": 2,
+    "frage": "Nennen Sie die neue Marktform, mit der die Package AG zukünftig rechnen sollte?",
+    "antwort1": "Die Package AG sollte zukünftig mit einem Polypol rechnen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 3,
+    "frage": "Nennen Sie die aktuell vorliegende Marktform.",
+    "antwort1": "Die aktuell vorliegende Marktform ist ein Oligopol.",
+    "antwort2": ""
+  },
+  {
+    "nr": 4,
+    "frage": "Nennen Sie die neue Marktform, mit der die Package AG zukünftig rechnen sollte?",
+    "antwort1": "Die Package AG sollte zukünftig mit einem Polypol rechnen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 5,
+    "frage": "Nennen Sie drei geeignete betriebliche Informationen für die Präsentationsfolie.",
+    "antwort1": "Geeignete betriebliche Informationen sind die langjährige Marktpräsenz, die Anzahl der Mitarbeiter und die internationalen bzw. nationalen Standorte oder eine große Kundenbasis.",
+    "antwort2": ""
+  },
+  {
+    "nr": 6,
+    "frage": "Wählen Sie drei Begriffe aus dem Unternehmensportfolio und beschreiben Sie diese dem Kunden.",
+    "antwort1": "Man wählt drei Begriffe aus dem Portfolio, zum Beispiel Industrie 4.0, Support im Prozess- und IT-Management und Migrationsunterstützung.",
+    "antwort2": "Jeden z tych pojęć erklärt man dem Kunden nutzenorientiert und beschreibt, welchen konkreten Vorteil er davon hat."
+  },
+  {
+    "nr": 7,
+    "frage": "Welche formale Information könnte darüber hinaus auch noch erforderlich sein?",
+    "antwort1": "Als formale Informationen können der Name und die Kontaktdaten des Ansprechpartners, eine Bindefrist des Angebots und das Datum der Anfrage erforderlich sein.",
+    "antwort2": ""
+  },
+  {
+    "nr": 8,
+    "frage": "Nennen Sie die drei Schritte für den Einbau der CPU.",
+    "antwort1": "Man öffnet den Hebel am Sockel, setzt die CPU vorsichtig in der richtigen Orientierung ein und schließt den Hebel wieder.",
+    "antwort2": ""
+  },
+  {
+    "nr": 9,
+    "frage": "Beschreiben Sie, welche beiden Punkte beim Schritt 2 besonders zu beachten sind.",
+    "antwort1": "Die CPU darf nicht mit Gewalt eingesetzt werden.",
+    "antwort2": "Der Pfeil auf der CPU muss mit dem Pfeil auf dem Sockel übereinstimmen."
+  },
+  {
+    "nr": 10,
+    "frage": "Erläutern Sie, welche Aufgabe die Wärmeleitpaste hat.",
+    "antwort1": "Die Wärmeleitpaste füllt kleine Unebenheiten zwischen Kühler und CPU, da Luft ein schlechter Wärmeleiter ist.",
+    "antwort2": ""
+  },
+  {
+    "nr": 11,
+    "frage": "Erläutern Sie, was Sie beim Einsetzen der beiden Speicherriegel beachten müssen, damit der RAM im Dual-Channel-Modus arbeitet.",
+    "antwort1": "Die zwei RAM-Module müssen in die richtigen Kanäle, zum Beispiel A1/B1 oder A2/B2, eingesetzt werden und die gleiche Größe sowie den gleichen Typ haben.",
+    "antwort2": ""
+  },
+  {
+    "nr": 12,
+    "frage": "Nennen Sie einen Vorteil und einen Nachteil einer M.2 SSD gegenüber einer SATA SSD.",
+    "antwort1": "Ein Vorteil der M.2-SSD ist der höhere Datendurchsatz und die kompakte Bauform.",
+    "antwort2": "Ein Nachteil ist, dass M.2-SSDs teurer sind und meist weniger Steckplätze verfügbar sind."
+  },
+  {
+    "nr": 13,
+    "frage": "Um welche Anschlüsse handelt es sich bei A, B und C?",
+    "antwort1": "Bei A handelt es sich um einen DisplayPort, bei B um einen HDMI-Anschluss und bei C um einen DVI-Anschluss.",
+    "antwort2": ""
+  },
+  {
+    "nr": 14,
+    "frage": "Beschreiben Sie, welche Besonderheit der umrahmte USB-Anschluss hat.",
+    "antwort1": "Dieser USB-Port ist speziell für BIOS- bzw. UEFI-Updates vorgesehen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 15,
+    "frage": "Nennen Sie zwei Vorteile des USB-C-Anschlusses gegenüber dem USB-3-Anschluss.",
+    "antwort1": "Vorteile des USB-C-Anschlusses sind eine höhere Datenrate, eine höhere Stromversorgung und ein beidseitig steckbarer Stecker.",
+    "antwort2": ""
+  },
+  {
+    "nr": 16,
+    "frage": "Erläutern Sie den Begriff Logische Prozessoren.",
+    "antwort1": "Logische Prozessoren sind eine Aufteilung der physischen Kerne, zum Beispiel durch Hyper-Threading, sodass ein Kern mehrere Threads parallel abarbeiten kann.",
+    "antwort2": ""
+  },
+  {
+    "nr": 17,
+    "frage": "Beschreiben Sie allgemein die Aufgabe eines Cache-Speichers.",
+    "antwort1": "Ein Cache-Speicher ist ein sehr schneller Zwischenspeicher, der die Anzahl der Zugriffe auf langsamere Speicher reduziert und dadurch die Leistung erhöht.",
+    "antwort2": ""
+  },
+  {
+    "nr": 18,
+    "frage": "Geben Sie die Taktfrequenz von 3,4 GHz in Hertz an.",
+    "antwort1": "3,4 GHz entsprechen 3.400.000.000 Hertz.",
+    "antwort2": ""
+  },
+  {
+    "nr": 19,
+    "frage": "Beschreiben Sie zwei Unterschiede zwischen Lastenheft und Pflichtenheft.",
+    "antwort1": "Das Lastenheft beschreibt, was der Auftraggeber will, also die Anforderungen an das System.",
+    "antwort2": "Das Pflichtenheft beschreibt, wie der Auftragnehmer diese Anforderungen technisch und organisatorisch umsetzen will."
+  },
+  {
+    "nr": 20,
+    "frage": "Nennen Sie zwei weitere Inhalte, die neben der Ausgangssituation in ein Lastenheft gehören.",
+    "antwort1": "Zum Lastenheft gehören neben der Ausgangssituation zum Beispiel eine detaillierte Anforderungsliste, Rahmenbedingungen, eine Schnittstellenbeschreibung sowie Qualitäts- und Zeitziele.",
+    "antwort2": ""
+  },
+  {
+    "nr": 21,
+    "frage": "Nennen Sie zwei geeignete Maßnahmen, um die Servicequalität zu verbessern.",
+    "antwort1": "Geeignete Maßnahmen zur Verbesserung der Servicequalität sind zum Beispiel die Einführung eines Ticketsystems und die Ausweitung der Servicezeiten.",
+    "antwort2": ""
+  },
+  {
+    "nr": 22,
+    "frage": "Nennen Sie drei Methoden für eine Bedarfsanalyse, um die Kundenbedürfnisse zu identifizieren.",
+    "antwort1": "Drei Methoden für eine Bedarfsanalyse sind Kundenbefragungen bzw. Interviews, Beobachtungen im Prozess und die Auswertung von Beschwerden und Servicefällen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 23,
+    "frage": "Benennen Sie eine Gefahr, die bei zu hohen Service-Preisen besteht.",
+    "antwort1": "Eine Gefahr bei zu hohen Service-Preisen besteht darin, dass Kunden abgeschreckt werden und die Nachfrage trotz guter Leistung sinkt.",
+    "antwort2": ""
+  },
+  {
+    "nr": 24,
+    "frage": "Benennen Sie eine Gefahr, die bei zu niedrigen Service-Preisen besteht.",
+    "antwort1": "Eine Gefahr bei zu niedrigen Service-Preisen besteht darin, dass die Kosten nicht gedeckt werden und das Unternehmen unwirtschaftlich arbeitet.",
+    "antwort2": ""
+  },
+  {
+    "nr": 25,
+    "frage": "Nennen Sie die vier im Text genannten Aspekte zur Service-Preis-Bestimmung.",
+    "antwort1": "Die vier Aspekte zur Service-Preis-Bestimmung sind Kosten kalkulieren, Kunden kennen, Markt analysieren und ein geeignetes Preismodell wählen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 26,
+    "frage": "Nennen Sie zwei weitere Anschaffungen oder Maßnahmen für den Telearbeitsplatz.",
+    "antwort1": "Weitere Anschaffungen oder Maßnahmen für den Telearbeitsplatz sind zum Beispiel eine Dockingstation, ein externer Monitor sowie ein Headset oder ein Diensttelefon.",
+    "antwort2": ""
+  },
+  {
+    "nr": 27,
+    "frage": "Erläutern Sie anhand von zwei Aspekten, warum die Anforderungen an einen Bildschirmarbeitsplatz durch ein Tablet nicht erfüllt werden.",
+    "antwort1": "Tablet-Bildschirme sind zu klein und lassen sich schlecht ergonomisch positionieren, weshalb die Anforderungen an einen Bildschirmarbeitsplatz nicht erfüllt werden.",
+    "antwort2": ""
+  },
+  {
+    "nr": 28,
+    "frage": "Beschreiben Sie zwei Möglichkeiten bzw. Ergänzungen, die Arbeit mit den Notebooks ergonomischer zu gestalten.",
+    "antwort1": "Zwei Möglichkeiten, die Arbeit mit Notebooks ergonomischer zu gestalten, sind der Einsatz eines externen Monitors, die Verwendung einer separaten Tastatur und Maus sowie die ergonomische Einstellung von Bildschirm und Sitzplatz.",
+    "antwort2": ""
+  },
+  {
+    "nr": 29,
+    "frage": "Nennen Sie zwei in Deutschland für den Datenschutz relevante gesetzliche Grundlagen.",
+    "antwort1": "Zwei in Deutschland für den Datenschutz relevante gesetzliche Grundlagen sind die DSGVO und das BDSG.",
+    "antwort2": ""
+  },
+  {
+    "nr": 30,
+    "frage": "Nennen Sie zwei Kriterien für ein sicheres Passwort.",
+    "antwort1": "Zwei Kriterien für ein sicheres Passwort sind eine ausreichende Länge und Komplexität aus Groß- und Kleinbuchstaben, Ziffern und Sonderzeichen sowie Einzigartigkeit.",
+    "antwort2": ""
+  },
+ {
+    "nr": 31,
+    "frage": "Beschreiben Sie, was Vertraulichkeit und Integrität in Bezug auf die Daten auf der SSD bedeutet.",
+    "antwort1": "Vertraulichkeit bedeutet, dass nur berechtigte Personen die Daten auf der SSD lesen können.",
+    "antwort2": "Integrität bedeutet, dass die Daten nicht unbemerkt verändert werden."
+  },
+  {
+    "nr": 32,
+    "frage": "Beschreiben Sie den sicherheitstechnischen Vorteil eines VPN.",
+    "antwort1": "Der sicherheitstechnische Vorteil eines VPN besteht darin, dass es einen verschlüsselten Tunnel über ein unsicheres Netz bereitstellt.",
+    "antwort2": "Dadurch schützt es die Vertraulichkeit und Integrität der Kommunikation."
+  },
+  {
+    "nr": 33,
+    "frage": "Beschreiben Sie die von Ihrem Arbeitgeber mithilfe des digitalen Zertifikats geplante Identifizierung.",
+    "antwort1": "Das persönliche digitale Zertifikat dient der eindeutigen Identifizierung und Authentifizierung des Benutzers oder Geräts.",
+    "antwort2": "Die Identifizierung erfolgt über eine PKI-Prüfung."
+  },
+  {
+    "nr": 34,
+    "frage": "Nennen Sie jeweils zwei wesentliche Merkmale von Gantt-Diagramm und Netzplan.",
+    "antwort1": "Ein Gantt-Diagramm zeigt eine Zeitachse mit Balken, sodass Dauer und Reihenfolge der Vorgänge sichtbar sind.",
+    "antwort2": "Ein Netzplan zeigt die Abhängigkeiten zwischen Vorgängen, den kritischen Pfad und zeitliche Puffer."
+  },
+  {
+    "nr": 35,
+    "frage": "Bringen Sie die Vorgänge einer Planungsliste in die richtige Reihenfolge.",
+    "antwort1": "Die richtige Reihenfolge ist: Anforderungsanalyse, konzeptioneller Entwurf, logischer Entwurf, physischer Entwurf bzw. Implementierung, Test und Validierung, Anwendung und Wartung.",
+    "antwort2": ""
+  },
+  {
+    "nr": 36,
+    "frage": "Ermitteln Sie die Priorität und die dazugehörige Anzahl.",
+    "antwort1": "Man verwendet eine SQL-Abfrage mit COUNT(*) und GROUP BY Prioritaet, um Priorität und die Anzahl der Tickets pro Priorität auszugeben.",
+    "antwort2": ""
+  },
+  {
+    "nr": 37,
+    "frage": "Ermitteln Sie den Prozentsatz der Kunden aus, die Tickets eröffnet haben.",
+    "antwort1": "Man ermittelt die Anzahl der Kunden mit mindestens einem Ticket über COUNT DISTINCT KundenID im Ticket und teilt diesen Wert durch die Gesamtzahl der Kunden.",
+    "antwort2": ""
+  },
+  {
+    "nr": 38,
+    "frage": "Welche offenen Tickets einen Erfassungsmonat haben, der mehr als zwei Monate zurückliegt?",
+    "antwort1": "Es sind alle Tickets mit dem Zustand „offen“ gemeint, deren Erfassungsmonat mehr als zwei Monate zurückliegt, sortiert nach Erfassungsdatum.",
+    "antwort2": ""
+  },
+  {
+    "nr": 39,
+    "frage": "Beschreiben Sie die Ursache der Fehlermeldung und geben Sie einen Lösungsvorschlag an.",
+    "antwort1": "Die Ursache der Fehlermeldung ist, dass der Benutzer keine Schreibrechte hat.",
+    "antwort2": "Als Lösung vergibt man Schreibrechte für den Benutzer, zum Beispiel mit chmod 664 oder einer passenden Rechtezuweisung."
+  },
+  {
+    "nr": 40,
+    "frage": "Beschreiben Sie die Auswirkungen jeder Ziffer der gesetzten Rechte Eigentümer, Gruppe, Andere des chmod-Befehls.",
+    "antwort1": "Die erste Ziffer beschreibt die Rechte des Eigentümers, die zweite Ziffer die Rechte der Gruppe und die dritte Ziffer die Rechte der anderen.",
+    "antwort2": "Dabei steht 4 für lesen, 2 für schreiben und 1 für ausführen."
+  },
+   {
+    "nr": 41,
+    "frage": "Benennen Sie zwei allgemeine Aufgaben des BSI.",
+    "antwort1": "Zwei allgemeine Aufgaben des BSI sind zum Beispiel die Erarbeitung von Sicherheitsstandards und der Schutz der IT-Systeme des Bundes.",
+    "antwort2": "Das BSI fungiert zudem als Kompetenzzentrum für IT-Sicherheit."
+  },
+  {
+    "nr": 42,
+    "frage": "Erklären Sie den Begriff der Härtung eines Betriebssystems.",
+    "antwort1": "Härtung eines Betriebssystems bedeutet die Reduktion der Angriffsfläche durch Deaktivierung nicht benötigter Dienste und Funktionen.",
+    "antwort2": "Zusätzlich wird die Sicherheitskonfiguration des Systems verschärft."
+  },
+  {
+    "nr": 43,
+    "frage": "Nennen Sie zwei Beispiele für eine Härtung eines Betriebssystems.",
+    "antwort1": "Zwei Beispiele für eine Härtung sind das Löschen unnötiger Benutzerkonten und das Deaktivieren nicht benötigter Dienste und Ports.",
+    "antwort2": "Ein weiteres Beispiel ist die Minimierung von Berechtigungen nach dem Prinzip der geringsten Rechte."
+  },
+  {
+    "nr": 44,
+    "frage": "Nennen Sie zwei Systemwerkzeuge Bordmittel eines Betriebssystems, mit denen die IT-Sicherheit erhöht werden kann.",
+    "antwort1": "Zwei Systemwerkzeuge eines Betriebssystems zur Erhöhung der IT-Sicherheit sind eine Firewall und ein Virenschutz bzw. eine Antimalware-Lösung.",
+    "antwort2": "Zusätzlich können Backup-Werkzeuge und die Benutzer- und Rechteverwaltung zur Sicherheit beitragen."
+  },
+  {
+    "nr": 45,
+    "frage": "Beschreiben Sie, wozu Gruppenrichtlinien auf einem Arbeitsplatzrechner eingesetzt werden können.",
+    "antwort1": "Gruppenrichtlinien werden eingesetzt, um zentral Einstellungen vorzugeben, zum Beispiel Passwortregeln, Zugriffsrechte und Update-Richtlinien.",
+    "antwort2": "Der Benutzer kann diese zentral vorgegebenen Einstellungen nicht ändern."
+  },
+  {
+    "nr": 46,
+    "frage": "Beschreiben Sie, inwiefern eine Protokollierung zur Erhöhung der IT-Sicherheit beitragen kann.",
+    "antwort1": "Protokollierung macht Aktivitäten im System nachvollziehbar und hilft dabei, Sicherheitsvorfälle und Fehler zu erkennen.",
+    "antwort2": "Zudem unterstützt sie die Zuordnung von Ereignissen zu bestimmten Benutzern oder Prozessen."
+  },
+  {
+    "nr": 47,
+    "frage": "Beschreiben Sie die besonderen Anforderungen an den Datenschutz bei der Protokollierung.",
+    "antwort1": "Bei der Protokollierung dürfen nur notwendige Daten erfasst werden und es muss eine begrenzte Speicherfrist gelten.",
+    "antwort2": "Zudem müssen Zweckbindung und Datensparsamkeit beachtet werden."
+  },
+  {
+    "nr": 48,
+    "frage": "Geben Sie in jedem Feld ein zutreffendes Argument an.",
+    "antwort1": "Wirtschaftliche Argumente sind die 24/7-Erreichbarkeit, die gleichzeitige Bearbeitung vieler Anfragen und die Kostensenkung.",
+    "antwort2": "Soziale Argumente sind die einfache Nutzung und das Fehlen von Warteschleifen, wobei ein Risiko in der fehlenden Empathie besteht."
+  },
+  {
+    "nr": 49,
+    "frage": "Beschreiben Sie zwei Unterschiede zwischen Lastenheft und Pflichtenheft.",
+    "antwort1": "Das Lastenheft beschreibt die Anforderungen des Auftraggebers an das System.",
+    "antwort2": "Das Pflichtenheft beschreibt den Umsetzungsvorschlag und die konkreten Leistungen des Auftragnehmers."
+  },
+  {
+    "nr": 50,
+    "frage": "Nennen Sie zwei weitere Inhalte, die neben der Ausgangssituation in ein Lastenheft gehören.",
+    "antwort1": "Zum Lastenheft gehören neben der Ausgangssituation zum Beispiel eine detaillierte Anforderungsliste und Rahmenbedingungen.",
+    "antwort2": "Weitere Inhalte sind Schnittstellenbeschreibungen sowie Qualitäts- und Zeitziele."
+  },
+   {
+    "nr": 51,
+    "frage": "Erstellen Sie eine sinnvolle Klassenhierarchie mit einer gemeinsamen Oberklasse Versicherungsobjekt.",
+    "antwort1": "Eine sinnvolle Klassenhierarchie besteht aus einer Oberklasse Versicherungsobjekt mit gemeinsamen Attributen wie Neupreis, Baujahr und Schadenshöhe.",
+    "antwort2": "Von dieser Oberklasse erben Klassen wie KFZ und Immobilie, die jeweils ihre eigene Methode restwertBerechnen() implementieren."
+  },
+  {
+    "nr": 52,
+    "frage": "Erstellen Sie eine geeignete SQL-Abfrage zur durchschnittlichen Versicherungssumme.",
+    "antwort1": "Eine geeignete SQL-Abfrage zur durchschnittlichen Versicherungssumme lautet: SELECT AVG(Versicherungssumme) FROM KFZVersicherung.",
+    "antwort2": ""
+  },
+  {
+    "nr": 53,
+    "frage": "Erstellen Sie eine geeignete SQL-Abfrage für Versicherungsnummern im Mai 2022 über 100.000 EUR ohne Garage.",
+    "antwort1": "Die SQL-Abfrage lautet: SELECT VID FROM KFZVersicherung WHERE YEAR(Vertragsbeginn) = 2022 AND MONTH(Vertragsbeginn) = 5 AND Versicherungssumme > 100000 AND Garage = FALSE.",
+    "antwort2": ""
+  },
+  {
+    "nr": 54,
+    "frage": "Erläutern Sie drei Aspekte, die für eine Bereitstellung von Anwendungen in Form von SaaS sprechen.",
+    "antwort1": "Drei Aspekte für SaaS sind der geringe Administrationsaufwand, die gute Skalierbarkeit und die Tatsache, dass immer die aktuelle Version verwendet wird.",
+    "antwort2": "Ein weiterer Vorteil ist der ortsunabhängige Zugriff über das Netz."
+  },
+  {
+    "nr": 55,
+    "frage": "Erläutern Sie zwei Sachverhalte, die beim Aufbau des Server-Clusters zu beachten sind.",
+    "antwort1": "Beim Aufbau eines Server-Clusters müssen die gemeinsame Speicher- und Netzwerk-Infrastruktur abgesichert werden.",
+    "antwort2": "Zudem müssen Redundanz und Failover für die Cluster-Knoten konfiguriert werden."
+  },
+  {
+    "nr": 56,
+    "frage": "Erläutern Sie den Zweck eines Hypervisors.",
+    "antwort1": "Der Zweck eines Hypervisors besteht darin, virtuelle Maschinen zu verwalten und ihnen Ressourcen wie CPU, RAM und Speicher zuzuteilen.",
+    "antwort2": "Zudem sorgt der Hypervisor für die Isolation der virtuellen Maschinen voneinander."
+  },
+  {
+    "nr": 57,
+    "frage": "Erläutern Sie das Funktionsprinzip der Containerisierung.",
+    "antwort1": "Bei der Containerisierung teilen sich mehrere Container einen gemeinsamen Kernel des Host-Betriebssystems.",
+    "antwort2": "Jeder Container ist jedoch von den anderen isoliert und enthält eigene Bibliotheken und Konfigurationen, was ressourcenschonend ist."
+  },
+  {
+    "nr": 58,
+    "frage": "Berechnen Sie die Reduzierung bzw. Erhöhung der jährlichen Stromkosten.",
+    "antwort1": "Man berechnet die alten jährlichen Stromkosten und die neuen jährlichen Stromkosten und gibt die Differenz an.",
+    "antwort2": ""
+  },
+  {
+    "nr": 59,
+    "frage": "Ermitteln Sie die Bandbezeichnungen für die vollständige Wiederherstellung der Daten.",
+    "antwort1": "Für die vollständige Wiederherstellung der Daten verwendet man das letzte Vollbackup und alle danach folgenden differenziellen Sicherungen bis zum Zeitpunkt des Ausfalls.",
+    "antwort2": ""
+  },
+  {
+    "nr": 60,
+    "frage": "Erläutern Sie zwei Maßnahmen, um aus einer Datensicherung eine Archivierung zu erstellen.",
+    "antwort1": "Zwei Maßnahmen sind, die Sicherungsdaten unveränderbar und langfristig zu archivieren und getrennte, geschützte Archivmedien zu verwenden.",
+    "antwort2": "Zusätzlich müssen klare Aufbewahrungsfristen definiert und eingehalten werden."
+  },
+    {
+    "nr": 61,
+    "frage": "Erläutern Sie Ihre Auswahl der Zuordnungseinheit.",
+    "antwort1": "Kleine Zuordnungseinheiten wählt man für viele kleine Dateien, um Platzverschwendung zu vermeiden.",
+    "antwort2": "Große Zuordnungseinheiten sind für große sequentielle Dateien sinnvoll, da sie die Performance verbessern."
+  },
+  {
+    "nr": 62,
+    "frage": "Erläutern Sie drei Vorteile der firmeninternen Verwaltung von Betriebssystem-, Anwendungs- und Treiberpatches.",
+    "antwort1": "Drei Vorteile sind mehr Kontrolle über Zeitpunkt und Inhalt von Patches, ein einheitlicher Patch-Stand im Unternehmen und eine geringere Abhängigkeit von externen Quellen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 63,
+    "frage": "Erläutern Sie die beiden möglichen Modelle anhand des vorliegenden Textes und wann diese zum Einsatz kommen.",
+    "antwort1": "Ein Patch ist ein kostenloses Update innerhalb einer Hauptversion und wird zur Fehlerbehebung und Sicherheitsverbesserung eingesetzt.",
+    "antwort2": "Ein Upgrade ist ein vergünstigter Versionssprung auf eine neue Hauptversion und bringt neue Funktionen und Verbesserungen."
+  },
+  {
+    "nr": 64,
+    "frage": "Bringen Sie die Vorgänge einer Planungsliste in die richtige Reihenfolge.",
+    "antwort1": "Die richtige Reihenfolge ist: Anforderungsanalyse, konzeptioneller Entwurf, logischer Entwurf, physischer Entwurf bzw. Implementierung, Test und Validierung, Anwendung und Wartung.",
+    "antwort2": ""
+  },
+  {
+    "nr": 65,
+    "frage": "Ermitteln Sie die Zeit für die Übertragung der 100 MiByte großen Datei.",
+    "antwort1": "Die Übertragungszeit für eine 100 MiByte große Datei beträgt bei 40 Mbit/s Upload etwa 21 Sekunden.",
+    "antwort2": ""
+  },
+  {
+    "nr": 66,
+    "frage": "Keine Analyse, nur Extraktion der Fragen aus den PDF-Arkhen.",
+    "antwort1": "Es erfolgt ein automatisches Extrahieren von Fragen aus den PDF-Dateien und ein Export in CSV ohne weitere Analyse.",
+    "antwort2": ""
+  },
+  {
+    "nr": 67,
+    "frage": "Analysieren Sie die zur Verfügung stehenden Modelle und ergänzen Sie die Nutzwertanalyse.",
+    "antwort1": "Bei der Nutzwertanalyse erhält der Thin Client die höchste gewichtete Punktzahl.",
+    "antwort2": "Daher ist der Thin Client das geeignetste Modell."
+  },
+  {
+    "nr": 68,
+    "frage": "Entscheiden Sie sich für eines der Modelle und begründen Sie Ihre Entscheidung.",
+    "antwort1": "Ich entscheide mich für den Thin Client, da er flexible Arbeitsplatzkonzepte am besten unterstützt.",
+    "antwort2": "Zudem hat er in der Nutzwertanalyse die höchste Nutzwertsumme erreicht."
+  },
+  {
+    "nr": 69,
+    "frage": "Geben Sie ein weiteres sinnvolles Kriterium für die Nutzwertanalyse an und begründen Sie.",
+    "antwort1": "Ein weiteres sinnvolles Kriterium ist der Energieverbrauch.",
+    "antwort2": "Ein geringerer Verbrauch senkt die Betriebskosten und ist nachhaltiger."
+  },
+  {
+    "nr": 70,
+    "frage": "Ermitteln Sie den Bezugspreis pro Notebook für die Anbieter.",
+    "antwort1": "Der Bezugspreis pro Notebook für den Anbieter notebooks-guenstiger.de beträgt 886,86 EUR.",
+    "antwort2": ""
+  },
+ {
+    "nr": 71,
+    "frage": "Nennen Sie drei mögliche Gründe, warum ein Lieferant mit höherem Bezugspreis gewählt wird.",
+    "antwort1": "Drei mögliche Gründe sind eine höhere Zuverlässigkeit, ein besserer Service bzw. eine bessere Kulanz und eine geringere Reklamationsquote.",
+    "antwort2": ""
+  },
+  {
+    "nr": 72,
+    "frage": "Beschreiben Sie das Grundprinzip von Leasing und die Eigentums- und Besitzverhältnisse.",
+    "antwort1": "Beim Leasing bleibt der Leasinggeber Eigentümer des Objekts.",
+    "antwort2": "Der Leasingnehmer erhält ein zeitlich befristetes Nutzungsrecht und ist Besitzer des Objekts."
+  },
+  {
+    "nr": 73,
+    "frage": "Vergleichen Sie Kaufpreis und Gesamtkosten des Leasings und ermitteln Sie die Differenz.",
+    "antwort1": "Der Kaufpreis beträgt 300.000 EUR.",
+    "antwort2": "Die Gesamtkosten des Leasings werden berechnet und die Differenz zum Kaufpreis ermittelt."
+  },
+  {
+    "nr": 74,
+    "frage": "Nennen Sie drei Vorteile, die für Leasing sprechen.",
+    "antwort1": "Drei Vorteile des Leasings sind die Schonung der Liquidität, kein Eigenkapitalabfluss und eine flexible Anpassung an den technischen Fortschritt.",
+    "antwort2": ""
+  },
+  {
+    "nr": 75,
+    "frage": "Erläutern Sie den Begriff Kaufoption.",
+    "antwort1": "Die Kaufoption ist das Recht des Leasingnehmers, das geleaste Objekt nach Vertragsende zu einem vereinbarten Restwert oder Buchwert zu erwerben.",
+    "antwort2": ""
+  },
+  {
+    "nr": 76,
+    "frage": "Benennen Sie eine Schicht oberhalb und eine unterhalb des Betriebssystems.",
+    "antwort1": "Oberhalb des Betriebssystems befindet sich die Anwendungsschicht.",
+    "antwort2": "Unterhalb des Betriebssystems befindet sich die Hardware- bzw. Geräteschicht."
+  },
+  {
+    "nr": 77,
+    "frage": "Beschreiben Sie je eine Funktion der beiden Schichten.",
+    "antwort1": "Die Anwendungsschicht verarbeitet Nutzereingaben und erstellt Dokumente bzw. Prozesse.",
+    "antwort2": "Die Hardware-Schicht stellt die physischen Ressourcen wie CPU, Speicher und Ein-/Ausgabegeräte bereit."
+  },
+  {
+    "nr": 78,
+    "frage": "Nennen Sie zwei allgemeine Aufgaben des BSI.",
+    "antwort1": "Zwei allgemeine Aufgaben des BSI sind die Erarbeitung von IT-Sicherheitsstandards und der Schutz der IT-Systeme des Bundes.",
+    "antwort2": ""
+  },
+  {
+    "nr": 79,
+    "frage": "Erklären Sie den Begriff Härtung eines Betriebssystems.",
+    "antwort1": "Härtung eines Betriebssystems bedeutet die Reduktion der Angriffsfläche durch das Abschalten unnötiger Dienste.",
+    "antwort2": "Zusätzlich wird die Sicherheitskonfiguration des Systems verschärft."
+  },
+  {
+    "nr": 80,
+    "frage": "Nennen Sie zwei Beispiele für Härtung.",
+    "antwort1": "Zwei Beispiele für Härtung sind die Deaktivierung nicht benötigter Dienste und Ports sowie das Löschen unnötiger Benutzerkonten.",
+    "antwort2": "Ein weiteres Beispiel ist die Einschränkung von Berechtigungen nach dem Prinzip der geringsten Rechte."
+  },
+  {
+    "nr": 81,
+    "frage": "Nennen Sie zwei Systemwerkzeuge, mit denen die IT-Sicherheit erhöht werden kann.",
+    "antwort1": "Zwei Systemwerkzeuge zur Erhöhung der IT-Sicherheit sind eine integrierte Firewall und ein Virenschutz.",
+    "antwort2": "Zusätzlich können Protokollierungsfunktionen zur Sicherheit beitragen."
+  },
+  {
+    "nr": 82,
+    "frage": "Beschreiben Sie den Einsatz von Gruppenrichtlinien.",
+    "antwort1": "Gruppenrichtlinien werden eingesetzt, um zentral Sicherheitseinstellungen und Konfigurationen für Benutzer und Computer vorzugeben.",
+    "antwort2": "Diese Einstellungen können lokal nicht geändert werden."
+  },
+  {
+    "nr": 83,
+    "frage": "Beschreiben Sie, wie Protokollierung die IT-Sicherheit erhöht.",
+    "antwort1": "Protokollierung macht Aktivitäten im System nachvollziehbar und hilft bei der Erkennung von Angriffen und Fehlkonfigurationen.",
+    "antwort2": "Zudem ermöglicht sie forensische Analysen nach Sicherheitsvorfällen."
+  },
+  {
+    "nr": 84,
+    "frage": "Beschreiben Sie Datenschutzanforderungen bei Protokollierung.",
+    "antwort1": "Bei der Protokollierung dürfen nur notwendige Daten erfasst werden und die Speicherfristen müssen begrenzt sein.",
+    "antwort2": "Zudem müssen Zweckbindung und Datensparsamkeit beachtet werden."
+  },
+  {
+    "nr": 85,
+    "frage": "Geben Sie je ein Argument zu wirtschaftlichen und sozialen Aspekten eines KI-Chatbots.",
+    "antwort1": "Wirtschaftliche Aspekte eines KI-Chatbots sind die 24/7-Erreichbarkeit und Skaleneffekte durch die gleichzeitige Bearbeitung vieler Anfragen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 86,
+    "frage": "Beschreiben Sie zwei Unterschiede zwischen Lasten- und Pflichtenheft.",
+    "antwort1": "Das Lastenheft beschreibt die Anforderungen des Auftraggebers an das System.",
+    "antwort2": "Das Pflichtenheft beschreibt den Umsetzungsvorschlag und die konkreten Leistungen des Auftragnehmers."
+  },
+  {
+    "nr": 87,
+    "frage": "Nennen Sie zwei weitere Inhalte des Lastenhefts.",
+    "antwort1": "Zwei weitere Inhalte des Lastenhefts sind zum Beispiel detaillierte Anforderungen und Rahmenbedingungen.",
+    "antwort2": "Zusätzlich können Schnittstellenbeschreibungen und Qualitätsziele im Lastenheft enthalten sein."
+  },
+  {
+    "nr": 88,
+    "frage": "Erstellen Sie eine Klassenhierarchie mit Oberklasse Versicherungsobjekt.",
+    "antwort1": "Die Oberklasse Versicherungsobjekt enthält gemeinsame Attribute wie Neupreis, Baujahr und Schadenshöhe sowie Methoden wie auszahlen().",
+    "antwort2": "Von dieser Oberklasse erben spezifischere Klassen wie KFZ und Immobilie."
+  },
+  {
+    "nr": 89,
+    "frage": "Erstellen Sie eine SQL-Abfrage zur durchschnittlichen Versicherungssumme.",
+    "antwort1": "Die SQL-Abfrage zur durchschnittlichen Versicherungssumme lautet: SELECT AVG(Versicherungssumme) FROM KFZVersicherung.",
+    "antwort2": ""
+  },
+  {
+    "nr": 90,
+    "frage": "SQL-Abfrage für Verträge im Mai 2022 >100.000 EUR ohne Garage.",
+    "antwort1": "Die SQL-Abfrage lautet: SELECT VID FROM KFZVersicherung WHERE YEAR(Vertragsbeginn) = 2022 AND MONTH(Vertragsbeginn) = 5 AND Versicherungssumme > 100000 AND Garage = FALSE.",
+    "antwort2": ""
+  },
+ {
+    "nr": 91,
+    "frage": "Nennen Sie die aktuell vorliegende Marktform.",
+    "antwort1": "Die aktuell vorliegende Marktform ist ein Oligopol.",
+    "antwort2": ""
+  },
+  {
+    "nr": 92,
+    "frage": "Nennen Sie die neue Marktform.",
+    "antwort1": "Die neue Marktform ist ein Polypol.",
+    "antwort2": ""
+  },
+  {
+    "nr": 93,
+    "frage": "Beschreiben Sie in Stichpunkten die Projektschritte.",
+    "antwort1": "Die Projektschritte beginnen mit der Projektinitiierung, in der das Problem identifiziert wird.",
+    "antwort2": "Darauf folgen Planung, Durchführung, Überwachung und Abschluss des Projekts."
+  },
+  {
+    "nr": 94,
+    "frage": "Beschreiben Sie drei Stakeholdergruppen und ihren Einfluss.",
+    "antwort1": "Anteilseigner haben Einfluss durch ihre Finanzierungsbereitschaft und ihre Erwartungen an die Rendite.",
+    "antwort2": "Kunden haben Einfluss durch ihre Nachfrage und Anforderungen, Mitarbeiter durch ihre Qualifikation und Motivation."
+  },
+  {
+    "nr": 95,
+    "frage": "Nennen Sie Vor- und Nachteile eines externen Projektberaters.",
+    "antwort1": "Vorteile eines externen Projektberaters sind Erfahrung, Methodenkompetenz, Normkonformität und eine bessere Risikoeinschätzung.",
+    "antwort2": "Nachteile können höhere Kosten und eine geringere Kenntnis der internen Abläufe sein."
+  },
+  {
+    "nr": 96,
+    "frage": "Berechnen Sie den effektiven Stundensatz.",
+    "antwort1": "Der effektive Stundensatz beträgt 81,59 EUR.",
+    "antwort2": ""
+  },
+  {
+    "nr": 97,
+    "frage": "Empfehlen Sie Dienst- oder Werkvertrag.",
+    "antwort1": "Ich empfehle einen Werkvertrag, da dieser erfolgs- bzw. ergebnisabhängig ist.",
+    "antwort2": "Ein Werkvertrag passt besser zur klar definierten Projekterbringung."
+  },
+  {
+    "nr": 98,
+    "frage": "Ermitteln Sie Anzahl Scans/Tag.",
+    "antwort1": "Die Anzahl der Scans pro Tag wird je nach Rechnung bzw. Aufgabenstellung ermittelt.",
+    "antwort2": ""
+  },
+  {
+    "nr": 99,
+    "frage": "Berechnen Sie Datenvolumen pro Scan und pro Tag.",
+    "antwort1": "Laut Aufgabenhinweis beträgt das Datenvolumen pro Scan etwa 70 MiB.",
+    "antwort2": "Bei 100.000 Scans pro Tag ergibt sich ein Datenvolumen von etwa 7 TiB pro Tag."
+  },
+  {
+    "nr": 100,
+    "frage": "Berechnen Sie Nettospeicher RAID 5.",
+    "antwort1": "Der Nettospeicher bei RAID 5 wird berechnet als Summe aller Plattenkapazitäten minus eine Plattengröße für die Parity-Informationen.",
+    "antwort2": "Das Ergebnis wird in TB angegeben."
+  },
+  {
+    "nr": 101,
+    "frage": "Berechnen Sie Kapazität als JBOD.",
+    "antwort1": "Die Kapazität als JBOD wird berechnet als Summe aller Plattenkapazitäten.",
+    "antwort2": "Das Ergebnis wird in TB angegeben."
+  },
+  {
+    "nr": 102,
+    "frage": "Beschreiben Sie zwei Vorteile von JBOD gegenüber RAID 0.",
+    "antwort1": "Zwei Vorteile von JBOD gegenüber RAID 0 sind, dass unterschiedliche Plattengrößen nutzbar sind und eine einfachere Erweiterung ohne Striping möglich ist.",
+    "antwort2": "Zudem geht bei JBOD je nach Implementierung nicht der gesamte Verbund bei Ausfall einer Platte verloren."
+  },
+  {
+    "nr": 103,
+    "frage": "Nennen Sie drei Vorteile von SAN.",
+    "antwort1": "Drei Vorteile von SAN sind die zentrale Verwaltung, die hohe Skalierbarkeit und die hohe Verfügbarkeit bzw. Performance.",
+    "antwort2": ""
+  },
+  {
+    "nr": 104,
+    "frage": "Vergleichen Sie QR-Code und RFID.",
+    "antwort1": "Ein QR-Code ist günstig und einfach einzusetzen, hat aber den Nachteil, dass er sichtabhängig ist.",
+    "antwort2": "RFID hingegen ist nicht sichtabhängig und ermöglicht eine automatische Erfassung, ist aber teurer."
+  },
+  {
+    "nr": 105,
+    "frage": "Nennen Sie zwei technologische Vorteile von IPv6.",
+    "antwort1": "Zwei technologische Vorteile von IPv6 sind der größere Adressraum und eine bessere Autokonfiguration durch SLAAC.",
+    "antwort2": "Zudem sind integrierte Sicherheitsfunktionen wie IPsec-Unterstützung vorhanden."
+  },
+  {
+    "nr": 106,
+    "frage": "Identifizieren Sie Standortpräfix und Teilnetz-ID.",
+    "antwort1": "Das Standortpräfix lautet 2001:da85:f2d2::.",
+    "antwort2": "Die Teilnetz-ID wird aus dem restlichen Teil der IPv6-Adresse abgeleitet."
+  },
+  {
+    "nr": 107,
+    "frage": "Geben Sie Anzahl möglicher Teilnetze an.",
+    "antwort1": "Die Anzahl möglicher Teilnetze beträgt 2^16, also 65.536 Teilnetze.",
+    "antwort2": ""
+  },
+  {
+    "nr": 108,
+    "frage": "Vergabe nutzbarer IPv6-Adressen.",
+    "antwort1": "Router und Netzgeräte erhalten eigene Adressen aus dem globalen Präfix.",
+    "antwort2": "Endgeräte erhalten ebenfalls eigene Adressen, getrennt nach Gerätetypen gemäß Musterlösung."
+  },
+  {
+    "nr": 109,
+    "frage": "Geben Sie Befehle zur Prüfung Loopback und Gateway.",
+    "antwort1": "Zur Prüfung des Loopback verwendet man den Befehl ping ::1.",
+    "antwort2": "Zur Prüfung des Gateway verwendet man ping <Gateway-Adresse> oder ip -6 route."
+  },
+  {
+    "nr": 110,
+    "frage": "Begründen Sie Anzeige der unbekonfigurierten IPv6-Adresse.",
+    "antwort1": "Die Anzeige der unbekonfigurierten IPv6-Adresse ist dadurch begründet, dass es sich um eine automatisch vergebene link-lokale IPv6-Adresse handelt.",
+    "antwort2": ""
+  },
+  {
+    "nr": 111,
+    "frage": "Berechnen Sie Bezugspreis, bewerten und wählen Sie Lieferanten.",
+    "antwort1": "Man ermittelt die Bezugspreise durch den Rechenweg zur Ermittlung der gewichteten Noten.",
+    "antwort2": "Die Auswahl des wirtschaftlich besten Angebots erfolgt meist anhand von Bezugspreis und Qualität."
+  },
+  {
+    "nr": 112,
+    "frage": "Befehl für Breite, Länge, Dicke, Anzahl einer Order.",
+    "antwort1": "Der SQL-Befehl lautet: SELECT Width, Length, Thickness, Quantity FROM ProductionData WHERE OrderID = 736298.",
+    "antwort2": ""
+  },
+  {
+    "nr": 113,
+    "frage": "Befehl für Anzahl Aufträge mit Dicke 2 mm.",
+    "antwort1": "Der SQL-Befehl lautet: SELECT COUNT(*) FROM ProductionData WHERE Thickness = 2.",
+    "antwort2": ""
+  },
+  {
+    "nr": 114,
+    "frage": "Befehl für Gesamtanzahl Wellpappen mit Dicke 2, Breite 200, Länge 300.",
+    "antwort1": "Der SQL-Befehl lautet: SELECT SUM(Quantity) FROM ProductionData WHERE Thickness = 2 AND Width = 200 AND Length = 300.",
+    "antwort2": ""
+  },
+  {
+    "nr": 115,
+    "frage": "Vervollständigen Sie Funktion launchTask(result).",
+    "antwort1": "Die Funktion launchTask(result) wird vervollständigt durch den Aufruf setRollerDim(result[0], result[1], result[2]).",
+    "antwort2": ""
+  },
+  {
+    "nr": 116,
+    "frage": "Vervollständigen Sie ERM für Walzanlagen.",
+    "antwort1": "Das ERM wird vervollständigt durch die Tabelle Walzanlage mit den Attributen Maschinennummer, Baujahr, Bezeichnung und Dickenspezifikation.",
+    "antwort2": "Diese Tabelle steht in einer 1:n-Beziehung zu ProductionData mit den Attributen Breite, Länge, Dicke, Anzahl und Zeitstempel."
+  },
+  {
+    "nr": 117,
+    "frage": "Entscheidungsmatrix für Multifunktionsgeräte.",
+    "antwort1": "Die Entscheidungsmatrix für Multifunktionsgeräte bewertet die Geräte nach Geschwindigkeit, Wartungskosten und Preis.",
+    "antwort2": ""
+  },
+  {
+    "nr": 118,
+    "frage": "Nennen Sie das gewählte Gerät.",
+    "antwort1": "Das gewählte Gerät ist das Gerät mit der höchsten Gesamtsumme, zum Beispiel Multifunktionsgerät 2.",
+    "antwort2": ""
+  },
+  {
+    "nr": 119,
+    "frage": "Berechnen Sie monatliche Kosten.",
+    "antwort1": "Die monatlichen Kosten werden berechnet als (2.000 × 0,05 + 500 × 0,07) × 36 / 36, was etwa 135 EUR pro Monat ergibt.",
+    "antwort2": ""
+  },
+  {
+    "nr": 120,
+    "frage": "Ordnen Sie RJ45, USB-A, USB-C, Kaltgerätebuchse zu.",
+    "antwort1": "Bild 1 zeigt einen RJ45-Anschluss.",
+    "antwort2": "Die weiteren Bilder zeigen USB-A, USB-C und eine Kaltgerätebuchse."
+  },
+   {
+    "nr": 121,
+    "frage": "Benennen Sie die beiden Gerätesymbole.",
+    "antwort1": "Symbol 1 stellt die Funktion Drucken dar.",
+    "antwort2": "Symbol 2 stellt eine weitere Gerätefunktion dar, zum Beispiel Scannen oder Speichern."
+  },
+  {
+    "nr": 122,
+    "frage": "Geben Sie vorletzte nutzbare IP im Netz an.",
+    "antwort1": "Die vorletzte nutzbare IP im Netz ist 192.168.100.62.",
+    "antwort2": "Das Gateway ist 192.168.100.63 und die Broadcast-Adresse ist ebenfalls 192.168.100.63, je nach Subnetzungsvorgabe."
+  },
+  {
+    "nr": 123,
+    "frage": "Nennen Sie vier Maßnahmen aus dem englischen Text.",
+    "antwort1": "Vier Maßnahmen aus dem Text sind Security Baseline bzw. Gruppenrichtlinien, starke Passwörter, eine aktivierte Firewall und regelmäßige Updates.",
+    "antwort2": "Eine weitere Maßnahme ist die Memory Integrity-Funktion."
+  },
+  {
+    "nr": 124,
+    "frage": "Erläutern Sie, warum allgemeine Adminrechte kritisch sind.",
+    "antwort1": "Allgemeine Adminrechte sind kritisch, weil sie das Risiko von Fehlkonfigurationen und Malware-Befall massiv erhöhen.",
+    "antwort2": "Nutzer können mit Adminrechten Systemeinstellungen und Sicherheitsfunktionen leicht kompromittieren."
+  },
+  {
+    "nr": 125,
+    "frage": "Nennen Sie eine rechtliche Grundlage.",
+    "antwort1": "Eine rechtliche Grundlage ist zum Beispiel die DSGVO.",
+    "antwort2": "Eine weitere mögliche Grundlage ist die Bundesrechtsanwaltsordnung bzw. die berufsrechtliche Verschwiegenheitspflicht."
+  },
+  {
+    "nr": 126,
+    "frage": "Beschreiben Sie den Zweck.",
+    "antwort1": "Der Zweck besteht im Schutz der Vertraulichkeit von Mandantenkommunikation.",
+    "antwort2": "Zudem sollen personenbezogene Daten geschützt werden."
+  },
+  {
+    "nr": 127,
+    "frage": "Beschreiben Sie den Ablauf Anwalt – Mandant.",
+    "antwort1": "Der Anwalt verschlüsselt die E-Mail mit dem öffentlichen Schlüssel des Mandanten.",
+    "antwort2": "Der Mandant kann die E-Mail dann mit seinem privaten Schlüssel entschlüsseln."
+  },
+  {
+    "nr": 128,
+    "frage": "Nennen Sie das erreichte Schutzziel.",
+    "antwort1": "Das erreichte Schutzziel ist die Vertraulichkeit der E-Mail-Inhalte.",
+    "antwort2": ""
+  },
+  {
+    "nr": 129,
+    "frage": "Nennen Sie Vorteil und Nachteil asymmetrischer Verschlüsselung.",
+    "antwort1": "Ein Vorteil der asymmetrischen Verschlüsselung ist die einfachere Schlüsselverteilung über öffentliche Schlüssel.",
+    "antwort2": "Ein Nachteil ist der höhere Rechenaufwand im Vergleich zur symmetrischen Verschlüsselung."
+  },
+  {
+    "nr": 130,
+    "frage": "Nennen Sie je zwei Vorteile von Open Source und proprietär.",
+    "antwort1": "Zwei Vorteile von Open Source sind, dass die Software kostenlos ist und der Quellcode überprüfbar (auditierbar) ist.",
+    "antwort2": "Zwei Vorteile proprietärer Software sind kommerzieller Support und oft eine bessere Integration in bestehende Unternehmenslösungen."
+  },
+  {
+    "nr": 131,
+    "frage": "Erläutern Sie Zweck eines Hashwerts.",
+    "antwort1": "Der Zweck eines Hashwerts besteht in der Integritätsprüfung des Downloads.",
+    "antwort2": "Man kann damit feststellen, ob die Datei während der Übertragung verändert oder beschädigt wurde."
+  },
+  {
+    "nr": 132,
+    "frage": "Begründen Sie Wahl IMAP gegenüber POP3.",
+    "antwort1": "Die Wahl von IMAP gegenüber POP3 ist damit begründet, dass die E-Mails serverseitig gespeichert werden.",
+    "antwort2": "Dadurch können mehrere Geräte auf die E-Mails zugreifen und die Ordnerstruktur bleibt erhalten."
+  },
+  {
+    "nr": 133,
+    "frage": "Tragen Sie FAZ/FEZ/S... ein.",
+    "antwort1": "FAZ, FEZ und weitere Werte werden gemäß der gegebenen Lösungstabelle eingetragen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 134,
+    "frage": "Nennen Sie Vorgänge des kritischen Pfads.",
+    "antwort1": "Vorgänge des kritischen Pfads sind alle Vorgänge mit einem Gesamtpuffer von 0, zum Beispiel B, C, E, I und J.",
+    "antwort2": ""
+  },
+  {
+    "nr": 135,
+    "frage": "Erläutern Sie Unterschied dynamische Website.",
+    "antwort1": "Der Unterschied einer dynamischen Website besteht darin, dass die Inhalte server- oder clientseitig zur Laufzeit erzeugt werden.",
+    "antwort2": "Im Gegensatz dazu werden bei einer statischen Website die Inhalte fix gespeichert und unverändert ausgeliefert."
+  },
+  {
+    "nr": 136,
+    "frage": "Nennen Sie drei Sprachen für dynamische Webinhalte.",
+    "antwort1": "Drei Sprachen für dynamische Webinhalte sind zum Beispiel JavaScript, PHP und Python.",
+    "antwort2": ""
+  },
+  {
+    "nr": 137,
+    "frage": "Berechnen Sie Rückgabewerte der Funktion analyticsberechnen.",
+    "antwort1": "Der berechnete Durchschnitt der Seitenaufrufe pro Besucher beträgt 2,75.",
+    "antwort2": ""
+  },
+  {
+    "nr": 138,
+    "frage": "Geben Sie Rückgabe bei (1.5, Wahr, Wahr, 80).",
+    "antwort1": "Die Rückgabe bei den Parametern (1.5, Wahr, Wahr, 80) lautet <<Hervorragend>>.",
+    "antwort2": ""
+  },
+  {
+    "nr": 139,
+    "frage": "Geben Sie Rückgabe bei (3.0, Wahr, Falsch, 45).",
+    "antwort1": "Die Rückgabe bei den Parametern (3.0, Wahr, Falsch, 45) lautet <<Langsam und nicht mobilfreundlich>>.",
+    "antwort2": ""
+  },
+  {
+    "nr": 140,
+    "frage": "Beschreiben Sie drei KI-Einsatzmöglichkeiten im Beratungsablauf.",
+    "antwort1": "Drei KI-Einsatzmöglichkeiten im Beratungsablauf sind die automatische Erfassung und Aktualisierung von Mandantendaten, die Generierung von Terminvorschlägen und die Vorabrecherche zu Rechtsfragen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 141,
+    "frage": "Nennen Sie einen möglichen Vorteil für Mitarbeiter.",
+    "antwort1": "Ein möglicher Vorteil für Mitarbeiter ist die Entlastung von Routineaufgaben.",
+    "antwort2": "Dadurch bleibt mehr Zeit für anspruchsvolle Beratungstätigkeiten."
+  },
+  {
+    "nr": 142,
+    "frage": "Berechnen Sie jährliche Kosten des Chatbots.",
+    "antwort1": "Die jährlichen Fixkosten des Chatbots betragen 3 × 100 × 12 = 3.600 EUR.",
+    "antwort2": ""
+  },
+  {
+    "nr": 143,
+    "frage": "Nennen Sie Vorteil und Nachteil eines kostenlosen Rechtschatbots.",
+    "antwort1": "Ein Vorteil eines kostenlosen Rechtschatbots ist, dass er neue Mandanten gewinnt und eine niederschwellige Beratung bietet.",
+    "antwort2": "Ein Nachteil kann sein, dass die Beratungsqualität begrenzt ist und keine individuelle Rechtsberatung möglich ist."
+  },
+  {
+    "nr": 144,
+    "frage": "Geben Sie Einstellungen für eine gesicherte Verbindung an.",
+    "antwort1": "Für eine gesicherte Verbindung gibt man als Host bzw. IP-Adresse 32.42.230.33 an.",
+    "antwort2": "Zusätzlich müssen Port, Protokoll und Authentifizierungsmethode konfiguriert werden."
+  },
+  {
+    "nr": 145,
+    "frage": "Begründen Sie, warum Sie SSH wählen.",
+    "antwort1": "Ich wähle SSH, weil es eine verschlüsselte Fernwartung ermöglicht.",
+    "antwort2": "Telnet und Serial sind unverschlüsselt und daher für Internetzugriffe ungeeignet."
+  },
+  {
+    "nr": 146,
+    "frage": "Erklären Sie Redundanzen.",
+    "antwort1": "Redundanzen sind mehrfach vorhandene gleiche Daten in einer Tabelle oder Datenbank.",
+    "antwort2": ""
+  },
+  {
+    "nr": 147,
+    "frage": "Beschreiben Sie ein Problem durch Redundanzen.",
+    "antwort1": "Ein Problem durch Redundanzen sind Inkonsistenzen bei Änderungen, da verschiedene Versionen derselben Information entstehen können.",
+    "antwort2": "Zudem führt Redundanz zu einem höheren Speicherbedarf."
+  },
+  {
+    "nr": 148,
+    "frage": "Nennen Sie Vorteile von Homeoffice.",
+    "antwort1": "Vorteile von Homeoffice sind keine Fahrzeit, geringere Kosten, eine flexible Arbeitszeit und eine bessere Work-Life-Balance.",
+    "antwort2": ""
+  },
+  {
+    "nr": 149,
+    "frage": "Nennen Sie Nachteile von Homeoffice.",
+    "antwort1": "Nachteile von Homeoffice sind die Vermischung von Beruf und Privatleben, weniger soziale Kontakte und die Notwendigkeit einer hohen Selbstdisziplin.",
+    "antwort2": ""
+  },
+  {
+    "nr": 150,
+    "frage": "Berechnen Sie einheitlichen Minutensatz.",
+    "antwort1": "Der einheitliche Minutensatz beträgt 2,40 EUR pro Minute.",
+    "antwort2": ""
+  },
+  {
+    "nr": 151,
+    "frage": "Formulieren Sie zwei überzeugende Argumente für kostenpflichtige Hotline.",
+    "antwort1": "Zwei überzeugende Argumente für eine kostenpflichtige Hotline sind die Finanzierung qualifizierter Mitarbeiter und die 24/7-Verfügbarkeit.",
+    "antwort2": "Zudem ermöglicht eine kostenpflichtige Hotline verursachungsgerechte Kosten statt pauschaler Aufschläge."
+  },
+  {
+    "nr": 152,
+    "frage": "Nennen Sie zwei gesetzliche Grundlagen.",
+    "antwort1": "Zwei gesetzliche Grundlagen im Datenschutz sind die DSGVO und das BDSG.",
+    "antwort2": ""
+  },
+  {
+    "nr": 153,
+    "frage": "Beschreiben Sie Vertraulichkeit und Integrität der SSD-Daten.",
+    "antwort1": "Vertraulichkeit der SSD-Daten bedeutet, dass nur berechtigte Personen die Daten lesen können.",
+    "antwort2": "Integrität bedeutet, dass die Daten nicht unbemerkt verändert werden."
+  },
+  {
+    "nr": 154,
+    "frage": "Beurteilen Sie Schutz bei Laptopdiebstahl.",
+    "antwort1": "Beurteilung des Schutzes bei Laptopdiebstahl: Ohne Passwort ist kein Zugriff auf die verschlüsselten SSD-Daten möglich.",
+    "antwort2": "Die Daten sind somit auch bei Diebstahl des Laptops geschützt."
+  },
+  {
+    "nr": 155,
+    "frage": "Beschreiben Sie Vorteil eines VPN.",
+    "antwort1": "Ein Vorteil eines VPN besteht darin, dass es eine sichere, verschlüsselte Verbindung über unsichere Netze ermöglicht.",
+    "antwort2": ""
+  },
+  {
+    "nr": 156,
+    "frage": "Beschreiben Sie geplante Identifizierung mit Zertifikat.",
+    "antwort1": "Die geplante Identifizierung mit Zertifikat besteht in der Authentifizierung des Benutzers gegenüber dem Firmennetz.",
+    "antwort2": "Die Authentifizierung erfolgt mittels eines persönlichen Zertifikats."
+  },
+  {
+    "nr": 157,
+    "frage": "Nennen Sie Merkmale von Gantt und Netzplan.",
+    "antwort1": "Merkmale eines Gantt-Diagramms sind zeitliche Balken, die die Dauer der Vorgänge darstellen.",
+    "antwort2": "Ein Netzplan zeigt hingegen die Abhängigkeiten zwischen Vorgängen und den kritischen Pfad."
+  },
+  {
+    "nr": 158,
+    "frage": "Ordnen Sie Vorgänge.",
+    "antwort1": "Die richtige Reihenfolge der Vorgänge ist: Anforderungsanalyse, konzeptioneller Entwurf, logischer Entwurf, physischer Entwurf, Test/Validierung, Anwendung/Wartung.",
+    "antwort2": ""
+  },
+  {
+    "nr": 159,
+    "frage": "Wann ist Projekt frühestens beendet?",
+    "antwort1": "Das Projekt ist frühestens nach 18 Tagen beendet.",
+    "antwort2": ""
+  },
+  {
+    "nr": 160,
+    "frage": "Welcher Vorgang hat größten Puffer?",
+    "antwort1": "Der Vorgang mit dem größten Puffer ist Vorgang C.",
+    "antwort2": ""
+  },
+  {
+    "nr": 161,
+    "frage": "Ergänzen Sie ERD um Tätigkeiten.",
+    "antwort1": "Das ERD wird um eine neue Tabelle Tätigkeiten ergänzt.",
+    "antwort2": "Diese Tabelle enthält die Attribute TätigkeitID, Beschreibung, Ergebnis, ZeitstempelStart, ZeitstempelEnde sowie Fremdschlüssel auf Ticket und Mitarbeiter."
+  },
+  {
+    "nr": 162,
+    "frage": "SQL-Abfrage Anzahl Tickets je Priorität.",
+    "antwort1": "Die SQL-Abfrage lautet: SELECT Prioritaet, COUNT(TicketID) FROM Ticket GROUP BY Prioritaet.",
+    "antwort2": ""
+  },
+  {
+    "nr": 163,
+    "frage": "SQL-Abfrage Zahl Kunden mit Ticket.",
+    "antwort1": "Die SQL-Abfrage lautet: SELECT COUNT(DISTINCT KundenID) FROM Ticket.",
+    "antwort2": ""
+  },
+  {
+    "nr": 164,
+    "frage": "Beschreiben Sie Ergebnis der Beispielabfrage.",
+    "antwort1": "Das Ergebnis der Beispielabfrage ist eine Liste aller offenen Tickets, deren Erfassungsmonat mehr als zwei Monate zurückliegt.",
+    "antwort2": "Die Liste enthält Problembeschreibung, Priorität und Zustand und ist aufsteigend nach Erfassungsdatum sortiert."
+  },
+  {
+    "nr": 165,
+    "frage": "Nennen Sie vier Leistungsmerkmale einer Workspace-Management-Software.",
+    "antwort1": "Vier Leistungsmerkmale einer Workspace-Management-Software sind Softwareverteilung, automatische Konfiguration, Patch-Management und Lizenzmanagement.",
+    "antwort2": "Ein weiteres Merkmal ist die Inventarisierung der IT-Ressourcen."
+  },
+  {
+    "nr": 166,
+    "frage": "Nennen Sie zwei Vor- und Nachteile cloudbasierter Lösung.",
+    "antwort1": "Zwei Vorteile cloudbasierter Lösungen sind geringere Investitionskosten und die Tatsache, dass immer die aktuelle Version verwendet wird.",
+    "antwort2": "Ein weiterer Vorteil ist die gute Skalierbarkeit. Nachteile können Abhängigkeit vom Provider und Datenschutzfragen sein."
+  },
+  {
+    "nr": 167,
+    "frage": "Nennen Sie zwei typische Aufgaben eines Fachinformatikers Systemintegration im Unternehmen.",
+    "antwort1": "Zwei typische Aufgaben eines Fachinformatikers für Systemintegration sind die Planung und der Aufbau von IT-Infrastrukturen.",
+    "antwort2": "Zudem gehört die Administration und Wartung von Servern und Netzwerken zu den Aufgaben."
+  },
+  {
+    "nr": 168,
+    "frage": "Nennen Sie zwei typische Aufgaben eines Fachinformatikers Anwendungsentwicklung.",
+    "antwort1": "Zwei typische Aufgaben eines Fachinformatikers für Anwendungsentwicklung sind die Konzeption und Implementierung von Software.",
+    "antwort2": "Zudem gehört die Wartung und Weiterentwicklung bestehender Anwendungen zu den Aufgaben."
+  },
+  {
+    "nr": 169,
+    "frage": "Erläutern Sie den Unterschied zwischen Hardware- und Softwarefehlern.",
+    "antwort1": "Hardwarefehler betreffen physische Komponenten, zum Beispiel eine defekte Festplatte oder ein beschädigtes Mainboard.",
+    "antwort2": "Softwarefehler resultieren aus dem Programmcode oder der Konfiguration, zum Beispiel Bugs oder falsche Einstellungen."
+  },
+  {
+    "nr": 170,
+    "frage": "Nennen Sie drei Komponenten, die zu einem klassischen Arbeitsplatz-PC gehören.",
+    "antwort1": "Drei Komponenten, die zu einem klassischen Arbeitsplatz-PC gehören, sind Mainboard, CPU und RAM.",
+    "antwort2": "Weitere Komponenten sind Massenspeicher, Netzteil und Monitor."
+  },
+  {
+    "nr": 171,
+    "frage": "Erläutern Sie den Unterschied zwischen RAM und Festplatte.",
+    "antwort1": "Der RAM ist ein flüchtiger Arbeitsspeicher für laufende Prozesse und verliert seine Daten beim Ausschalten.",
+    "antwort2": "Die Festplatte ist ein nichtflüchtiger Massenspeicher für die dauerhafte Datenablage."
+  },
+  {
+    "nr": 172,
+    "frage": "Nennen Sie zwei Kriterien, nach denen Sie ein Betriebssystem für einen Arbeitsplatz auswählen.",
+    "antwort1": "Zwei Kriterien bei der Auswahl eines Betriebssystems sind die Kompatibilität mit den benötigten Anwendungen und die Sicherheitsanforderungen.",
+    "antwort2": "Weitere Kriterien sind Lizenzkosten und Hardwareanforderungen."
+  },
+  {
+    "nr": 173,
+    "frage": "Beschreiben Sie, warum Treiber für Hardwaregeräte benötigt werden.",
+    "antwort1": "Treiber werden benötigt, weil sie die Schnittstelle zwischen Betriebssystem und Hardware bereitstellen.",
+    "antwort2": "Sie übersetzen die Befehle des Betriebssystems in gerätespezifische Anweisungen."
+  },
+  {
+    "nr": 174,
+    "frage": "Nennen Sie drei Gründe für regelmäßige Softwareupdates.",
+    "antwort1": "Drei Gründe für regelmäßige Softwareupdates sind das Schließen von Sicherheitslücken, die Fehlerbehebung (Bugfixes) und neue Funktionen bzw. Verbesserungen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 175,
+    "frage": "Erläutern Sie den Begriff „Patchmanagement.",
+    "antwort1": "Patchmanagement umfasst die Planung, Verteilung, Installation und Kontrolle von Software-Updates auf den Systemen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 176,
+    "frage": "Nennen Sie zwei Risiken, wenn Updates nicht eingespielt werden.",
+    "antwort1": "Zwei Risiken, wenn Updates nicht eingespielt werden, sind offene Sicherheitslücken und Stabilitätsprobleme.",
+    "antwort2": "Ein weiteres Risiko sind Inkompatibilitäten mit anderer Software oder Hardware."
+  },
+  {
+    "nr": 177,
+    "frage": "Nennen Sie zwei typische Einsatzgebiete von Virtualisierung im Unternehmen.",
+    "antwort1": "Zwei typische Einsatzgebiete von Virtualisierung im Unternehmen sind die Serverkonsolidierung und Testumgebungen.",
+    "antwort2": "Ein weiteres Einsatzgebiet sind isolierte Entwicklungsumgebungen."
+  },
+  {
+    "nr": 178,
+    "frage": "Erläutern Sie den Unterschied zwischen Hypervisor Typ 1 und Typ 2.",
+    "antwort1": "Ein Hypervisor Typ 1 läuft direkt auf der Hardware ohne darunterliegendes Betriebssystem.",
+    "antwort2": "Ein Hypervisor Typ 2 läuft auf einem bestehenden Betriebssystem wie eine normale Anwendung."
+  },
+  {
+    "nr": 179,
+    "frage": "Beschreiben Sie kurz den Zweck eines Active Directory.",
+    "antwort1": "Der Zweck eines Active Directory besteht in der zentralen Verwaltung von Benutzern, Computern, Gruppen und Richtlinien.",
+    "antwort2": "Es wird in einer Windows-Domäne eingesetzt."
+  },
+  {
+    "nr": 180,
+    "frage": "Nennen Sie zwei Vorteile einer Domänenanmeldung gegenüber einer lokalen Anmeldung.",
+    "antwort1": "Zwei Vorteile einer Domänenanmeldung sind die zentrale Benutzerverwaltung und einheitliche Richtlinien für alle Computer.",
+    "antwort2": "Ein weiterer Vorteil ist Single Sign-On, sodass man sich nur einmal anmelden muss."
+  },
+  {
+    "nr": 181,
+    "frage": "Erläutern Sie, was ein „Roaming Profile“ ist.",
+    "antwort1": "Ein Roaming Profile ist ein Benutzerprofil, das auf einem Server gespeichert wird.",
+    "antwort2": "Beim Anmelden auf verschiedenen PCs wird dieses Profil vom Server geladen, sodass der Benutzer überall dieselbe Umgebung hat."
+  },
+  {
+    "nr": 182,
+    "frage": "Nennen Sie zwei Vorteile von Roaming Profiles.",
+    "antwort1": "Zwei Vorteile von Roaming Profiles sind die gleiche Desktop-Umgebung auf verschiedenen PCs.",
+    "antwort2": "Ein weiterer Vorteil ist die zentrale Sicherung der Benutzerdaten auf dem Server."
+  },
+  {
+    "nr": 183,
+    "frage": "Beschreiben Sie, was unter „Group Policy“ verstanden wird.",
+    "antwort1": "Unter Group Policy versteht man einen Mechanismus zur zentralen Konfiguration von Einstellungen.",
+    "antwort2": "Diese Einstellungen gelten für Benutzer und Computer in einer Windows-Domäne."
+  },
+  {
+    "nr": 184,
+    "frage": "Nennen Sie zwei typische Einstellungen, die über Gruppenrichtlinien gesteuert werden können.",
+    "antwort1": "Zwei typische Einstellungen, die über Gruppenrichtlinien gesteuert werden können, sind Passwortrichtlinien und die Softwareverteilung.",
+    "antwort2": "Ein weiteres Beispiel ist die Deaktivierung von USB-Speichern."
+  },
+  {
+    "nr": 185,
+    "frage": "Erläutern Sie den Unterschied zwischen Benutzerrechten und Berechtigungen auf Dateien.",
+    "antwort1": "Benutzerrechte regeln Systemaktionen, zum Beispiel das Anmelden oder das Starten von Diensten.",
+    "antwort2": "Dateiberechtigungen regeln den Zugriff auf Objekte wie Dateien und Ordner, zum Beispiel lesen, schreiben oder ausführen."
+  },
+  {
+    "nr": 186,
+    "frage": "Nennen Sie zwei Gründe, warum das Prinzip „Least Privilege“ wichtig ist.",
+    "antwort1": "Das Prinzip Least Privilege ist wichtig zur Reduktion der Angriffsfläche, da Benutzer nur die mindestens notwendigen Rechte haben.",
+    "antwort2": "Zudem wird der Schadensumfang bei einer Kompromittierung minimiert."
+  },
+  {
+    "nr": 187,
+    "frage": "Erläutern Sie den Begriff „Firewall“.",
+    "antwort1": "Eine Firewall ist ein System, das den Netzwerkverkehr nach definierten Regeln filtert.",
+    "antwort2": "Unerwünschte Verbindungen werden blockiert, erwünschte Verbindungen werden zugelassen."
+  },
+  {
+    "nr": 188,
+    "frage": "Nennen Sie zwei Arten von Firewalls.",
+    "antwort1": "Zwei Arten von Firewalls sind die Paketfilter-Firewall und die Stateful Inspection Firewall.",
+    "antwort2": "Eine weitere Art ist die Application-Firewall, die auf Anwendungsebene filtert."
+  },
+  {
+    "nr": 189,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen Stateful und Stateless Firewall.",
+    "antwort1": "Eine Stateful Firewall merkt sich Verbindungszustände und trifft Entscheidungen kontextabhängig.",
+    "antwort2": "Eine Stateless Firewall bewertet jedes Paket isoliert ohne Berücksichtigung des Verbindungszustands."
+  },
+  {
+    "nr": 190,
+    "frage": "Nennen Sie zwei typische Regeln, die in einer Unternehmensfirewall konfiguriert werden.",
+    "antwort1": "Zwei typische Regeln sind das Zulassen von HTTP/HTTPS-Verkehr nach außen.",
+    "antwort2": "Ein weiteres Beispiel ist das Sperren eingehender Verbindungen aus dem Internet auf interne Ports."
+  },
+  {
+    "nr": 191,
+    "frage": "Erläutern Sie den Begriff „DMZ“ im Netzwerk.",
+    "antwort1": "Eine DMZ (Demilitarisierte Zone) ist ein Netzwerkbereich zwischen dem internen Netz und dem Internet.",
+    "antwort2": "In der DMZ werden öffentlich erreichbare Server wie Webserver oder Mail-Relays betrieben."
+  },
+  {
+    "nr": 192,
+    "frage": "Nennen Sie zwei Dienste, die typischerweise in einer DMZ betrieben werden.",
+    "antwort1": "Zwei Dienste, die typischerweise in einer DMZ betrieben werden, sind Webserver und Mail-Relay.",
+    "antwort2": "Weitere Beispiele sind VPN-Gateway und Reverse Proxy."
+  },
+  {
+    "nr": 193,
+    "frage": "Beschreiben Sie, warum ein Mailserver nicht direkt im internen Netz öffentlich erreichbar sein sollte.",
+    "antwort1": "Ein Mailserver sollte nicht direkt im internen Netz öffentlich erreichbar sein, weil die direkte Exponierung das Risiko für Angriffe erhöht.",
+    "antwort2": "Eine DMZ oder ein vorgeschaltetes Relay reduziert dieses Risiko."
+  },
+  {
+    "nr": 194,
+    "frage": "Nennen Sie die drei grundlegenden Schutzziele der Informationssicherheit.",
+    "antwort1": "Die drei grundlegenden Schutzziele der Informationssicherheit sind Vertraulichkeit, Integrität und Verfügbarkeit.",
+    "antwort2": ""
+  },
+  {
+    "nr": 195,
+    "frage": "Erläutern Sie Vertraulichkeit anhand eines Beispiels.",
+    "antwort1": "Vertraulichkeit bedeutet, dass nur befugte Personen auf bestimmte Daten zugreifen dürfen.",
+    "antwort2": "Ein Beispiel ist, dass nur befugte Personen auf Gehaltsdaten zugreifen dürfen."
+  },
+  {
+    "nr": 196,
+    "frage": "Erläutern Sie Integrität anhand eines Beispiels.",
+    "antwort1": "Integrität bedeutet, dass Daten nicht unbemerkt verändert werden dürfen.",
+    "antwort2": "Ein Beispiel ist, dass eine Banküberweisung nicht unbemerkt im Betrag verändert werden darf."
+  },
+  {
+    "nr": 197,
+    "frage": "Erläutern Sie Verfügbarkeit anhand eines Beispiels.",
+    "antwort1": "Verfügbarkeit bedeutet, dass Systeme und Daten bei Bedarf zugreifbar sein müssen.",
+    "antwort2": "Ein Beispiel ist, dass ein Onlineshop während der Geschäftszeiten erreichbar sein muss und Ausfälle minimiert werden sollen."
+  },
+  {
+    "nr": 198,
+    "frage": "Nennen Sie zwei technische Maßnahmen zur Sicherstellung der Verfügbarkeit.",
+    "antwort1": "Zwei technische Maßnahmen zur Sicherstellung der Verfügbarkeit sind redundante Systeme wie Cluster.",
+    "antwort2": "Eine weitere Maßnahme ist eine unterbrechungsfreie Stromversorgung (USV)."
+  },
+  {
+    "nr": 199,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen symmetrischer und asymmetrischer Verschlüsselung.",
+    "antwort1": "Symmetrische Verschlüsselung verwendet denselben Schlüssel zum Ver- und Entschlüsseln.",
+    "antwort2": "Asymmetrische Verschlüsselung nutzt ein Schlüsselpaar bestehend aus einem öffentlichen und einem privaten Schlüssel."
+  },
+  {
+    "nr": 200,
+    "frage": "Nennen Sie einen Vorteil symmetrischer Verschlüsselung.",
+    "antwort1": "Ein Vorteil symmetrischer Verschlüsselung ist die schnelle und ressourcenschonende Verarbeitung großer Datenmengen.",
+    "antwort2": ""
+  },
+  {
+    "nr": 201,
+    "frage": "Nennen Sie einen Vorteil asymmetrischer Verschlüsselung.",
+    "antwort1": "Ein Vorteil asymmetrischer Verschlüsselung ist die einfache Schlüsselverteilung über öffentliche Schlüssel.",
+    "antwort2": ""
+  },
+  {
+    "nr": 202,
+    "frage": "Beschreiben Sie den Zweck digitaler Signaturen.",
+    "antwort1": "Der Zweck digitaler Signaturen besteht im Nachweis der Authentizität und Integrität einer Nachricht oder Datei.",
+    "antwort2": "Zudem ermöglichen sie die Zuordnung der Nachricht zu einem bestimmten Absender."
+  },
+  {
+    "nr": 203,
+    "frage": "Nennen Sie zwei Anwendungsfälle für digitale Signaturen.",
+    "antwort1": "Zwei Anwendungsfälle für digitale Signaturen sind das Signieren von E-Mails und die Signatur von Softwarepaketen bzw. Updates.",
+    "antwort2": ""
+  },
+  {
+    "nr": 204,
+    "frage": "Erläutern Sie, was ein Hashwert ist.",
+    "antwort1": "Ein Hashwert ist eine Prüfsumme, die aus Daten berechnet wird und bei kleinen Veränderungen der Daten stark variiert.",
+    "antwort2": "Er dient der Integritätsprüfung von Dateien und Nachrichten."
+  },
+  {
+    "nr": 205,
+    "frage": "Beschreiben Sie, warum Passwörter nicht im Klartext gespeichert werden dürfen.",
+    "antwort1": "Passwörter dürfen nicht im Klartext gespeichert werden, weil sie bei einem Datenabfluss direkt nutzbar wären.",
+    "antwort2": "Durch Hashing wird der Missbrauch erschwert, da die Originalpasswörter nicht direkt aus den Hashwerten ableitbar sind."
+  },
+  {
+    "nr": 206,
+    "frage": "Nennen Sie zwei Anforderungen an sichere Passwörter.",
+    "antwort1": "Zwei Anforderungen an sichere Passwörter sind eine Länge von mindestens acht bis zwölf Zeichen und eine Mischung aus Groß- und Kleinbuchstaben, Ziffern und Sonderzeichen.",
+    "antwort2": "Zudem sollten keine Wörterbuchbegriffe verwendet werden."
+  },
+  {
+    "nr": 207,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen Backup und Archivierung.",
+    "antwort1": "Ein Backup dient der kurzfristigen Wiederherstellung von Daten im Falle eines Verlusts.",
+    "antwort2": "Eine Archivierung dient der langfristigen, unveränderlichen Aufbewahrung von Daten."
+  },
+  {
+    "nr": 208,
+    "frage": "Nennen Sie drei gängige Backup-Arten.",
+    "antwort1": "Drei gängige Backup-Arten sind Vollbackup, inkrementelles Backup und differenzielles Backup.",
+    "antwort2": ""
+  },
+  {
+    "nr": 209,
+    "frage": "Erläutern Sie den Unterschied zwischen inkrementellem und differenziellem Backup.",
+    "antwort1": "Ein inkrementelles Backup sichert nur Änderungen seit dem letzten Backup (beliebiger Art).",
+    "antwort2": "Ein differenzielles Backup sichert alle Änderungen seit dem letzten Vollbackup."
+  },
+  {
+    "nr": 210,
+    "frage": "Beschreiben Sie, warum Offsite-Backups wichtig sind.",
+    "antwort1": "Offsite-Backups sind wichtig, weil sie vor Standortkatastrophen wie Brand oder Diebstahl schützen.",
+    "antwort2": "Die Daten werden außerhalb des Unternehmens gelagert und sind somit auch bei einem lokalen Vorfall sicher."
+  },
+  {
+    "nr": 211,
+    "frage": "Nennen Sie zwei Risiken bei fehlenden Backups.",
+    "antwort1": "Zwei Risiken bei fehlenden Backups sind Datenverlust nach einem Hardwaredefekt.",
+    "antwort2": "Ein weiteres Risiko sind längere Ausfallzeiten und damit verbundene Geschäftseinbußen."
+  },
+  {
+    "nr": 212,
+    "frage": "Erläutern Sie den Begriff „Business Continuity“.",
+    "antwort1": "Business Continuity bezeichnet die Fähigkeit eines Unternehmens, kritische Prozesse auch bei Störungen aufrechtzuerhalten.",
+    "antwort2": ""
+  },
+  {
+    "nr": 213,
+    "frage": "Nennen Sie zwei Inhalte eines Notfallplans für IT-Systeme.",
+    "antwort1": "Zwei Inhalte eines Notfallplans für IT-Systeme sind eine Kontaktliste mit Verantwortlichkeiten.",
+    "antwort2": "Ein weiterer Inhalt sind Maßnahmen zur Wiederherstellung im Rahmen des Disaster Recovery."
+  },
+  {
+    "nr": 214,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen LAN und WAN.",
+    "antwort1": "Ein LAN (Local Area Network) ist ein lokales Netz, zum Beispiel innerhalb eines Gebäudes.",
+    "antwort2": "Ein WAN (Wide Area Network) verbindet geografisch entfernte Netze miteinander."
+  },
+  {
+    "nr": 215,
+    "frage": "Nennen Sie drei typische Übertragungsmedien in einem LAN.",
+    "antwort1": "Drei typische Übertragungsmedien in einem LAN sind Kupferkabel (Twisted Pair), Glasfaser und WLAN.",
+    "antwort2": ""
+  },
+  {
+    "nr": 216,
+    "frage": "Erläutern Sie den Zweck eines Switches.",
+    "antwort1": "Der Zweck eines Switches besteht darin, Endgeräte im LAN zu verbinden.",
+    "antwort2": "Ein Switch leitet Frames anhand von MAC-Adressen gezielt an das Zielgerät weiter."
+  },
+  {
+    "nr": 217,
+    "frage": "Nennen Sie den Unterschied zwischen Hub und Switch.",
+    "antwort1": "Ein Hub sendet empfangene Daten an alle Ports weiter.",
+    "antwort2": "Ein Switch hingegen sendet Daten nur an den Zielport basierend auf der MAC-Adresse."
+  },
+  {
+    "nr": 218,
+    "frage": "Beschreiben Sie kurz, was ein Router macht.",
+    "antwort1": "Ein Router vermittelt Daten zwischen verschiedenen Netzwerken.",
+    "antwort2": "Die Vermittlung erfolgt auf der IP-Ebene (Netzwerkschicht)."
+  },
+  {
+    "nr": 219,
+    "frage": "Nennen Sie zwei Gründe für die Einführung von IPv6.",
+    "antwort1": "Zwei Gründe für die Einführung von IPv6 sind die Adressknappheit bei IPv4.",
+    "antwort2": "Ein weiterer Grund ist die bessere Unterstützung für Autokonfiguration und moderne Dienste."
+  },
+  {
+    "nr": 220,
+    "frage": "Beschreiben Sie den Unterschied zwischen öffentlicher und privater IP-Adresse.",
+    "antwort1": "Öffentliche IP-Adressen sind im Internet routbar und weltweit eindeutig.",
+    "antwort2": "Private IP-Adressen sind nur im internen Netz verwendbar und benötigen NAT für den Zugriff ins Internet."
+  },
+   {
+    "nr": 221,
+    "frage": "Erläutern Sie, was NAT bewirkt.",
+    "antwort1": "NAT (Network Address Translation) übersetzt private IP-Adressen in öffentliche IP-Adressen.",
+    "antwort2": "Dadurch ermöglicht es mehreren Clients im internen Netz den Zugang ins Internet über eine gemeinsame öffentliche Adresse."
+  },
+  {
+    "nr": 222,
+    "frage": "Nennen Sie zwei typische Klassen privater IPv4-Adressen.",
+    "antwort1": "Zwei typische Klassen privater IPv4-Adressen sind 10.0.0.0/8 und 172.16.0.0/12.",
+    "antwort2": "Eine weitere Klasse ist 192.168.0.0/16."
+  },
+  {
+    "nr": 223,
+    "frage": "Beschreiben Sie kurz das OSI-Schichtenmodell.",
+    "antwort1": "Das OSI-Schichtenmodell ist ein Referenzmodell mit sieben Schichten zur Beschreibung von Netzwerkkommunikation.",
+    "antwort2": "Es reicht von der Bitübertragungsschicht (Layer 1) bis zur Anwendungsschicht (Layer 7)."
+  },
+  {
+    "nr": 224,
+    "frage": "Nennen Sie drei OSI-Schichten mit jeweils einem Protokoll.",
+    "antwort1": "Drei OSI-Schichten mit jeweils einem Protokoll sind die Transportschicht mit TCP.",
+    "antwort2": "Die Vermittlungsschicht (Network Layer) mit IP und die Anwendungsschicht mit HTTP."
+  },
+  {
+    "nr": 225,
+    "frage": "Erläutern Sie, warum das OSI-Modell bei der Fehlersuche hilfreich ist.",
+    "antwort1": "Das OSI-Modell ist bei der Fehlersuche hilfreich, weil Fehler bestimmten Schichten zugeordnet werden können.",
+    "antwort2": "Dadurch können sie systematisch von unten nach oben untersucht werden."
+  },
+  {
+    "nr": 226,
+    "frage": "Nennen Sie zwei typische Fehler auf Layer 1.",
+    "antwort1": "Zwei typische Fehler auf Layer 1 (Bitübertragungsschicht) sind Kabelbruch und fehlende Verbindung.",
+    "antwort2": "Ein weiterer typischer Fehler ist ein defekter Transceiver."
+  },
+  {
+    "nr": 227,
+    "frage": "Nennen Sie zwei typische Fehler auf Layer 3.",
+    "antwort1": "Zwei typische Fehler auf Layer 3 (Vermittlungsschicht) sind eine falsche IP-Adresse.",
+    "antwort2": "Weitere Fehler sind eine falsche Subnetzmaske oder ein falsches Standardgateway."
+  },
+  {
+    "nr": 228,
+    "frage": "Beschreiben Sie die Aufgabe von DNS.",
+    "antwort1": "Die Aufgabe von DNS (Domain Name System) besteht in der Auflösung von Domainnamen in IP-Adressen.",
+    "antwort2": "Dadurch können Benutzer statt numerischer IP-Adressen lesbare Domainnamen verwenden."
+  },
+  {
+    "nr": 229,
+    "frage": "Nennen Sie zwei Gründe, warum falsche DNS-Konfiguration zu Verbindungsproblemen führt.",
+    "antwort1": "Bei falscher DNS-Konfiguration schlägt die Namensauflösung fehl.",
+    "antwort2": "Dadurch sind Dienste unter ihrem FQDN (Fully Qualified Domain Name) nicht erreichbar."
+  },
+  {
+    "nr": 230,
+    "frage": "Erläutern Sie den Unterschied zwischen TCP und UDP.",
+    "antwort1": "TCP ist verbindungsorientiert und bietet Fehlerkontrolle sowie Flusssteuerung.",
+    "antwort2": "UDP ist verbindungslos und bietet keine Garantien für die Zustellung der Pakete."
+  },
+  {
+    "nr": 231,
+    "frage": "Nennen Sie zwei Anwendungsfälle für UDP.",
+    "antwort1": "Zwei Anwendungsfälle für UDP sind Streaming und VoIP.",
+    "antwort2": "Ein weiterer Anwendungsfall sind DNS-Anfragen."
+  },
+  {
+    "nr": 232,
+    "frage": "Beschreiben Sie kurz den Zweck von VLANs.",
+    "antwort1": "Der Zweck von VLANs (Virtual LANs) besteht in der logischen Segmentierung eines physikalischen Netzes.",
+    "antwort2": "Dadurch entstehen getrennte Broadcast-Domänen trotz gemeinsamer Hardware."
+  },
+  {
+    "nr": 233,
+    "frage": "Nennen Sie zwei Vorteile von VLANs.",
+    "antwort1": "Zwei Vorteile von VLANs sind eine bessere Sicherheit durch Trennung von Netzwerkbereichen.",
+    "antwort2": "Weitere Vorteile sind die bessere Trennung von Abteilungen und geringerer Broadcast-Traffic."
+  },
+  {
+    "nr": 234,
+    "frage": "Erläutern Sie den Unterschied zwischen Hot- und Cold-Standby bei Servern.",
+    "antwort1": "Hot-Standby bedeutet, dass ein redundanter Server parallel läuft und sofort übernehmen kann.",
+    "antwort2": "Cold-Standby bedeutet, dass ein redundanter Server erst im Fehlerfall gestartet wird."
+  },
+  {
+    "nr": 235,
+    "frage": "Nennen Sie zwei Gründe für den Einsatz eines Load Balancers.",
+    "antwort1": "Zwei Gründe für den Einsatz eines Load Balancers sind die Verteilung von Last auf mehrere Server.",
+    "antwort2": "Ein weiterer Grund ist die Erhöhung der Verfügbarkeit durch Redundanz."
+  },
+  {
+    "nr": 236,
+    "frage": "Beschreiben Sie kurz den Begriff „Single Point of Failure“.",
+    "antwort1": "Ein Single Point of Failure ist eine Komponente, deren Ausfall das gesamte System lahmlegt.",
+    "antwort2": ""
+  },
+  {
+    "nr": 237,
+    "frage": "Nennen Sie zwei Maßnahmen zur Vermeidung von Single Points of Failure.",
+    "antwort1": "Zwei Maßnahmen zur Vermeidung von Single Points of Failure sind redundante Netzteile und redundante Netzwerkverbindungen.",
+    "antwort2": "Eine weitere Maßnahme sind Clusterlösungen."
+  },
+  {
+    "nr": 238,
+    "frage": "Erläutern Sie den Unterschied zwischen On-Premises und Cloud-Lösungen.",
+    "antwort1": "On-Premises-Lösungen laufen in der eigenen Infrastruktur des Unternehmens.",
+    "antwort2": "Cloud-Lösungen laufen in der externen Infrastruktur eines Providers."
+  },
+  {
+    "nr": 239,
+    "frage": "Nennen Sie zwei Vorteile von Cloud-Lösungen.",
+    "antwort1": "Zwei Vorteile von Cloud-Lösungen sind die schnelle Skalierbarkeit nach Bedarf.",
+    "antwort2": "Ein weiterer Vorteil sind geringere Investitionskosten in Hardware."
+  },
+  {
+    "nr": 240,
+    "frage": "Nennen Sie zwei Nachteile von Cloud-Lösungen.",
+    "antwort1": "Zwei Nachteile von Cloud-Lösungen sind die Abhängigkeit vom Provider.",
+    "antwort2": "Weitere Nachteile sind eine zwingende Internetverbindung und mögliche Datenschutzfragen."
+  },
+ {
+    "nr": 241,
+    "frage": "Beschreiben Sie kurz den Begriff „SaaS“.",
+    "antwort1": "SaaS (Software as a Service) bedeutet, dass die Anwendung vollständig über das Netz bereitgestellt wird.",
+    "antwort2": "Der Anbieter betreibt die Software, die Nutzer greifen über das Internet zu."
+  },
+  {
+    "nr": 242,
+    "frage": "Nennen Sie zwei Beispiele für SaaS.",
+    "antwort1": "Zwei Beispiele für SaaS sind webbasierte E-Mail-Dienste wie Gmail oder Outlook.com.",
+    "antwort2": "Ein weiteres Beispiel sind CRM-Systeme wie Salesforce."
+  },
+  {
+    "nr": 243,
+    "frage": "Erläutern Sie „IaaS“ anhand eines Beispiels.",
+    "antwort1": "IaaS (Infrastructure as a Service) bedeutet, dass virtuelle Maschinen, Speicher und Netzwerkinfrastruktur bereitgestellt werden.",
+    "antwort2": "Ein Beispiel sind virtuelle Server bei einem Cloud-Provider wie AWS EC2 oder Azure VMs."
+  },
+  {
+    "nr": 244,
+    "frage": "Erläutern Sie „PaaS“ anhand eines Beispiels.",
+    "antwort1": "PaaS (Platform as a Service) bietet eine Entwicklungsplattform inklusive Laufzeitumgebung und Middleware.",
+    "antwort2": "Ein Beispiel sind App-Plattformen für Webanwendungen wie Heroku oder Google App Engine."
+  },
+  {
+    "nr": 245,
+    "frage": "Nennen Sie zwei Kriterien bei der Auswahl eines Cloud-Providers.",
+    "antwort1": "Zwei Kriterien bei der Auswahl eines Cloud-Providers sind die Zuverlässigkeit und die SLAs (Service Level Agreements).",
+    "antwort2": "Weitere Kriterien sind der Standort der Rechenzentren (Datenschutz) und das Kostenmodell."
+  },
+  {
+    "nr": 246,
+    "frage": "Beschreiben Sie kurz, was „Multi-Factor Authentication“ (MFA) ist.",
+    "antwort1": "Multi-Factor Authentication (MFA) ist eine Anmeldung mit mindestens zwei Faktoren.",
+    "antwort2": "Beispiele sind Passwort plus Token oder Passwort plus biometrische Merkmale wie Fingerabdruck."
+  },
+  {
+    "nr": 247,
+    "frage": "Nennen Sie zwei Vorteile von MFA.",
+    "antwort1": "Zwei Vorteile von MFA sind eine stärkere Absicherung bei Passwortdiebstahl.",
+    "antwort2": "Ein weiterer Vorteil ist eine geringere Kompromittierungswahrscheinlichkeit von Konten."
+  },
+  {
+    "nr": 248,
+    "frage": "Erläutern Sie den Begriff „Social Engineering“.",
+    "antwort1": "Social Engineering bezeichnet die Manipulation von Personen mit dem Ziel, vertrauliche Informationen oder Zugangsdaten zu erhalten.",
+    "antwort2": "Es nutzt psychologische Tricks statt technischer Schwachstellen."
+  },
+  {
+    "nr": 249,
+    "frage": "Nennen Sie zwei typische Social-Engineering-Angriffe.",
+    "antwort1": "Zwei typische Social-Engineering-Angriffe sind Phishing-E-Mails.",
+    "antwort2": "Ein weiteres Beispiel sind Telefonanrufe mit vorgetäuschter Identität, zum Beispiel als IT-Support."
+  },
+  {
+    "nr": 250,
+    "frage": "Beschreiben Sie zwei Gegenmaßnahmen gegen Social Engineering.",
+    "antwort1": "Zwei Gegenmaßnahmen gegen Social Engineering sind Sensibilisierung und Schulungen der Mitarbeiter.",
+    "antwort2": "Ein weiteres Mittel sind klare Prozesse zur Identitätsprüfung bei Anfragen."
+  },
+  {
+    "nr": 251,
+    "frage": "Erläutern Sie, was unter „Phishing“ verstanden wird.",
+    "antwort1": "Phishing ist der Versuch, über täuschend echte Nachrichten Zugangsdaten oder sensible Informationen abzugreifen.",
+    "antwort2": "Typischerweise werden E-Mails oder Websites gefälscht, die vertrauenswürdig aussehen."
+  },
+  {
+    "nr": 252,
+    "frage": "Nennen Sie zwei Indikatoren für eine Phishing-Mail.",
+    "antwort1": "Zwei Indikatoren für eine Phishing-Mail sind eine merkwürdige Absenderadresse.",
+    "antwort2": "Weitere Indikatoren sind Druck zur schnellen Handlung und verdächtige Links."
+  },
+  {
+    "nr": 253,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen Virus und Trojaner.",
+    "antwort1": "Ein Virus verbreitet sich selbst, indem er sich an andere Dateien anhängt.",
+    "antwort2": "Ein Trojaner tarnt sich als nützliches Programm, hat aber eine versteckte Schadfunktion."
+  },
+  {
+    "nr": 254,
+    "frage": "Nennen Sie zwei Maßnahmen zum Schutz vor Malware.",
+    "antwort1": "Zwei Maßnahmen zum Schutz vor Malware sind aktuelle Antivirensoftware.",
+    "antwort2": "Weitere Maßnahmen sind regelmäßige Updates und die Einschränkung von Nutzerrechten."
+  },
+  {
+    "nr": 255,
+    "frage": "Erläutern Sie, was ein „Incident Response Plan“ ist.",
+    "antwort1": "Ein Incident Response Plan ist ein Plan mit definierten Schritten zur Reaktion auf Sicherheitsvorfälle.",
+    "antwort2": "Er legt fest, wer was im Falle eines Sicherheitsvorfalls tut."
+  },
+  {
+    "nr": 256,
+    "frage": "Nennen Sie zwei Schritte eines Incident Response Plans.",
+    "antwort1": "Zwei Schritte eines Incident Response Plans sind die Identifikation und Eindämmung des Vorfalls.",
+    "antwort2": "Weitere Schritte sind die Ursachenanalyse und die Wiederherstellung der Systeme."
+  },
+  {
+    "nr": 257,
+    "frage": "Beschreiben Sie die Rolle eines IT-Servicedesks.",
+    "antwort1": "Die Rolle eines IT-Servicedesks besteht darin, als Single Point of Contact für Anwender zu dienen.",
+    "antwort2": "Der Servicedesk nimmt Störungen und Serviceanfragen entgegen und bearbeitet diese."
+  },
+  {
+    "nr": 258,
+    "frage": "Nennen Sie zwei Kennzahlen zur Bewertung eines Servicedesks.",
+    "antwort1": "Zwei Kennzahlen zur Bewertung eines Servicedesks sind die durchschnittliche Bearbeitungszeit.",
+    "antwort2": "Eine weitere Kennzahl ist die First-Level-Lösungsquote."
+  },
+  {
+    "nr": 259,
+    "frage": "Erläutern Sie den Unterschied zwischen Incident und Problem im ITIL-Kontext.",
+    "antwort1": "Ein Incident ist eine konkrete Störung, die den Betrieb beeinträchtigt.",
+    "antwort2": "Ein Problem ist die zugrunde liegende Ursache mehrerer Incidents."
+  },
+  {
+    "nr": 260,
+    "frage": "Nennen Sie zwei Aufgaben im Problem Management.",
+    "antwort1": "Zwei Aufgaben im Problem Management sind die Analyse von Ursachen von Incidents.",
+    "antwort2": "Eine weitere Aufgabe ist der Vorschlag von dauerhaften Lösungen zur Vermeidung zukünftiger Incidents."
+  },
+  {
+    "nr": 261,
+    "frage": "Beschreiben Sie kurz den Lebenszyklus eines Tickets im Ticketsystem.",
+    "antwort1": "Der Lebenszyklus eines Tickets im Ticketsystem beginnt mit der Erstellung des Tickets.",
+    "antwort2": "Darauf folgen Zuordnung, Bearbeitung, gegebenenfalls Eskalation, Lösung und schließlich Schließung."
+  },
+  {
+    "nr": 262,
+    "frage": "Nennen Sie zwei Vorteile eines Ticketsystems.",
+    "antwort1": "Zwei Vorteile eines Ticketsystems sind die Transparenz über offene Fälle.",
+    "antwort2": "Ein weiterer Vorteil ist die Nachvollziehbarkeit der Bearbeitung durch Protokollierung."
+  },
+  {
+    "nr": 263,
+    "frage": "Erläutern Sie, was unter „Change Management“ verstanden wird.",
+    "antwort1": "Change Management ist ein strukturiertes Verfahren zur Planung, Prüfung, Durchführung und Dokumentation von Änderungen.",
+    "antwort2": "Es stellt sicher, dass Änderungen kontrolliert und nachvollziehbar erfolgen."
+  },
+  {
+    "nr": 264,
+    "frage": "Nennen Sie zwei Gründe, warum ungeregelte Änderungen gefährlich sind.",
+    "antwort1": "Zwei Gründe, warum ungeregelte Änderungen gefährlich sind, sind unerwartete Ausfälle.",
+    "antwort2": "Weitere Gefahren sind Sicherheitslücken und fehlende Dokumentation der Änderungen."
+  },
+  {
+    "nr": 265,
+    "frage": "Beschreiben Sie kurz, was ein Lastenheft ist.",
+    "antwort1": "Ein Lastenheft ist ein Dokument, das die Anforderungen des Auftraggebers an das System beschreibt.",
+    "antwort2": "Es definiert das Was, nicht das Wie der Umsetzung."
+  },
+  {
+    "nr": 266,
+    "frage": "Beschreiben Sie kurz, was ein Pflichtenheft ist.",
+    "antwort1": "Ein Pflichtenheft ist ein Dokument, das beschreibt, wie der Auftragnehmer die Anforderungen des Auftraggebers umsetzen will.",
+    "antwort2": "Es beschreibt die technische und organisatorische Umsetzung."
+  },
+  {
+    "nr": 267,
+    "frage": "Nennen Sie zwei Vorteile schriftlicher Anforderungen.",
+    "antwort1": "Zwei Vorteile schriftlicher Anforderungen sind eine bessere Nachvollziehbarkeit.",
+    "antwort2": "Ein weiterer Vorteil sind weniger Missverständnisse zwischen Auftraggeber und Auftragnehmer."
+  },
+  {
+    "nr": 268,
+    "frage": "Erläutern Sie, warum Testfälle schon beim Entwurf erstellt werden sollten.",
+    "antwort1": "Testfälle sollten schon beim Entwurf erstellt werden, weil sie sicherstellen, dass Anforderungen überprüfbar sind.",
+    "antwort2": "Zudem helfen sie bei der Qualitätssicherung während der gesamten Entwicklung."
+  },
+  {
+    "nr": 269,
+    "frage": "Nennen Sie zwei Arten von Tests im Softwareentwicklungsprozess.",
+    "antwort1": "Zwei Arten von Tests im Softwareentwicklungsprozess sind Unit-Tests und Integrationstests.",
+    "antwort2": "Weitere Arten sind Systemtests und Abnahmetests."
+  },
+  {
+    "nr": 270,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen Black-Box- und White-Box-Tests.",
+    "antwort1": "Black-Box-Tests prüfen nur die Funktionalität aus Sicht des Nutzers ohne Kenntnis des Codes.",
+    "antwort2": "White-Box-Tests berücksichtigen den Codeaufbau und die interne Struktur der Software."
+  },
+  {
+    "nr": 271,
+    "frage": "Nennen Sie zwei Gründe für automatisierte Tests.",
+    "antwort1": "Zwei Gründe für automatisierte Tests sind die Wiederholbarkeit der Tests ohne manuellen Aufwand.",
+    "antwort2": "Weitere Gründe sind geringere Fehleranfälligkeit und schnelle Regressionstests bei Änderungen."
+  },
+  {
+    "nr": 272,
+    "frage": "Erläutern Sie, was ein Versionskontrollsystem ist.",
+    "antwort1": "Ein Versionskontrollsystem ist ein System zur Verwaltung von Quellcode-Versionen und Änderungen.",
+    "antwort2": "Ein bekanntes Beispiel ist Git."
+  },
+  {
+    "nr": 273,
+    "frage": "Nennen Sie zwei Vorteile der Nutzung von Git.",
+    "antwort1": "Zwei Vorteile der Nutzung von Git sind eine nachvollziehbare Historie aller Änderungen.",
+    "antwort2": "Weitere Vorteile sind die parallele Entwicklung durch Branches und die einfache Zusammenarbeit im Team."
+  },
+  {
+    "nr": 274,
+    "frage": "Beschreiben Sie kurz den Begriff „Branch“.",
+    "antwort1": "Ein Branch ist ein Abzweig im Versionsverlauf eines Repositories.",
+    "antwort2": "In einem Branch kann unabhängig vom Hauptzweig entwickelt werden."
+  },
+  {
+    "nr": 275,
+    "frage": "Nennen Sie zwei typische Branch-Strategien.",
+    "antwort1": "Zwei typische Branch-Strategien sind Feature-Branches für einzelne Funktionen.",
+    "antwort2": "Weitere Strategien sind Release-Branches und Git-Flow als umfassendes Branching-Modell."
+  },
+  {
+    "nr": 276,
+    "frage": "Erläutern Sie den Unterschied zwischen Pull Request und Merge.",
+    "antwort1": "Ein Pull Request ist eine Anfrage zur Code-Review und Zusammenführung von Änderungen aus einem Branch in einen anderen.",
+    "antwort2": "Ein Merge ist die technische Zusammenführung der Änderungen nach erfolgreicher Review."
+  },
+  {
+    "nr": 277,
+    "frage": "Nennen Sie zwei Gründe für Code Reviews.",
+    "antwort1": "Zwei Gründe für Code Reviews sind die Qualitätssicherung des Codes.",
+    "antwort2": "Weitere Gründe sind Wissenstransfer im Team und die Erkennung von Sicherheitsproblemen."
+  },
+  {
+    "nr": 278,
+    "frage": "Beschreiben Sie kurz, was Pseudocode ist.",
+    "antwort1": "Pseudocode ist eine formalisierte, aber sprachnahe Beschreibung eines Algorithmus.",
+    "antwort2": "Er hat keine strenge Syntax einer Programmiersprache."
+  },
+  {
+    "nr": 279,
+    "frage": "Nennen Sie zwei Vorteile von Pseudocode.",
+    "antwort1": "Zwei Vorteile von Pseudocode sind, dass er leicht verständlich für Nicht-Programmierer ist.",
+    "antwort2": "Ein weiterer Vorteil ist, dass er den Entwurf und die Kommunikation im Team unterstützt."
+  },
+  {
+    "nr": 280,
+    "frage": "Erläutern Sie den Begriff <<Exception>> in Programmen.",
+    "antwort1": "Eine Exception ist ein Laufzeitfehlerzustand, der den normalen Programmfluss unterbricht.",
+    "antwort2": "Beispiele sind Division durch Null oder Zugriff auf ein nicht vorhandenes Array-Element."
+  },
+   {
+    "nr": 281,
+    "frage": "Nennen Sie zwei typische Ursachen für Exceptions.",
+    "antwort1": "Zwei typische Ursachen für Exceptions sind Division durch Null.",
+    "antwort2": "Weitere Ursachen sind Zugriff auf ein nicht vorhandenes Array-Element und Verbindungsfehler."
+  },
+  {
+    "nr": 282,
+    "frage": "Beschreiben Sie kurz, was Logging im Programmkontext ist.",
+    "antwort1": "Logging im Programmkontext ist das Schreiben von Status- und Fehlermeldungen in Logdateien.",
+    "antwort2": "Dies erfolgt zur Laufzeit der Anwendung."
+  },
+  {
+    "nr": 283,
+    "frage": "Nennen Sie zwei Gründe für Logging in Anwendungen.",
+    "antwort1": "Zwei Gründe für Logging in Anwendungen sind die Fehlersuche bei Problemen.",
+    "antwort2": "Ein weiterer Grund ist die Nachvollziehbarkeit von Abläufen für Analyse und Audit."
+  },
+  {
+    "nr": 284,
+    "frage": "Erläutern Sie den Unterschied zwischen synchroner und asynchroner Verarbeitung.",
+    "antwort1": "Synchrone Verarbeitung bedeutet, dass der Aufrufer auf das Ergebnis wartet, bevor er weitermacht.",
+    "antwort2": "Asynchrone Verarbeitung ermöglicht es dem Aufrufer, während der Abarbeitung andere Aufgaben zu erledigen."
+  },
+  {
+    "nr": 285,
+    "frage": "Nennen Sie zwei Anwendungsfälle für asynchrone Verarbeitung.",
+    "antwort1": "Zwei Anwendungsfälle für asynchrone Verarbeitung sind Netzwerkzugriffe.",
+    "antwort2": "Weitere Anwendungsfälle sind lange Datenbankoperationen und Batch-Jobs."
+  },
+  {
+    "nr": 286,
+    "frage": "Beschreiben Sie kurz, was eine API ist.",
+    "antwort1": "Eine API (Application Programming Interface) ist eine Schnittstelle, über die ein System Funktionen oder Daten anderen Systemen zur Verfügung stellt.",
+    "antwort2": ""
+  },
+  {
+    "nr": 287,
+    "frage": "Nennen Sie zwei Beispiele für Web-APIs.",
+    "antwort1": "Zwei Beispiele für Web-APIs sind eine REST-API mit JSON als Datenformat.",
+    "antwort2": "Ein weiteres Beispiel ist ein SOAP-Webservice."
+  },
+  {
+    "nr": 288,
+    "frage": "Erläutern Sie, was HTTP-Statuscodes sind.",
+    "antwort1": "HTTP-Statuscodes sind Rückmeldungen des Servers über das Ergebnis einer HTTP-Anfrage.",
+    "antwort2": "Beispiele sind 200 OK für erfolgreiche Anfrage oder 404 Not Found für nicht gefundene Ressource."
+  },
+  {
+    "nr": 289,
+    "frage": "Nennen Sie drei wichtige HTTP-Statuscodes und deren Bedeutung.",
+    "antwort1": "Drei wichtige HTTP-Statuscodes sind 200 OK für erfolgreiche Anfrage.",
+    "antwort2": "Weitere wichtige Codes sind 404 Not Found für nicht gefundene Ressource und 500 Internal Server Error für Serverfehler."
+  },
+  {
+    "nr": 290,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen GET und POST.",
+    "antwort1": "GET wird verwendet, um Daten von einem Server abzurufen, die Parameter werden in der URL übermittelt.",
+    "antwort2": "POST wird verwendet, um Daten an einen Server zu senden, die Parameter werden im Request-Body übermittelt."
+  },
+  {
+    "nr": 291,
+    "frage": "Nennen Sie zwei Sicherheitsprobleme bei unsicheren Webanwendungen.",
+    "antwort1": "Zwei Sicherheitsprobleme bei unsicheren Webanwendungen sind SQL-Injection.",
+    "antwort2": "Ein weiteres Problem ist Cross-Site-Scripting (XSS)."
+  },
+  {
+    "nr": 292,
+    "frage": "Beschreiben Sie kurz, was SQL-Injection ist.",
+    "antwort1": "SQL-Injection ist das Einschleusen von schädlichem SQL-Code über Eingabefelder einer Webanwendung.",
+    "antwort2": "Ziel ist die Manipulation der Datenbank oder das Auslesen sensibler Daten."
+  },
+  {
+    "nr": 293,
+    "frage": "Nennen Sie zwei Gegenmaßnahmen gegen SQL-Injection.",
+    "antwort1": "Zwei Gegenmaßnahmen gegen SQL-Injection sind die Verwendung von Prepared Statements.",
+    "antwort2": "Eine weitere Maßnahme ist die Eingabevalidierung."
+  },
+  {
+    "nr": 294,
+    "frage": "Beschreiben Sie kurz, was XSS ist.",
+    "antwort1": "XSS (Cross-Site-Scripting) ist das Einschleusen von JavaScript in Webseiten.",
+    "antwort2": "Ziel ist die Ausführung schädlicher Aktionen im Browser des Nutzers."
+  },
+  {
+    "nr": 295,
+    "frage": "Nennen Sie zwei Gegenmaßnahmen gegen XSS.",
+    "antwort1": "Zwei Gegenmaßnahmen gegen XSS sind Ausgabeescaping von Benutzereingaben.",
+    "antwort2": "Eine weitere Maßnahme ist die Verwendung einer Content Security Policy."
+  },
+  {
+    "nr": 296,
+    "frage": "Erläutern Sie, was ein ER-Diagramm beschreibt.",
+    "antwort1": "Ein ER-Diagramm (Entitäts-Relationships-Diagramm) beschreibt Entitäten, Attribute und Beziehungen in einem Datenbankschema.",
+    "antwort2": ""
+  },
+  {
+    "nr": 297,
+    "frage": "Nennen Sie zwei Vorteile eines guten Datenbankentwurfs.",
+    "antwort1": "Zwei Vorteile eines guten Datenbankentwurfs sind weniger Redundanzen.",
+    "antwort2": "Weitere Vorteile sind bessere Leistung und einfachere Wartung."
+  },
+  {
+    "nr": 298,
+    "frage": "Beschreiben Sie kurz den Begriff „Normalisierung“.",
+    "antwort1": "Normalisierung ist die Aufteilung von Tabellen zur Reduzierung von Redundanzen.",
+    "antwort2": "Zudem dient sie der Sicherung der Datenintegrität."
+  },
+  {
+    "nr": 299,
+    "frage": "Nennen Sie zwei Probleme, die durch fehlende Normalisierung entstehen.",
+    "antwort1": "Zwei Probleme, die durch fehlende Normalisierung entstehen, sind Redundanzen und Inkonsistenzen.",
+    "antwort2": "Ein weiteres Problem sind schwierige Updates bei Änderungen."
+  },
+  {
+    "nr": 300,
+    "frage": "Erläutern Sie den Unterschied zwischen Primärschlüssel und Fremdschlüssel.",
+    "antwort1": "Ein Primärschlüssel identifiziert eindeutig einen Datensatz in einer Tabelle.",
+    "antwort2": "Ein Fremdschlüssel verweist auf den Primärschlüssel einer anderen Tabelle und stellt eine Beziehung her."
+  },
+   {
+    "nr": 301,
+    "frage": "Nennen Sie zwei Gründe für Indexe in Tabellen.",
+    "antwort1": "Zwei Gründe für Indexe in Tabellen sind schnellere Such- und Sortieroperationen.",
+    "antwort2": "Ein weiterer Grund ist eine bessere Performance bei großen Datenmengen."
+  },
+  {
+    "nr": 302,
+    "frage": "Beschreiben Sie kurz, was ein <<View>> in SQL ist.",
+    "antwort1": "Ein View in SQL ist eine virtuelle Tabelle, die auf einer Abfrage basiert.",
+    "antwort2": "Die Daten werden nicht physisch gespeichert, sondern bei jeder Abfrage dynamisch ermittelt."
+  },
+  {
+    "nr": 303,
+    "frage": "Nennen Sie zwei Vorteile von Views.",
+    "antwort1": "Zwei Vorteile von Views sind die Abstraktion komplexer Abfragen.",
+    "antwort2": "Ein weiterer Vorteil ist die Berechtigungssteuerung auf bestimmte Daten."
+  },
+  {
+    "nr": 304,
+    "frage": "Erläutern Sie, was JOIN in SQL bewirkt.",
+    "antwort1": "JOIN in SQL verknüpft Zeilen aus zwei oder mehr Tabellen anhand gemeinsamer Schlüssel.",
+    "antwort2": "Dadurch können Daten aus mehreren Tabellen in einer Abfrage kombiniert werden."
+  },
+  {
+    "nr": 305,
+    "frage": "Nennen Sie drei Arten von JOINs.",
+    "antwort1": "Drei Arten von JOINs sind INNER JOIN, LEFT JOIN und RIGHT JOIN.",
+    "antwort2": ""
+  },
+  {
+    "nr": 306,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen INNER und LEFT JOIN.",
+    "antwort1": "INNER JOIN liefert nur Zeilen, die in beiden Tabellen passende Werte haben.",
+    "antwort2": "LEFT JOIN liefert zusätzlich alle Zeilen der linken Tabelle, auch wenn keine Übereinstimmung in der rechten Tabelle existiert."
+  },
+  {
+    "nr": 307,
+    "frage": "Erläutern Sie, warum COUNT(*) und COUNT(Spalte) unterschiedliche Ergebnisse liefern können.",
+    "antwort1": "COUNT(*) zählt alle Zeilen einer Tabelle.",
+    "antwort2": "COUNT(Spalte) zählt nur Zeilen mit nicht-NULL-Werten in der angegebenen Spalte."
+  },
+  {
+    "nr": 308,
+    "frage": "Nennen Sie zwei Gründe für Aggregatfunktionen wie SUM oder AVG.",
+    "antwort1": "Zwei Gründe für Aggregatfunktionen wie SUM oder AVG sind die Berechnung von Summen über Datensätze.",
+    "antwort2": "Ein weiterer Grund ist die Berechnung von Mittelwerten über Datensätze."
+  },
+  {
+    "nr": 309,
+    "frage": "Beschreiben Sie kurz, was GROUP BY bewirkt.",
+    "antwort1": "GROUP BY fasst Datensätze nach Werten einer oder mehrerer Spalten zusammen.",
+    "antwort2": "Dadurch werden Aggregationen pro Gruppe möglich, zum Beispiel SUM oder COUNT je Gruppe."
+  },
+  {
+    "nr": 310,
+    "frage": "Nennen Sie zwei typische Kennzahlen, die mit SQL aus Geschäftsdaten ermittelt werden.",
+    "antwort1": "Zwei typische Kennzahlen, die mit SQL aus Geschäftsdaten ermittelt werden, sind der Umsatz pro Kunde.",
+    "antwort2": "Eine weitere typische Kennzahl ist die Anzahl Tickets pro Priorität."
+  },
+  {
+    "nr": 311,
+    "frage": "Erläutern Sie, was eine Benutzerrolle in einem Datenbanksystem ist.",
+    "antwort1": "Eine Benutzerrolle in einem Datenbanksystem ist eine Zusammenfassung von Berechtigungen.",
+    "antwort2": "Diese Berechtigungen können mehreren Benutzern zugewiesen werden."
+  },
+  {
+    "nr": 312,
+    "frage": "Nennen Sie zwei Vorteile von Rollen gegenüber Einzelberechtigungen.",
+    "antwort1": "Zwei Vorteile von Rollen gegenüber Einzelberechtigungen sind die einfachere Verwaltung.",
+    "antwort2": "Ein weiterer Vorteil ist eine konsistente Rechtevergabe für alle Benutzer einer Rolle."
+  },
+  {
+    "nr": 313,
+    "frage": "Beschreiben Sie kurz den Unterschied zwischen Backup einer Datenbank und Export von Daten.",
+    "antwort1": "Ein Backup einer Datenbank sichert den gesamten Zustand inklusive Struktur, Daten und Metadaten.",
+    "antwort2": "Ein Export von Daten exportiert nur ausgewählte Daten, zum Beispiel in CSV oder JSON."
+  },
+  {
+    "nr": 314,
+    "frage": "Nennen Sie zwei Gründe für testweise Rücksicherung von Backups.",
+    "antwort1": "Zwei Gründe für testweise Rücksicherung von Backups sind die Überprüfung der Wiederherstellbarkeit.",
+    "antwort2": "Ein weiterer Grund ist das Erkennen defekter Sicherungen vor einem echten Notfall."
+  },
+  {
+    "nr": 315,
+    "frage": "Erläutern Sie, was Monitoring von Systemen umfasst.",
+    "antwort1": "Monitoring von Systemen umfasst die kontinuierliche Überwachung von Ressourcen wie CPU und Speicher.",
+    "antwort2": "Zudem werden Verfügbarkeit und Performance der Systeme überwacht."
+  },
+  {
+    "nr": 316,
+    "frage": "Nennen Sie zwei typische Monitoring-Kennzahlen.",
+    "antwort1": "Zwei typische Monitoring-Kennzahlen sind die CPU-Auslastung und die Speicherauslastung.",
+    "antwort2": "Weitere typische Kennzahlen sind Antwortzeiten und Durchsatz."
+  },
+  {
+    "nr": 317,
+    "frage": "Beschreiben Sie kurz, was ein Alert im Monitoring ist.",
+    "antwort1": "Ein Alert im Monitoring ist eine automatische Benachrichtigung bei Überschreitung definierter Schwellwerte.",
+    "antwort2": "Er informiert Administratoren über potenzielle Probleme oder Ausfälle."
+  },
+  {
+    "nr": 318,
+    "frage": "Nennen Sie zwei Gründe für Schwellwerte im Monitoring.",
+    "antwort1": "Zwei Gründe für Schwellwerte im Monitoring sind die frühe Erkennung von Engpässen.",
+    "antwort2": "Ein weiterer Grund ist die Vermeidung von Ausfällen durch rechtzeitiges Eingreifen."
+  },
+  {
+    "nr": 319,
+    "frage": "Erläutern Sie den Unterschied zwischen <<Proactive>> und <<Reactive>> Maintenance.",
+    "antwort1": "Proaktive Maintenance umfasst vorbeugende Maßnahmen zur Vermeidung von Ausfällen.",
+    "antwort2": "Reaktive Maintenance erfolgt erst nach einem Ausfall zur Behebung des Problems."
+  },
+  {
+    "nr": 320,
+    "frage": "Nennen Sie zwei Beispiele proaktive Wartung.",
+    "antwort1": "Zwei Beispiele proaktiver Wartung sind Firmware-Updates vor Ablauf der Support-Zeit.",
+    "antwort2": "Ein weiteres Beispiel ist der Austausch verschleißanfälliger Teile vor einem Ausfall."
+  },
+  {
+    "nr": 321,
+    "frage": "Beschreiben Sie kurz, was ein Service Level Agreement (SLA) ist.",
+    "antwort1": "Ein Service Level Agreement (SLA) ist eine vertragliche Vereinbarung über Leistung und Verfügbarkeit eines Dienstes.",
+    "antwort2": "Es definiert verbindliche Ziele zwischen Dienstleister und Kunde."
+  },
+  {
+    "nr": 322,
+    "frage": "Nennen Sie zwei Kennzahlen, die typischerweise in SLAs stehen.",
+    "antwort1": "Zwei Kennzahlen, die typischerweise in SLAs stehen, sind der Verfügbarkeitsprozentsatz.",
+    "antwort2": "Eine weitere typische Kennzahl ist die Reaktionszeit auf Störungen."
+  },
+  {
+    "nr": 323,
+    "frage": "Erläutern Sie, warum die Dokumentation von Systemen wichtig ist.",
+    "antwort1": "Die Dokumentation von Systemen ist wichtig, weil sie Wartung und Fehleranalyse erleichtert.",
+    "antwort2": "Zudem unterstützt sie Übergaben an neue Mitarbeiter oder externe Dienstleister."
+  },
+  {
+    "nr": 324,
+    "frage": "Nennen Sie zwei Arten von Dokumentation in IT-Projekten.",
+    "antwort1": "Zwei Arten von Dokumentation in IT-Projekten sind die Systemdokumentation.",
+    "antwort2": "Eine weitere Art ist die Benutzerdokumentation."
+  },
+  {
+    "nr": 325,
+    "frage": "Beschreiben Sie kurz, was ein Betriebsübergabedokument enthält.",
+    "antwort1": "Ein Betriebsübergabedokument enthält Informationen für den Betrieb wie Architektur und Konfigurationen.",
+    "antwort2": "Zudem enthält es Kontaktlisten und Wartungspläne."
+  },
+  {
+    "nr": 326,
+    "frage": "Nennen Sie zwei Risiken bei fehlender Dokumentation.",
+    "antwort1": "Zwei Risiken bei fehlender Dokumentation sind längere Störungsbehebung durch mangelnde Transparenz.",
+    "antwort2": "Ein weiteres Risiko ist die Abhängigkeit von einzelnen Personen, die das System kennen."
+  },
+  {
+    "nr": 327,
+    "frage": "Erläutern Sie den Begriff „Konfigurationsmanagement“.",
+    "antwort1": "Konfigurationsmanagement ist die Verwaltung und Nachverfolgbarkeit von Konfigurationen von Systemen und Komponenten.",
+    "antwort2": "Es stellt sicher, dass Änderungen kontrolliert und dokumentiert erfolgen."
+  },
+  {
+    "nr": 328,
+    "frage": "Nennen Sie zwei Hilfsmittel für Konfigurationsmanagement.",
+    "antwort1": "Zwei Hilfsmittel für Konfigurationsmanagement sind Konfigurationsdatenbanken (CMDB).",
+    "antwort2": "Ein weiteres Hilfsmittel sind Versionskontrollsysteme wie Git."
+  },
+  {
+    "nr": 329,
+    "frage": "Beschreiben Sie kurz, was eine CMDB ist.",
+    "antwort1": "Eine CMDB (Configuration Management Database) ist eine Datenbank mit Informationen über IT-Assets.",
+    "antwort2": "Sie enthält zudem Informationen über die Beziehungen zwischen den Assets."
+  },
+  {
+    "nr": 330,
+    "frage": "Nennen Sie zwei Vorteile einer CMDB.",
+    "antwort1": "Zwei Vorteile einer CMDB sind eine bessere Übersicht über die Infrastruktur.",
+    "antwort2": "Ein weiterer Vorteil ist die Unterstützung von Change- und Incident-Management."
+  },
+  {
+    "nr": 331,
+    "frage": "Erläutern Sie den Unterschied zwischen Asset- und Konfigurationsmanagement.",
+    "antwort1": "Asset-Management verwaltet wirtschaftliche Aspekte wie Inventar und Kosten.",
+    "antwort2": "Konfigurationsmanagement verwaltet technische Eigenschaften und Beziehungen zwischen Komponenten."
+  },
+  {
+    "nr": 332,
+    "frage": "Nennen Sie zwei Beispiele für IT-Assets.",
+    "antwort1": "Zwei Beispiele für IT-Assets sind Server und Laptops.",
+    "antwort2": "Weitere Beispiele sind Netzwerkgeräte und Lizenzen."
+  },
+  {
+    "nr": 333,
+    "frage": "Beschreiben Sie kurz, was „Capacity Management“ ist.",
+    "antwort1": "Capacity Management ist die Planung und Sicherstellung ausreichender Kapazitäten für zukünftige Last.",
+    "antwort2": "Es stellt sicher, dass Ressourcen wie CPU, Speicher und Netzwerk ausreichend dimensioniert sind."
+  },
+  {
+    "nr": 334,
+    "frage": "Nennen Sie zwei Kennzahlen für Capacity Management.",
+    "antwort1": "Zwei Kennzahlen für Capacity Management sind der Trend der CPU-Auslastung.",
+    "antwort2": "Weitere Kennzahlen sind Speicherwachstum und Netzwerkauslastung."
+  },
+  {
+    "nr": 335,
+    "frage": "Erläutern Sie den Begriff <<Benchmarking>> in der IT.",
+    "antwort1": "Benchmarking in der IT ist der Vergleich von Systemleistung gegen Standardtests oder Konkurrenzsysteme.",
+    "antwort2": "Es dient der Bewertung der eigenen Performance im Vergleich zu Best Practices."
+  },
+  {
+    "nr": 336,
+    "frage": "Nennen Sie zwei Gründe für Performance-Tests vor Produktionsinbetriebnahme.",
+    "antwort1": "Zwei Gründe für Performance-Tests vor Produktionsinbetriebnahme sind die Verifikation der Skalierbarkeit.",
+    "antwort2": "Ein weiterer Grund ist die Vermeidung von Engpässen im Produktivbetrieb."
+  },
+  {
+    "nr": 337,
+    "frage": "Beschreiben Sie kurz, was <<Servicekatalog>> ist.",
+    "antwort1": "Ein Servicekatalog ist ein Dokument oder Portal, das alle angebotenen IT-Services beschreibt.",
+    "antwort2": "Er dient als Übersicht für Kunden und interne Mitarbeiter."
+  },
+  {
+    "nr": 338,
+    "frage": "Nennen Sie zwei Vorteile eines Servicekatalogs.",
+    "antwort1": "Zwei Vorteile eines Servicekatalogs sind Transparenz für Kunden über verfügbare Services.",
+    "antwort2": "Ein weiterer Vorteil ist die klare Zuordnung von Verantwortlichkeiten."
+  },
+  {
+    "nr": 339,
+    "frage": "Erläutern Sie den Unterschied zwischen <<Incident>> und <<Service Request>>.",
+    "antwort1": "Ein Incident ist eine Störung, die den Betrieb beeinträchtigt.",
+    "antwort2": "Ein Service Request ist eine Anfrage nach einem neuen Service oder einer Änderung, zum Beispiel Einrichtung eines Accounts."
+  },
+  {
+    "nr": 340,
+    "frage": "Nennen Sie zwei Beispiele für Service Requests.",
+    "antwort1": "Zwei Beispiele für Service Requests sind die Einrichtung eines neuen Accounts.",
+    "antwort2": "Ein weiteres Beispiel ist die Installation einer zusätzlichen Software."
+  },
+  {
+    "nr": 341,
+    "frage": "Beschreiben Sie kurz, was <<User Acceptance Test>> (UAT) ist.",
+    "antwort1": "User Acceptance Test (UAT) ist ein Test durch Endanwender zur Abnahme eines Systems.",
+    "antwort2": "Er stellt sicher, dass das System die Anforderungen der Benutzer erfüllt."
+  },
+ {
+    "nr": 342,
+    "frage": "Nennen Sie zwei Ziele von UAT.",
+    "antwort1": "Zwei Ziele von UAT sind die Bestätigung, dass Anforderungen erfüllt sind.",
+    "antwort2": "Ein weiteres Ziel ist die Akzeptanz des Systems durch die Benutzer."
+  },
+  {
+    "nr": 343,
+    "frage": "Erläutern Sie den Begriff „Rollout“.",
+    "antwort1": "Ein Rollout ist die geplante Einführung eines neuen Systems oder einer neuen Version.",
+    "antwort2": "Er umfasst die Installation, Konfiguration und Freigabe für die Benutzer."
+  },
+  {
+    "nr": 344,
+    "frage": "Nennen Sie zwei Strategien für Rollouts.",
+    "antwort1": "Zwei Strategien für Rollouts sind Big-Bang-Rollout, bei dem alle Benutzer gleichzeitig umgestellt werden.",
+    "antwort2": "Eine weitere Strategie ist schrittweiser Rollout, zum Beispiel mit Pilotphase oder Wellenmodell."
+  },
+  {
+    "nr": 345,
+    "frage": "Beschreiben Sie kurz, was <<Pilotbetrieb>> ist.",
+    "antwort1": "Pilotbetrieb ist ein Testbetrieb mit einer begrenzten Nutzergruppe vor der flächendeckenden Einführung.",
+    "antwort2": "Er dient dem Sammeln von Erfahrungen und dem Erkennen von Problemen."
+  },
+  {
+    "nr": 346,
+    "frage": "Nennen Sie zwei Vorteile eines Pilotbetriebs.",
+    "antwort1": "Zwei Vorteile eines Pilotbetriebs sind das frühe Erkennen von Problemen.",
+    "antwort2": "Ein weiterer Vorteil ist ein geringeres Risiko durch begrenzte Auswirkungen."
+  },
+  {
+    "nr": 347,
+    "frage": "Erläutern Sie den Begriff „Shadow IT“.",
+    "antwort1": "Shadow IT bezeichnet nicht offiziell genehmigte IT-Lösungen, die von Fachabteilungen betrieben werden.",
+    "antwort2": "Diese Lösungen entstehen außerhalb der Kontrolle der IT-Abteilung."
+  },
+  {
+    "nr": 348,
+    "frage": "Nennen Sie zwei Risiken von Shadow IT.",
+    "antwort1": "Zwei Risiken von Shadow IT sind Sicherheitslücken durch nicht geprüfte Lösungen.",
+    "antwort2": "Weitere Risiken sind fehlende Wartung und mangelnde Integration in bestehende Systeme."
+  },
+  {
+    "nr": 349,
+    "frage": "Beschreiben Sie kurz, was ein <<Service Owner>> ist.",
+    "antwort1": "Ein Service Owner ist eine verantwortliche Person für einen bestimmten IT-Service.",
+    "antwort2": "Er ist Ansprechpartner für alle Belange des Services."
+  },
+  {
+    "nr": 350,
+    "frage": "Nennen Sie zwei Aufgaben eines Service Owners.",
+    "antwort1": "Zwei Aufgaben eines Service Owners sind die Definition von SLAs für den Service.",
+    "antwort2": "Eine weitere Aufgabe ist die Überwachung der Servicequalität."
+  },
+  {
+    "nr": 351,
+    "frage": "Erläutern Sie den Begriff „Release Management“.",
+    "antwort1": "Release Management ist die Planung und Steuerung von Software-Releases in die Produktion.",
+    "antwort2": "Es umfasst Tests, Freigabe und Deployment der neuen Version."
+  },
+  {
+    "nr": 352,
+    "frage": "Nennen Sie zwei Artefakte im Release Management.",
+    "antwort1": "Zwei Artefakte im Release Management sind der Release-Plan.",
+    "antwort2": "Ein weiteres Artefakt sind die Release-Notes."
+  },
+  {
+    "nr": 353,
+    "frage": "Beschreiben Sie kurz, was <<Continuous Integration>> ist.",
+    "antwort1": "Continuous Integration ist das häufige Zusammenführen von Codeänderungen in ein gemeinsames Repository.",
+    "antwort2": "Jede Änderung wird automatisch durch automatisierte Tests geprüft."
+  },
+  {
+    "nr": 354,
+    "frage": "Nennen Sie zwei Vorteile von Continuous Integration.",
+    "antwort1": "Zwei Vorteile von Continuous Integration sind das frühe Erkennen von Integrationsproblemen.",
+    "antwort2": "Ein weiterer Vorteil ist eine stabile Codebasis."
+  },
+  {
+    "nr": 355,
+    "frage": "Erläutern Sie, was <<Continuous Deployment>> ist.",
+    "antwort1": "Continuous Deployment ist die automatische Auslieferung erfolgreich getesteter Änderungen in produktionsnahe Systeme.",
+    "antwort2": "Es ermöglicht eine schnelle und häufige Bereitstellung neuer Features."
+  },
+  {
+    "nr": 356,
+    "frage": "Nennen Sie zwei Risiken bei unsauberem Continuous Deployment.",
+    "antwort1": "Zwei Risiken bei unsauberem Continuous Deployment sind fehlerhafte Features in Produktion.",
+    "antwort2": "Ein weiteres Risiko sind unerwartete Auswirkungen ohne ausreichende Tests."
+  },
+  {
+    "nr": 357,
+    "frage": "Beschreiben Sie kurz, was <<Konfigurationsdatei>> und <<Umgebungsvariable>> sind.",
+    "antwort1": "Eine Konfigurationsdatei ist eine Datei zur Einstellung von Parametern einer Anwendung.",
+    "antwort2": "Eine Umgebungsvariable ist eine Variable im Betriebssystem, die Konfigurationswerte speichert."
+  },
+  {
+    "nr": 358,
+    "frage": "Nennen Sie zwei Gründe, warum Konfigurationswerte nicht im Code hardcodiert sein sollten.",
+    "antwort1": "Zwei Gründe, warum Konfigurationswerte nicht im Code hardcodiert sein sollten, sind die erleichterte Wartung und Anpassung.",
+    "antwort2": "Ein weiterer Grund ist, dass unterschiedliche Konfigurationen ohne Codeänderung möglich sind."
+  },
+  {
+    "nr": 359,
+    "frage": "Erläutern Sie den Begriff „Refactoring“.",
+    "antwort1": "Refactoring ist die Verbesserung des Codes in Bezug auf Struktur und Lesbarkeit ohne Änderung der Funktionalität.",
+    "antwort2": "Es dient der langfristigen Qualitätssicherung."
+  },
+  {
+    "nr": 360,
+    "frage": "Nennen Sie zwei Ziele von Refactoring.",
+    "antwort1": "Zwei Ziele von Refactoring sind bessere Wartbarkeit des Codes.",
+    "antwort2": "Ein weiteres Ziel ist eine geringere Fehleranfälligkeit."
+  },
+  {
+    "nr": 361,
+    "frage": "Beschreiben Sie kurz, was <<Technical Debt>> ist.",
+    "antwort1": "Technical Debt bezeichnet aufgeschobene technische Verbesserungen, die die Wartbarkeit und Qualität beeinträchtigen.",
+    "antwort2": "Es entsteht durch Kompromisse zugunsten schneller Lieferung."
+  },
+  {
+    "nr": 362,
+    "frage": "Nennen Sie zwei Beispiele für Technical Debt.",
+    "antwort1": "Zwei Beispiele für Technical Debt sind fehlende Tests.",
+    "antwort2": "Weitere Beispiele sind komplizierter Legacy-Code und fehlende Dokumentation."
+  },
+  {
+    "nr": 363,
+    "frage": "Erläutern Sie, was ein <<Service Level Report>> ist.",
+    "antwort1": "Ein Service Level Report ist ein Bericht über Einhaltung oder Verletzung von SLAs in einem Zeitraum.",
+    "antwort2": "Er dient der Dokumentation und Kontrolle der Servicequalität."
+  },
+  {
+    "nr": 364,
+    "frage": "Nennen Sie zwei Inhalte eines Service Level Reports.",
+    "antwort1": "Zwei Inhalte eines Service Level Reports sind Verfügbarkeitszeiten.",
+    "antwort2": "Weitere Inhalte sind Anzahl und Dauer von Störungen."
+  },
+  {
+    "nr": 365,
+    "frage": "Beschreiben Sie kurz, was <<Root Cause Analysis>> ist.",
+    "antwort1": "Root Cause Analysis ist eine systematische Untersuchung, um die eigentliche Ursache eines Problems zu identifizieren.",
+    "antwort2": "Sie dient der Vermeidung wiederkehrender Incidents."
+  },
+  {
+    "nr": 366,
+    "frage": "Nennen Sie zwei Methoden für Root Cause Analysis.",
+    "antwort1": "Zwei Methoden für Root Cause Analysis sind die 5-Why-Methode.",
+    "antwort2": "Eine weitere Methode ist das Ishikawa-Diagramm (Fischgräten-Diagramm)."
+  },
+  {
+    "nr": 367,
+    "frage": "Erläutern Sie den Begriff „Anforderungspriorisierung“.",
+    "antwort1": "Anforderungspriorisierung ist die Bewertung und Reihenfolge von Anforderungen nach Wichtigkeit und Nutzen.",
+    "antwort2": "Sie stellt sicher, dass die wichtigsten Features zuerst umgesetzt werden."
+  },
+  {
+    "nr": 368,
+    "frage": "Nennen Sie zwei Kriterien zur Priorisierung.",
+    "antwort1": "Zwei Kriterien zur Priorisierung sind der Geschäftsnutzen einer Anforderung.",
+    "antwort2": "Weitere Kriterien sind das Risiko und der Aufwand der Umsetzung."
+  },
+  {
+    "nr": 369,
+    "frage": "Beschreiben Sie kurz, was <<Use Case>> ist.",
+    "antwort1": "Ein Use Case ist ein Anwendungsfall, der die Interaktion zwischen einem Akteur und dem System beschreibt.",
+    "antwort2": "Er definiert, was das System in einer bestimmten Situation leisten soll."
+  },
+  {
+    "nr": 370,
+    "frage": "Nennen Sie zwei Vorteile von Use-Case-Diagrammen.",
+    "antwort1": "Zwei Vorteile von Use-Case-Diagrammen sind die Übersicht über Systemfunktionen.",
+    "antwort2": "Ein weiterer Vorteil ist die bessere Kommunikation mit Stakeholdern."
+  },
+  {
+    "nr": 371,
+    "frage": "Erläutern Sie den Begriff „Stakeholder“.",
+    "antwort1": "Stakeholder sind Personen oder Gruppen, die ein Interesse am Projekt oder System haben.",
+    "antwort2": "Sie können vom Projekt betroffen sein oder Einfluss darauf haben."
+  },
+  {
+    "nr": 372,
+    "frage": "Nennen Sie zwei Beispiele für Stakeholder.",
+    "antwort1": "Zwei Beispiele für Stakeholder sind Kunden und Mitarbeiter.",
+    "antwort2": "Weitere Beispiele sind Geschäftsführung und Lieferanten."
+  },
+  {
+    "nr": 373,
+    "frage": "Beschreiben Sie kurz, was <<RACI-Matrix>> ist.",
+    "antwort1": "Eine RACI-Matrix ist eine Darstellung von Verantwortlichkeiten pro Aufgabe.",
+    "antwort2": "Sie unterscheidet Responsible, Accountable, Consulted und Informed."
+  },
+  {
+    "nr": 374,
+    "frage": "Nennen Sie zwei Vorteile einer RACI-Matrix.",
+    "antwort1": "Zwei Vorteile einer RACI-Matrix sind klare Rollenverteilung.",
+    "antwort2": "Ein weiterer Vorteil ist die Vermeidung von Doppelarbeit oder Lücken in der Verantwortung."
+  },
+  {
+    "nr": 375,
+    "frage": "Erläutern Sie, was <<Scope>> eines Projekts ist.",
+    "antwort1": "Der Scope eines Projekts ist der Umfang der Leistungen und Ziele, die das Projekt abdecken soll.",
+    "antwort2": "Er definiert, was im Projekt enthalten ist und was nicht."
+  },
+  {
+    "nr": 376,
+    "frage": "Nennen Sie zwei Risiken bei Scope-Creep.",
+    "antwort1": "Zwei Risiken bei Scope-Creep sind Budgetüberschreitung.",
+    "antwort2": "Ein weiteres Risiko sind Verzögerungen im Projektverlauf."
+  },
+  {
+    "nr": 377,
+    "frage": "Beschreiben Sie kurz, was <<Projektmeilenstein>> ist.",
+    "antwort1": "Ein Projektmeilenstein ist ein wichtiger Zwischenschritt mit prüfbarem Ergebnis im Projekt.",
+    "antwort2": "Er markiert den Abschluss einer wichtigen Phase oder eines wichtigen Deliverables."
+  },
+  {
+    "nr": 378,
+    "frage": "Nennen Sie zwei Beispiele für Meilensteine im IT-Projekt.",
+    "antwort1": "Zwei Beispiele für Meilensteine im IT-Projekt sind die Abnahme des Pflichtenhefts.",
+    "antwort2": "Ein weiteres Beispiel ist ein erfolgreicher Systemtest."
+  },
+  {
+    "nr": 379,
+    "frage": "Erläutern Sie den Begriff <<Zeitpuffer>> im Projekt.",
+    "antwort1": "Ein Zeitpuffer im Projekt ist eine Zeitreserve zwischen frühestem und spätestem Endtermin eines Vorgangs.",
+    "antwort2": "Er dient dem Ausgleich von Unsicherheiten und Verzögerungen."
+  },
+  {
+    "nr": 380,
+    "frage": "Nennen Sie zwei Gründe für die Kalkulation von Puffern.",
+    "antwort1": "Zwei Gründe für die Kalkulation von Puffern sind der Ausgleich von Unsicherheiten.",
+    "antwort2": "Ein weiterer Grund ist die Vermeidung von Terminverzug."
+  },
+  {
+    "nr": 381,
+    "frage": "Beschreiben Sie kurz, was <<kritischer Pfad>> ist.",
+    "antwort1": "Der kritische Pfad ist eine Folge von Vorgängen ohne Gesamtpuffer, die die Projektdauer bestimmen.",
+    "antwort2": "Verzögerungen auf dem kritischen Pfad verzögern das gesamte Projekt."
+  },
+  {
+    "nr": 382,
+    "frage": "Nennen Sie zwei Konsequenzen, wenn ein Vorgang auf dem kritischen Pfad sich verzögert.",
+    "antwort1": "Wenn ein Vorgang auf dem kritischen Pfad sich verzögert, verzögert sich das gesamte Projekt entsprechend.",
+    "antwort2": "Zudem können sich Folgekosten durch längere Projektlaufzeit ergeben."
+  },
+  {
+    "nr": 383,
+    "frage": "Erläutern Sie, was <<Kundenanforderungen erfassen>> in der Analysephase bedeutet.",
+    "antwort1": "Kundenanforderungen erfassen in der Analysephase bedeutet das systematische Sammeln und Dokumentieren der erwarteten Funktionen.",
+    "antwort2": "Zudem werden Rahmenbedingungen und Einschränkungen des Projekts erfasst."
+  },
+  {
+    "nr": 384,
+    "frage": "Nennen Sie zwei Techniken zum Erfassen von Anforderungen.",
+    "antwort1": "Zwei Techniken zum Erfassen von Anforderungen sind Interviews mit Stakeholdern.",
+    "antwort2": "Weitere Techniken sind Workshops und Fragebögen."
+  },
+  {
+    "nr": 385,
+    "frage": "Beschreiben Sie kurz, was <<Use Case Specification>> ist.",
+    "antwort1": "Use Case Specification ist eine detaillierte textuelle Beschreibung eines Use Cases.",
+    "antwort2": "Sie enthält Informationen zu Akteuren, Vorbedingungen, Ablauf und Nachbedingungen."
+  },
+  {
+    "nr": 386,
+    "frage": "Nennen Sie zwei Vorteile einer schriftlichen Use-Case-Spezifikation.",
+    "antwort1": "Zwei Vorteile einer schriftlichen Use-Case-Spezifikation sind Klarheit über die Anforderungen.",
+    "antwort2": "Ein weiterer Vorteil ist eine eindeutige Testgrundlage für die Abnahme."
+  },
+  {
+    "nr": 387,
+    "frage": "Erläutern Sie, was ein <<Service Blueprint>> ist.",
+    "antwort1": "Ein Service Blueprint ist eine Visualisierung des Serviceprozesses inklusive Front-Office- und Back-Office-Aktivitäten.",
+    "antwort2": "Er zeigt die Interaktion zwischen Kunde, Mitarbeiter und System."
+  },
+  {
+    "nr": 388,
+    "frage": "Nennen Sie zwei Gründe für Service Blueprints.",
+    "antwort1": "Zwei Gründe für Service Blueprints sind die Identifikation von Engpässen im Serviceprozess.",
+    "antwort2": "Ein weiterer Grund ist die bessere Kommunikation von Abläufen im Team."
+  },
+  {
+    "nr": 389,
+    "frage": "Beschreiben Sie kurz, was <<End-to-End-Test>> ist.",
+    "antwort1": "Ein End-to-End-Test ist ein Test, der einen gesamten Prozess vom Start bis zum Endergebnis durchläuft.",
+    "antwort2": "Er prüft die gesamte Systemlandschaft und alle beteiligten Komponenten."
+  },
+  {
+    "nr": 390,
+    "frage": "Nennen Sie zwei Vorteile von End-to-End-Tests.",
+    "antwort1": "Zwei Vorteile von End-to-End-Tests sind die Verifikation von Schnittstellen zwischen Systemen.",
+    "antwort2": "Ein weiterer Vorteil ist die Sicherstellung realer Nutzungsszenarien."
+  },
+  {
+    "nr": 391,
+    "frage": "Erläutern Sie den Begriff „Regressionstest“.",
+    "antwort1": "Ein Regressionstest ist ein Test, der prüft, ob bestehende Funktionalität nach Änderungen weiterhin korrekt arbeitet.",
+    "antwort2": "Er stellt sicher, dass neue Änderungen keine unbeabsichtigten Nebenwirkungen haben."
+  },
+  {
+    "nr": 392,
+    "frage": "Nennen Sie zwei Gründe für Regressionstests.",
+    "antwort1": "Zwei Gründe für Regressionstests sind die Vermeidung von unbeabsichtigten Nebenwirkungen bei Änderungen.",
+    "antwort2": "Ein weiterer Grund ist die Sicherung der Qualität über den gesamten Projektverlauf."
+  },
+  {
+    "nr": 393,
+    "frage": "Beschreiben Sie kurz, was <<Service Desk Knowledge Base>> ist.",
+    "antwort1": "Eine Service Desk Knowledge Base ist eine Sammlung von Lösungen und Anleitungen für wiederkehrende Fragen und Probleme.",
+    "antwort2": "Sie dient der Unterstützung des Supports und der Selbsthilfe der Benutzer."
+  },
+  {
+    "nr": 394,
+    "frage": "Nennen Sie zwei Vorteile einer Knowledge Base.",
+    "antwort1": "Zwei Vorteile einer Knowledge Base sind schnellere Lösungszeiten bei Incidents.",
+    "antwort2": "Ein weiterer Vorteil ist die Entlastung des Supports durch Selbstbedienung."
+  },
+  {
+    "nr": 395,
+    "frage": "Erläutern Sie den Begriff „Self-Service Portal“.",
+    "antwort1": "Ein Self-Service Portal ist ein Online-Portal, in dem Benutzer selbst Services anfordern oder Lösungen nachschlagen können.",
+    "antwort2": "Es reduziert die Anzahl von Tickets und erhöht die Benutzerzufriedenheit."
+  },
+  {
+    "nr": 396,
+    "frage": "Nennen Sie zwei Vorteile eines Self-Service Portals.",
+    "antwort1": "Zwei Vorteile eines Self-Service Portals sind die reduzierte Anzahl von Tickets.",
+    "antwort2": "Ein weiterer Vorteil ist eine höhere Benutzerzufriedenheit durch schnelle Selbstbedienung."
+  },
+  {
+    "nr": 397,
+    "frage": "Beschreiben Sie kurz, was <<Schnittstellenvertrag>> ist.",
+    "antwort1": "Ein Schnittstellenvertrag ist ein Dokument, das das Verhalten und Format einer Schnittstelle zwischen Systemen beschreibt.",
+    "antwort2": "Er definiert verbindlich, wie Daten ausgetauscht werden."
+  },
+  {
+    "nr": 398,
+    "frage": "Nennen Sie zwei Gründe für formale Schnittstellenverträge.",
+    "antwort1": "Zwei Gründe für formale Schnittstellenverträge sind die Vermeidung von Missverständnissen zwischen Teams.",
+    "antwort2": "Ein weiterer Grund ist die vereinfachte Integration von Systemen."
+  },
+  {
+    "nr": 399,
+    "frage": "Erläutern Sie den Begriff <<Fehlerklasse>> im Bugtracking.",
+    "antwort1": "Eine Fehlerklasse im Bugtracking ist die Kategorisierung von Fehlern nach Schwere und Auswirkung.",
+    "antwort2": "Sie hilft bei der Priorisierung der Fehlerbehebung."
+  },
+  {
+    "nr": 400,
+    "frage": "Nennen Sie zwei Beispiele für Fehlerklassen.",
+    "antwort1": "Zwei Beispiele für Fehlerklassen sind kritisch (Systemausfall) und hoch (wichtige Funktion gestört).",
+    "antwort2": "Weitere Klassen sind mittel und niedrig."
+  },
+  {
+    "nr": 401,
+    "frage": "Beschreiben Sie kurz, was <<Release Notes>> sind.",
+    "antwort1": "Release Notes sind eine Dokumentation der Änderungen und bekannten Probleme in einem Release.",
+    "antwort2": "Sie informieren Benutzer über neue Features, Bugfixes und Einschränkungen."
+  },
+  {
+    "nr": 402,
+    "frage": "Nennen Sie zwei Inhalte von Release Notes.",
+    "antwort1": "Zwei Inhalte von Release Notes sind neue Features und behobene Bugs.",
+    "antwort2": "Ein weiterer Inhalt sind bekannte Einschränkungen und Workarounds."
+  },
+  {
+    "nr": 403,
+    "frage": "Erläutern Sie, was <<Roll-back>> bedeutet.",
+    "antwort1": "Roll-back bedeutet das Zurücksetzen eines Systems auf eine vorherige Version bei Problemen.",
+    "antwort2": "Es dient der Wiederherstellung der Funktionalität nach einem fehlgeschlagenen Release."
+  },
+  {
+    "nr": 404,
+    "frage": "Nennen Sie zwei Voraussetzungen für einen erfolgreichen Roll-back.",
+    "antwort1": "Zwei Voraussetzungen für einen erfolgreichen Roll-back sind vorhandene Backups der vorherigen Version.",
+    "antwort2": "Eine weitere Voraussetzung sind klare Prozeduren für den Roll-back."
+  },
+  {
+    "nr": 405,
+    "frage": "Beschreiben Sie kurz, was <<Changelog>> ist.",
+    "antwort1": "Ein Changelog ist eine chronologische Liste von Änderungen am System oder Code.",
+    "antwort2": "Es dokumentiert alle relevanten Änderungen pro Version."
+  },
+  {
+    "nr": 406,
+    "frage": "Nennen Sie zwei Vorteile eines gepflegten Changelogs.",
+    "antwort1": "Zwei Vorteile eines gepflegten Changelogs sind die nachvollziehbare Entwicklung des Projekts.",
+    "antwort2": "Ein weiterer Vorteil ist die Unterstützung bei der Fehlersuche durch Nachvollziehen von Änderungen."
+  },
+  {
+    "nr": 407,
+    "frage": "Erläutern Sie den Begriff „Schnittstellen-Test“.",
+    "antwort1": "Ein Schnittstellen-Test ist ein Test der Kommunikation und des Datenaustauschs zwischen Systemkomponenten.",
+    "antwort2": "Er prüft, ob die Schnittstellen korrekt funktionieren."
+  },
+  {
+    "nr": 408,
+    "frage": "Nennen Sie zwei Gründe für Schnittstellen-Tests.",
+    "antwort1": "Zwei Gründe für Schnittstellen-Tests sind das Erkennen von Format- oder Protokollproblemen.",
+    "antwort2": "Ein weiterer Grund ist die Sicherstellung korrekter Integration zwischen Systemen."
+  },
+  {
+    "nr": 409,
+    "frage": "Beschreiben Sie kurz, was <<User Story>> ist.",
+    "antwort1": "Eine User Story ist eine kurze Beschreibung einer Anforderung aus Sicht des Nutzers.",
+    "antwort2": "Sie folgt typischerweise dem Format <<Als [Benutzer] möchte ich [Ziel], um [Nutzen]>>."
+  },
+  {
+    "nr": 410,
+    "frage": "Nennen Sie zwei Vorteile von User Stories.",
+    "antwort1": "Zwei Vorteile von User Stories sind der Fokus auf den Nutzen für den Anwender.",
+    "antwort2": "Ein weiterer Vorteil ist die leichte Verständlichkeit auch für Nicht-Techniker."
+  },
+  {
+    "nr": 411,
+    "frage": "Erläutern Sie, was <<Akzeptanzkriterien>> sind.",
+    "antwort1": "Akzeptanzkriterien sind Bedingungen, die erfüllt sein müssen, damit eine User Story als fertig gilt.",
+    "antwort2": "Sie definieren messbare Anforderungen an die Umsetzung."
+  },
+  {
+    "nr": 412,
+    "frage": "Nennen Sie zwei Beispiele für Akzeptanzkriterien.",
+    "antwort1": "Zwei Beispiele für Akzeptanzkriterien sind fehlerfreie Eingabevalidierung.",
+    "antwort2": "Ein weiteres Beispiel ist die Anzeige einer Bestätigungsseite nach einer Bestellung."
+  },
+  {
+    "nr": 413,
+    "frage": "Beschreiben Sie kurz, was <<Kanban-Board>> ist.",
+    "antwort1": "Ein Kanban-Board ist eine Visualisierung von Aufgabenstatus, zum Beispiel <<To Do>>, <<In Arbeit>>, <<Done>>.",
+    "antwort2": "Es zeigt den aktuellen Stand aller Aufgaben im Team."
+  },
+  {
+    "nr": 414,
+    "frage": "Nennen Sie zwei Vorteile eines Kanban-Boards.",
+    "antwort1": "Zwei Vorteile eines Kanban-Boards sind die Transparenz über den Arbeitsfortschritt.",
+    "antwort2": "Ein weiterer Vorteil ist die Begrenzung paralleler Arbeiten durch WIP-Limits."
+  },
+  {
+    "nr": 415,
+    "frage": "Erläutern Sie den Begriff „WIP-Limit“.",
+    "antwort1": "WIP-Limit (Work In Progress Limit) ist die Begrenzung der Anzahl von Aufgaben, die gleichzeitig in Bearbeitung sein dürfen.",
+    "antwort2": "Es verhindert Überlastung des Teams und fördert fokussiertes Arbeiten."
+  },
+  {
+    "nr": 416,
+    "frage": "Nennen Sie zwei Gründe für WIP-Limits.",
+    "antwort1": "Zwei Gründe für WIP-Limits sind die Vermeidung von Überlastung des Teams.",
+    "antwort2": "Ein weiterer Grund sind schnellere Durchlaufzeiten durch Fokussierung auf weniger Aufgaben."
+  },
+  {
+    "nr": 417,
+    "frage": "Beschreiben Sie kurz, was <<Daily Stand-up>> ist.",
+    "antwort1": "Ein Daily Stand-up ist ein kurzes tägliches Teammeeting zur Abstimmung von Fortschritt und Hindernissen.",
+    "antwort2": "Es dauert typischerweise nicht länger als 15 Minuten."
+  },
+  {
+    "nr": 418,
+    "frage": "Nennen Sie zwei Ziele eines Daily Stand-up.",
+    "antwort1": "Zwei Ziele eines Daily Stand-up sind die frühe Erkennung von Blockern.",
+    "antwort2": "Ein weiteres Ziel ist die Koordination der Teamarbeit."
+  },
+  {
+    "nr": 419,
+    "frage": "Erläutern Sie, was <<Retrospektive>> im agilen Kontext ist.",
+    "antwort1": "Eine Retrospektive im agilen Kontext ist ein Meeting zur Reflexion und Verbesserung der Zusammenarbeit und Prozesse.",
+    "antwort2": "Sie findet typischerweise am Ende eines Sprints statt."
+  },
+  {
+    "nr": 420,
+    "frage": "Nennen Sie zwei typische Fragen in einer Retrospektive.",
+    "antwort1": "Zwei typische Fragen in einer Retrospektive sind <<Was lief gut?>>.",
+    "antwort2": "Eine weitere typische Frage ist <<Was kann verbessert werden?>>"
+  },
+  {
+    "nr": 421,
+    "frage": "Beschreiben Sie kurz, was <<Burndown Chart>> ist.",
+    "antwort1": "Ein Burndown Chart ist ein Diagramm, das zeigt, wie viele Aufgaben im Laufe einer Iteration verbleiben.",
+    "antwort2": "Es visualisiert den Fortschritt des Teams im Zeitverlauf."
+  },
+  {
+    "nr": 422,
+    "frage": "Nennen Sie zwei Vorteile eines Burndown Charts.",
+    "antwort1": "Zwei Vorteile eines Burndown Charts sind die Visualisierung des Fortschritts.",
+    "antwort2": "Ein weiterer Vorteil ist das frühe Erkennen von Verzögerungen."
+  },
+  {
+    "nr": 423,
+    "frage": "Erläutern Sie den Begriff „Product Backlog“.",
+    "antwort1": "Ein Product Backlog ist eine Liste aller Anforderungen und Aufgaben eines Produkts.",
+    "antwort2": "Er wird kontinuierlich gepflegt und priorisiert."
+  },
+  {
+    "nr": 424,
+    "frage": "Nennen Sie zwei Kriterien, nach denen ein Product Backlog sortiert wird.",
+    "antwort1": "Zwei Kriterien, nach denen ein Product Backlog sortiert wird, sind Priorität bzw. Business Value.",
+    "antwort2": "Ein weiteres Kriterium ist der Aufwand der Umsetzung."
+  },
+  {
+    "nr": 425,
+    "frage": "Beschreiben Sie kurz, was <<Sprint Backlog>> ist.",
+    "antwort1": "Ein Sprint Backlog ist die Auswahl von Items aus dem Product Backlog für einen Sprint.",
+    "antwort2": "Er enthält alle Aufgaben, die das Team im Sprint umsetzen will."
+  },
+  {
+    "nr": 426,
+    "frage": "Nennen Sie zwei Ziele eines Sprints.",
+    "antwort1": "Zwei Ziele eines Sprints sind die Lieferung eines funktionsfähigen Inkrements.",
+    "antwort2": "Ein weiteres Ziel ist der Fokus auf klar abgegrenzte Aufgaben."
+  },
+  {
+    "nr": 427,
+    "frage": "Erläutern Sie, was <<Timeboxing>> ist.",
+    "antwort1": "Timeboxing ist ein festes Zeitfenster für eine Aktivität oder Iteration.",
+    "antwort2": "Es sorgt dafür, dass Arbeiten nicht übermäßig ausgedehnt werden."
+  },
+  {
+    "nr": 428,
+    "frage": "Nennen Sie zwei Vorteile von Timeboxing.",
+    "antwort1": "Zwei Vorteile von Timeboxing sind die bessere Planung von Aktivitäten.",
+    "antwort2": "Ein weiterer Vorteil ist die Vermeidung endloser Diskussionen."
+  },
+  {
+    "nr": 429,
+    "frage": "Beschreiben Sie kurz, was <<Technical Spike>> ist.",
+    "antwort1": "Ein Technical Spike ist eine kurzfristige Untersuchung einer technischen Fragestellung zur Entscheidungsfindung.",
+    "antwort2": "Er dient der Risikoreduzierung vor der eigentlichen Implementierung."
+  },
+  {
+    "nr": 430,
+    "frage": "Nennen Sie zwei Gründe für Spikes.",
+    "antwort1": "Zwei Gründe für Spikes sind die Evaluierung neuer Technologien.",
+    "antwort2": "Ein weiterer Grund ist die Klärung von Risiken und Unsicherheiten."
+  },
+  {
+    "nr": 431,
+    "frage": "Erläutern Sie den Begriff „Non-Functional Requirements“.",
+    "antwort1": "Non-Functional Requirements sind Anforderungen an Qualitätseigenschaften wie Performance, Sicherheit und Usability.",
+    "antwort2": "Sie beschreiben, wie das System arbeiten soll, nicht was es tut."
+  },
+  {
+    "nr": 432,
+    "frage": "Nennen Sie zwei Beispiele für nichtfunktionale Anforderungen.",
+    "antwort1": "Zwei Beispiele für nichtfunktionale Anforderungen sind eine Antwortzeit von unter 2 Sekunden.",
+    "antwort2": "Ein weiteres Beispiel ist eine Verfügbarkeit von 99,9 %."
+  },
+  {
+    "nr": 433,
+    "frage": "Beschreiben Sie kurz, was <<Service Level Objective>> (SLO) ist.",
+    "antwort1": "Eine Service Level Objective (SLO) ist eine Zielgröße für einen bestimmten Serviceparameter, zum Beispiel Latenz.",
+    "antwort2": "Sie definiert das angestrebte Niveau der Servicequalität."
+  },
+  {
+    "nr": 434,
+    "frage": "Nennen Sie zwei Unterschiede zwischen SLA und SLO.",
+    "antwort1": "Zwei Unterschiede zwischen SLA und SLO sind, dass SLO ein internes Ziel ist.",
+    "antwort2": "Ein SLA ist dagegen vertraglich gegenüber Kunden vereinbart."
+  },
+  {
+    "nr": 435,
+    "frage": "Erläutern Sie, was <<Observability>> bedeutet.",
+    "antwort1": "Observability ist die Fähigkeit, anhand von Logs, Metriken und Traces das Systemverhalten zu verstehen.",
+    "antwort2": "Sie ermöglicht die Diagnose von Problemen in komplexen Systemen."
+  },
+  {
+    "nr": 436,
+    "frage": "Nennen Sie zwei Werkzeuge zur Verbesserung der Observability.",
+    "antwort1": "Zwei Werkzeuge zur Verbesserung der Observability sind zentrales Logging.",
+    "antwort2": "Ein weiteres Werkzeug sind Metriksammler wie Prometheus."
+  },
+  {
+    "nr": 437,
+    "frage": "Beschreiben Sie kurz, was <<Feature Flag>> ist.",
+    "antwort1": "Ein Feature Flag ist ein Schalter, mit dem Funktionen zur Laufzeit aktiviert oder deaktiviert werden können.",
+    "antwort2": "Es erlaubt kontrolliertes Rollout von Features."
+  },
+  {
+    "nr": 438,
+    "frage": "Nennen Sie zwei Vorteile von Feature Flags.",
+    "antwort1": "Zwei Vorteile von Feature Flags sind die Risikoreduzierung bei Rollouts.",
+    "antwort2": "Ein weiterer Vorteil ist die Möglichkeit von A/B-Testing."
+  },
+  {
+    "nr": 439,
+    "frage": "Erläutern Sie, was <<Blue-Green Deployment>> ist.",
+    "antwort1": "Blue-Green Deployment ist der parallele Betrieb alter (Blue) und neuer (Green) Version mit Umschalten des Traffics.",
+    "antwort2": "Es ermöglicht schnelles Rollback bei Problemen."
+  },
+  {
+    "nr": 440,
+    "frage": "Nennen Sie zwei Vorteile des Blue-Green Deployments.",
+    "antwort1": "Zwei Vorteile des Blue-Green Deployments sind schnelles Rollback.",
+    "antwort2": "Ein weiterer Vorteil ist minimale Ausfallzeit beim Wechsel."
+  },
+   {
+    "nr": 441,
+    "frage": "Beschreiben Sie kurz, was <<Canary Release>> ist.",
+    "antwort1": "Ein Canary Release ist das Ausrollen einer neuen Version zu einer kleinen Nutzergruppe, bevor alle Nutzer umgestellt werden.",
+    "antwort2": "Es dient dem risikoreduzierten Test unter realen Bedingungen."
+  },
+  {
+    "nr": 442,
+    "frage": "Nennen Sie zwei Vorteile von Canary Releases.",
+    "antwort1": "Zwei Vorteile von Canary Releases sind das frühe Erkennen von Problemen.",
+    "antwort2": "Ein weiterer Vorteil ist der begrenzte Einfluss auf die Gesamtnutzerbasis."
+  },
+  {
+    "nr": 443,
+    "frage": "Erläutern Sie den Begriff „Service Mesh“.",
+    "antwort1": "Ein Service Mesh ist ein Infrastruktur-Layer zur Steuerung von Dienst-zu-Dienst-Kommunikation, zum Beispiel in Microservices.",
+    "antwort2": "Er übernimmt Aufgaben wie Routing, Sicherheit und Observability."
+  },
+  {
+    "nr": 444,
+    "frage": "Nennen Sie zwei Funktionen eines Service Mesh.",
+    "antwort1": "Zwei Funktionen eines Service Mesh sind Traffic-Steuerung und TLS-Verschlüsselung.",
+    "antwort2": "Eine weitere Funktion ist Monitoring und Metrikensammlung."
+  },
+  {
+    "nr": 445,
+    "frage": "Beschreiben Sie kurz, was <<Microservice-Architektur>> ist.",
+    "antwort1": "Microservice-Architektur ist die Aufteilung einer Anwendung in kleine, unabhängige Dienste mit eigenen Schnittstellen.",
+    "antwort2": "Jeder Service kann unabhängig entwickelt und deployed werden."
+  },
+  {
+    "nr": 446,
+    "frage": "Nennen Sie zwei Vorteile von Microservices.",
+    "antwort1": "Zwei Vorteile von Microservices sind bessere Skalierbarkeit einzelner Dienste.",
+    "antwort2": "Ein weiterer Vorteil ist die unabhängige Entwicklung und Deployment."
+  },
+  {
+    "nr": 447,
+    "frage": "Nennen Sie zwei Nachteile von Microservices.",
+    "antwort1": "Zwei Nachteile von Microservices sind komplexere Kommunikation zwischen Diensten.",
+    "antwort2": "Ein weiterer Nachteil ist der höhere Betriebsaufwand."
+  },
+  {
+    "nr": 448,
+    "frage": "Erläutern Sie, was <<Monolith>> in der Softwarearchitektur ist.",
+    "antwort1": "Ein Monolith in der Softwarearchitektur ist eine große Anwendung, in der alle Funktionen in einem Deployable gebündelt sind.",
+    "antwort2": "Alle Komponenten sind eng gekoppelt und werden gemeinsam deployed."
+  },
+  {
+    "nr": 449,
+    "frage": "Nennen Sie zwei Gründe, warum Monolithen oft schwer wartbar werden.",
+    "antwort1": "Zwei Gründe, warum Monolithen oft schwer wartbar werden, sind starke Kopplung der Komponenten.",
+    "antwort2": "Ein weiterer Grund sind lange Build- und Deploy-Zeiten."
+  },
+  {
+    "nr": 450,
+    "frage": "Beschreiben Sie kurz, was <<API-Gateway>> ist.",
+    "antwort1": "Ein API-Gateway ist eine zentrale Eintrittsstelle für API-Aufrufe, die Routing, Authentifizierung und ggf. Protokollumwandlung übernimmt.",
+    "antwort2": "Es entkoppelt Clients von den Backend-Services."
+  },
+  {
+    "nr": 451,
+    "frage": "Nennen Sie zwei Vorteile eines API-Gateways.",
+    "antwort1": "Zwei Vorteile eines API-Gateways sind zentrale Kontrolle über alle API-Aufrufe.",
+    "antwort2": "Ein weiterer Vorteil sind integrierte Sicherheitsfunktionen wie Authentifizierung."
+  },
+  {
+    "nr": 452,
+    "frage": "Erläutern Sie den Begriff „Rate Limiting“.",
+    "antwort1": "Rate Limiting ist die Begrenzung der Anzahl von Anfragen in einem Zeitraum.",
+    "antwort2": "Es schützt Systeme vor Überlastung und Missbrauch."
+  },
+  {
+    "nr": 453,
+    "frage": "Nennen Sie zwei Gründe für Rate Limiting.",
+    "antwort1": "Zwei Gründe für Rate Limiting sind der Schutz vor Überlastung des Systems.",
+    "antwort2": "Ein weiterer Grund ist der Schutz vor Missbrauch durch Angreifer."
+  },
+  {
+    "nr": 454,
+    "frage": "Beschreiben Sie kurz, was <<TLS>> ist.",
+    "antwort1": "TLS (Transport Layer Security) ist ein Protokoll zur Verschlüsselung der Kommunikation im Netz.",
+    "antwort2": "Es sichert die Übertragung zwischen Client und Server ab."
+  },
+  {
+    "nr": 455,
+    "frage": "Nennen Sie zwei Schritte beim Aufbau einer TLS-Verbindung.",
+    "antwort1": "Zwei Schritte beim Aufbau einer TLS-Verbindung sind die Aushandlung von Cipher Suites.",
+    "antwort2": "Ein weiterer Schritt ist die Prüfung des Zertifikats."
+  },
+  {
+    "nr": 456,
+    "frage": "Erläutern Sie den Begriff „Zero Trust“.",
+    "antwort1": "Zero Trust ist ein Sicherheitsmodell, das keinen impliziten Vertrauensbereich annimmt.",
+    "antwort2": "Jede Verbindung muss authentifiziert und autorisiert werden."
+  },
+  {
+    "nr": 457,
+    "frage": "Nennen Sie zwei Prinzipien von Zero Trust.",
+    "antwort1": "Zwei Prinzipien von Zero Trust sind <<never trust, always verify>>.",
+    "antwort2": "Ein weiteres Prinzip ist strikte Segmentierung des Netzwerks."
+  },
+  {
+    "nr": 458,
+    "frage": "Beschreiben Sie kurz, was <<Security by Design>> ist.",
+    "antwort1": "Security by Design ist die Berücksichtigung von Sicherheitsaspekten in allen Phasen von Entwurf und Entwicklung.",
+    "antwort2": "Sicherheit wird von Anfang an in das System integriert."
+  },
+  {
+    "nr": 459,
+    "frage": "Nennen Sie zwei Maßnahmen für Security by Design.",
+    "antwort1": "Zwei Maßnahmen für Security by Design sind Bedrohungsmodellierung.",
+    "antwort2": "Eine weitere Maßnahme sind sichere Coding-Guidelines."
+  },
+  {
+    "nr": 460,
+    "frage": "Erläutern Sie den Begriff „Threat Modeling“.",
+    "antwort1": "Threat Modeling ist die systematische Analyse potenzieller Bedrohungen gegen ein System.",
+    "antwort2": "Es hilft, Schwachstellen früh im Entwicklungsprozess zu identifizieren."
+  },
+  {
+    "nr": 461,
+    "frage": "Nennen Sie zwei gängige Threat-Modeling-Methoden.",
+    "antwort1": "Zwei gängige Threat-Modeling-Methoden sind STRIDE.",
+    "antwort2": "Eine weitere Methode sind Attack Trees."
+  },
+  {
+    "nr": 462,
+    "frage": "Beschreiben Sie kurz, was <<Data Classification>> ist.",
+    "antwort1": "Data Classification ist die Einordnung von Daten nach Sensitivität, zum Beispiel öffentlich, intern, vertraulich.",
+    "antwort2": "Sie dient der Anwendung passender Schutzmaßnahmen."
+  },
+  {
+    "nr": 463,
+    "frage": "Nennen Sie zwei Gründe für Datenklassifizierung.",
+    "antwort1": "Zwei Gründe für Datenklassifizierung sind die Anwendung passender Schutzmaßnahmen.",
+    "antwort2": "Ein weiterer Grund ist die Einhaltung von Compliance-Anforderungen."
+  },
+  {
+    "nr": 464,
+    "frage": "Erläutern Sie, was <<DLP>> (Data Loss Prevention) ist.",
+    "antwort1": "DLP (Data Loss Prevention) umfasst Technologien und Prozesse zur Verhinderung unerlaubter Datenabflüsse.",
+    "antwort2": "Es schützt sensible Daten vor unbefugtem Zugriff und Weitergabe."
+  },
+  {
+    "nr": 465,
+    "frage": "Nennen Sie zwei Beispiele für DLP-Maßnahmen.",
+    "antwort1": "Zwei Beispiele für DLP-Maßnahmen sind die Überwachung von E-Mail-Anhängen.",
+    "antwort2": "Ein weiteres Beispiel ist das Sperren bestimmter Dateitypen auf USB."
+  },
+  {
+    "nr": 466,
+    "frage": "Beschreiben Sie kurz, was <<Audit Log>> ist.",
+    "antwort1": "Ein Audit Log ist ein Protokoll, das sicherheitsrelevante Aktionen zur späteren Prüfung dokumentiert.",
+    "antwort2": "Es dient der Nachvollziehbarkeit und Compliance."
+  },
+  {
+    "nr": 467,
+    "frage": "Ein Unternehmen betreibt eine hybride Infrastruktur mit On-Premises-Servern und mehreren Cloud-Diensten. Formulieren Sie drei technische Risiken beim Einsatz unterschiedlicher Identitätslösungen (lokales AD, Azure AD, einzelne Cloud-Accounts) und schlagen Sie jeweils eine Gegenmaßnahme vor.",
+    "antwort1": "Drei technische Risiken sind Medienbrüche bei Benutzerverwaltung, unterschiedliche Passwort- und Sicherheitsrichtlinien sowie höhere Fehleranfälligkeit bei Berechtigungen.",
+    "antwort2": "Gegenmaßnahmen sind Einführung eines zentralen Identity Providers (z. B. AAD mit Synchronisation), Harmonisierung von Passwort-Policies und ein Rollen- und Rechtekonzept über alle Systeme."
+  },
+  {
+    "nr": 468,
+    "frage": "Sie sollen für einen neuen Mandantenserver ein Backup-Konzept erstellen, das RPO=4h und RTO=1h erfüllt. Beschreiben Sie einen möglichen Sicherungsplan (Arten, Frequenz, Speicherort) und begründen Sie, warum die Ziele erreichbar sind.",
+    "antwort1": "Sicherungsplan: laufende Snapshots alle 4h auf lokales Storage, nächtliches Vollbackup auf NAS, wöchentliches Offsite-Vollbackup in Cloud.",
+    "antwort2": "Begründung: Snapshots decken RPO 4h, Wiederherstellung aus lokalem Snapshot bzw. NAS innerhalb 1h ist realistisch; Offsite sichert Katastrophenfälle."
+  },
+  {
+    "nr": 469,
+    "frage": "Ein Fileserver zeigt sporadische Performanceprobleme. Nennen Sie vier Metriken, die Sie überwachen würden, und erklären Sie kurz, welche Ursachen sich daraus ableiten lassen.",
+    "antwort1": "Vier Metriken sind CPU-Auslastung (überlasteter Server), RAM-Auslastung (Paging), I/O-Wartezeit auf Datenträger (Disk-Bottleneck) und Netzwerkdurchsatz/Fehler (Netzwerkengpass oder fehlerhafte Links).",
+    "antwort2": "Daraus lassen sich Hardware-Engpässe, Konfigurationsfehler oder Lastspitzen ableiten."
+  },
+  {
+    "nr": 470,
+    "frage": "Sie planen den Einsatz von SSDs in einem RAID-5-Verbund. Erläutern Sie drei technische Aspekte, die Sie bei SSD-RAIDs gegenüber HDD-RAIDs besonders berücksichtigen müssen.",
+    "antwort1": "Drei technische Aspekte sind Schreibverschleiß (Wear Leveling, Overprovisioning), gleichmäßige Modell-/Firmwareauswahl für konsistentes Verhalten sowie TRIM-Unterstützung im RAID-Controller.",
+    "antwort2": "Besondere Beachtung erfordert zudem die Rekonstruktion nach Plattenausfall bei hoher Schreiblast."
+  },
+  {
+    "nr": 471,
+    "frage": "Ein Kunde verlangt maximale Datensicherheit und möchte alle USB-Ports an Arbeitsplatzrechnern physisch deaktivieren. Nennen Sie drei Nachteile dieser Maßnahme und schlagen Sie für jeden eine alternative Lösung vor.",
+    "antwort1": "Drei Nachteile sind erschwerte Nutzung legitimer USB-Geräte (Tastatur, Headset), kein unkomplizierter Transfer legitimer Daten sowie Probleme bei Wartung/Diagnose.",
+    "antwort2": "Alternativen sind gezielte Deaktivierung nur von Massenspeichern per Gruppenrichtlinie, Device-Whitelisting und DLP-Regeln für kritische Daten."
+  },
+  {
+    "nr": 472,
+    "frage": "Sie entwerfen ein Netzwerk mit mehreren VLANs und einem zentralen Firewall-Router. Beschreiben Sie, wie Sie sicherstellen, dass ein kompromittiertes Client-VLAN keinen direkten Zugriff auf Server-VLANs erhält, und nennen Sie zwei typische Firewall-Regeln dafür.",
+    "antwort1": "Trennung erfolgt durch VLANs auf Switch und Router-on-a-Stick mit Firewall-Funktion.",
+    "antwort2": "Typische Firewall-Regeln sind nur explizite Portfreigaben von Client-VLAN zum Server-VLAN (z. B. TCP 443 zu Applikationsservern) und Blocken aller eingehenden Verbindungen vom Client-VLAN zu Admin-Ports (SSH, RDP, DB-Ports) mit Logging bei Verbindungsversuchen außerhalb definierter Regeln."
+  },
+  {
+    "nr": 473,
+    "frage": "Ein Kunde möchte <<Zero Trust>> im Firmennetz umsetzen. Nennen Sie vier konkrete technische Maßnahmen, die über klassische Perimeter-Firewalls hinausgehen.",
+    "antwort1": "Vier konkrete technische Maßnahmen sind starke Authentifizierung für alle Dienste (MFA), Mikrosegmentierung der Netze, kontinuierliche Gerätebewertung (Compliance-Checks) sowie Least-Privilege-Zugriffsmodelle auf Applikationsebene.",
+    "antwort2": "Ergänzend sind zentrale Protokollierung und Anomalie-Erkennung zu implementieren."
+  },
+  {
+    "nr": 474,
+    "frage": "Sie müssen eine Webanwendung absichern, die personenbezogene Daten verarbeitet. Nennen Sie fünf technische Sicherheitsmaßnahmen auf Applikations- bzw. Infrastrukturebene und ordnen Sie sie den Schutzzielen zu.",
+    "antwort1": "Fünf technische Sicherheitsmaßnahmen sind TLS-Verschlüsselung (Vertraulichkeit), Prepared Statements (Integrität der DB), starke Authentifizierung/MFA (Vertraulichkeit/Integrität), Rate Limits/Brute-Force-Schutz (Verfügbarkeit) sowie WAF gegen XSS/SQLi (Vertraulichkeit/Integrität).",
+    "antwort2": "Ergänzend sind redundante Server und Monitoring für Verfügbarkeit zu implementieren."
+  },
+  {
+    "nr": 475,
+    "frage": "In einer bestehenden SQL-Datenbank treten Deadlocks auf. Nennen Sie drei mögliche Ursachen und je eine Strategie zur Reduzierung der Deadlocks.",
+    "antwort1": "Drei mögliche Ursachen sind konkurrierende Updates in unterschiedlicher Reihenfolge, lange Transaktionen mit vielen Locks sowie fehlende passende Indexe.",
+    "antwort2": "Strategien sind Vereinheitlichen der Zugriffsreihenfolge auf Tabellen, Kürzen der Transaktionen und nur benötigte Daten umfassen sowie Optimieren des Indexdesigns zur Verringerung gesperrter Zeilen."
+  },
+  {
+    "nr": 476,
+    "frage": "Sie sollen ein ER-Modell für ein Ticketsystem erweitern, um SLA-Überwachung zu ermöglichen. Beschreiben Sie mindestens drei zusätzliche Attribute/Entitäten und deren Beziehungen.",
+    "antwort1": "Neue Entität SLA mit Attributen (SLAID, Zielverfügbarkeit, max. Reaktionszeit), Beziehung Ticket-SLA (jedes Ticket hat ein SLA), Attribute Ticket: Zeitpunkt_eröffnet, Zeitpunkt_erstreaktion, Zeitpunkt_gelöst.",
+    "antwort2": "Ergänzend Entität Violation mit Beziehung auf Ticket und SLA zur Dokumentation von SLA-Verletzungen."
+  },
+  {
+    "nr": 477,
+    "frage": "Ein Kunde möchte von einem Monolithen auf Microservices umsteigen. Nennen Sie vier technische Herausforderungen dieser Migration.",
+    "antwort1": "Vier technische Herausforderungen sind Zerlegung der Datenmodelle in service-spezifische Schemas, Einführung eines API-Gateways, Umgang mit verteilten Transaktionen/Fehlertoleranz sowie Logging/Monitoring über viele Services.",
+    "antwort2": "Weitere Herausforderungen sind Netzwerklatenzen und Resilienz (Circuit Breaker, Retry)."
+  },
+  {
+    "nr": 478,
+    "frage": "In einer verteilten Microservice-Architektur sollen Datenkonsistenz und Verfügbarkeit gewährleistet werden. Erläutern Sie kurz den CAP-Theorem-Konflikt und nennen Sie ein Beispiel, wann Sie eher Verfügbarkeit als strenge Konsistenz wählen würden.",
+    "antwort1": "CAP-Theorem: Konsistenz, Verfügbarkeit und Partitionstoleranz können nicht gleichzeitig voll erfüllt werden; in verteilten Systemen muss man zwischen C und A wählen.",
+    "antwort2": "Beispiel: Logging- oder Metrik-Service, bei dem temporäre Inkonsistenz akzeptabel ist, solange Anfragen beantwortet werden."
+  },
+  {
+    "nr": 479,
+    "frage": "Sie sollen eine hochverfügbare Webanwendung mit Blue-Green-Deployment und Feature Flags aufbauen. Beschreiben Sie einen möglichen Release-Prozess in drei Schritten.",
+    "antwort1": "Schritt 1: Neue Version im Green-Umfeld deployen und intern testen.",
+    "antwort2": "Schritt 2: Traffic schrittweise per Feature Flags/Canary auf Green umleiten, Monitoring und Rollback-Möglichkeit sicherstellen. Schritt 3: Nach stabiler Phase vollständig auf Green umschalten, Blue als Backup behalten."
+  },
+  {
+    "nr": 480,
+    "frage": "Ein Kunde möchte TLS auf allen internen Verbindungen zwischen Diensten einsetzen. Nennen Sie drei technische Stolpersteine bei <<TLS everywhere>> und jeweils eine Gegenmaßnahme.",
+    "antwort1": "Drei technische Stolpersteine bei <<TLS everywhere>> sind Zertifikatsverwaltung/Rotation, Performance-Overhead sowie Komplexität bei Debugging.",
+    "antwort2": "Gegenmaßnahmen sind zentrales PKI/ACME, Hardwarebeschleunigung/optimierte Cipher Suites sowie gute Observability mit Logs/Tracing."
+  },
+  {
+    "nr": 481,
+    "frage": "Sie sollen ein mehrstufiges Berechtigungskonzept für eine Finanzapplikation mit Rollen, Gruppen und Attributen entwerfen. Nennen Sie vier Prinzipien, die Sie berücksichtigen müssen.",
+    "antwort1": "Vier Prinzipien sind Least Privilege, Separation of Duties (Trennung kritischer Aufgaben), Rollen basierend auf Aufgaben statt Personen sowie Attribut-basierte Zugriffskontrolle (z. B. Mandant, Standort).",
+    "antwort2": "Ergänzend ist regelmäßige Rezertifizierung von Berechtigungen vorzusehen."
+  },
+  {
+    "nr": 482,
+    "frage": "Ein Unternehmen speichert Logs aus verschiedenen Systemen zentral (SIEM). Nennen Sie fünf Kriterien, nach denen Sie entscheiden, welche Events korreliert und alarmiert werden sollen.",
+    "antwort1": "Fünf Kriterien sind Schweregrad (kritisch/sensitiv), Häufigkeit und wiederkehrende Patterns, Quellenkombination (z. B. Auth-Fehler + Firewall-Drop), unerwartete Geolocations/Zeitpunkte sowie Abweichung vom Normalverhalten (Baseline).",
+    "antwort2": "Ergänzend ist der Bezug zu regulierten Daten zu berücksichtigen."
+  },
+  {
+    "nr": 483,
+    "frage": "Sie entwerfen ein Netzwerk für eine Kanzlei, in der sensible Daten verarbeitet werden, und sollen Mandantenkommunikation im WLAN absichern. Beschreiben Sie eine Lösung mit mindestens vier Komponenten.",
+    "antwort1": "Lösung: separates WPA2-Enterprise-WLAN mit RADIUS-Authentifizierung, VPN-Tunnel für Zugriff auf interne Server, Firewall-Regeln, die Mandanten-WLAN strikt begrenzen, sowie IDS/IPS zur Erkennung ungewöhnlicher Muster.",
+    "antwort2": "Ergänzend ist regelmäßige Zugangsschlüssel-/Zertifikatsrotation vorzusehen."
+  },
+  {
+    "nr": 484,
+    "frage": "Ein Kunde möchte seine Anwendung gegen DDoS-Attacken schützen. Nennen Sie vier technische Maßnahmen auf verschiedenen Ebenen.",
+    "antwort1": "Vier technische Maßnahmen sind Upstream-DDoS-Protection beim Provider, Rate Limiting und Connection Throttling auf dem Load Balancer, Caching/CDN zur Entlastung des Ursprungsservers sowie WAF-Regeln gegen bösartige Patterns.",
+    "antwort2": "Ergänzend ist Autoscaling-Grundlast zu implementieren."
+  },
+  {
+    "nr": 485,
+    "frage": "Sie sollen ein Datenbank-Schema für eine Mandantentabelle mit vielen Redundanzen überarbeiten. Beschreiben Sie, wie Sie mittels 3NF-Normalisierung Redundanzen verringern.",
+    "antwort1": "Vorgehen: Zerlegung der Tabelle in Mandant (MandantenID, Name, Basisdaten), Adresse (AdresseID, Straße, PLZ, Ort) und Mandant_Adresse (MandantenID, AdresseID).",
+    "antwort2": "Trennung auch von Kontaktinformationen und Vertragsdaten, sodass jedes Attribut funktional nur von seinem Primärschlüssel abhängt."
+  },
+  {
+    "nr": 486,
+    "frage": "In einer C#-Anwendung treten sporadische Exceptions vom Typ <<NullReferenceException>> auf. Nennen Sie drei systematische Schritte zur Eingrenzung und Behebung.",
+    "antwort1": "Drei systematische Schritte sind Logging der Stacktraces mit Kontextdaten, Code-Review auf potenziell null-fähige Objekte ohne Prüfung sowie Einführung von Null-Checks/Guard-Clauses.",
+    "antwort2": "Ergänzend ist der optionale Einsatz von Nullable-Referenztypen empfehlenswert."
+  },
+  {
+    "nr": 487,
+    "frage": "Sie sollen eine REST-API entwerfen, die sowohl intern als auch extern genutzt wird. Nennen Sie fünf Designprinzipien, die Sie beachten müssen.",
+    "antwort1": "Fünf Designprinzipien sind klare Ressourcenstruktur und HTTP-Methoden, konsistente Statuscodes, Versionierung der API, Authentifizierung/Autorisierung (z. B. OAuth2/JWT) sowie Rate Limiting.",
+    "antwort2": "Ergänzend sind aussagekräftige Fehlerantworten sicherzustellen."
+  },
+  {
+    "nr": 488,
+    "frage": "Ein Kunde speichert personenbezogene Daten in einer Cloud-Datenbank. Nennen Sie fünf technische und organisatorische Maßnahmen, um DSGVO-Anforderungen zu erfüllen.",
+    "antwort1": "Fünf Maßnahmen sind Verschlüsselung at rest und in transit, Rollen- und Berechtigungskonzept, Logging von Zugriffen, Data Classification und Minimierung sowie Auftragsverarbeitungsvertrag mit Provider.",
+    "antwort2": "Ergänzend sind Lösch- und Auskunftsprozesse zu implementieren."
+  },
+  {
+    "nr": 489,
+    "frage": "Sie sollen ein VPN-Konzept für mobile Mitarbeiter erstellen, das auch auf unsicheren Netzen funktioniert. Beschreiben Sie eine Lösung mit mindestens vier Elementen.",
+    "antwort1": "Lösung: TLS- oder IPsec-VPN-Client mit MFA, Split-Tunnel nur für notwendige Dienste, Device-Compliance-Checks (z. B. aktueller Patchstand, Festplattenverschlüsselung) sowie zentrale Protokollierung der Verbindungen.",
+    "antwort2": "Ergänzend sind Richtlinien für öffentliches WLAN vorzusehen."
+  },
+  {
+    "nr": 490,
+    "frage": "Ein Unternehmen möchte sensible Daten mit externen Partnern austauschen. Nennen Sie vier technische Varianten des sicheren Datenaustauschs und kurz deren Vor- und Nachteile.",
+    "antwort1": "Vier Varianten sind Ende-zu-Ende-verschlüsselte E-Mail (hohe Sicherheit, aber Schlüsselverwaltung), SFTP (sicher, aber Zugangskonten nötig), HTTPS-Fileportal (komfortabel, aber Portal-Betrieb) sowie verschlüsselte Container (z. B. ZIP/PGP).",
+    "antwort2": "Verschlüsselte Container sind flexibel, erfordern aber geeignetes Handling beim Partner."
+  },
+  {
+    "nr": 491,
+    "frage": "Sie entwerfen ein Monitoringkonzept für eine kritische SQL-Datenbank. Nennen Sie fünf Metriken/Checks, die unbedingt überwacht werden sollten.",
+    "antwort1": "Fünf Metriken sind CPU/IO-Auslastung, Lock-Wartezeiten, Größe/Wachstum von Daten- und Log-Dateien, Anzahl fehlgeschlagener Logins sowie Replikationsstatus/Backup-Erfolg.",
+    "antwort2": "Diese Metriken decken Performance, Stabilität und Verfügbarkeit ab."
+  },
+  {
+    "nr": 492,
+    "frage": "In einem Projekt sollen sowohl klassische Wasserfall- als auch agile Methoden kombiniert werden (Hybridmodell). Nennen Sie vier Risiken dieses Ansatzes und je eine Gegenmaßnahme.",
+    "antwort1": "Vier Risiken sind unklare Verantwortlichkeiten, unterschiedliche Erwartungshorizonte, Synchronisationsprobleme von Meilensteinen und Sprints sowie doppelte Dokumentationsanforderungen.",
+    "antwort2": "Gegenmaßnahmen sind klar definierte Schnittstellenphasen, gemeinsame Governance, einheitlicher Kommunikationsplan sowie abgestimmte Definition of Done."
+  },
+  {
+    "nr": 493,
+    "frage": "Sie sollen einen Gantt-Plan für die Einführung eines neuen Ticketsystems erstellen, der kritische Pfade und Puffer berücksichtigt. Nennen Sie fünf typische Vorgänge, die auf den kritischen Pfad gehören könnten.",
+    "antwort1": "Fünf typische Vorgänge sind Auswahl des Systems, Pflichtenheft/Freigabe, technische Implementierung/Integration, Migration bestehender Tickets sowie Schulung der Mitarbeiter.",
+    "antwort2": "Ergänzend gehört die Produktivstellung auf den kritischen Pfad."
+  },
+  {
+    "nr": 494,
+    "frage": "In einem Ticketsystem sollen SLAs automatisiert ausgewertet werden. Beschreiben Sie ein SQL-Statement, das pro Priorität die durchschnittliche Lösungszeit ermittelt.",
+    "antwort1": "Beispiel: SELECT Prioritaet, AVG(DATEDIFF(HOUR, Zeitpunkt_eröffnet, Zeitpunkt_gelöst)) AS DurchschnittsLösungszeit FROM Ticket GROUP BY Prioritaet",
+    "antwort2": "Dieses Statement liefert die durchschnittliche Lösungszeit je Priorität."
+  },
+  {
+    "nr": 495,
+    "frage": "Sie müssen einen komplexen Fehler in einem verteilten System nachvollziehen. Nennen Sie fünf Elemente einer guten Observability-Strategie zur Fehleranalyse.",
+    "antwort1": "Fünf Elemente sind korrelierte Logs mit Trace-IDs, zentrale Logaggregation, Metriken pro Service, verteiltes Tracing (z. B. OpenTelemetry) sowie Dashboards mit Zeitverlauf.",
+    "antwort2": "Ergänzend sind definierte Alarmierungen vorzusehen."
+  },
+  {
+    "nr": 496,
+    "frage": "Ein Kunde möchte <<Security by Design>> nachweisbar in seinen Entwicklungsprozess integrieren. Nennen Sie vier konkrete Praktiken, die Sie einführen würden.",
+    "antwort1": "Vier konkrete Praktiken sind regelmäßige Threat-Modeling-Workshops, Secure-Coding-Guidelines und Reviews, automatisierte Security-Scans (SAST/DAST) sowie Security-Tests im CI/CD.",
+    "antwort2": "Ergänzend sind Schulungen für Entwickler durchzuführen."
+  },
+  {
+    "nr": 497,
+    "frage": "Sie entwerfen ein Rollen- und Rechtekonzept für ein Ticketsystem mit Admin, Bearbeiter und Kunde. Beschreiben Sie in Stichpunkten die wichtigsten Rechte pro Rolle und begründen Sie, warum <<Least Privilege>> eingehalten ist.",
+    "antwort1": "Admin: Systemkonfiguration, Rollenverwaltung, keine Bearbeitung von fachlichen Tickets.",
+    "antwort2": "Bearbeiter: Erstellen, bearbeiten, schließen von Tickets der eigenen Gruppe. Kunde: eigene Tickets einsehen, neue Tickets erstellen. Jede Rolle hat nur die für ihre Aufgabe notwendigen Rechte."
+  },
+  {
+    "nr": 498,
+    "frage": "In einer Kanzlei sollen personenbezogene Daten klassifiziert werden. Entwerfen Sie eine einfache Klassifizierung mit drei Stufen und ordnen Sie jeweils typische Datentypen zu.",
+    "antwort1": "Drei Stufen sind öffentlich (Website-Informationen), intern (Organisationsinformationen, nicht personenbezogen) sowie vertraulich (Mandantendaten, Akten, Gesundheitsdaten).",
+    "antwort2": "Diese Zuordnung erleichtert differenzierte Schutzmaßnahmen."
+  },
+  {
+    "nr": 499,
+    "frage": "Sie sollen einen Incident-Response-Playbook-Eintrag für <<kompromittiertes Benutzerkonto>> erstellen. Nennen Sie die fünf wichtigsten Schritte.",
+    "antwort1": "Fünf wichtigste Schritte sind Konto sofort sperren, Ursache klären (Phishing, Brute-Force), Passwort/Secrets zurücksetzen, Loganalyse auf missbräuchliche Aktionen sowie betroffene Systeme prüfen.",
+    "antwort2": "Abschließend sind Benutzer zu informieren und Schulung anzustoßen."
+  },
+  {
+    "nr": 500,
+    "frage": "Ein Unternehmen will alle kritischen Systeme regelmäßig auf Wiederherstellbarkeit testen. Beschreiben Sie kurz, wie Sie einen <<Restore-Test-Plan>> aufbauen würden.",
+    "antwort1": "Plan: Auswahl kritischer Systeme, Definition realistischer Szenarien (z. B. DB-Ausfall), regelmäßige Testtermine, dokumentierte Restore-Schritte, Messung von RTO/RPO.",
+    "antwort2": "Abschließend erfolgt Nachbereitung und Anpassung des Backupkonzepts je nach Testergebnis."
+  }
+]
