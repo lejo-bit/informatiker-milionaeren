@@ -6,6 +6,7 @@ let lives = 3;
 let score = 0;
 let timer = 30;
 let timerInterval = null;
+let selectedChoice = null;
 
 async function loadQuestions() {
   try {
@@ -246,12 +247,11 @@ document.addEventListener("DOMContentLoaded", () => {
       choiceButtons.forEach(b => b.classList.remove("selected"));
       btn.classList.add("selected");
     });
-    choiceButtons.forEach(btn => {
+   choiceButtons.forEach(btn => {
   btn.addEventListener("click", () => {
-    console.log("choice clicked", btn.textContent);
     choiceButtons.forEach(b => b.classList.remove("selected"));
     btn.classList.add("selected");
-  });
-});
+    selectedChoice = btn;
+
   });
 });
