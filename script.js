@@ -6,8 +6,8 @@ let lives = 3;
 let score = 0;
 let timer = 30;
 let timerInterval = null;
-let delayInterval = null; // krótki, 2‑sekundowy timer między pytaniami
-let errorDelayInterval = null; // timer 15 s po błędnej odpowiedzi
+let delayInterval = null;      // 2‑sekundowy timer po poprawnej odpowiedzi
+let errorDelayInterval = null; // 15‑sekundowy timer po błędnej odpowiedzi
 let selectedChoice = null;
 
 async function loadQuestions() {
@@ -81,7 +81,7 @@ function renderQuestion() {
   resultBox.textContent = "";
   correctAnswerText.textContent = "";
 
-  // przy każdym nowym pytaniu pokaż "Prüfen", ukryj "Nächste Frage"
+  // przy każdym nowym pytaniu: pokaż "Prüfen", ukryj "Nächste Frage"
   document.getElementById("checkBtn").classList.remove("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
@@ -130,7 +130,6 @@ function handleAnswer() {
     const result = checkAnswer(q, inputVal); // z checker.js
     isCorrect = result.isCorrect;
     message = result.message;
-
   } else if (q.questionType === "choice") {
     if (!selectedChoice) {
       resultBox.textContent = "Bitte wähle eine Antwort aus.";
@@ -144,7 +143,7 @@ function handleAnswer() {
       : "Nicht ganz. Die richtige Antwort lautet: " + q.antwort;
   }
 
- resultBox.textContent = message;
+  resultBox.textContent = message;
   resultBox.classList.remove("hidden");
 
   if (isCorrect) {
@@ -160,45 +159,33 @@ function handleAnswer() {
   const input = document.getElementById("answerInput");
   if (input) input.disabled = true;
 
-  // poprawna odpowiedź → automatycznie dalej po 2 s
   if (isCorrect) {
+    // poprawna odpowiedź → automatycznie dalej po 2 s
     goToNextQuestionWithDelay();
   } else {
-    // błędna odpowiedź → pokazujemy "Nächste Frage" i uruchamiamy 15 s timer
+    // błędna odpowiedź → Nächste Frage + 15 s timer
     clearInterval(timerInterval); // zatrzymaj główny 30 s timer
     document.getElementById("checkBtn").classList.add("hidden");
     document.getElementById("nextBtn").classList.remove("hidden");
 
-    // uruchom 15‑sekundowy timeout na automatyczne przejście
     if (errorDelayInterval) {
       clearTimeout(errorDelayInterval);
     }
     errorDelayInterval = setTimeout(() => {
-      if (lives <= 0) {
-        endGame();
-      } else {
-        currentIndex++;
-        if (currentIndex >= questions.length) {
-          endGame();
-        } else {
-          timer = 30;
-          updateHud();
-          renderQuestion();
-          startTimer();
-        }
-      }
+      goToNextQuestionAfterError();
     }, 15000);
   }
 }
-function goToNextQuestionWithDelay() {
-  // zatrzymaj główny timer
-  clearInterval(timerInterval);
 
-  // ukryj przyciski, żeby nie klikać dalej
+function goToNextQuestionWithDelay() {
+  clearInterval(timerInterval);
+  if (errorDelayInterval) {
+    clearTimeout(errorDelayInterval);
+  }
+
   document.getElementById("checkBtn").classList.add("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
-  // po 2 sekundach przejdź do kolejnego pytania albo zakończ grę
   if (delayInterval) {
     clearTimeout(delayInterval);
   }
@@ -213,6 +200,27 @@ function goToNextQuestionWithDelay() {
       startTimer();
     }
   }, 2000);
+}
+
+// przejście do następnego pytania po błędzie (klik lub 15 s)
+function goToNextQuestionAfterError() {
+  if (errorDelayInterval) {
+    clearTimeout(errorDelayInterval);
+  }
+
+  if (lives <= 0) {
+    endGame();
+  } else {
+    currentIndex++;
+    if (currentIndex >= questions.length) {
+      endGame();
+    } else {
+      timer = 30;
+      updateHud();
+      renderQuestion();
+      startTimer();
+    }
+  }
 }
 
 function startTimer() {
@@ -244,13 +252,25 @@ function handleTimeout() {
   const input = document.getElementById("answerInput");
   if (input) input.disabled = true;
 
-  goToNextQuestionWithDelay();
+  // timeout traktujemy jak błąd → ten sam mechanizm
+  document.getElementById("checkBtn").classList.add("hidden");
+  document.getElementById("nextBtn").classList.remove("hidden");
+
+  if (errorDelayInterval) {
+    clearTimeout(errorDelayInterval);
+  }
+  errorDelayInterval = setTimeout(() => {
+    goToNextQuestionAfterError();
+  }, 15000);
 }
 
 function endGame() {
   clearInterval(timerInterval);
   if (delayInterval) {
     clearTimeout(delayInterval);
+  }
+  if (errorDelayInterval) {
+    clearTimeout(errorDelayInterval);
   }
 
   document.getElementById("game").classList.add("hidden");
@@ -278,8 +298,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("startBtn").addEventListener("click", startGame);
   document.getElementById("checkBtn").addEventListener("click", handleAnswer);
   document.getElementById("nextBtn").addEventListener("click", () => {
-    // przy automatycznym przejściu nie używamy, ale zostawiamy dla bezpieczeństwa
-    goToNextQuestionWithDelay();
+    goToNextQuestionAfterError();
   });
   document.getElementById("restartBtn").addEventListener("click", restartGame);
 
