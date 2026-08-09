@@ -9,7 +9,7 @@ let currentIndex = 0;
 
 // Player & Score Stats
 let playerName = "";
-let lives = 5;
+let lives = 3;
 let score = 0;
 let consecutiveCorrectAnswers = 0;
 let skipsLeft = 2; // Maximum 2 skips per game
@@ -323,7 +323,7 @@ function startGame() {
     document.getElementById("error").classList.add("hidden");
   }
 
-  lives = 5;
+  lives = 3;
   score = 0;
   currentIndex = 0;
   consecutiveCorrectAnswers = 0;
@@ -356,7 +356,19 @@ function renderQuestion() {
   timer = initialTimerValue;
   updateHud();
 
+  // Set question
   document.getElementById("questionText").textContent = q.frage;
+
+  // Set category
+  const categoryElement = document.getElementById("category-badge");
+  if (categoryElement) {
+    const categoryName = q.category || q.kategorie || "Allgemein";
+    categoryElement.textContent = `Kategorie: ${categoryName}`;
+  }
+  if (categoryElement) {
+    const categoryName = q.kategorie || q.category || "allgemein";
+    categoryElement.textContent = `Kategorie: ${categoryName}`;
+  }
 
   const input = document.getElementById("answerInput");
   const label = document.getElementById("answerLabel");
@@ -410,7 +422,6 @@ function renderQuestion() {
 
   startTimer();
 }
-
 /**
  * Evaluates the player's submitted answer.
  */
@@ -687,7 +698,7 @@ function endGame(q = null) {
  * Resets state variables to play again.
  */
 function restartGame() {
-  lives = 5;
+  lives = 3;
   score = 0;
   skipsLeft = 2;
   currentIndex = 0;
