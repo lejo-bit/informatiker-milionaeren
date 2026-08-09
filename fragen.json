@@ -4439,7 +4439,10 @@
     "nr": 407,
     "questionType": "open",
     "frage": "Wie lautet die Lösung von x + 5 = 12?",
-    "antwort": "x = 7"
+    "antwort": [
+	"x = 7",
+	"7"
+	]
   },
   {
     "nr": 408,
@@ -6518,7 +6521,7 @@
     "antwort": [
       "SSH File Transfer Protocol",
       "Sicheres Dateiübertragungsprotokoll",
-      "Dateitransfer über SSH",
+      "Secure File Transfer Protocol",
       "Verschlüsseltes Dateiübertragungsprotokoll"
     ]
   },

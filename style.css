@@ -515,3 +515,46 @@ h1::before {
     font-size: 15px;
   }
 }
+
+/* ===== HEART ANIMATION ===== */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-heart {
+  display: inline-block;
+  animation: pulse 0.8s infinite ease-in-out;
+}
+
+/* ===== COMBO BANNER ===== */
+.combo-banner {
+  background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 40px;
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 15px rgba(46, 125, 50, 0.3);
+  animation: slideDown 0.4s ease-out;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

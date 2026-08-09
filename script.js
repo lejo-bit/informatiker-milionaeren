@@ -1,14 +1,16 @@
 let allQuestions = [];
 let questions = [];
 let currentIndex = 0;
-let lives = 3;
+let lives = 5;
 let score = 0;
+let consecutiveCorrectAnswers = 0;
 
 let timer = 30;
 let initialTimerValue = 30;
 let timerInterval = null;
 let delayInterval = null;
 let errorDelayInterval = null;
+let comboTimeout = null;
 let selectedChoice = null;
 let playerName = "";
 let isAnswerSubmitted = false;
@@ -23,7 +25,7 @@ async function saveScoreFirebase(name, points) {
 
     await addDoc(collection(db, "scores"), {
       name,
-      points: Number(points), // Force numeric type
+      points: Number(points),
       date: new Date().toISOString()
     });
   } catch (err) {
@@ -40,7 +42,6 @@ async function fetchScoresFirebase() {
     const { collection, getDocs, query, limit } = helpers;
     const scoresCol = collection(db, "scores");
 
-    // Fetch records to perform client-side numerical fallback sorting
     const q = query(scoresCol, limit(50));
     const snap = await getDocs(q);
 
@@ -49,11 +50,10 @@ async function fetchScoresFirebase() {
       const data = doc.data();
       scores.push({
         ...data,
-        points: Number(data.points) || 0 // Converts string "1985" to number 1985
+        points: Number(data.points) || 0
       });
     });
 
-    // Sort numerically descending
     scores.sort((a, b) => b.points - a.points);
 
     renderScoreTable(scores.slice(0, 10));
@@ -97,6 +97,24 @@ async function loadQuestions() {
   }
 }
 
+function showComboBanner() {
+  const banner = document.getElementById("comboBanner");
+  if (!banner) return;
+
+  banner.classList.remove("hidden");
+
+  if (comboTimeout) clearTimeout(comboTimeout);
+  comboTimeout = setTimeout(() => {
+    banner.classList.add("hidden");
+  }, 3500);
+}
+
+function hideComboBanner() {
+  const banner = document.getElementById("comboBanner");
+  if (banner) banner.classList.add("hidden");
+  if (comboTimeout) clearTimeout(comboTimeout);
+}
+
 function startGame() {
   const nameInput = document.getElementById("playerName");
   const enteredName = nameInput ? nameInput.value.trim() : "";
@@ -111,9 +129,11 @@ function startGame() {
     document.getElementById("error").classList.add("hidden");
   }
 
-  lives = 3;
+  lives = 5;
   score = 0;
   currentIndex = 0;
+  consecutiveCorrectAnswers = 0;
+  hideComboBanner();
 
   questions = shuffleArray(questions);
 
@@ -131,7 +151,16 @@ function startGame() {
 }
 
 function updateHud() {
-  document.getElementById("lives").textContent = lives;
+  const livesEl = document.getElementById("lives");
+  livesEl.textContent = lives;
+
+  const heartIcon = livesEl.parentElement;
+  if (lives === 1) {
+    heartIcon.classList.add("pulse-heart");
+  } else {
+    heartIcon.classList.remove("pulse-heart");
+  }
+
   document.getElementById("score").textContent = score;
   document.getElementById("timer").textContent = timer;
 
@@ -181,17 +210,17 @@ function getDisplayedCorrectAnswers(q, maxAnswers = 2) {
 }
 
 function getInitialTimeForQuestion(q) {
-  return q.questionType === "choice" ? 10 : 30;
+  return q.questionType === "choice" ? 30 : 60;
 }
 
 function calculatePointsForQuestion(q) {
   if (q.questionType === "choice") return 100;
 
-  const elapsed = 30 - timer;
-  if (elapsed <= 10) return 100;
+  const elapsed = 60 - timer;
+  if (elapsed <= 30) return 100;
 
-  const extraSeconds = elapsed - 10;
-  let pts = 100 - extraSeconds * 5;
+  const extraSeconds = elapsed - 30;
+  let pts = 100 - extraSeconds * 2;
   return pts < 0 ? 0 : pts;
 }
 
@@ -330,7 +359,15 @@ function handleAnswer() {
 
   if (isCorrect) {
     score += calculatePointsForQuestion(q);
+    consecutiveCorrectAnswers += 1;
+
+    if (consecutiveCorrectAnswers % 4 === 0) {
+      lives += 1;
+      showComboBanner();
+    }
   } else {
+    consecutiveCorrectAnswers = 0;
+    hideComboBanner();
     lives -= 1;
     if (lives <= 0) {
       updateHud();
@@ -411,6 +448,8 @@ function handleTimeout() {
   const q = questions[currentIndex];
   const resultBox = document.getElementById("resultBox");
 
+  consecutiveCorrectAnswers = 0;
+  hideComboBanner();
   lives -= 1;
   resultBox.textContent =
     `⏰ Zeit abgelaufen! Richtige Antworten: ${getDisplayedCorrectAnswers(q, 2)}`;
@@ -447,6 +486,7 @@ function handleTimeout() {
 
 function endGame(q = null) {
   clearInterval(timerInterval);
+  hideComboBanner();
 
   if (delayInterval) {
     clearTimeout(delayInterval);
@@ -495,12 +535,14 @@ function restartGame() {
   lives = 3;
   score = 0;
   currentIndex = 0;
+  consecutiveCorrectAnswers = 0;
   selectedChoice = null;
   isAnswerSubmitted = false;
 
   clearInterval(timerInterval);
   clearTimeout(delayInterval);
   clearTimeout(errorDelayInterval);
+  hideComboBanner();
 
   questions = shuffleArray([...allQuestions]);
 
