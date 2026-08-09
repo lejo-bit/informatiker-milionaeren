@@ -1286,7 +1286,7 @@
   {
     "nr": 108,
     "questionType": "choice",
-    "frage": "Warum wird RAM bei dieser IT-Lösung benötigt?",
+    "frage": "Warum wird RAM benötigt?",
     "antwort": "Daten zwischenspeichern",
     "falseAnswers": [
       "Daten dauerhaft speichern",
