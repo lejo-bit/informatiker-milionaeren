@@ -4,49 +4,60 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz – Fragen</title>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Fackinformatiker Quiz</h1>
+    <h1>Fachinformatiker Quiz</h1>
 
+    <!-- Initial Status Overlay -->
     <div id="loading" class="loading">Fragen werden geladen...</div>
     <div id="error" class="error hidden"></div>
 
+    <!-- Start Screen: Player Name Input -->
     <div id="startScreen" class="hidden">
       <label for="playerName">Dein Name</label>
       <input type="text" id="playerName" placeholder="Nick eingeben..." />
       <button id="startBtn">Start</button>
     </div>
 
+    <!-- Gameplay Area -->
     <div id="game" class="hidden">
-  <!-- BANNER COMBO -->
-  <div id="comboBanner" class="combo-banner hidden">🎉 4 Richtige Antworten Combo! +1 Leben ❤️</div>
+      <!-- Streak Combo Banner -->
+      <div id="comboBanner" class="combo-banner hidden">🎉 4 Richtige Antworten Combo! +1 Leben ❤️</div>
 
-<!-- PLAYER NAME HEADER -->
-<div class="player-header">
-  <span id="playerLabel"></span>
-</div>
+      <!-- Player Header -->
+      <div class="player-header">
+        <span id="playerLabel"></span>
+      </div>
 
-  <div class="stats-bar">
-  <div>❤️ <span id="lives">3</span></div>
-  <div>⭐ Punkte: <span id="score">0</span> <span id="multiplierBadge" class="multiplier-badge hidden">x1.0</span> </div>
-  <div>⏱️ <span id="timer">30</span>s</div>
-    <div class="timer-bar-container">
-      <div id="timerBar" class="timer-bar"></div>
-    </div>
-  </div>
+      <!-- Stats Bar (Lives, Score, Timer) -->
+      <div class="stats-bar">
+        <div>❤️ <span id="lives">3</span></div>
+        <div>⭐ Punkte: <span id="score">0</span> <span id="multiplierBadge" class="multiplier-badge hidden">x1.0</span></div>
+        <div>⏱️ <span id="timer">30</span>s</div>
+        <div class="timer-bar-container">
+          <div id="timerBar" class="timer-bar"></div>
+        </div>
+      </div>
 
+      <!-- Question Prompt -->
       <div class="question-box">
         <div id="questionText">Frage wird geladen...</div>
       </div>
 
+      <!-- Open-ended Answer Input -->
       <label for="answerInput" id="answerLabel">Deine Antwort:</label>
       <input type="text" id="answerInput" placeholder="Antwort eingeben..." autocomplete="off" />
 
+      <!-- Multiple-Choice Answer Buttons -->
       <div id="choiceContainer" class="hidden">
         <button class="choiceBtn"></button>
         <button class="choiceBtn"></button>
@@ -54,38 +65,46 @@
         <button class="choiceBtn"></button>
       </div>
 
+      <!-- In-Game Controls -->
       <div class="buttons">
-  <button id="checkBtn">Prüfen</button>
-  <button id="skipBtn" class="secondary">Überspringen (<span id="skipsLeft">2</span>)</button>
-</div>
+        <button id="checkBtn">Prüfen</button>
+        <button id="skipBtn" class="secondary">Überspringen (<span id="skipsLeft">2</span>)</button>
+      </div>
+
+      <!-- Result Feedback Box -->
       <div id="resultBox" class="result hidden"></div>
 
+      <!-- Navigation Control -->
       <div class="buttons">
         <button id="nextBtn" class="secondary hidden">Nächste Frage</button>
       </div>
     </div>
 
+    <!-- Game Over Screen -->
     <div id="gameOver" class="hidden">
-  <h2>Spiel vorbei!</h2>
+      <h2>Spiel vorbei!</h2>
+      <p id="gameOverCorrectAnswer" class="game-over-answer hidden"></p>
+      <p>Erreichte Punkte: <span id="finalScore">0</span></p>
+      <button id="restartBtn">Noch einmal spielen</button>
+    </div>
 
-  <p id="gameOverCorrectAnswer" class="game-over-answer hidden"></p>
-
-  <p>Erreichte Punkte: <span id="finalScore">0</span></p>
-
-  <button id="restartBtn">Noch einmal spielen</button>
-</div>
-
+    <!-- Global Leaderboard -->
     <div id="scoreBoard">
       <h3>🏆 Bestenliste</h3>
       <table>
         <thead>
-          <tr><th>#</th><th>Name</th><th>Punkte</th></tr>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Punkte</th>
+          </tr>
         </thead>
         <tbody id="scoreTableBody"></tbody>
       </table>
     </div>
   </div>
 
+  <!-- Firebase Integration Script -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import {
@@ -110,9 +129,12 @@
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
 
+    // Expose database reference & helpers globally for script.js
     window.firebaseDb = db;
     window.firebaseHelpers = { collection, addDoc, getDocs, query, orderBy, limit };
   </script>
+
+  <!-- Application Logic Scripts -->
   <script src="checker.js"></script>
   <script src="numbers.js"></script>
   <script src="script.js"></script>
