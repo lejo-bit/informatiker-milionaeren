@@ -1,4 +1,4 @@
-# Informatiker-Millionären – Quiz
+# Informatiker – Quiz
 
 Interaktives Quiz für angehende (und aktuelle) Informatiker. Fragen auf Deutsch, unterschiedliche Fragetypen, Zeitlimit, Leben und eine Bestenliste mit Speicherung der Ergebnisse in Firebase Firestore.
 
