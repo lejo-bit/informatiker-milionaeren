@@ -15,6 +15,31 @@ let selectedChoice = null;
 let playerName = "";
 let isAnswerSubmitted = false;
 
+// ===== GAME JUICE & MULTIPLIER HELPERS =====
+function getStreakMultiplier() {
+  if (consecutiveCorrectAnswers >= 9) return 3.0;
+  if (consecutiveCorrectAnswers >= 6) return 2.0;
+  if (consecutiveCorrectAnswers >= 3) return 1.5;
+  return 1.0;
+}
+
+function triggerDamageEffects() {
+  // Screen shake on main container
+  const container = document.querySelector(".container");
+  if (container) {
+    container.classList.remove("shake");
+    void container.offsetWidth; // Trigger reflow to restart animation
+    container.classList.add("shake");
+  }
+
+  // Red flash on full screen
+  const flash = document.createElement("div");
+  flash.className = "red-flash-overlay";
+  document.body.appendChild(flash);
+  setTimeout(() => flash.remove(), 500);
+}
+
+// ===== FIREBASE FUNCTIONS =====
 async function saveScoreFirebase(name, points) {
   try {
     const db = window.firebaseDb;
@@ -79,6 +104,7 @@ function renderScoreTable(scores) {
   });
 }
 
+// ===== GAME LOGIC =====
 async function loadQuestions() {
   try {
     const res = await fetch("fragen.json");
@@ -167,6 +193,18 @@ function updateHud() {
   const playerLabel = document.getElementById("playerLabel");
   if (playerLabel) playerLabel.textContent = playerName || "";
 
+  // Multiplier Badge
+  const multiplierBadge = document.getElementById("multiplierBadge");
+  const currentMultiplier = getStreakMultiplier();
+  if (multiplierBadge) {
+    if (currentMultiplier > 1.0) {
+      multiplierBadge.textContent = `⚡ x${currentMultiplier.toFixed(1)}`;
+      multiplierBadge.classList.remove("hidden");
+    } else {
+      multiplierBadge.classList.add("hidden");
+    }
+  }
+
   const timerBar = document.getElementById("timerBar");
   if (timerBar) {
     const percentage = Math.max(0, (timer / initialTimerValue) * 100);
@@ -185,9 +223,7 @@ function shuffleArray(arr) {
 
   for (let i = shuffled.length - 1; i > 0; i--) {
     const randomIndex = Math.floor(Math.random() * (i + 1));
-
-    [shuffled[i], shuffled[randomIndex]] =
-      [shuffled[randomIndex], shuffled[i]];
+    [shuffled[i], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[i]];
   }
 
   return shuffled;
@@ -202,10 +238,7 @@ function getShuffledOptions(question) {
 }
 
 function getDisplayedCorrectAnswers(q, maxAnswers = 2) {
-  const answers = Array.isArray(q.antwort)
-    ? q.antwort
-    : [q.antwort];
-
+  const answers = Array.isArray(q.antwort) ? q.antwort : [q.antwort];
   return answers.slice(0, maxAnswers).join(", ");
 }
 
@@ -214,14 +247,18 @@ function getInitialTimeForQuestion(q) {
 }
 
 function calculatePointsForQuestion(q) {
-  if (q.questionType === "choice") return 100;
+  let basePoints = 100;
 
-  const elapsed = 60 - timer;
-  if (elapsed <= 30) return 100;
+  if (q.questionType === "open") {
+    const elapsed = 60 - timer;
+    if (elapsed > 30) {
+      const extraSeconds = elapsed - 30;
+      basePoints = Math.max(0, 100 - extraSeconds * 2);
+    }
+  }
 
-  const extraSeconds = elapsed - 30;
-  let pts = 100 - extraSeconds * 2;
-  return pts < 0 ? 0 : pts;
+  const multiplier = getStreakMultiplier();
+  return Math.round(basePoints * multiplier);
 }
 
 function hideAnswerInputs() {
@@ -357,18 +394,24 @@ function handleAnswer() {
   resultBox.innerHTML = message;
   resultBox.classList.remove("hidden");
 
+  // ===== STATS & DAMAGE LOGIC =====
   if (isCorrect) {
     score += calculatePointsForQuestion(q);
     consecutiveCorrectAnswers += 1;
 
+    // +1 Life every 4 streak
     if (consecutiveCorrectAnswers % 4 === 0) {
       lives += 1;
       showComboBanner();
     }
   } else {
-    consecutiveCorrectAnswers = 0;
+    consecutiveCorrectAnswers = 0; // Reset streak on mistake
     hideComboBanner();
     lives -= 1;
+    
+    // Trigger Screen Shake & Red Flash animation
+    triggerDamageEffects();
+
     if (lives <= 0) {
       updateHud();
       endGame(q);
@@ -451,6 +494,9 @@ function handleTimeout() {
   consecutiveCorrectAnswers = 0;
   hideComboBanner();
   lives -= 1;
+  
+  triggerDamageEffects();
+  
   resultBox.textContent =
     `⏰ Zeit abgelaufen! Richtige Antworten: ${getDisplayedCorrectAnswers(q, 2)}`;
   resultBox.classList.remove("hidden");
@@ -501,8 +547,7 @@ function endGame(q = null) {
   const gameEl = document.getElementById("game");
   const gameOverEl = document.getElementById("gameOver");
   const finalScoreEl = document.getElementById("finalScore");
-  const correctAnswerEl =
-    document.getElementById("gameOverCorrectAnswer");
+  const correctAnswerEl = document.getElementById("gameOverCorrectAnswer");
 
   if (gameEl) {
     gameEl.classList.add("hidden");
@@ -532,7 +577,7 @@ function endGame(q = null) {
 }
 
 function restartGame() {
-  lives = 3;
+  lives = 5;
   score = 0;
   currentIndex = 0;
   consecutiveCorrectAnswers = 0;
@@ -553,6 +598,7 @@ function restartGame() {
   renderQuestion();
 }
 
+// ===== EVENT LISTENERS =====
 document.addEventListener("DOMContentLoaded", () => {
   loadQuestions();
   fetchScoresFirebase();

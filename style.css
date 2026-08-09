@@ -46,7 +46,7 @@ h1 {
   gap: 10px;
 }
 h1::before {
-  content: "🧠";
+  content: "";
   font-size: 32px;
 }
 
@@ -557,4 +557,48 @@ h1::before {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
+}
+
+/* ===== SCREEN SHAKE & RED FLASH ===== */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+@keyframes redFlash {
+  0% { background-color: rgba(198, 40, 40, 0.35); }
+  100% { background-color: transparent; }
+}
+
+.shake {
+  animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.red-flash-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  animation: redFlash 0.5s ease-out forwards;
+}
+
+/* ===== PLAYER HEADER ===== */
+.player-header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  color: #2d2a24;
+  margin-bottom: 12px;
+  letter-spacing: 0.3px;
+}
+
+#playerLabel {
+  background: transparent;
+  padding: 0;
+  font-weight: 800;
+  color: #2d2a24;
 }

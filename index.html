@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Quiz – Fragen</h1>
+    <h1>Fackinformatiker Quiz</h1>
 
     <div id="loading" class="loading">Fragen werden geladen...</div>
     <div id="error" class="error hidden"></div>
@@ -26,10 +26,15 @@
   <!-- BANNER COMBO -->
   <div id="comboBanner" class="combo-banner hidden">🎉 4 Richtige Antworten Combo! +1 Leben ❤️</div>
 
+<!-- PLAYER NAME HEADER -->
+<div class="player-header">
+  <span id="playerLabel"></span>
+</div>
+
   <div class="stats-bar">
-    <div>❤️ <span id="lives">3</span></div>
-    <div>⭐ Punkte: <span id="score">0</span> – <span id="playerLabel"></span></div>
-    <div>⏱️ <span id="timer">30</span>s</div>
+  <div>❤️ <span id="lives">3</span></div>
+  <div>⭐ Punkte: <span id="score">0</span> <span id="multiplierBadge" class="multiplier-badge hidden">x1.0</span> </div>
+  <div>⏱️ <span id="timer">30</span>s</div>
     <div class="timer-bar-container">
       <div id="timerBar" class="timer-bar"></div>
     </div>
