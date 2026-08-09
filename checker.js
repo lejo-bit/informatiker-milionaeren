@@ -21,28 +21,37 @@ function normalize(text) {
 function tokenize(text) {
   return normalize(text)
     .split(" ")
-    .filter(t => t.length > 0);
+    .filter(token => token.length > 0);
 }
 
 function checkAnswer(question, userAnswer) {
-  const correct = question.antwort;
+  const correctAnswers = Array.isArray(question.antwort)
+    ? question.antwort
+    : [question.antwort];
+
   const keywords = (question.keywords || []).map(normalize);
   const threshold = question.threshold ?? keywords.length;
 
-  const normUser = normalizeWithNumbers(userAnswer);  // from numbers.js
-  const normCorrect = normalizeWithNumbers(correct);
+  const normUser = normalizeWithNumbers(userAnswer);
 
-  // 1. pełne dopasowanie
-  if (normUser === normCorrect && normCorrect.length > 0) {
+  // 1. Vollständige Übereinstimmung mit einer beliebigen richtigen Antwort
+  const fullMatch = correctAnswers.some(correctAnswer => {
+    const normCorrect = normalizeWithNumbers(correctAnswer);
+    return normUser === normCorrect && normCorrect.length > 0;
+  });
+
+  if (fullMatch) {
     return {
       isCorrect: true,
       message: "Richtig! Das ist die korrekte Antwort."
     };
   }
 
-  // 2. keywords + threshold
+  // 2. Keywords + threshold
   const userTokens = tokenize(userAnswer);
-  const matchedKeywords = keywords.filter(kw => userTokens.includes(kw));
+  const matchedKeywords = keywords.filter(keyword =>
+    userTokens.includes(keyword)
+  );
 
   if (threshold > 0 && matchedKeywords.length >= threshold) {
     return {
@@ -54,13 +63,19 @@ function checkAnswer(question, userAnswer) {
   if (matchedKeywords.length > 0) {
     return {
       isCorrect: false,
-      message: `Teilweise richtig – du hast ${matchedKeywords.length} von ${keywords.length} wichtigen Begriffen genannt.`
+      message:
+        `Teilweise richtig – du hast ${matchedKeywords.length} ` +
+        `von ${keywords.length} wichtigen Begriffen genannt.`
     };
   }
 
-  // 3. fallback
+  // 3. Fallback: maximal zwei richtige Antworten anzeigen
+  const displayedAnswers = correctAnswers
+    .slice(0, 2)
+    .join(", ");
+
   return {
     isCorrect: false,
-    message: "Nicht ganz. Die richtige Antwort lautet: " + correct
+    message: `Nicht ganz. Mögliche richtige Antworten: ${displayedAnswers}`
   };
 }

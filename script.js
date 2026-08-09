@@ -39,7 +39,7 @@ async function fetchScoresFirebase() {
 
     const { collection, getDocs, query, limit } = helpers;
     const scoresCol = collection(db, "scores");
-    
+
     // Fetch records to perform client-side numerical fallback sorting
     const q = query(scoresCol, limit(50));
     const snap = await getDocs(q);
@@ -84,8 +84,8 @@ async function loadQuestions() {
     const res = await fetch("fragen.json");
     const loadedQuestions = await res.json();
 
-allQuestions = loadedQuestions;
-questions = [...allQuestions];
+    allQuestions = loadedQuestions;
+    questions = [...allQuestions];
 
     document.getElementById("loading").classList.add("hidden");
     document.getElementById("startScreen").classList.remove("hidden");
@@ -117,10 +117,10 @@ function startGame() {
 
   questions = shuffleArray(questions);
 
-if (questions.length === 0) {
-  console.error("Keine Fragen geladen.");
-  return;
-}
+  if (questions.length === 0) {
+    console.error("Keine Fragen geladen.");
+    return;
+  }
 
   document.getElementById("startScreen").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
@@ -164,13 +164,20 @@ function shuffleArray(arr) {
   return shuffled;
 }
 
-
 function getShuffledOptions(question) {
   const options = [
     { text: question.antwort, isCorrect: true },
     ...(question.falseAnswers || []).map(f => ({ text: f, isCorrect: false }))
   ];
   return shuffleArray(options);
+}
+
+function getDisplayedCorrectAnswers(q, maxAnswers = 2) {
+  const answers = Array.isArray(q.antwort)
+    ? q.antwort
+    : [q.antwort];
+
+  return answers.slice(0, maxAnswers).join(", ");
 }
 
 function getInitialTimeForQuestion(q) {
@@ -276,8 +283,10 @@ function handleAnswer() {
       message = result.message;
       resultBox.className = "result correct-result";
     } else {
-      // Highlight correct answer in bold with distinct markup
-      message = `❌ Falsch!<br><div class="highlight-correct">Richtige Antwort: <span>${q.antwort}</span></div>`;
+      message = `❌ Falsch!<br>
+        <div class="highlight-correct">
+          Richtige Antworten: <span>${getDisplayedCorrectAnswers(q, 2)}</span>
+        </div>`;
       resultBox.className = "result wrong-result";
     }
   } else if (q.questionType === "choice") {
@@ -293,10 +302,13 @@ function handleAnswer() {
       message = "✅ Richtig! Das ist die korrekte Antwort.";
       resultBox.className = "result correct-result";
     } else {
-      message = `❌ Nicht ganz.<br><div class="highlight-correct">Richtige Antwort: <span>${q.antwort}</span></div>`;
+      message = `❌ Nicht ganz.<br>
+        <div class="highlight-correct">
+          Richtige Antwort: <span>${q.antwort}</span>
+        </div>`;
       resultBox.className = "result wrong-result";
     }
-    
+
     const choiceButtons = document.querySelectorAll(".choiceBtn");
     choiceButtons.forEach(btn => {
       btn.disabled = true;
@@ -400,7 +412,8 @@ function handleTimeout() {
   const resultBox = document.getElementById("resultBox");
 
   lives -= 1;
-  resultBox.textContent = `⏰ Zeit abgelaufen! Richtige Antwort: ${q.antwort}`;
+  resultBox.textContent =
+    `⏰ Zeit abgelaufen! Richtige Antworten: ${getDisplayedCorrectAnswers(q, 2)}`;
   resultBox.classList.remove("hidden");
 
   if (q.questionType === "choice") {
@@ -466,7 +479,7 @@ function endGame(q = null) {
   if (correctAnswerEl) {
     if (q && q.antwort) {
       correctAnswerEl.textContent =
-        `Richtige Antwort: ${q.antwort}`;
+        `Richtige Antworten: ${getDisplayedCorrectAnswers(q, 2)}`;
       correctAnswerEl.classList.remove("hidden");
     } else {
       correctAnswerEl.textContent = "";
