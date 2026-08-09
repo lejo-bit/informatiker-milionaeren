@@ -14,6 +14,7 @@ let comboTimeout = null;
 let selectedChoice = null;
 let playerName = "";
 let isAnswerSubmitted = false;
+let skipsLeft = 2; // Maximum 2 skips per game
 
 // ===== GAME JUICE & MULTIPLIER HELPERS =====
 function getStreakMultiplier() {
@@ -142,6 +143,7 @@ function hideComboBanner() {
 }
 
 function startGame() {
+  skipsLeft = 2;
   const nameInput = document.getElementById("playerName");
   const enteredName = nameInput ? nameInput.value.trim() : "";
   playerName = enteredName;
@@ -215,6 +217,15 @@ function updateHud() {
     } else {
       timerBar.classList.remove("warning");
     }
+  }
+
+  // Skip Button Counter & Disabled State
+  const skipsLeftEl = document.getElementById("skipsLeft");
+  const skipBtn = document.getElementById("skipBtn");
+
+  if (skipsLeftEl) skipsLeftEl.textContent = skipsLeft;
+  if (skipBtn) {
+    skipBtn.disabled = skipsLeft <= 0;
   }
 }
 
@@ -292,6 +303,7 @@ function renderQuestion() {
   resultBox.classList.add("hidden");
 
   document.getElementById("checkBtn").classList.remove("hidden");
+  document.getElementById("skipBtn").classList.remove("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
   if (q.questionType === "open") {
@@ -313,7 +325,7 @@ function renderQuestion() {
     input.value = "";
     input.disabled = true;
     input.classList.add("hidden");
-    if (label) label.classList.add("hidden");
+    if (label) label.classList.remove("hidden");
 
     choiceContainer.classList.remove("hidden");
 
@@ -389,6 +401,7 @@ function handleAnswer() {
   }
 
   isAnswerSubmitted = true;
+  document.getElementById("skipBtn").classList.add("hidden");
   clearInterval(timerInterval);
 
   resultBox.innerHTML = message;
@@ -434,6 +447,25 @@ function handleAnswer() {
     errorDelayInterval = setTimeout(() => {
       goToNextQuestionAfterError();
     }, 15000);
+  }
+}
+
+function handleSkip() {
+  if (skipsLeft <= 0 || isAnswerSubmitted) return;
+
+  skipsLeft--;
+  clearInterval(timerInterval);
+  if (errorDelayInterval) clearTimeout(errorDelayInterval);
+  if (delayInterval) clearTimeout(delayInterval);
+
+  updateHud();
+
+  // Move to next question or end game if last question
+  currentIndex++;
+  if (currentIndex >= questions.length) {
+    endGame();
+  } else {
+    renderQuestion();
   }
 }
 
@@ -486,6 +518,7 @@ function startTimer() {
 function handleTimeout() {
   if (isAnswerSubmitted) return;
   isAnswerSubmitted = true;
+  document.getElementById("skipBtn").classList.add("hidden");
   clearInterval(timerInterval);
 
   const q = questions[currentIndex];
@@ -579,6 +612,7 @@ function endGame(q = null) {
 function restartGame() {
   lives = 5;
   score = 0;
+  skipsLeft = 2;
   currentIndex = 0;
   consecutiveCorrectAnswers = 0;
   selectedChoice = null;
@@ -605,6 +639,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("startBtn").addEventListener("click", startGame);
   document.getElementById("checkBtn").addEventListener("click", handleAnswer);
+  document.getElementById("skipBtn").addEventListener("click", handleSkip);
   document.getElementById("nextBtn").addEventListener("click", () => {
     goToNextQuestionAfterError();
   });

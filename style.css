@@ -602,3 +602,22 @@ h1::before {
   font-weight: 800;
   color: #2d2a24;
 }
+
+/* Allow skip button text and span to render inline normally */
+#skipBtn span {
+  background: transparent !important;
+  padding: 0 !important;
+  color: inherit !important;
+  min-width: auto !important;
+  line-height: inherit !important;
+}
+
+/* Gray out the button clearly when disabled */
+#skipBtn:disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+  background: #d6cdbe !important;
+  color: #888 !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
