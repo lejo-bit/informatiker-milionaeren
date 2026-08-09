@@ -6086,7 +6086,7 @@
   {
     "nr": 520,
     "questionType": "open",
-    "frage": "HARD QUESTION: Welches Bauteil wandelt elektrische Signale for Glasfaserverbindungen in optische Signale um?",
+    "frage": "Welches Bauteil wandelt elektrische Signale for Glasfaserverbindungen in optische Signale um?",
     "antwort": [
       "Transceiver",
       "Optischer Transceiver",
@@ -6098,7 +6098,7 @@
   {
     "nr": 521,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Was beschreibt der Begriff „Hot-Swapping“?",
+    "frage": "Was beschreibt der Begriff „Hot-Swapping“?",
     "antwort": "Hardware ohne Ausschalten tauschen",
     "falseAnswers": [
       "Prozessoren übertakten",
@@ -6110,7 +6110,7 @@
   {
     "nr": 522,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Welche Schutzart beschreibt IP68?",
+    "frage": "Welche Schutzart beschreibt IP68?",
     "antwort": "Staubdicht, dauerhaft untertauchbar",
     "falseAnswers": [
       "Spritzwasser- und staubgeschützt",
@@ -6122,7 +6122,7 @@
   {
     "nr": 523,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Welcher LCD-Paneltyp bietet typischerweise große Blickwinkel und gute Farbtreue?",
+    "frage": "Welcher LCD-Paneltyp bietet typischerweise große Blickwinkel und gute Farbtreue?",
     "antwort": "IPS-Panel",
     "falseAnswers": [
       "TN-Panel",
@@ -6134,7 +6134,7 @@
   {
     "nr": 524,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Welche Spannung liefert ein gelbes Kabel eines Standard-ATX-Netzteils?",
+    "frage": "Welche Spannung liefert ein gelbes Kabel eines Standard-ATX-Netzteils?",
     "antwort": "+12 V",
     "falseAnswers": [
       "+3,3 V",
@@ -6146,7 +6146,7 @@
   {
     "nr": 525,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Welche Hauptaufgabe hat ECC-Arbeitsspeicher?",
+    "frage": "Welche Hauptaufgabe hat ECC-Arbeitsspeicher?",
     "antwort": "Speicherfehler erkennen und korrigieren",
     "falseAnswers": [
       "Taktrate verdoppeln",
@@ -6158,7 +6158,7 @@
   {
     "nr": 526,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Nach welchem Prinzip speichert eine Magnetfestplatte Daten?",
+    "frage": "Nach welchem Prinzip speichert eine Magnetfestplatte Daten?",
     "antwort": "Magnetische Ausrichtung speichern",
     "falseAnswers": [
       "Flash-Zellen laden",
@@ -6170,7 +6170,7 @@
   {
     "nr": 527,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Welches Druckverfahren nutzt Toner und eine Belichtungstrommel?",
+    "frage": "Welches Druckverfahren nutzt Toner und eine Belichtungstrommel?",
     "antwort": "Laserdruck",
     "falseAnswers": [
       "Tintenstrahldruck",
@@ -6182,7 +6182,7 @@
   {
     "nr": 528,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Was beschreibt die CAS-Latenz eines Arbeitsspeichers?",
+    "frage": "Was beschreibt die CAS-Latenz eines Arbeitsspeichers?",
     "antwort": "Verzögerung bis zur Datenbereitstellung",
     "falseAnswers": [
       "Maximale Busfrequenz",
@@ -6194,7 +6194,7 @@
   {
     "nr": 529,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Welche Schnittstelle verbindet interne SATA-Festplatten mit dem Mainboard?",
+    "frage": "Welche Schnittstelle verbindet interne SATA-Festplatten mit dem Mainboard?",
     "antwort": "SATA III",
     "falseAnswers": [
       "PCIe x16",
@@ -6206,7 +6206,7 @@
   {
     "nr": 530,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Wie hoch sollte die Beleuchtungsstärke bei Büroarbeiten mindestens sein?",
+    "frage": "Wie hoch sollte die Beleuchtungsstärke bei Büroarbeiten mindestens sein?",
     "antwort": "500 Lux",
     "falseAnswers": [
       "100 Lux",
@@ -6626,7 +6626,7 @@
   {
     "nr": 565,
     "questionType": "choice",
-    "frage": "HARD QUESTION: Welche Stromspannung wird typischerweise über PoE (Power over Ethernet) gemäß IEEE 802.3af geliefert?",
+    "frage": "Welche Stromspannung wird typischerweise über PoE (Power over Ethernet) gemäß IEEE 802.3af geliefert?",
     "antwort": "48 V",
     "falseAnswers": [
       "5 V",
