@@ -98,3 +98,51 @@ Um das Projekt lokal mit ES-Modulen und Firebase zu starten:
    ```bash
    git clone <URL_des_Repository>
    cd informatiker-milionaeren
+   ```
+
+2. Ein lokales Webserver starten (erforderlich für ES-Module und Firebase):
+
+   - mit Python 3:
+
+     ```bash
+     python3 -m http.server 8000
+     ```
+
+   - oder mit Node.js und `serve`:
+
+     ```bash
+     npm install -g serve
+     serve .
+     ```
+
+3. Den Browser öffnen und zur Adresse wechseln:
+
+   ```text
+   http://localhost:8000
+   ```
+
+## Git und Repository-Update
+
+Wenn das Ordner als Git-Repository eingerichtet ist, kannst du Änderungen so hochladen:
+
+```bash
+git status
+git add .
+git commit -m "Beschreibung der Änderungen"
+git push
+```
+
+Falls noch kein Remote gesetzt ist, erstelle einen Remote und pushe auf den Hauptbranch:
+
+```bash
+git remote add origin <repo-url>
+git push -u origin main
+```
+
+Wenn du vorher den aktuellen Stand vom Remote holen möchtest:
+
+```bash
+git pull origin main
+```
+
+> Hinweis: Ersetze `main` durch deinen tatsächlichen Branch-Namen, falls er anders heißt.
