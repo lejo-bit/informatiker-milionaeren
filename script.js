@@ -21,6 +21,7 @@ let timerInterval = null;
 let delayInterval = null;
 let errorDelayInterval = null;
 let comboTimeout = null;
+let streakBannerTimeout = null;
 
 // Answer Input State
 let selectedChoice = null;
@@ -39,6 +40,19 @@ function getStreakMultiplier() {
   if (consecutiveCorrectAnswers >= 6) return 2.0;
   if (consecutiveCorrectAnswers >= 3) return 1.5;
   return 1.0;
+}
+
+function getPlayerTitle(points) {
+  if (points >= 10001) return "CODE GOD";
+  if (points >= 9001) return "Master of Systems";
+  if (points >= 7001) return "Senior Developer";
+  if (points >= 5001) return "Tech-Wizard";
+  if (points >= 3501) return "Code-Ninja";
+  if (points >= 2501) return "System-Schmied";
+  if (points >= 1501) return "Bug Hunter";
+  if (points >= 1001) return "Junior Coder";
+  if (points >= 501) return "Code-Lehrling";
+  return "Anfänger";
 }
 
 /**
@@ -142,6 +156,11 @@ function updateHud() {
   const playerLabel = document.getElementById("playerLabel");
   if (playerLabel) playerLabel.textContent = playerName || "";
 
+  const playerTitleEl = document.getElementById("playerTitle");
+  if (playerTitleEl) {
+    playerTitleEl.textContent = getPlayerTitle(score);
+  }
+
   // Multiplier Badge
   const multiplierBadge = document.getElementById("multiplierBadge");
   const currentMultiplier = getStreakMultiplier();
@@ -177,10 +196,47 @@ function updateHud() {
   }
 }
 
+function showStreakEffect(count) {
+  clearStreakEffect();
+  document.body.classList.add(`streak-${count}`);
+
+  const banner = document.getElementById("comboBanner");
+  if (!banner) return;
+
+  banner.classList.remove("hidden");
+  banner.textContent = count === 5
+    ? "🔥 5 richtige Antworten in Folge! Streak-Effekt aktiviert!"
+    : count === 10
+      ? "💥 10 richtige Antworten! Mega-Streak!"
+      : "🌟 15 richtige Antworten! Ultimate Streak!";
+
+  if (streakBannerTimeout) clearTimeout(streakBannerTimeout);
+  streakBannerTimeout = setTimeout(() => {
+    if (banner && banner.textContent.includes("Streak")) {
+      banner.classList.add("hidden");
+    }
+  }, 4200);
+}
+
+function clearStreakEffect() {
+  document.body.classList.remove("streak-5", "streak-10", "streak-15");
+
+  const oldOverlay = document.querySelector(".streak-background");
+  if (oldOverlay) {
+    oldOverlay.remove();
+  }
+
+  if (streakBannerTimeout) {
+    clearTimeout(streakBannerTimeout);
+    streakBannerTimeout = null;
+  }
+}
+
 function showComboBanner() {
   const banner = document.getElementById("comboBanner");
   if (!banner) return;
 
+  banner.textContent = "🎉 4 Richtige Antworten Combo! +1 Leben ❤️";
   banner.classList.remove("hidden");
 
   if (comboTimeout) clearTimeout(comboTimeout);
@@ -210,9 +266,6 @@ function hideAnswerInputs() {
 // 4. FIREBASE DATABASE INTEGRATION
 // ==========================================
 
-/**
- * Saves current player score to Cloud Firestore database.
- */
 async function saveScoreFirebase(name, points) {
   try {
     const db = window.firebaseDb;
@@ -328,6 +381,7 @@ function startGame() {
   currentIndex = 0;
   consecutiveCorrectAnswers = 0;
   hideComboBanner();
+  clearStreakEffect();
 
   questions = shuffleArray(questions);
 
@@ -502,9 +556,15 @@ function handleAnswer() {
       lives += 1;
       showComboBanner();
     }
+
+    // Trigger special background effects on streak milestones
+    if ([5, 10, 15].includes(consecutiveCorrectAnswers)) {
+      showStreakEffect(consecutiveCorrectAnswers);
+    }
   } else {
     consecutiveCorrectAnswers = 0; // Reset streak
     hideComboBanner();
+    clearStreakEffect();
     lives -= 1;
     
     triggerDamageEffects();
@@ -582,6 +642,7 @@ function handleTimeout() {
 
   consecutiveCorrectAnswers = 0;
   hideComboBanner();
+  clearStreakEffect();
   lives -= 1;
   
   triggerDamageEffects();
@@ -670,14 +731,18 @@ function endGame(q = null) {
     errorDelayInterval = null;
   }
 
+  clearStreakEffect();
+
   const gameEl = document.getElementById("game");
   const gameOverEl = document.getElementById("gameOver");
   const finalScoreEl = document.getElementById("finalScore");
+  const finalTitleEl = document.getElementById("finalTitle");
   const correctAnswerEl = document.getElementById("gameOverCorrectAnswer");
 
   if (gameEl) gameEl.classList.add("hidden");
   if (gameOverEl) gameOverEl.classList.remove("hidden");
   if (finalScoreEl) finalScoreEl.textContent = score;
+  if (finalTitleEl) finalTitleEl.innerHTML = `Titel: <strong>${getPlayerTitle(score)}</strong>`;
 
   if (correctAnswerEl) {
     if (q && q.antwort) {
@@ -710,6 +775,7 @@ function restartGame() {
   clearTimeout(delayInterval);
   clearTimeout(errorDelayInterval);
   hideComboBanner();
+  clearStreakEffect();
 
   questions = shuffleArray([...allQuestions]);
 

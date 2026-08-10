@@ -20,6 +20,8 @@ body {
 
 /* ===== CONTAINER ===== */
 .container {
+  position: relative;
+  z-index: 2;
   max-width: 820px;
   width: 100%;
   margin: 0 auto;
@@ -559,6 +561,50 @@ h1::before {
   }
 }
 
+/* ===== STREAK BACKGROUND EFFECTS ===== */
+body {
+  position: relative;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease, background 0.4s ease;
+  z-index: 0;
+  filter: blur(22px);
+}
+
+body.streak-5::after {
+  opacity: 1;
+  background: radial-gradient(circle at top left, rgba(255, 182, 0, 0.35), transparent 28%),
+              radial-gradient(circle at bottom right, rgba(255, 112, 67, 0.25), transparent 32%);
+}
+
+body.streak-10::after {
+  opacity: 1;
+  background: radial-gradient(circle at center, rgba(3, 169, 244, 0.32), transparent 28%),
+              radial-gradient(circle at top right, rgba(103, 58, 183, 0.28), transparent 30%);
+}
+
+body.streak-15::after {
+  opacity: 1;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.45), transparent 26%),
+              radial-gradient(circle at bottom left, rgba(76, 175, 80, 0.22), transparent 30%),
+              radial-gradient(circle at top right, rgba(33, 150, 243, 0.22), transparent 30%);
+}
+
+body.streak-5, body.streak-10, body.streak-15 {
+  animation: pulseStreak 3s ease-in-out infinite;
+}
+
+@keyframes pulseStreak {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.01); }
+}
+
 /* ===== SCREEN SHAKE & RED FLASH ===== */
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
@@ -601,6 +647,33 @@ h1::before {
   padding: 0;
   font-weight: 800;
   color: #2d2a24;
+}
+
+.player-title {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #6b5f50;
+  letter-spacing: 0.2px;
+}
+
+.player-title::before {
+  content: "Titel: ";
+  font-weight: 700;
+  color: #3d3730;
+}
+
+.game-over-title {
+  margin: 14px 0 20px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #2d2a24;
+}
+
+.player-title::before {
+  content: "Titel: ";
+  font-weight: 700;
+  color: #3d3730;
 }
 
 /* Allow skip button text and span to render inline normally */
