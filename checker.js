@@ -48,6 +48,22 @@ function calculateSimilarity(str1, str2) {
   return 1 - distance / maxLength;
 }
 
+function wordOverlapSimilarity(userStr, correctStr) {
+  const userWords = normalize(userStr).split(" ").filter(Boolean);
+  const correctWords = normalize(correctStr).split(" ").filter(Boolean);
+
+  if (correctWords.length === 0) return 0;
+
+  const userSet = new Set(userWords);
+  let matchCount = 0;
+
+  for (const w of correctWords) {
+    if (userSet.has(w)) matchCount++;
+  }
+
+  return matchCount / correctWords.length; // 0.0–1.0
+}
+
 function checkAnswer(question, userAnswer) {
   const correctAnswers = Array.isArray(question.antwort)
     ? question.antwort
@@ -55,6 +71,7 @@ function checkAnswer(question, userAnswer) {
 
   const normUser = normalize(userAnswer);
 
+  // If the user did not type anything (empty after normalization)
   if (!normUser) {
     return {
       isCorrect: false,
@@ -62,23 +79,38 @@ function checkAnswer(question, userAnswer) {
     };
   }
 
-  // 1. Direct match or Substring match (user wrote a full sentence containing the answer)
-  const isMatch = correctAnswers.some(correctAnswer => {
+  // 1) Exact match (strict, but robust thanks to normalization)
+  const exactMatch = correctAnswers.some(correctAnswer => {
     const normCorrect = normalize(correctAnswer);
-    if (!normCorrect) return false;
-
-    // Direct match OR user answer contains the full expected answer phrase
-    return normUser === normCorrect || normUser.includes(normCorrect);
+    return normUser === normCorrect;
   });
 
-  if (isMatch) {
+  if (exactMatch) {
     return {
       isCorrect: true,
       message: "Richtig! Das ist die korrekte Antwort."
     };
   }
 
-  // 2. Fuzzy match to catch typos (80% similarity threshold)
+  // 2) Word-overlap match:
+  //    Check if the user used most of the important words
+  //    from at least one correct answer (e.g. 70% of them).
+  const WORD_OVERLAP_THRESHOLD = 0.7; // 0.0–1.0
+
+  const goodWordMatch = correctAnswers.some(correctAnswer => {
+    const overlap = wordOverlapSimilarity(userAnswer, correctAnswer);
+    return overlap >= WORD_OVERLAP_THRESHOLD;
+  });
+
+  if (goodWordMatch) {
+    return {
+      isCorrect: true,
+      message: "Richtig! Deine Antwort trifft den Inhalt."
+    };
+  }
+
+  // 3) Fuzzy match using Levenshtein similarity:
+  //    Here we only want to catch typos, not big semantic changes.
   const isCloseMatch = correctAnswers.some(correctAnswer => {
     const normCorrect = normalize(correctAnswer);
     return calculateSimilarity(normUser, normCorrect) >= 0.8;
@@ -91,7 +123,7 @@ function checkAnswer(question, userAnswer) {
     };
   }
 
-  // 3. Fallback: Display correct options if incorrect
+  // 4) If nothing matched: show some example correct answers
   const displayedAnswers = correctAnswers
     .slice(0, 2)
     .join(", ");
