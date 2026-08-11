@@ -35,18 +35,18 @@
     ],
     "category": "Hardware"
   },
-  {
-    "nr": 4,
-    "questionType": "choice",
-    "frage": "Warum wird eine CPU bei dieser IT-Lösung eingesetzt?",
-    "antwort": "Befehle verarbeiten",
-    "falseAnswers": [
-      "Daten zwischenspeichern",
-      "Sicherheitslücke schließen",
-      "Uhren synchronisieren"
-    ],
-    "category": "Hardware"
-  },
+{
+  "nr": 4,
+  "questionType": "choice",
+  "frage": "Welche Hauptaufgabe hat die CPU?",
+  "antwort": "Befehle ausführen und Daten verarbeiten",
+  "falseAnswers": [
+    "Daten dauerhaft speichern",
+    "Grafiken darstellen",
+    "Netzwerkdaten übertragen"
+  ],
+  "category": "Hardware"
+}
   {
     "nr": 5,
     "questionType": "choice",
@@ -131,18 +131,18 @@
     ],
     "category": "Hardware"
   },
-  {
-    "nr": 12,
-    "questionType": "choice",
-    "frage": "Warum wird eine SSD bei dieser IT-Lösung eingesetzt?",
-    "antwort": "Daten dauerhaft speichern",
-    "falseAnswers": [
-      "Spannung umwandeln",
-      "Daten sichern",
-      "Verbindung tunneln"
-    ],
-    "category": "Hardware"
-  },
+{
+  "nr": 12,
+  "questionType": "choice",
+  "frage": "Warum wird eine SSD als Systemlaufwerk eingesetzt?",
+  "antwort": "Schneller Datenzugriff",
+  "falseAnswers": [
+    "Spannung umwandeln",
+    "Daten sichern",
+    "Verbindungen tunneln"
+  ],
+  "category": "Hardware"
+}
   {
     "nr": 13,
     "questionType": "choice",
@@ -180,17 +180,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 16,
-    "questionType": "choice",
-    "frage": "Warum wird ein Netzteil bei dieser IT-Lösung eingesetzt?",
-    "antwort": "Spannung umwandeln",
-    "falseAnswers": [
-      "Komponenten verbinden",
-      "LAN-Geräte verbinden",
-      "Netzwerk segmentieren"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 16,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe hat ein PC-Netzteil?",
+  "antwort": "Wechselstrom in Gleichstrom umwandeln",
+  "falseAnswers": [
+    "Daten speichern",
+    "LAN-Geräte verbinden",
+    "Netzwerke segmentieren"
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 17,
     "questionType": "choice",
@@ -312,17 +312,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 27,
-    "questionType": "choice",
-    "frage": "Welche Beschreibung passt zum Kühlkörper auf dem Prozessor?",
-    "antwort": "Wärme ableiten",
-    "falseAnswers": [
-      "Hardware initialisieren",
-      "WLAN bereitstellen",
-      "WLAN absichern"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 27,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe hat ein CPU-Kühlkörper?",
+  "antwort": "CPU-Wärme ableiten",
+  "falseAnswers": [
+    "Hardware starten",
+    "WLAN bereitstellen",
+    "WLAN schützen"
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 28,
     "questionType": "choice",
@@ -491,42 +491,42 @@
     ],
     "category": "Betriebssysteme"
   },
-  {
-    "nr": 42,
-    "questionType": "choice",
-    "frage": "Welche zentrale Aufgabe übernimmt ein Betriebssystem auf einem Computer?",
-    "antwort": "Systemressourcen verwalten",
-    "falseAnswers": [
-      "Dateien infizieren",
-      "Kabel auflegen",
-      "Bilder berechnen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 43,
-    "questionType": "choice",
-    "frage": "Was koordiniert das Betriebssystem, wenn mehrere Programme gleichzeitig ausgeführt werden?",
-    "antwort": "Programme koordinieren",
-    "falseAnswers": [
-      "WLAN-Signale verstärken",
-      "Passwörter verschlüsseln",
-      "Hardware reparieren"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 44,
-    "questionType": "choice",
-    "frage": "Warum ist ein Betriebssystem für die Nutzung eines Computers erforderlich?",
-    "antwort": "Hardware verwalten",
-    "falseAnswers": [
-      "Daten übertragen",
-      "Viren verbreiten",
-      "Kabel verbinden"
-    ],
-    "category": "Betriebssysteme"
-  },
+ {
+  "nr": 42,
+  "questionType": "choice",
+  "frage": "Was verwaltet ein Betriebssystem?",
+  "antwort": "CPU, Speicher und Geräte",
+  "falseAnswers": [
+    "Strom und Spannung",
+    "Netzwerkkabel",
+    "Monitorfarben"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 43,
+  "questionType": "choice",
+  "frage": "Was regelt das Betriebssystem bei mehreren Programmen?",
+  "antwort": "CPU-Zeit und Speicher",
+  "falseAnswers": [
+    "WLAN-Signalstärke",
+    "Kabelverbindungen",
+    "Hardware-Reparaturen"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 44,
+  "questionType": "choice",
+  "frage": "Was ermöglicht ein Betriebssystem?",
+  "antwort": "Hardware und Programme nutzen",
+  "falseAnswers": [
+    "Strom erzeugen",
+    "Viren verbreiten",
+    "Kabel verbinden"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 45,
     "questionType": "choice",
@@ -540,41 +540,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 46,
-    "questionType": "choice",
-    "frage": "Welche Funktion erfüllt ein Benutzerkonto in einem Computersystem?",
-    "antwort": "Berechtigungen zuweisen",
-    "falseAnswers": [
-      "Dateien organisieren",
-      "Netzwerke verlassen",
-      "Daten verschlüsseln"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 47,
-    "questionType": "choice",
-    "frage": "Was kann ein Administrator mithilfe eines Benutzerkontos für einen Mitarbeiter festlegen?",
-    "antwort": "Zugriffe festlegen",
-    "falseAnswers": [
-      "Kabel testen",
-      "Bilder berechnen",
-      "Signale umwandeln"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 48,
-    "questionType": "choice",
-    "frage": "Warum werden in einem Unternehmensnetzwerk persönliche Benutzerkonten eingerichtet?",
-    "antwort": "Benutzer identifizieren",
-    "falseAnswers": [
-      "Dateien komprimieren",
-      "WLAN verstärken",
-      "Prozessor kühlen"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 46,
+  "questionType": "choice",
+  "frage": "Was wird einem Benutzerkonto zugeordnet?",
+  "antwort": "Berechtigungen",
+  "falseAnswers": [
+    "Dateien",
+    "Kabel",
+    "WLAN-Signale"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 47,
+  "questionType": "choice",
+  "frage": "Was kann ein Administrator festlegen?",
+  "antwort": "Benutzerzugriffe",
+  "falseAnswers": [
+    "Kabeltests",
+    "Bildberechnungen",
+    "Signalspeicherung"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 48,
+  "questionType": "choice",
+  "frage": "Warum nutzt jeder Mitarbeiter ein eigenes Benutzerkonto?",
+  "antwort": "Aktionen zuordnen",
+  "falseAnswers": [
+    "Dateien komprimieren",
+    "WLAN verstärken",
+    "CPU kühlen"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 49,
     "questionType": "choice",
@@ -588,41 +588,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 50,
-    "questionType": "choice",
-    "frage": "Was wird beim Formatieren eines Datenträgers für die spätere Speicherung vorbereitet?",
-    "antwort": "Speicher strukturieren",
-    "falseAnswers": [
-      "Programme ausführen",
-      "Anfragen vermitteln",
-      "Anmeldungen verstärken"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 51,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein Dateisystem auf einer Festplatte oder SSD?",
-    "antwort": "Dateien verwalten",
-    "falseAnswers": [
-      "Netzwerke verbinden",
-      "Bilder berechnen",
-      "Passwörter erstellen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 52,
-    "questionType": "choice",
-    "frage": "Wie ermöglicht ein Dateisystem den strukturierten Zugriff auf gespeicherte Daten?",
-    "antwort": "Dateien organisieren",
-    "falseAnswers": [
-      "Hardware kühlen",
-      "Daten verschlüsseln",
-      "WLAN bereitstellen"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 50,
+  "questionType": "choice",
+  "frage": "Welche logische Struktur wird beim Formatieren eingerichtet?",
+  "antwort": "Ein Dateisystem",
+  "falseAnswers": [
+    "Eine Partitionstabelle",
+    "Ein Bootloader",
+    "Ein Verschlüsselungsschlüssel"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 51,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe hat ein Dateisystem?",
+  "antwort": "Dateien Speicherorten zuordnen",
+  "falseAnswers": [
+    "Arbeitsspeicher verwalten",
+    "IP-Adressen vergeben",
+    "Prozesse planen"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 52,
+  "questionType": "choice",
+  "frage": "Wodurch greift das Betriebssystem auf eine Datei zu?",
+  "antwort": "Pfad und Dateiname",
+  "falseAnswers": [
+    "Sektorgröße und Taktfrequenz",
+    "MAC-Adresse und Port",
+    "Benutzerrolle und Passwort"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 53,
     "questionType": "choice",
@@ -636,41 +636,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 54,
-    "questionType": "choice",
-    "frage": "Was entsteht im Betriebssystem, wenn ein Programm gestartet und aktiv ausgeführt wird?",
-    "antwort": "Ein Prozess",
-    "falseAnswers": [
-      "Ein Benutzerkonto",
-      "Eine Netzwerkadresse",
-      "Eine Sicherungskopie"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 55,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe hat ein Prozess während der Ausführung eines Programms?",
-    "antwort": "Programm ausführen",
-    "falseAnswers": [
-      "Aufgaben parallelisieren",
-      "Domänennamen übersetzen",
-      "Verbindung verschlüsseln"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 56,
-    "questionType": "choice",
-    "frage": "Warum verwaltet das Betriebssystem Prozesse im Arbeitsspeicher?",
-    "antwort": "Programmausführung steuern",
-    "falseAnswers": [
-      "Dateien dauerhaft speichern",
-      "WLAN-Signale verstärken",
-      "Datenpakete verschlüsseln"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 54,
+  "questionType": "choice",
+  "frage": "Was entsteht beim Start eines Programms?",
+  "antwort": "Ein Prozess",
+  "falseAnswers": [
+    "Ein Thread",
+    "Eine Prozess-ID",
+    "Ein Systemdienst"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 55,
+  "questionType": "choice",
+  "frage": "Was macht ein Prozess während seiner Ausführung?",
+  "antwort": "Befehle abarbeiten",
+  "falseAnswers": [
+    "Prozesse priorisieren",
+    "Speicherbereiche zuweisen",
+    "Dateien dauerhaft speichern"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 56,
+  "questionType": "choice",
+  "frage": "Warum verwaltet das Betriebssystem Prozesse im Arbeitsspeicher?",
+  "antwort": "Ausführung und Speicherzugriff steuern",
+  "falseAnswers": [
+    "Dateien dauerhaft speichern",
+    "Programme automatisch installieren",
+    "Netzwerkverkehr verschlüsseln"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 57,
     "questionType": "choice",
@@ -684,41 +684,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 58,
-    "questionType": "choice",
-    "frage": "Welchen Vorteil bietet der Einsatz mehrerer Threads in einer Anwendung?",
-    "antwort": "Aufgaben parallel bearbeiten",
-    "falseAnswers": [
-      "Prozesse anzeigen",
-      "IP-Adressen vergeben",
-      "Daten archivieren"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 59,
-    "questionType": "choice",
-    "frage": "Was ist ein Thread innerhalb eines laufenden Prozesses?",
-    "antwort": "Ausführungseinheit eines Prozesses",
-    "falseAnswers": [
-      "Eine Netzwerkadresse",
-      "Ein Dateiformat",
-      "Ein Sicherheitszertifikat"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 60,
-    "questionType": "choice",
-    "frage": "Warum verwendet eine Software mehrere Threads for unterschiedliche Aufgaben?",
-    "antwort": "Abläufe gleichzeitig ausführen",
-    "falseAnswers": [
-      "Dateien dauerhaft speichern",
-      "WLAN-Namen vergeben",
-      "Benutzerkonten löschen"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 58,
+  "questionType": "choice",
+  "frage": "Welchen Vorteil bieten mehrere Threads?",
+  "antwort": "Bessere Reaktionsfähigkeit",
+  "falseAnswers": [
+    "Eigener Adressraum pro Thread",
+    "Vollständige Prozessisolation",
+    "Weniger benötigte CPU-Kerne"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 59,
+  "questionType": "choice",
+  "frage": "Was ist ein Thread?",
+  "antwort": "Ausführungsstrang eines Prozesses",
+  "falseAnswers": [
+    "Eigenständiger Prozess",
+    "Virtueller Speicherbereich",
+    "Priorität einer Anwendung"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 60,
+  "questionType": "choice",
+  "frage": "Warum nutzt eine Anwendung mehrere Threads?",
+  "antwort": "Abläufe nebenläufig ausführen",
+  "falseAnswers": [
+    "Speicherbereiche vollständig trennen",
+    "Prozesse voneinander isolieren",
+    "Dateien automatisch archivieren"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 61,
     "questionType": "choice",
@@ -732,41 +732,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 62,
-    "questionType": "choice",
-    "frage": "Welche Informationen kann ein Benutzer im Task-Manager über aktuell laufende Programme einsehen?",
-    "antwort": "Laufende Prozesse überwachen",
-    "falseAnswers": [
-      "Konfigurationen speichern",
-      "MAC-Adressen ermitteln",
-      "Identitäten bestätigen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 63,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe erfüllt der Task-Manager bei der Verwaltung eines Computers?",
-    "antwort": "Programme verwalten",
-    "falseAnswers": [
-      "Dateien verschlüsseln",
-      "WLAN-Signale verstärken",
-      "IP-Adressen vergeben"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 64,
-    "questionType": "choice",
-    "frage": "Wie unterstützt der Task-Manager die Diagnose eines langsamen oder nicht reagierenden Systems?",
-    "antwort": "Systemauslastung analysieren",
-    "falseAnswers": [
-      "Benutzerkonten erstellen",
-      "Daten dauerhaft sichern",
-      "Netzwerkkabel testen"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 62,
+  "questionType": "choice",
+  "frage": "Welche Werte zeigt der Task-Manager für Prozesse an?",
+  "antwort": "CPU- und RAM-Auslastung",
+  "falseAnswers": [
+    "Partitionstyp und Dateisystem",
+    "MAC-Adresse und Subnetz",
+    "Benutzergruppe und Domäne"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 63,
+  "questionType": "choice",
+  "frage": "Was kann man im Task-Manager mit einem Prozess tun?",
+  "antwort": "Prozess beenden",
+  "falseAnswers": [
+    "Prozess kompilieren",
+    "Treiber aktualisieren",
+    "Benutzerrechte ändern"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 64,
+  "questionType": "choice",
+  "frage": "Wie hilft der Task-Manager bei einem langsamen System?",
+  "antwort": "Ressourcenverbrauch vergleichen",
+  "falseAnswers": [
+    "Hardwarefehler reparieren",
+    "Dateien wiederherstellen",
+    "Netzwerkrouten optimieren"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 65,
     "questionType": "choice",
@@ -780,41 +780,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 66,
-    "questionType": "choice",
-    "frage": "Welche Art von Informationen speichert die Windows-Registry zentral?",
-    "antwort": "Systemeinstellungen speichern",
-    "falseAnswers": [
-      "Sicherheitslücken schließen",
-      "Netzwerkfehler melden",
-      "Dateien komprimieren"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 67,
-    "questionType": "choice",
-    "frage": "Was kann ein Administrator in der Windows-Registry konfigurieren?",
-    "antwort": "Programmeinstellungen verwalten",
-    "falseAnswers": [
-      "Herkunft bestätigen",
-      "WLAN-Signale verstärken",
-      "Datenpakete übertragen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 68,
-    "questionType": "choice",
-    "frage": "Warum nutzt Windows eine Registry für die Systemverwaltung?",
-    "antwort": "Konfigurationsdaten zentral verwalten",
-    "falseAnswers": [
-      "Benutzer automatisch schulen",
-      "Hardware physisch verbinden",
-      "Viren vollständig entfernen"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 66,
+  "questionType": "choice",
+  "frage": "Welche Daten speichert die Windows-Registry hauptsächlich?",
+  "antwort": "System- und Anwendungskonfigurationen",
+  "falseAnswers": [
+    "Dateiinhalte und Dokumente",
+    "Aktuelle RAM-Belegung",
+    "Übertragene Netzwerkpakete"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 67,
+  "questionType": "choice",
+  "frage": "Was kann ein Administrator in der Registry konfigurieren?",
+  "antwort": "Autostart und Programmoptionen",
+  "falseAnswers": [
+    "Dateiberechtigungen direkt",
+    "IP-Routing im Netzwerk",
+    "Firmware eines Geräts"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 68,
+  "questionType": "choice",
+  "frage": "Welchen Zweck hat die zentrale Registry?",
+  "antwort": "Konfigurationen einheitlich verwalten",
+  "falseAnswers": [
+    "Dateien zentral speichern",
+    "Prozesse voneinander isolieren",
+    "Netzwerkverkehr analysieren"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 69,
     "questionType": "choice",
@@ -828,41 +828,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 70,
-    "questionType": "choice",
-    "frage": "Welche unmittelbare Sicherheitsmaßnahme bewirkt ein installierter Sicherheits-Patch?",
-    "antwort": "Schwachstelle beheben",
-    "falseAnswers": [
-      "Software starten",
-      "Dateien archivieren",
-      "Benutzer anmelden"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 71,
-    "questionType": "choice",
-    "frage": "Was wird durch einen Sicherheits-Patch in einem Programm oder Betriebssystem korrigiert?",
-    "antwort": "Sicherheitsfehler beheben",
-    "falseAnswers": [
-      "Verbindungen trennen",
-      "Daten sortieren",
-      "WLAN benennen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 72,
-    "questionType": "choice",
-    "frage": "Warum sollte ein Unternehmen bekannte Sicherheits-Patches zeitnah installieren?",
-    "antwort": "Angriffsrisiko reduzieren",
-    "falseAnswers": [
-      "Speicherplatz vergrößern",
-      "Kabel auflegen",
-      "Bilder berechnen"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 70,
+  "questionType": "choice",
+  "frage": "Was bewirkt ein installierter Sicherheitspatch unmittelbar?",
+  "antwort": "Bekannte Schwachstelle schließen",
+  "falseAnswers": [
+    "Neue Firewallregel erstellen",
+    "Benutzerrechte erweitern",
+    "Datensicherung anlegen"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 71,
+  "questionType": "choice",
+  "frage": "Welchen Bestandteil korrigiert ein Sicherheitspatch typischerweise?",
+  "antwort": "Fehlerhaften Programmcode",
+  "falseAnswers": [
+    "Physische Hardware",
+    "Dateisystemstruktur",
+    "Netzwerkadresse"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 72,
+  "questionType": "choice",
+  "frage": "Warum sollten kritische Patches zeitnah installiert werden?",
+  "antwort": "Ausnutzungsfenster verkürzen",
+  "falseAnswers": [
+    "Supportdauer verlängern",
+    "Speicherbedarf senken",
+    "Testaufwand vermeiden"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 73,
     "questionType": "choice",
@@ -875,42 +875,42 @@
     ],
     "category": "Betriebssysteme"
   },
-  {
-    "nr": 74,
-    "questionType": "choice",
-    "frage": "Was geschieht typischerweise, wenn ein Administrator ein Software-Update installiert?",
-    "antwort": "Neue Version installieren",
-    "falseAnswers": [
-      "Daten dauerhaft löschen",
-      "Kabel physisch verbinden",
-      "Benutzer automatisch schulen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 75,
-    "questionType": "choice",
-    "frage": "Welche Verbesserungen kann ein Software-Update für ein bestehendes Programm bringen?",
-    "antwort": "Funktionen verbessern",
-    "falseAnswers": [
-      "Daten sichern",
-      "Netzwerke verlassen",
-      "Dateien infizieren"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 76,
-    "questionType": "choice",
-    "frage": "Warum verteilt ein Unternehmen Software-Updates auf mehreren Arbeitsplatzcomputern?",
-    "antwort": "Fehler beheben",
-    "falseAnswers": [
-      "Daten schneller senden",
-      "Änderungen verhindern",
-      "Hardware kühlen"
-    ],
-    "category": "Betriebssysteme"
-  },
+ {
+  "nr": 74,
+  "questionType": "choice",
+  "frage": "Was geschieht beim Installieren eines Software-Updates?",
+  "antwort": "Programmversion aktualisieren",
+  "falseAnswers": [
+    "Benutzerprofil zurücksetzen",
+    "Sicherheitsrichtlinie entfernen",
+    "Dateisystem neu formatieren"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 75,
+  "questionType": "choice",
+  "frage": "Welche Bereiche kann ein Software-Update verbessern?",
+  "antwort": "Fehler, Sicherheit und Funktionen",
+  "falseAnswers": [
+    "Hardware, Strom und Kühlung",
+    "Kabel, Drucker und Anschlüsse",
+    "Benutzer, Räume und Arbeitszeiten"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 76,
+  "questionType": "choice",
+  "frage": "Warum verteilt ein Unternehmen Updates auf mehrere Computer?",
+  "antwort": "Einheitlichen Softwarestand herstellen",
+  "falseAnswers": [
+    "Individuelle Einstellungen verhindern",
+    "Netzwerkverkehr automatisch beschleunigen",
+    "Hardwareleistung dauerhaft erweitern"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 77,
     "questionType": "choice",
@@ -924,41 +924,41 @@
     "category": "Betriebssysteme"
   },
   {
-    "nr": 78,
-    "questionType": "choice",
-    "frage": "Was wird beim Erstellen eines Backups von wichtigen Dateien angelegt?",
-    "antwort": "Sicherungskopie erstellen",
-    "falseAnswers": [
-      "LAN-Geräte verbinden",
-      "Webseiten übertragen",
-      "Prozesse anzeigen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 79,
-    "questionType": "choice",
-    "frage": "Welche Funktion erfüllt ein Backup, wenn Originaldaten beschädigt oder gelöscht wurden?",
-    "antwort": "Daten wiederherstellen",
-    "falseAnswers": [
-      "WLAN-Namen vergeben",
-      "Netzwerkverkehr filtern",
-      "Bilder berechnen"
-    ],
-    "category": "Betriebssysteme"
-  },
-  {
-    "nr": 80,
-    "questionType": "choice",
-    "frage": "Warum sollten wichtige Unternehmensdaten regelmäßig gesichert werden?",
-    "antwort": "Datenverlust vermeiden",
-    "falseAnswers": [
-      "Kabel auflegen",
-      "Webseiten verschlüsseln",
-      "IP-Adressen ermitteln"
-    ],
-    "category": "Betriebssysteme"
-  },
+  "nr": 78,
+  "questionType": "choice",
+  "frage": "Was entsteht beim Erstellen eines Backups?",
+  "antwort": "Wiederherstellbarer Datenstand",
+  "falseAnswers": [
+    "Synchronisierte Datenquelle",
+    "Komprimiertes Archiv ohne Originaldaten",
+    "Temporärer Arbeitsspeicher"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 79,
+  "questionType": "choice",
+  "frage": "Was ermöglicht ein Backup nach Datenverlust?",
+  "antwort": "Daten wiederherstellen",
+  "falseAnswers": [
+    "Löschung automatisch verhindern",
+    "Datenbestände synchron halten",
+    "Beschädigte Dateien reparieren"
+  ],
+  "category": "Betriebssysteme"
+},
+{
+  "nr": 80,
+  "questionType": "choice",
+  "frage": "Warum werden Unternehmensdaten regelmäßig gesichert?",
+  "antwort": "Wiederherstellung ermöglichen",
+  "falseAnswers": [
+    "Datenverlust verhindern",
+    "Speicherbedarf reduzieren",
+    "Systemausfälle vermeiden"
+  ],
+  "category": "Betriebssysteme"
+},
   {
     "nr": 81,
     "questionType": "choice",
@@ -972,41 +972,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 82,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein Switch innerhalb eines lokalen Netzwerks?",
-    "antwort": "LAN-Geräte vernetzen",
-    "falseAnswers": [
-      "Netzwerke verbinden",
-      "Webdaten verschlüsseln",
-      "Daten spiegeln"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 83,
-    "questionType": "choice",
-    "frage": "Wie leitet ein Switch Daten innerhalb eines LANs an das passende Gerät weiter?",
-    "antwort": "Daten lokal weiterleiten",
-    "falseAnswers": [
-      "IP-Adressen vergeben",
-      "Dateien dauerhaft speichern",
-      "WLAN-Signale verstärken"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 84,
-    "questionType": "choice",
-    "frage": "Warum wird ein Switch in einem Büro- oder Heimnetzwerk eingesetzt?",
-    "antwort": "Netzwerkgeräte verbinden",
-    "falseAnswers": [
-      "Netzwerke verlassen",
-      "Passwörter erstellen",
-      "Bilder berechnen"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 82,
+  "questionType": "choice",
+  "frage": "Wie leitet ein Layer-2-Switch Daten weiter?",
+  "antwort": "Anhand der MAC-Adresse",
+  "falseAnswers": [
+    "Anhand der IP-Adresse",
+    "Anhand des DNS-Namens",
+    "Anhand der Benutzerkennung"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 83,
+  "questionType": "choice",
+  "frage": "Was verbindet ein Switch normalerweise?",
+  "antwort": "Geräte im selben LAN",
+  "falseAnswers": [
+    "Verschiedene IP-Netze",
+    "Mehrere DNS-Zonen",
+    "Unabhängige WLAN-Kanäle"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 84,
+  "questionType": "choice",
+  "frage": "Warum wird ein Switch im Büro eingesetzt?",
+  "antwort": "LAN um weitere Ports erweitern",
+  "falseAnswers": [
+    "Daten zwischen Netzen routen",
+    "IP-Adressen automatisch vergeben",
+    "WLAN-Reichweite vergrößern"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 85,
     "questionType": "choice",
@@ -1019,42 +1019,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 86,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein Router, wenn Daten zwischen einem lokalen Netzwerk und dem Internet übertragen werden?",
-    "antwort": "Datenpakete weiterleiten",
-    "falseAnswers": [
-      "Verkehr filtern",
-      "Dateien übertragen",
-      "Parität verteilen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 87,
-    "questionType": "choice",
-    "frage": "Was verbindet ein Router typischerweise miteinander?",
-    "antwort": "Verschiedene Netzwerke",
-    "falseAnswers": [
-      "Einzelne Dateien",
-      "Festplattensektoren",
-      "WLAN-Passwörter"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 88,
-    "questionType": "choice",
-    "frage": "Warum wird ein Router an der Grenze zwischen einem lokalen Netzwerk und dem Internet eingesetzt?",
-    "antwort": "Netzwerke verbinden",
-    "falseAnswers": [
-      "Daten spiegeln",
-      "Kabel auflegen",
-      "Bilder berechnen"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 86,
+  "questionType": "choice",
+  "frage": "Woran entscheidet ein Router, wohin ein Paket weitergeleitet wird?",
+  "antwort": "Ziel-IP und Routingtabelle",
+  "falseAnswers": [
+    "Ziel-MAC und Switch-Tabelle",
+    "DNS-Name und Cache",
+    "Dateiname und Ordnerpfad"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 87,
+  "questionType": "choice",
+  "frage": "Welche Bereiche verbindet ein Router typischerweise?",
+  "antwort": "Verschiedene IP-Netze",
+  "falseAnswers": [
+    "Geräte im selben LAN",
+    "Programme auf einem Rechner",
+    "Dateien auf verschiedenen Laufwerken"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 88,
+  "questionType": "choice",
+  "frage": "Welche Funktion hat ein Router zwischen LAN und Internet?",
+  "antwort": "IP-Pakete zwischen Netzen routen",
+  "falseAnswers": [
+    "Ethernet-Frames im LAN schalten",
+    "DNS-Namen in Dateien speichern",
+    "Private IP-Adressen dauerhaft registrieren"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 89,
     "questionType": "choice",
@@ -1068,41 +1068,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 90,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt eine Firewall zwischen einem internen Netzwerk und dem Internet?",
-    "antwort": "Netzwerkverkehr kontrollieren",
-    "falseAnswers": [
-      "WLAN bereitstellen",
-      "Systemzugriff absichern",
-      "Strom überbrücken"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 91,
-    "questionType": "choice",
-    "frage": "Wie entscheidet eine Firewall anhand festgelegter Regeln über eingehende und ausgehende Verbindungen?",
-    "antwort": "Verbindungen kontrollieren",
-    "falseAnswers": [
-      "Dateien dauerhaft speichern",
-      "IP-Adressen vergeben",
-      "Bilder berechnen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 92,
-    "questionType": "choice",
-    "frage": "Warum blockiert eine Firewall bestimmte Netzwerkverbindungen?",
-    "antwort": "Unerlaubte Zugriffe blockieren",
-    "falseAnswers": [
-      "WLAN-Signale verstärken",
-      "Kabel auflegen",
-      "Daten spiegeln"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 90,
+  "questionType": "choice",
+  "frage": "Welche Kernaufgabe hat eine Firewall?",
+  "antwort": "Datenverkehr nach Regeln filtern",
+  "falseAnswers": [
+    "Datenverkehr über WLAN übertragen",
+    "IP-Adressen per DHCP vergeben",
+    "Dateien auf Schadcode prüfen"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 91,
+  "questionType": "choice",
+  "frage": "Nach welchen Merkmalen kann eine Firewall Verbindungen bewerten?",
+  "antwort": "IP, Port und Protokoll",
+  "falseAnswers": [
+    "Dateiname, Ordner und Dateityp",
+    "MAC, Monitor und Tastatur",
+    "Benutzername, Passwort und Drucker"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 92,
+  "questionType": "choice",
+  "frage": "Warum blockiert eine Firewall bestimmte Verbindungen?",
+  "antwort": "Unerlaubten Datenverkehr verhindern",
+  "falseAnswers": [
+    "Netzwerkbandbreite automatisch erhöhen",
+    "Datenbestände regelmäßig sichern",
+    "IP-Adressen im LAN ersetzen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 93,
     "questionType": "choice",
@@ -1116,41 +1116,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 94,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein Access Point in einem Büro- oder Heimnetzwerk?",
-    "antwort": "WLAN bereitstellen",
-    "falseAnswers": [
-      "Funksignal verstärken",
-      "E-Mails versenden",
-      "Daten vollständig sichern"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 95,
-    "questionType": "choice",
-    "frage": "Was ermöglicht ein Access Point mobilen Geräten wie Smartphones oder Laptops?",
-    "antwort": "Drahtlosen Netzwerkzugang ermöglichen",
-    "falseAnswers": [
-      "Dateien dauerhaft speichern",
-      "IP-Adressen übersetzen",
-      "Hardware automatisch kühlen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 96,
-    "questionType": "choice",
-    "frage": "Warum wird ein Access Point in einem Gebäude installiert?",
-    "antwort": "WLAN-Zugang bereitstellen",
-    "falseAnswers": [
-      "Funksignale verschlüsseln",
-      "Kabel auflegen",
-      "Prozesse anzeigen"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 94,
+  "questionType": "choice",
+  "frage": "Welche Funktion hat ein Access Point?",
+  "antwort": "LAN in WLAN umwandeln",
+  "falseAnswers": [
+    "WLAN drahtlos wiederholen",
+    "IP-Netze miteinander routen",
+    "Datenverkehr anhand von Regeln filtern"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 95,
+  "questionType": "choice",
+  "frage": "Wie bindet ein Access Point mobile Geräte ins Netzwerk ein?",
+  "antwort": "Drahtlos mit dem LAN verbinden",
+  "falseAnswers": [
+    "Internetverkehr per NAT routen",
+    "IP-Adressen per DHCP vergeben",
+    "WLAN-Signale ohne Kabel wiederholen"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 96,
+  "questionType": "choice",
+  "frage": "Wann ist ein Access Point besonders sinnvoll?",
+  "antwort": "WLAN per Netzwerkkabel erweitern",
+  "falseAnswers": [
+    "WLAN ohne Kabel verstärken",
+    "Verkehr zwischen IP-Netzen leiten",
+    "Unerlaubte Verbindungen blockieren"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 97,
     "questionType": "choice",
@@ -1163,42 +1163,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 98,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein WLAN-Repeater in einem Bereich mit schwachem Funksignal?",
-    "antwort": "WLAN-Reichweite erweitern",
-    "falseAnswers": [
-      "Signale umwandeln",
-      "Postfach synchronisieren",
-      "Änderungen speichern"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 99,
-    "questionType": "choice",
-    "frage": "Wie verbessert ein Repeater die drahtlose Netzwerkabdeckung?",
-    "antwort": "Funksignal weiterleiten",
-    "falseAnswers": [
-      "Daten dauerhaft sichern",
-      "E-Mails versenden",
-      "IP-Adressen vergeben"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 100,
-    "questionType": "choice",
-    "frage": "Warum wird ein Repeater in einem entfernten Raum oder Gebäudebereich eingesetzt?",
-    "antwort": "WLAN-Abdeckung verbessern",
-    "falseAnswers": [
-      "Kabel auflegen",
-      "Daten verschlüsseln",
-      "Dateien organisieren"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 98,
+  "questionType": "choice",
+  "frage": "Wie arbeitet ein WLAN-Repeater grundsätzlich?",
+  "antwort": "WLAN drahtlos empfangen und weiterleiten",
+  "falseAnswers": [
+    "LAN per Kabel in WLAN umwandeln",
+    "IP-Pakete zwischen Netzen routen",
+    "Netzwerkverkehr anhand von Regeln filtern"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 99,
+  "questionType": "choice",
+  "frage": "Welche Verbindung nutzt ein Repeater zum Hauptrouter?",
+  "antwort": "Drahtlose Funkverbindung",
+  "falseAnswers": [
+    "Ethernet-Verbindung",
+    "Geroutete VPN-Verbindung",
+    "Direkte Glasfaserverbindung"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 100,
+  "questionType": "choice",
+  "frage": "Wann ist ein WLAN-Repeater besonders sinnvoll?",
+  "antwort": "Funkloch ohne Netzwerkkabel überbrücken",
+  "falseAnswers": [
+    "WLAN über eine LAN-Leitung bereitstellen",
+    "Daten zwischen IP-Netzen routen",
+    "Unerlaubte Verbindungen blockieren"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 101,
     "questionType": "choice",
@@ -1212,41 +1212,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 102,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein Modem an einem Internetanschluss?",
-    "antwort": "Signale umwandeln",
-    "falseAnswers": [
-      "Kabel auflegen",
-      "E-Mails abholen",
-      "Daten wiederherstellen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 103,
-    "questionType": "choice",
-    "frage": "Was wandelt ein Modem für die Übertragung zwischen Anschlussleitung und Netzwerk um?",
-    "antwort": "Übertragungssignale umwandeln",
-    "falseAnswers": [
-      "Dateien organisieren",
-      "WLAN-Namen vergeben",
-      "Prozesse anzeigen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 104,
-    "questionType": "choice",
-    "frage": "Warum wird ein Modem für die Kommunikation mit dem Internetanbieter benötigt?",
-    "antwort": "Anschlusssignale verarbeiten",
-    "falseAnswers": [
-      "Kabel verbinden",
-      "Daten archivieren",
-      "Benutzer identifizieren"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 102,
+  "questionType": "choice",
+  "frage": "Welche Hauptaufgabe hat ein Modem?",
+  "antwort": "Digitale Daten in Übertragungssignale umwandeln",
+  "falseAnswers": [
+    "IP-Pakete zwischen Netzen routen",
+    "WLAN-Zugang für Geräte bereitstellen",
+    "Datenverkehr anhand von Regeln filtern"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 103,
+  "questionType": "choice",
+  "frage": "Welche beiden Vorgänge führt ein Modem aus?",
+  "antwort": "Modulation und Demodulation",
+  "falseAnswers": [
+    "Routing und Switching",
+    "Authentifizierung und Autorisierung",
+    "Komprimierung und Archivierung"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 104,
+  "questionType": "choice",
+  "frage": "Welche Verbindung stellt ein Modem typischerweise her?",
+  "antwort": "Provideranschluss und Heimnetz",
+  "falseAnswers": [
+    "LAN-Geräte und Switch",
+    "WLAN-Geräte und Repeater",
+    "Benutzer und Dateisystem"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 105,
     "questionType": "choice",
@@ -1259,42 +1259,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 106,
-    "questionType": "choice",
-    "frage": "Was erreicht ein Techniker, wenn er fest verlegte Netzwerkkabel an einem Patchpanel auflegt?",
-    "antwort": "Kabel zentral auflegen",
-    "falseAnswers": [
-      "Daten verschlüsseln",
-      "WLAN-Signale verstärken",
-      "Prozesse überwachen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 107,
-    "questionType": "choice",
-    "frage": "Welche Funktion hat ein Patchpanel bei der strukturierten Gebäudeverkabelung?",
-    "antwort": "Verkabelung strukturieren",
-    "falseAnswers": [
-      "IP-Adressen vergeben",
-      "Dateien wiederherstellen",
-      "E-Mails synchronisieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 108,
-    "questionType": "choice",
-    "frage": "Warum werden Patchpanels in Netzwerkschränken eingesetzt?",
-    "antwort": "Kabel übersichtlich verbinden",
-    "falseAnswers": [
-      "Systemzeiten abgleichen",
-      "Daten dauerhaft sichern",
-      "Webseiten übertragen"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 106,
+  "questionType": "choice",
+  "frage": "Was bedeutet das Auflegen eines Netzwerkkabels am Patchpanel?",
+  "antwort": "Verlegekabel an Ports anschließen",
+  "falseAnswers": [
+    "Switchports konfigurieren",
+    "IP-Routen festlegen",
+    "WLAN-Zugang einrichten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 107,
+  "questionType": "choice",
+  "frage": "Welche Funktion hat ein Patchpanel?",
+  "antwort": "Passive Kabelanschlüsse bereitstellen",
+  "falseAnswers": [
+    "Datenpakete weiterleiten",
+    "IP-Adressen zuweisen",
+    "WLAN-Zellen verwalten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 108,
+  "questionType": "choice",
+  "frage": "Warum wird ein Patchpanel im Netzwerkschrank eingesetzt?",
+  "antwort": "Kabel flexibel und übersichtlich verbinden",
+  "falseAnswers": [
+    "Netzwerkverkehr aktiv steuern",
+    "Daten zwischen Netzen routen",
+    "WLAN-Signale drahtlos wiederholen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 109,
     "questionType": "choice",
@@ -1307,42 +1307,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 110,
-    "questionType": "choice",
-    "frage": "Welche Funktion erhält ein Computer durch den Einbau einer Netzwerkkarte?",
-    "antwort": "Netzwerkverbindung herstellen",
-    "falseAnswers": [
-      "Netzwerke verlassen",
-      "Netzwerk überwachen",
-      "Anfragen dokumentieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 111,
-    "questionType": "choice",
-    "frage": "Was ermöglicht eine Netzwerkkarte einem Computer im lokalen Netzwerk?",
-    "antwort": "Daten senden empfangen",
-    "falseAnswers": [
-      "Dateien dauerhaft sichern",
-      "WLAN-Signale verstärken",
-      "Systemzeiten synchronisieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 112,
-    "questionType": "choice",
-    "frage": "Warum ist eine Netzwerkkarte in einem Computer oder Server erforderlich?",
-    "antwort": "Netzwerkzugang ermöglichen",
-    "falseAnswers": [
-      "Prozessor kühlen",
-      "Daten verschlüsseln",
-      "Kabel auflegen"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 110,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe übernimmt eine Netzwerkkarte?",
+  "antwort": "Netzwerkdaten senden und empfangen",
+  "falseAnswers": [
+    "IP-Adressen automatisch vergeben",
+    "Daten zwischen Netzen routen",
+    "MAC-Adressen anderer Geräte verwalten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 111,
+  "questionType": "choice",
+  "frage": "Welche eindeutige Kennung besitzt eine Netzwerkkarte?",
+  "antwort": "MAC-Adresse",
+  "falseAnswers": [
+    "Vom Router berechnete IP-Adresse",
+    "Vom DNS-Server vergebener Hostname",
+    "Vom Switch zugewiesene Portnummer"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 112,
+  "questionType": "choice",
+  "frage": "Warum benötigt ein Computer eine Netzwerkkarte?",
+  "antwort": "Physische Netzwerkschnittstelle bereitstellen",
+  "falseAnswers": [
+    "Datenverkehr zwischen Netzen routen",
+    "IP-Konfiguration per DHCP verteilen",
+    "WLAN-Signale anderer Geräte wiederholen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 113,
     "questionType": "choice",
@@ -1355,42 +1355,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 114,
-    "questionType": "choice",
-    "frage": "Welche Funktion hat das Standard-Gateway for einen Computer im lokalen Netzwerk?",
-    "antwort": "Externe Netze erreichen",
-    "falseAnswers": [
-      "Anfragen vermitteln",
-      "Verbindung tunneln",
-      "Service regeln"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 115,
-    "questionType": "choice",
-    "frage": "Wohin werden Datenpakete weitergeleitet, wenn ihr Ziel außerhalb des lokalen Netzwerks liegt?",
-    "antwort": "Zum Standard-Gateway",
-    "falseAnswers": [
-      "Zum Patchpanel",
-      "Zum Dateisystem",
-      "Zum Task-Manager"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 116,
-    "questionType": "choice",
-    "frage": "Warum wird ein Gateway in der Netzwerkkonfiguration eines Computers eingetragen?",
-    "antwort": "Netzübergang bereitstellen",
-    "falseAnswers": [
-      "Dateien organisieren",
-      "WLAN-Namen vergeben",
-      "Prozesse beenden"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 114,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe hat das Standard-Gateway?",
+  "antwort": "Pakete in externe Netze weiterleiten",
+  "falseAnswers": [
+    "DNS-Anfragen beantworten",
+    "IP-Adressen per DHCP vergeben",
+    "VPN-Tunnel verschlüsseln"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 115,
+  "questionType": "choice",
+  "frage": "Wohin sendet ein Computer Pakete für ein fremdes Netzwerk?",
+  "antwort": "An das Standard-Gateway",
+  "falseAnswers": [
+    "An den DNS-Server",
+    "An das Patchpanel",
+    "An den lokalen Switch"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 116,
+  "questionType": "choice",
+  "frage": "Warum wird ein Standard-Gateway konfiguriert?",
+  "antwort": "Standardroute für externe Ziele festlegen",
+  "falseAnswers": [
+    "Lokale Geräte per MAC verbinden",
+    "Domänennamen in IP-Adressen auflösen",
+    "IP-Adressen automatisch verteilen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 117,
     "questionType": "choice",
@@ -1404,41 +1404,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 118,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein Proxy-Server zwischen einem Client und einem Webserver?",
-    "antwort": "Webanfragen weiterleiten",
-    "falseAnswers": [
-      "Namen auflösen",
-      "Netzwerk segmentieren",
-      "Support weitergeben"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 119,
-    "questionType": "choice",
-    "frage": "Wie kann ein Proxy-Server den Webzugriff von Unternehmensgeräten kontrollieren?",
-    "antwort": "Zugriffe kontrollieren",
-    "falseAnswers": [
-      "IP-Adressen vergeben",
-      "Daten spiegeln",
-      "Systemzeiten synchronisieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 120,
-    "questionType": "choice",
-    "frage": "Warum wird ein Proxy zwischen Benutzergeräten und dem Internet eingesetzt?",
-    "antwort": "Anfragen vermitteln",
-    "falseAnswers": [
-      "Dateien organisieren",
-      "WLAN-Signale verstärken",
-      "Kabel auflegen"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 118,
+  "questionType": "choice",
+  "frage": "Wie vermittelt ein Forward-Proxy zwischen Client und Webserver?",
+  "antwort": "Clientanfragen stellvertretend weiterleiten",
+  "falseAnswers": [
+    "DNS-Namen in IP-Adressen auflösen",
+    "Ethernet-Frames im LAN schalten",
+    "IP-Pakete zwischen Netzen routen"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 119,
+  "questionType": "choice",
+  "frage": "Wie kontrolliert ein Proxy den Webzugriff?",
+  "antwort": "Anfragen filtern und protokollieren",
+  "falseAnswers": [
+    "IP-Adressen per DHCP vergeben",
+    "Datenpakete auf Layer 2 schalten",
+    "WLAN-Kanäle automatisch wechseln"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 120,
+  "questionType": "choice",
+  "frage": "Warum setzt ein Unternehmen einen Forward-Proxy ein?",
+  "antwort": "Webzugriffe zentral prüfen",
+  "falseAnswers": [
+    "IP-Routen zwischen Netzen berechnen",
+    "Drahtlose Netzwerke bereitstellen",
+    "Domänennamen dauerhaft speichern"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 121,
     "questionType": "choice",
@@ -1452,41 +1452,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 122,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein DNS-Server, wenn ein Benutzer eine Webadresse eingibt?",
-    "antwort": "Namen übersetzen",
-    "falseAnswers": [
-      "IP-Adressen vergeben",
-      "Adressen umsetzen",
-      "Standardprobleme lösen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 123,
-    "questionType": "choice",
-    "frage": "Was ermittelt DNS zu einem Hostnamen wie www.beispiel.de?",
-    "antwort": "IP-Adresse ermitteln",
-    "falseAnswers": [
-      "MAC-Adresse ändern",
-      "Daten spiegeln",
-      "Passwort zurücksetzen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 124,
-    "questionType": "choice",
-    "frage": "Warum wird DNS in Firmennetzen und im Internet benötigt?",
-    "antwort": "Namen auflösen",
-    "falseAnswers": [
-      "IP-Adressen vergeben",
-      "Netzwerke segmentieren",
-      "Standardprobleme lösen"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 122,
+  "questionType": "choice",
+  "frage": "Was macht DNS aus einer Webadresse?",
+  "antwort": "Hostname in IP-Adresse auflösen",
+  "falseAnswers": [
+    "IP-Adresse per DHCP vergeben",
+    "Private Adresse per NAT umsetzen",
+    "Datenpaket zum Ziel routen"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 123,
+  "questionType": "choice",
+  "frage": "Welche Zuordnung liefert ein A- oder AAAA-Record?",
+  "antwort": "Hostname zu IP-Adresse",
+  "falseAnswers": [
+    "MAC-Adresse zu Switchport",
+    "Benutzername zu Passwort",
+    "Portnummer zu Prozess-ID"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 124,
+  "questionType": "choice",
+  "frage": "Welchen Vorteil bietet DNS im Netzwerk?",
+  "antwort": "Namen statt IPs verwenden",
+  "falseAnswers": [
+    "Datenverkehr automatisch verschlüsseln",
+    "Netzwerkgeräte physisch verbinden",
+    "IP-Pakete zwischen Netzen weiterleiten"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 125,
     "questionType": "choice",
@@ -1500,41 +1500,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 126,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein DHCP-Server, wenn ein neues Gerät dem Netzwerk beitritt?",
-    "antwort": "Netzwerkeinstellungen zuweisen",
-    "falseAnswers": [
-      "MAC-Adressen ermitteln",
-      "WLAN benennen",
-      "Störungen bearbeiten"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 127,
-    "questionType": "choice",
-    "frage": "Welche Netzwerkdaten kann ein DHCP-Server einem Endgerät automatisch zuweisen?",
-    "antwort": "IP-Adressen verteilen",
-    "falseAnswers": [
-      "Dateien verschlüsseln",
-      "MAC-Adressen ändern",
-      "Prozesse beenden"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 128,
-    "questionType": "choice",
-    "frage": "Warum wird DHCP in einem lokalen Netzwerk for Computer und Smartphones eingesetzt?",
-    "antwort": "Netzwerkkonfiguration automatisieren",
-    "falseAnswers": [
-      "WLAN-Namen anzeigen",
-      "Daten langfristig speichern",
-      "Störungen dokumentieren"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 126,
+  "questionType": "choice",
+  "frage": "Was macht ein DHCP-Server beim Beitritt eines neuen Geräts?",
+  "antwort": "Netzparameter per Lease zuweisen",
+  "falseAnswers": [
+    "MAC-Adresse des Geräts vergeben",
+    "Hostname per DNS auflösen",
+    "Datenpakete zum Internet routen"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 127,
+  "questionType": "choice",
+  "frage": "Welche Daten kann DHCP automatisch übertragen?",
+  "antwort": "IP, Maske, Gateway und DNS",
+  "falseAnswers": [
+    "MAC-Adresse, Switchport und SSID",
+    "Benutzername, Passwort und Rolle",
+    "Dateiname, Pfad und Zugriffsrecht"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 128,
+  "questionType": "choice",
+  "frage": "Warum wird DHCP in Unternehmensnetzen eingesetzt?",
+  "antwort": "Manuelle Netzkonfiguration reduzieren",
+  "falseAnswers": [
+    "IP-Konflikte vollständig ausschließen",
+    "DNS-Dienste dauerhaft ersetzen",
+    "Netzwerkverkehr automatisch verschlüsseln"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 129,
     "questionType": "choice",
@@ -1547,42 +1547,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 130,
-    "questionType": "choice",
-    "frage": "Welche Information ermittelt ein ARP-Request zu einer bekannten IPv4-Adresse?",
-    "antwort": "MAC-Adresse ermitteln",
-    "falseAnswers": [
-      "Netzwerkfehler melden",
-      "WLAN absichern",
-      "Ursache analysieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 131,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt das Address Resolution Protocol in einem lokalen Ethernet-Netzwerk?",
-    "antwort": "IP-MAC-Zuordnung ermitteln",
-    "falseAnswers": [
-      "Systemzeiten synchronisieren",
-      "Daten verschlüsseln",
-      "Benutzerkonten verwalten"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 132,
-    "questionType": "choice",
-    "frage": "Warum wird ARP benötigt, wenn ein Gerät Daten an einen anderen Host im lokalen Netzwerk senden möchte?",
-    "antwort": "Zielgerät identifizieren",
-    "falseAnswers": [
-      "Netzwerkfehler beheben",
-      "WLAN-Zugang absichern",
-      "Dateien dauerhaft speichern"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 130,
+  "questionType": "choice",
+  "frage": "Was fragt ein ARP-Request im lokalen Netz ab?",
+  "antwort": "Welche MAC zu einer IPv4 gehört",
+  "falseAnswers": [
+    "Welcher DNS-Server zuständig ist",
+    "Welche Route ins Internet führt",
+    "Welche IP per DHCP frei ist"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 131,
+  "questionType": "choice",
+  "frage": "Was speichert ein Gerät nach einer ARP-Antwort?",
+  "antwort": "IP-MAC-Zuordnung im ARP-Cache",
+  "falseAnswers": [
+    "IP-DNS-Zuordnung im DHCP-Pool",
+    "MAC-Port-Zuordnung im Switch",
+    "IP-Route in der DNS-Zone"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 132,
+  "questionType": "choice",
+  "frage": "Warum benötigt ein Host ARP im lokalen Ethernet?",
+  "antwort": "Ziel-MAC für Ethernet-Frame bestimmen",
+  "falseAnswers": [
+    "IP-Route zum Zielnetz berechnen",
+    "Hostname in IP-Adresse auflösen",
+    "Netzwerkkonfiguration automatisch beziehen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 133,
     "questionType": "choice",
@@ -1595,42 +1595,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 134,
-    "questionType": "choice",
-    "frage": "Was prüft ein Administrator mit den Werkzeugen Ping oder Traceroute?",
-    "antwort": "Netzwerkerreichbarkeit prüfen",
-    "falseAnswers": [
-      "Verbindungen sichern",
-      "Zugangsdaten stehlen",
-      "Änderungen steuern"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 135,
-    "questionType": "choice",
-    "frage": "Welche Funktion hat ICMP bei der Übertragung von Status- und Fehlermeldungen?",
-    "antwort": "Netzwerkfehler melden",
-    "falseAnswers": [
-      "Verbindungen verschlüsseln",
-      "Zugangsdaten stehlen",
-      "Dateien archivieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 136,
-    "questionType": "choice",
-    "frage": "Warum wird ICMP bei der Diagnose von Netzwerkverbindungen eingesetzt?",
-    "antwort": "Verbindungsprobleme erkennen",
-    "falseAnswers": [
-      "WLAN-Namen vergeben",
-      "Daten dauerhaft sichern",
-      "Software aktualisieren"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 134,
+  "questionType": "choice",
+  "frage": "Was untersuchen Ping und Traceroute bei einer Netzwerkverbindung?",
+  "antwort": "Erreichbarkeit und Pfad",
+  "falseAnswers": [
+    "DNS-Auflösung und DHCP-Lease",
+    "Verschlüsselung und Benutzerrechte",
+    "Dateispeicherung und Prozessstatus"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 135,
+  "questionType": "choice",
+  "frage": "Welche Rolle hat ICMP im IP-Netzwerk?",
+  "antwort": "Kontroll- und Fehlermeldungen übertragen",
+  "falseAnswers": [
+    "Nutzdaten zuverlässig übertragen",
+    "IP-Adressen automatisch vergeben",
+    "Webseiteninhalte verschlüsseln"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 136,
+  "questionType": "choice",
+  "frage": "Welche Messwerte liefert eine Netzwerkdiagnose mit ICMP?",
+  "antwort": "Antwortzeit und Erreichbarkeit",
+  "falseAnswers": [
+    "Bandbreite und Speicherplatz",
+    "IP-Lease und DNS-Gültigkeit",
+    "CPU-Last und Prozesspriorität"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 137,
     "questionType": "choice",
@@ -1643,42 +1643,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 138,
-    "questionType": "choice",
-    "frage": "Welche Eigenschaft bietet TCP einer Anwendung bei der Übertragung von Daten?",
-    "antwort": "Daten zuverlässig übertragen",
-    "falseAnswers": [
-      "Daten schnell senden",
-      "Daten erpressen",
-      "Änderungen zurücknehmen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 139,
-    "questionType": "choice",
-    "frage": "Wie stellt TCP sicher, dass übertragene Daten vollständig und in der richtigen Reihenfolge ankommen?",
-    "antwort": "Übertragung kontrollieren",
-    "falseAnswers": [
-      "Daten komprimieren",
-      "WLAN-Namen vergeben",
-      "Dateien archivieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 140,
-    "questionType": "choice",
-    "frage": "Warum wird TCP for eine zuverlässige Datenübertragung eingesetzt?",
-    "antwort": "Verlorene Daten erneut senden",
-    "falseAnswers": [
-      "Daten schneller verschlüsseln",
-      "Netzwerke physisch verbinden",
-      "Änderungen zurücknehmen"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 138,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft bietet TCP einer Anwendung?",
+  "antwort": "Zuverlässige, geordnete Datenübertragung",
+  "falseAnswers": [
+    "Garantiert niedrigste Latenz",
+    "Überträgt ohne Verbindungsaufbau",
+    "Verschlüsselt automatisch alle Daten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 139,
+  "questionType": "choice",
+  "frage": "Wie erkennt TCP fehlende oder ungeordnete Daten?",
+  "antwort": "Sequenznummern und ACKs",
+  "falseAnswers": [
+    "DNS-Einträge und TTL-Werte",
+    "MAC-Adressen und Switchports",
+    "IP-Adressen und Subnetzmasken"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 140,
+  "questionType": "choice",
+  "frage": "Was macht TCP bei einem nicht bestätigten Segment?",
+  "antwort": "Segment erneut senden",
+  "falseAnswers": [
+    "Route dauerhaft ändern",
+    "Nutzdaten verschlüsseln",
+    "Verbindung ohne Meldung beenden"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 141,
     "questionType": "choice",
@@ -1691,42 +1691,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 142,
-    "questionType": "choice",
-    "frage": "Welche Eigenschaft von UDP ist for eine Streaming-Anwendung besonders wichtig?",
-    "antwort": "Geringe Übertragungsverzögerung",
-    "falseAnswers": [
-      "Webseiten übertragen",
-      "Schadcode tarnen",
-      "Lösungen sammeln"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 143,
-    "questionType": "choice",
-    "frage": "Welche Beschreibung passt zum User Datagram Protocol?",
-    "antwort": "Daten schnell senden",
-    "falseAnswers": [
-      "Verbindungen zuverlässig sichern",
-      "Dateien dauerhaft speichern",
-      "Passwörter automatisch ändern"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 144,
-    "questionType": "choice",
-    "frage": "Warum wird UDP häufig bei Echtzeitanwendungen wie Live-Streaming oder Online-Spielen verwendet?",
-    "antwort": "Verzögerungen gering halten",
-    "falseAnswers": [
-      "Daten vollständig prüfen",
-      "Schadcode verschleiern",
-      "Lösungen dokumentieren"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 142,
+  "questionType": "choice",
+  "frage": "Welche UDP-Eigenschaft ist für Live-Streaming besonders wichtig?",
+  "antwort": "Geringe Latenz ohne Retransmission",
+  "falseAnswers": [
+    "Garantierte Paketzustellung",
+    "Garantierte Reihenfolge",
+    "Verbindungsaufbau vor dem Senden"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 143,
+  "questionType": "choice",
+  "frage": "Welche Beschreibung passt zu UDP?",
+  "antwort": "Verbindungsloser Datagrammversand",
+  "falseAnswers": [
+    "Verbindungsorientierter Byte-Stream",
+    "Zuverlässige Segmentübertragung",
+    "Automatische Flusskontrolle"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 144,
+  "questionType": "choice",
+  "frage": "Warum wird UDP für Echtzeitanwendungen verwendet?",
+  "antwort": "Verzögerung vor Vollständigkeit priorisieren",
+  "falseAnswers": [
+    "Verlorene Pakete erneut anfordern",
+    "Reihenfolge aller Pakete garantieren",
+    "Überlastung automatisch ausgleichen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 145,
     "questionType": "choice",
@@ -1740,41 +1740,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 146,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt HTTP, wenn ein Browser eine Webseite von einem Webserver anfordert?",
-    "antwort": "Webinhalte übertragen",
-    "falseAnswers": [
-      "Webdaten verschlüsseln",
-      "Dateien infizieren",
-      "Fernhilfe leisten"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 147,
-    "questionType": "choice",
-    "frage": "Wie kommunizieren Webbrowser und Webserver mithilfe von HTTP miteinander?",
-    "antwort": "Anfragen und Antworten",
-    "falseAnswers": [
-      "Daten dauerhaft sichern",
-      "WLAN-Signale verstärken",
-      "Benutzerkonten verwalten"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 148,
-    "questionType": "choice",
-    "frage": "Warum wird HTTP beim Aufrufen einer Webseite verwendet?",
-    "antwort": "Webseiten abrufen",
-    "falseAnswers": [
-      "Webdaten verschlüsseln",
-      "Schadcode tarnen",
-      "Fernzugriff absichern"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 146,
+  "questionType": "choice",
+  "frage": "Was regelt HTTP zwischen Browser und Webserver?",
+  "antwort": "Requests und Responses für Ressourcen",
+  "falseAnswers": [
+    "Verschlüsselung durch TLS",
+    "Namensauflösung durch DNS",
+    "Segmentübertragung durch TCP"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 147,
+  "questionType": "choice",
+  "frage": "Woran erkennt der Browser das Ergebnis einer HTTP-Anfrage?",
+  "antwort": "Am HTTP-Statuscode",
+  "falseAnswers": [
+    "An der MAC-Adresse",
+    "An der DNS-Zone",
+    "An der TCP-Portnummer allein"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 148,
+  "questionType": "choice",
+  "frage": "Warum wird HTTP für Webseiten verwendet?",
+  "antwort": "Ressourcen standardisiert anfordern",
+  "falseAnswers": [
+    "Übertragung automatisch verschlüsseln",
+    "IP-Pakete zwischen Netzen routen",
+    "Benutzerzustände dauerhaft speichern"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 149,
     "questionType": "choice",
@@ -1787,42 +1787,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 150,
-    "questionType": "choice",
-    "frage": "Welche Sicherheitsfunktion bietet HTTPS bei der Kommunikation zwischen Browser und Webserver?",
-    "antwort": "Kommunikation verschlüsseln",
-    "falseAnswers": [
-      "Dateien übertragen",
-      "Netzwerke verbreiten",
-      "Anforderungen beschreiben"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 151,
-    "questionType": "choice",
-    "frage": "Was schützt HTTPS, wenn ein Benutzer ein Passwort oder Zahlungsdaten auf einer Webseite eingibt?",
-    "antwort": "Vertrauliche Daten schützen",
-    "falseAnswers": [
-      "WLAN-Signale verstärken",
-      "Dateien infizieren",
-      "Prozesse anzeigen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 152,
-    "questionType": "choice",
-    "frage": "Warum wird HTTPS gegenüber unverschlüsseltem HTTP bevorzugt?",
-    "antwort": "Sichere Verbindung herstellen",
-    "falseAnswers": [
-      "Dateien übertragen",
-      "Netzwerke segmentieren",
-      "Anforderungen beschreiben"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 150,
+  "questionType": "choice",
+  "frage": "Welche Schutzfunktionen ergänzt HTTPS gegenüber HTTP?",
+  "antwort": "Verschlüsselung und Serverauthentifizierung",
+  "falseAnswers": [
+    "Datenkomprimierung und Archivierung",
+    "IP-Vergabe und Netzwerkrouting",
+    "Virenerkennung und Systemreparatur"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 151,
+  "questionType": "choice",
+  "frage": "Was schützt HTTPS bei Passwörtern oder Zahlungsdaten?",
+  "antwort": "Vertraulichkeit und Integrität",
+  "falseAnswers": [
+    "Verfügbarkeit und Datensicherung",
+    "Anonymität und Virenfreiheit",
+    "Benutzerrechte und Kontosperrung"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 152,
+  "questionType": "choice",
+  "frage": "Warum wird HTTPS gegenüber HTTP bevorzugt?",
+  "antwort": "Abhören und Manipulation erschweren",
+  "falseAnswers": [
+    "Übertragung grundsätzlich beschleunigen",
+    "DNS-Auflösung automatisch ersetzen",
+    "HTTP-Anfragen vollständig vermeiden"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 153,
     "questionType": "choice",
@@ -1835,42 +1835,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 154,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein FTP-Client bei der Verbindung mit einem FTP-Server?",
-    "antwort": "Dateien übertragen",
-    "falseAnswers": [
-      "Systemzugriff absichern",
-      "Anmeldung verstärken",
-      "Umsetzung beschreiben"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 155,
-    "questionType": "choice",
-    "frage": "Was ermöglicht FTP zwischen einem Client und einem Server?",
-    "antwort": "Dateien hochladen",
-    "falseAnswers": [
-      "Daten verschlüsseln",
-      "Netzwerke segmentieren",
-      "Prozesse überwachen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 156,
-    "questionType": "choice",
-    "frage": "Warum wird FTP auf einem Server eingerichtet?",
-    "antwort": "Dateiaustausch ermöglichen",
-    "falseAnswers": [
-      "Systemzugriff absichern",
-      "Anmeldung verstärken",
-      "Anforderungen beschreiben"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 154,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe hat ein FTP-Client?",
+  "antwort": "Dateitransfer über Befehle steuern",
+  "falseAnswers": [
+    "Dateien standardmäßig verschlüsseln",
+    "IP-Pakete zwischen Netzen routen",
+    "Hostnamen per DNS auflösen"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 155,
+  "questionType": "choice",
+  "frage": "Welche Dateioperationen ermöglicht FTP?",
+  "antwort": "Dateien hoch- und herunterladen",
+  "falseAnswers": [
+    "Dateien automatisch synchronisieren",
+    "Webseiteninhalte verschlüsseln",
+    "Prozesse auf dem Client starten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 156,
+  "questionType": "choice",
+  "frage": "Warum wird ein FTP-Server eingerichtet?",
+  "antwort": "Dateien zentral bereitstellen",
+  "falseAnswers": [
+    "Netzwerkverkehr automatisch verschlüsseln",
+    "IP-Adressen an Clients verteilen",
+    "Datenpakete zwischen Netzen routen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 157,
     "questionType": "choice",
@@ -1884,41 +1884,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 158,
-    "questionType": "choice",
-    "frage": "Welche Funktion bietet SSH, wenn ein Administrator sich von seinem Arbeitsplatz aus auf einem Server anmeldet?",
-    "antwort": "Sicheren Fernzugriff ermöglichen",
-    "falseAnswers": [
-      "E-Mails versenden",
-      "Zugangsdaten stehlen",
-      "Projektinteressen vertreten"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 159,
-    "questionType": "choice",
-    "frage": "Was ermöglicht SSH bei der Verwaltung eines entfernten Servers?",
-    "antwort": "Remote-System verwalten",
-    "falseAnswers": [
-      "Dateien archivieren",
-      "WLAN-Signale verstärken",
-      "Netzwerke segmentieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 160,
-    "questionType": "choice",
-    "frage": "Warum wird SSH bei der Remote-Verwaltung gegenüber unverschlüsselten Verfahren eingesetzt?",
-    "antwort": "Verbindung verschlüsseln",
-    "falseAnswers": [
-      "E-Mails übertragen",
-      "Daten dauerhaft sichern",
-      "Anforderungen beschreiben"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 158,
+  "questionType": "choice",
+  "frage": "Was stellt SSH bei der Anmeldung an einem entfernten Server bereit?",
+  "antwort": "Verschlüsselte Shell-Sitzung",
+  "falseAnswers": [
+    "Unverschlüsselten Dateitransfer",
+    "Automatische IP-Konfiguration",
+    "Direktes IP-Routing"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 159,
+  "questionType": "choice",
+  "frage": "Was ermöglicht SSH bei der Remote-Administration?",
+  "antwort": "Befehle auf dem Server ausführen",
+  "falseAnswers": [
+    "Dateien automatisch sichern",
+    "WLAN-Abdeckung erweitern",
+    "Netzwerksegmente physisch verbinden"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 160,
+  "questionType": "choice",
+  "frage": "Welche Vorteile bietet SSH gegenüber unverschlüsselten Verfahren?",
+  "antwort": "Vertraulichkeit, Integrität und Authentifizierung",
+  "falseAnswers": [
+    "Höhere Übertragungsgeschwindigkeit",
+    "Automatische IP-Adressvergabe",
+    "Schutz vor jedem Serverangriff"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 161,
     "questionType": "choice",
@@ -1931,42 +1931,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 162,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt SMTP, wenn ein Benutzer eine E-Mail abschickt?",
-    "antwort": "E-Mails versenden",
-    "falseAnswers": [
-      "Postfach synchronisieren",
-      "Daten prüfen",
-      "Projektfortschritt markieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 163,
-    "questionType": "choice",
-    "frage": "Was ermöglicht SMTP zwischen einem E-Mail-Client und einem Mailserver?",
-    "antwort": "Nachrichten weiterleiten",
-    "falseAnswers": [
-      "Dateien verschlüsseln",
-      "WLAN-Namen vergeben",
-      "Prozesse überwachen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 164,
-    "questionType": "choice",
-    "frage": "Warum wird SMTP in einer E-Mail-Infrastruktur benötigt?",
-    "antwort": "E-Mail-Versand ermöglichen",
-    "falseAnswers": [
-      "Postfächer synchronisieren",
-      "Daten archivieren",
-      "Projektziele bewerten"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 162,
+  "questionType": "choice",
+  "frage": "Was macht ein Mail-Client über SMTP?",
+  "antwort": "Nachricht an Mailserver übergeben",
+  "falseAnswers": [
+    "Nachrichten per IMAP abrufen",
+    "Hostnamen per DNS auflösen",
+    "Verbindung per TLS aufbauen"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 163,
+  "questionType": "choice",
+  "frage": "Was ermöglicht SMTP zwischen Mailservern?",
+  "antwort": "E-Mail-Nachrichten weiterleiten",
+  "falseAnswers": [
+    "Postfächer geräteübergreifend synchronisieren",
+    "Nachrichten dauerhaft auf dem Client speichern",
+    "Benutzerkonten im Verzeichnisdienst verwalten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 164,
+  "questionType": "choice",
+  "frage": "Warum wird SMTP in einer E-Mail-Infrastruktur benötigt?",
+  "antwort": "E-Mail-Versand vom Empfang trennen",
+  "falseAnswers": [
+    "E-Mails im Postfach synchronisieren",
+    "Nachrichten automatisch verschlüsseln",
+    "Empfänger ohne DNS ermitteln"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 165,
     "questionType": "choice",
@@ -1979,42 +1979,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 166,
-    "questionType": "choice",
-    "frage": "Welche Funktion bietet IMAP, wenn ein Benutzer dasselbe E-Mail-Konto auf Smartphone, Tablet und Computer verwendet?",
-    "antwort": "Postfach synchronisieren",
-    "falseAnswers": [
-      "E-Mails abholen",
-      "Identität bestätigen",
-      "Zeiten darstellen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 167,
-    "questionType": "choice",
-    "frage": "Was bleibt bei IMAP normalerweise auf dem Mailserver gespeichert?",
-    "antwort": "E-Mails und Ordner",
-    "falseAnswers": [
-      "Nur IP-Adressen",
-      "Digitale Zertifikate",
-      "Projektzeitpläne"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 168,
-    "questionType": "choice",
-    "frage": "Warum eignet sich IMAP besser als POP3 für den Zugriff auf ein Postfach mit mehreren Geräten?",
-    "antwort": "Änderungen synchronisieren",
-    "falseAnswers": [
-      "E-Mails verschlüsseln",
-      "Identitäten bestätigen",
-      "Uhren synchronisieren"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 166,
+  "questionType": "choice",
+  "frage": "Was synchronisiert IMAP zwischen mehreren Geräten?",
+  "antwort": "Postfachstatus und Ordner",
+  "falseAnswers": [
+    "Nur heruntergeladene Dateien",
+    "SMTP-Versandwarteschlangen",
+    "Lokale Benutzerprofile"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 167,
+  "questionType": "choice",
+  "frage": "Wo liegen Nachrichten und Ordner bei IMAP hauptsächlich?",
+  "antwort": "Auf dem Mailserver",
+  "falseAnswers": [
+    "Nur im lokalen Cache",
+    "Im DNS-Zonenfile",
+    "Auf dem DHCP-Server"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 168,
+  "questionType": "choice",
+  "frage": "Warum eignet sich IMAP für mehrere Geräte besser als POP3?",
+  "antwort": "Zentralen Postfachstand synchronisieren",
+  "falseAnswers": [
+    "E-Mails automatisch verschlüsseln",
+    "Passwörter serverseitig ersetzen",
+    "Nachrichten ohne Server speichern"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 169,
     "questionType": "choice",
@@ -2028,41 +2028,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 170,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein Mailclient mit POP3, wenn neue Nachrichten auf dem Mailserver liegen?",
-    "antwort": "E-Mails herunterladen",
-    "falseAnswers": [
-      "Uhren synchronisieren",
-      "Herkunft bestätigen",
-      "Projektdauer bestimmen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 171,
-    "questionType": "choice",
-    "frage": "Was geschieht bei POP3 typischerweise mit den abgerufenen E-Mails?",
-    "antwort": "Nachrichten lokal speichern",
-    "falseAnswers": [
-      "Postfach synchronisieren",
-      "Daten verschlüsseln",
-      "Projektfortschritt markieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 172,
-    "questionType": "choice",
-    "frage": "Warum wird POP3 for einen einfachen E-Mail-Abruf auf einem einzelnen Gerät verwendet?",
-    "antwort": "Einfachen Mailabruf ermöglichen",
-    "falseAnswers": [
-      "Uhren synchronisieren",
-      "Identität bestätigen",
-      "Netzwerke segmentieren"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 170,
+  "questionType": "choice",
+  "frage": "Was macht ein POP3-Client mit neuen Nachrichten?",
+  "antwort": "Nachrichten lokal herunterladen",
+  "falseAnswers": [
+    "Postfachstatus synchronisieren",
+    "E-Mails über SMTP versenden",
+    "Ordneränderungen serverweit spiegeln"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 171,
+  "questionType": "choice",
+  "frage": "Was geschieht bei POP3 typischerweise nach dem Abruf?",
+  "antwort": "Nachrichten lokal speichern",
+  "falseAnswers": [
+    "Nachrichtenstatus synchronisieren",
+    "Ordner auf dem Server verwalten",
+    "E-Mails an andere Server weiterleiten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 172,
+  "questionType": "choice",
+  "frage": "Warum eignet sich POP3 für ein einzelnes Gerät?",
+  "antwort": "Einwegabruf zum lokalen Speicher",
+  "falseAnswers": [
+    "Zentrale Synchronisation mehrerer Geräte",
+    "Serverseitige Verwaltung aller Ordner",
+    "Verschlüsselung ohne zusätzliche Verfahren"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 173,
     "questionType": "choice",
@@ -2076,41 +2076,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 174,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein NTP-Server for Computer und Netzwerkgeräte?",
-    "antwort": "Uhren synchronisieren",
-    "falseAnswers": [
-      "Netzwerke überwachen",
-      "Zugriffe beschränken",
-      "Optionen bewerten"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 175,
-    "questionType": "choice",
-    "frage": "Was stellt NTP in einem Netzwerk zwischen verschiedenen Geräten einheitlich bereit?",
-    "antwort": "Gemeinsame Systemzeit",
-    "falseAnswers": [
-      "Digitale Zertifikate",
-      "Benutzerberechtigungen",
-      "Netzwerkverbindungen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 176,
-    "questionType": "choice",
-    "frage": "Warum ist eine genaue Zeit im domänenbasierten Netzwerk besonders wichtig?",
-    "antwort": "Authentifizierung ermöglichen",
-    "falseAnswers": [
-      "Netzwerkverkehr überwachen",
-      "Optionen bewerten",
-      "Dateien archivieren"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 174,
+  "questionType": "choice",
+  "frage": "Was macht ein NTP-Server mit den Systemuhren im Netzwerk?",
+  "antwort": "Mit einer Referenzzeit abgleichen",
+  "falseAnswers": [
+    "Netzwerkverkehr analysieren",
+    "Benutzerrechte zentral vergeben",
+    "DNS-Anfragen beantworten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 175,
+  "questionType": "choice",
+  "frage": "Was stellt NTP für Netzwerkgeräte einheitlich bereit?",
+  "antwort": "Synchronisierte Systemzeit",
+  "falseAnswers": [
+    "Kerberos-Tickets",
+    "DHCP-Leases",
+    "DNS-Ressourceneinträge"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 176,
+  "questionType": "choice",
+  "frage": "Warum ist geringe Zeitabweichung in einer Windows-Domäne wichtig?",
+  "antwort": "Kerberos-Authentifizierung ermöglichen",
+  "falseAnswers": [
+    "IP-Adressen automatisch vergeben",
+    "Dateien zwischen Geräten synchronisieren",
+    "Netzwerkpakete schneller übertragen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 177,
     "questionType": "choice",
@@ -2124,41 +2124,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 178,
-    "questionType": "choice",
-    "frage": "Was meldet ein SNMP-Trap, wenn auf einem überwachten Netzwerkgerät ein kritisches Ereignis auftritt?",
-    "antwort": "Netzwerkereignisse melden",
-    "falseAnswers": [
-      "Verbindungen tunneln",
-      "Änderungen verhindern",
-      "Gefahren bewerten"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 179,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt SNMP bei Routern, Switches und anderen Netzwerkgeräten?",
-    "antwort": "Gerätezustände überwachen",
-    "falseAnswers": [
-      "Daten verschlüsseln",
-      "Dateien archivieren",
-      "Benutzerkonten erstellen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 180,
-    "questionType": "choice",
-    "frage": "Warum verwenden Monitoring-Tools SNMP zur Überwachung der IT-Infrastruktur?",
-    "antwort": "Statusdaten erfassen",
-    "falseAnswers": [
-      "Verbindungen tunneln",
-      "Änderungen verhindern",
-      "Gefahren bewerten"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 178,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet einen SNMP-Trap?",
+  "antwort": "Ereignis ohne vorherige Abfrage melden",
+  "falseAnswers": [
+    "Statuswerte regelmäßig abfragen",
+    "Konfiguration automatisch ändern",
+    "Datenverkehr verschlüsseln"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 179,
+  "questionType": "choice",
+  "frage": "Wie erfasst ein SNMP-Manager Gerätedaten?",
+  "antwort": "Agenten über OIDs abfragen",
+  "falseAnswers": [
+    "Traps regelmäßig beim Gerät anfordern",
+    "MAC-Adressen über DNS auflösen",
+    "Datenpakete durch den Router spiegeln"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 180,
+  "questionType": "choice",
+  "frage": "Warum wird SNMP im Infrastruktur-Monitoring eingesetzt?",
+  "antwort": "Zustands- und Leistungsdaten zentral erfassen",
+  "falseAnswers": [
+    "Geräte automatisch reparieren",
+    "Unerlaubte Verbindungen blockieren",
+    "Netzwerkdaten vollständig verschlüsseln"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 181,
     "questionType": "choice",
@@ -2172,41 +2172,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 182,
-    "questionType": "choice",
-    "frage": "Welche Funktion übernimmt ein VPN-Client, wenn sich ein Mitarbeiter mit dem Unternehmensnetzwerk verbindet?",
-    "antwort": "Geschützten Tunnel aufbauen",
-    "falseAnswers": [
-      "Netzwerk segmentieren",
-      "Dienste erreichen",
-      "Lösung erproben"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 183,
-    "questionType": "choice",
-    "frage": "Was schützt ein VPN-Tunnel bei der Datenübertragung über ein öffentliches Netzwerk?",
-    "antwort": "Datenverkehr verschlüsseln",
-    "falseAnswers": [
-      "Dateien dauerhaft speichern",
-      "WLAN-Namen vergeben",
-      "Prozesse überwachen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 184,
-    "questionType": "choice",
-    "frage": "Warum wird ein VPN im Homeoffice for den Zugriff auf interne Unternehmensdienste eingesetzt?",
-    "antwort": "Sicheren Fernzugriff ermöglichen",
-    "falseAnswers": [
-      "Netzwerk segmentieren",
-      "Lösung erproben",
-      "Daten archivieren"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 182,
+  "questionType": "choice",
+  "frage": "Was baut ein VPN-Client zum Unternehmensnetz auf?",
+  "antwort": "Authentifizierten, verschlüsselten Tunnel",
+  "falseAnswers": [
+    "Direkte LAN-Verbindung ohne Gateway",
+    "Öffentlichen DNS-Dienst",
+    "Separates WLAN für Mitarbeiter"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 183,
+  "questionType": "choice",
+  "frage": "Was schützt ein VPN-Tunnel über ein öffentliches Netzwerk?",
+  "antwort": "Vertraulichkeit und Integrität",
+  "falseAnswers": [
+    "Verfügbarkeit aller internen Dienste",
+    "Anonymität des Benutzers im Internet",
+    "Automatische Rechte auf jedem Server"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 184,
+  "questionType": "choice",
+  "frage": "Warum wird ein VPN im Homeoffice eingesetzt?",
+  "antwort": "Interne Netze sicher erreichen",
+  "falseAnswers": [
+    "Alle Internetdienste automatisch freischalten",
+    "Lokale Firewallregeln vollständig ersetzen",
+    "Datenverkehr grundsätzlich beschleunigen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 185,
     "questionType": "choice",
@@ -2220,41 +2220,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 186,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt ein VLAN innerhalb eines bestehenden lokalen Netzwerks?",
-    "antwort": "Netzwerk logisch segmentieren",
-    "falseAnswers": [
-      "Adressen umsetzen",
-      "Daten spiegeln",
-      "Lösung ausrollen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 187,
-    "questionType": "choice",
-    "frage": "Was entsteht durch die Einrichtung eines VLANs auf einem verwaltbaren Switch?",
-    "antwort": "Logisches Teilnetz",
-    "falseAnswers": [
-      "Öffentliche IP-Adresse",
-      "Datensicherung",
-      "VPN-Verbindung"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 188,
-    "questionType": "choice",
-    "frage": "Warum werden VLANs in großen Unternehmensnetzwerken eingesetzt?",
-    "antwort": "Datenverkehr logisch trennen",
-    "falseAnswers": [
-      "Adressen umsetzen",
-      "Daten spiegeln",
-      "Lösung ausrollen"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 186,
+  "questionType": "choice",
+  "frage": "Was bewirkt ein VLAN auf Layer 2?",
+  "antwort": "Eigene Broadcast-Domäne bilden",
+  "falseAnswers": [
+    "IP-Netze automatisch routen",
+    "Private Adressen per NAT umsetzen",
+    "Daten durch einen VPN-Tunnel senden"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 187,
+  "questionType": "choice",
+  "frage": "Was entsteht durch die Einrichtung eines VLANs?",
+  "antwort": "Logisch getrennte Layer-2-Domäne",
+  "falseAnswers": [
+    "Automatische Verbindung zwischen VLANs",
+    "Öffentliche IP-Adresse für jeden Port",
+    "Verschlüsselter Übertragungskanal"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 188,
+  "questionType": "choice",
+  "frage": "Warum werden VLANs in Unternehmensnetzen eingesetzt?",
+  "antwort": "Broadcasts und Gerätegruppen trennen",
+  "falseAnswers": [
+    "Datenverkehr automatisch verschlüsseln",
+    "Kommunikation zwischen VLANs ermöglichen",
+    "Physische Netzwerkkabel vollständig ersetzen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 189,
     "questionType": "choice",
@@ -2268,41 +2268,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 190,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt NAT an der Grenze zwischen einem privaten Netzwerk und dem Internet?",
-    "antwort": "IP-Adressen übersetzen",
-    "falseAnswers": [
-      "WLAN benennen",
-      "Parität verteilen",
-      "Daten abfragen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 191,
-    "questionType": "choice",
-    "frage": "Was ermöglicht NAT mehreren Geräten in einem privaten Netzwerk?",
-    "antwort": "Gemeinsamen Internetzugang",
-    "falseAnswers": [
-      "Daten spiegeln",
-      "Dateien organisieren",
-      "WLAN-Signale verstärken"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 192,
-    "questionType": "choice",
-    "frage": "Warum wird NAT an Übergängen zwischen privaten Netzwerken und dem Internet eingesetzt?",
-    "antwort": "Adressen gemeinsam nutzen",
-    "falseAnswers": [
-      "WLAN benennen",
-      "Parität verteilen",
-      "Daten abfragen"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 190,
+  "questionType": "choice",
+  "frage": "Was verändert NAT beim Übergang ins öffentliche Netzwerk?",
+  "antwort": "Private IP in öffentliche IP übersetzen",
+  "falseAnswers": [
+    "Zielroute im Routingprotokoll ändern",
+    "IP-Adresse per DHCP vergeben",
+    "Webanfrage durch Proxy weiterleiten"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 191,
+  "questionType": "choice",
+  "frage": "Was ermöglicht PAT mehreren Geräten im privaten LAN?",
+  "antwort": "Eine öffentliche IP gemeinsam nutzen",
+  "falseAnswers": [
+    "Eine eigene öffentliche IP pro Gerät",
+    "Direkte Erreichbarkeit ohne Firewall",
+    "Automatische Verschlüsselung jeder Verbindung"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 192,
+  "questionType": "choice",
+  "frage": "Warum wird NAT am Internetübergang eingesetzt?",
+  "antwort": "Private Adressen öffentlich nutzbar machen",
+  "falseAnswers": [
+    "IP-Pakete anhand von Zielen routen",
+    "Hostnamen in IP-Adressen auflösen",
+    "Webzugriffe anhand von URLs filtern"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 193,
     "questionType": "choice",
@@ -2316,41 +2316,41 @@
     "category": "Netzwerke"
   },
   {
-    "nr": 194,
-    "questionType": "choice",
-    "frage": "Welche Information sehen Benutzer, wenn sie auf ihrem Smartphone nach verfügbaren WLANs suchen?",
-    "antwort": "WLAN-Name anzeigen",
-    "falseAnswers": [
-      "WLAN absichern",
-      "Strom überbrücken",
-      "Daten einfügen"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 195,
-    "questionType": "choice",
-    "frage": "Was identifiziert eine SSID in einem drahtlosen Netzwerk?",
-    "antwort": "WLAN eindeutig identifizieren",
-    "falseAnswers": [
-      "Dateien verschlüsseln",
-      "IP-Adressen vergeben",
-      "Daten spiegeln"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 196,
-    "questionType": "choice",
-    "frage": "Warum wird eine SSID for ein WLAN festgelegt?",
-    "antwort": "Netzwerk unterscheidbar machen",
-    "falseAnswers": [
-      "WLAN absichern",
-      "Strom überbrücken",
-      "Daten einfügen"
-    ],
-    "category": "Netzwerke"
-  },
+  "nr": 194,
+  "questionType": "choice",
+  "frage": "Welche Kennung wird auf dem Smartphone als WLAN-Name angezeigt?",
+  "antwort": "SSID",
+  "falseAnswers": [
+    "BSSID",
+    "MAC-Adresse",
+    "IP-Adresse"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 195,
+  "questionType": "choice",
+  "frage": "Was identifiziert eine SSID?",
+  "antwort": "Logisches WLAN",
+  "falseAnswers": [
+    "Einzelnen Access Point",
+    "Netzwerkkarte",
+    "IP-Teilnetz"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 196,
+  "questionType": "choice",
+  "frage": "Warum wird eine SSID ausgesendet?",
+  "antwort": "WLAN für Clients erkennbar machen",
+  "falseAnswers": [
+    "WLAN-Verkehr verschlüsseln",
+    "IP-Adressen automatisch vergeben",
+    "Funkkanal technisch verstärken"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 197,
     "questionType": "choice",
@@ -2363,42 +2363,42 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 198,
-    "questionType": "choice",
-    "frage": "Welche Sicherheitsfunktion wird aktiviert, wenn ein WLAN auf WPA3 umgestellt wird?",
-    "antwort": "WLAN-Daten verschlüsseln",
-    "falseAnswers": [
-      "Zugangsdaten stehlen",
-      "Alle Daten sichern",
-      "Daten ändern"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 199,
-    "questionType": "choice",
-    "frage": "Wie schützt WPA3 ein drahtloses Netzwerk vor unbefugtem Zugriff?",
-    "antwort": "WLAN-Zugriff absichern",
-    "falseAnswers": [
-      "Dateien übertragen",
-      "Daten dauerhaft speichern",
-      "Änderungen dokumentieren"
-    ],
-    "category": "Netzwerke"
-  },
-  {
-    "nr": 200,
-    "questionType": "choice",
-    "frage": "Warum wird WPA3 bei WLAN-Netzen eingesetzt?",
-    "antwort": "WLAN absichern",
-    "falseAnswers": [
-      "Zugangsdaten stehlen",
-      "Alle Daten sichern",
-      "Daten ändern"
-    ],
-    "category": "Netzwerke"
-  },
+ {
+  "nr": 198,
+  "questionType": "choice",
+  "frage": "Was verbessert WPA3 beim Verbindungsaufbau eines WLANs?",
+  "antwort": "SAE-Authentifizierung und Sitzungsschlüssel",
+  "falseAnswers": [
+    "Automatische Datensicherung",
+    "IP-Adressvergabe per DHCP",
+    "Erkennung aller Schadprogramme"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 199,
+  "questionType": "choice",
+  "frage": "Wie erschwert WPA3 unbefugte WLAN-Zugriffe?",
+  "antwort": "Sicheren Schlüsselaustausch nutzen",
+  "falseAnswers": [
+    "WLAN-Passwort öffentlich übertragen",
+    "MAC-Adressen vollständig verbergen",
+    "Alle Netzwerkgeräte automatisch isolieren"
+  ],
+  "category": "Netzwerke"
+},
+{
+  "nr": 200,
+  "questionType": "choice",
+  "frage": "Warum wird WPA3 gegenüber älteren WLAN-Standards bevorzugt?",
+  "antwort": "Abhören und Offline-Angriffe erschweren",
+  "falseAnswers": [
+    "Datenverlust vollständig verhindern",
+    "WLAN-Reichweite automatisch erhöhen",
+    "Internetverbindung grundsätzlich beschleunigen"
+  ],
+  "category": "Netzwerke"
+},
   {
     "nr": 201,
     "questionType": "choice",
@@ -2412,41 +2412,41 @@
     "category": "IT-Sicherheit"
   },
   {
-    "nr": 202,
-    "questionType": "choice",
-    "frage": "Ein Angreifer verschickt eine gefälschte E-Mail mit einem Link zu einer nachgebauten Anmeldeseite. Welches Ergebnis ist beabsichtigt?",
-    "antwort": "Zugangsdaten stehlen",
-    "falseAnswers": [
-      "Daten erpressen",
-      "Änderungen sichern",
-      "Daten löschen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 203,
-    "questionType": "choice",
-    "frage": "Welche Beschreibung passt zur Bedrohung durch Phishing?",
-    "antwort": "Vertrauliche Zugangsdaten abgreifen",
-    "falseAnswers": [
-      "Daten erpressen",
-      "Änderungen sichern",
-      "Daten löschen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 204,
-    "questionType": "choice",
-    "frage": "Warum führen Kriminelle Phishing-Angriffe durch?",
-    "antwort": "Um Sensible Informationen zu stehlen",
-    "falseAnswers": [
-      "Um Datenänderungen zu sichern",
-      "Um Daten zu löschen",
-      "Um Systeme automatisch zu aktualisieren"
-    ],
-    "category": "IT-Sicherheit"
-  },
+  "nr": 202,
+  "questionType": "choice",
+  "frage": "Was versucht der Angreifer mit einer gefälschten Login-Seite zu erreichen?",
+  "antwort": "Anmeldedaten abgreifen",
+  "falseAnswers": [
+    "Dateien durch Ransomware verschlüsseln",
+    "Schadsoftware automatisch installieren",
+    "Datenbestände dauerhaft löschen"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 203,
+  "questionType": "choice",
+  "frage": "Welche Methode kennzeichnet Phishing?",
+  "antwort": "Gefälschte Identität zur Täuschung",
+  "falseAnswers": [
+    "Passwörter systematisch ausprobieren",
+    "Dateien durch Schadcode verschlüsseln",
+    "Server mit Anfragen überlasten"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 204,
+  "questionType": "choice",
+  "frage": "Welches Ziel verfolgt Phishing häufig?",
+  "antwort": "Fremde Konten übernehmen",
+  "falseAnswers": [
+    "Lösegeld durch Dateiverschlüsselung fordern",
+    "Netzwerkdienste durch Überlastung stören",
+    "Sicherheitsupdates automatisch ausrollen"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 205,
     "questionType": "choice",
@@ -2459,42 +2459,42 @@
     ],
     "category": "IT-Sicherheit"
   },
-  {
-    "nr": 206,
-    "questionType": "choice",
-    "frage": "Ein Angreifer verschickt eine gefälschte E-Mail. Was will er erreichen?",
-    "antwort": "Zugangsdaten stehlen",
-    "falseAnswers": [
-      "Daten erpressen",
-      "Änderungen sichern",
-      "Daten löschen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 207,
-    "questionType": "choice",
-    "frage": "Was beschreibt Phishing?",
-    "antwort": "Zugangsdaten stehlen",
-    "falseAnswers": [
-      "Daten erpressen",
-      "Änderungen sichern",
-      "Daten löschen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 208,
-    "questionType": "choice",
-    "frage": "Warum nutzen Kriminelle Phishing?",
-    "antwort": "Daten stehlen",
-    "falseAnswers": [
-      "Daten sichern",
-      "Daten löschen",
-      "Systeme aktualisieren"
-    ],
-    "category": "IT-Sicherheit"
-  },
+ {
+  "nr": 206,
+  "questionType": "choice",
+  "frage": "Was soll das Opfer bei einem Phishing-Angriff tun?",
+  "antwort": "Auf eine Täuschung reagieren",
+  "falseAnswers": [
+    "Eine technische Schwachstelle ausnutzen",
+    "Dateien durch Ransomware verschlüsseln",
+    "Einen Server mit Anfragen überlasten"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 207,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet Phishing?",
+  "antwort": "Täuschung durch gefälschte Identität",
+  "falseAnswers": [
+    "Passwörter automatisiert ausprobieren",
+    "Schadcode über eine Sicherheitslücke ausführen",
+    "Datenverkehr durch Überlastung blockieren"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 208,
+  "questionType": "choice",
+  "frage": "Welches Ziel verfolgen Kriminelle häufig mit Phishing?",
+  "antwort": "Konten oder sensible Daten übernehmen",
+  "falseAnswers": [
+    "Dateien verschlüsseln und Lösegeld fordern",
+    "Netzwerkdienste durch Überlastung stören",
+    "Sicherheitsupdates zentral verteilen"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 209,
     "questionType": "choice",
@@ -2507,42 +2507,42 @@
     ],
     "category": "IT-Sicherheit"
   },
-  {
-    "nr": 210,
-    "questionType": "choice",
-    "frage": "Was bezweckt ein Trojaner?",
-    "antwort": "Schadcode tarnen",
-    "falseAnswers": [
-      "Dateien infizieren",
-      "Daten speichern",
-      "Tabellen verbinden"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 211,
-    "questionType": "choice",
-    "frage": "Was ist ein Trojaner?",
-    "antwort": "Getarnter Schadcode",
-    "falseAnswers": [
-      "Dateiinfektion",
-      "Datenspeicher",
-      "Tabellenverbindung"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 212,
-    "questionType": "choice",
-    "frage": "Warum tarnen Angreifer Schadsoftware?",
-    "antwort": "Schadcode verstecken",
-    "falseAnswers": [
-      "Dateien infizieren",
-      "Daten speichern",
-      "Tabellen verbinden"
-    ],
-    "category": "IT-Sicherheit"
-  },
+ {
+  "nr": 210,
+  "questionType": "choice",
+  "frage": "Wie gelangt ein Trojaner häufig auf ein Gerät?",
+  "antwort": "Durch eine getarnte Installation",
+  "falseAnswers": [
+    "Durch selbstständige Netzwerkausbreitung",
+    "Durch Infektion anderer Dateien",
+    "Durch automatische Datenverschlüsselung"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 211,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet einen Trojaner?",
+  "antwort": "Malware mit falschem Zweckversprechen",
+  "falseAnswers": [
+    "Schadcode mit Selbstreproduktion",
+    "Programmcode in jeder Wirtsdatei",
+    "Software zur Lösegeldforderung"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 212,
+  "questionType": "choice",
+  "frage": "Warum tarnt sich ein Trojaner als nützliche Anwendung?",
+  "antwort": "Nutzer zur Installation verleiten",
+  "falseAnswers": [
+    "Sich selbstständig weiterverbreiten",
+    "Dateien ohne Benutzeraktion infizieren",
+    "Verschlüsselte Backups erstellen"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 213,
     "questionType": "choice",
@@ -2555,42 +2555,42 @@
     ],
     "category": "IT-Sicherheit"
   },
-  {
-    "nr": 214,
-    "questionType": "choice",
-    "frage": "Was verursacht ein Virus?",
-    "antwort": "Dateien infizieren",
-    "falseAnswers": [
-      "Netze verbreiten",
-      "Anfragen dokumentieren",
-      "Daten modellieren"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 215,
-    "questionType": "choice",
-    "frage": "Was ist ein Computervirus?",
-    "antwort": "Dateischädling",
-    "falseAnswers": [
-      "Netzwerkdienst",
-      "Anfragespeicher",
-      "Datenmodell"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 216,
-    "questionType": "choice",
-    "frage": "Warum ist ein Virus gefährlich?",
-    "antwort": "Dateien infizieren",
-    "falseAnswers": [
-      "Netze verbreiten",
-      "Anfragen dokumentieren",
-      "Daten modellieren"
-    ],
-    "category": "IT-Sicherheit"
-  },
+ {
+  "nr": 214,
+  "questionType": "choice",
+  "frage": "Wie verbreitet sich ein Computervirus typischerweise?",
+  "antwort": "Wirtsdateien infizieren und verändern",
+  "falseAnswers": [
+    "Sich selbstständig über Netzwerke verbreiten",
+    "Sich als nützliche Software tarnen",
+    "Dateien verschlüsseln und Lösegeld fordern"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 215,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet einen Computervirus?",
+  "antwort": "Schadcode mit einer Wirtsdatei",
+  "falseAnswers": [
+    "Eigenständige Netzwerkausbreitung ohne Wirt",
+    "Getarnte Anwendung mit versteckter Funktion",
+    "Erpressungssoftware mit Dateiverschlüsselung"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 216,
+  "questionType": "choice",
+  "frage": "Warum ist ein Virus besonders gefährlich?",
+  "antwort": "Infizierte Dateien können weiteren Code ausführen",
+  "falseAnswers": [
+    "Er verbreitet sich immer ohne Benutzeraktion",
+    "Er benötigt keine Datei zur Vermehrung",
+    "Er schützt Dateien durch automatische Backups"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 217,
     "questionType": "choice",
@@ -2604,41 +2604,41 @@
     "category": "IT-Sicherheit"
   },
   {
-    "nr": 218,
-    "questionType": "choice",
-    "frage": "Was bewirkt ein Netzwerkwurm?",
-    "antwort": "Netzwerk verbreiten",
-    "falseAnswers": [
-      "Anmeldung stärken",
-      "Dienste regeln",
-      "Redundanz senken"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 219,
-    "questionType": "choice",
-    "frage": "Was ist ein Netzwerkwurm?",
-    "antwort": "Selbstverbreitender Schadcode",
-    "falseAnswers": [
-      "Anmeldedienst",
-      "Netzwerkdienst",
-      "Redundanzsystem"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 220,
-    "questionType": "choice",
-    "frage": "Warum verbreitet sich ein Netzwerkwurm schnell?",
-    "antwort": "Automatische Verbreitung",
-    "falseAnswers": [
-      "Stärkere Anmeldung",
-      "Geregelte Dienste",
-      "Weniger Redundanz"
-    ],
-    "category": "IT-Sicherheit"
-  },
+  "nr": 218,
+  "questionType": "choice",
+  "frage": "Was bewirkt ein Netzwerkwurm typischerweise?",
+  "antwort": "Sich selbstständig im Netzwerk verbreiten",
+  "falseAnswers": [
+    "Sich an vorhandene Dateien anhängen",
+    "Sich als nützliche Software tarnen",
+    "Dateien verschlüsseln und Lösegeld fordern"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 219,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet einen Netzwerkwurm?",
+  "antwort": "Eigenständige, selbstreplizierende Malware",
+  "falseAnswers": [
+    "Schadcode mit notwendiger Wirtsdatei",
+    "Getarnte Anwendung ohne Selbstverbreitung",
+    "Erpressungssoftware mit Verschlüsselungsfunktion"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 220,
+  "questionType": "choice",
+  "frage": "Warum kann sich ein Netzwerkwurm sehr schnell verbreiten?",
+  "antwort": "Lücken automatisch über Netzwerke ausnutzen",
+  "falseAnswers": [
+    "Benutzer zum Öffnen einer Datei verleiten",
+    "Sich an jede Datei manuell anhängen",
+    "Für jede Verbreitung ein neues Passwort anfordern"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 221,
     "questionType": "choice",
@@ -2652,41 +2652,41 @@
     "category": "IT-Sicherheit"
   },
   {
-    "nr": 222,
-    "questionType": "choice",
-    "frage": "Was bezweckt MFA?",
-    "antwort": "Anmeldung absichern",
-    "falseAnswers": [
-      "Support weitergeben",
-      "Suche beschleunigen",
-      "Daten löschen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 223,
-    "questionType": "choice",
-    "frage": "Was ist MFA?",
-    "antwort": "Mehrfache Anmeldung",
-    "falseAnswers": [
-      "Supportsystem",
-      "Suchfunktion",
-      "Datensicherung"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 224,
-    "questionType": "choice",
-    "frage": "Warum wird MFA empfohlen?",
-    "antwort": "Konten besser schützen",
-    "falseAnswers": [
-      "Support entlasten",
-      "Suche beschleunigen",
-      "Daten löschen"
-    ],
-    "category": "IT-Sicherheit"
-  },
+  "nr": 222,
+  "questionType": "choice",
+  "frage": "Was bezweckt eine Multi-Faktor-Authentisierung?",
+  "antwort": "Identität mit mehreren Faktoren prüfen",
+  "falseAnswers": [
+    "Passwort mehrfach eingeben",
+    "Daten während der Übertragung verschlüsseln",
+    "Benutzerkonto automatisch entsperren"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 223,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet MFA?",
+  "antwort": "Mindestens zwei verschiedene Faktoren",
+  "falseAnswers": [
+    "Zwei Passwörter derselben Kategorie",
+    "Ein Passwort mit längerer Gültigkeit",
+    "Mehrere parallele Benutzerkonten"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 224,
+  "questionType": "choice",
+  "frage": "Warum erhöht MFA die Sicherheit eines Kontos?",
+  "antwort": "Ein Faktor allein reicht nicht aus",
+  "falseAnswers": [
+    "Passwörter werden automatisch ersetzt",
+    "Schadsoftware wird vollständig blockiert",
+    "Benutzerrechte werden dauerhaft erweitert"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 225,
     "questionType": "choice",
@@ -2699,42 +2699,42 @@
     ],
     "category": "IT-Sicherheit"
   },
-  {
-    "nr": 226,
-    "questionType": "choice",
-    "frage": "Was bezwecken Passphrasen?",
-    "antwort": "Zugang schützen",
-    "falseAnswers": [
-      "Daten prüfen",
-      "Probleme lösen",
-      "Änderungen bündeln"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 227,
-    "questionType": "choice",
-    "frage": "Was ist eine Passphrase?",
-    "antwort": "Langes Passwort",
-    "falseAnswers": [
-      "Datenprüfung",
-      "Problemlösung",
-      "Änderungsbündel"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 228,
-    "questionType": "choice",
-    "frage": "Warum Passphrasen nutzen?",
-    "antwort": "Besserer Schutz",
-    "falseAnswers": [
-      "Daten prüfen",
-      "Probleme lösen",
-      "Änderungen bündeln"
-    ],
-    "category": "IT-Sicherheit"
-  },
+ {
+  "nr": 226,
+  "questionType": "choice",
+  "frage": "Welchen Vorteil bietet eine Passphrase?",
+  "antwort": "Langer, merkbarer Zugangsschutz",
+  "falseAnswers": [
+    "Daten während der Übertragung verschlüsseln",
+    "Identität durch einen zweiten Faktor prüfen",
+    "Schadsoftware automatisch erkennen"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 227,
+  "questionType": "choice",
+  "frage": "Woraus besteht eine Passphrase typischerweise?",
+  "antwort": "Mehrere zufällige Wörter",
+  "falseAnswers": [
+    "Ein verschlüsseltes Datenarchiv",
+    "Ein einmaliger Bestätigungscode",
+    "Eine gespeicherte Passwort-Hashliste"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 228,
+  "questionType": "choice",
+  "frage": "Warum können Passphrasen sicherer als kurze Passwörter sein?",
+  "antwort": "Mehr Länge erschwert das Erraten",
+  "falseAnswers": [
+    "Sie aktivieren automatisch MFA",
+    "Sie verschlüsseln gespeicherte Dateien",
+    "Sie verhindern jeden Phishing-Angriff"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 229,
     "questionType": "choice",
@@ -2748,41 +2748,41 @@
     "category": "IT-Sicherheit"
   },
   {
-    "nr": 230,
-    "questionType": "choice",
-    "frage": "Was prüft ein Hashwert?",
-    "antwort": "Datenintegrität",
-    "falseAnswers": [
-      "Befehle",
-      "Identität",
-      "Störungen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 231,
-    "questionType": "choice",
-    "frage": "Was ist ein Hashwert?",
-    "antwort": "Prüfsumme",
-    "falseAnswers": [
-      "Befehl",
-      "Identität",
-      "Störung"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 232,
-    "questionType": "choice",
-    "frage": "Warum Hashwerte nutzen?",
-    "antwort": "Daten prüfen",
-    "falseAnswers": [
-      "Befehle verarbeiten",
-      "Identität bestätigen",
-      "Störungen bearbeiten"
-    ],
-    "category": "IT-Sicherheit"
-  },
+  "nr": 230,
+  "questionType": "choice",
+  "frage": "Was lässt sich durch den Vergleich zweier Hashwerte prüfen?",
+  "antwort": "Ob Daten verändert wurden",
+  "falseAnswers": [
+    "Ob Daten verschlüsselt wurden",
+    "Wer Daten erstellt hat",
+    "Ob ein Benutzer angemeldet ist"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 231,
+  "questionType": "choice",
+  "frage": "Was ist das Ergebnis einer Hashfunktion?",
+  "antwort": "Fester Wert aus beliebigen Daten",
+  "falseAnswers": [
+    "Entschlüsselbarer Originaltext",
+    "Digitale Identität des Benutzers",
+    "Komprimierte Sicherungskopie"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 232,
+  "questionType": "choice",
+  "frage": "Warum wird ein Hashwert beim Dateidownload verwendet?",
+  "antwort": "Dateiänderungen schnell erkennen",
+  "falseAnswers": [
+    "Datei während des Downloads verschlüsseln",
+    "Absender ohne Zertifikat authentifizieren",
+    "Datei automatisch gegen Malware schützen"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 233,
     "questionType": "choice",
@@ -2795,42 +2795,42 @@
     ],
     "category": "IT-Sicherheit"
   },
-  {
-    "nr": 234,
-    "questionType": "choice",
-    "frage": "Ein Server verwendet ein SSL-Zertifikat. Welches Ergebnis ist beabsichtigt?",
-    "antwort": "Serveridentität bestätigen",
-    "falseAnswers": [
-      "Daten zwischenspeichern",
-      "Ursache analysieren",
-      "Verbindung unterbrechen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 235,
-    "questionType": "choice",
-    "frage": "Welche Funktion hat ein digitales Zertifikat?",
-    "antwort": "Identität des Servers bestätigen",
-    "falseAnswers": [
-      "Daten zwischenspeichern",
-      "Ursache analysieren",
-      "Verbindung beschleunigen"
-    ],
-    "category": "IT-Sicherheit"
-  },
-  {
-    "nr": 236,
-    "questionType": "choice",
-    "frage": "Warum werden digitale Zertifikate im Web verwendet?",
-    "antwort": "Vertrauenswürdige Server identifizieren",
-    "falseAnswers": [
-      "Daten zwischenspeichern",
-      "Ursache analysieren",
-      "Webseiten automatisch erstellen"
-    ],
-    "category": "IT-Sicherheit"
-  },
+ {
+  "nr": 234,
+  "questionType": "choice",
+  "frage": "Was bestätigt ein TLS-Zertifikat eines Webservers?",
+  "antwort": "Bindung von Identität und öffentlichem Schlüssel",
+  "falseAnswers": [
+    "Gültigkeit des privaten Schlüssels offenlegen",
+    "Daten im Browser zwischenspeichern",
+    "Serverleistung automatisch erhöhen"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 235,
+  "questionType": "choice",
+  "frage": "Welche Bestandteile enthält ein digitales Serverzertifikat typischerweise?",
+  "antwort": "Identität, Public Key und CA-Signatur",
+  "falseAnswers": [
+    "Passwort, Session-Token und PIN",
+    "Private-Key, Cache und Cookie",
+    "IP-Route, DNS-Cache und MAC-Tabelle"
+  ],
+  "category": "IT-Sicherheit"
+},
+{
+  "nr": 236,
+  "questionType": "choice",
+  "frage": "Warum prüft ein Browser ein Serverzertifikat?",
+  "antwort": "Serveridentität vor TLS-Verbindung validieren",
+  "falseAnswers": [
+    "Webseite lokal zwischenspeichern",
+    "Datenübertragung automatisch beschleunigen",
+    "Jeden Angriff auf den Server verhindern"
+  ],
+  "category": "IT-Sicherheit"
+},
   {
     "nr": 237,
     "questionType": "choice",
@@ -2844,41 +2844,41 @@
     "category": "IT-Sicherheit"
   },
   {
-    "nr": 238,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe hat eine Datenbank?",
-    "antwort": "Daten strukturiert speichern",
-    "falseAnswers": [
-      "Daten zufällig löschen",
-      "Bildsignale verstärken",
-      "Stromspannung messen"
-    ],
-    "category": "Datenbanken"
-  },
-  {
-    "nr": 239,
-    "questionType": "choice",
-    "frage": "Was enthält eine Datenbanktabelle?",
-    "antwort": "Datensätze und Spalten",
-    "falseAnswers": [
-      "Nur Bilddateien",
-      "Nur Betriebssysteme",
-      "Nur Netzwerkkabel"
-    ],
-    "category": "Datenbanken"
-  },
-  {
-    "nr": 240,
-    "questionType": "choice",
-    "frage": "Welche Funktion besitzt ein Primärschlüssel?",
-    "antwort": "Datensatz eindeutig identifizieren",
-    "falseAnswers": [
-      "Daten automatisch verschlüsseln",
-      "Festplatten formatieren",
-      "Bilder komprimieren"
-    ],
-    "category": "Datenbanken"
-  },
+  "nr": 238,
+  "questionType": "choice",
+  "frage": "Welchen Zweck erfüllt eine relationale Datenbank hauptsächlich?",
+  "antwort": "Daten strukturiert verwalten und abrufen",
+  "falseAnswers": [
+    "Daten ohne feste Struktur zufällig speichern",
+    "Elektrische Signale direkt verstärken",
+    "Betriebssysteme automatisch installieren"
+  ],
+  "category": "Datenbanken"
+},
+{
+  "nr": 239,
+  "questionType": "choice",
+  "frage": "Wie sind Daten in einer relationalen Tabelle grundsätzlich angeordnet?",
+  "antwort": "Zeilen als Datensätze und Spalten als Attribute",
+  "falseAnswers": [
+    "Zeilen als Programme und Spalten als Netzwerkkabel",
+    "Zeilen als Bilddateien und Spalten als Betriebssysteme",
+    "Zeilen als Passwörter und Spalten als Strommesswerte"
+  ],
+  "category": "Datenbanken"
+},
+{
+  "nr": 240,
+  "questionType": "choice",
+  "frage": "Welche Bedingung muss ein Primärschlüssel erfüllen?",
+  "antwort": "Jeden Datensatz eindeutig und nicht leer identifizieren",
+  "falseAnswers": [
+    "Alle Datensätze automatisch verschlüsseln",
+    "Jede Tabelle in ein Bild umwandeln",
+    "Den Speicherplatz der Datenbank formatieren"
+  ],
+  "category": "Datenbanken"
+},
   {
     "nr": 241,
     "questionType": "choice",
@@ -2891,18 +2891,18 @@
     ],
     "category": "Datenbanken"
   },
-  {
-    "nr": 242,
-    "questionType": "choice",
-    "frage": "Was bedeutet das Sozialstaatsprinzip?",
-    "antwort": "Soziale Sicherheit gewährleisten",
-    "falseAnswers": [
-      "Steuern vollständig abschaffen",
-      "Arbeitszeit verlängern",
-      "Preise festlegen"
-    ],
-    "category": "Wirtschaft & Soziales"
-  },
+ {
+  "nr": 242,
+  "questionType": "choice",
+  "frage": "Welche Verpflichtung folgt aus dem Sozialstaatsprinzip?",
+  "antwort": "Soziale Sicherheit und sozialen Ausgleich fördern",
+  "falseAnswers": [
+    "Für alle Bürger dasselbe Einkommen festlegen",
+    "Marktwirtschaftliche Preise vollständig abschaffen",
+    "Staatliche Leistungen ohne Steuern finanzieren"
+  ],
+  "category": "Wirtschaft & Soziales"
+},
   {
     "nr": 243,
     "questionType": "choice",
@@ -2927,102 +2927,104 @@
     ],
     "category": "Wirtschaft & Soziales"
   },
-  {
-    "nr": 245,
-    "questionType": "choice",
-    "frage": "Was ist ein Tarifvertrag?",
-    "antwort": "Vereinbarung for Arbeitsbedingungen",
-    "falseAnswers": [
-      "Private Kaufvereinbarung",
-      "Technische Installationsanleitung",
-      "Datenbankabfrage"
-    ],
-    "category": "Wirtschaft & Soziales"
-  },
+ {
+  "nr": 245,
+  "questionType": "choice",
+  "frage": "Wer schließt einen Tarifvertrag und was regelt er?",
+  "antwort": "Gewerkschaft und Arbeitgeberseite vereinbaren Arbeitsbedingungen",
+  "falseAnswers": [
+    "Kundschaft und Unternehmen vereinbaren private Kaufpreise",
+    "Techniker und Hersteller beschreiben eine Geräteinstallation",
+    "Programmierer und Datenbank schließen eine Softwareabfrage"
+  ],
+  "category": "Wirtschaft & Soziales"
+},
+  [
   {
     "nr": 246,
     "questionType": "choice",
-    "frage": "Welche Aufgabe hat das Motherboard?",
-    "antwort": "Komponenten verbinden",
+    "frage": "Welche zentrale Rolle spielt das Motherboard im Computer?",
+    "antwort": "Es verbindet Komponenten und stellt ihre Kommunikation bereit",
     "falseAnswers": [
-      "Daten dauerhaft sichern",
-      "Bilder ausdrucken",
-      "Passwörter erzeugen"
+      "Es speichert Benutzerdaten dauerhaft ohne zusätzliche Laufwerke",
+      "Es wandelt digitale Dateien direkt in Papierausdrucke um",
+      "Es erzeugt und verwaltet automatisch alle Benutzerpasswörter"
     ],
     "category": "Hardware"
   },
   {
     "nr": 247,
     "questionType": "choice",
-    "frage": "Wofür dient ein CPU-Sockel?",
-    "antwort": "Prozessor aufnehmen",
+    "frage": "Welche Funktion erfüllt der CPU-Sockel auf dem Motherboard?",
+    "antwort": "Er stellt die mechanische und elektrische Verbindung zum Prozessor her",
     "falseAnswers": [
-      "Festplatten formatieren",
-      "Daten verschlüsseln",
-      "Töne ausgeben"
+      "Er speichert das Betriebssystem dauerhaft",
+      "Er verschlüsselt sämtliche Daten auf der Festplatte",
+      "Er wandelt digitale Audiodaten in Lautsprechersignale um"
     ],
     "category": "Hardware"
   },
   {
     "nr": 248,
     "questionType": "choice",
-    "frage": "Welche Aufgabe hat der Chipsatz?",
-    "antwort": "Datenverkehr steuern",
+    "frage": "Welche Aufgabe übernimmt der Chipsatz auf einem Motherboard?",
+    "antwort": "Er koordiniert die Kommunikation zwischen Prozessor, Speicher und Peripherie",
     "falseAnswers": [
-      "Dateien komprimieren",
-      "Bilder bearbeiten",
-      "Tastaturen reinigen"
+      "Er komprimiert automatisch alle Dateien des Betriebssystems",
+      "Er ersetzt die Grafikkarte bei der Bildberechnung",
+      "Er entfernt Staub und Verschmutzungen von Eingabegeräten"
     ],
     "category": "Hardware"
   },
   {
     "nr": 249,
     "questionType": "choice",
-    "frage": "Was ist UEFI?",
-    "antwort": "Moderne Firmware",
+    "frage": "Wie lässt sich UEFI am treffendsten beschreiben?",
+    "antwort": "Firmware-Schnittstelle zur Initialisierung und zum Starten des Systems",
     "falseAnswers": [
-      "Dateisystem",
-      "Datenbank",
-      "Programmiersprache"
+      "Ein Dateisystem zur Organisation persönlicher Dokumente",
+      "Eine Datenbank zur Speicherung von Benutzerkonten",
+      "Eine Programmiersprache zur Entwicklung von Anwendungen"
     ],
     "category": "Hardware"
   },
   {
     "nr": 250,
     "questionType": "choice",
-    "frage": "Welche Funktion übernimmt BIOS oder UEFI?",
-    "antwort": "Hardware initialisieren",
+    "frage": "Welche Aufgaben übernimmt BIOS oder UEFI beim Einschalten?",
+    "antwort": "Hardware initialisieren und den Start des Betriebssystems einleiten",
     "falseAnswers": [
-      "Datenbanken verwalten",
-      "Webseiten gestalten",
-      "Dateien komprimieren"
+      "Datenbanktabellen anlegen und SQL-Abfragen ausführen",
+      "Webseiteninhalte gestalten und im Browser anzeigen",
+      "Dateien unabhängig vom Betriebssystem automatisch komprimieren"
     ],
     "category": "Hardware"
   },
   {
     "nr": 251,
     "questionType": "choice",
-    "frage": "Welchen Vorteil bietet UEFI gegenüber BIOS?",
-    "antwort": "Größere Datenträger unterstützen",
+    "frage": "Welchen technischen Vorteil bietet UEFI häufig gegenüber klassischem BIOS?",
+    "antwort": "Es unterstützt GPT und damit größere Bootlaufwerke",
     "falseAnswers": [
-      "Weniger Arbeitsspeicher nutzen",
-      "Daten langsamer übertragen",
-      "Programme automatisch schreiben"
+      "Es benötigt grundsätzlich weniger Arbeitsspeicher als jede Hardware",
+      "Es ersetzt den Prozessor durch Firmware",
+      "Es schreibt vollständige Anwendungsprogramme ohne Benutzer"
     ],
     "category": "Hardware"
   },
   {
     "nr": 252,
     "questionType": "choice",
-    "frage": "Was prüft der Power On Self Test?",
-    "antwort": "Grundlegende Hardware",
+    "frage": "Was ist das Ziel des Power-On Self Tests (POST)?",
+    "antwort": "Vor dem Systemstart grundlegende Hardware auf Betriebsbereitschaft prüfen",
     "falseAnswers": [
-      "Internetverbindung",
-      "Benutzerrechte",
-      "Datenbankinhalte"
+      "Die Internetgeschwindigkeit des Computers messen",
+      "Die Zugriffsrechte aller Benutzerkonten kontrollieren",
+      "Die Inhalte sämtlicher Datenbanken auf Fehler untersuchen"
     ],
     "category": "Hardware"
-  },
+  }
+],
   {
     "nr": 253,
     "questionType": "choice",
@@ -3050,36 +3052,36 @@
   {
     "nr": 255,
     "questionType": "choice",
-    "frage": "Welche Aufgabe übernimmt die CPU?",
-    "antwort": "Befehle verarbeiten",
+    "frage": "Welche Rolle spielt die CPU bei der Programmausführung?",
+    "antwort": "Sie holt, dekodiert und führt Maschinenbefehle aus",
     "falseAnswers": [
-      "Daten dauerhaft speichern",
-      "Papier bedrucken",
-      "Netzwerkkabel verbinden"
+      "Sie speichert alle Benutzerdaten dauerhaft ohne Massenspeicher",
+      "Sie überträgt digitale Dokumente direkt auf Papier",
+      "Sie verbindet Netzwerkkabel mechanisch miteinander"
     ],
     "category": "Hardware"
   },
   {
     "nr": 256,
     "questionType": "choice",
-    "frage": "Was macht das Steuerwerk der CPU?",
-    "antwort": "Befehle koordinieren",
+    "frage": "Welche Schritte steuert das Steuerwerk einer CPU?",
+    "antwort": "Befehle holen, dekodieren und ihre Ausführung koordinieren",
     "falseAnswers": [
-      "Dateien speichern",
-      "Bilder anzeigen",
-      "Spannung erzeugen"
+      "Dateien dauerhaft speichern und automatisch sichern",
+      "Bildpunkte berechnen und ausschließlich auf dem Monitor anzeigen",
+      "Elektrische Versorgungsspannung für den gesamten Computer erzeugen"
     ],
     "category": "Hardware"
   },
   {
     "nr": 257,
     "questionType": "choice",
-    "frage": "Welche Aufgabe hat das Rechenwerk?",
-    "antwort": "Berechnungen durchführen",
+    "frage": "Welche Operationen führt das Rechenwerk beziehungsweise die ALU aus?",
+    "antwort": "Arithmetische und logische Operationen",
     "falseAnswers": [
-      "Programme speichern",
-      "Daten drucken",
-      "Benutzer anmelden"
+      "Programme dauerhaft auf einem Laufwerk speichern",
+      "Daten ohne Drucker direkt auf Papier ausgeben",
+      "Benutzerkonten anmelden und Zugriffsrechte verwalten"
     ],
     "category": "Hardware"
   },
@@ -3120,17 +3122,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 261,
-    "questionType": "choice",
-    "frage": "Welche Eigenschaft besitzt eine DVD?",
-    "antwort": "Optische Datenspeicherung",
-    "falseAnswers": [
-      "Rein magnetische Speicherung",
-      "Flüchtige Speicherung",
-      "Analoge Sprachübertragung"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 261,
+  "questionType": "choice",
+  "frage": "Wie werden Daten auf einer DVD gespeichert und ausgelesen?",
+  "antwort": "Optisch codiert und per Laser gelesen",
+  "falseAnswers": [
+    "Magnetisch auf rotierenden Schreibköpfen gespeichert",
+    "Flüchtig in elektronischen Speicherzellen gehalten",
+    "Analog als Sprachsignal auf einer Tonspur übertragen"
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 262,
     "questionType": "choice",
@@ -3297,7 +3299,7 @@
       "Alle Eingänge falsch",
       "Ausgänge zufällig wechseln"
     ],
-    "category": "IT-Grundlagen"
+    "category": "Logik"
   },
   {
     "nr": 276,
@@ -3309,7 +3311,7 @@
       "10",
       "11"
     ],
-    "category": "IT-Grundlagen"
+    "category": "Logik"
   },
   {
     "nr": 277,
@@ -3479,18 +3481,18 @@
     ],
     "category": "Netzwerke"
   },
-  {
-    "nr": 291,
-    "questionType": "choice",
-    "frage": "Welche Sprache wird häufig systemnah eingesetzt?",
-    "antwort": "C++",
-    "falseAnswers": [
-      "HTML",
-      "SQL",
-      "CSS"
-    ],
-    "category": "Programmierung"
-  },
+ {
+  "nr": 291,
+  "questionType": "choice",
+  "frage": "Welche Sprache wird häufig für systemnahe Programmierung mit objektorientierten Konzepten eingesetzt?",
+  "antwort": "C++",
+  "falseAnswers": [
+    "C",
+    "Rust",
+    "Java"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 292,
     "questionType": "choice",
@@ -3518,36 +3520,36 @@
   {
     "nr": 294,
     "questionType": "choice",
-    "frage": "Was speichert eine Variable?",
+    "frage": "Was speichert eine Variable während der Programmausführung?",
     "antwort": "Einen veränderbaren Wert",
     "falseAnswers": [
-      "Nur Programme",
-      "Nur Festplatten",
-      "Nur Netzwerkpakete"
+      "Einen unveränderlichen Wert",
+      "Eine feste Programmstruktur",
+      "Eine dauerhafte Hardwareeinstellung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 295,
     "questionType": "choice",
-    "frage": "Welche Anweisung wiederholt Programmcode?",
+    "frage": "Welche Kontrollstruktur führt einen Anweisungsblock wiederholt aus?",
     "antwort": "Schleife",
     "falseAnswers": [
-      "Variable",
-      "Klasse",
-      "Kommentar"
+      "Verzweigung",
+      "Deklaration",
+      "Sequenz"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 296,
     "questionType": "choice",
-    "frage": "Was beschreibt eine Funktion?",
-    "antwort": "Wiederverwendbaren Programmcode",
+    "frage": "Was beschreibt eine Funktion in einem Programm?",
+    "antwort": "Wiederverwendbaren Code mit Ein- und Ausgaben",
     "falseAnswers": [
-      "Hardwarebauteil",
-      "Datenbanktabelle",
-      "Netzwerkkabel"
+      "Fest verbautes Bauteil ohne Programmlogik",
+      "Gespeicherte Tabelle mit miteinander verknüpften Datensätzen",
+      "Physische Verbindung zwischen zwei Netzwerkgeräten"
     ],
     "category": "Programmierung"
   },
@@ -3555,35 +3557,35 @@
     "nr": 297,
     "questionType": "choice",
     "frage": "Was ist ein Algorithmus?",
-    "antwort": "Schrittweise Problemlösung",
+    "antwort": "Endliche Folge eindeutiger Schritte zur Problemlösung",
     "falseAnswers": [
-      "Speicherbaustein",
-      "Dateiformat",
-      "Netzwerkprotokoll"
+      "Elektronischer Baustein zur Speicherung von Maschinencode",
+      "Strukturierte Beschreibung eines digitalen Dateiinhalts",
+      "Regelwerk zur Übertragung von Daten zwischen Netzwerken"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 298,
     "questionType": "choice",
-    "frage": "Welche Eigenschaft besitzt ein guter Algorithmus?",
-    "antwort": "Eindeutige Anweisungen",
+    "frage": "Welche Eigenschaft sollte ein korrekter Algorithmus besitzen?",
+    "antwort": "Eindeutige Schritte und ein definiertes Ende",
     "falseAnswers": [
-      "Zufällige Ergebnisse",
-      "Unbegrenzte Laufzeit",
-      "Fehlende Eingaben"
+      "Unvorhersehbare Schritte ohne festgelegtes Ergebnis",
+      "Unbegrenzte Ausführung ohne Abbruchbedingung",
+      "Fehlende Eingaben trotz erforderlicher Verarbeitung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 299,
     "questionType": "choice",
-    "frage": "Was macht ein Sortieralgorithmus?",
-    "antwort": "Daten ordnen",
+    "frage": "Was bewirkt ein Sortieralgorithmus?",
+    "antwort": "Er ordnet Elemente nach einem Vergleichskriterium",
     "falseAnswers": [
-      "Daten verschlüsseln",
-      "Hardware prüfen",
-      "Dateien löschen"
+      "Er wandelt lesbare Daten in Geheimtext um",
+      "Er untersucht Bauteile auf elektrische Defekte",
+      "Er entfernt Dateien anhand eines Löschkriteriums"
     ],
     "category": "Programmierung"
   },
@@ -3600,29 +3602,29 @@
     "category": "Programmierung"
   },
   {
-    "nr": 301,
-    "questionType": "choice",
-    "frage": "Was ist eine Aussage in der Logik?",
-    "antwort": "Wahr oder falsch",
-    "falseAnswers": [
-      "Immer eine Frage",
-      "Nur eine Zahl",
-      "Eine Datei"
-    ],
-    "category": "Logik"
-  },
+  "nr": 301,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft besitzt eine Aussage in der klassischen Logik?",
+  "antwort": "Sie ist eindeutig wahr oder falsch",
+  "falseAnswers": [
+    "Sie ist grundsätzlich eine offene Frage",
+    "Sie besteht ausschließlich aus einer Zahl",
+    "Sie bezeichnet grundsätzlich eine gespeicherte Datei"
+  ],
+  "category": "Logik"
+},
   {
-    "nr": 302,
-    "questionType": "choice",
-    "frage": "Welche Wahrheitswerte besitzt die klassische Logik?",
-    "antwort": "Wahr und falsch",
-    "falseAnswers": [
-      "Groß und klein",
-      "Null und zwei",
-      "Ja und vielleicht"
-    ],
-    "category": "Logik"
-  },
+  "nr": 302,
+  "questionType": "choice",
+  "frage": "Welche Aussage beschreibt die Zweiwertigkeit der klassischen Logik korrekt?",
+  "antwort": "Jede Aussage besitzt genau einen Wahrheitswert: wahr oder falsch.",
+  "falseAnswers": [
+    "Jede Aussage kann gleichzeitig wahr und falsch sein.",
+    "Eine Aussage ist zunächst weder wahr noch falsch.",
+    "Der Wahrheitswert einer Aussage hängt grundsätzlich von ihrer Wahrscheinlichkeit ab."
+  ],
+  "category": "Logik"
+},
   {
     "nr": 303,
     "questionType": "choice",
@@ -4490,24 +4492,24 @@
   {
     "nr": 375,
     "questionType": "choice",
-    "frage": "Welche Hauptaufgabe hat ECC-Arbeitsspeicher?",
-    "antwort": "Speicherfehler erkennen und korrigieren",
+    "frage": "Wodurch kann ECC-Arbeitsspeicher einzelne Bitfehler im laufenden Betrieb behandeln?",
+    "antwort": "Zusätzliche Prüfbits ermöglichen Fehlererkennung und Korrektur",
     "falseAnswers": [
-      "Taktrate verdoppeln",
-      "Stromverbrauch halbieren",
-      "Grafikkarte direkt verbinden"
+      "Höhere Taktraten verdoppeln die Verarbeitungsgeschwindigkeit",
+      "Niedrigere Versorgungsspannung halbiert den Energieverbrauch",
+      "Direkte Busverbindung ersetzt die Grafikkarte im System"
     ],
     "category": "Hardware"
   },
   {
     "nr": 376,
     "questionType": "choice",
-    "frage": "Nach welchem Prinzip speichert eine Magnetfestplatte Daten?",
-    "antwort": "Magnetische Ausrichtung speichern",
+    "frage": "Welche physikalische Eigenschaft repräsentiert Daten auf einer Magnetfestplatte?",
+    "antwort": "Unterschiedliche Magnetisierung ferromagnetischer Bereiche",
     "falseAnswers": [
-      "Flash-Zellen laden",
-      "Daten optisch abtasten",
-      "Memristoren umschalten"
+      "Elektrische Ladung isolierter Flash-Speicherzellen",
+      "Reflexion eines Lasers an optischen Datenträgerschichten",
+      "Schaltzustand nichtflüchtiger Memristor-Widerstände"
     ],
     "category": "Hardware"
   },
@@ -4536,17 +4538,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 379,
-    "questionType": "choice",
-    "frage": "Welche Schnittstelle verbindet interne SATA-Festplatten mit dem Mainboard?",
-    "antwort": "SATA III",
-    "falseAnswers": [
-      "PCIe x16",
-      "Molex",
-      "IDE"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 379,
+  "questionType": "choice",
+  "frage": "Eine SATA-SSD erreicht trotz eines sehr schnellen Speichercontrollers höchstens etwa 550 MB/s. Welche Erklärung ist korrekt?",
+  "antwort": "SATA III begrenzt als Schnittstelle den maximalen Datendurchsatz",
+  "falseAnswers": [
+    "Molex begrenzt als Stromanschluss die Geschwindigkeit des Speichercontrollers",
+    "PCIe x16 verhindert als Grafikschnittstelle die Nutzung des SATA-Protokolls",
+    "IDE erhöht als älterer Standard automatisch die Übertragungsrate der SSD"
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 380,
     "questionType": "choice",
@@ -4560,41 +4562,41 @@
     "category": "Hardware"
   },
   {
-    "nr": 381,
-    "questionType": "choice",
-    "frage": "Was ist der Hauptvorteil einer NVMe-SSD gegenüber einer SATA-SSD?",
-    "antwort": "Höhere maximale Durchsatzrate durch PCIe-Anbindung",
-    "falseAnswers": [
-      "Geringerer Anschaffungspreis",
-      "Höhere Speicherkapazität",
-      "Unempfindlichkeit gegen Stromausfälle"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 381,
+  "questionType": "choice",
+  "frage": "Welche technische Kombination erklärt den Leistungsvorteil einer NVMe-SSD gegenüber einer SATA-SSD am besten?",
+  "antwort": "PCIe-Anbindung und ein für Flash-Speicher optimiertes Befehlsprotokoll",
+  "falseAnswers": [
+    "SATA-Anbindung und ein für Magnetfestplatten entwickeltes Befehlsprotokoll",
+    "Höhere NAND-Kapazität und ein größerer physischer Laufwerksrahmen",
+    "Stärkere Fehlerkorrektur und eine vollständige Unabhängigkeit von Stromversorgung"
+  ],
+  "category": "Hardware"
+},
   {
-    "nr": 382,
-    "questionType": "choice",
-    "frage": "Welche Komponente im PC wandelt Wechselstrom (AC) aus der Steckdose in Gleichstrom (DC) um?",
-    "antwort": "Schaltnetzteil",
-    "falseAnswers": [
-      "Mainboard",
-      "CPU-Spannungswandler",
-      "USV"
-    ],
-    "category": "Hardware"
-  },
-  {
-    "nr": 383,
-    "questionType": "choice",
-    "frage": "Was gibt die TPD (Thermal Design Power) bei einem Prozessor an?",
-    "antwort": "Die maximale Verlustleistung, die das Kühlsystem abführen muss",
-    "falseAnswers": [
-      "Die maximale Temperatur vor der Kernschmelze",
-      "Die empfohlene Raumtemperatur for den Betrieb",
-      "Die elektrische Leistung im Standby-Modus"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 382,
+  "questionType": "choice",
+  "frage": "Welche Baugruppe übernimmt im PC-Netzteil Gleichrichtung, Spannungswandlung und Regelung der Ausgangsspannungen?",
+  "antwort": "Schaltnetzteil",
+  "falseAnswers": [
+    "Gleichrichter",
+    "Spannungswandler",
+    "USV"
+  ],
+  "category": "Hardware"
+},
+ {
+  "nr": 383,
+  "questionType": "choice",
+  "frage": "Welche Aussage beschreibt die TDP eines Prozessors am genauesten?",
+  "antwort": "Sie ist ein thermisches Auslegungsziel für die erforderliche Kühlleistung.",
+  "falseAnswers": [
+    "Sie ist die dauerhaft festgelegte maximale elektrische Leistungsaufnahme.",
+    "Sie ist die höchstmögliche Temperatur, bevor der Prozessor beschädigt wird.",
+    "Sie ist die Leistungsaufnahme des Prozessors im Leerlauf und im Standby."
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 384,
     "questionType": "choice",
@@ -4608,17 +4610,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 385,
-    "questionType": "choice",
-    "frage": "Welcher Gehäusestandard beschreibt die Abmessungen und Befestigungspunkte von PC-Mainboards?",
-    "antwort": "ATX",
-    "falseAnswers": [
-      "ISO 9001",
-      "ITIL",
-      "RGB"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 385,
+  "questionType": "choice",
+  "frage": "Welcher Mainboard-Formfaktor steht typischerweise für 305 × 244 mm und bis zu sieben Erweiterungssteckplätze?",
+  "antwort": "ATX",
+  "falseAnswers": [
+    "Micro-ATX",
+    "Mini-ITX",
+    "BTX"
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 386,
     "questionType": "choice",
@@ -4632,17 +4634,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 387,
-    "questionType": "choice",
-    "frage": "Was versteht man unter dem Begriff 'Kaskadierung' bei USV-Anlagen?",
-    "antwort": "Paralleles Schalten mehrerer Akkus zur Kapazitätserhöhung",
-    "falseAnswers": [
-      "Hintereinanderschalten von Netzteilen",
-      "Automatische Abschaltung von Verbrauchern nach Priorität",
-      "Phasenverschiebung im Drehstromnetz"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 387,
+  "questionType": "choice",
+  "frage": "Welche elektrische Wirkung hat die Kaskadierung mehrerer Batteriezweige in einer USV?",
+  "antwort": "Die Kapazität und Überbrückungszeit steigen bei gleichbleibender Spannung.",
+  "falseAnswers": [
+    "Die Spannung steigt, während die Batteriekapazität unverändert bleibt.",
+    "Die Ausgangsfrequenz steigt, während die Akkus elektrisch entlastet werden.",
+    "Die Netzspannung wird stabilisiert, ohne zusätzliche Energiespeicher einzubinden."
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 388,
     "questionType": "choice",
@@ -4656,29 +4658,29 @@
     "category": "Hardware"
   },
   {
-    "nr": 389,
-    "questionType": "choice",
-    "frage": "Wie viele Pins besitzt ein Standard-24-Pin-ATX-Hauptstromstecker?",
-    "antwort": "24",
-    "falseAnswers": [
-      "20",
-      "8",
-      "12"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 389,
+  "questionType": "choice",
+  "frage": "Welche Beschreibung trifft auf den Standard-Hauptstromanschluss moderner ATX-Mainboards zu?",
+  "antwort": "24 Kontakte in zwei Reihen, häufig als 20+4-Stecker ausgeführt",
+  "falseAnswers": [
+    "20 Kontakte in zwei Reihen, ergänzt durch einen separaten 8-Pin-EPS-Stecker",
+    "8 Kontakte in einer Reihe, ausgelegt für die direkte CPU-Spannungsversorgung",
+    "12 Kontakte in zwei Reihen, vorgesehen für die Stromversorgung von SATA-Laufwerken"
+  ],
+  "category": "Hardware"
+},
   {
-    "nr": 390,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe hat das Wärmeleitmittel (Wärmeleitpaste) zwischen CPU und Kühler?",
-    "antwort": "Ausgleichen mikroskopischer Unebenheiten zur besseren Wärmeübertragung",
-    "falseAnswers": [
-      "Elektrische Isolierung des Prozessors",
-      "Festkleben des Kühlers auf dem Sockel",
-      "Schutz des Prozessors vor Staub"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 390,
+  "questionType": "choice",
+  "frage": "Warum verbessert Wärmeleitpaste den Wärmetransport zwischen CPU und Kühler?",
+  "antwort": "Sie verdrängt Luft in Mikrolücken und vergrößert dadurch den thermischen Kontakt.",
+  "falseAnswers": [
+    "Sie bildet eine elektrisch isolierende Schutzschicht zwischen allen CPU-Kontakten.",
+    "Sie ersetzt die mechanische Befestigung und hält den Kühler ohne Halterung fest.",
+    "Sie versiegelt die CPU gegen Staub und verhindert dadurch jede Wärmeentwicklung."
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 391,
     "questionType": "choice",
@@ -4692,17 +4694,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 392,
-    "questionType": "choice",
-    "frage": "Welche USV-Klasse bietet den besten Schutz vor Netzstörungen und Spannungsschwankungen?",
-    "antwort": "VFI (Online / Doppelwandler)",
-    "falseAnswers": [
-      "VFD (Offline)",
-      "VI (Line-Interactive)",
-      "Standby-USV"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 392,
+  "questionType": "choice",
+  "frage": "Warum bietet eine VFI-USV im Normalbetrieb den umfassendsten Schutz vor Netzstörungen?",
+  "antwort": "Sie speist die Verbraucher dauerhaft über einen Gleichrichter und Wechselrichter.",
+  "falseAnswers": [
+    "Sie schaltet die Verbraucher erst bei einem Netzausfall auf den Wechselrichter um.",
+    "Sie stabilisiert die Netzspannung nur innerhalb eines begrenzten Eingangsspannungsbereichs.",
+    "Sie trennt die Verbraucher bei Störungen vollständig vom Stromnetz und schaltet sie ab."
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 393,
     "questionType": "choice",
@@ -4723,27 +4725,27 @@
     "falseAnswers": [
       "ISO 27001",
       "GDPR",
-      "Bluetooth 5.0"
+      "Green Energy"
     ],
     "category": "Hardware"
   },
-  {
-    "nr": 395,
-    "questionType": "choice",
-    "frage": "Was versteht man unter dem Begriff 'Formfaktor' in der Hardwareentwicklung?",
-    "antwort": "Standardisierte Angaben zu Form, Größe und Befestigung von Komponenten",
-    "falseAnswers": [
-      "Die Geschwindigkeit einer Schnittstelle",
-      "Das Verhältnis zwischen Stromverbrauch und Rechenleistung",
-      "Die Anzahl der Prozessorkerne"
-    ],
-    "category": "Hardware"
-  },
+ {
+  "nr": 395,
+  "questionType": "choice",
+  "frage": "Welche Informationen legt ein Hardware-Formfaktor typischerweise fest?",
+  "antwort": "Abmessungen, Layout, Befestigungspunkte und Position wichtiger Anschlüsse",
+  "falseAnswers": [
+    "Übertragungsrate, Codierung und Fehlerkorrektur einer Schnittstelle",
+    "Leistungsaufnahme, Rechenleistung und maximale Taktrate eines Prozessors",
+    "Betriebssystem, Treibermodell und unterstützte Dateisysteme eines Geräts"
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 396,
     "questionType": "choice",
     "frage": "Welcher Bus-Typ wird zur internen Anbindung von Grafikkarte und modernen NVMe-SSDs genutzt?",
-    "antwort": "PCI Express (PCIe)",
+    "antwort": "PCIe",
     "falseAnswers": [
       "ISA",
       "AGP",
@@ -4752,22 +4754,22 @@
     "category": "Hardware"
   },
   {
-    "nr": 397,
-    "questionType": "choice",
-    "frage": "Welche Aufgabe hat der CMOS-Akku (z.B. CR2032) auf dem Mainboard?",
-    "antwort": "Stromversorgung der Echtzeituhr (RTC) und Speicherung der BIOS-Einstellungen",
-    "falseAnswers": [
-      "Notstromversorgung for die CPU bei Stromausfall",
-      "Beschleunigung des Systemstarts",
-      "Speichern des Betriebssystems"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 397,
+  "questionType": "choice",
+  "frage": "Welche Folge hat eine entladene CMOS-Batterie typischerweise, wenn der PC vollständig vom Stromnetz getrennt wird?",
+  "antwort": "Die Echtzeituhr und bestimmte BIOS- oder UEFI-Einstellungen können zurückgesetzt werden.",
+  "falseAnswers": [
+    "Die CPU erhält während des Betriebs keinen ausreichenden Strom und schaltet sofort ab.",
+    "Das Betriebssystem wird aus dem CMOS-Speicher gelöscht und muss vollständig neu installiert werden.",
+    "Das Netzteil übernimmt automatisch die Funktion einer USV und versorgt den PC weiter."
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 398,
     "questionType": "choice",
     "frage": "Welcher Begriff beschreibt den Stromverbrauch einer Komponente im ausgeschalteten, aber eingesteckten Zustand?",
-    "antwort": "Standby-Leistung / Ruhestrom",
+    "antwort": "Standby-Leistung",
     "falseAnswers": [
       "Nennleistung",
       "Spitzenlast",
@@ -4776,17 +4778,17 @@
     "category": "Hardware"
   },
   {
-    "nr": 399,
-    "questionType": "choice",
-    "frage": "Was kennzeichnet eine optische Maus im Vergleich zu einer Laser-Maus?",
-    "antwort": "Optische Mäuse nutzen eine LED zur Oberflächenabtastung",
-    "falseAnswers": [
-      "Laser-Mäuse funktionieren nicht auf Glas",
-      "Optische Mäuse benötigen keine Treiber",
-      "Laser-Mäuse sind immer kabellos"
-    ],
-    "category": "Hardware"
-  },
+  "nr": 399,
+  "questionType": "choice",
+  "frage": "Welche Aussage beschreibt den technischen Unterschied zwischen einer klassischen optischen Maus und einer Lasermaus am genauesten?",
+  "antwort": "Die optische Maus beleuchtet die Oberfläche mit einer LED, während die Lasermaus eine Laserdiode verwendet.",
+  "falseAnswers": [
+    "Die optische Maus erfasst Bewegungen mechanisch, während die Lasermaus einen Bildsensor verwendet.",
+    "Die optische Maus benötigt keine Bildverarbeitung, während die Lasermaus die Oberflächenbilder auswertet.",
+    "Die optische Maus arbeitet grundsätzlich kabellos, während die Lasermaus ausschließlich kabelgebunden betrieben wird."
+  ],
+  "category": "Hardware"
+},
   {
     "nr": 400,
     "questionType": "choice",
