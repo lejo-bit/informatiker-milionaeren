@@ -1,93 +1,96 @@
-# Informatiker – Quiz
+# Fachinformatiker – Quiz
 
-Interaktives Quiz für angehende (und aktuelle) Informatiker. Fragen auf Deutsch, unterschiedliche Fragetypen, Zeitlimit, Leben und eine Bestenliste mit Speicherung der Ergebnisse in Firebase Firestore.
+Ein interaktives Web-Quiz zur Vorbereitung auf die Fachinformatiker-Prüfung. Enthält offene und Multiple-Choice-Fragen, Zeitlimits, ein dynamisches Multiplikator- und Leben-System, Kategorien, Spieler-Titel sowie eine globale Bestenliste via Firebase Firestore.
 
 ## Spielprinzip
 
 ### Fragetypen
 
-In der Datei `fragen.json` befinden sich zwei Fragetypen:
+In der Fragenbasis (`fragen.json`) befinden sich zwei Fragetypen:
 
 - `questionType: "choice"` – **Multiple-Choice-Fragen** mit 4 Antwortmöglichkeiten.
-- `questionType: "open"` – **offene Fragen**, bei denen der Spieler die Antwort in ein Textfeld eingibt.
+- `questionType: "open"` – **Offene Fragen**, bei denen die Antwort manuell eingegeben wird (inkl. Levenshtein-Fuzzy-Matching und Zahlen-Normalisierung).
 
-Jede Frage hat eine richtige Antwort (`antwort`) und optional eine Liste falscher Antworten (`falseAnswers`).
+Jede Frage enthält optional eine Zuordnung zu einer **Kategorie** (z. B. Netzwerke, Datenbanken, Allgemein).
 
 ### Ablauf des Spiels
 
-- Zu Beginn gibt der Spieler einen **Namen/Nick** ein.
-- Der Spieler startet mit **3 Leben**.
-- Die Fragen werden **zufällig gemischt** (zufällige Reihenfolge, keine Wiederholungen).
-- Im HUD werden angezeigt:
-  - Anzahl der Leben (bei **1 verbleibenden Leben** fängt das Herz-Symbol an zu pulsieren),
-  - aktueller Punktestand,
-  - Spielername,
-  - verbleibende Zeit für die aktuelle Frage.
+- **Start**: Eingabe eines Spielernamens/Nicks.
+- **Startguthaben**: 3 Leben, 2-mal Überspringen (`Skips`).
+- **HUD-Anzeige**: Leben, aktueller Punktestand, aktiver Multiplikator, Countdown, visuelle Timer-Bar, Spieler-Titel und Kategorie-Badge.
 
-#### Zeit und Punkte
+#### Punkte & Multiplikatoren
 
-- **Multiple-Choice-Fragen** (`choice`):
-  - Zeitlimit: **30 Sekunden** pro Frage.
-  - richtige Antwort: **immer 100 Punkte** (zeitunabhängig).
-  - falsche Antwort: **–1 Leben**, keine Punkte.
+- **Streaks & Multiplikator**:
+  - 3 richtige Antworten in Folge: **1.5x Multiplikator**
+  - 6 richtige Antworten in Folge: **2.0x Multiplikator**
+  - 9+ richtige Antworten in Folge: **3.0x Multiplikator**
+- **Combo-Bonus**: Alle 4 richtigen Antworten in Folge erhält der Spieler **+1 Leben** geschenkt.
+- **Multiple-Choice**: 30 Sekunden Zeitlimit; Basiswert 100 Punkte (multipliziert mit dem Streak-Faktor).
+- **Offene Fragen**: 60 Sekunden Zeitlimit. Volle 100 Punkte innerhalb der ersten 30 Sekunden; danach -2 Punkte pro verbleibender Sekunde.
+- **Fehler / Timeout**: Zurücksetzen der Serie auf 0, Verlust von 1 Leben sowie Auslösen visueller Schadensteffekte.
 
-- **Offene Fragen** (`open`):
-  - Zeitlimit: **60 Sekunden** pro Frage.
-  - in den ersten **30 Sekunden** gibt eine richtige Antwort **100 Punkte**.
-  - nach 30 Sekunden werden pro **weiterer Sekunde** **2 Punkte abgezogen**:
-    - Punkteformel: `100 - (Sekunden nach 30s * 2)`, Minimum 0 Punkte.
+## Bestenliste & Firebase
 
-#### Leben, Combos und Game Over
-
-- **Combo-System**: Für jede **4 korrekten Antworten in Folge** erhält der Spieler **+1 Leben** geschenkt.
-  - Ein animierter Banner (`🎉 4 Richtige Antworten Combo! +1 Leben ❤️`) erscheint kurz oben auf dem Bildschirm.
-  - Bei einer falschen Antwort oder bei Ablauf der Zeit wird die Combo-Serie auf 0 zurückgesetzt.
-- Bei jeder falschen Antwort oder bei Zeitüberschreitung verliert der Spieler **1 Leben**.
-- Wenn nach einem Fehler oder Timeout die Leben auf **0** fallen, wird sofort der **„Game Over“-Bildschirm** angezeigt.
-- Der Game-Over-Screen zeigt den erreichten Punktestand und ermöglicht einen Neustart des Spiels.
-
-## Bestenliste und Firebase
-
-### Speichern der Ergebnisse
-
-Nach Spielende wird:
-
-- `saveScoreFirebase(playerName, score)` aufgerufen.
-- Das Ergebnis wird in der Firestore-Kollektion **`scores`** gespeichert:
-  - `name` – Spielername/Nick,
-  - `points` – Punktestand,
-  - `date` – Zeitstempel im ISO-Format (`new Date().toISOString()`).
-
-Diese Daten werden für die Erstellung der Bestenliste verwendet.
-
-### Laden und Sortieren der Ergebnisse
-
-Die Funktion `fetchScoresFirebase()`:
-
-1. Lädt alle Dokumente aus der Kollektion `scores` in Cloud Firestore.
-2. Sortiert die Ergebnisse **lokal** in JavaScript nach `points` absteigend (mehr Punkte ganz oben).
-3. Schneidet die Liste auf **TOP 10** Einträge zu.
-4. Übergibt die sortierten Ergebnisse an `renderScoreTable(scores)`.
-
-Die Tabelle „Bestenliste“ zeigt:
-
-- Platz (1–10),
-- Namen des Spielers,
-- dessen Punktestand.
+- **Speichern**: Nach Spielende wird das Ergebnis (`name`, `points`, `date`) automatisch in Firestore (`scores`) abgelegt.
+- **Ränge/Titel**: Basierend auf der erreichten Punktezahl erhält der Spieler beim Game Over einen passenden **Spieler-Titel** verliehen.
+- **Bestenliste**: Zeigt die **TOP 10** Spieler basierend auf absteigenden Punkten.
 
 ## Projektstruktur
 
-- `index.html` – HTML-Hauptseite mit dem Quiz-Markup, dem Combo-Banner, dem Game-Over-Screen, der Bestenliste und der Firebase-Konfiguration.
-- `style.css` – Styles für das Quiz, Puls-Animation des Herzens, Combo-Banner und die Ergebnistabelle.
-- `script.js` – Spiellogik:
-  - Laden der Fragen,
-  - Timer-Logik (Choice / Open),
-  - Auswerten der Antworten (zusammen mit `checker.js`),
-  - Verwaltung von Leben, Punktabzügen, Combo-Serien und HUD-Updates,
-  - Speichern und Laden der Ergebnisse aus Firestore.
-- `checker.js` – Hilfsfunktionen zur Prüfung der offenen Antworten.
-- `numbers.js` – Generierung und Normalisierung deutscher Zahlen (0–99) für den Antwortabgleich.
-- `fragen.json` – Fragenbasis für das Quiz.
+# Fachinformatiker – Quiz
+
+Ein interaktives Web-Quiz zur Vorbereitung auf die Fachinformatiker-Prüfung. Enthält offene und Multiple-Choice-Fragen, Zeitlimits, ein dynamisches Multiplikator- und Leben-System, Kategorien, Spieler-Titel sowie eine globale Bestenliste via Firebase Firestore.
+
+## Spielprinzip
+
+### Fragetypen
+
+In der Fragenbasis (`fragen.json`) befinden sich zwei Fragetypen:
+
+- `questionType: "choice"` – **Multiple-Choice-Fragen** mit 4 Antwortmöglichkeiten.
+- `questionType: "open"` – **Offene Fragen**, bei denen die Antwort manuell eingegeben wird (inkl. Levenshtein-Fuzzy-Matching und Zahlen-Normalisierung).
+
+Jede Frage enthält optional eine Zuordnung zu einer **Kategorie** (z. B. Netzwerke, Datenbanken, Allgemein).
+
+### Ablauf des Spiels
+
+- **Start**: Eingabe eines Spielernamens/Nicks.
+- **Startguthaben**: 3 Leben, 2-mal Überspringen (`Skips`).
+- **HUD-Anzeige**: Leben, aktueller Punktestand, aktiver Multiplikator, Countdown, visuelle Timer-Bar, Spieler-Titel und Kategorie-Badge.
+
+#### Punkte & Multiplikatoren
+
+- **Streaks & Multiplikator**:
+  - 3 richtige Antworten in Folge: **1.5x Multiplikator**
+  - 6 richtige Antworten in Folge: **2.0x Multiplikator**
+  - 9+ richtige Antworten in Folge: **3.0x Multiplikator**
+- **Combo-Bonus**: Alle 4 richtigen Antworten in Folge erhält der Spieler **+1 Leben** geschenkt.
+- **Multiple-Choice**: 30 Sekunden Zeitlimit; Basiswert 100 Punkte (multipliziert mit dem Streak-Faktor).
+- **Offene Fragen**: 60 Sekunden Zeitlimit. Volle 100 Punkte innerhalb der ersten 30 Sekunden; danach -2 Punkte pro verbleibender Sekunde.
+- **Fehler / Timeout**: Zurücksetzen der Serie auf 0, Verlust von 1 Leben sowie Auslösen visueller Schadensteffekte.
+
+## Bestenliste & Firebase
+
+- **Speichern**: Nach Spielende wird das Ergebnis (`name`, `points`, `date`) automatisch in Firestore (`scores`) abgelegt.
+- **Ränge/Titel**: Basierend auf der erreichten Punktezahl erhält der Spieler beim Game Over einen passenden **Spieler-Titel** verliehen.
+- **Bestenliste**: Zeigt die **TOP 10** Spieler basierend auf absteigenden Punkten.
+
+## Projektstruktur
+
+```text
+├── index.html       # UI-Struktur, Firebase SDK Script & Modul-Imports
+├── style.css        # Layout, Animationen, Timer-Bar und Responsive-Design
+├── main.js          # Haupteinstiegspunkt & Event-Listener
+├── game.js          # Kern-Spiellogik (Timer, Punkte, Navigation, Game-Loop)
+├── ui.js            # HUD-Updates, visual Effects, Multiplikator-Banners & Bestenliste
+├── state.js         # Zentraler Speicher für den Spielzustand (State Management)
+├── firebase.js      # Firestore-Anbindung (saveScoreFirebase, fetchScoresFirebase)
+├── checker.js       # Text-Analyse (Levenshtein-Distanz & Word-Overlap)
+├── numbers.js       # German-Number-Parser (z. B. "einundzwanzig" -> "21")
+└── fragen.json      # Fragenkatalog# Fachinformatiker – Quiz
+
+```
 
 ## Lokales Starten
 
