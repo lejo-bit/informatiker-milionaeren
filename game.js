@@ -306,7 +306,7 @@ export function handleAnswer() {
     document.getElementById("nextBtn").classList.remove("hidden");
 
     if (state.errorDelayInterval) clearTimeout(state.errorDelayInterval);
-    state.errorDelayInterval = setTimeout(goToNextQuestionAfterError, 15000);
+    state.errorDelayInterval = setTimeout(goToNextQuestionAfterError, 5000);
   }
 }
 
