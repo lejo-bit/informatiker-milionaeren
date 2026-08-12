@@ -63,6 +63,16 @@ Jede Frage enthält optional eine Zuordnung zu einer **Kategorie** (z. B. Netzwe
 - **Ränge/Titel**: Die **Bestenliste** zeigt die **TOP 10** Spieler basierend auf absteigenden Punkten – inklusive einer **Titel-Spalte**, die den zugehörigen Spieler-Titel anzeigt.
 - **Responsives Design**: Die Oberfläche ist für Smartphone-Bildschirme optimiert (kleinere Schriftgrößen, kompaktere Buttons, stapelbare Antworten).
 
+## Feedback-Funktion
+
+- **Immer sichtbarer Button**: Ein schwebender „Feedback"-Button ist dauerhaft in der unteren rechten Ecke sichtbar (über der Bestenliste).
+- **Modal-Dialog**: Beim Klick öffnet sich ein Modal mit genau **einem Eingabefeld** und einem **„Senden"-Button**.
+- **Spiel-Pause**: Während des Spiels wird das Spiel beim Öffnen des Modals **pausiert** (Timer und Verzögerungen werden angehalten) und beim Schließen **fortgesetzt**.
+- **Speichern in Firestore (`feedback`-Kollektion)**: Das Feedback wird mit 3 Feldern in Firestore gespeichert:
+  - `nr` – die Nummer der aktuellen Frage während des Spiels, oder `0` auf dem Start-/Game-Over-Bildschirm.
+  - `feedback` – der eingegebene Text des Spielers.
+  - `date` – das aktuelle Datum und die Uhrzeit (ISO-Format).
+
 ## Projektstruktur
 
 ```text
@@ -73,6 +83,7 @@ Jede Frage enthält optional eine Zuordnung zu einer **Kategorie** (z. B. Netzwe
 ├── ui.js            # HUD-Updates, Spieler-Titel, visual Effects & Bestenliste
 ├── state.js         # Zentraler Speicher für den Spielzustand (State Management)
 ├── firebase.js      # Firestore-Anbindung (saveScoreFirebase, fetchScoresFirebase)
+├── feedback.js      # Feedback-Button, Modal-Dialog & Firestore-Speicherung
 ├── checker.js       # Text-Analyse (Levenshtein-Distanz & Word-Overlap)
 ├── numbers.js       # German-Number-Parser (z. B. "einundzwanzig" -> "21")
 └── fragen.json      # Fragenkatalog

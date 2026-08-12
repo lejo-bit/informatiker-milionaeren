@@ -12004,77 +12004,77 @@
 "category": "Programmierung"
 },
   {
-    "nr": 1000,
-    "questionType": "choice",
-    "frage": "Was ist ein Prototyp im Requirements Engineering?",
-    "antwort": "Ein früher Entwurf zur Visualisierung und Validierung von Anforderungen",
-    "falseAnswers": [
-      "Das fertige Produkt",
-      "Ein Testbericht",
-      "Ein Lastenheft"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1000,
+  "questionType": "choice",
+  "frage": "Welches Ziel verfolgt Prototyping im Requirements Engineering?",
+  "antwort": "Frühe Überprüfung und Verfeinerung von Anforderungen",
+  "falseAnswers": [
+    "Endgültige Implementierung aller Funktionalitäten",
+    "Abschlussbericht über alle Tests",
+    "Vertragliche Sammlung aller Kundenwünsche"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1001,
+  "questionType": "choice",
+  "frage": "Wozu dient Brainstorming in der Anforderungserhebung?",
+  "antwort": "Strukturierte Sammlung vieler möglicher Lösungsansätze",
+  "falseAnswers": [
+    "Detaillierte Ausarbeitung technischer Schnittstellen",
+    "Formale Beschreibung von Testfällen",
+    "Rechtliche Fixierung der Projektziele"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1002,
+  "questionType": "choice",
+  "frage": "Wofür wird eine Anforderungsmatrix im Projekt genutzt?",
+  "antwort": "Zur geordneten Zuordnung und Nachverfolgung von Anforderungen",
+  "falseAnswers": [
+    "Zur grafischen Darstellung von Systemarchitekturen",
+    "Zur Planung aller Testumgebungen",
+    "Zur Zusammenfassung aller Vertragsklauseln"
+  ],
+  "category": "Programmierung"
+},
   {
-    "nr": 1001,
-    "questionType": "choice",
-    "frage": "Was ist Brainstorming im Requirements Engineering?",
-    "antwort": "Eine kreative Methode zur gemeinsamen Ideengenerierung",
-    "falseAnswers": [
-      "Ein technisches Design",
-      "Ein Testverfahren",
-      "Ein Vertragsmodell"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1002,
-    "questionType": "choice",
-    "frage": "Was ist eine Anforderungsmatrix?",
-    "antwort": "Eine tabellarische Übersicht aller Anforderungen mit Eigenschaften",
-    "falseAnswers": [
-      "Ein technisches Diagramm",
-      "Ein Testplan",
-      "Ein Lastenheft"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1003,
-    "questionType": "choice",
-    "frage": "Was ist Change Management im Requirements Engineering?",
-    "antwort": "Systematisches Verwalten von Änderungen an Anforderungen",
-    "falseAnswers": [
-      "Löschen alter Anforderungen",
-      "Erstellen neuer Anforderungen",
-      "Testen von Anforderungen"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1004,
-    "questionType": "choice",
-    "frage": "Was ist Traceability im Requirements Engineering?",
-    "antwort": "Nachverfolgbarkeit von Anforderungen durch alle Projektphasen",
-    "falseAnswers": [
-      "Löschen von Anforderungen",
-      "Ändern von Anforderungen",
-      "Testen von Anforderungen"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1005,
-    "questionType": "choice",
-    "frage": "Was ist ein Anforderungskatalog?",
-    "antwort": "Eine strukturierte Sammlung aller Anforderungen an das System",
-    "falseAnswers": [
-      "Ein technisches Diagramm",
-      "Ein Testbericht",
-      "Ein Pflichtenheft"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1003,
+  "questionType": "choice",
+  "frage": "Wozu dient Change Management bei Anforderungen im Projekt?",
+  "antwort": "Geplante Bewertung und Steuerung von Anforderungsänderungen",
+  "falseAnswers": [
+    "Automatisches Löschen veralteter Anforderungen",
+    "Spontanes Hinzufügen beliebiger neuer Anforderungen",
+    "Nur technische Tests der bestehenden Anforderungen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1004,
+  "questionType": "choice",
+  "frage": "Was beschreibt Traceability im Requirements Engineering am besten?",
+  "antwort": "Rückverfolgbarkeit einer Anforderung durch ihren gesamten Lebenszyklus",
+  "falseAnswers": [
+    "Einmaliges Löschen veralteter Anforderungsdokumente",
+    "Beliebiges Umformulieren von Anforderungen",
+    "Nur Zuordnung von Anforderungen zu Testfällen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1005,
+  "questionType": "choice",
+  "frage": "Wozu dient ein Anforderungskatalog in einem IT-Projekt?",
+  "antwort": "Strukturierte Sammlung und Priorisierung aller Systemanforderungen",
+  "falseAnswers": [
+    "Grafische Darstellung der Systemarchitektur",
+    "Zusammenfassung aller Testergebnisse",
+    "Detailliertes technisches Pflichtenheft des Lieferanten"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1006,
     "questionType": "choice",
@@ -12088,785 +12088,785 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1007,
-    "questionType": "choice",
-    "frage": "Was ist ein Szenario im Requirements Engineering?",
-    "antwort": "Eine konkrete Beschreibung einer typischen Nutzungssituation",
-    "falseAnswers": [
-      "Ein technisches Diagramm",
-      "Ein Testbericht",
-      "Ein Lastenheft"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1008,
-    "questionType": "choice",
-    "frage": "Was ist ein Glossar im Requirements Engineering?",
-    "antwort": "Ein Verzeichnis aller Fachbegriffe mit Definitionen",
-    "falseAnswers": [
-      "Ein technisches Diagramm",
-      "Ein Testbericht",
-      "Ein Pflichtenheft"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1009,
-    "questionType": "choice",
-    "frage": "Was ist ein Zielkonflikt im Requirements Engineering?",
-    "antwort": "Wenn sich Anforderungen gegenseitig ausschließen oder behindern",
-    "falseAnswers": [
-      "Wenn alle Anforderungen gleich sind",
-      "Wenn keine Anforderungen vorhanden sind",
-      "Wenn Anforderungen identisch sind"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1010,
-    "questionType": "choice",
-    "frage": "Was ist Requirements Management?",
-    "antwort": "Verwaltung und Steuerung von Anforderungen während des Projekts",
-    "falseAnswers": [
-      "Löschen von Anforderungen",
-      "Erstellen von Anforderungen",
-      "Testen von Anforderungen"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1011,
-    "questionType": "choice",
-    "frage": "Was ist eine Benutzeranforderung?",
-    "antwort": "Eine Anforderung aus Sicht des späteren Benutzers",
-    "falseAnswers": [
-      "Eine technische Anforderung",
-      "Eine Systemanforderung",
-      "Eine Randbedingung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1012,
-    "questionType": "choice",
-    "frage": "Was ist eine Systemanforderung?",
-    "antwort": "Eine detaillierte, technische Spezifikation für Entwickler",
-    "falseAnswers": [
-      "Eine Anforderung aus Benutzersicht",
-      "Eine Randbedingung",
-      "Eine Qualitätsanforderung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1013,
-    "questionType": "choice",
-    "frage": "Was ist eine Qualitätsanforderung?",
-    "antwort": "Eine Anforderung an die Qualität des Systems (z.B. Performance)",
-    "falseAnswers": [
-      "Eine funktionale Anforderung",
-      "Eine Benutzeranforderung",
-      "Eine Randbedingung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1014,
-    "questionType": "choice",
-    "frage": "Was ist ein Review im Requirements Engineering?",
-    "antwort": "Eine systematische Prüfung von Anforderungen durch Stakeholder",
-    "falseAnswers": [
-      "Ein Test des Systems",
-      "Ein technisches Design",
-      "Ein Lastenheft"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1015,
-    "questionType": "choice",
-    "frage": "Was ist eine Anforderungs-ID?",
-    "antwort": "Eine eindeutige Kennung für jede Anforderung",
-    "falseAnswers": [
-      "Ein technisches Diagramm",
-      "Ein Testbericht",
-      "Ein Pflichtenheft"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1016,
-    "questionType": "choice",
-    "frage": "Was ist ein Ist-Zustand?",
-    "antwort": "Die aktuelle Situation vor der Implementierung",
-    "falseAnswers": [
-      "Die geplante Zukunft",
-      "Der fertige Zustand",
-      "Ein Testbericht"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1017,
-    "questionType": "choice",
-    "frage": "Was ist ein Soll-Zustand?",
-    "antwort": "Die geplante Situation nach der Implementierung",
-    "falseAnswers": [
-      "Die aktuelle Situation",
-      "Der fertige Zustand",
-      "Ein Testbericht"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1018,
-    "questionType": "choice",
-    "frage": "Was ist ein Pflichtenheft laut DIN 69901-5?",
-    "antwort": "Die vom Auftragnehmer erarbeitete Realisierungsvorgabe",
-    "falseAnswers": [
-      "Die vom Auftraggeber gestellten Forderungen",
-      "Ein Vertrag",
-      "Ein Testplan"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1019,
-    "questionType": "choice",
-    "frage": "Was ist ein Lastenheft laut DIN 69901-5?",
-    "antwort": "Die vom Auftraggeber festgelegte Gesamtheit der Forderungen",
-    "falseAnswers": [
-      "Die vom Auftragnehmer erarbeitete Lösung",
-      "Ein Vertrag",
-      "Ein Testplan"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1020,
-    "questionType": "choice",
-    "frage": "Was ist Requirements Elicitation?",
-    "antwort": "Das systematische Ermitteln von Anforderungen",
-    "falseAnswers": [
-      "Das Löschen von Anforderungen",
-      "Das Testen von Anforderungen",
-      "Das Implementieren von Anforderungen"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1021,
-    "questionType": "choice",
-    "frage": "Was ist Requirements Documentation?",
-    "antwort": "Das strukturierte Festhalten von Anforderungen",
-    "falseAnswers": [
-      "Das Löschen von Anforderungen",
-      "Das Testen von Anforderungen",
-      "Das Implementieren von Anforderungen"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1022,
-    "questionType": "choice",
-    "frage": "Was ist Requirements Validation?",
-    "antwort": "Das Prüfen, ob die richtigen Anforderungen gewählt wurden",
-    "falseAnswers": [
-      "Das Prüfen der formalen Korrektheit",
-      "Das Testen des Systems",
-      "Das Implementieren von Anforderungen"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1023,
-    "questionType": "choice",
-    "frage": "Was ist ein ER-Modell?",
-    "antwort": "Ein konzeptionelles Modell zur Darstellung von Entitäten, Attributen und Beziehungen",
-    "falseAnswers": [
-      "Ein physisches Datenbankmodell",
-      "Ein Programmiersprachen-Modell",
-      "Ein Netzwerkprotokoll"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1024,
-    "questionType": "choice",
-    "frage": "Was ist eine Entität im ER-Modell?",
-    "antwort": "Ein Objekt oder Konzept, über das Daten gespeichert werden",
-    "falseAnswers": [
-      "Eine Beziehung zwischen Tabellen",
-      "Ein Attribut einer Tabelle",
-      "Ein Primärschlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1025,
-    "questionType": "choice",
-    "frage": "Was ist ein Attribut im ER-Modell?",
-    "antwort": "Eine Eigenschaft oder Beschreibung einer Entität",
-    "falseAnswers": [
-      "Eine Beziehung zwischen Entitäten",
-      "Eine Entität selbst",
-      "Ein Primärschlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1026,
-    "questionType": "choice",
-    "frage": "Was ist eine Beziehung im ER-Modell?",
-    "antwort": "Eine Verbindung zwischen zwei oder mehr Entitäten",
-    "falseAnswers": [
-      "Eine Eigenschaft einer Entität",
-      "Eine Entität selbst",
-      "Ein Attribut"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1027,
-    "questionType": "choice",
-    "frage": "Was ist eine 1:n-Beziehung?",
-    "antwort": "Eine Entität kann mit mehreren Instanzen einer anderen Entität verknüpft sein",
-    "falseAnswers": [
-      "Mehrere Entitäten mit einer anderen",
-      "Eine Entität mit genau einer anderen",
-      "Keine Verknüpfung zwischen Entitäten"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1028,
-    "questionType": "choice",
-    "frage": "Was ist eine n:m-Beziehung?",
-    "antwort": "Mehrere Instanzen einer Entität können mit mehreren einer anderen verknüpft sein",
-    "falseAnswers": [
-      "Eine Entität mit mehreren anderen",
-      "Eine Entität mit einer anderen",
-      "Keine Verknüpfung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1029,
-    "questionType": "choice",
-    "frage": "Was ist eine 1:1-Beziehung?",
-    "antwort": "Eine Instanz einer Entität ist mit genau einer Instanz einer anderen verknüpft",
-    "falseAnswers": [
-      "Eine Entität mit mehreren anderen",
-      "Mehrere mit mehreren",
-      "Keine Verknüpfung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1030,
-    "questionType": "choice",
-    "frage": "Was ist ein Primärschlüssel?",
-    "antwort": "Ein Attribut oder eine Kombination, die jeden Datensatz eindeutig identifiziert",
-    "falseAnswers": [
-      "Ein beliebiges Attribut",
-      "Ein Fremdschlüssel",
-      "Ein Index"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1031,
-    "questionType": "choice",
-    "frage": "Was ist ein Fremdschlüssel?",
-    "antwort": "Ein Attribut, das auf den Primärschlüssel einer anderen Tabelle verweist",
-    "falseAnswers": [
-      "Ein Primärschlüssel",
-      "Ein Index",
-      "Ein beliebiges Attribut"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1032,
-    "questionType": "choice",
-    "frage": "Was ist ein zusammengesetzter Primärschlüssel?",
-    "antwort": "Ein Primärschlüssel aus mehreren Attributen",
-    "falseAnswers": [
-      "Ein Primärschlüssel aus einem Attribut",
-      "Ein Fremdschlüssel",
-      "Ein Index"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1033,
-    "questionType": "choice",
-    "frage": "Was ist die Kardinalität einer Beziehung?",
-    "antwort": "Die Anzahl der möglichen Verknüpfungen zwischen Entitäten",
-    "falseAnswers": [
-      "Die Anzahl der Attribute",
-      "Die Anzahl der Entitäten",
-      "Die Anzahl der Primärschlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1034,
-    "questionType": "choice",
-    "frage": "Was ist eine schwache Entität?",
-    "antwort": "Eine Entität, die ohne eine andere Entität nicht eindeutig identifiziert werden kann",
-    "falseAnswers": [
-      "Eine Entität mit Primärschlüssel",
-      "Eine starke Entität",
-      "Eine Beziehung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1035,
-    "questionType": "choice",
-    "frage": "Was ist eine starke Entität?",
-    "antwort": "Eine Entität, die unabhängig durch eigenen Primärschlüssel identifiziert wird",
-    "falseAnswers": [
-      "Eine Entität ohne Primärschlüssel",
-      "Eine schwache Entität",
-      "Eine Beziehung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1036,
-    "questionType": "choice",
-    "frage": "Was ist ein abgeleitetes Attribut?",
-    "antwort": "Ein Attribut, dessen Wert aus anderen Attributen berechnet wird",
-    "falseAnswers": [
-      "Ein gespeichertes Attribut",
-      "Ein Primärschlüssel",
-      "Ein Fremdschlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1037,
-    "questionType": "choice",
-    "frage": "Was ist ein zusammengesetztes Attribut?",
-    "antwort": "Ein Attribut, das in mehrere Unterattribute zerlegt werden kann",
-    "falseAnswers": [
-      "Ein atomares Attribut",
-      "Ein abgeleitetes Attribut",
-      "Ein Primärschlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1038,
-    "questionType": "choice",
-    "frage": "Was ist ein mehrwertiges Attribut?",
-    "antwort": "Ein Attribut, das mehrere Werte pro Entitätsinstanz speichern kann",
-    "falseAnswers": [
-      "Ein atomares Attribut",
-      "Ein zusammengesetztes Attribut",
-      "Ein abgeleitetes Attribut"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1039,
-    "questionType": "choice",
-    "frage": "Was ist ein Schlüsselkandidat?",
-    "antwort": "Ein Attribut oder eine Kombination, die als Primärschlüssel geeignet ist",
-    "falseAnswers": [
-      "Ein Fremdschlüssel",
-      "Ein Index",
-      "Ein abgeleitetes Attribut"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1040,
-    "questionType": "choice",
-    "frage": "Was ist ein Surrogatschlüssel?",
-    "antwort": "Ein künstlich erzeugter, technisch sinnvoller Primärschlüssel",
-    "falseAnswers": [
-      "Ein natürlicher Schlüssel",
-      "Ein Fremdschlüssel",
-      "Ein abgeleitetes Attribut"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1041,
-    "questionType": "choice",
-    "frage": "Was ist ein natürlicher Schlüssel?",
-    "antwort": "Ein aus den Daten selbst stammender, sinnvoller Primärschlüssel",
-    "falseAnswers": [
-      "Ein künstlicher Schlüssel",
-      "Ein Fremdschlüssel",
-      "Ein Index"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1042,
-    "questionType": "choice",
-    "frage": "Was ist die 2. Normalform (2NF)?",
-    "antwort": "1NF erfüllt und keine partiellen Abhängigkeiten vom Primärschlüssel",
-    "falseAnswers": [
-      "Alle Attribute sind atomar",
-      "Keine transitiven Abhängigkeiten",
-      "Alle Attribute sind Schlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1043,
-    "questionType": "choice",
-    "frage": "Was ist die 3. Normalform (3NF)?",
-    "antwort": "2NF erfüllt und keine transitiven Abhängigkeiten zwischen Nichtschlüsselattributen",
-    "falseAnswers": [
-      "Alle Attribute sind atomar",
-      "Keine partiellen Abhängigkeiten",
-      "Alle Attribute sind Schlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1044,
-    "questionType": "choice",
-    "frage": "Was ist eine partielle Abhängigkeit?",
-    "antwort": "Ein Nichtschlüsselattribut hängt nur von einem Teil des Schlüssels ab",
-    "falseAnswers": [
-      "Ein Attribut hängt vom ganzen Schlüssel ab",
-      "Ein Attribut hängt von einem anderen Nichtschlüssel ab",
-      "Keine Abhängigkeit"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1045,
-    "questionType": "choice",
-    "frage": "Was ist eine transitive Abhängigkeit?",
-    "antwort": "Ein Nichtschlüsselattribut hängt von einem anderen Nichtschlüsselattribut ab",
-    "falseAnswers": [
-      "Ein Attribut hängt vom ganzen Schlüssel ab",
-      "Ein Attribut hängt von einem Teil des Schlüssels ab",
-      "Keine Abhängigkeit"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1046,
-    "questionType": "choice",
-    "frage": "Was ist eine funktionale Abhängigkeit?",
-    "antwort": "Wenn ein Attributwert einen anderen eindeutig bestimmt",
-    "falseAnswers": [
-      "Wenn zwei Attribute gleich sind",
-      "Wenn keine Beziehung besteht",
-      "Wenn Attribute zufällig sind"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1047,
-    "questionType": "choice",
-    "frage": "Was ist ein ER-Diagramm?",
-    "antwort": "Eine grafische Darstellung des ER-Modells mit Symbolen für Entitäten und Beziehungen",
-    "falseAnswers": [
-      "Ein physisches Datenbankmodell",
-      "Ein SQL-Skript",
-      "Ein Programmcode"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1048,
-    "questionType": "choice",
-    "frage": "Was ist eine Generalisierung im ER-Modell?",
-    "antwort": "Das Zusammenfassen gemeinsamer Merkmale mehrerer Entitäten zu einer Oberentität",
-    "falseAnswers": [
-      "Das Aufteilen einer Entität",
-      "Das Löschen einer Entität",
-      "Das Erstellen eines Attributs"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1049,
-    "questionType": "choice",
-    "frage": "Was ist eine Spezialisierung im ER-Modell?",
-    "antwort": "Das Aufteilen einer Entität in spezifischere Unterentitäten",
-    "falseAnswers": [
-      "Das Zusammenfassen von Entitäten",
-      "Das Löschen einer Entität",
-      "Das Erstellen eines Attributs"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1050,
-    "questionType": "choice",
-    "frage": "Was ist Vererbung im ER-Modell?",
-    "antwort": "Unterentitäten erben Attribute und Beziehungen der Oberentität",
-    "falseAnswers": [
-      "Entitäten löschen Attribute",
-      "Attribute werden neu erstellt",
-      "Beziehungen werden gelöscht"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1051,
-    "questionType": "choice",
-    "frage": "Was ist ein assoziatives Entity?",
-    "antwort": "Eine Entität, die aus einer n:m-Beziehung entsteht",
-    "falseAnswers": [
-      "Eine normale Entität",
-      "Eine schwache Entität",
-      "Eine Oberentität"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1052,
-    "questionType": "choice",
-    "frage": "Was ist ein Index in einer Datenbank?",
-    "antwort": "Eine Struktur zur Beschleunigung von Suchoperationen",
-    "falseAnswers": [
-      "Ein Primärschlüssel",
-      "Ein Fremdschlüssel",
-      "Ein Attribut"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1053,
-    "questionType": "choice",
-    "frage": "Was ist Referentielle Integrität?",
-    "antwort": "Fremdschlüssel müssen auf existierende Primärschlüssel verweisen",
-    "falseAnswers": [
-      "Alle Attribute müssen atomar sein",
-      "Keine redundanten Daten",
-      "Alle Schlüssel müssen eindeutig sein"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1054,
-    "questionType": "choice",
-    "frage": "Was ist ein NULL-Wert?",
-    "antwort": "Ein fehlender oder unbekannter Wert in einem Attribut",
-    "falseAnswers": [
-      "Ein leerer String",
-      "Die Zahl Null",
-      "Ein falscher Wert"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1055,
-    "questionType": "choice",
-    "frage": "Was ist eine Identifizierende Beziehung?",
-    "antwort": "Eine Beziehung, bei der die schwache Entität den Schlüssel der starken übernimmt",
-    "falseAnswers": [
-      "Eine normale Beziehung",
-      "Eine n:m-Beziehung",
-      "Eine 1:1-Beziehung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1056,
-    "questionType": "choice",
-    "frage": "Was ist eine nicht-identifizierende Beziehung?",
-    "antwort": "Eine Beziehung, bei der die Entität ihren eigenen Schlüssel behält",
-    "falseAnswers": [
-      "Eine identifizierende Beziehung",
-      "Eine schwache Beziehung",
-      "Eine n:m-Beziehung"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1057,
-    "questionType": "choice",
-    "frage": "Was ist Redundanz in einer Datenbank?",
-    "antwort": "Mehrfachspeicherung derselben Daten",
-    "falseAnswers": [
-      "Einmalige Speicherung",
-      "Verschlüsselte Daten",
-      "Gelöschte Daten"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1058,
-    "questionType": "choice",
-    "frage": "Was ist eine Einfügeanomalie?",
-    "antwort": "Daten können nicht eingefügt werden, ohne andere Daten zu duplizieren",
-    "falseAnswers": [
-      "Daten können nicht gelöscht werden",
-      "Daten können nicht aktualisiert werden",
-      "Daten sind verloren"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1059,
-    "questionType": "choice",
-    "frage": "Was ist eine Lösch-Anomalie?",
-    "antwort": "Beim Löschen von Daten gehen ungewollt andere Daten verloren",
-    "falseAnswers": [
-      "Daten können nicht eingefügt werden",
-      "Daten können nicht aktualisiert werden",
-      "Daten sind dupliziert"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1060,
-    "questionType": "choice",
-    "frage": "Was ist eine Aktualisierungsanomalie?",
-    "antwort": "Änderungen müssen an mehreren Stellen durchgeführt werden",
-    "falseAnswers": [
-      "Daten können nicht eingefügt werden",
-      "Daten können nicht gelöscht werden",
-      "Daten sind verloren"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1061,
-    "questionType": "choice",
-    "frage": "Was ist der Zweck der Normalisierung?",
-    "antwort": "Redundanz reduzieren und Anomalien vermeiden",
-    "falseAnswers": [
-      "Daten duplizieren",
-      "Geschwindigkeit erhöhen",
-      "Speicher sparen"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1062,
-    "questionType": "choice",
-    "frage": "Wie wird eine n:m-Beziehung im relationalen Modell umgesetzt?",
-    "antwort": "Durch eine Verknüpfungstabelle mit zwei Fremdschlüsseln",
-    "falseAnswers": [
-      "Durch einen Fremdschlüssel in einer Tabelle",
-      "Durch einen Primärschlüssel",
-      "Durch ein Attribut"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1063,
-    "questionType": "choice",
-    "frage": "Wie wird eine 1:n-Beziehung im relationalen Modell umgesetzt?",
-    "antwort": "Durch einen Fremdschlüssel auf der 'n'-Seite der Beziehung",
-    "falseAnswers": [
-      "Durch einen Fremdschlüssel auf der '1'-Seite",
-      "Durch eine Verknüpfungstabelle",
-      "Durch einen Primärschlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1064,
-    "questionType": "choice",
-    "frage": "Was ist ein Supertyp?",
-    "antwort": "Eine Oberentität mit gemeinsamen Merkmalen mehrerer Untertypen",
-    "falseAnswers": [
-      "Eine Unterentität",
-      "Ein Attribut",
-      "Ein Schlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1065,
-    "questionType": "choice",
-    "frage": "Was ist ein Subtyp?",
-    "antwort": "Eine spezialisierte Unterentität eines Supertyps",
-    "falseAnswers": [
-      "Eine Oberentität",
-      "Ein Attribut",
-      "Ein Schlüssel"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1066,
-    "questionType": "choice",
-    "frage": "Was ist Disjunktheit im ER-Modell?",
-    "antwort": "Eine Entitätsinstanz kann nur einem Subtyp angehören",
-    "falseAnswers": [
-      "Eine Instanz kann mehreren Subtypen angehören",
-      "Keine Subtypen vorhanden",
-      "Alle Subtypen sind gleich"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1067,
-    "questionType": "choice",
-    "frage": "Was ist Vollständigkeit im ER-Modell?",
-    "antwort": "Jede Instanz des Supertyps muss mindestens einem Subtyp angehören",
-    "falseAnswers": [
-      "Keine Instanz muss einem Subtyp angehören",
-      "Alle Subtypen sind leer",
-      "Supertyp ist leer"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1068,
-    "questionType": "choice",
-    "frage": "Was ist ein ER-Diagramm-Symbol für Entitäten?",
-    "antwort": "Ein Rechteck",
-    "falseAnswers": [
-      "Eine Raute",
-      "Ein Oval",
-      "Ein Kreis"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1069,
-    "questionType": "choice",
-    "frage": "Was ist ein ER-Diagramm-Symbol für Beziehungen?",
-    "antwort": "Eine Raute",
-    "falseAnswers": [
-      "Ein Rechteck",
-      "Ein Oval",
-      "Ein Kreis"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1070,
-    "questionType": "choice",
-    "frage": "Was ist ein ER-Diagramm-Symbol für Attribute?",
-    "antwort": "Ein Oval",
-    "falseAnswers": [
-      "Ein Rechteck",
-      "Eine Raute",
-      "Ein Kreis"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1071,
-    "questionType": "choice",
-    "frage": "Was ist HTML?",
-    "antwort": "Eine Auszeichnungssprache zur Strukturierung von Webseiten",
-    "falseAnswers": [
-      "Eine Programmiersprache",
-      "Ein Datenbank-System",
-      "Ein Betriebssystem"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1007,
+  "questionType": "choice",
+  "frage": "Wozu werden Szenarien im Requirements Engineering verwendet?",
+  "antwort": "Zur Beschreibung typischer Abläufe aus Sicht der Nutzer",
+  "falseAnswers": [
+    "Zur Modellierung technischer Komponentenbeziehungen",
+    "Zur Dokumentation abgeschlossener Testzyklen",
+    "Zur vollständigen Sammlung aller Kundenforderungen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1008,
+  "questionType": "choice",
+  "frage": "Welchen Zweck erfüllt ein Glossar im Projektkontext?",
+  "antwort": "Einheitliche Definition wichtiger Fachbegriffe und Abkürzungen",
+  "falseAnswers": [
+    "Detaillierte Darstellung der Systemarchitektur",
+    "Auswertung und Zusammenfassung aller Testfälle",
+    "Vertragliche Beschreibung der Lieferpflichten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1009,
+  "questionType": "choice",
+  "frage": "Wann spricht man von einem Zielkonflikt zwischen Anforderungen?",
+  "antwort": "Wenn die Erfüllung einer Anforderung eine andere verhindert",
+  "falseAnswers": [
+    "Wenn alle Anforderungen denselben Wortlaut besitzen",
+    "Wenn im Projekt noch keine Anforderungen existieren",
+    "Wenn Anforderungen doppelt im Dokument aufgeführt sind"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1010,
+  "questionType": "choice",
+  "frage": "Was umfasst professionelles Requirements Management im Projekt?",
+  "antwort": "Planung, Pflege und Nachverfolgung aller Anforderungen",
+  "falseAnswers": [
+    "Einmaliges Entfernen veralteter Anforderungen",
+    "Beliebiges Hinzufügen neuer Anforderungen",
+    "Nur Durchführung funktionaler Systemtests"
+  ],
+  "category": "Programmierung"
+},
+ {
+  "nr": 1011,
+  "questionType": "choice",
+  "frage": "Wie lässt sich eine Benutzeranforderung am besten beschreiben?",
+  "antwort": "Formulierte Erwartung eines späteren Anwenders",
+  "falseAnswers": [
+    "Interne Vorgabe der Systemarchitektur",
+    "Fein spezifizierte Entwickleranforderung",
+    "Äußere Rahmenbedingung des Projekts"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1012,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet eine Systemanforderung im Projektkontext?",
+  "antwort": "Technisch präzise Beschreibung des Systemverhaltens",
+  "falseAnswers": [
+    "Allgemeine Sicht eines Endbenutzers",
+    "Nur organisatorische Projektbeschränkung",
+    "Übergeordnete Qualitätsrichtlinie ohne Details"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1013,
+  "questionType": "choice",
+  "frage": "Woran erkennt man eine Qualitätsanforderung an ein IT-System?",
+  "antwort": "Sie beschreibt nichtfunktionale Eigenschaften wie Leistung",
+  "falseAnswers": [
+    "Sie definiert konkrete Benutzerinteraktionen",
+    "Sie legt Projektbudget und Termine fest",
+    "Sie benennt einzelne Hardwarekomponenten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1014,
+  "questionType": "choice",
+  "frage": "Welchen Zweck verfolgt ein Review von Anforderungen?",
+  "antwort": "Gemeinsame, strukturierte Prüfung der Anforderungen durch Beteiligte",
+  "falseAnswers": [
+    "Durchführung automatisierter Systemlasttests",
+    "Erstellung detaillierter Softwarearchitekturen",
+    "Ausarbeitung vollständiger Kundenspezifikationen"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1015,
+  "questionType": "choice",
+  "frage": "Wozu dient eine Anforderungs-ID im Projekt?",
+  "antwort": "Eindeutige Identifikation einer einzelnen Anforderung",
+  "falseAnswers": [
+    "Grafische Darstellung der Systemarchitektur",
+    "Zusammenfassung abgeschlossener Testzyklen",
+    "Vollständige technische Umsetzungsspezifikation"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1016,
+  "questionType": "choice",
+  "frage": "Was beschreibt typischerweise den Ist-Zustand eines Prozesses?",
+  "antwort": "Aktuell vorliegende Abläufe und Rahmenbedingungen",
+  "falseAnswers": [
+    "Nur geplante Zielarchitektur nach dem Projekt",
+    "Endgültigen Zustand nach allen Tests",
+    "Reine Dokumentation vergangener Fehlerberichte"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1017,
+  "questionType": "choice",
+  "frage": "Wie lässt sich der Soll-Zustand in einem Projekt definieren?",
+  "antwort": "Gewünschtes Prozess- und Systembild nach der Umsetzung",
+  "falseAnswers": [
+    "Der derzeitige Stand vor Projektbeginn",
+    "Zufällig entstandener Endzustand",
+    "Nur Übersicht der geplanten Testfälle"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1018,
+  "questionType": "choice",
+  "frage": "Welche Rolle spielt das Pflichtenheft nach DIN 69901-5?",
+  "antwort": "Vom Auftragnehmer ausgearbeitete konkrete Umsetzungsvorgaben",
+  "falseAnswers": [
+    "Sammlung aller Anforderungen des Auftraggebers",
+    "Rein rechtlicher Vertragsrahmen des Projekts",
+    "Übersicht aller geplanten Testaktivitäten"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1019,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe erfüllt das Lastenheft nach DIN 69901-5?",
+  "antwort": "Es bündelt alle Anforderungen des Auftraggebers an Lieferungen",
+  "falseAnswers": [
+    "Es beschreibt die konkrete technische Lösung des Auftragnehmers",
+    "Es dient ausschließlich als allgemeiner Projektvertrag",
+    "Es listet nur geplante Testaktivitäten und Testfälle auf"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1020,
+  "questionType": "choice",
+  "frage": "Was ist das Ziel von Requirements Elicitation?",
+  "antwort": "Aktives Herausarbeiten der Bedürfnisse und Anforderungen",
+  "falseAnswers": [
+    "Systematisches Entfernen nicht mehr benötigter Anforderungen",
+    "Reine Ausführung geplanter Systemtests",
+    "Direkte Implementierung der bereits spezifizierten Anforderungen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1021,
+  "questionType": "choice",
+  "frage": "Wozu dient Requirements Documentation im Projekt?",
+  "antwort": "Strukturiertes, nachvollziehbares Festhalten aller Anforderungen",
+  "falseAnswers": [
+    "Einmaliges Löschen veralteter Anforderungsdokumente",
+    "Durchführung funktionaler und nichtfunktionaler Tests",
+    "Konkrete Codierung der spezifizierten Funktionen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1022,
+  "questionType": "choice",
+  "frage": "Was steht im Fokus der Requirements Validation?",
+  "antwort": "Ob Anforderungen sinnvoll, vollständig und passend gewählt sind",
+  "falseAnswers": [
+    "Nur Prüfung der formalen Dokumentstruktur",
+    "Ausschließlich Testen des fertigen Systems",
+    "Technische Umsetzung aller Anforderungen im Quellcode"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1023,
+  "questionType": "choice",
+  "frage": "Welche Elemente beschreibt ein ER-Modell im Datenbankentwurf?",
+  "antwort": "Konzeptionelles Modell für Entitäten, Attribute und Beziehungen",
+  "falseAnswers": [
+    "Physisches Modell gespeicherter Tabellen und Daten",
+    "Modell für Programmiersprachen und deren Syntax",
+    "Protokoll zur Kommunikation zwischen Netzwerkknoten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1024,
+  "questionType": "choice",
+  "frage": "Welche Rolle besitzt eine Entität im ER-Modell?",
+  "antwort": "Objekt oder Konzept, über das Daten gespeichert werden",
+  "falseAnswers": [
+    "Verknüpfung zwischen zwei oder mehreren Entitäten",
+    "Beschreibende Eigenschaft einer bestimmten Entität",
+    "Eindeutige Kennung einer bestimmten Entität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1025,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein Attribut im ER-Modell?",
+  "antwort": "Beschreibende Eigenschaft oder Merkmal einer Entität",
+  "falseAnswers": [
+    "Verknüpfung zwischen zwei oder mehreren Entitäten",
+    "Objekt oder Konzept mit eigener Identität",
+    "Eindeutige Kennung einer bestimmten Entität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1026,
+  "questionType": "choice",
+  "frage": "Welche Funktion besitzt eine Beziehung im ER-Modell?",
+  "antwort": "Verknüpfung zwischen zwei oder mehreren Entitäten",
+  "falseAnswers": [
+    "Beschreibende Eigenschaft einer bestimmten Entität",
+    "Objekt oder Konzept mit eigener Identität",
+    "Merkmal zur Beschreibung einer bestimmten Entität"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1027,
+  "questionType": "choice",
+  "frage": "Ein Kunde kann mehrere Bestellungen besitzen. Welche Beziehung liegt vor?",
+  "antwort": "Eine Entität ist mit mehreren Instanzen einer anderen verknüpft",
+  "falseAnswers": [
+    "Mehrere Entitäten sind mit einer anderen verknüpft",
+    "Eine Entität ist genau mit einer anderen verknüpft",
+    "Zwischen den Entitäten besteht keine Verknüpfung"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1028,
+  "questionType": "choice",
+  "frage": "Ein Student besucht mehrere Kurse, jeder Kurs mehrere Studenten. Welche Beziehung liegt vor?",
+  "antwort": "Mehrere Instanzen beider Entitäten sind miteinander verknüpft",
+  "falseAnswers": [
+    "Eine Entität ist mit mehreren anderen verknüpft",
+    "Eine Entität ist genau mit einer anderen verknüpft",
+    "Zwischen den Entitäten besteht keine Verknüpfung"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1029,
+  "questionType": "choice",
+  "frage": "Jeder Mitarbeiter besitzt genau einen Dienstausweis. Welche Beziehung liegt vor?",
+  "antwort": "Jede Entität ist genau einer anderen Entität zugeordnet",
+  "falseAnswers": [
+    "Eine Entität ist mehreren anderen Entitäten zugeordnet",
+    "Mehrere Entitäten sind mehreren anderen Entitäten zugeordnet",
+    "Zwischen den Entitäten besteht keine Zuordnung"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1030,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft muss ein Primärschlüssel in einer Tabelle besitzen?",
+  "antwort": "Attribut oder Kombination zur eindeutigen Identifikation jedes Datensatzes",
+  "falseAnswers": [
+    "Nicht eindeutig unterscheidbares Merkmal eines Datensatzes",
+    "Verweis auf einen Datensatz einer anderen Tabelle",
+    "Struktur zur beschleunigten Suche in Datensätzen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1031,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein Fremdschlüssel in einer relationalen Datenbank?",
+  "antwort": "Attribut mit Verweis auf den Primärschlüssel einer anderen Tabelle",
+  "falseAnswers": [
+    "Eindeutige Kennung jedes Datensatzes innerhalb einer Tabelle",
+    "Struktur zur beschleunigten Suche innerhalb einer Tabelle",
+    "Beliebiges Attribut ohne Bezug zu anderen Tabellen"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1032,
+  "questionType": "choice",
+  "frage": "Wodurch unterscheidet sich ein zusammengesetzter Primärschlüssel?",
+  "antwort": "Primärschlüssel aus mehreren gemeinsam verwendeten Attributen",
+  "falseAnswers": [
+    "Primärschlüssel aus genau einem einzelnen Attribut",
+    "Schlüssel zur Referenzierung einer anderen Tabelle",
+    "Struktur zur Beschleunigung bestimmter Datenbankabfragen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1033,
+  "questionType": "choice",
+  "frage": "Was beschreibt die Kardinalität einer Beziehung im ER-Modell?",
+  "antwort": "Anzahl zulässiger Verknüpfungen zwischen Entitätsinstanzen",
+  "falseAnswers": [
+    "Anzahl beschreibender Attribute innerhalb einer Entität",
+    "Anzahl vorhandener Entitäten innerhalb des Modells",
+    "Anzahl definierter Primärschlüssel im Datenbankschema"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1034,
+  "questionType": "choice",
+  "frage": "Wovon hängt die Identifikation einer schwachen Entität ab?",
+  "antwort": "Sie benötigt eine übergeordnete Entität zur eindeutigen Identifikation",
+  "falseAnswers": [
+    "Sie besitzt einen vollständig unabhängigen Primärschlüssel",
+    "Sie kann ohne andere Entitäten selbstständig bestehen",
+    "Sie beschreibt ausschließlich eine Verbindung zwischen Entitäten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1035,
+  "questionType": "choice",
+  "frage": "Woran erkennt man eine starke Entität im ER-Modell?",
+  "antwort": "Eigener Primärschlüssel ermöglicht unabhängige Identifikation",
+  "falseAnswers": [
+    "Identifikation ist vollständig von anderen Entitäten abhängig",
+    "Ein eigener Primärschlüssel ist grundsätzlich nicht vorhanden",
+    "Sie stellt ausschließlich eine Beziehung zwischen Entitäten dar"
+  ],
+  "category": "Programmierung"
+},
+ {
+  "nr": 1036,
+  "questionType": "choice",
+  "frage": "Wie entsteht der Wert eines abgeleiteten Attributs?",
+  "antwort": "Aus anderen Attributwerten berechnete Information",
+  "falseAnswers": [
+    "Direkt in der Datenbank gespeicherte Information",
+    "Attribut zur eindeutigen Datensatzidentifikation",
+    "Attribut zur Referenzierung anderer Tabellen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1037,
+  "questionType": "choice",
+  "frage": "Wie lässt sich ein zusammengesetztes Attribut charakterisieren?",
+  "antwort": "Attribut, das in mehrere Teilattribute zerlegt werden kann",
+  "falseAnswers": [
+    "Attribut mit genau einem unteilbaren Wert",
+    "Attribut, dessen Wert berechnet wird",
+    "Attribut zur eindeutigen Identifikation einer Entität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1038,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft kennzeichnet ein mehrwertiges Attribut?",
+  "antwort": "Mehrere Werte können derselben Entitätsinstanz zugeordnet werden",
+  "falseAnswers": [
+    "Genau ein unteilbarer Wert gehört zur Entitätsinstanz",
+    "Ein Wert wird aus anderen Attributen berechnet",
+    "Mehrere Teilattribute beschreiben eine gemeinsame Eigenschaft"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1039,
+  "questionType": "choice",
+  "frage": "Welche Bedingung muss ein Schlüsselkandidat erfüllen?",
+  "antwort": "Minimale Attributmenge zur eindeutigen Identifikation jedes Datensatzes",
+  "falseAnswers": [
+    "Attribut zur Referenzierung eines Datensatzes anderer Tabellen",
+    "Struktur zur Beschleunigung bestimmter Datenbankabfragen",
+    "Attribut, dessen Wert aus anderen Werten berechnet wird"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1040,
+  "questionType": "choice",
+  "frage": "Wodurch wird ein Surrogatschlüssel charakterisiert?",
+  "antwort": "Künstlich erzeugter Primärschlüssel ohne fachliche Bedeutung",
+  "falseAnswers": [
+    "Aus den Geschäftsdaten abgeleiteter Primärschlüssel",
+    "Schlüssel zur Verknüpfung fremder Tabellen",
+    "Attributwert aus anderen Werten berechnet"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1041,
+  "questionType": "choice",
+  "frage": "Wodurch wird ein natürlicher Schlüssel charakterisiert?",
+  "antwort": "Aus vorhandenen Fachdaten stammender, sinnvoller Primärschlüssel",
+  "falseAnswers": [
+    "Künstlich erzeugter Schlüssel ohne fachliche Bedeutung",
+    "Schlüssel zur Verknüpfung fremder Tabellen",
+    "Technische Struktur zur Beschleunigung von Abfragen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1042,
+  "questionType": "choice",
+  "frage": "Welche Bedingungen gelten für eine Tabelle in 2NF?",
+  "antwort": "1NF und vollständige Abhängigkeit vom gesamten Primärschlüssel",
+  "falseAnswers": [
+    "Atomare Werte in allen Attributen der Relation",
+    "Keine indirekten Abhängigkeiten zwischen Nichtschlüsselattributen",
+    "Jedes Attribut ist Bestandteil eines Schlüssels"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1043,
+  "questionType": "choice",
+  "frage": "Welche zusätzliche Bedingung erfüllt eine Tabelle in 3NF?",
+  "antwort": "2NF und keine transitiven Abhängigkeiten von Nichtschlüsselattributen",
+  "falseAnswers": [
+    "1NF und keine vollständigen Schlüsselabhängigkeiten",
+    "2NF und keine partiellen Abhängigkeiten vom Primärschlüssel",
+    "Alle Attribute müssen Bestandteil eines Schlüssels sein"
+  ],
+  "category": "Programmierung"
+},
+ {
+  "nr": 1044,
+  "questionType": "choice",
+  "frage": "Wann liegt eine partielle Abhängigkeit in einer Tabelle vor?",
+  "antwort": "Nichtschlüsselattribut hängt nur von einem Teil eines zusammengesetzten Schlüssels ab",
+  "falseAnswers": [
+    "Nichtschlüsselattribut hängt vom vollständigen Schlüssel ab",
+    "Attribut hängt von einem anderen Nichtschlüsselattribut ab",
+    "Zwischen den Attributen besteht keinerlei Abhängigkeit"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1045,
+  "questionType": "choice",
+  "frage": "Wann liegt eine transitive Abhängigkeit in einer Tabelle vor?",
+  "antwort": "Nichtschlüsselattribut hängt indirekt von einem anderen Nichtschlüsselattribut ab",
+  "falseAnswers": [
+    "Nichtschlüsselattribut hängt direkt vom vollständigen Schlüssel ab",
+    "Nichtschlüsselattribut hängt von einem Teil des Schlüssels ab",
+    "Zwischen den Attributen besteht keinerlei Abhängigkeit"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1046,
+  "questionType": "choice",
+  "frage": "Woran erkennt man eine funktionale Abhängigkeit?",
+  "antwort": "Ein Attributwert bestimmt einen anderen Wert eindeutig",
+  "falseAnswers": [
+    "Zwei Attribute besitzen immer denselben Wert",
+    "Zwischen den Attributen besteht keine Beziehung",
+    "Attributwerte entstehen unabhängig und zufällig"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1047,
+  "questionType": "choice",
+  "frage": "Wie wird ein ER-Modell üblicherweise für den Datenbankentwurf dargestellt?",
+  "antwort": "Grafische Darstellung von Entitäten, Attributen und Beziehungen",
+  "falseAnswers": [
+    "Physische Struktur bereits angelegter Datenbanktabellen",
+    "Ausführbares Skript zur Erstellung einer Datenbank",
+    "Quelltext zur Implementierung einer Anwendung"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1048,
+  "questionType": "choice",
+  "frage": "Wie werden gemeinsame Merkmale mehrerer Entitätstypen modelliert?",
+  "antwort": "Zusammenführung gemeinsamer Merkmale in einer Oberentität",
+  "falseAnswers": [
+    "Aufteilung einer Entität in mehrere Unterentitäten",
+    "Entfernung einer nicht mehr benötigten Entität",
+    "Ergänzung eines einzelnen Merkmals einer Entität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1049,
+  "questionType": "choice",
+  "frage": "Wie werden spezifische Untergruppen eines Entitätstyps modelliert?",
+  "antwort": "Aufteilung in spezifischere Unterentitäten mit eigenen Merkmalen",
+  "falseAnswers": [
+    "Zusammenfassung verschiedener Entitäten mit gemeinsamen Merkmalen",
+    "Entfernung einer nicht mehr benötigten Entität",
+    "Ergänzung eines einzelnen Merkmals einer Entität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1050,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft besteht zwischen Ober- und Unterentitäten?",
+  "antwort": "Unterentitäten übernehmen Attribute und Beziehungen der Oberentität",
+  "falseAnswers": [
+    "Unterentitäten entfernen geerbte Attribute und Beziehungen",
+    "Unterentitäten erzeugen sämtliche Attribute vollständig neu",
+    "Unterentitäten lösen bestehende Beziehungen der Oberentität auf"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1051,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein assoziatives Entity im Datenmodell?",
+  "antwort": "Entität zur Auflösung einer n:m-Beziehung",
+  "falseAnswers": [
+    "Eigenständige Entität ohne besondere Verknüpfungsfunktion",
+    "Entität ohne eigenen Identifikationsschlüssel",
+    "Übergeordnete Entität für mehrere Unterentitäten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1052,
+  "questionType": "choice",
+  "frage": "Welchen Zweck erfüllt ein Index in einer Datenbank?",
+  "antwort": "Zusätzliche Struktur zur Beschleunigung von Suchoperationen",
+  "falseAnswers": [
+    "Eindeutige Identifikation jedes Datensatzes einer Tabelle",
+    "Verknüpfung mit Datensätzen einer anderen Tabelle",
+    "Beschreibendes Merkmal eines gespeicherten Datensatzes"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1053,
+  "questionType": "choice",
+  "frage": "Welche Bedingung beschreibt referenzielle Integrität in relationalen Datenbanken?",
+  "antwort": "Fremdschlüsselwerte verweisen auf vorhandene Datensätze",
+  "falseAnswers": [
+    "Alle Attributwerte bestehen aus atomaren Einzelwerten",
+    "Redundante Daten sind vollständig ausgeschlossen",
+    "Alle Schlüsselwerte sind innerhalb jeder Tabelle eindeutig"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1054,
+  "questionType": "choice",
+  "frage": "Wie wird ein NULL-Wert in einer Datenbank interpretiert?",
+  "antwort": "Fehlender oder unbekannter Wert eines Attributs",
+  "falseAnswers": [
+    "Leere Zeichenkette ohne enthaltene Zeichen",
+    "Numerischer Wert mit dem Betrag null",
+    "Bekannter Wert, der eine falsche Aussage darstellt"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1055,
+  "questionType": "choice",
+  "frage": "Woran erkennt man eine identifizierende Beziehung?",
+  "antwort": "Schwache Entität übernimmt übergeordneten Schlüssel als Schlüsselbestandteil",
+  "falseAnswers": [
+    "Entitäten werden ohne Schlüsselabhängigkeit miteinander verbunden",
+    "Mehrere Entitäten werden gleichrangig miteinander verknüpft",
+    "Eine Entität wird genau einer anderen zugeordnet"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1056,
+  "questionType": "choice",
+  "frage": "Woran erkennt man eine nichtidentifizierende Beziehung?",
+  "antwort": "Kindentität behält eigenen Schlüssel unabhängig vom Elternschlüssel",
+  "falseAnswers": [
+    "Schwache Entität übernimmt den übergeordneten Schlüssel",
+    "Entität besitzt überhaupt keinen eigenen Identifikationsschlüssel",
+    "Mehrere Entitäten werden gleichrangig miteinander verknüpft"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1057,
+  "questionType": "choice",
+  "frage": "Wann spricht man in einer Datenbank von Redundanz?",
+  "antwort": "Mehrfache Speicherung identischer Daten in mehreren Datensätzen",
+  "falseAnswers": [
+    "Einmalige Speicherung jedes benötigten Datenwerts",
+    "Verschlüsselte Speicherung vertraulicher Datenbestände",
+    "Endgültige Entfernung nicht mehr benötigter Datensätze"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1058,
+  "questionType": "choice",
+  "frage": "Welche Schwierigkeit kennzeichnet eine Einfügeanomalie?",
+  "antwort": "Neue Daten erfordern zusätzliche oder redundante Datensätze",
+  "falseAnswers": [
+    "Vorhandene Daten können nicht vollständig entfernt werden",
+    "Geänderte Daten müssen mehrfach konsistent aktualisiert werden",
+    "Gespeicherte Daten gehen durch einen Fehler verloren"
+  ],
+  "category": "Programmierung"
+},
+ {
+  "nr": 1059,
+  "questionType": "choice",
+  "frage": "Welche Folge kann das Löschen eines Datensatzes in einer schlecht strukturierten Tabelle haben?",
+  "antwort": "Unbeabsichtigter Verlust anderer fachlich relevanter Daten",
+  "falseAnswers": [
+    "Notwendige Daten können grundsätzlich nicht eingefügt werden",
+    "Änderungen müssen an mehreren Stellen durchgeführt werden",
+    "Identische Informationen werden mehrfach gespeichert"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1060,
+  "questionType": "choice",
+  "frage": "Welche Schwierigkeit entsteht bei mehrfach gespeicherten Informationen?",
+  "antwort": "Änderungen müssen an mehreren Stellen konsistent durchgeführt werden",
+  "falseAnswers": [
+    "Neue Datensätze können grundsätzlich nicht eingefügt werden",
+    "Vorhandene Datensätze können grundsätzlich nicht gelöscht werden",
+    "Gespeicherte Informationen gehen automatisch vollständig verloren"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1061,
+  "questionType": "choice",
+  "frage": "Welches Hauptziel verfolgt die Normalisierung relationaler Datenbanken?",
+  "antwort": "Reduzierung von Redundanzen und Vermeidung von Datenanomalien",
+  "falseAnswers": [
+    "Vervielfachung wichtiger Daten in mehreren Tabellen",
+    "Maximierung der Zugriffsgeschwindigkeit unabhängig vom Schema",
+    "Einsparung sämtlichen Speicherplatzes durch Datenkompression"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1062,
+  "questionType": "choice",
+  "frage": "Wie wird eine n:m-Beziehung relational korrekt abgebildet?",
+  "antwort": "Verknüpfungstabelle mit Fremdschlüsseln zu beiden Entitäten",
+  "falseAnswers": [
+    "Ein einzelner Fremdschlüssel in einer beteiligten Tabelle",
+    "Ein gemeinsamer Primärschlüssel ohne weitere Tabellenspalten",
+    "Ein zusätzliches Attribut innerhalb einer beteiligten Entität"
+  ],
+  "category": "Programmierung"
+},
+  {
+  "nr": 1063,
+  "questionType": "choice",
+  "frage": "Wie wird eine 1:n-Beziehung in relationalen Tabellen abgebildet?",
+  "antwort": "Fremdschlüssel in der Tabelle der n-Seite",
+  "falseAnswers": [
+    "Fremdschlüssel in der Tabelle der 1-Seite",
+    "Separate Verknüpfungstabelle zwischen beiden Tabellen",
+    "Zusätzlicher Primärschlüssel ohne Fremdschlüsselbezug"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1064,
+  "questionType": "choice",
+  "frage": "Welche Rolle besitzt ein Supertyp im EER-Modell?",
+  "antwort": "Oberentität mit gemeinsamen Merkmalen mehrerer Untertypen",
+  "falseAnswers": [
+    "Spezialisierte Unterentität mit zusätzlichen Merkmalen",
+    "Beschreibendes Merkmal einer einzelnen Entität",
+    "Eindeutige Kennung eines einzelnen Datensatzes"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1065,
+  "questionType": "choice",
+  "frage": "Welche Rolle besitzt ein Subtyp im EER-Modell?",
+  "antwort": "Spezialisierte Unterentität eines übergeordneten Supertyps",
+  "falseAnswers": [
+    "Allgemeine Oberentität mehrerer Spezialisierungen",
+    "Beschreibendes Merkmal einer einzelnen Entität",
+    "Eindeutige Kennung eines einzelnen Datensatzes"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1066,
+  "questionType": "choice",
+  "frage": "Was bedeutet Disjunktheit bei einer Spezialisierung?",
+  "antwort": "Eine Instanz darf höchstens einem Subtyp angehören",
+  "falseAnswers": [
+    "Eine Instanz darf mehreren Subtypen angehören",
+    "Für den Supertyp existieren keine Untertypen",
+    "Alle vorhandenen Subtypen besitzen identische Merkmale"
+  ],
+  "category": "Programmierung"
+},
+ {
+  "nr": 1067,
+  "questionType": "choice",
+  "frage": "Welche Bedingung beschreibt eine vollständige Spezialisierung im EER-Modell?",
+  "antwort": "Jede Supertypinstanz gehört mindestens einem Subtyp an",
+  "falseAnswers": [
+    "Keine Supertypinstanz muss einem Subtyp angehören",
+    "Alle definierten Subtypen enthalten keine Instanzen",
+    "Der Supertyp darf grundsätzlich keine Instanzen enthalten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1068,
+  "questionType": "choice",
+  "frage": "Welches Symbol stellt einen Entitätstyp im klassischen ER-Diagramm dar?",
+  "antwort": "Rechteck zur Darstellung eines Entitätstyps",
+  "falseAnswers": [
+    "Raute zur Darstellung eines Beziehungstyps",
+    "Oval zur Darstellung eines Attributs",
+    "Kreis zur Darstellung einer Kardinalität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1069,
+  "questionType": "choice",
+  "frage": "Welches Symbol stellt eine Beziehung im klassischen ER-Diagramm dar?",
+  "antwort": "Raute zur Darstellung eines Beziehungstyps",
+  "falseAnswers": [
+    "Rechteck zur Darstellung eines Entitätstyps",
+    "Oval zur Darstellung eines Attributs",
+    "Kreis zur Darstellung einer Kardinalität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1070,
+  "questionType": "choice",
+  "frage": "Welches Symbol stellt ein Attribut im klassischen ER-Diagramm dar?",
+  "antwort": "Oval zur Darstellung eines Attributs",
+  "falseAnswers": [
+    "Rechteck zur Darstellung eines Entitätstyps",
+    "Raute zur Darstellung eines Beziehungstyps",
+    "Kreis zur Darstellung einer Kardinalität"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1071,
+  "questionType": "choice",
+  "frage": "Welche Rolle übernimmt HTML bei der Entwicklung einer Webseite?",
+  "antwort": "Auszeichnungssprache zur Strukturierung von Webinhalten",
+  "falseAnswers": [
+    "Programmiersprache zur Implementierung von Geschäftslogik",
+    "Datenbanksystem zur dauerhaften Speicherung von Informationen",
+    "Betriebssystem zur Verwaltung von Hardware und Prozessen"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1072,
     "questionType": "choice",
@@ -12930,7 +12930,7 @@
   {
     "nr": 1077,
     "questionType": "choice",
-    "frage": "Welches Tag wird für ein Bild verwendet?",
+    "frage": "Welches Tag wird für ein Bild verwendet in HTML?",
     "antwort": "<img>",
     "falseAnswers": [
       "<picture>",
@@ -12942,7 +12942,7 @@
   {
     "nr": 1078,
     "questionType": "choice",
-    "frage": "Welches Attribut zeigt Alternativtext für ein Bild?",
+    "frage": "Welches Attribut zeigt Alternativtext für ein Bild in HTML?",
     "antwort": "alt",
     "falseAnswers": [
       "title",
@@ -12954,7 +12954,7 @@
   {
     "nr": 1079,
     "questionType": "choice",
-    "frage": "Welches Tag erstellt eine ungeordnete Liste?",
+    "frage": "Welches Tag erstellt eine ungeordnete Liste in HTML?",
     "antwort": "<ul>",
     "falseAnswers": [
       "<ol>",
@@ -12966,7 +12966,7 @@
   {
     "nr": 1080,
     "questionType": "choice",
-    "frage": "Welches Tag erstellt ein Listenelement?",
+    "frage": "Welches Tag erstellt ein Listenelement in HTML?",
     "antwort": "<li>",
     "falseAnswers": [
       "<ul>",
@@ -12978,7 +12978,7 @@
   {
     "nr": 1081,
     "questionType": "choice",
-    "frage": "Welches Tag wird für einen Zeilenumbruch verwendet?",
+    "frage": "Welches Tag wird für einen Zeilenumbruch verwendet in HTML?",
     "antwort": "<br>",
     "falseAnswers": [
       "<lb>",
@@ -13002,7 +13002,7 @@
   {
     "nr": 1083,
     "questionType": "choice",
-    "frage": "Welches Tag definiert den sichtbaren Inhalt?",
+    "frage": "Welches Tag definiert den sichtbaren Inhalt in HTML?",
     "antwort": "<body>",
     "falseAnswers": [
       "<content>",
@@ -13084,17 +13084,17 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1090,
-    "questionType": "choice",
-    "frage": "Was ist JavaScript?",
-    "antwort": "Eine Programmiersprache für interaktive Webseiten",
-    "falseAnswers": [
-      "Eine Auszeichnungssprache",
-      "Ein Datenbank-System",
-      "Ein Betriebssystem"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1090,
+  "questionType": "choice",
+  "frage": "Welche Rolle übernimmt JavaScript bei der Entwicklung moderner Webseiten?",
+  "antwort": "Programmiersprache zur Umsetzung interaktiver Webseiten",
+  "falseAnswers": [
+    "Auszeichnungssprache zur Strukturierung von Webinhalten",
+    "Datenbanksystem zur Speicherung relationaler Daten",
+    "Betriebssystem zur Verwaltung von Computerressourcen"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1091,
     "questionType": "choice",
@@ -13110,7 +13110,7 @@
   {
     "nr": 1092,
     "questionType": "choice",
-    "frage": "Welches Tag wird für JavaScript verwendet?",
+    "frage": "Welches Tag wird für JavaScript verwendet in HTML?",
     "antwort": "<script>",
     "falseAnswers": [
       "<javascript>",
@@ -13132,53 +13132,53 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1094,
-    "questionType": "choice",
-    "frage": "Was ist ein Client im Webkontext?",
-    "antwort": "Ein Browser, der Webseiten anfordert",
-    "falseAnswers": [
-      "Ein Server, der Daten bereitstellt",
-      "Eine Datenbank",
-      "Ein Netzwerkprotokoll"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1094,
+  "questionType": "choice",
+  "frage": "Welche Rolle übernimmt ein Client im webbasierten Anfrage-Antwort-Modell?",
+  "antwort": "Browser, der Webressourcen per HTTP anfordert",
+  "falseAnswers": [
+    "Server, der angeforderte Webressourcen bereitstellt",
+    "Datenbank, die Webressourcen dauerhaft speichert",
+    "Netzwerkprotokoll zur Übertragung von Webressourcen"
+  ],
+  "category": "Programmierung"
+},
   {
-    "nr": 1095,
-    "questionType": "choice",
-    "frage": "Was ist ein Server im Webkontext?",
-    "antwort": "Ein Computer, der Webseiten und Dienste bereitstellt",
-    "falseAnswers": [
-      "Ein Browser",
-      "Eine Maus",
-      "Ein Drucker"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1096,
-    "questionType": "choice",
-    "frage": "Was ist ein Request?",
-    "antwort": "Eine Anfrage vom Client an den Server",
-    "falseAnswers": [
-      "Eine Antwort vom Server",
-      "Ein Datenbankbefehl",
-      "Ein Netzwerkfehler"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1097,
-    "questionType": "choice",
-    "frage": "Was ist eine Response?",
-    "antwort": "Eine Antwort vom Server an den Client",
-    "falseAnswers": [
-      "Eine Anfrage vom Client",
-      "Ein Datenbankbefehl",
-      "Ein Netzwerkfehler"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1095,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe übernimmt ein Server im webbasierten Client-Server-Modell?",
+  "antwort": "System, das Webressourcen und Dienste für Clients bereitstellt",
+  "falseAnswers": [
+    "Browser, der Webressourcen beim Server anfordert",
+    "Eingabegerät zur Bedienung eines Computers",
+    "Ausgabegerät zur Ausgabe gedruckter Dokumente"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1096,
+  "questionType": "choice",
+  "frage": "Welche Nachricht sendet ein Client an einen Webserver?",
+  "antwort": "Anfrage des Clients an den Server",
+  "falseAnswers": [
+    "Antwort des Servers an den Client",
+    "Befehl zur direkten Datenbankabfrage",
+    "Meldung über einen technischen Netzwerkfehler"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1097,
+  "questionType": "choice",
+  "frage": "Welche Nachricht erhält ein Client nach einer Serververarbeitung?",
+  "antwort": "Antwort des Servers an den Client",
+  "falseAnswers": [
+    "Anfrage des Clients an den Server",
+    "Befehl zur direkten Datenbankabfrage",
+    "Meldung über einen technischen Netzwerkfehler"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1098,
     "questionType": "choice",
@@ -13207,7 +13207,7 @@
     "nr": 1100,
     "questionType": "choice",
     "frage": "Was ist DOM in JavaScript?",
-    "antwort": "Document Object Model - Baumstruktur des HTML-Dokuments",
+    "antwort": "Document Object Model",
     "falseAnswers": [
       "Data Object Model",
       "Digital Ordinance Model",
@@ -13252,17 +13252,17 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1104,
-    "questionType": "choice",
-    "frage": "Was ist eine Variable in JavaScript?",
-    "antwort": "Ein Speicherplatz für einen Wert",
-    "falseAnswers": [
-      "Eine Funktion",
-      "Ein Event",
-      "Ein HTML-Tag"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1104,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe erfüllt eine Variable in JavaScript?",
+  "antwort": "Benannter Speicherplatz für einen JavaScript-Wert",
+  "falseAnswers": [
+    "Ausführbarer Programmblock mit wiederverwendbarer Logik",
+    "Ausgelöste Reaktion auf eine Benutzeraktion",
+    "Strukturelement zur Auszeichnung von Webinhalten"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1105,
     "questionType": "choice",
@@ -13271,26 +13271,26 @@
     "falseAnswers": [
       "var",
       "dim",
-      "variable"
+      "set"
     ],
     "category": "Programmierung"
   },
   {
-    "nr": 1106,
-    "questionType": "choice",
-    "frage": "Was ist ein Array in JavaScript?",
-    "antwort": "Eine geordnete Liste von Werten",
-    "falseAnswers": [
-      "Eine Funktion",
-      "Ein Objekt",
-      "Ein Event"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1106,
+  "questionType": "choice",
+  "frage": "Welche Datenstruktur speichert mehrere Werte in einer bestimmten Reihenfolge?",
+  "antwort": "Geordnete Sammlung mehrerer Werte mit numerischen Indizes",
+  "falseAnswers": [
+    "Wiederverwendbarer Programmblock mit eigener Logik",
+    "Komplexer Datenwert mit benannten Eigenschaften",
+    "Ausgelöste Reaktion auf eine Benutzeraktion"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1107,
     "questionType": "choice",
-    "frage": "Wie wird ein Array erstellt?",
+    "frage": "Wie wird ein Array erstellt in JavaScript?",
     "antwort": "let arr = [1, 2, 3];",
     "falseAnswers": [
       "let arr = {1, 2, 3};",
@@ -13314,7 +13314,7 @@
   {
     "nr": 1109,
     "questionType": "choice",
-    "frage": "Wie wird ein Objekt erstellt?",
+    "frage": "Wie wird ein Objekt erstellt in JavaScript?",
     "antwort": "let obj = {key: value};",
     "falseAnswers": [
       "let obj = [key: value];",
@@ -13360,29 +13360,29 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1113,
-    "questionType": "choice",
-    "frage": "Welches Keyword wird für Bedingungen verwendet?",
-    "antwort": "if",
-    "falseAnswers": [
-      "then",
-      "when",
-      "case"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1113,
+  "questionType": "choice",
+  "frage": "Welches Schlüsselwort leitet in JavaScript eine bedingte Verzweigung ein?",
+  "antwort": "if",
+  "falseAnswers": [
+    "then",
+    "when",
+    "case"
+  ],
+  "category": "Programmierung"
+},
   {
-    "nr": 1114,
-    "questionType": "choice",
-    "frage": "Was ist localStorage im Browser?",
-    "antwort": "Ein persistenter Speicher für Daten im Browser",
-    "falseAnswers": [
-      "Ein temporärer Cache",
-      "Eine Datenbank",
-      "Ein Cookie"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1114,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft beschreibt localStorage im Browser am treffendsten?",
+  "antwort": "Persistenter Schlüssel-Wert-Speicher für Daten im Browser",
+  "falseAnswers": [
+    "Kurzlebiger Speicher für eine einzelne Browsersitzung",
+    "Serverseitige Datenbank für strukturierte Anwendungsdaten",
+    "Automatisch mit jeder HTTP-Anfrage übertragenes Cookie"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1115,
     "questionType": "choice",
@@ -13395,54 +13395,54 @@
     ],
     "category": "Programmierung"
   },
-  {
-    "nr": 1116,
-    "questionType": "choice",
-    "frage": "Was ist AJAX?",
-    "antwort": "Asynchrone Kommunikation zwischen Client und Server",
-    "falseAnswers": [
-      "Eine Programmiersprache",
-      "Ein Datenbank-System",
-      "Ein Betriebssystem"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1117,
-    "questionType": "choice",
-    "frage": "Was ist JSON?",
-    "antwort": "Ein textbasiertes Datenformat für den Datenaustausch",
-    "falseAnswers": [
-      "Eine Programmiersprache",
-      "Eine Datenbank",
-      "Ein Betriebssystem"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1118,
-    "questionType": "choice",
-    "frage": "Was ist eine API?",
-    "antwort": "Eine Schnittstelle zur Kommunikation zwischen verschiedenen Softwareanwendungen",
-    "falseAnswers": [
-      "Eine Datenbank",
-      "Ein Betriebssystem",
-      "Ein Netzwerkprotokoll"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1119,
-    "questionType": "choice",
-    "frage": "Wofür steht API?",
-    "antwort": "Application Programming Interface",
-    "falseAnswers": [
-      "Advanced Programming Interface",
-      "Application Process Integration",
-      "Automated Programming Interface"
-    ],
-    "category": "Programmierung"
-  },
+ {
+  "nr": 1116,
+  "questionType": "choice",
+  "frage": "Welche Technik ermöglicht das Aktualisieren von Webseiten ohne vollständiges Neuladen?",
+  "antwort": "Asynchrone HTTP-Kommunikation zwischen Client und Server",
+  "falseAnswers": [
+    "Programmiersprache zur Entwicklung von Webanwendungen",
+    "Datenbanksystem zur Speicherung strukturierter Informationen",
+    "Betriebssystem zur Verwaltung von Serverressourcen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1117,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaften kennzeichnen JSON im Datenaustausch?",
+  "antwort": "Textbasiertes, sprachunabhängiges Datenaustauschformat",
+  "falseAnswers": [
+    "Programmiersprache zur Ausführung von Anwendungscode",
+    "Datenbanksystem zur dauerhaften Speicherung von Datensätzen",
+    "Betriebssystem zur Verwaltung von Computerhardware"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1118,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt eine API in der Softwareentwicklung?",
+  "antwort": "Regelwerk für die Kommunikation zwischen Softwareanwendungen",
+  "falseAnswers": [
+    "Datenbanksystem zur Verwaltung gespeicherter Informationen",
+    "Betriebssystem zur Steuerung technischer Hardwarekomponenten",
+    "Netzwerkprotokoll für sämtliche Internetkommunikation"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1119,
+  "questionType": "choice",
+  "frage": "Welche englische Bezeichnung verbirgt sich hinter der Abkürzung API?",
+  "antwort": "Application Programming Interface",
+  "falseAnswers": [
+    "Advanced Programming Interface",
+    "Application Process Integration",
+    "Automated Programming Interface"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1120,
     "questionType": "choice",
@@ -13456,17 +13456,17 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1121,
-    "questionType": "choice",
-    "frage": "Was ist eine RESTful API?",
-    "antwort": "Eine API, die den REST-Architekturprinzipien folgt",
-    "falseAnswers": [
-      "Eine API nur für Datenbanken",
-      "Eine API nur für mobile Apps",
-      "Eine API ohne HTTP"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1121,
+  "questionType": "choice",
+  "frage": "Wodurch unterscheidet sich eine RESTful API von anderen APIs?",
+  "antwort": "API nach den Prinzipien von Representational State Transfer",
+  "falseAnswers": [
+    "API ausschließlich zur Abfrage relationaler Datenbanken",
+    "API ausschließlich für mobile Anwendungen",
+    "API ohne standardisierte Client-Server-Kommunikation"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1122,
     "questionType": "choice",
@@ -13528,17 +13528,17 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1127,
-    "questionType": "choice",
-    "frage": "Was ist JSON?",
-    "antwort": "Ein textbasiertes Datenformat für den Datenaustausch",
-    "falseAnswers": [
-      "Eine Programmiersprache",
-      "Eine Datenbank",
-      "Ein Betriebssystem"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1127,
+  "questionType": "choice",
+  "frage": "Welche Rolle übernimmt JSON bei der Kommunikation zwischen Anwendungen?",
+  "antwort": "Leichtgewichtiges, textbasiertes Format für strukturierten Datenaustausch",
+  "falseAnswers": [
+    "Programmiersprache zur Ausführung von Anwendungscode",
+    "Datenbanksystem zur Verwaltung relationaler Datensätze",
+    "Betriebssystem zur Steuerung technischer Ressourcen"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1128,
     "questionType": "choice",
@@ -13576,29 +13576,29 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1131,
-    "questionType": "choice",
-    "frage": "Was ist XML?",
-    "antwort": "Eine Auszeichnungssprache zur strukturierten Datenbeschreibung",
-    "falseAnswers": [
-      "Eine Programmiersprache",
-      "Eine Datenbank",
-      "Ein Betriebssystem"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1132,
-    "questionType": "choice",
-    "frage": "Wofür steht XML?",
-    "antwort": "Extensible Markup Language",
-    "falseAnswers": [
-      "Extended Markup Language",
-      "Executable Markup Language",
-      "External Markup Language"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1131,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt XML bei der Verarbeitung strukturierter Informationen?",
+  "antwort": "Erweiterbare Auszeichnungssprache zur strukturierten Datenbeschreibung",
+  "falseAnswers": [
+    "Programmiersprache zur Ausführung von Anwendungscode",
+    "Datenbanksystem zur Verwaltung persistenter Datensätze",
+    "Betriebssystem zur Steuerung technischer Ressourcen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1132,
+  "questionType": "choice",
+  "frage": "Welche englische Bezeichnung verbirgt sich hinter der Abkürzung XML?",
+  "antwort": "Extensible Markup Language",
+  "falseAnswers": [
+    "Extended Markup Language",
+    "Executable Markup Language",
+    "External Markup Language"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1133,
     "questionType": "choice",
@@ -13612,77 +13612,77 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1134,
-    "questionType": "choice",
-    "frage": "Was ist ein Endpunkt in einer API?",
-    "antwort": "Eine URL, über die auf eine Ressource zugegriffen wird",
-    "falseAnswers": [
-      "Eine Datenbank",
-      "Ein Server",
-      "Ein Client"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1134,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein Endpunkt innerhalb einer RESTful API?",
+  "antwort": "URL als Zugriffspunkt für eine API-Ressource",
+  "falseAnswers": [
+    "Datenbank zur dauerhaften Speicherung von Ressourcen",
+    "Server zur Verarbeitung eingehender API-Anfragen",
+    "Client zur Nutzung bereitgestellter API-Ressourcen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1135,
+  "questionType": "choice",
+  "frage": "Was bezeichnet eine Ressource innerhalb einer RESTful API?",
+  "antwort": "Von der API adressierbare fachliche Datenentität",
+  "falseAnswers": [
+    "Server zur Verarbeitung eingehender API-Anfragen",
+    "Client zur Nutzung bereitgestellter API-Ressourcen",
+    "Netzwerk zur Übertragung von API-Nachrichten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1136,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe übernimmt ein URI im REST-Kontext?",
+  "antwort": "Eindeutiger Bezeichner einer adressierbaren Ressource",
+  "falseAnswers": [
+    "Name des Servers innerhalb einer Netzwerkumgebung",
+    "Name des Clients innerhalb einer Anwendung",
+    "Protokoll zur Übertragung von Ressourcendaten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1137,
+  "questionType": "choice",
+  "frage": "Welche Bedingung gilt für einzelne Anfragen bei stateless REST?",
+  "antwort": "Jede Anfrage enthält alle notwendigen Informationen zur Verarbeitung",
+  "falseAnswers": [
+    "Der Client speichert grundsätzlich keinerlei Anwendungsdaten",
+    "Der Server verzichtet vollständig auf Authentifizierung",
+    "Der Server sendet grundsätzlich keine Antworten zurück"
+  ],
+  "category": "Programmierung"
+},
   {
-    "nr": 1135,
-    "questionType": "choice",
-    "frage": "Was ist eine Ressource in REST?",
-    "antwort": "Eine Datenentität, auf die über die API zugegriffen wird",
-    "falseAnswers": [
-      "Ein Server",
-      "Ein Client",
-      "Ein Netzwerk"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1136,
-    "questionType": "choice",
-    "frage": "Was ist ein URI?",
-    "antwort": "Ein eindeutiger Identifikator für eine Ressource",
-    "falseAnswers": [
-      "Ein Server-Name",
-      "Ein Client-Name",
-      "Ein Protokoll"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1137,
-    "questionType": "choice",
-    "frage": "Was bedeutet 'stateless' in REST?",
-    "antwort": "Der Server speichert keinen Client-Zustand zwischen Anfragen",
-    "falseAnswers": [
-      "Der Client speichert keine Daten",
-      "Es gibt keine Authentifizierung",
-      "Es gibt keine Antworten"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1138,
-    "questionType": "choice",
-    "frage": "Was ist ein Webservice?",
-    "antwort": "Ein Dienst, der über das Netzwerk für andere Anwendungen verfügbar ist",
-    "falseAnswers": [
-      "Eine Webseite",
-      "Ein Browser",
-      "Ein Server"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1139,
-    "questionType": "choice",
-    "frage": "Was ist SOAP?",
-    "antwort": "Ein Protokoll für den Austausch strukturierter Informationen in Webservices",
-    "falseAnswers": [
-      "Eine Programmiersprache",
-      "Eine Datenbank",
-      "Ein Betriebssystem"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1138,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein Webservice im Anwendungskontext?",
+  "antwort": "Netzwerkdienst für die maschinelle Kommunikation zwischen Anwendungen",
+  "falseAnswers": [
+    "Für Menschen gedachte Webseite mit grafischer Benutzeroberfläche",
+    "Clientprogramm zum Anzeigen webbasierter Inhalte",
+    "Serverhardware ohne bereitgestellte Anwendungsfunktion"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1139,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe übernimmt SOAP bei Webservices?",
+  "antwort": "XML-basiertes Nachrichtenprotokoll für strukturierte Informationsübertragung",
+  "falseAnswers": [
+    "Programmiersprache zur Entwicklung verteilter Anwendungen",
+    "Datenbanksystem zur Speicherung von Webservicedaten",
+    "Betriebssystem zur Verwaltung von Webserverprozessen"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1140,
     "questionType": "choice",
@@ -13713,9 +13713,9 @@
     "frage": "Welches Datenformat verwendet REST typischerweise?",
     "antwort": "JSON",
     "falseAnswers": [
-      "Nur XML",
-      "Nur HTML",
-      "Nur CSV"
+      "XML",
+      "SQL",
+      "CSV"
     ],
     "category": "Programmierung"
   },
@@ -13731,42 +13731,42 @@
     ],
     "category": "Programmierung"
   },
-  {
-    "nr": 1144,
-    "questionType": "choice",
-    "frage": "Was ist ein HTTP-Statuscode?",
-    "antwort": "Ein Code, der den Status einer Anfrage anzeigt",
-    "falseAnswers": [
-      "Ein Fehler im Code",
-      "Ein Server-Name",
-      "Ein Client-Name"
-    ],
-    "category": "Programmierung"
-  },
+ {
+  "nr": 1144,
+  "questionType": "choice",
+  "frage": "Welche Information liefert ein HTTP-Statuscode nach einer Anfrage?",
+  "antwort": "Dreistellige Servermeldung zum Ergebnis einer HTTP-Anfrage",
+  "falseAnswers": [
+    "Fehlermeldung aus dem ausgeführten Anwendungscode",
+    "Bezeichnung des angesprochenen Webservers",
+    "Bezeichnung des anfragenden Webclients"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1145,
     "questionType": "choice",
     "frage": "Was bedeutet Statuscode 200?",
     "antwort": "Erfolg - Anfrage wurde erfolgreich verarbeitet",
     "falseAnswers": [
-      "Fehler - Ressource nicht gefunden",
+      "Erfolg - Ressource gefunden",
       "Fehler - Serverfehler",
       "Fehler - keine Berechtigung"
     ],
     "category": "Programmierung"
   },
   {
-    "nr": 1146,
-    "questionType": "choice",
-    "frage": "Was bedeutet Statuscode 404?",
-    "antwort": "Nicht gefunden - Ressource existiert nicht",
-    "falseAnswers": [
-      "Erfolg",
-      "Serverfehler",
-      "Keine Berechtigung"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1146,
+  "questionType": "choice",
+  "frage": "Welche Situation beschreibt der HTTP-Statuscode 404?",
+  "antwort": "Angeforderte Ressource wurde nicht gefunden",
+  "falseAnswers": [
+    "Anfrage wurde erfolgreich verarbeitet",
+    "Interner Fehler bei der Serververarbeitung",
+    "Zugriff auf eine Ressource wurde verweigert"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1147,
     "questionType": "choice",
@@ -13779,18 +13779,18 @@
     ],
     "category": "Programmierung"
   },
-  {
-    "nr": 1148,
-    "questionType": "choice",
-    "frage": "Was bedeutet Statuscode 401?",
-    "antwort": "Nicht autorisiert - Authentifizierung erforderlich",
-    "falseAnswers": [
-      "Erfolg",
-      "Nicht gefunden",
-      "Serverfehler"
-    ],
-    "category": "Programmierung"
-  },
+ {
+  "nr": 1148,
+  "questionType": "choice",
+  "frage": "Welche Ursache beschreibt der HTTP-Statuscode 401?",
+  "antwort": "Gültige Authentifizierungsdaten fehlen oder sind ungültig",
+  "falseAnswers": [
+    "Anfrage wurde erfolgreich verarbeitet",
+    "Angeforderte Ressource wurde nicht gefunden",
+    "Interner Fehler bei der Serververarbeitung"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1149,
     "questionType": "choice",
@@ -13804,29 +13804,29 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1150,
-    "questionType": "choice",
-    "frage": "Was ist ein Response-Header?",
-    "antwort": "Metadaten, die mit einer HTTP-Antwort gesendet werden",
-    "falseAnswers": [
-      "Der Hauptteil der Anfrage",
-      "Ein Server-Fehler",
-      "Ein Client-Fehler"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1151,
-    "questionType": "choice",
-    "frage": "Was ist ein API-Key?",
-    "antwort": "Ein Schlüssel zur Authentifizierung und Autorisierung von API-Zugriffen",
-    "falseAnswers": [
-      "Ein Datenbank-Schlüssel",
-      "Ein Server-Schlüssel",
-      "Ein Client-Schlüssel"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1150,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllen Response-Header in einer HTTP-Antwort?",
+  "antwort": "Metadaten zur Beschreibung einer HTTP-Antwort",
+  "falseAnswers": [
+    "Nutzdaten des Inhalts einer Client-Anfrage",
+    "Fehlermeldung des ausführenden Servers",
+    "Fehlermeldung des anfragenden Clients"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1151,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein API-Key bei API-Aufrufen?",
+  "antwort": "Kennung zur Identifizierung eines API-Clients und Zugriffskontrolle",
+  "falseAnswers": [
+    "Schlüssel zur Identifizierung eines Datenbankdatensatzes",
+    "Schlüssel zur Identifizierung eines Webservers",
+    "Schlüssel zur Identifizierung eines Browserfensters"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1152,
     "questionType": "choice",
@@ -13852,17 +13852,17 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1154,
-    "questionType": "choice",
-    "frage": "Was ist JWT?",
-    "antwort": "Ein Token-Standard für sichere Authentifizierung",
-    "falseAnswers": [
-      "Eine Datenbank",
-      "Ein Server",
-      "Ein Client"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1154,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein JWT bei der Webkommunikation?",
+  "antwort": "Kompakter Standard für übertragbare, signierte Ansprüche",
+  "falseAnswers": [
+    "Datenbank zur Speicherung von Benutzerinformationen",
+    "Server zur Verarbeitung eingehender HTTP-Anfragen",
+    "Client zur Darstellung webbasierter Anwendungen"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1155,
     "questionType": "choice",
@@ -13876,65 +13876,65 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1156,
-    "questionType": "choice",
-    "frage": "Was ist OAuth?",
-    "antwort": "Ein offener Standard zur Autorisierung",
-    "falseAnswers": [
-      "Eine Datenbank",
-      "Ein Server",
-      "Ein Client"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1156,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt OAuth bei der Nutzung geschützter Ressourcen?",
+  "antwort": "Offener Standard zur delegierten Autorisierung",
+  "falseAnswers": [
+    "Datenbanksystem zur Speicherung geschützter Ressourcen",
+    "Server zur Bereitstellung geschützter Ressourcen",
+    "Client zur Nutzung geschützter Ressourcen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1157,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt CORS bei browserbasierten Anwendungen?",
+  "antwort": "Browsermechanismus zur kontrollierten Freigabe von Cross-Origin-Anfragen",
+  "falseAnswers": [
+    "Datenbanksystem zur Verwaltung fremder Datenquellen",
+    "Server zur Verarbeitung aller Browseranfragen",
+    "Netzwerkprotokoll zur Verschlüsselung sämtlicher Verbindungen"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1158,
+  "questionType": "choice",
+  "frage": "Wie reagiert ein System typischerweise auf ein festgelegtes Ereignis?",
+  "antwort": "HTTP-Callback zur automatischen Ereignisbenachrichtigung",
+  "falseAnswers": [
+    "Datenbank zur dauerhaften Ereignisspeicherung",
+    "Server zur manuellen Bearbeitung eingehender Anfragen",
+    "Client zur regelmäßigen Abfrage neuer Ereignisse"
+  ],
+  "category": "Programmierung"
+},
   {
-    "nr": 1157,
-    "questionType": "choice",
-    "frage": "Was ist CORS?",
-    "antwort": "Eine Sicherheitsfunktion für Cross-Origin-Anfragen im Browser",
-    "falseAnswers": [
-      "Eine Datenbank",
-      "Ein Server",
-      "Ein Protokoll"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1158,
-    "questionType": "choice",
-    "frage": "Was ist ein Webhook?",
-    "antwort": "Ein Mechanismus für automatische Benachrichtigungen bei Ereignissen",
-    "falseAnswers": [
-      "Eine Datenbank",
-      "Ein Server",
-      "Ein Client"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1159,
-    "questionType": "choice",
-    "frage": "Was ist API-Versionierung?",
-    "antwort": "Das Verwalten verschiedener Versionen einer API für Kompatibilität",
-    "falseAnswers": [
-      "Das Löschen alter APIs",
-      "Das Erstellen neuer Datenbanken",
-      "Das Ändern von Servern"
-    ],
-    "category": "Programmierung"
-  },
-  {
-    "nr": 1160,
-    "questionType": "choice",
-    "frage": "Was ist Rate Limiting?",
-    "antwort": "Eine Begrenzung der Anzahl von API-Anfragen pro Zeitraum",
-    "falseAnswers": [
-      "Eine Erhöhung der API-Geschwindigkeit",
-      "Eine Datenbank-Optimierung",
-      "Eine Server-Erweiterung"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1159,
+  "questionType": "choice",
+  "frage": "Welchen Zweck erfüllt API-Versionierung bei der Weiterentwicklung einer Schnittstelle?",
+  "antwort": "Verwalten mehrerer API-Versionen für kompatible Weiterentwicklung",
+  "falseAnswers": [
+    "Entfernen älterer APIs ohne Übergangsphase",
+    "Anlegen zusätzlicher Datenbanken für jede Version",
+    "Austauschen der Serverhardware bei jeder Änderung"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1160,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt Rate Limiting bei einer API?",
+  "antwort": "Begrenzung von API-Anfragen innerhalb eines Zeitraums",
+  "falseAnswers": [
+    "Steigerung der maximalen API-Verarbeitungsgeschwindigkeit",
+    "Optimierung der Datenbanktabellen einer Anwendung",
+    "Erweiterung der verfügbaren Serverhardware"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1161,
     "questionType": "choice",
@@ -13948,17 +13948,17 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1162,
-    "questionType": "choice",
-    "frage": "Was ist ein API-Gateway?",
-    "antwort": "Ein zentraler Einstiegspunkt für alle API-Anfragen",
-    "falseAnswers": [
-      "Eine Datenbank",
-      "Ein Client",
-      "Ein Protokoll"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1162,
+  "questionType": "choice",
+  "frage": "Welche Funktion erfüllt ein API-Gateway in einer verteilten Systemarchitektur?",
+  "antwort": "Zentrale Vermittlungsschicht zwischen Clients und Backend-Services",
+  "falseAnswers": [
+    "Datenbank zur Speicherung sämtlicher API-Daten",
+    "Client zur Nutzung bereitgestellter API-Funktionen",
+    "Protokoll zur Übertragung von API-Nachrichten"
+  ],
+  "category": "Programmierung"
+},
   {
     "nr": 1163,
     "questionType": "choice",
@@ -13972,113 +13972,113 @@
     "category": "Programmierung"
   },
   {
-    "nr": 1164,
-    "questionType": "choice",
-    "frage": "Was ist der Unterschied zwischen GraphQL und REST?",
-    "antwort": "GraphQL ermöglicht flexible Abfragen, REST hat feste Endpunkte",
-    "falseAnswers": [
-      "GraphQL ist ein Protokoll, REST ist eine Sprache",
-      "Es gibt keinen Unterschied",
-      "GraphQL ist langsamer als REST"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1164,
+  "questionType": "choice",
+  "frage": "Worin unterscheidet sich der Datenabruf bei GraphQL und REST?",
+  "antwort": "GraphQL erlaubt flexible Abfragen, REST nutzt ressourcenbezogene Endpunkte",
+  "falseAnswers": [
+    "GraphQL ist ein Protokoll, REST eine Programmiersprache",
+    "Beide Ansätze arbeiten beim Datenabruf völlig identisch",
+    "GraphQL liefert grundsätzlich weniger Daten als REST"
+  ],
+  "category": "Programmierung"
+},
   {
-    "nr": 1165,
-    "questionType": "choice",
-    "frage": "Was ist idempotente HTTP-Methode?",
-    "antwort": "Eine Methode, die bei mehrmaliger Ausführung dasselbe Ergebnis liefert",
-    "falseAnswers": [
-      "Eine Methode, die immer fehlschlägt",
-      "Eine Methode, die nie funktioniert",
-      "Eine Methode, die Daten löscht"
-    ],
-    "category": "Programmierung"
-  },
+  "nr": 1165,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft kennzeichnet eine idempotente HTTP-Methode?",
+  "antwort": "Wiederholte identische Anfragen bewirken denselben Serverzustand",
+  "falseAnswers": [
+    "Die Methode führt bei jeder Anfrage zu einem Fehler",
+    "Die Methode kann grundsätzlich nicht ausgeführt werden",
+    "Die Methode entfernt bei jeder Anfrage weitere Daten"
+  ],
+  "category": "Programmierung"
+},
+{
+  "nr": 1166,
+  "questionType": "choice",
+  "frage": "Welche gegenseitigen Pflichten entstehen typischerweise durch einen Kaufvertrag?",
+  "antwort": "Verkäufer übergibt Eigentum, Käufer zahlt vereinbarten Kaufpreis",
+  "falseAnswers": [
+    "Anbieter erbringt Tätigkeit, Kunde zahlt Vergütung",
+    "Unternehmer erstellt Werk, Besteller nimmt es ab",
+    "Vermieter überlässt Nutzung, Mieter zahlt regelmäßig"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1166,
-    "questionType": "choice",
-    "frage": "Was ist ein Kaufvertrag?",
-    "antwort": "Ein Vertrag, bei dem eine Sache gegen Entgelt übereignet wird",
-    "falseAnswers": [
-      "Ein Vertrag über eine Dienstleistung",
-      "Ein Vertrag über ein Werk",
-      "Ein Vertrag über Miete"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1167,
-    "questionType": "choice",
-    "frage": "Was ist ein Werkvertrag?",
-    "antwort": "Ein Vertrag über die Herstellung eines Werkes gegen Entgelt",
-    "falseAnswers": [
-      "Ein Vertrag über eine Sache",
-      "Ein Vertrag über eine Dienstleistung",
-      "Ein Vertrag über Miete"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1168,
-    "questionType": "choice",
-    "frage": "Was ist ein Dienstvertrag?",
-    "antwort": "Ein Vertrag über die Erbringung einer Tätigkeit gegen Entgelt",
-    "falseAnswers": [
-      "Ein Vertrag über eine Sache",
-      "Ein Vertrag über ein Werk",
-      "Ein Vertrag über Miete"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1169,
-    "questionType": "choice",
-    "frage": "Was ist der Hauptunterschied zwischen Werk- und Dienstvertrag?",
-    "antwort": "Werkvertrag schuldet Erfolg, Dienstvertrag nur Tätigkeit",
-    "falseAnswers": [
-      "Es gibt keinen Unterschied",
-      "Werkvertrag ist immer kostenlos",
-      "Dienstvertrag schuldet Erfolg"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1170,
-    "questionType": "choice",
-    "frage": "Was ist eine wesentliche Pflicht beim Kaufvertrag?",
-    "antwort": "Verkäufer: Übergabe der Sache, Käufer: Zahlung des Preises",
-    "falseAnswers": [
-      "Verkäufer: Beratung, Käufer: Unterschrift",
-      "Verkäufer: Garantie, Käufer: Abholung",
-      "Verkäufer: Rechnung, Käufer: Quittung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1171,
-    "questionType": "choice",
-    "frage": "Was ist eine wesentliche Pflicht beim Werkvertrag?",
-    "antwort": "Unternehmer: Herstellung des Werks, Besteller: Annahme und Zahlung",
-    "falseAnswers": [
-      "Unternehmer: Beratung, Besteller: Unterschrift",
-      "Unternehmer: Garantie, Besteller: Abholung",
-      "Unternehmer: Rechnung, Besteller: Quittung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1172,
-    "questionType": "choice",
-    "frage": "Was ist eine wesentliche Pflicht beim Dienstvertrag?",
-    "antwort": "Dienstverpflichteter: Tätigkeit, Dienstberechtigter: Vergütung",
-    "falseAnswers": [
-      "Dienstverpflichteter: Erfolg, Dienstberechtigter: Abnahme",
-      "Dienstverpflichteter: Sache, Dienstberechtigter: Preis",
-      "Dienstverpflichteter: Werk, Dienstberechtigter: Werklohn"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1167,
+  "questionType": "choice",
+  "frage": "Welche Leistung steht bei einem Werkvertrag im Mittelpunkt?",
+  "antwort": "Herstellung eines vereinbarten Werks gegen Vergütung",
+  "falseAnswers": [
+    "Übereignung einer bestimmten Sache gegen Kaufpreis",
+    "Erbringung einer Tätigkeit ohne konkretes Ergebnis",
+    "Zeitweise Überlassung einer Sache gegen Mietzahlung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1168,
+  "questionType": "choice",
+  "frage": "Welche Leistung steht bei einem Dienstvertrag im Mittelpunkt?",
+  "antwort": "Erbringung vereinbarter Tätigkeiten gegen Vergütung",
+  "falseAnswers": [
+    "Übereignung einer bestimmten Sache gegen Kaufpreis",
+    "Herstellung eines konkreten Werks gegen Werklohn",
+    "Zeitweise Überlassung einer Sache gegen Mietzahlung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1169,
+  "questionType": "choice",
+  "frage": "Wodurch unterscheiden sich Werkvertrag und Dienstvertrag hauptsächlich?",
+  "antwort": "Werkvertrag schuldet konkreten Erfolg, Dienstvertrag ordnungsgemäße Tätigkeit",
+  "falseAnswers": [
+    "Beide Vertragsarten schulden immer denselben Erfolg",
+    "Werkvertrag ist grundsätzlich unentgeltlich und unverbindlich",
+    "Dienstvertrag garantiert stets ein bestimmtes Arbeitsergebnis"
+  ],
+  "category": "Wirtschaft & Software"
+},
+ {
+  "nr": 1170,
+  "questionType": "choice",
+  "frage": "Welche Hauptpflichten bestehen bei einem Kaufvertrag?",
+  "antwort": "Verkäufer übergibt und übereignet Sache, Käufer zahlt Kaufpreis",
+  "falseAnswers": [
+    "Verkäufer berät, Käufer unterschreibt Vertragsunterlagen",
+    "Verkäufer garantiert, Käufer holt die Sache ab",
+    "Verkäufer erstellt Rechnung, Käufer stellt Quittung aus"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1171,
+  "questionType": "choice",
+  "frage": "Welche Hauptpflichten bestehen bei einem Werkvertrag?",
+  "antwort": "Unternehmer stellt Werk her, Besteller nimmt ab und vergütet",
+  "falseAnswers": [
+    "Unternehmer berät, Besteller unterschreibt Vertragsunterlagen",
+    "Unternehmer garantiert, Besteller holt das Werk ab",
+    "Unternehmer erstellt Rechnung, Besteller stellt Quittung aus"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1172,
+  "questionType": "choice",
+  "frage": "Welche Hauptpflichten bestehen bei einem Dienstvertrag?",
+  "antwort": "Dienstverpflichteter leistet Dienste, Dienstberechtigter vergütet sie",
+  "falseAnswers": [
+    "Dienstverpflichteter garantiert Erfolg, Dienstberechtigter nimmt ab",
+    "Dienstverpflichteter übergibt Sache, Dienstberechtigter zahlt Preis",
+    "Dienstverpflichteter erstellt Werk, Dienstberechtigter zahlt Werklohn"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1173,
     "questionType": "choice",
@@ -14116,77 +14116,77 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1176,
-    "questionType": "choice",
-    "frage": "Was ist das Ziel der AGB-Kontrolle?",
-    "antwort": "Schutz des Vertragspartners vor unangemessenen Benachteiligungen",
-    "falseAnswers": [
-      "Förderung von Verträgen",
-      "Erhöhung der Vertragskosten",
-      "Vereinfachung von Verträgen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1177,
-    "questionType": "choice",
-    "frage": "Was ist ein Beispiel für einen Kaufvertrag?",
-    "antwort": "Kauf eines Laptops im Online-Shop",
-    "falseAnswers": [
-      "Beratung durch einen Anwalt",
-      "Bau eines Hauses",
-      "Miete einer Wohnung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1178,
-    "questionType": "choice",
-    "frage": "Was ist ein Beispiel für einen Werkvertrag?",
-    "antwort": "Reparatur eines Autos in der Werkstatt",
-    "falseAnswers": [
-      "Kauf eines Autos",
-      "Beratung durch einen Anwalt",
-      "Miete eines Autos"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1179,
-    "questionType": "choice",
-    "frage": "Was ist ein Beispiel für einen Dienstvertrag?",
-    "antwort": "Beratung durch einen Steuerberater",
-    "falseAnswers": [
-      "Kauf eines Autos",
-      "Reparatur eines Autos",
-      "Miete eines Autos"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1180,
-    "questionType": "choice",
-    "frage": "Was ist personenbezogene Daten laut DSGVO?",
-    "antwort": "Alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen",
-    "falseAnswers": [
-      "Nur Namen und Adressen",
-      "Nur finanzielle Daten",
-      "Nur medizinische Daten"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1181,
-    "questionType": "choice",
-    "frage": "Was ist ein Beispiel für personenbezogene Daten?",
-    "antwort": "Name, E-Mail-Adresse, IP-Adresse",
-    "falseAnswers": [
-      "Firmenname ohne Personenbezug",
-      "Anonymisierte Statistiken",
-      "Öffentliche Wetterdaten"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1176,
+  "questionType": "choice",
+  "frage": "Welchen Zweck verfolgt die Kontrolle Allgemeiner Geschäftsbedingungen?",
+  "antwort": "Schutz vor unangemessener Benachteiligung durch vorformulierte Klauseln",
+  "falseAnswers": [
+    "Förderung möglichst vieler standardisierter Vertragsabschlüsse",
+    "Erhöhung der Gesamtkosten für Vertragsverhandlungen",
+    "Vereinfachung sämtlicher vertraglicher Leistungspflichten"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1177,
+  "questionType": "choice",
+  "frage": "Welche Situation ist rechtlich typischerweise als Kaufvertrag einzuordnen?",
+  "antwort": "Kauf eines Laptops in einem Online-Shop",
+  "falseAnswers": [
+    "Individuelle Rechtsberatung durch einen Anwalt",
+    "Fachgerechte Reparatur eines Autos",
+    "Zeitweise Überlassung einer Mietwohnung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1178,
+  "questionType": "choice",
+  "frage": "Welche Situation ist rechtlich typischerweise als Werkvertrag einzuordnen?",
+  "antwort": "Reparatur eines Autos mit vereinbartem Arbeitsergebnis",
+  "falseAnswers": [
+    "Übereignung eines Autos gegen vereinbarten Kaufpreis",
+    "Beratung eines Mandanten durch einen Rechtsanwalt",
+    "Zeitweise Nutzung eines Autos gegen Mietzahlung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1179,
+  "questionType": "choice",
+  "frage": "Welche Situation ist rechtlich typischerweise als Dienstvertrag einzuordnen?",
+  "antwort": "Laufende Beratung durch einen Steuerberater",
+  "falseAnswers": [
+    "Übereignung eines Autos gegen vereinbarten Kaufpreis",
+    "Reparatur eines Autos mit geschuldetem Arbeitsergebnis",
+    "Zeitweise Nutzung eines Autos gegen Mietzahlung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1180,
+  "questionType": "choice",
+  "frage": "Welche Informationen gelten nach der DSGVO als personenbezogene Daten?",
+  "antwort": "Informationen über identifizierte oder identifizierbare natürliche Personen",
+  "falseAnswers": [
+    "Ausschließlich Namen und private Wohnadressen",
+    "Ausschließlich Kontostände und Zahlungsinformationen",
+    "Ausschließlich Diagnosen und medizinische Befunde"
+  ],
+  "category": "Wirtschaft & Software"
+},
+ {
+  "nr": 1181,
+  "questionType": "choice",
+  "frage": "Welche Kombination enthält ausschließlich typische personenbezogene Daten?",
+  "antwort": "Name, personalisierte E-Mail-Adresse und IP-Adresse",
+  "falseAnswers": [
+    "Firmenname, Börsenkurs und allgemeine Unternehmensdaten",
+    "Anonymisierte Statistiken ohne Personenbezug",
+    "Öffentliche Wetterdaten ohne Standort- oder Nutzerbezug"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1182,
     "questionType": "choice",
@@ -14200,77 +14200,77 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1183,
-    "questionType": "choice",
-    "frage": "Was ist der Grundsatz der Zweckbindung?",
-    "antwort": "Daten dürfen nur für festgelegte, eindeutige Zwecke verwendet werden",
-    "falseAnswers": [
-      "Daten dürfen für beliebige Zwecke verwendet werden",
-      "Daten dürfen nur für Marketing verwendet werden",
-      "Daten dürfen nur intern verwendet werden"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1183,
+  "questionType": "choice",
+  "frage": "Welche Einschränkung gilt nach dem Grundsatz der Zweckbindung?",
+  "antwort": "Verarbeitung nur für festgelegte, eindeutige und legitime Zwecke",
+  "falseAnswers": [
+    "Verarbeitung für beliebige spätere Verwendungszwecke",
+    "Verarbeitung ausschließlich für werbliche Zwecke",
+    "Verarbeitung ausschließlich innerhalb der verantwortlichen Organisation"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1184,
+  "questionType": "choice",
+  "frage": "Welche Vorgabe folgt aus dem Grundsatz der Datenminimierung?",
+  "antwort": "Nur für den Verarbeitungszweck erforderliche Daten verarbeiten",
+  "falseAnswers": [
+    "Alle verfügbaren Daten unabhängig vom Zweck verarbeiten",
+    "Datenmenge ohne Bezug zum Verarbeitungszweck reduzieren",
+    "Personenbezogene Daten grundsätzlich vollständig vermeiden"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1185,
+  "questionType": "choice",
+  "frage": "Welche Anforderung stellt der Grundsatz der Richtigkeit?",
+  "antwort": "Daten müssen sachlich richtig und erforderlichenfalls aktuell sein",
+  "falseAnswers": [
+    "Daten dürfen unabhängig vom Zweck unvollständig bleiben",
+    "Daten dürfen trotz bekannter Fehler dauerhaft gespeichert werden",
+    "Daten müssen ausschließlich technisch verschlüsselt vorliegen"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1184,
-    "questionType": "choice",
-    "frage": "Was ist der Grundsatz der Datenminimierung?",
-    "antwort": "Es dürfen nur Daten verarbeitet werden, die für den Zweck notwendig sind",
-    "falseAnswers": [
-      "Es dürfen alle verfügbaren Daten verarbeitet werden",
-      "Es dürfen nur minimale Daten verarbeitet werden",
-      "Es dürfen keine Daten verarbeitet werden"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1185,
-    "questionType": "choice",
-    "frage": "Was ist der Grundsatz der Richtigkeit?",
-    "antwort": "Personenbezogene Daten müssen sachlich richtig und aktuell sein",
-    "falseAnswers": [
-      "Daten müssen nicht korrekt sein",
-      "Daten dürfen veraltet sein",
-      "Daten müssen verschlüsselt sein"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1186,
-    "questionType": "choice",
-    "frage": "Was ist der Grundsatz der Speicherbegrenzung?",
-    "antwort": "Daten dürfen nur so lange gespeichert werden, wie es für den Zweck erforderlich ist",
-    "falseAnswers": [
-      "Daten dürfen unbegrenzt gespeichert werden",
-      "Daten müssen sofort gelöscht werden",
-      "Daten müssen jährlich aktualisiert werden"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1187,
-    "questionType": "choice",
-    "frage": "Was ist der Grundsatz der Integrität und Vertraulichkeit?",
-    "antwort": "Daten müssen vor unbefugter Verarbeitung und Verlust geschützt werden",
-    "falseAnswers": [
-      "Daten müssen öffentlich zugänglich sein",
-      "Daten dürfen nicht verschlüsselt werden",
-      "Daten müssen geteilt werden"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1188,
-    "questionType": "choice",
-    "frage": "Was ist der Grundsatz der Transparenz?",
-    "antwort": "Datenverarbeitung muss für die betroffene Person nachvollziehbar sein",
-    "falseAnswers": [
-      "Datenverarbeitung muss geheim sein",
-      "Datenverarbeitung muss komplex sein",
-      "Datenverarbeitung muss anonym sein"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1186,
+  "questionType": "choice",
+  "frage": "Welche zeitliche Grenze gilt nach dem Grundsatz der Speicherbegrenzung?",
+  "antwort": "Speicherung nur bis zur Erfüllung des Verarbeitungszwecks",
+  "falseAnswers": [
+    "Speicherung ohne zeitliche Begrenzung",
+    "Sofortige Löschung nach jeder Verarbeitung",
+    "Jährliche Aktualisierung sämtlicher gespeicherter Daten"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1187,
+  "questionType": "choice",
+  "frage": "Welche Schutzanforderung folgt aus Integrität und Vertraulichkeit?",
+  "antwort": "Schutz vor unbefugter Verarbeitung, Verlust und Zerstörung",
+  "falseAnswers": [
+    "Öffentliche Zugänglichkeit sämtlicher personenbezogener Daten",
+    "Verzicht auf Verschlüsselung bei sensiblen Informationen",
+    "Weitergabe personenbezogener Daten an beliebige Dritte"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1188,
+  "questionType": "choice",
+  "frage": "Welche Anforderung ergibt sich aus dem Grundsatz der Transparenz?",
+  "antwort": "Verarbeitung muss für betroffene Personen nachvollziehbar sein",
+  "falseAnswers": [
+    "Verarbeitung muss gegenüber betroffenen Personen geheim bleiben",
+    "Verarbeitung muss für Betroffene möglichst komplex gestaltet werden",
+    "Verarbeitung muss sämtliche personenbezogenen Daten anonymisieren"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1189,
     "questionType": "choice",
@@ -14332,293 +14332,293 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1194,
-    "questionType": "choice",
-    "frage": "Was ist eine Einwilligung laut DSGVO?",
-    "antwort": "Eine freiwillige, informierte und eindeutige Willensbekundung zur Datenverarbeitung",
-    "falseAnswers": [
-      "Eine stillschweigende Zustimmung",
-      "Eine erzwungene Zustimmung",
-      "Eine mündliche Zustimmung ohne Information"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1194,
+  "questionType": "choice",
+  "frage": "Welche Voraussetzungen muss eine wirksame Einwilligung nach der DSGVO erfüllen?",
+  "antwort": "Freiwillige, informierte und unmissverständliche Willensbekundung für einen bestimmten Zweck",
+  "falseAnswers": [
+    "Stillschweigende Zustimmung ohne aktive bestätigende Handlung",
+    "Erzwungene Zustimmung ohne echte Entscheidungsfreiheit",
+    "Mündliche Zustimmung ohne Informationen über die Verarbeitung"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1195,
-    "questionType": "choice",
-    "frage": "Was ist eine rechtliche Grundlage für Datenverarbeitung?",
-    "antwort": "Einwilligung, Vertragserfüllung, gesetzliche Verpflichtung, berechtigte Interessen",
-    "falseAnswers": [
-      "Beliebiger Grund ohne Einschränkung",
-      "Nur wirtschaftliche Interessen",
-      "Nur staatliche Anordnung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1195,
+  "questionType": "choice",
+  "frage": "Welche Rechtsgrundlagen können eine Verarbeitung personenbezogener Daten rechtfertigen?",
+  "antwort": "Einwilligung, Vertrag, Rechtspflicht oder berechtigte Interessen",
+  "falseAnswers": [
+    "Beliebiger Anlass ohne gesetzliche Einschränkung",
+    "Ausschließlich wirtschaftliches Unternehmensinteresse",
+    "Ausschließlich behördliche Einzelanordnung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1196,
+  "questionType": "choice",
+  "frage": "Welche Entscheidung kennzeichnet den Verantwortlichen nach der DSGVO?",
+  "antwort": "Stelle, die Zwecke und Mittel der Verarbeitung bestimmt",
+  "falseAnswers": [
+    "Person, auf die sich die verarbeiteten Daten beziehen",
+    "Berater, der datenschutzrechtliche Empfehlungen ausspricht",
+    "Dienstleister, der technische Verarbeitung weisungsgebunden durchführt"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1197,
+  "questionType": "choice",
+  "frage": "Welche Rolle übernimmt ein Auftragsverarbeiter nach der DSGVO?",
+  "antwort": "Stelle, die Daten weisungsgebunden im Auftrag verarbeitet",
+  "falseAnswers": [
+    "Stelle, die über Verarbeitungszwecke eigenständig entscheidet",
+    "Person, auf die sich die verarbeiteten Daten beziehen",
+    "Berater, der lediglich datenschutzrechtliche Empfehlungen ausspricht"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1198,
+  "questionType": "choice",
+  "frage": "Welchen Zweck erfüllt ein Auftragsverarbeitungsvertrag?",
+  "antwort": "Regelung der Verarbeitung zwischen Verantwortlichem und Auftragsverarbeiter",
+  "falseAnswers": [
+    "Regelung sämtlicher Rechte der betroffenen Person",
+    "Vereinbarung besonderer Pflichten gegenüber staatlichen Behörden",
+    "Dokument ohne verbindliche Regelungen zur Datenverarbeitung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1199,
+  "questionType": "choice",
+  "frage": "Welche Pflicht beschreibt die Rechenschaftspflicht nach der DSGVO?",
+  "antwort": "Verantwortlicher muss DSGVO-Konformität dokumentieren und nachweisen können",
+  "falseAnswers": [
+    "Verantwortlicher muss keinerlei Nachweise zur Verarbeitung führen",
+    "Betroffene Person muss die rechtmäßige Verarbeitung nachweisen",
+    "Aufsichtsbehörde muss die interne Compliance dokumentieren"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1196,
-    "questionType": "choice",
-    "frage": "Was ist ein Verantwortlicher laut DSGVO?",
-    "antwort": "Die Stelle, die über Zweck und Mittel der Datenverarbeitung entscheidet",
-    "falseAnswers": [
-      "Die betroffene Person",
-      "Ein externer Berater",
-      "Ein technischer Dienstleister"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1200,
+  "questionType": "choice",
+  "frage": "Welchen Zweck erfüllen technisch-organisatorische Maßnahmen im Datenschutz?",
+  "antwort": "Technische und organisatorische Schutzmaßnahmen gegen Datenschutzrisiken",
+  "falseAnswers": [
+    "Maßnahmen zur gezielten Erweiterung gespeicherter Datenmengen",
+    "Maßnahmen zur vollständigen Löschung sämtlicher Daten",
+    "Maßnahmen zur uneingeschränkten Veröffentlichung personenbezogener Daten"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1201,
+  "questionType": "choice",
+  "frage": "Wann ist eine Datenschutz-Folgenabschätzung grundsätzlich erforderlich?",
+  "antwort": "Bei voraussichtlich hohem Risiko für Rechte und Freiheiten Betroffener",
+  "falseAnswers": [
+    "Bei ausschließlich finanziellen Risiken für das Unternehmen",
+    "Bei jeder technischen Änderung ohne Personenrisiko",
+    "Bei jeder geplanten Marketingmaßnahme unabhängig vom Risiko"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1202,
+  "questionType": "choice",
+  "frage": "Welche Kernaufgabe übernimmt ein Datenschutzbeauftragter im Unternehmen?",
+  "antwort": "Berät und überwacht die Einhaltung des Datenschutzes im Unternehmen",
+  "falseAnswers": [
+    "Verarbeitet sämtliche personenbezogenen Daten selbstständig",
+    "Löscht alle gespeicherten Daten regelmäßig",
+    "Verkauft personenbezogene Daten an externe Unternehmen"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1203,
+  "questionType": "choice",
+  "frage": "In welchen Fällen kann ein Datenschutzbeauftragter verpflichtend sein?",
+  "antwort": "Bei Behörden, umfangreicher Überwachung oder Verarbeitung besonderer Daten",
+  "falseAnswers": [
+    "Grundsätzlich bei jedem Unternehmen unabhängig von dessen Verarbeitung",
+    "Grundsätzlich bei keinem Unternehmen unabhängig von dessen Verarbeitung",
+    "Ausschließlich bei staatlichen Behörden ohne weitere Voraussetzungen"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1197,
-    "questionType": "choice",
-    "frage": "Was ist ein Auftragsverarbeiter laut DSGVO?",
-    "antwort": "Eine Stelle, die im Auftrag des Verantwortlichen Daten verarbeitet",
-    "falseAnswers": [
-      "Der Verantwortliche selbst",
-      "Die betroffene Person",
-      "Ein externer Berater"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1204,
+  "questionType": "choice",
+  "frage": "Welche Situation gilt nach der DSGVO als Datenpanne?",
+  "antwort": "Sicherheitsverletzung mit Verlust, Veränderung oder unbefugtem Datenzugriff",
+  "falseAnswers": [
+    "Geplante Veröffentlichung freigegebener Unternehmensinformationen",
+    "Rechtmäßige Übertragung vereinbarter personenbezogener Daten",
+    "Autorisierte Löschung nach festgelegter Aufbewahrungsfrist"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1205,
+  "questionType": "choice",
+  "frage": "Welche Frist gilt bei einer risikobehafteten Datenpanne?",
+  "antwort": "Unverzüglich, möglichst innerhalb von 72 Stunden melden",
+  "falseAnswers": [
+    "Grundsätzlich innerhalb von sieben Kalendertagen melden",
+    "Grundsätzlich innerhalb von dreißig Kalendertagen melden",
+    "Nur bei ausdrücklicher Aufforderung der Aufsichtsbehörde melden"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1206,
+  "questionType": "choice",
+  "frage": "Welche Daten gehören zu den besonderen Kategorien personenbezogener Daten?",
+  "antwort": "Ethnische Herkunft, politische Meinungen, Religion, Gesundheitsdaten",
+  "falseAnswers": [
+    "Vorname, Nachname und gewöhnliche Wohnanschrift",
+    "Geschäftliche E-Mail-Adresse ohne weitere sensible Angaben",
+    "Öffentliche Telefonnummer eines allgemeinen Unternehmensanschlusses"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1207,
+  "questionType": "choice",
+  "frage": "Welche Aussage beschreibt das Verbot mit Erlaubnisvorbehalt?",
+  "antwort": "Verarbeitung grundsätzlich unzulässig ohne geeignete Rechtsgrundlage",
+  "falseAnswers": [
+    "Verarbeitung grundsätzlich ohne Einschränkungen zulässig",
+    "Verarbeitung grundsätzlich unter allen Umständen verboten",
+    "Verarbeitung grundsätzlich ohne dokumentierte Grundlage zulässig"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1198,
-    "questionType": "choice",
-    "frage": "Was ist ein Auftragsverarbeitungsvertrag (AVV)?",
-    "antwort": "Ein Vertrag zwischen Verantwortlichem und Auftragsverarbeiter zur Regelung der Datenverarbeitung",
-    "falseAnswers": [
-      "Ein Vertrag mit der betroffenen Person",
-      "Ein Vertrag mit dem Staat",
-      "Ein Vertrag ohne Inhalt"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1208,
+  "questionType": "choice",
+  "frage": "Welche Aufgabe hat eine Datenschutzaufsichtsbehörde?",
+  "antwort": "Unabhängige staatliche Stelle zur Überwachung der DSGVO",
+  "falseAnswers": [
+    "Privates Unternehmen zur Vermarktung von Datenschutzsoftware",
+    "Betroffene Person mit eigenen Datenschutzansprüchen",
+    "Technischer Dienstleister für die Datensicherheit"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1209,
+  "questionType": "choice",
+  "frage": "Welche Sanktionen können bei schweren DSGVO-Verstößen verhängt werden?",
+  "antwort": "Bis 20 Millionen Euro oder 4 Prozent Jahresumsatz",
+  "falseAnswers": [
+    "Ausschließlich eine unverbindliche Verwarnung",
+    "Ausschließlich zivilrechtliche Schadensersatzansprüche",
+    "Keine Sanktionen bei nachträglicher Datenlöschung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1210,
+  "questionType": "choice",
+  "frage": "Was bedeutet Privacy by Design?",
+  "antwort": "Datenschutz wird bereits bei der Entwicklung technisch integriert",
+  "falseAnswers": [
+    "Datenschutz wird erst nachträglich ergänzt",
+    "Datenschutz wird bei der Entwicklung vollständig ignoriert",
+    "Datenschutz wird ausschließlich in Unterlagen dokumentiert"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1211,
+  "questionType": "choice",
+  "frage": "Was bedeutet Privacy by Default?",
+  "antwort": "Voreinstellungen sind standardmäßig datenschutzfreundlich gestaltet",
+  "falseAnswers": [
+    "Voreinstellungen dürfen ohne Einschränkung beliebig gewählt werden",
+    "Voreinstellungen müssen technisch möglichst kompliziert sein",
+    "Voreinstellungen müssen personenbezogene Daten öffentlich anzeigen"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1212,
+  "questionType": "choice",
+  "frage": "Was bezeichnet ein Drittlandtransfer?",
+  "antwort": "Übermittlung personenbezogener Daten außerhalb EU und EWR",
+  "falseAnswers": [
+    "Übermittlung personenbezogener Daten innerhalb EU und EWR",
+    "Übermittlung personenbezogener Daten ausschließlich innerhalb Deutschlands",
+    "Übermittlung ohne Grenzübertritt innerhalb eines lokalen Netzwerks"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1199,
-    "questionType": "choice",
-    "frage": "Was ist die Rechenschaftspflicht laut DSGVO?",
-    "antwort": "Der Verantwortliche muss die Einhaltung der DSGVO nachweisen können",
-    "falseAnswers": [
-      "Der Verantwortliche muss nichts nachweisen",
-      "Die betroffene Person muss nachweisen",
-      "Der Staat muss nachweisen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1200,
-    "questionType": "choice",
-    "frage": "Was sind technisch-organisatorische Maßnahmen (TOM)?",
-    "antwort": "Maßnahmen zum Schutz personenbezogener Daten vor unbefugtem Zugriff und Verlust",
-    "falseAnswers": [
-      "Maßnahmen zur Erhöhung der Datenmenge",
-      "Maßnahmen zur Löschung aller Daten",
-      "Maßnahmen zur Veröffentlichung von Daten"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1201,
-    "questionType": "choice",
-    "frage": "Was ist eine Datenschutz-Folgenabschätzung?",
-    "antwort": "Eine Bewertung der Risiken für die Rechte und Freiheiten betroffener Personen",
-    "falseAnswers": [
-      "Eine Bewertung der Kosten für das Unternehmen",
-      "Eine Bewertung der technischen Möglichkeiten",
-      "Eine Bewertung der Marktchancen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1202,
-    "questionType": "choice",
-    "frage": "Was ist ein Datenschutzbeauftragter?",
-    "antwort": "Eine Person, die im Unternehmen für die Einhaltung der DSGVO sorgt",
-    "falseAnswers": [
-      "Eine Person, die Daten verarbeitet",
-      "Eine Person, die Daten löscht",
-      "Eine Person, die Daten verkauft"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1203,
-    "questionType": "choice",
-    "frage": "Wann ist ein Datenschutzbeauftragter erforderlich?",
-    "antwort": "Bei umfangreicher systematischer Überwachung oder Verarbeitung besonderer Kategorien personenbezogener Daten",
-    "falseAnswers": [
-      "Immer für jedes Unternehmen",
-      "Nie erforderlich",
-      "Nur für staatliche Stellen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1204,
-    "questionType": "choice",
-    "frage": "Was ist eine Datenpanne?",
-    "antwort": "Ein Verstoß gegen den Datenschutz, der zur unbeabsichtigten Offenlegung von Daten führt",
-    "falseAnswers": [
-      "Eine geplante Datenveröffentlichung",
-      "Eine legale Datenübertragung",
-      "Eine autorisierte Datenlöschung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1205,
-    "questionType": "choice",
-    "frage": "Wann muss eine Datenpanne gemeldet werden?",
-    "antwort": "Innerhalb von 72 Stunden nach Entdeckung an die Aufsichtsbehörde",
-    "falseAnswers": [
-      "Innerhalb von 7 Tagen",
-      "Innerhalb von 30 Tagen",
-      "Nur wenn es erforderlich ist"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1206,
-    "questionType": "choice",
-    "frage": "Was sind besondere Kategorien personenbezogener Daten?",
-    "antwort": "Daten über ethnische Herkunft, politische Meinungen, religiöse Überzeugungen, Gesundheitsdaten",
-    "falseAnswers": [
-      "Namen und Adressen",
-      "E-Mail-Adressen",
-      "Telefonnummern"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1207,
-    "questionType": "choice",
-    "frage": "Was ist das Verbot mit Erlaubnisvorbehalt?",
-    "antwort": "Datenverarbeitung ist grundsätzlich verboten, außer es liegt eine rechtliche Grundlage vor",
-    "falseAnswers": [
-      "Datenverarbeitung ist immer erlaubt",
-      "Datenverarbeitung ist nie erlaubt",
-      "Datenverarbeitung braucht keine Grundlage"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1208,
-    "questionType": "choice",
-    "frage": "Was ist die Aufsichtsbehörde für Datenschutz?",
-    "antwort": "Eine staatliche Stelle, die die Einhaltung der DSGVO überwacht",
-    "falseAnswers": [
-      "Ein privates Unternehmen",
-      "Eine betroffene Person",
-      "Ein technischer Dienstleister"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1209,
-    "questionType": "choice",
-    "frage": "Was sind die möglichen Sanktionen bei DSGVO-Verstößen?",
-    "antwort": "Geldbußen bis zu 20 Millionen Euro oder 4% des weltweiten Jahresumsatzes",
-    "falseAnswers": [
-      "Nur Verwarnungen",
-      "Nur zivilrechtliche Ansprüche",
-      "Keine Sanktionen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1210,
-    "questionType": "choice",
-    "frage": "Was ist Privacy by Design?",
-    "antwort": "Datenschutz durch geeignete technische Maßnahmen von Anfang an integrieren",
-    "falseAnswers": [
-      "Datenschutz nachträglich hinzufügen",
-      "Datenschutz ignorieren",
-      "Datenschutz nur dokumentieren"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1211,
-    "questionType": "choice",
-    "frage": "Was ist Privacy by Default?",
-    "antwort": "Voreinstellungen müssen datenschutzfreundlich sein",
-    "falseAnswers": [
-      "Voreinstellungen können beliebig sein",
-      "Voreinstellungen müssen komplex sein",
-      "Voreinstellungen müssen öffentlich sein"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1212,
-    "questionType": "choice",
-    "frage": "Was ist ein Drittlandtransfer?",
-    "antwort": "Übermittlung personenbezogener Daten in Länder außerhalb der EU/des EWR",
-    "falseAnswers": [
-      "Übermittlung innerhalb der EU",
-      "Übermittlung innerhalb Deutschlands",
-      "Übermittlung innerhalb eines Unternehmens"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1213,
-    "questionType": "choice",
-    "frage": "Was ist Urheberrecht?",
-    "antwort": "Ein Recht, das Schöpfer von Werken vor unerlaubter Nutzung schützt",
-    "falseAnswers": [
-      "Ein Recht auf Eigentum an Sachen",
-      "Ein Recht auf Erfindungen",
-      "Ein Recht auf Marken"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1214,
-    "questionType": "choice",
-    "frage": "Was schützt das Urheberrecht?",
-    "antwort": "Geistige Schöpfungen wie Texte, Musik, Software, Kunstwerke",
-    "falseAnswers": [
-      "Nur technische Erfindungen",
-      "Nur Marken und Logos",
-      "Nur geschäftliche Ideen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1215,
-    "questionType": "choice",
-    "frage": "Was ist eine Software-Lizenz?",
-    "antwort": "Ein Vertrag, der die Nutzung von Software regelt",
-    "falseAnswers": [
-      "Ein Kaufvertrag für Hardware",
-      "Ein Patent für Software",
-      "Eine Garantie für Software"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1216,
-    "questionType": "choice",
-    "frage": "Was ist proprietäre Software?",
-    "antwort": "Software, deren Nutzung durch den Hersteller eingeschränkt ist",
-    "falseAnswers": [
-      "Software, die kostenlos ist",
-      "Software mit offenem Quellcode",
-      "Software ohne Urheberrecht"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1217,
-    "questionType": "choice",
-    "frage": "Was ist die GPL-Lizenz?",
-    "antwort": "Eine Copyleft-Lizenz, die Änderungen ebenfalls unter GPL stellt",
-    "falseAnswers": [
-      "Eine proprietäre Lizenz",
-      "Eine kostenlose Testlizenz",
-      "Eine zeitlich begrenzte Lizenz"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1213,
+  "questionType": "choice",
+  "frage": "Welche Funktion hat das Urheberrecht?",
+  "antwort": "Schützt Schöpfer geistiger Werke vor unerlaubter Nutzung",
+  "falseAnswers": [
+    "Regelt Eigentum an körperlichen Gegenständen",
+    "Schützt technische Erfindungen durch ein Patent",
+    "Schützt Kennzeichen und Logos durch Markenrecht"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1214,
+  "questionType": "choice",
+  "frage": "Welche Inhalte können urheberrechtlich geschützt sein?",
+  "antwort": "Persönliche geistige Schöpfungen wie Texte, Musik, Software und Kunst",
+  "falseAnswers": [
+    "Ausschließlich technische Erfindungen",
+    "Ausschließlich Marken, Logos und Unternehmenskennzeichen",
+    "Ausschließlich allgemeine geschäftliche Ideen"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1215,
+  "questionType": "choice",
+  "frage": "Was regelt eine Softwarelizenz?",
+  "antwort": "Bedingungen für Nutzung, Änderung und Weitergabe der Software",
+  "falseAnswers": [
+    "Kauf und Eigentumsübergang einer Hardwarekomponente",
+    "Patentierung des zugrunde liegenden Softwareverfahrens",
+    "Garantie für fehlerfreie Software ohne Nutzungsbedingungen"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1216,
+  "questionType": "choice",
+  "frage": "Wodurch ist proprietäre Software typischerweise gekennzeichnet?",
+  "antwort": "Quellcode und Nutzungsrechte werden vom Rechteinhaber kontrolliert",
+  "falseAnswers": [
+    "Sie ist stets kostenlos und uneingeschränkt nutzbar",
+    "Ihr Quellcode ist vollständig öffentlich zugänglich",
+    "Für sie bestehen keinerlei urheberrechtliche Schutzrechte"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1217,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft kennzeichnet die GPL?",
+  "antwort": "Copyleft-Lizenz: Weitergabe bearbeiteter Software grundsätzlich unter GPL",
+  "falseAnswers": [
+    "Proprietäre Lizenz mit geheim gehaltenem Quellcode",
+    "Kostenlose Testlizenz mit automatisch endender Laufzeit",
+    "Zeitlich begrenzte Lizenz ohne Rechte zur Weitergabe"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1218,
     "questionType": "choice",
@@ -14632,29 +14632,29 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1219,
-    "questionType": "choice",
-    "frage": "Was ist die Apache-Lizenz?",
-    "antwort": "Eine permissive Lizenz mit zusätzlichem Patentschutz",
-    "falseAnswers": [
-      "Eine strenge Copyleft-Lizenz",
-      "Eine proprietäre Lizenz",
-      "Eine Testlizenz"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1220,
-    "questionType": "choice",
-    "frage": "Was ist Copyleft?",
-    "antwort": "Ein Lizenzmodell, das Änderungen unter derselben Lizenz verpflichtet",
-    "falseAnswers": [
-      "Ein Urheberrechtsschutz",
-      "Ein Patentschutz",
-      "Ein Markenschutz"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1219,
+  "questionType": "choice",
+  "frage": "Welche Eigenschaft kennzeichnet die Apache-Lizenz 2.0?",
+  "antwort": "Permissive Open-Source-Lizenz mit ausdrücklicher Patentlizenz",
+  "falseAnswers": [
+    "Strenge Copyleft-Lizenz mit Pflicht zur GPL-Weitergabe",
+    "Proprietäre Lizenz mit geheimem Quellcode",
+    "Zeitlich begrenzte Testlizenz ohne Weitergaberechte"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1220,
+  "questionType": "choice",
+  "frage": "Was bezeichnet das Copyleft-Prinzip?",
+  "antwort": "Weitergabe bearbeiteter Werke unter gleichen Lizenzbedingungen",
+  "falseAnswers": [
+    "Gesetzlicher Schutz geistiger Werke durch das Urheberrecht",
+    "Rechtlicher Schutz technischer Erfindungen durch Patente",
+    "Rechtlicher Schutz von Marken und Unternehmenskennzeichen"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1221,
     "questionType": "choice",
@@ -14667,18 +14667,18 @@
     ],
     "category": "Wirtschaft & Software"
   },
-  {
-    "nr": 1222,
-    "questionType": "choice",
-    "frage": "Was bedeutet ©?",
-    "antwort": "Copyright-Symbol, Kennzeichnung urheberrechtlich geschützter Werke",
-    "falseAnswers": [
-      "Kopierschutz-Symbol",
-      "Open-Source-Symbol",
-      "Patent-Symbol"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+ {
+  "nr": 1222,
+  "questionType": "choice",
+  "frage": "Welche Bedeutung hat das Symbol ©?",
+  "antwort": "Copyright-Hinweis auf urheberrechtlich geschützte Werke",
+  "falseAnswers": [
+    "Symbol für einen technischen Kopierschutz",
+    "Kennzeichnung einer Open-Source-Lizenz",
+    "Symbol für ein eingetragenes Patent"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1223,
     "questionType": "choice",
@@ -14692,77 +14692,77 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1224,
-    "questionType": "choice",
-    "frage": "Was ist Shareware?",
-    "antwort": "Software, die zunächst kostenlos getestet werden kann",
-    "falseAnswers": [
-      "Software mit offenem Quellcode",
-      "Software ohne Urheberrecht",
-      "Software für Unternehmen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1224,
+  "questionType": "choice",
+  "frage": "Was kennzeichnet Shareware?",
+  "antwort": "Software, die zunächst kostenlos getestet werden kann",
+  "falseAnswers": [
+    "Software mit grundsätzlich offenem Quellcode",
+    "Software ohne urheberrechtlichen Schutz",
+    "Software, die ausschließlich von Unternehmen genutzt werden darf"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1225,
+  "questionType": "choice",
+  "frage": "Was bedeutet Freeware?",
+  "antwort": "Kostenlos nutzbare Software ohne zwingend offenen Quellcode",
+  "falseAnswers": [
+    "Software mit automatisch offenem Quellcode",
+    "Software ohne jegliche Urheberrechte",
+    "Software, die nur während einer Testphase nutzbar ist"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1226,
+  "questionType": "choice",
+  "frage": "Was ist Creative Commons?",
+  "antwort": "System standardisierter Lizenzen für kreative Inhalte",
+  "falseAnswers": [
+    "Ein ausschließlich für Software entwickeltes Lizenzmodell",
+    "Ein staatliches System zur Erteilung von Patenten",
+    "Ein Registrierungssystem für geschützte Marken"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1227,
+  "questionType": "choice",
+  "frage": "Was bedeutet Public Domain im Urheberrecht?",
+  "antwort": "Gemeinfreie Werke, deren Nutzung grundsätzlich frei möglich ist",
+  "falseAnswers": [
+    "Werke mit besonders strengen Nutzungsbedingungen",
+    "Werke, die ausschließlich zu Testzwecken genutzt werden dürfen",
+    "Werke, deren Nutzung ausschließlich Bildungseinrichtungen vorbehalten ist"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1225,
-    "questionType": "choice",
-    "frage": "Was ist Freeware?",
-    "antwort": "Kostenlose Software, aber nicht unbedingt Open Source",
-    "falseAnswers": [
-      "Software mit offenem Quellcode",
-      "Software ohne Urheberrecht",
-      "Software für Testzwecke"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1226,
-    "questionType": "choice",
-    "frage": "Was ist Creative Commons?",
-    "antwort": "Ein System standardisierter Lizenzen für kreative Werke",
-    "falseAnswers": [
-      "Eine Software-Lizenz",
-      "Ein Patentsystem",
-      "Ein Markensystem"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1227,
-    "questionType": "choice",
-    "frage": "Was ist Public Domain?",
-    "antwort": "Werke ohne Urheberrechtsschutz, frei für alle nutzbar",
-    "falseAnswers": [
-      "Werke mit strengen Lizenzbedingungen",
-      "Werke nur für Testzwecke",
-      "Werke nur für Bildung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1228,
-    "questionType": "choice",
-    "frage": "Was ist eine abgeleitete Arbeit?",
-    "antwort": "Ein Werk, das auf einem bestehenden urheberrechtlich geschützten Werk basiert",
-    "falseAnswers": [
-      "Ein eigenständiges Werk",
-      "Ein Werk ohne Urheberrecht",
-      "Ein Werk in Public Domain"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1229,
-    "questionType": "choice",
-    "frage": "Was ist Lizenzkompatibilität?",
-    "antwort": "Die Möglichkeit, Code unter verschiedenen Lizenzen zu kombinieren",
-    "falseAnswers": [
-      "Die Unmöglichkeit der Kombination",
-      "Die Gleichheit aller Lizenzen",
-      "Die Unterschiedlichkeit aller Lizenzen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1228,
+  "questionType": "choice",
+  "frage": "Was ist ein abgeleitetes Werk?",
+  "antwort": "Bearbeitung oder Anpassung eines bestehenden urheberrechtlich geschützten Werks",
+  "falseAnswers": [
+    "Vollständig unabhängig geschaffenes Werk ohne Bezug zu anderen Werken",
+    "Werk, das niemals urheberrechtlich geschützt sein kann",
+    "Werk, das automatisch gemeinfrei und frei von Lizenzbedingungen ist"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1229,
+  "questionType": "choice",
+  "frage": "Was bedeutet Lizenzkompatibilität bei Software?",
+  "antwort": "Lizenzen erlauben eine gemeinsame Nutzung unter erfüllbaren Bedingungen",
+  "falseAnswers": [
+    "Verschiedene Lizenzen können grundsätzlich niemals kombiniert werden",
+    "Alle Softwarelizenzen enthalten exakt dieselben Bedingungen",
+    "Alle Softwarelizenzen unterscheiden sich vollständig voneinander"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1230,
     "questionType": "choice",
@@ -14776,65 +14776,65 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1231,
-    "questionType": "choice",
-    "frage": "Ist MIT-Lizenz mit GPL kompatibel?",
-    "antwort": "Ja, MIT-Code kann in GPL-Projekte integriert werden",
-    "falseAnswers": [
-      "Nein, nie kompatibel",
-      "Nur für Testzwecke",
-      "Nur für Bildung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1231,
+  "questionType": "choice",
+  "frage": "Ist MIT-lizenzierter Code mit der GPL kompatibel?",
+  "antwort": "Ja; integrierbar, Gesamtwerk muss GPL-konform verbreitet werden",
+  "falseAnswers": [
+    "Nein, MIT-Code ist niemals mit GPL-Code kombinierbar",
+    "Ja, aber ausschließlich für zeitlich begrenzte Testzwecke",
+    "Ja, aber ausschließlich für Bildungseinrichtungen"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1232,
-    "questionType": "choice",
-    "frage": "Was ist der Hauptunterschied zwischen GPL und MIT?",
-    "antwort": "GPL ist Copyleft, MIT ist permissive",
-    "falseAnswers": [
-      "GPL ist teurer",
-      "MIT ist proprietär",
-      "Es gibt keinen Unterschied"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1232,
+  "questionType": "choice",
+  "frage": "Was ist der wesentliche Unterschied zwischen GPL und MIT-Lizenz?",
+  "antwort": "GPL ist Copyleft, MIT ist permissiv",
+  "falseAnswers": [
+    "GPL ist grundsätzlich kostenpflichtig, MIT grundsätzlich kostenlos",
+    "MIT ist eine proprietäre Lizenz mit geschlossenem Quellcode",
+    "Zwischen GPL und MIT bestehen keine rechtlichen Unterschiede"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1233,
+  "questionType": "choice",
+  "frage": "Was bedeutet Fair Use?",
+  "antwort": "US-amerikanische Ausnahme für bestimmte Nutzungen geschützter Werke",
+  "falseAnswers": [
+    "Eine allgemeine Open-Source-Lizenz für Software",
+    "Ein gesetzlicher Schutz technischer Erfindungen",
+    "Ein gesetzlicher Schutz von Marken und Logos"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1234,
+  "questionType": "choice",
+  "frage": "Wann liegt eine Urheberrechtsverletzung vor?",
+  "antwort": "Bei unerlaubter Nutzung geschützter Werke außerhalb gesetzlicher Ausnahmen",
+  "falseAnswers": [
+    "Bei jeder Nutzung eines ordnungsgemäß lizenzierten Werks",
+    "Bei jeder Nutzung eines gemeinfreien Werks",
+    "Bei jeder Nutzung mit Zustimmung des Rechteinhabers"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1233,
-    "questionType": "choice",
-    "frage": "Was ist Fair Use?",
-    "antwort": "Eine Ausnahme im Urheberrecht für bestimmte Nutzungen",
-    "falseAnswers": [
-      "Eine Lizenz für Software",
-      "Ein Patentschutz",
-      "Ein Markenschutz"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1234,
-    "questionType": "choice",
-    "frage": "Was ist eine Urheberrechtsverletzung?",
-    "antwort": "Unerlaubte Nutzung eines urheberrechtlich geschützten Werkes",
-    "falseAnswers": [
-      "Erlaubte Nutzung mit Lizenz",
-      "Nutzung von Public Domain",
-      "Nutzung mit Erlaubnis"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1235,
-    "questionType": "choice",
-    "frage": "Wie lange dauert Urheberrechtsschutz in der EU?",
-    "antwort": "70 Jahre nach dem Tod des Urhebers",
-    "falseAnswers": [
-      "10 Jahre nach Veröffentlichung",
-      "20 Jahre nach Erstellung",
-      "Unbegrenzt"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1235,
+  "questionType": "choice",
+  "frage": "Wie lange gilt der Urheberrechtsschutz in der EU grundsätzlich?",
+  "antwort": "70 Jahre nach dem Tod des Urhebers",
+  "falseAnswers": [
+    "Nur zehn Jahre nach der ersten Veröffentlichung",
+    "Nur zwanzig Jahre nach der Erstellung",
+    "Unbegrenzt ohne zeitliche Begrenzung"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1236,
     "questionType": "choice",
@@ -14848,41 +14848,41 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1237,
-    "questionType": "choice",
-    "frage": "Was sind Urheberpersönlichkeitsrechte?",
-    "antwort": "Unveräußerliche Rechte des Urhebers auf Anerkennung und Integrität",
-    "falseAnswers": [
-      "Verkäufliche Rechte an Werken",
-      "Zeitlich begrenzte Rechte",
-      "Nur finanzielle Rechte"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1238,
-    "questionType": "choice",
-    "frage": "Was sind Verwertungsrechte?",
-    "antwort": "Rechte zur wirtschaftlichen Nutzung eines Werkes",
-    "falseAnswers": [
-      "Rechte auf Anerkennung",
-      "Rechte auf Integrität",
-      "Rechte auf Löschung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1239,
-    "questionType": "choice",
-    "frage": "Was ist eine Lizenzgebühr?",
-    "antwort": "Eine Zahlung für die Nutzungslizenz eines urheberrechtlich geschützten Werkes",
-    "falseAnswers": [
-      "Eine Steuer für Urheber",
-      "Eine Gebühr für Patente",
-      "Eine Gebühr für Marken"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1237,
+  "questionType": "choice",
+  "frage": "Was schützen Urheberpersönlichkeitsrechte?",
+  "antwort": "Persönliche Beziehung des Urhebers zu seinem Werk",
+  "falseAnswers": [
+    "Ausschließlich übertragbare Rechte zur wirtschaftlichen Verwertung",
+    "Zeitlich begrenzte Rechte auf Nutzung fremder Werke",
+    "Ausschließlich finanzielle Ansprüche aus dem Werk"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1238,
+  "questionType": "choice",
+  "frage": "Was sind Verwertungsrechte?",
+  "antwort": "Ausschließliche Rechte zur Nutzung und Verwertung eines Werks",
+  "falseAnswers": [
+    "Rechte auf Anerkennung der persönlichen Urheberschaft",
+    "Rechte auf Schutz vor Entstellung des Werks",
+    "Rechte auf vollständige Löschung eines veröffentlichten Werks"
+  ],
+  "category": "Wirtschaft & Software"
+},
+ {
+  "nr": 1239,
+  "questionType": "choice",
+  "frage": "Was ist eine Lizenzgebühr?",
+  "antwort": "Vergütung für die vertraglich erlaubte Nutzung eines Schutzrechts",
+  "falseAnswers": [
+    "Staatliche Steuer auf Einnahmen von Urhebern",
+    "Gebühr, die unabhängig von jeder Nutzung anfällt",
+    "Zahlung, die automatisch Eigentum am Schutzrecht überträgt"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1240,
     "questionType": "choice",
@@ -14895,30 +14895,30 @@
     ],
     "category": "Wirtschaft & Software"
   },
-  {
-    "nr": 1241,
-    "questionType": "choice",
-    "frage": "Was ist ein Lizenzgeber?",
-    "antwort": "Der Urheber oder Rechteinhaber, der eine Lizenz erteilt",
-    "falseAnswers": [
-      "Der Empfänger einer Lizenz",
-      "Der Nutzer eines Werkes",
-      "Der Verkäufer eines Werkes"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1242,
-    "questionType": "choice",
-    "frage": "Was ist Source Code?",
-    "antwort": "Der lesbare Programmcode für Entwickler",
-    "falseAnswers": [
-      "Der ausführbare Code",
-      "Der binäre Code",
-      "Der kompilierte Code"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+ {
+  "nr": 1241,
+  "questionType": "choice",
+  "frage": "Welche Rolle hat ein Lizenzgeber?",
+  "antwort": "Erteilt als Rechteinhaber oder Berechtigter eine Nutzungslizenz",
+  "falseAnswers": [
+    "Empfängt eine Lizenz und nutzt sie nach ihren Bedingungen",
+    "Nutzt ein Werk ohne eingeräumte Nutzungsrechte",
+    "Verkauft ausschließlich körperliche Exemplare eines Werkes"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1242,
+  "questionType": "choice",
+  "frage": "Was bezeichnet Source Code?",
+  "antwort": "Menschenlesbarer, in einer Programmiersprache geschriebener Programmtext",
+  "falseAnswers": [
+    "Direkt ausführbarer Maschinencode eines Programms",
+    "Binäre Darstellung eines kompilierten Programms",
+    "Bereits übersetzter Code für die unmittelbare Prozessorausführung"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1243,
     "questionType": "choice",
@@ -14932,17 +14932,17 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1244,
-    "questionType": "choice",
-    "frage": "Was ist SaaS?",
-    "antwort": "Software as a Service - Software über Cloud bereitgestellt",
-    "falseAnswers": [
-      "Software zum Kauf",
-      "Software mit offenem Code",
-      "Software für Testzwecke"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1244,
+  "questionType": "choice",
+  "frage": "Was bedeutet SaaS?",
+  "antwort": "Software als Cloud-Dienst, die online bereitgestellt und genutzt wird",
+  "falseAnswers": [
+    "Lokal installierte Software mit einmaligem Kaufpreis",
+    "Software mit automatisch offenem Quellcode",
+    "Software, die ausschließlich während einer Testphase funktioniert"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1245,
     "questionType": "choice",
@@ -14955,66 +14955,66 @@
     ],
     "category": "Wirtschaft & Software"
   },
-  {
-    "nr": 1246,
-    "questionType": "choice",
-    "frage": "Was ist eine Marke?",
-    "antwort": "Ein Schutzrecht für Kennzeichen von Waren oder Dienstleistungen",
-    "falseAnswers": [
-      "Ein Schutzrecht für Code",
-      "Ein Schutzrecht für Erfindungen",
-      "Ein Schutzrecht für Designs"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1247,
-    "questionType": "choice",
-    "frage": "Was ist OSI?",
-    "antwort": "Open Source Initiative - Organisation für Open-Source-Standards",
-    "falseAnswers": [
-      "Eine Software-Firma",
-      "Eine Testorganisation",
-      "Eine Lizenzbehörde"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1248,
-    "questionType": "choice",
-    "frage": "Was ist FSF?",
-    "antwort": "Free Software Foundation - Organisation für freie Software",
-    "falseAnswers": [
-      "Eine Software-Firma",
-      "Eine Testorganisation",
-      "Eine Lizenzbehörde"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1249,
-    "questionType": "choice",
-    "frage": "Was ist eine Community-Lizenz?",
-    "antwort": "Eine Lizenz, die von einer Entwickler-Community erstellt wurde",
-    "falseAnswers": [
-      "Eine Lizenz für Testzwecke",
-      "Eine Lizenz nur für Bildung",
-      "Eine proprietäre Lizenz"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1250,
-    "questionType": "choice",
-    "frage": "Was ist Dual Licensing?",
-    "antwort": "Angebot derselben Software unter zwei verschiedenen Lizenzen",
-    "falseAnswers": [
-      "Angebot nur einer Lizenz",
-      "Angebot nur für Testzwecke",
-      "Angebot nur für Bildung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+ {
+  "nr": 1246,
+  "questionType": "choice",
+  "frage": "Was schützt eine Marke?",
+  "antwort": "Kennzeichen, die Waren oder Dienstleistungen unterscheiden",
+  "falseAnswers": [
+    "Softwarecode durch das Urheberrecht",
+    "Technische Erfindungen durch das Patentrecht",
+    "Gestaltungen von Produkten durch das Designrecht"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1247,
+  "questionType": "choice",
+  "frage": "Wofür steht OSI?",
+  "antwort": "Open Source Initiative zur Förderung und Definition von Open Source",
+  "falseAnswers": [
+    "Softwareunternehmen zur Entwicklung proprietärer Programme",
+    "Testorganisation für allgemeine Hardwarequalität",
+    "Staatliche Behörde zur Vergabe von Softwarelizenzen"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1248,
+  "questionType": "choice",
+  "frage": "Wofür steht FSF?",
+  "antwort": "Free Software Foundation zur Förderung der Freiheit von Softwarenutzern",
+  "falseAnswers": [
+    "Softwareunternehmen für kostenpflichtige Standardprogramme",
+    "Testorganisation für die Sicherheit von Hardware",
+    "Staatliche Behörde zur Erteilung von Softwarelizenzen"
+  ],
+  "category": "Wirtschaft & Software"
+},
+ {
+  "nr": 1249,
+  "questionType": "choice",
+  "frage": "Was kann eine Community-Lizenz bezeichnen?",
+  "antwort": "Von einer Community entwickelte oder für sie bestimmte Lizenz",
+  "falseAnswers": [
+    "Lizenz, die ausschließlich für Softwaretests gilt",
+    "Lizenz, die ausschließlich Bildungseinrichtungen nutzen dürfen",
+    "Lizenz, die immer proprietär und geschlossen sein muss"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1250,
+  "questionType": "choice",
+  "frage": "Was bedeutet Dual Licensing?",
+  "antwort": "Dieselbe Software wird unter zwei Lizenzmodellen angeboten",
+  "falseAnswers": [
+    "Software wird ausschließlich unter einer Lizenz angeboten",
+    "Software wird nur für zeitlich begrenzte Tests angeboten",
+    "Software wird ausschließlich Bildungseinrichtungen angeboten"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1251,
     "questionType": "choice",
@@ -15028,161 +15028,161 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1252,
-    "questionType": "choice",
-    "frage": "Was ist ein Derivat?",
-    "antwort": "Ein abgeleitetes Werk, das auf einem bestehenden Werk basiert",
-    "falseAnswers": [
-      "Ein eigenständiges Werk",
-      "Ein Werk ohne Urheberrecht",
-      "Ein Werk in Public Domain"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1252,
+  "questionType": "choice",
+  "frage": "Was ist ein urheberrechtliches Derivat?",
+  "antwort": "Ein bearbeitetes Werk, das auf einem bestehenden Werk basiert",
+  "falseAnswers": [
+    "Ein vollständig unabhängig geschaffenes Werk ohne Vorlage",
+    "Ein Werk, das niemals urheberrechtlich geschützt sein kann",
+    "Ein Werk, das automatisch gemeinfrei geworden ist"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1253,
+  "questionType": "choice",
+  "frage": "Was bedeutet Attribution bei einer Lizenz?",
+  "antwort": "Pflicht zur angemessenen Nennung des Urhebers",
+  "falseAnswers": [
+    "Pflicht zur Zahlung einer festen Lizenzgebühr",
+    "Pflicht zur vollständigen Löschung des lizenzierten Werks",
+    "Pflicht zur Bearbeitung und Veränderung des Werks"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1254,
+  "questionType": "choice",
+  "frage": "Was bedeutet die Lizenzbedingung Non-Commercial?",
+  "antwort": "Nutzung ist nur für nichtkommerzielle Zwecke erlaubt",
+  "falseAnswers": [
+    "Nutzung ist ausschließlich während einer Testphase erlaubt",
+    "Nutzung ist ausschließlich zu Bildungszwecken erlaubt",
+    "Nutzung ist ausschließlich mit offenem Quellcode erlaubt"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1255,
+  "questionType": "choice",
+  "frage": "Was bedeutet die Lizenzbedingung No-Derivatives?",
+  "antwort": "Bearbeitete Fassungen dürfen grundsätzlich nicht weitergegeben werden",
+  "falseAnswers": [
+    "Nutzung ist ausschließlich während einer Testphase erlaubt",
+    "Nutzung ist ausschließlich zu Bildungszwecken erlaubt",
+    "Nutzung ist ausschließlich für Open-Source-Projekte erlaubt"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1253,
-    "questionType": "choice",
-    "frage": "Was ist Attribution?",
-    "antwort": "Die Pflicht zur Nennung des Urhebers",
-    "falseAnswers": [
-      "Die Pflicht zur Zahlung",
-      "Die Pflicht zur Löschung",
-      "Die Pflicht zur Änderung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1256,
+  "questionType": "choice",
+  "frage": "Was bedeutet Share-Alike bei einer Lizenz?",
+  "antwort": "Bearbeitungen müssen bei Weitergabe gleich oder kompatibel lizenziert werden",
+  "falseAnswers": [
+    "Nutzer müssen für jede Bearbeitung automatisch eine Gebühr zahlen",
+    "Nutzer müssen das ursprüngliche Werk vollständig löschen",
+    "Nutzer müssen das Werk zwingend verändern"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1257,
+  "questionType": "choice",
+  "frage": "Was regelt ein Lizenzvertrag?",
+  "antwort": "Er räumt Nutzungsrechte an einem geschützten Werk ein",
+  "falseAnswers": [
+    "Er überträgt automatisch das Eigentum an Computerhardware",
+    "Er begründet grundsätzlich ein Arbeitsverhältnis",
+    "Er regelt ausschließlich die Vermietung körperlicher Gegenstände"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1258,
+  "questionType": "choice",
+  "frage": "Wann liegt eine Lizenzverletzung vor?",
+  "antwort": "Bei Verstoß gegen vereinbarte Lizenzbedingungen",
+  "falseAnswers": [
+    "Bei vollständiger Einhaltung aller Lizenzbedingungen",
+    "Bei ordnungsgemäßer Verlängerung einer bestehenden Lizenz",
+    "Bei zulässiger Nutzung im vereinbarten Lizenzumfang"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1254,
-    "questionType": "choice",
-    "frage": "Was ist Non-Commercial?",
-    "antwort": "Eine Einschränkung, die nur nicht-kommerzielle Nutzung erlaubt",
-    "falseAnswers": [
-      "Eine Einschränkung für Testzwecke",
-      "Eine Einschränkung für Bildung",
-      "Eine Einschränkung für Open Source"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1259,
+  "questionType": "choice",
+  "frage": "Welche Folgen kann eine Lizenzverletzung haben?",
+  "antwort": "Abmahnung, Unterlassungsanspruch und Schadensersatzforderungen",
+  "falseAnswers": [
+    "Grundsätzlich keinerlei rechtliche oder vertragliche Folgen",
+    "Ausschließlich eine unverbindliche mündliche Warnung",
+    "Ausschließlich eine automatische Verwaltungsgebühr"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1260,
+  "questionType": "choice",
+  "frage": "Was bedeutet Software-Escrow?",
+  "antwort": "Treuhändische Quellcode-Hinterlegung für vertraglich festgelegte Notfälle",
+  "falseAnswers": [
+    "Verkauf einer Software an einen neutralen Vermittler",
+    "Technische Prüfung einer Software vor ihrer Veröffentlichung",
+    "Endgültige Löschung einer Software durch einen Treuhänder"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1261,
+  "questionType": "choice",
+  "frage": "Was regelt ein Berufsausbildungsvertrag?",
+  "antwort": "Berufliche Ausbildung zwischen Ausbildungsbetrieb und Auszubildendem",
+  "falseAnswers": [
+    "Reguläres Beschäftigungsverhältnis ohne Ausbildungszweck",
+    "Kurzfristige praktische Tätigkeit ohne Ausbildungsordnung",
+    "Herstellung oder Lieferung eines vertraglich vereinbarten Werkes"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
-    "nr": 1255,
-    "questionType": "choice",
-    "frage": "Was ist No-Derivatives?",
-    "antwort": "Eine Einschränkung, die keine Änderungen am Werk erlaubt",
-    "falseAnswers": [
-      "Eine Einschränkung für Testzwecke",
-      "Eine Einschränkung für Bildung",
-      "Eine Einschränkung für Open Source"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1256,
-    "questionType": "choice",
-    "frage": "Was ist Share-Alike?",
-    "antwort": "Eine Pflicht, abgeleitete Werke unter derselben Lizenz zu veröffentlichen",
-    "falseAnswers": [
-      "Eine Pflicht zur Zahlung",
-      "Eine Pflicht zur Löschung",
-      "Eine Pflicht zur Änderung"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1257,
-    "questionType": "choice",
-    "frage": "Was ist ein Lizenzvertrag?",
-    "antwort": "Ein Vertrag über die Nutzungsrechte an einem urheberrechtlich geschützten Werk",
-    "falseAnswers": [
-      "Ein Kaufvertrag für Hardware",
-      "Ein Arbeitsvertrag",
-      "Ein Mietvertrag"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1258,
-    "questionType": "choice",
-    "frage": "Was ist eine Lizenzverletzung?",
-    "antwort": "Nicht-Einhaltung der vereinbarten Lizenzbedingungen",
-    "falseAnswers": [
-      "Einhaltung der Lizenzbedingungen",
-      "Erneuerung der Lizenz",
-      "Änderung der Lizenz"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1259,
-    "questionType": "choice",
-    "frage": "Was sind die Konsequenzen einer Lizenzverletzung?",
-    "antwort": "Abmahnung, Schadensersatz, Unterlassung",
-    "falseAnswers": [
-      "Keine Konsequenzen",
-      "Nur eine Warnung",
-      "Nur eine Gebühr"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1260,
-    "questionType": "choice",
-    "frage": "Was ist Software-Escrow?",
-    "antwort": "Hinterlegung des Quellcodes bei einem Dritten für den Fall der Insolvenz",
-    "falseAnswers": [
-      "Verkauf von Software",
-      "Testen von Software",
-      "Löschen von Software"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1261,
-    "questionType": "choice",
-    "frage": "Was ist ein Berufsausbildungsvertrag?",
-    "antwort": "Ein Vertrag zwischen Ausbilder und Auszubildender zur Regelung der Ausbildung",
-    "falseAnswers": [
-      "Ein Arbeitsvertrag für Fachkräfte",
-      "Ein Praktikumsvertrag",
-      "Ein Werkvertrag"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1262,
-    "questionType": "choice",
-    "frage": "Wer sind die Vertragsparteien beim Berufsausbildungsvertrag?",
-    "antwort": "Ausbildender (Betrieb) und Auszubildende (Azubi)",
-    "falseAnswers": [
-      "Arbeitgeber und Arbeitnehmer",
-      "Schule und Schüler",
-      "Kunde und Dienstleister"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1263,
-    "questionType": "choice",
-    "frage": "Was muss im Berufsausbildungsvertrag enthalten sein?",
-    "antwort": "Ausbildungsberuf, Dauer, Probezeit, Vergütung, Arbeitszeit",
-    "falseAnswers": [
-      "Nur der Name des Azubis",
-      "Nur die Vergütung",
-      "Nur die Arbeitszeit"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1264,
-    "questionType": "choice",
-    "frage": "Wo muss der Berufsausbildungsvertrag eingetragen werden?",
-    "antwort": "Bei der zuständigen Kammer (z.B. IHK, HWK)",
-    "falseAnswers": [
-      "Beim Arbeitsamt",
-      "Beim Finanzamt",
-      "Beim Bürgermeisteramt"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1262,
+  "questionType": "choice",
+  "frage": "Wer schließt einen Berufsausbildungsvertrag?",
+  "antwort": "Ausbildungsbetrieb und Auszubildender, bei Minderjährigen gesetzliche Vertreter",
+  "falseAnswers": [
+    "Arbeitgeber und Arbeitnehmer in einem gewöhnlichen Arbeitsvertrag",
+    "Berufsschule und Schüler als alleinige Vertragspartner",
+    "Kunde und Dienstleister über eine bestimmte Arbeitsleistung"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1263,
+  "questionType": "choice",
+  "frage": "Welche Angaben muss ein Berufsausbildungsvertrag enthalten?",
+  "antwort": "Ausbildungsberuf, Dauer, Probezeit, Vergütung, Arbeitszeit und Urlaub",
+  "falseAnswers": [
+    "Ausschließlich den Namen des Auszubildenden",
+    "Ausschließlich die Höhe der Ausbildungsvergütung",
+    "Ausschließlich die tägliche Ausbildungszeit"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1264,
+  "questionType": "choice",
+  "frage": "Wo wird ein Berufsausbildungsvertrag eingetragen?",
+  "antwort": "Im Verzeichnis der zuständigen Stelle, etwa IHK oder HWK",
+  "falseAnswers": [
+    "Ausschließlich bei der Agentur für Arbeit",
+    "Ausschließlich beim zuständigen Finanzamt",
+    "Ausschließlich beim örtlichen Bürgermeisteramt"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1265,
     "questionType": "choice",
@@ -15208,29 +15208,29 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1267,
-    "questionType": "choice",
-    "frage": "Kann während der Probezeit gekündigt werden?",
-    "antwort": "Ja, jederzeit ohne Frist und ohne Angabe von Gründen",
-    "falseAnswers": [
-      "Nein, niemals",
-      "Nur mit 4 Wochen Frist",
-      "Nur aus wichtigem Grund"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1268,
-    "questionType": "choice",
-    "frage": "Kann nach der Probezeit gekündigt werden?",
-    "antwort": "Ja, aber nur aus wichtigem Grund oder durch Azubi mit 4 Wochen Frist",
-    "falseAnswers": [
-      "Nein, niemals",
-      "Ja, jederzeit ohne Frist",
-      "Ja, mit 2 Wochen Frist"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1267,
+  "questionType": "choice",
+  "frage": "Wie kann ein Berufsausbildungsverhältnis während der Probezeit gekündigt werden?",
+  "antwort": "Jederzeit fristlos und ohne Angabe eines Kündigungsgrundes",
+  "falseAnswers": [
+    "Während der Probezeit grundsätzlich überhaupt nicht",
+    "Nur mit einer gesetzlichen Kündigungsfrist von vier Wochen",
+    "Nur bei Vorliegen eines wichtigen Kündigungsgrundes"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1268,
+  "questionType": "choice",
+  "frage": "Welche Kündigungsmöglichkeiten bestehen nach der Probezeit?",
+  "antwort": "Betrieb nur aus wichtigem Grund, Azubi mit vier Wochen Frist",
+  "falseAnswers": [
+    "Das Ausbildungsverhältnis kann danach überhaupt nicht beendet werden",
+    "Beide Seiten können jederzeit ohne Frist und Grund kündigen",
+    "Beide Seiten können einheitlich mit zwei Wochen Frist kündigen"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1269,
     "questionType": "choice",
@@ -15244,17 +15244,17 @@
     "category": "Wirtschaft & Software"
   },
   {
-    "nr": 1270,
-    "questionType": "choice",
-    "frage": "Was ist ein wichtiger Grund zur Kündigung?",
-    "antwort": "Ein Grund, der die Fortsetzung der Ausbildung unzumutbar macht",
-    "falseAnswers": [
-      "Ein beliebiger Grund",
-      "Ein kleiner Fehler",
-      "Ein Missverständnis"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+  "nr": 1270,
+  "questionType": "choice",
+  "frage": "Wann liegt ein wichtiger Grund zur Kündigung der Ausbildung vor?",
+  "antwort": "Wenn die Fortsetzung nach Interessenabwägung unzumutbar ist",
+  "falseAnswers": [
+    "Bei jedem beliebigen persönlichen Änderungswunsch",
+    "Bei einem einmaligen geringfügigen Fehler ohne weitere Folgen",
+    "Bei einem bloßen Missverständnis ohne erhebliche Pflichtverletzung"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1271,
     "questionType": "choice",
@@ -15267,42 +15267,42 @@
     ],
     "category": "Wirtschaft & Software"
   },
-  {
-    "nr": 1272,
-    "questionType": "choice",
-    "frage": "Was ist das Jugendarbeitsschutzgesetz (JArbSchG)?",
-    "antwort": "Ein Gesetz zum Schutz von Jugendlichen im Arbeitsleben",
-    "falseAnswers": [
-      "Ein Gesetz für Erwachsene",
-      "Ein Gesetz für Kinder unter 15",
-      "Ein Gesetz für Rentner"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1273,
-    "questionType": "choice",
-    "frage": "Für wen gilt das JArbSchG?",
-    "antwort": "Für Jugendliche zwischen 15 und 18 Jahren",
-    "falseAnswers": [
-      "Für Kinder unter 15",
-      "Für Erwachsene über 18",
-      "Für alle Altersgruppen"
-    ],
-    "category": "Wirtschaft & Software"
-  },
-  {
-    "nr": 1274,
-    "questionType": "choice",
-    "frage": "Wer ist ein Jugendlicher laut JArbSchG?",
-    "antwort": "Wer 15, aber noch nicht 18 Jahre alt ist",
-    "falseAnswers": [
-      "Wer unter 15 ist",
-      "Wer über 18 ist",
-      "Wer zwischen 18 und 21 ist"
-    ],
-    "category": "Wirtschaft & Software"
-  },
+ {
+  "nr": 1272,
+  "questionType": "choice",
+  "frage": "Welchen Zweck hat das Jugendarbeitsschutzgesetz (JArbSchG)?",
+  "antwort": "Schutz von Kindern und Jugendlichen bei Beschäftigung",
+  "falseAnswers": [
+    "Gesetz, das ausschließlich erwachsene Beschäftigte schützt",
+    "Gesetz, das ausschließlich Kinder unter 15 Jahren regelt",
+    "Gesetz, das ausschließlich Beschäftigte im Rentenalter schützt"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1273,
+  "questionType": "choice",
+  "frage": "Für wen gilt das JArbSchG grundsätzlich?",
+  "antwort": "Für beschäftigte Personen unter 18 Jahren",
+  "falseAnswers": [
+    "Ausschließlich für Kinder unter 15 Jahren",
+    "Ausschließlich für Erwachsene ab 18 Jahren",
+    "Für alle Beschäftigten unabhängig vom Alter"
+  ],
+  "category": "Wirtschaft & Software"
+},
+{
+  "nr": 1274,
+  "questionType": "choice",
+  "frage": "Wer gilt nach dem JArbSchG als Jugendlicher?",
+  "antwort": "Person zwischen 15 und unter 18 Jahren",
+  "falseAnswers": [
+    "Person unter 15 Jahren, die gesetzlich als Kind gilt",
+    "Person ab 18 Jahren",
+    "Person zwischen 18 und 21 Jahren"
+  ],
+  "category": "Wirtschaft & Software"
+},
   {
     "nr": 1275,
     "questionType": "choice",

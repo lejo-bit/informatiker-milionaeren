@@ -10,6 +10,7 @@
 
 import { state } from "./state.js";
 import { fetchScoresFirebase } from "./firebase.js";
+import { initFeedback } from "./feedback.js";
 import {
   loadQuestions,
   startGame,
@@ -24,6 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Load questions from fragen.json and fetch leaderboard scores
   loadQuestions();
   fetchScoresFirebase();
+
+  // Initialize the feedback button and modal
+  initFeedback();
 
   // --- Button event listeners ---
   document.getElementById("startBtn").addEventListener("click", startGame);
