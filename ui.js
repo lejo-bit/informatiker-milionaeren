@@ -115,11 +115,17 @@ export function clearStreakEffect() {
   }
 }
 
-export function showComboBanner() {
+export function showComboBanner(reward = "live") {
   const banner = document.getElementById("comboBanner");
   if (!banner) return;
 
-  banner.textContent = "🎉 4 Richtige Antworten Combo! +1 Leben ❤️";
+  const messages = {
+    live: "🎉 5 Richtige Antworten Combo! +1 Leben ❤️",
+    skip: "🎉 5 Richtige Antworten Combo! +1 Überspringen ⏭️",
+    fifty: "🎉 5 Richtige Antworten Combo! +1 50:50 💡"
+  };
+
+  banner.textContent = messages[reward] || messages.live;
   banner.classList.remove("hidden");
 
   if (state.comboTimeout) clearTimeout(state.comboTimeout);

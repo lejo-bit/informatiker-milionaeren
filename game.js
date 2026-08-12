@@ -176,6 +176,28 @@ export function handleFiftyFifty() {
   updateHud(getStreakMultiplier);
 }
 
+export function grantComboReward() {
+  const roll = Math.random();
+  let reward;
+
+  if (roll < 0.4) {
+    // 40% chance: extra 50:50
+    state.fiftyFiftyLeft += 1;
+    reward = "fifty";
+  } else if (roll < 0.8) {
+    // 40% chance: extra Skip
+    state.skipsLeft += 1;
+    reward = "skip";
+  } else {
+    // 20% chance: extra live
+    state.lives += 1;
+    reward = "live";
+  }
+
+  showComboBanner(reward);
+  updateHud(getStreakMultiplier);
+}
+
 export function handleAnswer() {
   if (state.isAnswerSubmitted) return;
 
@@ -244,9 +266,8 @@ export function handleAnswer() {
     state.score += Math.round(basePoints * getStreakMultiplier());
     state.consecutiveCorrectAnswers += 1;
 
-    if (state.consecutiveCorrectAnswers % 4 === 0) {
-      state.lives += 1;
-      showComboBanner();
+    if (state.consecutiveCorrectAnswers % 5 === 0) {
+      grantComboReward();
     }
 
     if ([5, 10, 15].includes(state.consecutiveCorrectAnswers)) {
