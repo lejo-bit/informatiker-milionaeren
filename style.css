@@ -694,6 +694,34 @@ body.streak-5, body.streak-10, body.streak-15 {
   box-shadow: none !important;
   transform: none !important;
 }
+
+/* Allow 50:50 button text and span to render inline normally */
+#fiftyFiftyBtn span {
+  background: transparent !important;
+  padding: 0 !important;
+  color: inherit !important;
+  min-width: auto !important;
+  line-height: inherit !important;
+}
+
+/* Gray out the 50:50 button clearly when disabled */
+#fiftyFiftyBtn:disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+  background: #d6cdbe !important;
+  color: #888 !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+/* 50:50 removed answer buttons */
+.choiceBtn.fifty-fifty-removed {
+  background: transparent !important;
+  border: 2px dashed #d6cdbe !important;
+  color: transparent !important;
+  box-shadow: none !important;
+  opacity: 0.3;
+}
 CSS
 .category-badge {
   display: inline-block;

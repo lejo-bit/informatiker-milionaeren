@@ -77,6 +77,7 @@ export function startGame() {
 
 export function renderQuestion() {
   state.isAnswerSubmitted = false;
+  state.fiftyFiftyUsedOnCurrentQuestion = false;
   const q = state.questions[state.currentIndex];
   state.selectedChoice = null;
 
@@ -144,6 +145,35 @@ export function renderQuestion() {
   }
 
   startTimer();
+}
+
+export function handleFiftyFifty() {
+  if (state.isAnswerSubmitted) return;
+  if (state.fiftyFiftyLeft <= 0) return;
+  if (state.fiftyFiftyUsedOnCurrentQuestion) return;
+
+  const q = state.questions[state.currentIndex];
+  if (!q || q.questionType !== "choice") return;
+
+  const choiceButtons = document.querySelectorAll(".choiceBtn");
+  const wrongButtons = Array.from(choiceButtons).filter(
+    btn => btn.dataset.isCorrect === "false" && !btn.disabled
+  );
+
+  if (wrongButtons.length < 2) return;
+
+  const shuffledWrong = shuffleArray(wrongButtons);
+  const toRemove = shuffledWrong.slice(0, 2);
+
+  toRemove.forEach(btn => {
+    btn.disabled = true;
+    btn.classList.add("fifty-fifty-removed");
+    btn.textContent = "";
+  });
+
+  state.fiftyFiftyLeft--;
+  state.fiftyFiftyUsedOnCurrentQuestion = true;
+  updateHud(getStreakMultiplier);
 }
 
 export function handleAnswer() {

@@ -55,6 +55,17 @@ export function updateHud(getStreakMultiplier) {
   const skipBtn = document.getElementById("skipBtn");
   if (skipsLeftEl) skipsLeftEl.textContent = state.skipsLeft;
   if (skipBtn) skipBtn.disabled = state.skipsLeft <= 0;
+
+  const fiftyFiftyLeftEl = document.getElementById("fiftyFiftyLeft");
+  const fiftyFiftyBtn = document.getElementById("fiftyFiftyBtn");
+  if (fiftyFiftyLeftEl) fiftyFiftyLeftEl.textContent = state.fiftyFiftyLeft;
+
+  if (fiftyFiftyBtn) {
+    const q = state.questions[state.currentIndex];
+    const isChoiceQuestion = q && q.questionType === "choice";
+    const canUse = state.fiftyFiftyLeft > 0 && !state.fiftyFiftyUsedOnCurrentQuestion && !state.isAnswerSubmitted;
+    fiftyFiftyBtn.disabled = !isChoiceQuestion || !canUse;
+  }
 }
 
 export function triggerDamageEffects() {

@@ -5,6 +5,7 @@ import {
   startGame, 
   handleAnswer, 
   handleSkip, 
+  handleFiftyFifty, 
   goToNextQuestionAfterError, 
   restartGame 
 } from "./game.js";
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("startBtn").addEventListener("click", startGame);
   document.getElementById("checkBtn").addEventListener("click", handleAnswer);
+  document.getElementById("fiftyFiftyBtn").addEventListener("click", handleFiftyFifty);
   document.getElementById("skipBtn").addEventListener("click", handleSkip);
   document.getElementById("nextBtn").addEventListener("click", goToNextQuestionAfterError);
   document.getElementById("restartBtn").addEventListener("click", restartGame);
