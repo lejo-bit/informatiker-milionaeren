@@ -21,8 +21,8 @@ Jede Frage enthält optional eine Zuordnung zu einer **Kategorie** (z. B. Netzwe
 
 #### Hilfsmittel
 
-- **50:50**: Entfernt zwei falsche Antwortmöglichkeiten bei Multiple-Choice-Fragen (nur 1× pro Spiel, nicht in offenen Fragen).
-- **Überspringen**: Überspringt die aktuelle Frage (nur 1× pro Spiel).
+- **50:50**: Entfernt zwei falsche Antwortmöglichkeiten bei Multiple-Choice-Fragen (nicht in offenen Fragen).
+- **Überspringen**: Überspringt die aktuelle Frage.
 
 #### Punkte & Multiplikatoren
 
