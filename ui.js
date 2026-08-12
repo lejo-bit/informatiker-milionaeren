@@ -1,15 +1,15 @@
 import { state } from "./state.js";
 
 export function getPlayerTitle(points) {
-  if (points >= 10001) return "CODE GOD";
-  if (points >= 9001) return "Master of Systems";
-  if (points >= 7001) return "Senior Developer";
-  if (points >= 5001) return "Tech-Wizard";
-  if (points >= 3501) return "Code-Ninja";
-  if (points >= 2501) return "System-Schmied";
-  if (points >= 1501) return "Bug Hunter";
-  if (points >= 1001) return "Junior Coder";
-  if (points >= 501) return "Code-Lehrling";
+  if (points >= 10001) return "OVERDEITY!!!";
+  if (points >= 9001) return "LET HIM COOK!";
+  if (points >= 7001) return "OMFG!";
+  if (points >= 5001) return "Godling";
+  if (points >= 3501) return "Absolute Unit";
+  if (points >= 2501) return "Aura";
+  if (points >= 1501) return "Ordinary Joe";
+  if (points >= 1001) return "Flutterby";
+  if (points >= 501) return "Creeper";
   return "Anfänger";
 }
 
@@ -157,6 +157,7 @@ export function renderScoreTable(scores) {
       <td>${index + 1}</td>
       <td>${entry.name}</td>
       <td>${entry.points}</td>
+      <td>${getPlayerTitle(entry.points)}</td>
     `;
     tbody.appendChild(tr);
   });
