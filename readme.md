@@ -40,7 +40,8 @@ Jede Frage enthält optional eine Zuordnung zu einer **Kategorie** (z. B. Netzwe
 
 ### Spieler-Titel
 
-Basierend auf der erreichten Punktezahl werden passende Titel verliehen:
+<details>
+<summary>Basierend auf der erreichten Punktezahl werden passende Titel verliehen:</summary>
 
 | Punkte     | Titel           |
 |------------|-----------------|
@@ -54,6 +55,7 @@ Basierend auf der erreichten Punktezahl werden passende Titel verliehen:
 | 1001+      | Flutterby       |
 | 501+       | Creeper         |
 | < 500      | Anfänger        |
+</details>
 
 ## Bestenliste & Firebase
 
