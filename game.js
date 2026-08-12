@@ -1,15 +1,32 @@
+/**
+ * game.js — Core game logic.
+ *
+ * This module contains the main game loop: loading questions, starting
+ * the game, rendering questions, handling answers (both open-ended and
+ * multiple-choice), managing the timer, scoring, streaks, power-ups
+ * (50:50, skip), and ending/restarting the game.
+ *
+ * It imports shared state from state.js, UI functions from ui.js,
+ * and Firebase functions from firebase.js.
+ */
+
 import { state, resetGameState } from "./state.js";
-import { 
-  updateHud, 
-  triggerDamageEffects, 
-  showStreakEffect, 
-  clearStreakEffect, 
-  showComboBanner, 
+import {
+  updateHud,
+  triggerDamageEffects,
+  showStreakEffect,
+  clearStreakEffect,
+  showComboBanner,
   hideComboBanner,
-  getPlayerTitle 
+  getPlayerTitle
 } from "./ui.js";
 import { saveScoreFirebase, fetchScoresFirebase } from "./firebase.js";
 
+/**
+ * Returns the current streak multiplier based on consecutive correct answers.
+ *
+ * @returns {number} Multiplier: 1.0, 1.5, 2.0, or 3.0
+ */
 export function getStreakMultiplier() {
   if (state.consecutiveCorrectAnswers >= 9) return 3.0;
   if (state.consecutiveCorrectAnswers >= 6) return 2.0;
@@ -17,6 +34,13 @@ export function getStreakMultiplier() {
   return 1.0;
 }
 
+/**
+ * Shuffles an array using the Fisher-Yates algorithm.
+ * Returns a new array — the original is not mutated.
+ *
+ * @param {Array} arr - The array to shuffle.
+ * @returns {Array} A new shuffled array.
+ */
 export function shuffleArray(arr) {
   const shuffled = [...arr];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -26,11 +50,25 @@ export function shuffleArray(arr) {
   return shuffled;
 }
 
+/**
+ * Returns a display-friendly string of correct answers (up to maxAnswers).
+ * Handles both string and array answer formats.
+ *
+ * @param {object} q - The question object.
+ * @param {number} maxAnswers - Maximum number of answers to display.
+ * @returns {string} Comma-separated correct answers.
+ */
 export function getDisplayedCorrectAnswers(q, maxAnswers = 2) {
   const answers = Array.isArray(q.antwort) ? q.antwort : [q.antwort];
   return answers.slice(0, maxAnswers).join(", ");
 }
 
+/**
+ * Loads questions from fragen.json and initializes the game.
+ * Shows the start screen on success, or an error message on failure.
+ *
+ * @returns {Promise<void>}
+ */
 export async function loadQuestions() {
   try {
     const res = await fetch("fragen.json");
@@ -47,6 +85,10 @@ export async function loadQuestions() {
   }
 }
 
+/**
+ * Starts a new game: validates the player name, resets state,
+ * shuffles questions, and renders the first question.
+ */
 export function startGame() {
   const nameInput = document.getElementById("playerName");
   const enteredName = nameInput ? nameInput.value.trim() : "";
@@ -59,6 +101,12 @@ export function startGame() {
     return;
   }
   document.getElementById("error").classList.add("hidden");
+
+  // Clear any existing timers BEFORE resetting state (resetGameState
+  // nulls the timer references, so we must clear them first).
+  clearInterval(state.timerInterval);
+  clearTimeout(state.delayInterval);
+  clearTimeout(state.errorDelayInterval);
 
   resetGameState();
   hideComboBanner();
@@ -75,18 +123,24 @@ export function startGame() {
   renderQuestion();
 }
 
+/**
+ * Renders the current question: sets up the question text, category badge,
+ * answer input/buttons (depending on question type), and starts the timer.
+ */
 export function renderQuestion() {
   state.isAnswerSubmitted = false;
   state.fiftyFiftyUsedOnCurrentQuestion = false;
   const q = state.questions[state.currentIndex];
   state.selectedChoice = null;
 
+  // Set timer based on question type: 30s for choice, 60s for open
   state.initialTimerValue = q.questionType === "choice" ? 30 : 60;
   state.timer = state.initialTimerValue;
   updateHud(getStreakMultiplier);
 
   document.getElementById("questionText").textContent = q.frage;
 
+  // Display category badge
   const categoryElement = document.getElementById("category-badge");
   if (categoryElement) {
     const categoryName = q.category || q.kategorie || "Allgemein";
@@ -102,7 +156,7 @@ export function renderQuestion() {
   resultBox.textContent = "";
   resultBox.classList.add("hidden");
 
-  // Prüfen button is only needed for open questions.
+  // The "Prüfen" (check) button is only needed for open questions.
   // Choice questions submit automatically when an answer is clicked.
   if (q.questionType === "open") {
     document.getElementById("checkBtn").classList.remove("hidden");
@@ -114,6 +168,7 @@ export function renderQuestion() {
   document.getElementById("nextBtn").classList.add("hidden");
 
   if (q.questionType === "open") {
+    // --- Open-ended question setup ---
     input.value = "";
     input.disabled = false;
     input.classList.remove("hidden");
@@ -129,6 +184,7 @@ export function renderQuestion() {
 
     setTimeout(() => input.focus(), 100);
   } else if (q.questionType === "choice") {
+    // --- Multiple-choice question setup ---
     input.value = "";
     input.disabled = true;
     input.classList.add("hidden");
@@ -136,8 +192,15 @@ export function renderQuestion() {
 
     choiceContainer.classList.remove("hidden");
 
+    // Build the options array: correct answer + false answers, shuffled.
+    // NOTE: q.antwort is expected to be a string for choice questions.
+    // If it were an array, we'd need to handle it differently.
+    const correctAnswerText = Array.isArray(q.antwort)
+      ? q.antwort[0]
+      : q.antwort;
+
     const options = shuffleArray([
-      { text: q.antwort, isCorrect: true },
+      { text: correctAnswerText, isCorrect: true },
       ...(q.falseAnswers || []).map(f => ({ text: f, isCorrect: false }))
     ]);
 
@@ -154,6 +217,10 @@ export function renderQuestion() {
   startTimer();
 }
 
+/**
+ * Uses the 50:50 power-up: removes two random wrong answers from
+ * the current multiple-choice question.
+ */
 export function handleFiftyFifty() {
   if (state.isAnswerSubmitted) return;
   if (state.fiftyFiftyLeft <= 0) return;
@@ -183,6 +250,10 @@ export function handleFiftyFifty() {
   updateHud(getStreakMultiplier);
 }
 
+/**
+ * Grants a random combo reward when the player reaches a 5-answer streak.
+ * Rewards: 40% chance +1 50:50, 40% chance +1 skip, 20% chance +1 life.
+ */
 export function grantComboReward() {
   const roll = Math.random();
   let reward;
@@ -205,6 +276,11 @@ export function grantComboReward() {
   updateHud(getStreakMultiplier);
 }
 
+/**
+ * Handles answer submission for both open-ended and multiple-choice questions.
+ * Validates the answer, updates score/streak/lives, shows feedback,
+ * and transitions to the next question (or ends the game if lives run out).
+ */
 export function handleAnswer() {
   if (state.isAnswerSubmitted) return;
 
@@ -249,11 +325,13 @@ export function handleAnswer() {
       resultBox.className = "result wrong-result";
     }
 
+    // Disable all choice buttons and highlight the correct one
     document.querySelectorAll(".choiceBtn").forEach(btn => {
       btn.disabled = true;
       if (btn.dataset.isCorrect === "true") btn.classList.add("correct");
     });
 
+    // Mark the user's wrong selection
     if (!isCorrect) state.selectedChoice.classList.add("wrong");
   }
 
@@ -266,6 +344,7 @@ export function handleAnswer() {
   resultBox.classList.remove("hidden");
 
   if (isCorrect) {
+    // --- Scoring ---
     let basePoints = 100;
     if (q.questionType === "open") {
       const elapsed = 60 - state.timer;
@@ -274,14 +353,17 @@ export function handleAnswer() {
     state.score += Math.round(basePoints * getStreakMultiplier());
     state.consecutiveCorrectAnswers += 1;
 
+    // Combo reward every 5 correct answers
     if (state.consecutiveCorrectAnswers % 5 === 0) {
       grantComboReward();
     }
 
+    // Streak visual effect at milestones (5, 10, 15)
     if ([5, 10, 15].includes(state.consecutiveCorrectAnswers)) {
       showStreakEffect(state.consecutiveCorrectAnswers);
     }
   } else {
+    // --- Wrong answer: reset streak, lose a life ---
     state.consecutiveCorrectAnswers = 0;
     hideComboBanner();
     clearStreakEffect();
@@ -302,6 +384,7 @@ export function handleAnswer() {
   if (isCorrect) {
     goToNextQuestionWithDelay();
   } else {
+    // Show "Next Question" button and auto-advance after 5 seconds
     document.getElementById("checkBtn").classList.add("hidden");
     document.getElementById("nextBtn").classList.remove("hidden");
 
@@ -310,6 +393,10 @@ export function handleAnswer() {
   }
 }
 
+/**
+ * Handles the skip action: decrements skip count, advances to the next
+ * question (or ends the game if no questions remain).
+ */
 export function handleSkip() {
   if (state.skipsLeft <= 0 || state.isAnswerSubmitted) return;
 
@@ -328,6 +415,10 @@ export function handleSkip() {
   }
 }
 
+/**
+ * Starts the countdown timer for the current question.
+ * Clears any existing interval first to prevent duplicates.
+ */
 export function startTimer() {
   clearInterval(state.timerInterval);
   state.timerInterval = setInterval(() => {
@@ -337,6 +428,10 @@ export function startTimer() {
   }, 1000);
 }
 
+/**
+ * Handles a timer timeout: treats it as a wrong answer (loses a life,
+ * resets streak), shows the correct answer, and advances after a delay.
+ */
 export function handleTimeout() {
   if (state.isAnswerSubmitted) return;
   state.isAnswerSubmitted = true;
@@ -380,6 +475,10 @@ export function handleTimeout() {
   state.errorDelayInterval = setTimeout(goToNextQuestionAfterError, 15000);
 }
 
+/**
+ * Advances to the next question after a correct answer, with a 2-second
+ * delay to let the player see the result.
+ */
 export function goToNextQuestionWithDelay() {
   clearInterval(state.timerInterval);
   if (state.errorDelayInterval) clearTimeout(state.errorDelayInterval);
@@ -398,6 +497,10 @@ export function goToNextQuestionWithDelay() {
   }, 2000);
 }
 
+/**
+ * Advances to the next question after a wrong answer or timeout.
+ * Called either by the "Next Question" button or by the auto-advance timer.
+ */
 export function goToNextQuestionAfterError() {
   if (state.errorDelayInterval) clearTimeout(state.errorDelayInterval);
 
@@ -413,6 +516,13 @@ export function goToNextQuestionAfterError() {
   }
 }
 
+/**
+ * Ends the game: clears all timers, shows the game over screen with
+ * final score and title, displays the last correct answer (if applicable),
+ * and saves the score to Firebase.
+ *
+ * @param {object|null} q - The question that caused the game to end (if any).
+ */
 export function endGame(q = null) {
   clearInterval(state.timerInterval);
   hideComboBanner();
@@ -430,7 +540,7 @@ export function endGame(q = null) {
 
   document.getElementById("game")?.classList.add("hidden");
   document.getElementById("gameOver")?.classList.remove("hidden");
-  
+
   const finalScoreEl = document.getElementById("finalScore");
   if (finalScoreEl) finalScoreEl.textContent = state.score;
 
@@ -452,11 +562,18 @@ export function endGame(q = null) {
   fetchScoresFirebase();
 }
 
+/**
+ * Restarts the game: clears all timers, resets state, reshuffles questions,
+ * and renders the first question.
+ */
 export function restartGame() {
-  resetGameState();
+  // Clear timers BEFORE resetGameState() — resetGameState() nulls the
+  // timer references, so we must clear the actual intervals/timeouts first.
   clearInterval(state.timerInterval);
   clearTimeout(state.delayInterval);
   clearTimeout(state.errorDelayInterval);
+
+  resetGameState();
   hideComboBanner();
   clearStreakEffect();
 

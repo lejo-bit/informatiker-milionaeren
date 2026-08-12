@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="container">
-       <!-- Initial Status Overlay -->
+    <!-- Initial Status Overlay: shown while questions are loading -->
     <div id="loading" class="loading">Fragen werden geladen...</div>
     <div id="error" class="error hidden"></div>
 
@@ -29,15 +29,13 @@
 
     <!-- Gameplay Area -->
     <div id="game" class="hidden">
-      
-
-      <!-- Player Header -->
+      <!-- Player Header: displays player name and current title -->
       <div class="player-header">
         <div id="playerLabel"></div>
         <div id="playerTitle" class="player-title"></div>
       </div>
 
-      <!-- Stats Bar (Lives, Score, Timer) -->
+      <!-- Stats Bar: lives, score, timer, multiplier, category badge -->
       <div class="stats-bar">
         <div>❤️ <span id="lives">3</span></div>
         <div>⭐ Punkte: <span id="score">0</span> <span id="multiplierBadge" class="multiplier-badge hidden">x1.0</span></div>
@@ -45,28 +43,26 @@
         <div class="timer-bar-container">
           <div id="timerBar" class="timer-bar"></div>
         </div>
-		<!-- Category Bar -->
-<div id="category-badge" class="category-badge">Kategorie: Laden...</div>
+        <!-- Category Badge: shows the current question's category -->
+        <div id="category-badge" class="category-badge">Kategorie: Laden...</div>
       </div>
 
-      <!-- Streak Combo Banner -->
+      <!-- Streak Combo Banner: shows combo rewards and streak milestones -->
       <div id="comboBanner" class="combo-banner hidden">🎉 5 Richtige Antworten Combo!</div>
 
-<!-- Result Feedback Box -->
+      <!-- Result Feedback Box: shows correct/wrong feedback after answering -->
       <div id="resultBox" class="result hidden"></div>
 
-      <!-- Question Prompt -->
+      <!-- Question Prompt: displays the current question text -->
       <div class="question-box">
         <div id="questionText">Frage wird geladen...</div>
       </div>
 
-      <!-- Open-ended Answer Input -->
+      <!-- Open-ended Answer Input: shown for "open" type questions -->
       <label for="answerInput" id="answerLabel">Deine Antwort:</label>
       <input type="text" id="answerInput" placeholder="Antwort eingeben..." autocomplete="off" />
 
- 
-
-      <!-- Multiple-Choice Answer Buttons -->
+      <!-- Multiple-Choice Answer Buttons: 4 buttons for "choice" type questions -->
       <div id="choiceContainer" class="hidden">
         <button class="choiceBtn"></button>
         <button class="choiceBtn"></button>
@@ -74,22 +70,20 @@
         <button class="choiceBtn"></button>
       </div>
 
-      <!-- In-Game Controls -->
+      <!-- In-Game Controls: check, 50:50, skip -->
       <div class="buttons">
         <button id="checkBtn">Prüfen</button>
         <button id="fiftyFiftyBtn" class="secondary">50:50 (<span id="fiftyFiftyLeft">1</span>)</button>
         <button id="skipBtn" class="secondary">Überspringen (<span id="skipsLeft">1</span>)</button>
       </div>
 
-     
-
-      <!-- Navigation Control -->
+      <!-- Navigation Control: next question button (shown after wrong answer) -->
       <div class="buttons">
         <button id="nextBtn" class="secondary hidden">Nächste Frage</button>
       </div>
     </div>
 
-    <!-- Game Over Screen -->
+    <!-- Game Over Screen: shows final score, title, and restart button -->
     <div id="gameOver" class="hidden">
       <h2>Spiel vorbei!</h2>
       <p id="gameOverCorrectAnswer" class="game-over-answer hidden"></p>
@@ -98,7 +92,7 @@
       <button id="restartBtn">Noch einmal spielen</button>
     </div>
 
-    <!-- Global Leaderboard -->
+    <!-- Global Leaderboard: displays top 10 scores from Firebase -->
     <div id="scoreBoard">
       <h3>🏆 Bestenliste</h3>
       <table>
@@ -116,6 +110,7 @@
   </div>
 
   <!-- Firebase Integration Script -->
+  <!-- Initializes Firebase and exposes db + helpers on window for firebase.js -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import {
@@ -140,12 +135,15 @@
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
 
-    // Expose database reference & helpers globally for script.js
+    // Expose database reference & helpers globally for firebase.js
     window.firebaseDb = db;
     window.firebaseHelpers = { collection, addDoc, getDocs, query, orderBy, limit };
   </script>
 
   <!-- Application Logic Scripts -->
+  <!-- Script loading order matters: checker.js must load before numbers.js
+       (numbers.js depends on normalize() from checker.js), and both must
+       load before main.js (which is an ES module that imports game.js). -->
   <script src="checker.js"></script>
   <script src="numbers.js"></script>
   <script type="module" src="main.js"></script>

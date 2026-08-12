@@ -1,3 +1,25 @@
+/**
+ * checker.js — Answer validation logic for open-ended questions.
+ *
+ * Provides text normalization, Levenshtein-distance fuzzy matching,
+ * and word-overlap similarity to accept answers that are semantically
+ * correct or contain minor typos.
+ *
+ * The main entry point is `checkAnswer(question, userAnswer)` which
+ * returns `{ isCorrect, message }`.
+ *
+ * NOTE: `normalize()` is also used by numbers.js, so it must remain
+ * globally accessible (it is attached to `window` at the bottom).
+ */
+
+/**
+ * Base text normalization: trims, lowercases, replaces German umlauts
+ * and ß with ASCII equivalents, strips punctuation, and collapses
+ * whitespace.
+ *
+ * @param {string} text - Raw input text.
+ * @returns {string} Normalized text.
+ */
 function normalizeBase(text) {
   return text
     .trim()
@@ -10,15 +32,29 @@ function normalizeBase(text) {
     .replace(/\s+/g, " ");
 }
 
+/**
+ * Full normalization: applies base normalization then strips diacritical
+ * marks (accents) via Unicode NFD decomposition.
+ *
+ * @param {string} text - Raw input text.
+ * @returns {string} Fully normalized text.
+ */
 function normalize(text) {
   return normalizeBase(text)
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-// Calculates Levenshtein distance for typo tolerance
+/**
+ * Calculates the Levenshtein edit distance between two strings.
+ * Used for typo tolerance in fuzzy matching.
+ *
+ * @param {string} a - First string.
+ * @param {string} b - Second string.
+ * @returns {number} Edit distance (0 = identical).
+ */
 function levenshteinDistance(a, b) {
-  const matrix = Array.from({ length: a.length + 1 }, () => 
+  const matrix = Array.from({ length: a.length + 1 }, () =>
     Array(b.length + 1).fill(0)
   );
 
@@ -38,16 +74,31 @@ function levenshteinDistance(a, b) {
   return matrix[a.length][b.length];
 }
 
-// Calculates percentage similarity (0.0 to 1.0)
+/**
+ * Calculates percentage similarity (0.0 to 1.0) between two strings
+ * based on Levenshtein distance.
+ *
+ * @param {string} str1 - First string.
+ * @param {string} str2 - Second string.
+ * @returns {number} Similarity ratio from 0.0 (no match) to 1.0 (identical).
+ */
 function calculateSimilarity(str1, str2) {
   if (!str1.length && !str2.length) return 1.0;
   if (!str1.length || !str2.length) return 0.0;
-  
+
   const distance = levenshteinDistance(str1, str2);
   const maxLength = Math.max(str1.length, str2.length);
   return 1 - distance / maxLength;
 }
 
+/**
+ * Calculates word-overlap similarity: the fraction of words in the
+ * correct answer that also appear in the user's answer.
+ *
+ * @param {string} userStr - User's answer text.
+ * @param {string} correctStr - Correct answer text.
+ * @returns {number} Overlap ratio from 0.0 to 1.0.
+ */
 function wordOverlapSimilarity(userStr, correctStr) {
   const userWords = normalize(userStr).split(" ").filter(Boolean);
   const correctWords = normalize(correctStr).split(" ").filter(Boolean);
@@ -64,6 +115,18 @@ function wordOverlapSimilarity(userStr, correctStr) {
   return matchCount / correctWords.length; // 0.0–1.0
 }
 
+/**
+ * Validates a user's answer against the correct answer(s) for a question.
+ *
+ * Matching strategy (in order of strictness):
+ * 1. Exact match (after normalization)
+ * 2. Word-overlap match (≥70% of correct words present)
+ * 3. Fuzzy match via Levenshtein similarity (≥80%)
+ *
+ * @param {object} question - Question object with `antwort` field.
+ * @param {string} userAnswer - The user's typed answer.
+ * @returns {{isCorrect: boolean, message: string}} Result object.
+ */
 function checkAnswer(question, userAnswer) {
   const correctAnswers = Array.isArray(question.antwort)
     ? question.antwort
@@ -133,3 +196,8 @@ function checkAnswer(question, userAnswer) {
     message: `Nicht ganz. Mögliche richtige Antworten: ${displayedAnswers}`
   };
 }
+
+// Expose checkAnswer and normalize globally so they can be used by
+// game.js (via window.checkAnswer) and numbers.js (via normalize).
+window.checkAnswer = checkAnswer;
+window.normalize = normalize;

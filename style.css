@@ -164,6 +164,18 @@ h1::before {
   color: #1f2a36;
 }
 
+/* Multiplier badge: shows the current streak multiplier (e.g. "⚡ x1.5") */
+.multiplier-badge {
+  background: #fff9c4;
+  color: #f57f17;
+  font-weight: 800;
+  border-radius: 40px;
+  padding: 0 10px;
+  margin-left: 6px;
+  font-size: 13px;
+  line-height: 28px;
+}
+
 .timer-bar-container {
   width: 100%;
   height: 8px;
@@ -674,12 +686,6 @@ body.streak-5, body.streak-10, body.streak-15 {
 .game-over-title {
   margin: 14px 0 20px;
   font-size: 17px;
-  font-weight: 700;
-  color: #1f2a36;
-}
-
-.player-title::before {
-  content: "Titel: ";
   font-weight: 700;
   color: #1f2a36;
 }
