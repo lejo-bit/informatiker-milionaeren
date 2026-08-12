@@ -189,6 +189,7 @@ h1::before {
   background: white;
   border-radius: 28px;
   padding: 24px 28px;
+  margin-top: 24px;
   margin-bottom: 24px;
   font-size: 20px;
   font-weight: 600;
@@ -498,9 +499,11 @@ h1::before {
     padding: 20px 16px;
   }
   .stats-bar {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px 8px;
   }
   #choiceContainer {
     grid-template-columns: 1fr;
@@ -722,7 +725,7 @@ body.streak-5, body.streak-10, body.streak-15 {
   box-shadow: none !important;
   opacity: 0.3;
 }
-CSS
+
 .category-badge {
   display: inline-block;
   margin-top: 8px;
@@ -734,4 +737,246 @@ CSS
   border-radius: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+/* ============================================= */
+/* ===== SMARTPHONE RESPONSIVE (max-width: 480px) ===== */
+/* ============================================= */
+@media (max-width: 480px) {
+  /* ---------- GLOBAL SCALING ---------- */
+  body {
+    padding: 0;
+  }
+
+  .container {
+    border-radius: 0;
+    padding: 14px 12px 20px;
+    min-height: 100vh;
+    min-height: 100dvh;
+    border: none;
+    box-shadow: none;
+    background: rgba(255, 247, 235, 0.95);
+  }
+
+  /* ---------- HEADER ---------- */
+  h1 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    gap: 6px;
+  }
+  h1::before {
+    font-size: 22px;
+  }
+
+  /* ---------- START SCREEN ---------- */
+  #startScreen {
+    gap: 14px;
+    padding: 12px 0 6px;
+  }
+  #startScreen label {
+    font-size: 15px;
+  }
+  #startScreen input {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+  #startBtn {
+    padding: 12px 36px;
+    font-size: 16px;
+  }
+
+  /* ---------- PLAYER HEADER ---------- */
+  .player-header {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .player-title {
+    font-size: 13px;
+    margin-top: 4px;
+  }
+
+  /* ---------- STATS BAR ---------- */
+  .stats-bar {
+    padding: 8px 12px;
+    border-radius: 18px;
+    gap: 6px 8px;
+    margin-bottom: 14px;
+    font-size: 13px;
+  }
+  .stats-bar > div:not(.timer-bar-container) {
+    gap: 4px;
+  }
+  .stats-bar span {
+    line-height: 24px;
+    min-width: 24px;
+    font-size: 13px;
+    padding: 0 8px;
+  }
+  .timer-bar-container {
+    height: 6px;
+    margin-top: 2px;
+  }
+
+  /* ---------- QUESTION BOX ---------- */
+  .question-box {
+    padding: 16px 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-radius: 22px;
+    min-height: 60px;
+  }
+
+  /* ---------- ANSWER INPUT ---------- */
+  #answerLabel {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  #answerInput {
+    padding: 12px 16px;
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  /* ---------- CHOICE BUTTONS ---------- */
+  #choiceContainer {
+    gap: 8px;
+    margin: 8px auto 4px;
+  }
+  .choiceBtn {
+    padding: 12px 10px;
+    font-size: 14px;
+    border-radius: 40px;
+  }
+
+  /* ---------- ACTION BUTTONS ---------- */
+  .buttons {
+    gap: 8px;
+    margin: 12px 0 4px;
+  }
+  .buttons button {
+    padding: 11px 18px;
+    font-size: 14px;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .buttons button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #171712;
+  }
+
+  /* ---------- RESULT ---------- */
+  .result {
+    padding: 12px 14px;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .highlight-correct {
+    font-size: 14px;
+  }
+  .highlight-correct span {
+    font-size: 15px;
+    padding: 6px 14px;
+  }
+
+  /* ---------- GAME OVER ---------- */
+  #gameOver {
+    padding: 28px 16px;
+    border-radius: 28px;
+    margin: 8px 0;
+  }
+  #gameOver h2 {
+    font-size: 26px;
+  }
+  #gameOver p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  #gameOver #finalScore {
+    font-size: 22px;
+    padding: 4px 14px;
+  }
+  #restartBtn {
+    padding: 12px 36px;
+    font-size: 16px;
+  }
+  .game-over-title {
+    font-size: 15px;
+    margin: 10px 0 14px;
+  }
+  .game-over-answer {
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  /* ---------- SCOREBOARD ---------- */
+  #scoreBoard {
+    margin-top: 20px;
+    padding: 14px 10px 12px;
+    border-radius: 22px;
+  }
+  #scoreBoard h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  #scoreBoard th {
+    padding: 10px 6px;
+    font-size: 12px;
+  }
+  #scoreBoard td {
+    padding: 8px 4px;
+    font-size: 13px;
+  }
+
+  /* ---------- COMBO BANNER ---------- */
+  .combo-banner {
+    font-size: 13px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+  }
+
+  /* ---------- CATEGORY BADGE ---------- */
+  .category-badge {
+    font-size: 0.7rem;
+    padding: 3px 10px;
+    margin-top: 4px;
+  }
+}
+
+/* ===== SMALL PHONES (max-width: 360px) ===== */
+@media (max-width: 360px) {
+  .container {
+    padding: 10px 8px 16px;
+  }
+  h1 {
+    font-size: 17px;
+  }
+  .question-box {
+    font-size: 14px;
+    padding: 12px 14px;
+    border-radius: 18px;
+    min-height: 50px;
+  }
+  .buttons button {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .choiceBtn {
+    font-size: 13px;
+    padding: 10px 8px;
+  }
+  .stats-bar {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+  .stats-bar span {
+    font-size: 12px;
+    line-height: 22px;
+    min-width: 22px;
+    padding: 0 6px;
+  }
+  #gameOver h2 {
+    font-size: 22px;
+  }
 }

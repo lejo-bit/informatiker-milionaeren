@@ -102,8 +102,15 @@ export function renderQuestion() {
   resultBox.textContent = "";
   resultBox.classList.add("hidden");
 
-  document.getElementById("checkBtn").classList.remove("hidden");
+  // Prüfen button is only needed for open questions.
+  // Choice questions submit automatically when an answer is clicked.
+  if (q.questionType === "open") {
+    document.getElementById("checkBtn").classList.remove("hidden");
+  } else {
+    document.getElementById("checkBtn").classList.add("hidden");
+  }
   document.getElementById("skipBtn").classList.remove("hidden");
+  document.getElementById("fiftyFiftyBtn").classList.remove("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
 
   if (q.questionType === "open") {
@@ -252,6 +259,7 @@ export function handleAnswer() {
 
   state.isAnswerSubmitted = true;
   document.getElementById("skipBtn").classList.add("hidden");
+  document.getElementById("fiftyFiftyBtn").classList.add("hidden");
   clearInterval(state.timerInterval);
 
   resultBox.innerHTML = message;
@@ -333,6 +341,7 @@ export function handleTimeout() {
   if (state.isAnswerSubmitted) return;
   state.isAnswerSubmitted = true;
   document.getElementById("skipBtn").classList.add("hidden");
+  document.getElementById("fiftyFiftyBtn").classList.add("hidden");
   clearInterval(state.timerInterval);
 
   const q = state.questions[state.currentIndex];

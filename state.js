@@ -8,7 +8,7 @@ export const state = {
   lives: 3,
   score: 0,
   consecutiveCorrectAnswers: 0,
-  skipsLeft: 2,
+  skipsLeft: 1,
   fiftyFiftyLeft: 1,
 
   timer: 30,
@@ -27,7 +27,7 @@ export const state = {
 export function resetGameState() {
   state.lives = 3;
   state.score = 0;
-  state.skipsLeft = 2;
+  state.skipsLeft = 1;
   state.fiftyFiftyLeft = 1;
   state.currentIndex = 0;
   state.consecutiveCorrectAnswers = 0;

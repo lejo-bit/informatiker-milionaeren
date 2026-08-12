@@ -61,9 +61,15 @@ export function updateHud(getStreakMultiplier) {
   if (fiftyFiftyLeftEl) fiftyFiftyLeftEl.textContent = state.fiftyFiftyLeft;
 
   if (fiftyFiftyBtn) {
+    // IMPORTANT: The 50:50 button is intentionally INDEPENDENT of skipsLeft.
+    // It must remain usable even when the player has 0 skips remaining.
     const q = state.questions[state.currentIndex];
     const isChoiceQuestion = q && q.questionType === "choice";
-    const canUse = state.fiftyFiftyLeft > 0 && !state.fiftyFiftyUsedOnCurrentQuestion && !state.isAnswerSubmitted;
+    const hasFiftyFiftyLeft = state.fiftyFiftyLeft > 0;
+    const notUsedOnCurrentQuestion = !state.fiftyFiftyUsedOnCurrentQuestion;
+    const notSubmitted = !state.isAnswerSubmitted;
+
+    const canUse = hasFiftyFiftyLeft && notUsedOnCurrentQuestion && notSubmitted;
     fiftyFiftyBtn.disabled = !isChoiceQuestion || !canUse;
   }
 }

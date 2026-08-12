@@ -15,9 +15,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Fachinformatiker Quiz</h1>
-
-    <!-- Initial Status Overlay -->
+       <!-- Initial Status Overlay -->
     <div id="loading" class="loading">Fragen werden geladen...</div>
     <div id="error" class="error hidden"></div>
 
@@ -30,8 +28,7 @@
 
     <!-- Gameplay Area -->
     <div id="game" class="hidden">
-      <!-- Streak Combo Banner -->
-      <div id="comboBanner" class="combo-banner hidden">🎉 5 Richtige Antworten Combo!</div>
+      
 
       <!-- Player Header -->
       <div class="player-header">
@@ -51,6 +48,12 @@
 <div id="category-badge" class="category-badge">Kategorie: Laden...</div>
       </div>
 
+      <!-- Streak Combo Banner -->
+      <div id="comboBanner" class="combo-banner hidden">🎉 5 Richtige Antworten Combo!</div>
+
+<!-- Result Feedback Box -->
+      <div id="resultBox" class="result hidden"></div>
+
       <!-- Question Prompt -->
       <div class="question-box">
         <div id="questionText">Frage wird geladen...</div>
@@ -59,6 +62,8 @@
       <!-- Open-ended Answer Input -->
       <label for="answerInput" id="answerLabel">Deine Antwort:</label>
       <input type="text" id="answerInput" placeholder="Antwort eingeben..." autocomplete="off" />
+
+ 
 
       <!-- Multiple-Choice Answer Buttons -->
       <div id="choiceContainer" class="hidden">
@@ -72,11 +77,10 @@
       <div class="buttons">
         <button id="checkBtn">Prüfen</button>
         <button id="fiftyFiftyBtn" class="secondary">50:50 (<span id="fiftyFiftyLeft">1</span>)</button>
-        <button id="skipBtn" class="secondary">Überspringen (<span id="skipsLeft">2</span>)</button>
+        <button id="skipBtn" class="secondary">Überspringen (<span id="skipsLeft">1</span>)</button>
       </div>
 
-      <!-- Result Feedback Box -->
-      <div id="resultBox" class="result hidden"></div>
+     
 
       <!-- Navigation Control -->
       <div class="buttons">
