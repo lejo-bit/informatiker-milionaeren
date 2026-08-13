@@ -96,7 +96,7 @@ export function startGame() {
 
   if (!enteredName) {
     const errorEl = document.getElementById("error");
-    errorEl.textContent = "Please enter your name before starting.";
+    errorEl.textContent = "Bitte Name eingeben.";
     errorEl.classList.remove("hidden");
     return;
   }
