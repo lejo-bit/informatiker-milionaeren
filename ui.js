@@ -146,11 +146,18 @@ export function showStreakEffect(count) {
   if (!banner) return;
 
   banner.classList.remove("hidden");
-  banner.textContent = count === 5
+
+  // Build the streak message
+  const streakMessage = count === 5
     ? "🔥 5 richtige Antworten in Folge! Streak-Effekt aktiviert!"
     : count === 10
       ? "💥 10 richtige Antworten! Mega-Streak!"
       : "🌟 15 richtige Antworten! Ultimate Streak!";
+
+  // Append to existing text (preserves the combo/prize message) instead of overwriting
+  banner.textContent = banner.textContent
+    ? `${banner.textContent} ${streakMessage}`
+    : streakMessage;
 
   if (state.streakBannerTimeout) clearTimeout(state.streakBannerTimeout);
   state.streakBannerTimeout = setTimeout(() => {
