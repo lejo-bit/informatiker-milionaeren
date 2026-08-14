@@ -23043,7 +23043,7 @@
     "nr": 1921,
     "questionType": "choice",
     "frage": "Was ist ein Real?",
-    "antwort": "Eine Gleitkommazahl (Dezimalzahl)",
+    "antwort": "Eine Gleitkommazahl",
     "falseAnswers": [
       "Eine ganze Zahl",
       "Ein Text",
@@ -23064,64 +23064,124 @@
     "category": "Projektmanagement"
   },
   {
-    "nr": 1923,
+    "nr": 1906,
     "questionType": "choice",
-    "frage": "Was ist ein Start-Event in BPMN?",
-    "antwort": "Ein Kreis mit einfacher Linie, der den Prozessbeginn markiert",
+    "frage": "Was bezeichnet eine Konstante in der Programmierung?",
+    "antwort": "Ein Wert, der während der Ausführung unverändert bleibt",
     "falseAnswers": [
-      "Ein Kreis mit doppelter Linie",
-      "Ein Rechteck",
-      "Eine Raute"
+      "Eine Variable mit jederzeit änderbarem Inhalt",
+      "Eine Funktion zur Verarbeitung von Eingabewerten",
+      "Eine Prozedur zur Ausführung von Anweisungen"
     ],
-    "category": "Projektmanagement"
+    "category": "Programmierung"
   },
   {
-    "nr": 1924,
+    "nr": 1907,
     "questionType": "choice",
-    "frage": "Was ist ein End-Event in BPMN?",
-    "antwort": "Ein Kreis mit doppelter Linie, der das Prozessende markiert",
+    "frage": "Wie wird eine Konstante im verwendeten Pseudocode deklariert?",
+    "antwort": "Mit CONSTANT name = wert",
     "falseAnswers": [
-      "Ein Kreis mit einfacher Linie",
-      "Ein Rechteck",
-      "Eine Raute"
+      "Mit SET name = wert zur Zuweisung",
+      "Mit DECLARE name zur Variablendeklaration",
+      "Mit INPUT name zur Dateneingabe"
     ],
-    "category": "Projektmanagement"
+    "category": "Programmierung"
   },
   {
-    "nr": 1925,
+    "nr": 1908,
     "questionType": "choice",
-    "frage": "Was ist ein Intermediate-Event?",
-    "antwort": "Ein Kreis mit doppelter Linie zwischen Start und Ende",
+    "frage": "Welchen Vorteil bietet Pseudocode bei der Algorithmusplanung?",
+    "antwort": "Er bleibt unabhängig von einer Programmiersprache",
     "falseAnswers": [
-      "Ein Kreis mit einfacher Linie",
-      "Ein Rechteck",
-      "Eine Raute"
+      "Er ist an eine Programmiersprache gebunden",
+      "Er kann ohne Übersetzung direkt ausgeführt werden",
+      "Er bietet bei der Planung keinen praktischen Vorteil"
     ],
-    "category": "Projektmanagement"
+    "category": "Programmierung"
   },
   {
-    "nr": 1926,
+    "nr": 1909,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Gateways verwendet?",
-    "antwort": "Eine Raute",
+    "frage": "Welchen Nachteil hat Pseudocode gegenüber echtem Programmcode?",
+    "antwort": "Er ist ohne Übersetzung nicht direkt ausführbar",
     "falseAnswers": [
-      "Ein Kreis",
-      "Ein Rechteck",
-      "Ein Parallelogramm"
+      "Er ist bereits ohne Übersetzung direkt ausführbar",
+      "Er kann unabhängig von jeder Logik beliebig formuliert werden",
+      "Er besitzt gegenüber Programmcode grundsätzlich keinen Nachteil"
     ],
-    "category": "Projektmanagement"
+    "category": "Programmierung"
   },
   {
-    "nr": 1927,
+    "nr": 1910,
     "questionType": "choice",
-    "frage": "Was ist ein XOR-Gateway?",
-    "antwort": "Ein exklusives Gateway mit genau einem Ausgangspfad",
+    "frage": "Welche Eigenschaft ist bei der Formulierung von Pseudocode wichtig?",
+    "antwort": "Eine klare und konsistente Syntax",
     "falseAnswers": [
-      "Ein paralleles Gateway mit allen Pfaden",
-      "Ein inklusives Gateway mit mehreren Pfaden",
-      "Ein komplexes Gateway"
+      "Eine beliebige Syntax ohne gemeinsame Regeln",
+      "Eine unklare Syntax mit wechselnden Bedeutungen",
+      "Der vollständige Verzicht auf syntaktische Strukturen"
     ],
-    "category": "Projektmanagement"
+    "category": "Programmierung"
+  },
+  {
+    "nr": 1911,
+    "questionType": "choice",
+    "frage": "Wofür wird Pseudocode häufig in der Softwareentwicklung eingesetzt?",
+    "antwort": "Für Entwurf und Planung von Algorithmen",
+    "falseAnswers": [
+      "Für ausschließlich technische Benutzerdokumentationen",
+      "Für ausschließlich grafische Diagrammdarstellungen",
+      "Für die direkte Analyse großer Datenbestände"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 1912,
+    "questionType": "choice",
+    "frage": "Was bezeichnet ein Nested IF im Pseudocode?",
+    "antwort": "Eine IF-Anweisung innerhalb einer anderen IF-Anweisung",
+    "falseAnswers": [
+      "Eine IF-Anweisung ohne möglichen ELSE-Zweig",
+      "Eine IF-Anweisung mit genau einem ELSE-Zweig",
+      "Eine IF-Anweisung ohne formulierte Prüfbedingung"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 1913,
+    "questionType": "choice",
+    "frage": "Was bezeichnet eine CASE-Anweisung im Pseudocode?",
+    "antwort": "Eine Mehrfachauswahl nach dem Switch-Case-Prinzip",
+    "falseAnswers": [
+      "Eine einfache Entscheidung mit genau zwei Zweigen",
+      "Eine Schleife zur wiederholten Ausführung von Anweisungen",
+      "Eine Funktion zur Rückgabe eines einzelnen Werts"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 1914,
+    "questionType": "choice",
+    "frage": "Welcher häufige Fehler kann bei der Programmierung von Schleifen entstehen?",
+    "antwort": "Eine Endlosschleife durch fehlende Abbruchbedingung",
+    "falseAnswers": [
+      "Eine Schleife wird aufgrund ihrer Logik zu schnell",
+      "Eine Schleife wird aufgrund ihrer Logik zu langsam",
+      "Eine Schleife besitzt eine beliebige, aber korrekte Ausführung"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 1915,
+    "questionType": "choice",
+    "frage": "Was bezeichnet man als Endlosschleife?",
+    "antwort": "Eine Schleife, deren Abbruchbedingung nie erfüllt wird",
+    "falseAnswers": [
+      "Eine Schleife, die nach einem Durchlauf endet",
+      "Eine Schleife, deren Startbedingung niemals erfüllt wird",
+      "Eine Schleife ohne Bedingung, die automatisch beendet wird"
+    ],
+    "category": "Programmierung"
   },
   {
     "nr": 1928,
@@ -23138,336 +23198,336 @@
   {
     "nr": 1929,
     "questionType": "choice",
-    "frage": "Was ist ein OR-Gateway?",
-    "antwort": "Ein inklusives Gateway mit einem oder mehreren Pfaden",
+    "frage": "Wie steuert ein OR-Gateway den Ablauf eines BPMN-Prozesses?",
+    "antwort": "Es aktiviert einen oder mehrere passende Pfade",
     "falseAnswers": [
-      "Ein exklusives Gateway mit einem Pfad",
-      "Ein paralleles Gateway mit allen Pfaden",
-      "Ein komplexes Gateway"
+      "Es aktiviert ausschließlich einen einzigen Ausgangspfad",
+      "Es aktiviert grundsätzlich alle verfügbaren Ausgangspfade",
+      "Es verwendet ausschließlich eine komplexe Sonderlogik"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1930,
     "questionType": "choice",
-    "frage": "Was ist eine Task in BPMN?",
-    "antwort": "Eine atomare Aktivität im Prozess",
+    "frage": "Was bezeichnet eine Task im BPMN-Prozessmodell?",
+    "antwort": "Eine nicht weiter zerlegte atomare Aktivität",
     "falseAnswers": [
-      "Ein Ereignis",
-      "Ein Gateway",
-      "Ein Sequence Flow"
+      "Ein Ereignis innerhalb des Prozessablaufs",
+      "Ein Gateway zur Steuerung des Prozessablaufs",
+      "Ein Pfeil zur Darstellung der Ablaufverbindung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1931,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Tasks verwendet?",
-    "antwort": "Ein abgerundetes Rechteck",
+    "frage": "Welches Symbol stellt eine Task in BPMN dar?",
+    "antwort": "Ein abgerundetes Rechteck als Aktivitätssymbol",
     "falseAnswers": [
-      "Ein Kreis",
-      "Eine Raute",
-      "Ein Parallelogramm"
+      "Ein Kreis als Symbol für ein Event",
+      "Eine Raute als Symbol für ein Gateway",
+      "Ein Parallelogramm als Symbol für einen Datenfluss"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1932,
     "questionType": "choice",
-    "frage": "Was ist eine User Task?",
-    "antwort": "Eine manuelle Aufgabe durch einen Benutzer",
+    "frage": "Was kennzeichnet eine User Task in BPMN?",
+    "antwort": "Eine manuell durch einen Benutzer ausgeführte Aufgabe",
     "falseAnswers": [
-      "Eine automatisierte Aufgabe",
-      "Eine Skript-Ausführung",
-      "Eine manuelle Aufgabe ohne System"
+      "Eine vollständig automatisierte Aufgabe durch ein System",
+      "Eine Aufgabe, die ausschließlich ein Skript ausführt",
+      "Eine manuelle Aufgabe ohne jegliche Systemunterstützung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1933,
     "questionType": "choice",
-    "frage": "Was ist eine Service Task?",
-    "antwort": "Eine automatisierte Aufgabe durch einen Service",
+    "frage": "Was kennzeichnet eine Service Task in BPMN?",
+    "antwort": "Eine automatisch durch einen Dienst ausgeführte Aufgabe",
     "falseAnswers": [
-      "Eine manuelle Aufgabe",
-      "Eine Skript-Ausführung",
-      "Eine manuelle Aufgabe ohne System"
+      "Eine manuell durch einen Benutzer ausgeführte Aufgabe",
+      "Eine Aufgabe zur direkten Ausführung eines eingebetteten Skripts",
+      "Eine vollständig manuelle Aufgabe ohne technische Unterstützung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1934,
     "questionType": "choice",
-    "frage": "Was ist eine Script Task?",
-    "antwort": "Eine Aufgabe zur Skript-Ausführung",
+    "frage": "Was kennzeichnet eine Script Task in BPMN?",
+    "antwort": "Eine Aufgabe zur automatischen Ausführung eines Skripts",
     "falseAnswers": [
-      "Eine manuelle Aufgabe",
-      "Eine automatisierte Aufgabe",
-      "Eine manuelle Aufgabe ohne System"
+      "Eine manuell durch einen Benutzer ausgeführte Aufgabe",
+      "Eine automatisierte Aufgabe durch einen externen Dienst",
+      "Eine manuelle Aufgabe ohne technische Systemunterstützung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1935,
     "questionType": "choice",
-    "frage": "Was ist ein Sequence Flow?",
-    "antwort": "Ein Pfeil, der die Reihenfolge der Aktivitäten zeigt",
+    "frage": "Welche Funktion hat ein Sequence Flow in einem BPMN-Modell?",
+    "antwort": "Er zeigt die Reihenfolge der Prozessaktivitäten",
     "falseAnswers": [
-      "Ein Kreis",
-      "Eine Raute",
-      "Ein Rechteck"
+      "Ein Kreis kennzeichnet ein Ereignis im Prozess",
+      "Eine Raute steuert eine Verzweigung im Prozess",
+      "Ein Rechteck stellt eine einzelne Aktivität dar"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1936,
     "questionType": "choice",
-    "frage": "Was ist ein Message Flow?",
-    "antwort": "Ein gestrichelter Pfeil zwischen Pools",
+    "frage": "Wie wird ein Message Flow in BPMN dargestellt und wofür wird er verwendet?",
+    "antwort": "Gestrichelter Pfeil zum Nachrichtenaustausch zwischen Pools",
     "falseAnswers": [
-      "Ein durchgezogener Pfeil",
-      "Ein Kreis",
-      "Eine Raute"
+      "Durchgezogener Pfeil für den Ablauf innerhalb eines Pools",
+      "Kreis zur Kennzeichnung eines Ereignisses im Prozess",
+      "Raute zur Steuerung einer Verzweigung im Prozess"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1937,
     "questionType": "choice",
-    "frage": "Was ist ein Pool in BPMN?",
-    "antwort": "Ein Container für einen Prozess oder Teilnehmer",
+    "frage": "Welche Funktion hat ein Pool in einem BPMN-Modell?",
+    "antwort": "Container für einen Prozess oder beteiligten Teilnehmer",
     "falseAnswers": [
-      "Eine Aktivität",
-      "Ein Ereignis",
-      "Ein Gateway"
+      "Eine einzelne Aktivität innerhalb eines Prozesses",
+      "Ein Ereignis zur Auslösung eines Prozessschritts",
+      "Ein Gateway zur Steuerung von Prozesspfaden"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1938,
     "questionType": "choice",
-    "frage": "Was ist eine Lane in BPMN?",
-    "antwort": "Ein Bereich innerhalb eines Pools für Verantwortlichkeiten",
+    "frage": "Welche Funktion hat eine Lane innerhalb eines BPMN-Pools?",
+    "antwort": "Bereich zur Zuordnung von Verantwortlichkeiten",
     "falseAnswers": [
-      "Ein eigener Pool",
-      "Eine Aktivität",
-      "Ein Ereignis"
+      "Ein eigenständiger Pool mit separatem Prozess",
+      "Eine einzelne Aktivität innerhalb des Prozesses",
+      "Ein Ereignis zur zeitlichen Prozesssteuerung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1939,
     "questionType": "choice",
-    "frage": "Wie viele Start-Events darf ein Prozess haben?",
-    "antwort": "Eines oder mehrere",
+    "frage": "Wie viele Start-Events kann ein BPMN-Prozess abhängig vom Prozessdesign besitzen?",
+    "antwort": "Eines oder mehrere fachlich begründete Start-Events",
     "falseAnswers": [
-      "Nur eines",
-      "Genau zwei",
-      "Keines"
+      "Immer genau ein Start-Event unabhängig vom Prozess",
+      "Genau zwei Start-Events in jedem Prozess",
+      "Kein Start-Event, da der Ablauf automatisch beginnt"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1940,
     "questionType": "choice",
-    "frage": "Wie viele End-Events darf ein Prozess haben?",
-    "antwort": "Eines oder mehrere",
+    "frage": "Wie viele End-Events kann ein BPMN-Prozess abhängig vom Prozessdesign besitzen?",
+    "antwort": "Eines oder mehrere fachlich begründete End-Events",
     "falseAnswers": [
-      "Nur eines",
-      "Genau zwei",
-      "Keines"
+      "Immer genau ein End-Event unabhängig vom Prozess",
+      "Genau zwei End-Events in jedem Prozess",
+      "Kein End-Event, da der Ablauf automatisch endet"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1941,
     "questionType": "choice",
-    "frage": "Was ist ein Timer-Event?",
-    "antwort": "Ein zeitlich ausgelöstes Ereignis",
+    "frage": "Was kennzeichnet ein Timer-Event in BPMN?",
+    "antwort": "Ein durch Zeitpunkt oder Zeitintervall ausgelöstes Ereignis",
     "falseAnswers": [
-      "Ein nachrichtenausgelöstes Ereignis",
-      "Ein fehlerausgelöstes Ereignis",
-      "Ein beliebiges Ereignis"
+      "Ein durch den Empfang einer Nachricht ausgelöstes Ereignis",
+      "Ein durch eine erkannte Fehlersituation ausgelöstes Ereignis",
+      "Ein Ereignis ohne festgelegten Auslöser oder Zeitpunkt"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1942,
     "questionType": "choice",
-    "frage": "Was ist ein Message-Event?",
-    "antwort": "Ein durch Nachricht ausgelöstes Ereignis",
+    "frage": "Was kennzeichnet ein Message-Event in BPMN?",
+    "antwort": "Ein durch den Empfang oder Versand einer Nachricht ausgelöstes Ereignis",
     "falseAnswers": [
-      "Ein zeitlich ausgelöstes Ereignis",
-      "Ein fehlerausgelöstes Ereignis",
-      "Ein beliebiges Ereignis"
+      "Ein durch einen Zeitpunkt oder Timer ausgelöstes Ereignis",
+      "Ein durch eine erkannte Fehlersituation ausgelöstes Ereignis",
+      "Ein Ereignis ohne festgelegten Auslöser oder Nachrichtenaustausch"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1943,
     "questionType": "choice",
-    "frage": "Was ist ein Error-Event?",
-    "antwort": "Ein durch Fehler ausgelöstes Ereignis",
+    "frage": "Was kennzeichnet ein Error-Event in BPMN?",
+    "antwort": "Ein durch einen Fehler ausgelöstes Ereignis",
     "falseAnswers": [
-      "Ein zeitlich ausgelöstes Ereignis",
-      "Ein nachrichtenausgelöstes Ereignis",
-      "Ein beliebiges Ereignis"
+      "Ein durch einen Zeitpunkt oder Timer ausgelöstes Ereignis",
+      "Ein durch den Empfang einer Nachricht ausgelöstes Ereignis",
+      "Ein Ereignis ohne definierten Fehler oder Auslöser"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1944,
     "questionType": "choice",
-    "frage": "Was ist ein Boundary-Event?",
-    "antwort": "Ein Ereignis am Rand einer Task",
+    "frage": "Wo wird ein Boundary-Event in BPMN angebracht?",
+    "antwort": "Am Rand einer Task oder Aktivität",
     "falseAnswers": [
-      "Ein Start-Event",
-      "Ein End-Event",
-      "Ein Intermediate-Event"
+      "Am Anfang des Prozesses als Start-Event",
+      "Am Ende des Prozesses als End-Event",
+      "Zwischen zwei Aktivitäten als normales Zwischenereignis"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1945,
     "questionType": "choice",
-    "frage": "Was zeigt ein DFD?",
+    "frage": "Welche Information stellt ein Data Flow Diagram hauptsächlich dar?",
     "antwort": "Den Fluss von Daten durch ein System",
     "falseAnswers": [
-      "Den Fluss von Kontrolle",
-      "Den Fluss von Zeit",
-      "Den Fluss von Geld"
+      "Den Fluss von Steuerungssignalen im Prozess",
+      "Den zeitlichen Ablauf von Prozessaktivitäten",
+      "Den Fluss finanzieller Werte zwischen Abteilungen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1946,
     "questionType": "choice",
-    "frage": "Was ist eine externe Entität in DFD?",
-    "antwort": "Eine Datenquelle oder ein Datenziel außerhalb des Systems",
+    "frage": "Welche Rolle hat eine externe Entität in einem Data Flow Diagram?",
+    "antwort": "Datenquelle oder Datenziel außerhalb der Systemgrenze",
     "falseAnswers": [
-      "Ein Prozess im System",
-      "Ein Datenspeicher",
-      "Ein Datenfluss"
+      "Ein interner Prozess zur Datenverarbeitung",
+      "Ein interner Speicherort für persistente Daten",
+      "Eine Verbindung, über die Daten übertragen werden"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1947,
     "questionType": "choice",
-    "frage": "Was ist ein Prozess in DFD?",
-    "antwort": "Eine Transformation von Daten",
+    "frage": "Welche Funktion hat ein Prozess in einem Data Flow Diagram?",
+    "antwort": "Er transformiert eingehende Daten in Ausgabedaten",
     "falseAnswers": [
-      "Eine externe Entität",
-      "Ein Datenspeicher",
-      "Ein Datenfluss"
+      "Er stellt eine Quelle außerhalb der Systemgrenze dar",
+      "Er speichert Daten dauerhaft innerhalb des Systems",
+      "Er beschreibt ausschließlich die Verbindung zwischen Komponenten"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1948,
     "questionType": "choice",
-    "frage": "Was ist ein Datenspeicher in DFD?",
-    "antwort": "Ein Ort, an dem Daten gespeichert werden",
+    "frage": "Welche Funktion hat ein Datenspeicher in einem Data Flow Diagram?",
+    "antwort": "Er bezeichnet einen Ort zur Speicherung von Daten",
     "falseAnswers": [
-      "Eine externe Entität",
-      "Ein Prozess",
-      "Ein Datenfluss"
+      "Er stellt eine externe Quelle oder ein Ziel dar",
+      "Er transformiert Daten innerhalb eines Prozessschritts",
+      "Er beschreibt die Bewegung von Daten zwischen Komponenten"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1949,
     "questionType": "choice",
-    "frage": "Was ist ein Datenfluss in DFD?",
-    "antwort": "Die Bewegung von Daten zwischen Komponenten",
+    "frage": "Was beschreibt ein Datenfluss in einem Data Flow Diagram?",
+    "antwort": "Die Übertragung von Daten zwischen Systemkomponenten",
     "falseAnswers": [
-      "Eine externe Entität",
-      "Ein Prozess",
-      "Ein Datenspeicher"
+      "Eine externe Quelle oder ein externes Datenziel",
+      "Eine Verarbeitung eingehender und ausgehender Daten",
+      "Einen Speicherort für dauerhaft abgelegte Informationen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1950,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für externe Entitäten verwendet?",
-    "antwort": "Ein Rechteck",
+    "frage": "Welches Symbol stellt eine externe Entität im Data Flow Diagram dar?",
+    "antwort": "Ein Rechteck als externe Systemkomponente",
     "falseAnswers": [
-      "Ein Kreis",
-      "Eine Raute",
-      "Ein Parallelogramm"
+      "Ein Kreis als interner Verarbeitungsschritt",
+      "Eine Raute als Entscheidung oder Verzweigung",
+      "Ein Parallelogramm als Ein- oder Ausgabesymbol"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1951,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Prozesse verwendet?",
+    "frage": "Welches Symbol stellt einen Prozess im Data Flow Diagram dar?",
     "antwort": "Ein Kreis oder abgerundetes Rechteck",
     "falseAnswers": [
-      "Ein Rechteck",
-      "Eine Raute",
-      "Ein Parallelogramm"
+      "Ein Rechteck für eine externe Entität",
+      "Eine Raute für eine Prozessentscheidung",
+      "Ein Parallelogramm für einen Datenspeicher"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1952,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Datenspeicher verwendet?",
-    "antwort": "Zwei parallele Linien oder ein offenes Rechteck",
+    "frage": "Wie wird ein Datenspeicher im Data Flow Diagram häufig dargestellt?",
+    "antwort": "Durch parallele Linien oder ein offenes Rechteck",
     "falseAnswers": [
-      "Ein Rechteck",
-      "Ein Kreis",
-      "Eine Raute"
+      "Durch ein geschlossenes Rechteck für externe Entitäten",
+      "Durch einen Kreis für interne Prozesse",
+      "Durch eine Raute für eine Verzweigung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1953,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Datenflüsse verwendet?",
-    "antwort": "Ein Pfeil",
+    "frage": "Welches Symbol stellt einen Datenfluss im Data Flow Diagram dar?",
+    "antwort": "Ein beschrifteter Pfeil zwischen Komponenten",
     "falseAnswers": [
-      "Ein Rechteck",
-      "Ein Kreis",
-      "Eine Raute"
+      "Ein Rechteck für eine externe Entität",
+      "Ein Kreis für einen Verarbeitungsschritt",
+      "Eine Raute für eine Entscheidung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1954,
     "questionType": "choice",
-    "frage": "Was ist ein Level-0 DFD?",
-    "antwort": "Ein Kontextdiagramm mit dem gesamten System als ein Prozess",
+    "frage": "Was stellt ein Level-0-DFD im Allgemeinen dar?",
+    "antwort": "Ein Kontextdiagramm mit dem Gesamtsystem als Prozess",
     "falseAnswers": [
-      "Ein detailliertes Diagramm",
-      "Ein beliebiges Diagramm",
-      "Kein Diagramm"
+      "Ein detailliertes Diagramm aller Unterprozesse",
+      "Ein beliebiges Diagramm ohne festgelegte Systemgrenze",
+      "Eine Darstellung ohne Prozesse und externe Entitäten"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1955,
     "questionType": "choice",
-    "frage": "Was ist ein Level-1 DFD?",
-    "antwort": "Ein Diagramm mit Hauptprozessen des Systems",
+    "frage": "Was stellt ein Level-1-DFD im Allgemeinen dar?",
+    "antwort": "Ein Diagramm mit den wichtigsten Hauptprozessen",
     "falseAnswers": [
-      "Ein Kontextdiagramm",
-      "Ein detailliertes Diagramm",
-      "Ein beliebiges Diagramm"
+      "Ein Kontextdiagramm mit nur einem Gesamtprozess",
+      "Ein vollständig detailliertes Diagramm aller Prozessschritte",
+      "Ein beliebiges Diagramm ohne definierte DFD-Struktur"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1956,
     "questionType": "choice",
-    "frage": "Was ist Balancing in DFD?",
-    "antwort": "Die Konsistenz zwischen DFD-Leveln sicherstellen",
+    "frage": "Was bedeutet Balancing bei der Modellierung von DFD-Ebenen?",
+    "antwort": "Datenflüsse zwischen benachbarten DFD-Ebenen konsistent halten",
     "falseAnswers": [
-      "Das Ausgleichen von Datenflüssen",
-      "Das Löschen von Datenflüssen",
-      "Das Hinzufügen von Datenflüssen"
+      "Datenflüsse innerhalb einer Ebene mengenmäßig ausgleichen",
+      "Bestehende Datenflüsse aus dem Modell entfernen",
+      "Zusätzliche Datenflüsse ohne fachliche Begründung ergänzen"
     ],
     "category": "Projektmanagement"
   },
@@ -23498,360 +23558,360 @@
   {
     "nr": 1959,
     "questionType": "choice",
-    "frage": "Was ist ein gutes DFD?",
-    "antwort": "Klar, vollständig und balanciert",
+    "frage": "Welche Eigenschaften kennzeichnen ein qualitativ gutes Data Flow Diagram?",
+    "antwort": "Eine klare, vollständige und zwischen Ebenen balancierte Darstellung",
     "falseAnswers": [
-      "Unklar und unvollständig",
-      "Beliebig",
-      "Komplex"
+      "Eine unklare und unvollständige Darstellung der Datenflüsse",
+      "Eine beliebige Darstellung ohne festgelegte Modellierungsregeln",
+      "Eine unnötig komplexe Darstellung ohne nachvollziehbare Struktur"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1960,
     "questionType": "choice",
-    "frage": "Was ist der Hauptunterschied zwischen BPMN und DFD?",
-    "antwort": "BPMN: Prozessablauf. DFD: Datenfluss",
+    "frage": "Was ist der wesentliche Modellierungsunterschied zwischen BPMN und DFD?",
+    "antwort": "BPMN beschreibt Prozesse, DFD beschreibt Datenflüsse",
     "falseAnswers": [
-      "Kein Unterschied",
-      "BPMN: Datenfluss, DFD: Prozessablauf",
-      "Beliebiger Unterschied"
+      "Beide Notationen beschreiben ausschließlich dieselben Prozessinformationen",
+      "BPMN beschreibt Datenflüsse, DFD beschreibt Prozessabläufe",
+      "Der Unterschied hängt ausschließlich vom verwendeten Modellierungswerkzeug ab"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1961,
     "questionType": "choice",
-    "frage": "Wann wird BPMN verwendet?",
-    "antwort": "Zur Modellierung von Geschäftsprozessen",
+    "frage": "Wofür wird BPMN in der betrieblichen Analyse eingesetzt?",
+    "antwort": "Zur Modellierung und Analyse von Geschäftsprozessen",
     "falseAnswers": [
-      "Zur Modellierung von Datenflüssen",
-      "Zur Modellierung von Klassen",
-      "Zur Modellierung von Beziehungen"
+      "Zur ausschließlichen Modellierung von Datenflüssen",
+      "Zur Modellierung objektorientierter Klassenstrukturen",
+      "Zur Darstellung statischer Beziehungen zwischen Entitäten"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1962,
     "questionType": "choice",
-    "frage": "Wann wird DFD verwendet?",
-    "antwort": "Zur Modellierung von Datenflüssen in Systemen",
+    "frage": "Wofür wird ein Data Flow Diagram hauptsächlich eingesetzt?",
+    "antwort": "Zur Modellierung von Datenflüssen innerhalb eines Systems",
     "falseAnswers": [
-      "Zur Modellierung von Geschäftsprozessen",
-      "Zur Modellierung von Klassen",
-      "Zur Modellierung von Beziehungen"
+      "Zur Modellierung und Analyse von Geschäftsprozessen",
+      "Zur Modellierung objektorientierter Klassenstrukturen",
+      "Zur Darstellung statischer Beziehungen zwischen Entitäten"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1963,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Werkzeug für BPMN?",
-    "antwort": "Camunda, Bizagi oder ähnliche Tools",
+    "frage": "Welche Werkzeuge werden häufig zur Erstellung von BPMN-Modellen verwendet?",
+    "antwort": "Camunda, Bizagi oder vergleichbare BPMN-Werkzeuge",
     "falseAnswers": [
-      "Texteditoren",
-      "Tabellenkalkulation",
-      "Präsentationssoftware"
+      "Einfache Texteditoren ohne Diagrammunterstützung",
+      "Tabellenkalkulationen ohne BPMN-Modellierungsfunktionen",
+      "Präsentationssoftware ohne BPMN-Spezifikationsunterstützung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1964,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Werkzeug für DFD?",
-    "antwort": "Diagramm-Tools mit DFD-Unterstützung",
+    "frage": "Welche Werkzeuge eignen sich zur Erstellung von Data Flow Diagrams?",
+    "antwort": "Diagrammwerkzeuge mit integrierter DFD-Unterstützung",
     "falseAnswers": [
-      "Texteditoren",
-      "Tabellenkalkulation",
-      "Präsentationssoftware"
+      "Einfache Texteditoren ohne Diagrammfunktionen",
+      "Tabellenkalkulationen ohne DFD-Modellierungsunterstützung",
+      "Präsentationssoftware ohne strukturierte DFD-Symbole"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1965,
     "questionType": "choice",
-    "frage": "Was ist wichtig bei BPMN-Modellen?",
-    "antwort": "Einhaltung der BPMN-Spezifikation",
+    "frage": "Was ist bei der Erstellung von BPMN-Modellen besonders wichtig?",
+    "antwort": "Die Regeln und Symbole der BPMN-Spezifikation einhalten",
     "falseAnswers": [
-      "Beliebige Gestaltung",
-      "Keine Spezifikation",
-      "Eigene Spezifikation"
+      "Die Modellierung ohne gemeinsame Darstellungsregeln durchführen",
+      "Auf eine definierte BPMN-Spezifikation vollständig verzichten",
+      "Eine eigene Notation ohne fachliche Abstimmung verwenden"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1966,
     "questionType": "choice",
-    "frage": "Was ist wichtig bei DFD-Modellen?",
-    "antwort": "Konsistenz und Vollständigkeit der Datenflüsse",
+    "frage": "Was ist bei der Erstellung von Data Flow Diagrams besonders wichtig?",
+    "antwort": "Datenflüsse vollständig und konsistent darstellen",
     "falseAnswers": [
-      "Beliebige Gestaltung",
-      "Keine Konsistenz",
-      "Unvollständigkeit"
+      "Die Datenflüsse ohne feste Regeln beliebig gestalten",
+      "Widersprüchliche Datenflüsse bewusst im Modell belassen",
+      "Relevante Datenflüsse zugunsten der Übersichtlichkeit weglassen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1967,
     "questionType": "choice",
-    "frage": "Was ist ein Vorteil von BPMN?",
-    "antwort": "Standardisierte Notation für alle Beteiligten",
+    "frage": "Welchen wesentlichen Vorteil bietet BPMN bei der Prozessmodellierung?",
+    "antwort": "Eine standardisierte Notation für alle Prozessbeteiligten",
     "falseAnswers": [
-      "Beliebige Notation",
-      "Keine Notation",
-      "Komplexe Notation"
+      "Eine beliebige Notation ohne gemeinsame Modellierungsregeln",
+      "Eine Modellierung vollständig ohne festgelegte Notation",
+      "Eine komplexe Notation ohne verständlichen Kommunikationszweck"
     ],
     "category": "Projektmanagement"
   },
-  {
+ {
     "nr": 1968,
     "questionType": "choice",
-    "frage": "Was ist ein Vorteil von DFD?",
-    "antwort": "Klare Darstellung von Datenflüssen",
+    "frage": "Welchen Vorteil bietet ein Data Flow Diagram bei der Systemanalyse?",
+    "antwort": "Klare Darstellung von Datenflüssen zwischen Systemkomponenten",
     "falseAnswers": [
-      "Unklare Darstellung",
-      "Beliebige Darstellung",
-      "Keine Darstellung"
+      "Unklare Darstellung ohne erkennbare Datenbewegungen",
+      "Beliebige Darstellung ohne festgelegte Modellierungsregeln",
+      "Keine Darstellung von Datenflüssen oder Systemkomponenten"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1969,
     "questionType": "choice",
-    "frage": "Was ist eine Schwachstellenanalyse?",
-    "antwort": "Die systematische Identifikation von Problemen in Prozessen",
+    "frage": "Was versteht man im Prozessmanagement unter einer Schwachstellenanalyse?",
+    "antwort": "Systematische Identifikation von Problemen in Prozessen",
     "falseAnswers": [
-      "Die Dokumentation von Prozessen",
-      "Die Implementierung von Prozessen",
-      "Die Überwachung von Prozessen"
+      "Reine Dokumentation bestehender Prozessabläufe",
+      "Direkte Implementierung neuer Prozessabläufe",
+      "Kontinuierliche Überwachung ohne Problemanalyse"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1970,
     "questionType": "choice",
-    "frage": "Was ist eine Redundanz in Prozessen?",
-    "antwort": "Doppelte oder unnötige Arbeitsschritte",
+    "frage": "Was bezeichnet eine Redundanz in einem betrieblichen Prozess?",
+    "antwort": "Doppelte oder für das Ergebnis unnötige Arbeitsschritte",
     "falseAnswers": [
-      "Fehlende Arbeitsschritte",
-      "Notwendige Arbeitsschritte",
-      "Automatisierte Arbeitsschritte"
+      "Fehlende Schritte, die für den Prozess erforderlich wären",
+      "Notwendige Schritte zur ordnungsgemäßen Prozessdurchführung",
+      "Automatisierte Schritte ohne fachliche oder technische Duplizierung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1971,
     "questionType": "choice",
-    "frage": "Was ist ein Engpass (Bottleneck)?",
-    "antwort": "Der langsamste Schritt, der den Gesamtprozess limitiert",
+    "frage": "Was bezeichnet ein Bottleneck innerhalb eines betrieblichen Prozesses?",
+    "antwort": "Der langsamste Schritt, der den Gesamtprozess begrenzt",
     "falseAnswers": [
-      "Der schnellste Schritt",
-      "Ein beliebiger Schritt",
-      "Ein automatischer Schritt"
+      "Der schnellste Schritt innerhalb des Gesamtprozesses",
+      "Ein beliebiger Prozessschritt ohne messbare Einschränkung",
+      "Ein automatisch ausgeführter Schritt unabhängig seiner Leistung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1972,
     "questionType": "choice",
-    "frage": "Wie erkennt man Redundanzen?",
-    "antwort": "Durch Prozessanalyse und Identifikation doppelter Schritte",
+    "frage": "Wie lassen sich redundante Arbeitsschritte in einem Prozess erkennen?",
+    "antwort": "Durch Prozessanalyse und Vergleich wiederholter Arbeitsschritte",
     "falseAnswers": [
-      "Durch Ignorieren der Schritte",
-      "Durch Beliebigkeit",
-      "Durch Dokumentation allein"
+      "Durch das bewusste Ignorieren einzelner Prozessschritte",
+      "Durch eine beliebige Bewertung ohne Prozessgrundlage",
+      "Durch reine Dokumentation ohne inhaltliche Prozessanalyse"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1973,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Anzeichen für Redundanz?",
-    "antwort": "Mehrfache Eingabe derselben Daten",
+    "frage": "Welches Anzeichen deutet häufig auf Redundanzen in einem Prozess hin?",
+    "antwort": "Dieselben Daten werden mehrfach manuell eingegeben",
     "falseAnswers": [
-      "Einmalige Eingabe von Daten",
-      "Automatische Dateneingabe",
-      "Keine Dateneingabe"
+      "Daten werden genau einmal vollständig eingegeben",
+      "Daten werden ohne zusätzliche Eingaben automatisch übernommen",
+      "Im gesamten Prozess werden keinerlei Daten erfasst"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1974,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Anzeichen für einen Engpass?",
-    "antwort": "Lange Warteschlangen vor einem Schritt",
+    "frage": "Welches Anzeichen deutet häufig auf einen Engpass im Prozess hin?",
+    "antwort": "Lange Warteschlangen vor einem Prozessschritt",
     "falseAnswers": [
-      "Keine Warteschlangen",
-      "Kurze Warteschlangen",
-      "Beliebige Warteschlangen"
+      "Vor dem Prozessschritt entstehen keinerlei Warteschlangen",
+      "Vor dem Prozessschritt entstehen nur kurze Wartezeiten",
+      "Warteschlangen treten unabhängig von Prozessleistung beliebig auf"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1975,
     "questionType": "choice",
-    "frage": "Was ist Process Mining?",
-    "antwort": "Automatisierte Analyse von Prozessdaten zur Schwachstellenidentifikation",
+    "frage": "Was versteht man unter Process Mining im Prozessmanagement?",
+    "antwort": "Automatisierte Analyse von Prozessdaten zur Schwachstellenerkennung",
     "falseAnswers": [
-      "Manuelle Analyse von Prozessen",
-      "Beliebige Analyse",
-      "Keine Analyse"
+      "Ausschließlich manuelle Analyse dokumentierter Prozessbeschreibungen",
+      "Beliebige Auswertung ohne aufgezeichnete Prozessdaten",
+      "Vollständiger Verzicht auf die Analyse von Prozessabläufen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1976,
     "questionType": "choice",
-    "frage": "Was ist ein Wertstrom?",
-    "antwort": "Die Folge von wertschöpfenden und nicht-wertschöpfenden Aktivitäten",
+    "frage": "Was bezeichnet ein Wertstrom im Prozessmanagement?",
+    "antwort": "Abfolge wertschöpfender und nichtwertschöpfender Aktivitäten",
     "falseAnswers": [
-      "Nur wertschöpfende Aktivitäten",
-      "Nur nicht-wertschöpfende Aktivitäten",
-      "Beliebige Aktivitäten"
+      "Ausschließlich wertschöpfende Aktivitäten ohne Wartezeiten",
+      "Ausschließlich nichtwertschöpfende Aktivitäten im Prozess",
+      "Beliebige Aktivitäten ohne Bezug zum Kundennutzen"
     ],
     "category": "Projektmanagement"
   },
-  {
+   {
     "nr": 1977,
     "questionType": "choice",
-    "frage": "Was ist wertschöpfende Aktivität?",
-    "antwort": "Eine Aktivität, für die der Kunde bereit ist zu zahlen",
+    "frage": "Was kennzeichnet eine wertschöpfende Aktivität aus Sicht des Kunden?",
+    "antwort": "Eine Aktivität, für die der Kunde Zahlungsbereitschaft zeigt",
     "falseAnswers": [
-      "Eine Aktivität ohne Wert für den Kunden",
-      "Eine beliebige Aktivität",
-      "Eine interne Aktivität"
+      "Eine Aktivität ohne erkennbaren Kundennutzen",
+      "Eine beliebige Aktivität ohne Prozessbewertung",
+      "Eine ausschließlich interne Aktivität ohne Kundennutzen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1978,
     "questionType": "choice",
-    "frage": "Was ist nicht-wertschöpfende Aktivität?",
-    "antwort": "Eine Aktivität ohne direkten Wert für den Kunden",
+    "frage": "Was kennzeichnet eine nichtwertschöpfende Aktivität im Wertstrom?",
+    "antwort": "Eine Aktivität ohne direkten Kundennutzen",
     "falseAnswers": [
-      "Eine Aktivität mit Wert für den Kunden",
-      "Eine beliebige Aktivität",
-      "Eine notwendige Aktivität"
+      "Eine Aktivität mit unmittelbar erkennbarem Kundennutzen",
+      "Eine beliebige Aktivität ohne fachliche Bewertung",
+      "Eine notwendige Aktivität, die immer wertschöpfend ist"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1979,
     "questionType": "choice",
-    "frage": "Was ist Muda?",
-    "antwort": "Verschwendung im Prozess (Lean-Begriff)",
+    "frage": "Was bezeichnet der Lean-Begriff Muda im Prozessmanagement?",
+    "antwort": "Verschwendung durch nichtwertschöpfende Prozessaktivitäten",
     "falseAnswers": [
-      "Wertschöpfung",
-      "Beliebige Aktivität",
-      "Notwendige Aktivität"
+      "Wertschöpfung durch kundenwirksame Prozessaktivitäten",
+      "Eine beliebige Aktivität ohne Lean-Bewertung",
+      "Eine notwendige Aktivität ohne mögliche Verschwendung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1980,
     "questionType": "choice",
-    "frage": "Was ist Mura?",
-    "antwort": "Ungleichmäßigkeit im Prozess (Lean-Begriff)",
+    "frage": "Was bezeichnet der Lean-Begriff Mura im Prozessmanagement?",
+    "antwort": "Ungleichmäßigkeit und Schwankungen im Prozessablauf",
     "falseAnswers": [
-      "Verschwendung",
-      "Beliebige Aktivität",
-      "Notwendige Aktivität"
+      "Verschwendung durch überflüssige Prozessaktivitäten",
+      "Eine beliebige Aktivität ohne erkennbare Schwankung",
+      "Eine notwendige Aktivität mit gleichmäßiger Auslastung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1981,
     "questionType": "choice",
-    "frage": "Was ist Muri?",
-    "antwort": "Überlastung im Prozess (Lean-Begriff)",
+    "frage": "Was bezeichnet der Lean-Begriff Muri im Prozessmanagement?",
+    "antwort": "Überlastung von Menschen, Anlagen oder Prozessen",
     "falseAnswers": [
-      "Verschwendung",
-      "Beliebige Aktivität",
-      "Notwendige Aktivität"
+      "Verschwendung durch unnötige Prozessaktivitäten",
+      "Eine beliebige Aktivität ohne überhöhte Belastung",
+      "Eine notwendige Aktivität mit ausgeglichener Arbeitslast"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1982,
     "questionType": "choice",
-    "frage": "Was ist Kaizen?",
-    "antwort": "Kontinuierliche Verbesserung (Lean-Begriff)",
+    "frage": "Was bezeichnet Kaizen im Lean Management?",
+    "antwort": "Kontinuierliche Verbesserung durch viele kleine Maßnahmen",
     "falseAnswers": [
-      "Einmalige Verbesserung",
-      "Beliebige Verbesserung",
-      "Keine Verbesserung"
+      "Eine einmalige Verbesserung ohne weitere Überprüfung",
+      "Eine beliebige Verbesserung ohne festgelegtes Vorgehen",
+      "Der vollständige Verzicht auf Verbesserungsmaßnahmen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1983,
     "questionType": "choice",
-    "frage": "Was ist Six Sigma?",
-    "antwort": "Eine Methode zur Prozessverbesserung mit Fokus auf Qualität",
+    "frage": "Welches Ziel verfolgt Six Sigma bei der Prozessverbesserung?",
+    "antwort": "Prozessqualität durch Verringerung von Fehlern verbessern",
     "falseAnswers": [
-      "Eine Methode zur Kostenreduktion",
-      "Eine Methode zur Zeitersparnis",
-      "Eine beliebige Methode"
+      "Ausschließlich die Kosten ohne Qualitätsbetrachtung reduzieren",
+      "Ausschließlich Bearbeitungszeiten ohne Fehleranalyse verkürzen",
+      "Eine beliebige Methode ohne messbare Verbesserungsziele anwenden"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1984,
     "questionType": "choice",
-    "frage": "Was ist Lean Management?",
-    "antwort": "Eine Methode zur Verschwendungsreduktion",
+    "frage": "Welches zentrale Ziel verfolgt Lean Management in Organisationen?",
+    "antwort": "Verschwendung reduzieren und Kundennutzen steigern",
     "falseAnswers": [
-      "Eine Methode zur Kostensteigerung",
-      "Eine Methode zur Zeitverschwendung",
-      "Eine beliebige Methode"
+      "Kosten erhöhen und zusätzliche Verschwendung erzeugen",
+      "Wartezeiten verlängern und Prozessabläufe verkomplizieren",
+      "Eine beliebige Methode ohne definiertes Verbesserungsziel einsetzen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1985,
     "questionType": "choice",
-    "frage": "Was ist ein Ishikawa-Diagramm?",
-    "antwort": "Ein Ursache-Wirkungs-Diagramm zur Problemanalyse",
+    "frage": "Welchen Zweck erfüllt ein Ishikawa-Diagramm bei der Problemanalyse?",
+    "antwort": "Es stellt mögliche Ursachen einer Wirkung strukturiert dar",
     "falseAnswers": [
-      "Ein Flussdiagramm",
-      "Ein Strukturdiagramm",
-      "Ein Klassendiagramm"
+      "Es stellt die zeitliche Reihenfolge eines Prozesses dar",
+      "Es stellt hierarchische Programmstrukturen grafisch dar",
+      "Es stellt Klassen und ihre Beziehungen grafisch dar"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1986,
     "questionType": "choice",
-    "frage": "Was ist eine 5-Why-Analyse?",
-    "antwort": "Eine Methode zur Ursachenfindung durch wiederholtes Fragen",
+    "frage": "Welchen Zweck hat eine 5-Why-Analyse im Qualitätsmanagement?",
+    "antwort": "Ursachen durch wiederholtes Fragen schrittweise ermitteln",
     "falseAnswers": [
-      "Eine Methode zur Lösungsfindung",
-      "Eine Methode zur Dokumentation",
-      "Eine beliebige Methode"
+      "Eine passende Lösung ohne Ursachenanalyse direkt auswählen",
+      "Bestehende Prozessinformationen ausschließlich dokumentieren",
+      "Eine beliebige Methode ohne systematische Fragestellung anwenden"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1987,
     "questionType": "choice",
-    "frage": "Was ist ein Pareto-Diagramm?",
-    "antwort": "Ein Diagramm zur Identifikation der wichtigsten Probleme (80/20)",
+    "frage": "Welchen Zweck erfüllt ein Pareto-Diagramm bei der Problemanalyse?",
+    "antwort": "Die wichtigsten Problemursachen nach ihrer Bedeutung identifizieren",
     "falseAnswers": [
-      "Ein Flussdiagramm",
-      "Ein Strukturdiagramm",
-      "Ein Klassendiagramm"
+      "Die zeitliche Reihenfolge von Prozessschritten darstellen",
+      "Programmstrukturen hierarchisch und verschachtelt darstellen",
+      "Klassen und ihre Beziehungen im System darstellen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1988,
     "questionType": "choice",
-    "frage": "Was ist das Pareto-Prinzip?",
-    "antwort": "80% der Probleme kommen von 20% der Ursachen",
+    "frage": "Was beschreibt das Pareto-Prinzip bei der Ursachenanalyse?",
+    "antwort": "Ein kleiner Ursachenanteil verursacht einen großen Wirkungsanteil",
     "falseAnswers": [
-      "80% der Probleme kommen von 80% der Ursachen",
-      "20% der Probleme kommen von 20% der Ursachen",
-      "Beliebige Verteilung"
+      "Ein gleich großer Ursachenanteil erzeugt denselben Wirkungsanteil",
+      "Ein kleiner Ursachenanteil verursacht einen kleinen Wirkungsanteil",
+      "Ursachen und Wirkungen verteilen sich grundsätzlich beliebig"
     ],
     "category": "Projektmanagement"
   },
@@ -23859,7 +23919,7 @@
     "nr": 1989,
     "questionType": "choice",
     "frage": "Was ist ein KPI?",
-    "antwort": "Ein Key Performance Indicator zur Prozessmessung",
+    "antwort": "Ein Key Performance Indicator",
     "falseAnswers": [
       "Ein Key Process Indicator",
       "Ein Key Project Indicator",
@@ -24170,120 +24230,120 @@
   {
     "nr": 2015,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Instrument für Verbesserungen?",
-    "antwort": "Benchmarking mit Best Practices",
+    "frage": "Welches Instrument wird häufig zur Verbesserung von Prozessen eingesetzt?",
+    "antwort": "Benchmarking mit bewährten Best Practices",
     "falseAnswers": [
-      "Beliebige Vergleiche",
-      "Keine Vergleiche",
-      "Nur interne Vergleiche"
+      "Vergleiche ohne feste Kriterien",
+      "Völliger Verzicht auf Vergleiche",
+      "Ausschließlich interne Vergleiche ohne Außenblick"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 2016,
     "questionType": "choice",
-    "frage": "Was ist eine Willenserklärung?",
-    "antwort": "Eine Äußerung, die auf die Herbeiführung eines rechtlichen Erfolgs gerichtet ist",
+    "frage": "Was versteht man im Recht unter einer Willenserklärung?",
+    "antwort": "Auf einen rechtlichen Erfolg gerichtete Äußerung",
     "falseAnswers": [
-      "Eine beliebige Äußerung",
-      "Eine mündliche Vereinbarung",
-      "Eine schriftliche Vereinbarung"
+      "Beliebige Äußerung ohne Rechtsfolge",
+      "Nur mündliche Vereinbarung zwischen Parteien",
+      "Nur schriftliche Vereinbarung zwischen Parteien"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2017,
     "questionType": "choice",
-    "frage": "Was sind die wesentlichen Bestandteile einer Willenserklärung?",
+    "frage": "Aus welchen Bestandteilen setzt sich eine Willenserklärung typischerweise zusammen?",
     "antwort": "Handlungswille, Erklärungsbewusstsein, Geschäftswille",
     "falseAnswers": [
-      "Nur Handlungswille",
-      "Nur Erklärungsbewusstsein",
-      "Nur Geschäftswille"
+      "Nur der Handlungswille ohne weitere Elemente",
+      "Nur das Erklärungsbewusstsein ohne weiteren Willen",
+      "Nur der Geschäftswille ohne Handlungsentschluss"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2018,
     "questionType": "choice",
-    "frage": "Was ist Geschäftsfähigkeit?",
-    "antwort": "Die Fähigkeit, rechtswirksam Willenserklärungen abzugeben",
+    "frage": "Was bedeutet Geschäftsfähigkeit im rechtlichen Sinne?",
+    "antwort": "Fähigkeit, wirksame Willenserklärungen abzugeben",
     "falseAnswers": [
-      "Die Fähigkeit, Verträge zu lesen",
-      "Die Fähigkeit, Geschäfte zu machen",
-      "Die Fähigkeit, zu unterschreiben"
+      "Fähigkeit, komplexe Verträge vollständig zu lesen",
+      "Fähigkeit, beliebige Geschäfte zu tätigen",
+      "Fähigkeit, eine Unterschrift leisten zu können"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2019,
     "questionType": "choice",
-    "frage": "Ab wann ist man voll geschäftsfähig?",
-    "antwort": "Ab 18 Jahren",
+    "frage": "Ab welchem Alter gilt eine Person in Deutschland als voll geschäftsfähig?",
+    "antwort": "Ab Vollendung des 18. Lebensjahres",
     "falseAnswers": [
-      "Ab 16 Jahren",
-      "Ab 21 Jahren",
-      "Ab 25 Jahren"
+      "Ab Vollendung des 16. Lebensjahres",
+      "Ab Vollendung des 21. Lebensjahres",
+      "Ab Vollendung des 25. Lebensjahres"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2020,
     "questionType": "choice",
-    "frage": "Was ist ein Angebot?",
-    "antwort": "Eine verbindliche Willenserklärung zum Vertragsschluss",
+    "frage": "Was ist ein Angebot im Sinne des Vertragsrechts?",
+    "antwort": "Verbindliche Willenserklärung zum Vertragsschluss",
     "falseAnswers": [
-      "Eine unverbindliche Anfrage",
-      "Eine Einladung zur Offerte",
-      "Eine Werbung"
+      "Unverbindliche Anfrage ohne Rechtsbindung",
+      "Einladung zur Abgabe eines Angebots",
+      "Werbung ohne konkrete Vertragsbindung"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2021,
     "questionType": "choice",
-    "frage": "Was ist eine Annahme?",
-    "antwort": "Die Zustimmung zum Angebot",
+    "frage": "Was bedeutet Annahme im Rahmen eines Vertragsschlusses?",
+    "antwort": "Ausdrückliche oder konkludente Zustimmung zum Angebot",
     "falseAnswers": [
-      "Die Ablehnung des Angebots",
-      "Eine Gegenofferte",
-      "Eine Anfrage"
+      "Bewusste Ablehnung des Angebots",
+      "Abgabe einer veränderten Gegenofferte",
+      "Unverbindliche Informationsanfrage"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2022,
     "questionType": "choice",
-    "frage": "Wann ist ein Kaufvertrag wirksam?",
-    "antwort": "Bei übereinstimmenden Willenserklärungen (Angebot und Annahme)",
+    "frage": "Wann kommt ein Kaufvertrag rechtswirksam zustande?",
+    "antwort": "Bei übereinstimmenden Willenserklärungen von Angebot und Annahme",
     "falseAnswers": [
-      "Bei Unterschrift",
-      "Bei Zahlung",
-      "Bei Lieferung"
+      "Erst mit der Unterschrift beider Vertragsparteien",
+      "Erst mit der vollständigen Kaufpreiszahlung",
+      "Erst mit der Lieferung der Kaufsache"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2023,
     "questionType": "choice",
-    "frage": "Was ist ein Vertragsstörungen?",
-    "antwort": "Eine Störung der vertraglichen Pflichten",
+    "frage": "Was bezeichnet man als Vertragsstörung?",
+    "antwort": "Störung bei der Erfüllung vertraglicher Pflichten",
     "falseAnswers": [
-      "Eine Störung des Vertragsinhalts",
-      "Eine Störung der Vertragsdauer",
-      "Eine Störung der Vertragsform"
+      "Spätere Änderung einzelner Vertragsinhalte",
+      "Verlängerung oder Verkürzung der Vertragsdauer",
+      "Wechsel der ursprünglich vereinbarten Vertragsform"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2024,
     "questionType": "choice",
-    "frage": "Was ist Lieferungsverzug?",
-    "antwort": "Die nicht rechtzeitige Lieferung durch den Verkäufer",
+    "frage": "Was ist Lieferungsverzug im Kaufrecht?",
+    "antwort": "Nicht rechtzeitige Lieferung durch den Verkäufer",
     "falseAnswers": [
-      "Die nicht rechtzeitige Zahlung durch den Käufer",
-      "Die falsche Lieferung",
-      "Die beschädigte Lieferung"
+      "Nicht rechtzeitige Zahlung durch den Käufer",
+      "Lieferung einer falschen oder anderen Ware",
+      "Lieferung einer beschädigten Ware"
     ],
     "category": "Wirtschaft & Software"
   },
@@ -24323,27 +24383,27 @@
     ],
     "category": "Wirtschaft & Software"
   },
-  {
+ {
     "nr": 2028,
     "questionType": "choice",
-    "frage": "Wann beginnt die Verjährung?",
-    "antwort": "Am Ende des Jahres, in dem der Anspruch entstanden ist",
+    "frage": "Wann beginnt die regelmäßige Verjährungsfrist eines Anspruchs?",
+    "antwort": "Am Jahresende, in dem der Anspruch entsteht",
     "falseAnswers": [
-      "Am Tag des Entstehens",
-      "Am Tag der Mahnung",
-      "Am Tag der Klage"
+      "Am konkreten Tag der Anspruchsentstehung",
+      "Am Tag der ersten Mahnung des Gläubigers",
+      "Am Tag der Klageerhebung vor Gericht"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2029,
     "questionType": "choice",
-    "frage": "Was ist Mängelhaftung?",
-    "antwort": "Die Haftung des Verkäufers für Sachmängel",
+    "frage": "Was bedeutet Mängelhaftung im Kaufrecht?",
+    "antwort": "Haftung des Verkäufers für vorhandene Sachmängel",
     "falseAnswers": [
-      "Die Haftung des Käufers",
-      "Die Haftung des Herstellers",
-      "Die Haftung des Lieferanten"
+      "Haftung des Käufers für gekaufte Sachmängel",
+      "Haftung allein des Herstellers für Sachmängel",
+      "Haftung ausschließlich des Lieferanten für Sachmängel"
     ],
     "category": "Wirtschaft & Software"
   },
@@ -24362,96 +24422,96 @@
   {
     "nr": 2031,
     "questionType": "choice",
-    "frage": "Was ist ein Sachmangel?",
-    "antwort": "Eine Abweichung der Sache von der vereinbarten Beschaffenheit",
+    "frage": "Wann liegt rechtlich ein Sachmangel der Kaufsache vor?",
+    "antwort": "Bei Abweichung von der vereinbarten Beschaffenheit",
     "falseAnswers": [
-      "Eine Abweichung des Preises",
-      "Eine Abweichung der Lieferzeit",
-      "Eine Abweichung der Zahlungsfrist"
+      "Bei bloßer Abweichung des vereinbarten Preises",
+      "Bei Abweichung der vereinbarten Lieferzeit",
+      "Bei Abweichung der vereinbarten Zahlungsfrist"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2032,
     "questionType": "choice",
-    "frage": "Was sind die Rechte des Käufers bei Mängeln?",
+    "frage": "Welche gesetzlichen Rechte hat der Käufer bei Sachmängeln?",
     "antwort": "Nacherfüllung, Rücktritt, Minderung, Schadensersatz",
     "falseAnswers": [
-      "Nur Rücktritt",
-      "Nur Minderung",
-      "Nur Schadensersatz"
+      "Nur Rücktritt vom Kaufvertrag",
+      "Nur Minderung des Kaufpreises",
+      "Nur Schadensersatz wegen Mängeln"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2033,
     "questionType": "choice",
-    "frage": "Was ist Nacherfüllung?",
-    "antwort": "Nachbesserung oder Ersatzlieferung",
+    "frage": "Was bedeutet Nacherfüllung im Rahmen der Mängelhaftung?",
+    "antwort": "Nachbesserung oder Ersatzlieferung der Ware",
     "falseAnswers": [
-      "Rücktritt vom Vertrag",
-      "Minderung des Preises",
-      "Schadensersatz"
+      "Rücktritt vom bereits geschlossenen Vertrag",
+      "Herabsetzung des vereinbarten Kaufpreises",
+      "Zahlung von Schadensersatz durch den Verkäufer"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2034,
     "questionType": "choice",
-    "frage": "Was ist Rücktritt?",
-    "antwort": "Die Auflösung des Vertrags mit Rückgabe der Ware",
+    "frage": "Was bedeutet Rücktritt vom Kaufvertrag bei Sachmängeln?",
+    "antwort": "Vertragsauflösung mit Rückgabe von Ware und Geld",
     "falseAnswers": [
-      "Die Nacherfüllung",
-      "Die Minderung",
-      "Der Schadensersatz"
+      "Erneute Nacherfüllung durch den Verkäufer",
+      "Herabsetzung des vereinbarten Kaufpreises",
+      "Zahlung von Schadensersatz ohne Vertragsauflösung"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2035,
     "questionType": "choice",
-    "frage": "Was ist Minderung?",
-    "antwort": "Die Herabsetzung des Kaufpreises",
+    "frage": "Was bedeutet Minderung des Kaufpreises bei Mängeln?",
+    "antwort": "Angemessene Herabsetzung des Kaufpreises",
     "falseAnswers": [
-      "Die Nacherfüllung",
-      "Der Rücktritt",
-      "Der Schadensersatz"
+      "Erneute Nacherfüllung durch den Verkäufer",
+      "Rücktritt und vollständige Rückabwicklung",
+      "Zahlung eines zusätzlichen Schadensersatzes"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2036,
     "questionType": "choice",
-    "frage": "Was ist ein Angebotsvergleich?",
-    "antwort": "Der Vergleich mehrerer Angebote zur Lieferantenauswahl",
+    "frage": "Was ist der Zweck eines Angebotsvergleichs im Einkauf?",
+    "antwort": "Vergleich mehrerer Angebote zur Lieferantenauswahl",
     "falseAnswers": [
-      "Der Vergleich von Preisen",
-      "Der Vergleich von Lieferanten",
-      "Der Vergleich von Produkten"
+      "Vergleich ausschließlich der angebotenen Preise",
+      "Vergleich ausschließlich der angebotenen Lieferanten",
+      "Vergleich ausschließlich der angebotenen Produkte"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2037,
     "questionType": "choice",
-    "frage": "Was ist quantitativer Angebotsvergleich?",
-    "antwort": "Vergleich anhand von Preisen und Kosten",
+    "frage": "Wodurch zeichnet sich ein quantitativer Angebotsvergleich aus?",
+    "antwort": "Vergleich anhand von Preisen und Gesamtkosten",
     "falseAnswers": [
-      "Vergleich anhand von Qualität",
-      "Vergleich anhand von Service",
-      "Vergleich anhand von Lieferzeit"
+      "Vergleich ausschließlich anhand der Produktqualität",
+      "Vergleich ausschließlich anhand von Serviceleistungen",
+      "Vergleich ausschließlich anhand der Lieferzeit"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2038,
     "questionType": "choice",
-    "frage": "Was ist qualitativer Angebotsvergleich?",
-    "antwort": "Vergleich anhand von Qualität, Service, Lieferzeit etc.",
+    "frage": "Wodurch zeichnet sich ein qualitativer Angebotsvergleich aus?",
+    "antwort": "Vergleich anhand von Qualität, Service und Lieferzeit",
     "falseAnswers": [
-      "Vergleich anhand von Preisen",
-      "Vergleich anhand von Kosten",
-      "Vergleich anhand von Rabatten"
+      "Vergleich ausschließlich anhand von Preisen",
+      "Vergleich ausschließlich anhand von Kosten",
+      "Vergleich ausschließlich anhand von Rabatten"
     ],
     "category": "Wirtschaft & Software"
   },
@@ -24551,51 +24611,51 @@
     ],
     "category": "Wirtschaft & Software"
   },
-  {
+ {
     "nr": 2047,
     "questionType": "choice",
-    "frage": "Was ist Lieferantenbewertung?",
-    "antwort": "Die Bewertung von Lieferanten nach verschiedenen Kriterien",
+    "frage": "Nach welchen Aspekten werden Lieferanten im betrieblichen Einkauf bewertet?",
+    "antwort": "Bewertung nach Qualität, Preis, Termintreue und Service",
     "falseAnswers": [
-      "Die Bewertung von Kunden",
-      "Die Bewertung von Produkten",
-      "Die Bewertung von Preisen"
+      "Bewertung nach Umsatz, Alter, Standort und Werbung",
+      "Bewertung nach Kundenzahl, Sortiment, Größe und Bekanntheit",
+      "Bewertung nach Farbe, Verpackung, Marke und Design"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2048,
     "questionType": "choice",
-    "frage": "Was ist ein Einzelunternehmen?",
-    "antwort": "Ein Unternehmen, das von einer Person allein geführt wird",
+    "frage": "Welche rechtliche Struktur kennzeichnet ein Einzelunternehmen im betrieblichen Kontext?",
+    "antwort": "Unternehmen im Eigentum einer einzelnen Person",
     "falseAnswers": [
-      "Ein Unternehmen mit mehreren Gesellschaftern",
-      "Ein Unternehmen mit beschränkter Haftung",
-      "Ein Unternehmen mit Aktien"
+      "Unternehmen im Eigentum mehrerer Gesellschafter",
+      "Unternehmen mit gesetzlich beschränkter Eigentümerhaftung",
+      "Unternehmen mit in Aktien aufgeteiltem Kapital"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2049,
     "questionType": "choice",
-    "frage": "Wie haftet ein Einzelunternehmer?",
+    "frage": "Wie haftet ein Einzelunternehmer grundsätzlich für betriebliche Verbindlichkeiten?",
     "antwort": "Unbeschränkt mit Geschäfts- und Privatvermögen",
     "falseAnswers": [
-      "Beschränkt auf das Geschäftsvermögen",
-      "Beschränkt auf das Privatvermögen",
-      "Gar nicht"
+      "Beschränkt auf das Geschäftsvermögen des Betriebs",
+      "Beschränkt auf das Privatvermögen des Unternehmers",
+      "Nur bei vorsätzlichen Pflichtverletzungen des Unternehmers"
     ],
     "category": "Wirtschaft & Software"
   },
   {
     "nr": 2050,
     "questionType": "choice",
-    "frage": "Was ist eine GmbH?",
+    "frage": "Welche Rechtsform bezeichnet die Abkürzung GmbH im deutschen Wirtschaftsrecht?",
     "antwort": "Gesellschaft mit beschränkter Haftung",
     "falseAnswers": [
-      "Gesellschaft mit unbeschränkter Haftung",
-      "Einzelunternehmen",
-      "Aktiengesellschaft"
+      "Gesellschaft mit unbeschränkter persönlicher Haftung",
+      "Einzelunternehmen mit kaufmännischer Geschäftsführung",
+      "Aktiengesellschaft mit beschränkter Kapitalbeteiligung"
     ],
     "category": "Wirtschaft & Software"
   },
@@ -31217,9 +31277,9 @@
     "frage": "Was ist der 'Konami Code'?",
     "antwort": "Up, Up, Down, Down, Left, Right, Left, Right, B, A",
     "falseAnswers": [
-      "A, B, A, B, Left, Right, Left, Right, Up, Down",
-      "Left, Right, Left, Right, Up, Down, Up, Down, A, B",
-      "Up, Down, Up, Down, Left, Right, Left, Right, A, B"
+      "A, B, B, A, A, B, B, A, A, B, B, A",
+      "X, O, △, X, O, △, □, □, O, X",
+      "Godmode: Active"
     ],
     "category": "Gaming & Medien"
   },
@@ -32897,9 +32957,9 @@
     "frage": "Du hast Glück! Such dir deine Belohnung aus!",
     "antwort": "+ 2 Leben",
     "falseAnswers": [
-      "+ 3 Überspringen",
-      "+ 3 50:50",
-      "+ 1000 Punkte"
+      "+3 Überspringen",
+      "+3 50:50",
+      "+1000 Punkte"
     ],
     "category": "U are lucky"
   }
