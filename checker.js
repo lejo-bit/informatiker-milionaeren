@@ -92,6 +92,21 @@ function calculateSimilarity(str1, str2) {
 }
 
 /**
+ * Normalizes text and also converts German number words to digits when
+ * numbers.js is available (window.normalizeWithNumbers). Falls back to
+ * plain normalize() if numbers.js hasn't loaded (e.g. offline/edge case).
+ *
+ * @param {string} text - Raw input text.
+ * @returns {string} Normalized text (with number words as digits if possible).
+ */
+function normalizeSmart(text) {
+  if (typeof window.normalizeWithNumbers === "function") {
+    return window.normalizeWithNumbers(text);
+  }
+  return normalize(text);
+}
+
+/**
  * Calculates word-overlap similarity: the fraction of words in the
  * correct answer that also appear in the user's answer.
  *
@@ -100,8 +115,8 @@ function calculateSimilarity(str1, str2) {
  * @returns {number} Overlap ratio from 0.0 to 1.0.
  */
 function wordOverlapSimilarity(userStr, correctStr) {
-  const userWords = normalize(userStr).split(" ").filter(Boolean);
-  const correctWords = normalize(correctStr).split(" ").filter(Boolean);
+  const userWords = normalizeSmart(userStr).split(" ").filter(Boolean);
+  const correctWords = normalizeSmart(correctStr).split(" ").filter(Boolean);
 
   if (correctWords.length === 0) return 0;
 
@@ -132,7 +147,7 @@ function checkAnswer(question, userAnswer) {
     ? question.antwort
     : [question.antwort];
 
-  const normUser = normalize(userAnswer);
+  const normUser = normalizeSmart(userAnswer);
 
   // If the user did not type anything (empty after normalization)
   if (!normUser) {
@@ -142,9 +157,10 @@ function checkAnswer(question, userAnswer) {
     };
   }
 
-  // 1) Exact match (strict, but robust thanks to normalization)
+  // 1) Exact match (strict, but robust thanks to normalization,
+  //    including German number-word → digit conversion)
   const exactMatch = correctAnswers.some(correctAnswer => {
-    const normCorrect = normalize(correctAnswer);
+    const normCorrect = normalizeSmart(correctAnswer);
     return normUser === normCorrect;
   });
 
@@ -175,7 +191,7 @@ function checkAnswer(question, userAnswer) {
   // 3) Fuzzy match using Levenshtein similarity:
   //    Here we only want to catch typos, not big semantic changes.
   const isCloseMatch = correctAnswers.some(correctAnswer => {
-    const normCorrect = normalize(correctAnswer);
+    const normCorrect = normalizeSmart(correctAnswer);
     return calculateSimilarity(normUser, normCorrect) >= 0.8;
   });
 

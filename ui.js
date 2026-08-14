@@ -137,10 +137,10 @@ export function showStreakEffect(count) {
   clearStreakEffect();
   document.body.classList.add(`streak-${count}`);
 
-  // Create a streak background overlay element
-  const overlay = document.createElement("div");
-  overlay.className = "streak-background";
-  document.body.appendChild(overlay);
+  // Pulse the container (not body) to avoid breaking fixed-position
+  // elements like the floating feedback button.
+  const container = document.querySelector(".container");
+  if (container) container.classList.add("streak-pulse");
 
   const banner = document.getElementById("comboBanner");
   if (!banner) return;
@@ -173,8 +173,8 @@ export function showStreakEffect(count) {
  */
 export function clearStreakEffect() {
   document.body.classList.remove("streak-5", "streak-10", "streak-15");
-  const oldOverlay = document.querySelector(".streak-background");
-  if (oldOverlay) oldOverlay.remove();
+  const container = document.querySelector(".container");
+  if (container) container.classList.remove("streak-pulse");
 
   if (state.streakBannerTimeout) {
     clearTimeout(state.streakBannerTimeout);
@@ -226,14 +226,25 @@ export function renderScoreTable(scores) {
   if (!tbody) return;
 
   tbody.innerHTML = "";
+
+  // NOTE: Cells are built with textContent (not innerHTML) so that
+  // player-provided names can never inject markup (stored XSS).
   scores.forEach((entry, index) => {
     const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${index + 1}</td>
-      <td>${entry.name}</td>
-      <td>${entry.points}</td>
-      <td>${getPlayerTitle(entry.points)}</td>
-    `;
+
+    const rankCell = document.createElement("td");
+    rankCell.textContent = index + 1;
+
+    const nameCell = document.createElement("td");
+    nameCell.textContent = entry.name;
+
+    const pointsCell = document.createElement("td");
+    pointsCell.textContent = entry.points;
+
+    const titleCell = document.createElement("td");
+    titleCell.textContent = getPlayerTitle(entry.points);
+
+    tr.append(rankCell, nameCell, pointsCell, titleCell);
     tbody.appendChild(tr);
   });
 }

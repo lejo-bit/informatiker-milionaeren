@@ -47,10 +47,6 @@ h1 {
   justify-content: center;
   gap: 10px;
 }
-h1::before {
-  content: "";
-  font-size: 32px;
-}
 
 /* ===== LOADING ===== */
 .loading {
@@ -160,7 +156,7 @@ h1::before {
 #playerLabel {
   background: transparent !important;
   padding: 0 6px !important;
-  font-weight: 700;
+  font-weight: 800;
   color: #1f2a36;
 }
 
@@ -616,7 +612,7 @@ body.streak-15::after {
               radial-gradient(circle at top right, rgba(33, 150, 243, 0.22), transparent 30%);
 }
 
-body.streak-5, body.streak-10, body.streak-15 {
+.container.streak-pulse {
   animation: pulseStreak 3s ease-in-out infinite;
 }
 
@@ -660,13 +656,6 @@ body.streak-5, body.streak-10, body.streak-15 {
   color: #1f2a36;
   margin-bottom: 12px;
   letter-spacing: 0.3px;
-}
-
-#playerLabel {
-  background: transparent;
-  padding: 0;
-  font-weight: 800;
-  color: #1f2a36;
 }
 
 .player-title {

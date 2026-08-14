@@ -72,7 +72,25 @@ export function getDisplayedCorrectAnswers(q, maxAnswers = 2) {
 export async function loadQuestions() {
   try {
     const res = await fetch("fragen.json");
-    state.allQuestions = await res.json();
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const raw = await res.json();
+
+    // Sanitize loaded questions: flatten array-wrapped entries (defense
+    // against malformed data in fragen.json) and filter out incomplete ones
+    // so the game never renders a broken question.
+    state.allQuestions = (Array.isArray(raw) ? raw : [])
+      .flat(Infinity)
+      .filter(q =>
+        q &&
+        typeof q === "object" &&
+        !Array.isArray(q) &&
+        typeof q.frage === "string" &&
+        q.frage.trim() !== "" &&
+        typeof q.questionType === "string" &&
+        q.antwort !== undefined &&
+        q.antwort !== null &&
+        q.antwort !== ""
+      );
     state.questions = [...state.allQuestions];
 
     document.getElementById("loading").classList.add("hidden");
@@ -113,7 +131,12 @@ export function startGame() {
   clearStreakEffect();
 
   state.questions = shuffleArray(state.questions);
-  if (state.questions.length === 0) return;
+  if (state.questions.length === 0) {
+    const errorEl = document.getElementById("error");
+    errorEl.textContent = "Keine Fragen verfügbar. Bitte Seite neu laden.";
+    errorEl.classList.remove("hidden");
+    return;
+  }
 
   document.getElementById("startScreen").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
@@ -347,7 +370,7 @@ export function handleAnswer() {
     // --- Scoring ---
     let basePoints = 100;
     if (q.questionType === "open") {
-      const elapsed = 60 - state.timer;
+      const elapsed = state.initialTimerValue - state.timer;
       if (elapsed > 30) basePoints = Math.max(0, 100 - (elapsed - 30) * 2);
     }
     state.score += Math.round(basePoints * getStreakMultiplier());
