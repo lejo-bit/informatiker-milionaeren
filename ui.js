@@ -100,12 +100,13 @@ export function updateHud(getStreakMultiplier) {
   if (fiftyFiftyBtn) {
     const q = state.questions[state.currentIndex];
     const isChoiceQuestion = q && q.questionType === "choice";
+    const isRewardQuestion = q && q.nr === 9999;
     const hasFiftyFiftyLeft = state.fiftyFiftyLeft > 0;
     const notUsedOnCurrentQuestion = !state.fiftyFiftyUsedOnCurrentQuestion;
     const notSubmitted = !state.isAnswerSubmitted;
 
     const canUse = hasFiftyFiftyLeft && notUsedOnCurrentQuestion && notSubmitted;
-    fiftyFiftyBtn.disabled = !isChoiceQuestion || !canUse;
+    fiftyFiftyBtn.disabled = !isChoiceQuestion || isRewardQuestion || !canUse;
   }
 }
 

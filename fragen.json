@@ -20633,9 +20633,9 @@
     "frage": "Wie viele Normalformen gibt es typischerweise?",
     "antwort": "1NF, 2NF, 3NF, BCNF, 4NF, 5NF",
     "falseAnswers": [
-      "Nur 1NF, 2NF, 3NF",
-      "Nur 3NF, BCNF",
-      "Beliebige Anzahl"
+      "1NF, 2NF, 3NF, SNNF, GTFO",
+      "3NF, 4NF, 5NF, BCNF",
+      "1NF, 2NF, 3NF, HMNF, 6NF, 8MF"
     ],
     "category": "Datenbanken"
   },
@@ -21048,16 +21048,16 @@
     "category": "Projektmanagement"
   },
   {
-    "nr": 1755,
-    "questionType": "choice",
-    "frage": "Was ist ein guter Detailgrad?",
-    "antwort": "Ausreichend für das Verständnis, nicht zu detailliert",
-    "falseAnswers": [
-      "Maximal detailliert",
-      "Minimal detailliert",
-      "Beliebig detailliert"
-    ],
-    "category": "Projektmanagement"
+  "nr": 1755,
+  "questionType": "choice",
+  "frage": "Welcher Detailgrad ist bei der Projektdokumentation angemessen?",
+  "antwort": "Ausreichend für Verständnis, aber nicht übermäßig detailliert",
+  "falseAnswers": [
+    "So detailliert wie technisch und organisatorisch möglich",
+    "Nur mit den unbedingt notwendigen Stichworten",
+    "Beliebig gewählt, unabhängig von Zielgruppe und Zweck"
+  ],
+  "category": "Projektmanagement"
   },
   {
     "nr": 1756,
@@ -21146,36 +21146,36 @@
   {
     "nr": 1763,
     "questionType": "choice",
-    "frage": "Was ist ein manueller Prozess?",
-    "antwort": "Ein Prozess, der von Menschen ausgeführt wird",
+    "frage": "Was kennzeichnet einen manuellen Prozess im betrieblichen Ablauf?",
+    "antwort": "Ein Prozess, der überwiegend von Menschen ausgeführt wird",
     "falseAnswers": [
-      "Ein automatischer Prozess",
-      "Ein technischer Prozess",
-      "Ein digitaler Prozess"
+      "Ein Prozess, der vollständig automatisiert abläuft",
+      "Ein Prozess, der ausschließlich technische Geräte steuert",
+      "Ein Prozess, der nur digital ohne Beteiligte abläuft"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1764,
     "questionType": "choice",
-    "frage": "Was ist ein automatischer Prozess?",
-    "antwort": "Ein Prozess, der von Systemen ausgeführt wird",
+    "frage": "Was kennzeichnet einen automatischen Prozess im betrieblichen Ablauf?",
+    "antwort": "Ein Prozess, der überwiegend durch Systeme ausgeführt wird",
     "falseAnswers": [
-      "Ein manueller Prozess",
-      "Ein menschlicher Prozess",
-      "Ein beliebiger Prozess"
+      "Ein Prozess, der vollständig manuell durchgeführt wird",
+      "Ein Prozess, der ausschließlich von Menschen gesteuert wird",
+      "Ein Prozess ohne festgelegte technische oder fachliche Abläufe"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1765,
     "questionType": "choice",
-    "frage": "Was ist ein hybrid Prozess?",
-    "antwort": "Ein Prozess mit manuellen und automatischen Teilen",
+    "frage": "Was kennzeichnet einen hybriden Prozess im betrieblichen Ablauf?",
+    "antwort": "Ein Prozess mit manuellen und automatisierten Teilaufgaben",
     "falseAnswers": [
-      "Ein nur manueller Prozess",
-      "Ein nur automatischer Prozess",
-      "Ein beliebiger Prozess"
+      "Ein Prozess mit ausschließlich manuellen Arbeitsschritten",
+      "Ein Prozess mit ausschließlich automatisierten Arbeitsschritten",
+      "Ein Prozess ohne festgelegte menschliche oder technische Aufgaben"
     ],
     "category": "Projektmanagement"
   },
@@ -21218,1356 +21218,1356 @@
   {
     "nr": 1769,
     "questionType": "choice",
-    "frage": "Was ist Prozessautomatisierung?",
-    "antwort": "Automatische Ausführung von Prozessschritten",
+    "frage": "Was versteht man im betrieblichen Kontext unter Prozessautomatisierung?",
+    "antwort": "Automatisierte Ausführung definierter Prozessschritte durch Systeme",
     "falseAnswers": [
-      "Manuelle Ausführung von Prozessschritten",
-      "Beliebige Ausführung von Prozessschritten",
-      "Keine Ausführung von Prozessschritten"
+      "Manuelle Ausführung aller definierten Prozessschritte",
+      "Beliebige Ausführung von Prozessschritten ohne Regeln",
+      "Vollständiger Verzicht auf die Ausführung von Prozessschritten"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1770,
     "questionType": "choice",
-    "frage": "Was ist ein Prozess-Handbuch?",
-    "antwort": "Eine Dokumentation von Prozessen",
+    "frage": "Welche Funktion hat ein Prozesshandbuch in einem Unternehmen?",
+    "antwort": "Es dokumentiert Abläufe, Verantwortlichkeiten und Prozessregeln",
     "falseAnswers": [
-      "Ein technisches Handbuch",
-      "Ein Benutzerhandbuch",
-      "Ein beliebiges Handbuch"
+      "Es beschreibt ausschließlich technische Systemkomponenten",
+      "Es erklärt ausschließlich die Bedienung einer Anwendung",
+      "Es enthält beliebige Informationen ohne Prozessbezug"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1771,
     "questionType": "choice",
-    "frage": "Was ist ein Workflow?",
-    "antwort": "Ein automatisierter Geschäftsprozess",
+    "frage": "Was bezeichnet der Begriff Workflow im betrieblichen Prozessmanagement?",
+    "antwort": "Eine festgelegte Abfolge miteinander verbundener Arbeitsschritte",
     "falseAnswers": [
-      "Ein manueller Geschäftsprozess",
-      "Ein beliebiger Prozess",
-      "Ein technischer Prozess"
+      "Ein ausschließlich manuell ausgeführter Geschäftsprozess",
+      "Ein beliebiger Ablauf ohne definierte Reihenfolge",
+      "Ein rein technischer Vorgang ohne fachliche Aufgaben"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1772,
     "questionType": "choice",
-    "frage": "Was ist ein Use Case?",
-    "antwort": "Eine Beschreibung einer Funktionalität aus Nutzersicht",
+    "frage": "Was beschreibt ein Use Case bei der Analyse von Systemanforderungen?",
+    "antwort": "Eine Funktionalität aus Sicht eines beteiligten Nutzers",
     "falseAnswers": [
-      "Eine technische Beschreibung",
-      "Eine finanzielle Beschreibung",
-      "Eine beliebige Beschreibung"
+      "Eine technische Beschreibung der Systemimplementierung",
+      "Eine finanzielle Bewertung des geplanten Systems",
+      "Eine beliebige Beschreibung ohne fachlichen Systembezug"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1773,
     "questionType": "choice",
-    "frage": "Was ist ein Actor?",
-    "antwort": "Ein Akteur, der mit dem System interagiert",
+    "frage": "Was bezeichnet ein Actor in einem UML-Use-Case-Modell?",
+    "antwort": "Ein Beteiligter, der mit dem System interagiert",
     "falseAnswers": [
-      "Ein technisches System",
-      "Ein Dokument",
-      "Ein beliebiger Gegenstand"
+      "Ein technisches System ohne externe Interaktion",
+      "Ein Dokument zur Beschreibung von Anforderungen",
+      "Ein beliebiger Gegenstand ohne Systembezug"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1774,
     "questionType": "choice",
-    "frage": "Was ist ein Activity Diagram?",
-    "antwort": "Ein Diagramm zur Darstellung von Aktivitäten",
+    "frage": "Welchen Zweck erfüllt ein Activity Diagram in der Prozessmodellierung?",
+    "antwort": "Es stellt Aktivitäten und deren Abläufe dar",
     "falseAnswers": [
-      "Ein Diagramm zur Darstellung von Ereignissen",
-      "Ein Diagramm zur Darstellung von Entscheidungen",
-      "Ein beliebiges Diagramm"
+      "Es stellt ausschließlich einzelne Ereignisse dar",
+      "Es stellt ausschließlich mögliche Entscheidungen dar",
+      "Es stellt beliebige Informationen ohne Prozessbezug dar"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1775,
     "questionType": "choice",
-    "frage": "Was ist ein Data Flow Diagram?",
-    "antwort": "Ein Diagramm zur Darstellung von Datenflüssen",
+    "frage": "Welchen Zweck erfüllt ein Data Flow Diagram?",
+    "antwort": "Es stellt Datenflüsse zwischen Prozessen und Speichern dar",
     "falseAnswers": [
-      "Ein Diagramm zur Darstellung von Aktivitäten",
-      "Ein Diagramm zur Darstellung von Ereignissen",
-      "Ein beliebiges Diagramm"
+      "Es stellt ausschließlich die Reihenfolge von Aktivitäten dar",
+      "Es stellt ausschließlich zeitliche Ereignisse im Prozess dar",
+      "Es stellt beliebige Systeminformationen ohne Datenflussbezug dar"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1776,
     "questionType": "choice",
-    "frage": "Was ist ein wichtiges Kriterium für gute Prozessmodelle?",
-    "antwort": "Klarheit und Verständlichkeit",
+    "frage": "Welches Kriterium ist für verständliche Prozessmodelle besonders wichtig?",
+    "antwort": "Klare und verständliche Darstellung der Prozessabläufe",
     "falseAnswers": [
-      "Unklarheit und Unverständlichkeit",
-      "Beliebigkeit",
-      "Komplexität"
+      "Unklare und schwer verständliche Prozessdarstellung",
+      "Beliebige Darstellung ohne einheitliche Modellierungsregeln",
+      "Maximale Komplexität unabhängig von der Zielgruppe"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1777,
     "questionType": "choice",
-    "frage": "Was ist ein weiteres wichtiges Kriterium?",
-    "antwort": "Konsistenz und Vollständigkeit",
+    "frage": "Welches weitere Kriterium ist für hochwertige Prozessmodelle wichtig?",
+    "antwort": "Konsistente und vollständige Darstellung aller relevanten Abläufe",
     "falseAnswers": [
-      "Inkonsistenz und Unvollständigkeit",
-      "Beliebigkeit",
-      "Einfachheit"
+      "Inkonsistente und unvollständige Darstellung wichtiger Abläufe",
+      "Beliebige Modellierung ohne nachvollziehbare Struktur",
+      "Starke Vereinfachung trotz fehlender Prozessinformationen"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1778,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Werkzeug für Prozessmodellierung?",
-    "antwort": "BPMN-Tools wie Camunda, Bizagi",
+    "frage": "Welche Werkzeuge werden häufig zur grafischen Prozessmodellierung eingesetzt?",
+    "antwort": "BPMN-Werkzeuge wie Camunda oder Bizagi",
     "falseAnswers": [
-      "Texteditoren",
-      "Tabellenkalkulation",
-      "Präsentationssoftware"
+      "Texteditoren ohne grafische Modellierungsfunktionen",
+      "Tabellenkalkulationen ohne Prozessnotationen",
+      "Präsentationssoftware ohne Prozessvalidierung"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1779,
     "questionType": "choice",
-    "frage": "Was ist ein Vorteil von BPMN?",
-    "antwort": "Standardisierte Notation für alle Beteiligten",
+    "frage": "Welchen wesentlichen Vorteil bietet BPMN bei der Prozessmodellierung?",
+    "antwort": "Eine standardisierte Notation für alle Prozessbeteiligten",
     "falseAnswers": [
-      "Beliebige Notation",
-      "Keine Notation",
-      "Komplexe Notation"
+      "Eine beliebige Notation ohne gemeinsame Modellierungsregeln",
+      "Eine Modellierung vollständig ohne festgelegte Notation",
+      "Eine unnötig komplexe Notation ohne Kommunikationsvorteil"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1780,
     "questionType": "choice",
-    "frage": "Was ist ein Nachteil von zu komplexen Modellen?",
-    "antwort": "Schwer verständlich und wartbar",
+    "frage": "Welche Folge können übermäßig komplexe Prozessmodelle im Projekt haben?",
+    "antwort": "Sie sind schwer verständlich und aufwendig wartbar",
     "falseAnswers": [
-      "Leicht verständlich und wartbar",
-      "Beliebig verständlich",
-      "Kein Nachteil"
+      "Sie bleiben leicht verständlich und einfach wartbar",
+      "Ihre Verständlichkeit hängt ausschließlich von der Software ab",
+      "Komplexe Modelle verursachen grundsätzlich keinen Nachteil"
     ],
     "category": "Projektmanagement"
   },
   {
     "nr": 1781,
     "questionType": "choice",
-    "frage": "Was ist ein Programmablaufplan (PAP)?",
+    "frage": "Was beschreibt ein Programmablaufplan in der Programmierung?",
     "antwort": "Ein Flussdiagramm zur Darstellung eines Algorithmus",
     "falseAnswers": [
-      "Ein Datenflussplan",
-      "Ein Strukturdiagramm",
-      "Ein Klassendiagramm"
+      "Ein Diagramm zur Darstellung von Datenübertragungen",
+      "Ein Diagramm zur Darstellung von Programmstrukturen",
+      "Ein Diagramm zur Darstellung von Klassenbeziehungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1782,
     "questionType": "choice",
-    "frage": "Nach welcher Norm sind PAP-Symbole genormt?",
-    "antwort": "DIN 66001",
+    "frage": "Nach welcher deutschen Norm sind die Symbole eines Programmablaufplans festgelegt?",
+    "antwort": "Nach DIN 66001",
     "falseAnswers": [
-      "DIN 66002",
-      "DIN 66003",
-      "DIN 66004"
+      "Nach DIN 66002",
+      "Nach DIN 66003",
+      "Nach DIN 66004"
     ],
     "category": "Programmierung"
   },
   {
-    "nr": 1783,
-    "questionType": "choice",
-    "frage": "Welches Symbol wird für Start/Ende verwendet?",
-    "antwort": "Oval / abgerundetes Rechteck (Grenzstelle)",
-    "falseAnswers": [
-      "Rechteck",
-      "Raute",
-      "Parallelogramm"
-    ],
-    "category": "Programmierung"
+  "nr": 1783,
+  "questionType": "choice",
+  "frage": "Welches Symbol kennzeichnet in einem Programmablaufplan den Start oder das Ende?",
+  "antwort": "Oval beziehungsweise abgerundetes Rechteck als Grenzstelle",
+  "falseAnswers": [
+    "Rechteck für eine Verarbeitung oder Anweisung",
+    "Raute für eine Verzweigung oder Entscheidung",
+    "Parallelogramm für eine Ein- oder Ausgabe"
+  ],
+  "category": "Programmierung"
   },
   {
     "nr": 1784,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Operationen verwendet?",
-    "antwort": "Rechteck",
+    "frage": "Welches Symbol stellt eine Operation oder Verarbeitung im Programmablaufplan dar?",
+    "antwort": "Ein Rechteck für Verarbeitungsschritte",
     "falseAnswers": [
-      "Oval",
-      "Raute",
-      "Parallelogramm"
+      "Ein Oval für Start oder Ende",
+      "Eine Raute für eine Entscheidung",
+      "Ein Parallelogramm für Ein- oder Ausgabe"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1785,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Ein-/Ausgabe verwendet?",
-    "antwort": "Parallelogramm",
+    "frage": "Welches Symbol stellt eine Ein- oder Ausgabe im Programmablaufplan dar?",
+    "antwort": "Ein Parallelogramm für Ein- und Ausgabe",
     "falseAnswers": [
-      "Oval",
-      "Rechteck",
-      "Raute"
+      "Ein Oval für Start oder Ende",
+      "Ein Rechteck für Verarbeitungsschritte",
+      "Eine Raute für eine Entscheidung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1786,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Unterprogramme verwendet?",
-    "antwort": "Rechteck mit doppelten vertikalen Linien",
+    "frage": "Welches Symbol kennzeichnet ein Unterprogramm im Programmablaufplan?",
+    "antwort": "Ein Rechteck mit doppelten vertikalen Linien",
     "falseAnswers": [
-      "Einfaches Rechteck",
-      "Raute",
-      "Parallelogramm"
+      "Ein einfaches Rechteck für eine Verarbeitung",
+      "Eine Raute für eine Entscheidung",
+      "Ein Parallelogramm für eine Ein- oder Ausgabe"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1787,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Schleifen verwendet?",
-    "antwort": "Sechseck (Schleifenbegrenzer)",
+    "frage": "Welches Symbol kennzeichnet im Programmablaufplan einen Schleifenbegrenzer?",
+    "antwort": "Ein Sechseck als Schleifenbegrenzer",
     "falseAnswers": [
-      "Oval",
-      "Rechteck",
-      "Raute"
+      "Ein Oval für Start oder Ende",
+      "Ein Rechteck für Verarbeitungsschritte",
+      "Eine Raute für eine Entscheidung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1788,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Verbindungslinien verwendet?",
-    "antwort": "Pfeil / Linie (Ablauflinie)",
+    "frage": "Wie werden Abläufe zwischen Symbolen im Programmablaufplan dargestellt?",
+    "antwort": "Durch Pfeile oder Linien als Ablauflinien",
     "falseAnswers": [
-      "Oval",
-      "Rechteck",
-      "Raute"
+      "Durch Ovale als Start- und Endpunkte",
+      "Durch Rechtecke als Verarbeitungsschritte",
+      "Durch Rauten als Entscheidungssymbole"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1789,
     "questionType": "choice",
-    "frage": "Welches Symbol wird für Konnektoren verwendet?",
-    "antwort": "Kreis (Verbindung zu anderer Stelle)",
+    "frage": "Welches Symbol stellt einen Konnektor im Programmablaufplan dar?",
+    "antwort": "Ein Kreis zur Verbindung verschiedener Stellen",
     "falseAnswers": [
-      "Oval",
-      "Rechteck",
-      "Raute"
+      "Ein Oval zur Kennzeichnung von Start und Ende",
+      "Ein Rechteck zur Darstellung einer Verarbeitung",
+      "Eine Raute zur Darstellung einer Entscheidung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1790,
     "questionType": "choice",
-    "frage": "Wie viele Ausgänge hat eine Entscheidung?",
-    "antwort": "Zwei (Ja/Nein oder True/False)",
+    "frage": "Wie viele Ausgänge besitzt eine binäre Entscheidung im Programmablaufplan?",
+    "antwort": "Zwei Ausgänge, beispielsweise Ja und Nein",
     "falseAnswers": [
-      "Einer",
-      "Drei",
-      "Beliebig viele"
+      "Ein Ausgang unabhängig vom Entscheidungsergebnis",
+      "Drei Ausgänge bei jeder binären Entscheidung",
+      "Beliebig viele Ausgänge ohne weitere Bedingungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1791,
     "questionType": "choice",
-    "frage": "Wie viele Eingänge hat eine Operation?",
-    "antwort": "Einer",
+    "frage": "Wie viele Eingänge besitzt ein Verarbeitungssymbol im Programmablaufplan normalerweise?",
+    "antwort": "Einen Eingang aus dem vorherigen Ablauf",
     "falseAnswers": [
-      "Zwei",
-      "Drei",
-      "Beliebig viele"
+      "Zwei Eingänge aus vorherigen Abläufen",
+      "Drei Eingänge aus vorherigen Abläufen",
+      "Beliebig viele Eingänge ohne Modellierungsregel"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1792,
     "questionType": "choice",
-    "frage": "Wie viele Ausgänge hat eine Operation?",
-    "antwort": "Einer",
+    "frage": "Wie viele Ausgänge besitzt ein Verarbeitungssymbol im Programmablaufplan normalerweise?",
+    "antwort": "Einen Ausgang zum nächsten Verarbeitungsschritt",
     "falseAnswers": [
-      "Zwei",
-      "Drei",
-      "Beliebig viele"
+      "Zwei Ausgänge zum nächsten Verarbeitungsschritt",
+      "Drei Ausgänge zum nächsten Verarbeitungsschritt",
+      "Beliebig viele Ausgänge ohne Modellierungsregel"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1793,
     "questionType": "choice",
-    "frage": "Wie viele Eingänge hat eine Entscheidung?",
-    "antwort": "Einer",
+    "frage": "Wie viele Eingänge besitzt ein Entscheidungssymbol im Programmablaufplan normalerweise?",
+    "antwort": "Einen Eingang aus dem vorherigen Ablauf",
     "falseAnswers": [
-      "Zwei",
-      "Drei",
-      "Beliebig viele"
+      "Zwei Eingänge aus vorherigen Abläufen",
+      "Drei Eingänge aus vorherigen Abläufen",
+      "Beliebig viele Eingänge ohne Modellierungsregel"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1794,
     "questionType": "choice",
-    "frage": "In welche Richtung wird ein PAP gelesen?",
-    "antwort": "Von oben nach unten, links nach rechts",
+    "frage": "In welcher Richtung wird ein Programmablaufplan grundsätzlich gelesen?",
+    "antwort": "Von oben nach unten und links nach rechts",
     "falseAnswers": [
-      "Von unten nach oben",
-      "Von rechts nach links",
-      "Beliebig"
+      "Von unten nach oben und links nach rechts",
+      "Von rechts nach links und oben nach unten",
+      "Ohne festgelegte Leserichtung im gesamten Ablauf"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1795,
     "questionType": "choice",
-    "frage": "Wann müssen Pfeile verwendet werden?",
-    "antwort": "Bei Abweichung von der Standardleserichtung",
+    "frage": "Wann sind Pfeile im Programmablaufplan besonders erforderlich?",
+    "antwort": "Bei Abweichungen von der üblichen Leserichtung",
     "falseAnswers": [
-      "Immer",
-      "Nie",
-      "Nur bei Entscheidungen"
+      "Bei jedem einzelnen Symbol unabhängig vom Ablauf",
+      "Bei keinem Ablauf unabhängig von seiner Leserichtung",
+      "Ausschließlich an Entscheidungssymbolen ohne Abweichung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1796,
     "questionType": "choice",
-    "frage": "Was ist ein Terminator?",
-    "antwort": "Start- oder Endpunkt des PAP",
+    "frage": "Was bezeichnet ein Terminator im Programmablaufplan?",
+    "antwort": "Den Start- oder Endpunkt des Programmablaufs",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Unterprogramm"
+      "Einen Verarbeitungsschritt innerhalb des Ablaufs",
+      "Eine Verzweigung mit mehreren möglichen Bedingungen",
+      "Ein aufgerufendes Unterprogramm innerhalb des Ablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1797,
     "questionType": "choice",
-    "frage": "Wie viele Startpunkte darf ein PAP haben?",
-    "antwort": "Einen",
+    "frage": "Wie viele reguläre Startpunkte sollte ein Programmablaufplan besitzen?",
+    "antwort": "Einen eindeutig definierten Startpunkt",
     "falseAnswers": [
-      "Zwei",
-      "Drei",
-      "Beliebig viele"
+      "Zwei unabhängig voneinander definierte Startpunkte",
+      "Drei voneinander unabhängige Startpunkte",
+      "Beliebig viele Startpunkte ohne klare Ablaufstruktur"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1798,
     "questionType": "choice",
-    "frage": "Wie viele Endpunkte darf ein PAP haben?",
-    "antwort": "Einen oder mehrere",
+    "frage": "Wie viele Endpunkte kann ein Programmablaufplan abhängig von seinen Verzweigungen besitzen?",
+    "antwort": "Einen oder mehrere fachlich begründete Endpunkte",
     "falseAnswers": [
-      "Nur einen",
-      "Genau zwei",
-      "Keinen"
+      "Immer genau einen Endpunkt unabhängig vom Ablauf",
+      "Genau zwei Endpunkte in jedem Programmablaufplan",
+      "Keinen Endpunkt, da der Ablauf zyklisch endet"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1799,
     "questionType": "choice",
-    "frage": "Was ist eine Grenzstelle?",
-    "antwort": "Ein Start- oder Endpunkt",
+    "frage": "Was bezeichnet eine Grenzstelle im Programmablaufplan?",
+    "antwort": "Einen Start- oder Endpunkt des Ablaufs",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Unterprogramm"
+      "Einen Verarbeitungsschritt innerhalb des Ablaufs",
+      "Eine bedingte Verzweigung innerhalb des Ablaufs",
+      "Ein aufgerufenes Unterprogramm innerhalb des Ablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1800,
     "questionType": "choice",
-    "frage": "Was ist eine Ablauflinie?",
-    "antwort": "Eine Verbindungslinie zwischen Symbolen",
+    "frage": "Was bezeichnet eine Ablauflinie im Programmablaufplan?",
+    "antwort": "Eine Verbindungslinie zwischen Ablauf- und Verarbeitungssymbolen",
     "falseAnswers": [
-      "Ein Symbol",
-      "Eine Operation",
-      "Eine Entscheidung"
+      "Ein eigenständiges Symbol für einen Verarbeitungsschritt",
+      "Eine Operation innerhalb des dargestellten Ablaufs",
+      "Eine Entscheidung mit mehreren möglichen Ablaufwegen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1801,
     "questionType": "choice",
-    "frage": "Was ist ein Verarbeitungsschritt?",
-    "antwort": "Eine Operation in einem Rechteck",
+    "frage": "Was stellt ein Verarbeitungsschritt im Programmablaufplan dar?",
+    "antwort": "Eine Operation innerhalb eines Rechtecks",
     "falseAnswers": [
-      "Eine Entscheidung",
-      "Ein Startpunkt",
-      "Ein Endpunkt"
+      "Eine bedingte Entscheidung innerhalb einer Raute",
+      "Den Startpunkt des dargestellten Programmablaufs",
+      "Den Endpunkt des dargestellten Programmablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1802,
     "questionType": "choice",
-    "frage": "Was ist eine Alternative?",
-    "antwort": "Eine Verzweigung mit Ja/Nein-Entscheidung",
+    "frage": "Was bezeichnet eine Alternative im Programmablaufplan?",
+    "antwort": "Eine Verzweigung mit einer Ja-Nein-Entscheidung",
     "falseAnswers": [
-      "Eine Operation",
-      "Ein Startpunkt",
-      "Ein Endpunkt"
+      "Eine lineare Operation ohne Verzweigung",
+      "Den Startpunkt des dargestellten Programmablaufs",
+      "Den Endpunkt des dargestellten Programmablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1803,
     "questionType": "choice",
-    "frage": "Was ist ein Selektor?",
-    "antwort": "Eine Mehrfachauswahl (Case-Anweisung)",
+    "frage": "Was bezeichnet ein Selektor im Programmablaufplan?",
+    "antwort": "Eine Mehrfachauswahl, beispielsweise eine Case-Anweisung",
     "falseAnswers": [
-      "Eine einfache Entscheidung",
-      "Eine Operation",
-      "Ein Startpunkt"
+      "Eine einfache Entscheidung mit genau zwei Fällen",
+      "Eine lineare Operation ohne Auswahlmöglichkeit",
+      "Den Startpunkt des dargestellten Programmablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1804,
     "questionType": "choice",
-    "frage": "Wie wird ein Unterprogramm dargestellt?",
-    "antwort": "Rechteck mit doppelten vertikalen Linien",
+    "frage": "Wie wird ein Unterprogramm im Programmablaufplan dargestellt?",
+    "antwort": "Durch ein Rechteck mit doppelten vertikalen Linien",
     "falseAnswers": [
-      "Einfaches Rechteck",
-      "Raute",
-      "Parallelogramm"
+      "Durch ein einfaches Rechteck ohne Zusatzlinien",
+      "Durch eine Raute mit mehreren Ausgängen",
+      "Durch ein Parallelogramm für Ein- und Ausgabe"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1805,
     "questionType": "choice",
-    "frage": "Was ist ein Konnektor?",
-    "antwort": "Ein Verbindungspunkt zu anderer Stelle",
+    "frage": "Was bezeichnet ein Konnektor im Programmablaufplan?",
+    "antwort": "Einen Verbindungspunkt zu einer anderen Diagrammstelle",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Startpunkt"
+      "Eine Operation zur Verarbeitung von Daten",
+      "Eine Entscheidung mit mehreren Ablaufmöglichkeiten",
+      "Einen Startpunkt des gesamten Programmablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1806,
     "questionType": "choice",
-    "frage": "Wann wird ein Konnektor verwendet?",
-    "antwort": "Bei Unterbrechung des Diagramms",
+    "frage": "Wann wird ein Konnektor im Programmablaufplan eingesetzt?",
+    "antwort": "Bei einer Unterbrechung oder Fortsetzung des Diagramms",
     "falseAnswers": [
-      "Bei jeder Operation",
-      "Bei jeder Entscheidung",
-      "Bei jedem Startpunkt"
+      "Bei jeder einzelnen Operation im Ablauf",
+      "Bei jeder einzelnen Entscheidung im Ablauf",
+      "Bei jedem Startpunkt des Programmablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1807,
     "questionType": "choice",
-    "frage": "Was ist ein Schleifenbegrenzer?",
-    "antwort": "Ein Symbol für Anfang/Ende einer Schleife",
+    "frage": "Welche Funktion hat ein Schleifenbegrenzer im Programmablaufplan?",
+    "antwort": "Er kennzeichnet Anfang und Ende einer Schleife",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Startpunkt"
+      "Er stellt eine einzelne Operation im Ablauf dar",
+      "Er stellt eine bedingte Entscheidung im Ablauf dar",
+      "Er kennzeichnet ausschließlich den Startpunkt des Ablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1808,
     "questionType": "choice",
-    "frage": "Wie sieht ein Schleifenbegrenzer aus?",
-    "antwort": "Sechseck",
+    "frage": "Welche Form besitzt der Schleifenbegrenzer im Programmablaufplan?",
+    "antwort": "Ein Sechseck als Begrenzungssymbol",
     "falseAnswers": [
-      "Oval",
-      "Rechteck",
-      "Raute"
+      "Ein Oval als Start- oder Endsymbol",
+      "Ein Rechteck als Verarbeitungssymbol",
+      "Eine Raute als Entscheidungssymbol"
     ],
     "category": "Programmierung"
   },
-  {
+   {
     "nr": 1809,
     "questionType": "choice",
-    "frage": "Was ist eine Bemerkung im PAP?",
-    "antwort": "Ein Kommentar zu Operationen",
+    "frage": "Welche Funktion hat eine Bemerkung in einem Programmablaufplan?",
+    "antwort": "Ein erläuternder Kommentar zu Prozessschritten",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Startpunkt"
+      "Eine auszuführende Operation im Ablauf",
+      "Eine bedingte Verzweigung im Ablauf",
+      "Ein Startpunkt des gesamten Ablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1810,
     "questionType": "choice",
-    "frage": "Wie wird eine Bemerkung dargestellt?",
-    "antwort": "Gestrichelte Linie mit Text",
+    "frage": "Wie wird eine Bemerkung im Programmablaufplan üblicherweise dargestellt?",
+    "antwort": "Durch eine gestrichelte Linie mit erläuterndem Text",
     "falseAnswers": [
-      "Feste Linie",
-      "Pfeil",
-      "Kreis"
+      "Durch eine durchgezogene Linie ohne Beschriftung",
+      "Durch einen Pfeil als Ablauflinie",
+      "Durch einen Kreis als Konnektor"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1811,
     "questionType": "choice",
-    "frage": "Was ist ein Marken-Symbol?",
-    "antwort": "Ein Vereinigungspunkt mehrerer Pfade",
+    "frage": "Welche Funktion hat ein Marken-Symbol im Programmablaufplan?",
+    "antwort": "Es vereinigt mehrere eingehende Ablaufpfade",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Startpunkt"
+      "Es stellt eine auszuführende Operation dar",
+      "Es stellt eine bedingte Entscheidung dar",
+      "Es kennzeichnet den Start des Ablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1812,
     "questionType": "choice",
-    "frage": "Wie viele Eingänge hat eine Marke?",
-    "antwort": "Mehrere",
+    "frage": "Wie viele Eingänge kann ein Marken-Symbol im Programmablaufplan besitzen?",
+    "antwort": "Mehrere Eingänge aus verschiedenen Ablaufpfaden",
     "falseAnswers": [
-      "Einer",
-      "Zwei",
-      "Keiner"
+      "Genau einen Eingang aus einem Ablaufpfad",
+      "Genau zwei Eingänge aus Ablaufpfaden",
+      "Keinen Eingang aus einem Ablaufpfad"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1813,
     "questionType": "choice",
-    "frage": "Wie viele Ausgänge hat eine Marke?",
-    "antwort": "Einer",
+    "frage": "Wie viele Ausgänge besitzt ein Marken-Symbol im Programmablaufplan?",
+    "antwort": "Einen gemeinsamen Ausgang zum weiteren Ablauf",
     "falseAnswers": [
-      "Zwei",
-      "Drei",
-      "Beliebig viele"
+      "Zwei getrennte Ausgänge zum weiteren Ablauf",
+      "Drei getrennte Ausgänge zum weiteren Ablauf",
+      "Beliebig viele Ausgänge ohne festgelegte Struktur"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1814,
     "questionType": "choice",
-    "frage": "Was ist ein häufiger Fehler bei PAP?",
-    "antwort": "Fehlende oder falsche Pfeilrichtungen",
+    "frage": "Welcher Fehler tritt bei Programmablaufplänen häufig auf?",
+    "antwort": "Fehlende oder fachlich falsche Pfeilrichtungen",
     "falseAnswers": [
-      "Zu viele Pfeile",
-      "Zu wenige Pfeile",
-      "Beliebige Pfeile"
+      "Eine bewusst eindeutige Pfeilführung im gesamten Ablauf",
+      "Eine ausreichende Anzahl korrekt gesetzter Ablauflinien",
+      "Eine einheitliche Pfeilrichtung entsprechend der Leserichtung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1815,
     "questionType": "choice",
-    "frage": "Was ist ein weiterer häufiger Fehler?",
-    "antwort": "Unklare oder fehlende Beschriftungen",
+    "frage": "Welcher weitere Fehler beeinträchtigt die Verständlichkeit eines Programmablaufplans?",
+    "antwort": "Unklare oder fehlende Beschriftungen an Symbolen",
     "falseAnswers": [
-      "Klare Beschriftungen",
-      "Zu viele Beschriftungen",
-      "Beliebige Beschriftungen"
+      "Eindeutige Beschriftungen mit fachlich passenden Begriffen",
+      "Mehrere präzise Beschriftungen für relevante Abläufe",
+      "Konsistente Beschriftungen aller Entscheidungsausgänge"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1816,
     "questionType": "choice",
-    "frage": "Was ist ein gutes PAP?",
-    "antwort": "Klar, vollständig und verständlich",
+    "frage": "Welche Eigenschaften kennzeichnen einen guten Programmablaufplan?",
+    "antwort": "Eine klare, vollständige und verständliche Darstellung",
     "falseAnswers": [
-      "Unklar und unvollständig",
-      "Beliebig",
-      "Komplex"
+      "Eine unklare und unvollständige Darstellung",
+      "Eine beliebige Darstellung ohne feste Ablaufstruktur",
+      "Eine unnötig komplexe Darstellung ohne erkennbaren Ablauf"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1817,
     "questionType": "choice",
-    "frage": "Was ist der Zweck eines PAP?",
-    "antwort": "Visualisierung von Algorithmen",
+    "frage": "Welchem Zweck dient ein Programmablaufplan in der Programmierung?",
+    "antwort": "Der übersichtlichen Visualisierung von Algorithmen",
     "falseAnswers": [
-      "Dokumentation von Daten",
-      "Planung von Hardware",
-      "Analyse von Netzwerken"
+      "Der ausschließlichen Dokumentation gespeicherter Daten",
+      "Der detaillierten Planung physischer Hardwarekomponenten",
+      "Der Analyse technischer Netzwerkverbindungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1818,
     "questionType": "choice",
-    "frage": "Was ist ein Vorteil von PAP?",
-    "antwort": "Unabhängig von Programmiersprache",
+    "frage": "Welchen wesentlichen Vorteil bietet ein Programmablaufplan?",
+    "antwort": "Er ist unabhängig von einer konkreten Programmiersprache",
     "falseAnswers": [
-      "Abhängig von Programmiersprache",
-      "Beliebig",
-      "Kein Vorteil"
+      "Er ist an eine konkrete Programmiersprache gebunden",
+      "Er kann ohne festgelegte Ablauflogik beliebig erstellt werden",
+      "Er bietet grundsätzlich keinen praktischen Modellierungsvorteil"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1819,
     "questionType": "choice",
-    "frage": "Was ist ein Nachteil von PAP?",
-    "antwort": "Bei komplexen Algorithmen unübersichtlich",
+    "frage": "Welcher Nachteil kann bei sehr komplexen Programmablaufplänen entstehen?",
+    "antwort": "Sie können bei komplexen Algorithmen unübersichtlich werden",
     "falseAnswers": [
-      "Bei einfachen Algorithmen unübersichtlich",
-      "Bei beliebigen Algorithmen",
-      "Kein Nachteil"
+      "Sie werden bereits bei einfachen Algorithmen unübersichtlich",
+      "Ihre Übersichtlichkeit hängt ausschließlich von der Programmiersprache ab",
+      "Komplexe Programmablaufpläne haben grundsätzlich keinen Nachteil"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1820,
     "questionType": "choice",
-    "frage": "Was ist ein Struktogramm?",
-    "antwort": "Eine alternative Darstellung zu PAP",
+    "frage": "Was ist ein Struktogramm im Vergleich zum Programmablaufplan?",
+    "antwort": "Eine alternative strukturierte Darstellung eines Algorithmus",
     "falseAnswers": [
-      "Eine Art von PAP",
-      "Ein Datenflussplan",
-      "Ein Klassendiagramm"
+      "Eine spezielle Symbolform innerhalb eines Programmablaufplans",
+      "Ein Diagramm zur Darstellung von Datenflüssen",
+      "Ein Diagramm zur Darstellung von Klassenbeziehungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1821,
     "questionType": "choice",
-    "frage": "Was ist der Unterschied zwischen PAP und Struktogramm?",
-    "antwort": "PAP verwendet Symbole, Struktogramm verschachtelte Blöcke",
+    "frage": "Worin unterscheiden sich Programmablaufplan und Struktogramm hauptsächlich?",
+    "antwort": "PAP nutzt Symbole, Struktogramme verschachtelte Blöcke",
     "falseAnswers": [
-      "Kein Unterschied",
-      "PAP verwendet Blöcke, Struktogramm Symbole",
-      "Beliebiger Unterschied"
+      "Zwischen beiden Darstellungen besteht kein Unterschied",
+      "PAP nutzt Blöcke, Struktogramme ausschließlich Symbole",
+      "Der Unterschied hängt vollständig von der Programmiersprache ab"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1822,
     "questionType": "choice",
-    "frage": "Was ist ein Datenflussplan?",
-    "antwort": "Ein Diagramm für Datenflüsse",
+    "frage": "Was stellt ein Datenflussplan in der Programmierung typischerweise dar?",
+    "antwort": "Ein Diagramm zur Darstellung von Datenflüssen",
     "falseAnswers": [
-      "Ein Diagramm für Programmabläufe",
-      "Ein Klassendiagramm",
-      "Ein Strukturdiagramm"
+      "Ein Diagramm zur Darstellung von Programmabläufen",
+      "Ein Diagramm zur Darstellung von Klassenbeziehungen",
+      "Ein Diagramm zur Darstellung verschachtelter Programmstrukturen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1823,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Werkzeug für PAP?",
-    "antwort": "PAPDesigner oder ähnliche Tools",
+    "frage": "Welches Werkzeug kann zur Erstellung eines Programmablaufplans verwendet werden?",
+    "antwort": "PAPDesigner oder ein vergleichbares Modellierungswerkzeug",
     "falseAnswers": [
-      "Texteditoren",
-      "Tabellenkalkulation",
-      "Präsentationssoftware"
+      "Ein einfacher Texteditor ohne Diagrammfunktionen",
+      "Eine Tabellenkalkulation ohne Ablaufplanunterstützung",
+      "Eine Präsentationssoftware ohne geeignete Prozesssymbole"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1824,
     "questionType": "choice",
-    "frage": "Was ist wichtig bei der PAP-Erstellung?",
-    "antwort": "Einhaltung der DIN-Norm",
+    "frage": "Was ist bei der Erstellung eines normgerechten Programmablaufplans wichtig?",
+    "antwort": "Die Symbole und Regeln der DIN-Norm einhalten",
     "falseAnswers": [
-      "Beliebige Gestaltung",
-      "Keine Norm",
-      "Eigene Norm"
+      "Die Symbole ohne feste Regeln beliebig gestalten",
+      "Auf eine definierte Norm vollständig verzichten",
+      "Eine eigene Norm ohne fachliche Abstimmung verwenden"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1825,
     "questionType": "choice",
-    "frage": "Was ist ein Header im PAP?",
-    "antwort": "Kopfzeile mit Autoren, Datum, Funktion",
+    "frage": "Welche Informationen enthält ein Header eines Programmablaufplans typischerweise?",
+    "antwort": "Autoren, Erstellungsdatum und beschriebene Funktion",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Startpunkt"
+      "Eine auszuführende Operation des Algorithmus",
+      "Eine bedingte Entscheidung des Algorithmus",
+      "Den Startpunkt des dargestellten Programmablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1826,
     "questionType": "choice",
-    "frage": "Was ist ein Refinement?",
-    "antwort": "Eine Verfeinerung eines Prozessschritts",
+    "frage": "Was bedeutet Refinement bei der Darstellung von Programmabläufen?",
+    "antwort": "Die schrittweise Verfeinerung eines Prozessschritts",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Startpunkt"
+      "Die direkte Ausführung einer einzelnen Operation",
+      "Die Auswahl zwischen mehreren Ablaufbedingungen",
+      "Die Kennzeichnung des Programmstartpunkts"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1827,
     "questionType": "choice",
-    "frage": "Was ist ein Interrupt?",
-    "antwort": "Eine Unterbrechung des normalen Ablaufs",
+    "frage": "Was bezeichnet ein Interrupt in einem Programmablauf?",
+    "antwort": "Eine Unterbrechung des regulären Programmablaufs",
     "falseAnswers": [
-      "Eine Operation",
-      "Eine Entscheidung",
-      "Ein Startpunkt"
+      "Eine reguläre Operation innerhalb des Ablaufs",
+      "Eine dauerhafte Entscheidung ohne Unterbrechung",
+      "Der festgelegte Startpunkt eines Programms"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1828,
     "questionType": "choice",
-    "frage": "Was ist ein Struktogramm?",
-    "antwort": "Ein Nassi-Shneiderman-Diagramm zur Darstellung von Programmstrukturen",
+    "frage": "Was ist ein Struktogramm in der Softwareentwicklung?",
+    "antwort": "Ein Nassi-Shneiderman-Diagramm für Programmstrukturen",
     "falseAnswers": [
-      "Ein Datenflussplan",
-      "Ein Klassendiagramm",
-      "Ein Entity-Relationship-Diagramm"
+      "Ein Diagramm zur Darstellung von Datenflüssen",
+      "Ein Diagramm zur Darstellung von Klassenbeziehungen",
+      "Ein Diagramm zur Darstellung von Entitätsbeziehungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1829,
     "questionType": "choice",
-    "frage": "Wer hat Struktogramme entwickelt?",
-    "antwort": "Nassi und Shneiderman",
+    "frage": "Nach welchen Entwicklern wird das Struktogramm auch benannt?",
+    "antwort": "Nach Nassi und Shneiderman",
     "falseAnswers": [
-      "DIN und ISO",
-      "IBM und Microsoft",
-      "Oracle und SAP"
+      "Nach DIN und ISO",
+      "Nach IBM und Microsoft",
+      "Nach Oracle und SAP"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1830,
     "questionType": "choice",
-    "frage": "Welches Prinzip folgt ein Struktogramm?",
-    "antwort": "Strukturierte Programmierung mit Sequenz, Auswahl, Wiederholung",
+    "frage": "Welchem grundlegenden Programmierprinzip folgt ein Struktogramm?",
+    "antwort": "Sequenz, Auswahl und Wiederholung strukturierter Programme",
     "falseAnswers": [
-      "Objektorientierte Programmierung",
-      "Funktionale Programmierung",
-      "Beliebige Programmierung"
+      "Ausschließlich objektorientierter Programmierung",
+      "Ausschließlich funktionaler Programmierung",
+      "Beliebiger Programmierung ohne feste Kontrollstrukturen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1831,
     "questionType": "choice",
-    "frage": "Wie wird eine Sequenz dargestellt?",
-    "antwort": "Rechtecke untereinander",
+    "frage": "Wie wird eine Sequenz in einem Struktogramm dargestellt?",
+    "antwort": "Durch untereinander angeordnete Rechtecke",
     "falseAnswers": [
-      "Rechtecke nebeneinander",
-      "Verschachtelte Rechtecke",
-      "Geteilte Rechtecke"
+      "Durch nebeneinander angeordnete Rechtecke",
+      "Durch vollständig ineinander verschachtelte Rechtecke",
+      "Durch in mehrere Bereiche geteilte Rechtecke"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1832,
     "questionType": "choice",
-    "frage": "Wie wird eine Wiederholung dargestellt?",
-    "antwort": "Ein umrandetes Rechteck mit Schleifenbedingung",
+    "frage": "Wie wird eine Wiederholung in einem Struktogramm dargestellt?",
+    "antwort": "Durch ein umrandetes Rechteck mit Schleifenbedingung",
     "falseAnswers": [
-      "Ein geteiltes Rechteck",
-      "Mehrere Rechtecke",
-      "Ein Kreis"
+      "Durch ein Rechteck mit parallelen Auswahlzweigen",
+      "Durch mehrere unabhängige Rechtecke ohne Schleifenbedingung",
+      "Durch einen Kreis ohne weitere Beschriftung"
     ],
     "category": "Programmierung"
   },
-  {
+ {
     "nr": 1833,
     "questionType": "choice",
-    "frage": "Was ist ein Vorteil von Struktogrammen?",
-    "antwort": "Klare Darstellung der Programmstruktur",
+    "frage": "Welchen Vorteil bietet ein Struktogramm bei der Planung von Programmen?",
+    "antwort": "Klare Darstellung der hierarchischen Programmstruktur",
     "falseAnswers": [
-      "Unklare Darstellung",
-      "Beliebige Darstellung",
-      "Keine Darstellung"
+      "Unklare Darstellung ohne erkennbare Programmstruktur",
+      "Beliebige Darstellung ohne festgelegte Kontrollstrukturen",
+      "Keine Darstellung der enthaltenen Programmlogik"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1834,
     "questionType": "choice",
-    "frage": "Was ist ein Nachteil von Struktogrammen?",
-    "antwort": "Bei komplexen Programmen unübersichtlich",
+    "frage": "Welcher Nachteil kann bei umfangreichen Struktogrammen entstehen?",
+    "antwort": "Bei komplexen Programmen können sie unübersichtlich werden",
     "falseAnswers": [
-      "Bei einfachen Programmen unübersichtlich",
-      "Bei beliebigen Programmen",
-      "Kein Nachteil"
+      "Bei einfachen Programmen werden sie grundsätzlich unübersichtlich",
+      "Ihre Übersichtlichkeit hängt ausschließlich von der Programmiersprache ab",
+      "Struktogramme besitzen unabhängig vom Umfang keinen Nachteil"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1835,
     "questionType": "choice",
-    "frage": "Was ist der Unterschied zwischen PAP und Struktogramm?",
-    "antwort": "PAP verwendet Symbole, Struktogramm verschachtelte Blöcke",
+    "frage": "Worin unterscheiden sich Programmablaufplan und Struktogramm hauptsächlich?",
+    "antwort": "PAP nutzt Symbole, Struktogramme verschachtelte Blöcke",
     "falseAnswers": [
-      "Kein Unterschied",
-      "PAP verwendet Blöcke, Struktogramm Symbole",
-      "Beliebiger Unterschied"
+      "Zwischen beiden Darstellungen besteht kein wesentlicher Unterschied",
+      "PAP nutzt Blöcke, Struktogramme ausschließlich Symbole",
+      "Der Unterschied hängt ausschließlich von der Programmiersprache ab"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1836,
     "questionType": "choice",
-    "frage": "Was ist eine Sequenz?",
-    "antwort": "Eine Folge von Anweisungen",
+    "frage": "Was bezeichnet eine Sequenz in der strukturierten Programmierung?",
+    "antwort": "Eine festgelegte Folge von Anweisungen",
     "falseAnswers": [
-      "Eine Entscheidung",
-      "Eine Schleife",
-      "Ein Unterprogramm"
+      "Eine bedingte Entscheidung zwischen mehreren Abläufen",
+      "Eine wiederholte Ausführung abhängig von einer Bedingung",
+      "Ein separat aufgerufenes Unterprogramm"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1837,
     "questionType": "choice",
-    "frage": "Was ist eine Alternative?",
-    "antwort": "Eine Wenn-Dann-Entscheidung",
+    "frage": "Was bezeichnet eine Alternative in der strukturierten Programmierung?",
+    "antwort": "Eine Wenn-Dann-Entscheidung mit bedingter Ausführung",
     "falseAnswers": [
-      "Eine Folge von Anweisungen",
-      "Eine Schleife",
-      "Ein Unterprogramm"
+      "Eine lineare Folge mehrerer Anweisungen",
+      "Eine wiederholte Ausführung innerhalb einer Schleife",
+      "Ein separat definiertes und aufgerufenes Unterprogramm"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1838,
     "questionType": "choice",
-    "frage": "Was ist eine Selektion?",
-    "antwort": "Eine Mehrfachauswahl (Case-Anweisung)",
+    "frage": "Was bezeichnet eine Selektion in der strukturierten Programmierung?",
+    "antwort": "Eine Mehrfachauswahl, beispielsweise eine Case-Anweisung",
     "falseAnswers": [
-      "Eine einfache Entscheidung",
-      "Eine Folge von Anweisungen",
-      "Eine Schleife"
+      "Eine einfache Entscheidung mit genau zwei Alternativen",
+      "Eine lineare Folge mehrerer Anweisungen",
+      "Eine wiederholte Ausführung innerhalb einer Schleife"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1839,
     "questionType": "choice",
-    "frage": "Was ist eine Wiederholung?",
-    "antwort": "Eine Schleife mit Bedingung",
+    "frage": "Was bezeichnet eine Wiederholung in der strukturierten Programmierung?",
+    "antwort": "Eine Schleife zur wiederholten Ausführung von Anweisungen",
     "falseAnswers": [
-      "Eine Folge von Anweisungen",
-      "Eine Entscheidung",
-      "Ein Unterprogramm"
+      "Eine lineare Folge einmaliger Anweisungen",
+      "Eine einmalige Entscheidung zwischen zwei Abläufen",
+      "Ein separat definiertes und aufgerufenes Unterprogramm"
     ],
     "category": "Programmierung"
   },
-  {
+   {
     "nr": 1840,
     "questionType": "choice",
-    "frage": "Was ist eine abweisende Schleife?",
+    "frage": "Was kennzeichnet eine abweisende Schleife in der strukturierten Programmierung?",
     "antwort": "Eine Schleife, die mindestens einmal ausgeführt wird",
     "falseAnswers": [
-      "Eine Schleife, die nie ausgeführt wird",
-      "Eine Schleife, die beliebig ausgeführt wird",
-      "Eine Schleife ohne Bedingung"
+      "Eine Schleife, die vollständig übersprungen werden kann",
+      "Eine Schleife mit beliebig vielen Ausführungen ohne Bedingung",
+      "Eine Schleife, deren Ausführung grundsätzlich unbestimmt bleibt"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1841,
     "questionType": "choice",
-    "frage": "Was ist eine nicht-abweisende Schleife?",
-    "antwort": "Eine Schleife, die null oder mehrmal ausgeführt wird",
+    "frage": "Was kennzeichnet eine nicht abweisende Schleife in der strukturierten Programmierung?",
+    "antwort": "Eine Schleife, die null oder mehrmals ausgeführt wird",
     "falseAnswers": [
       "Eine Schleife, die mindestens einmal ausgeführt wird",
-      "Eine Schleife, die nie ausgeführt wird",
-      "Eine Schleife ohne Bedingung"
+      "Eine Schleife, die grundsätzlich niemals ausgeführt wird",
+      "Eine Schleife ohne jegliche Abbruch- oder Prüfbedingung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1842,
     "questionType": "choice",
-    "frage": "Was ist eine Entscheidungstabelle?",
-    "antwort": "Eine Tabelle zur Darstellung von Regeln mit Bedingungen und Aktionen",
+    "frage": "Welchen Zweck erfüllt eine Entscheidungstabelle in der Programmplanung?",
+    "antwort": "Sie stellt Regeln mit Bedingungen und Aktionen dar",
     "falseAnswers": [
-      "Eine Tabelle zur Darstellung von Daten",
-      "Eine Tabelle zur Darstellung von Klassen",
-      "Eine Tabelle zur Darstellung von Beziehungen"
+      "Sie stellt ausschließlich gespeicherte Daten in Tabellenform dar",
+      "Sie stellt ausschließlich Klassen und deren Methoden dar",
+      "Sie stellt ausschließlich Beziehungen zwischen Entitäten dar"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1843,
     "questionType": "choice",
-    "frage": "Aus wie vielen Teilen besteht eine Entscheidungstabelle?",
-    "antwort": "Vier Teilen (Bedingungen, Aktionen, Bedingungskombinationen, Aktionen pro Regel)",
+    "frage": "Aus welchen vier Bereichen besteht eine klassische Entscheidungstabelle?",
+    "antwort": "Bedingungen, Aktionen, Kombinationen und Regelaktionen",
     "falseAnswers": [
-      "Zwei Teilen",
-      "Drei Teilen",
-      "Fünf Teilen"
+      "Nur aus Bedingungen und zugehörigen Aktionen",
+      "Aus Bedingungen, Klassen und Beziehungen",
+      "Aus Eingaben, Ausgaben, Schleifen, Unterprogrammen und Regeln"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1844,
     "questionType": "choice",
-    "frage": "Wo stehen die Bedingungen in einer Entscheidungstabelle?",
-    "antwort": "Im oberen linken Bereich",
+    "frage": "In welchem Bereich stehen die Bedingungen einer Entscheidungstabelle?",
+    "antwort": "Im oberen linken Bereich der Tabelle",
     "falseAnswers": [
-      "Im unteren linken Bereich",
-      "Im oberen rechten Bereich",
-      "Im unteren rechten Bereich"
+      "Im unteren linken Bereich der Tabelle",
+      "Im oberen rechten Bereich der Tabelle",
+      "Im unteren rechten Bereich der Tabelle"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1845,
     "questionType": "choice",
-    "frage": "Wo stehen die Aktionen in einer Entscheidungstabelle?",
-    "antwort": "Im unteren linken Bereich",
+    "frage": "In welchem Bereich stehen die Aktionen einer Entscheidungstabelle?",
+    "antwort": "Im unteren linken Bereich der Tabelle",
     "falseAnswers": [
-      "Im oberen linken Bereich",
-      "Im oberen rechten Bereich",
-      "Im unteren rechten Bereich"
+      "Im oberen linken Bereich der Tabelle",
+      "Im oberen rechten Bereich der Tabelle",
+      "Im unteren rechten Bereich der Tabelle"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1846,
     "questionType": "choice",
-    "frage": "Wo stehen die Bedingungskombinationen?",
-    "antwort": "Im oberen rechten Bereich",
+    "frage": "In welchem Bereich stehen die Bedingungskombinationen einer Entscheidungstabelle?",
+    "antwort": "Im oberen rechten Bereich der Tabelle",
     "falseAnswers": [
-      "Im unteren linken Bereich",
-      "Im oberen linken Bereich",
-      "Im unteren rechten Bereich"
+      "Im unteren linken Bereich der Tabelle",
+      "Im oberen linken Bereich der Tabelle",
+      "Im unteren rechten Bereich der Tabelle"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1847,
     "questionType": "choice",
-    "frage": "Wo stehen die Aktionen pro Regel?",
-    "antwort": "Im unteren rechten Bereich",
+    "frage": "In welchem Bereich stehen die Aktionen je Regel einer Entscheidungstabelle?",
+    "antwort": "Im unteren rechten Bereich der Tabelle",
     "falseAnswers": [
-      "Im oberen linken Bereich",
-      "Im unteren linken Bereich",
-      "Im oberen rechten Bereich"
+      "Im oberen linken Bereich der Tabelle",
+      "Im unteren linken Bereich der Tabelle",
+      "Im oberen rechten Bereich der Tabelle"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1848,
     "questionType": "choice",
-    "frage": "Was ist eine Bedingung?",
-    "antwort": "Ein Kriterium, das erfüllt sein muss",
+    "frage": "Was bezeichnet eine Bedingung in einer Entscheidungstabelle?",
+    "antwort": "Ein Kriterium, das erfüllt oder geprüft werden muss",
     "falseAnswers": [
-      "Eine Aktion",
-      "Eine Regel",
-      "Eine Tabelle"
+      "Eine auszuführende Maßnahme nach einer Prüfung",
+      "Eine Kombination aus Bedingungen und zugehörigen Aktionen",
+      "Eine tabellarische Darstellung mehrerer Entscheidungsregeln"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1849,
     "questionType": "choice",
-    "frage": "Was ist eine Aktion?",
-    "antwort": "Eine Maßnahme, die bei erfüllten Bedingungen ausgeführt wird",
+    "frage": "Was bezeichnet eine Aktion in einer Entscheidungstabelle?",
+    "antwort": "Eine Maßnahme nach erfüllten Bedingungen",
     "falseAnswers": [
-      "Eine Bedingung",
-      "Eine Regel",
-      "Eine Tabelle"
+      "Ein Kriterium, das vorab geprüft wird",
+      "Eine Kombination aus Bedingungen und Aktionen",
+      "Eine tabellarische Darstellung von Entscheidungsregeln"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1850,
     "questionType": "choice",
-    "frage": "Was ist eine Regel?",
-    "antwort": "Eine Kombination aus Bedingungen und Aktionen",
+    "frage": "Was bezeichnet eine Regel in einer Entscheidungstabelle?",
+    "antwort": "Eine Kombination aus Bedingungen und zugehörigen Aktionen",
     "falseAnswers": [
-      "Eine Bedingung",
-      "Eine Aktion",
-      "Eine Tabelle"
+      "Ein einzelnes Kriterium zur Prüfung",
+      "Eine einzelne Maßnahme nach einer Prüfung",
+      "Eine tabellarische Darstellung aller Entscheidungsfälle"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1851,
     "questionType": "choice",
-    "frage": "Wie viele Regeln hat eine Tabelle mit 2 Bedingungen?",
-    "antwort": "2^2 = 4 Regeln",
+    "frage": "Wie viele theoretische Regeln entstehen bei zwei binären Bedingungen?",
+    "antwort": "Vier Regeln, berechnet als (2^2)",
     "falseAnswers": [
-      "2 Regeln",
-      "3 Regeln",
-      "6 Regeln"
+      "Zwei Regeln aus den beiden Bedingungen",
+      "Drei Regeln aus den möglichen Kombinationen",
+      "Sechs Regeln aus Bedingungen und Aktionen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1852,
     "questionType": "choice",
-    "frage": "Wie viele Regeln hat eine Tabelle mit 4 Bedingungen?",
-    "antwort": "2^4 = 16 Regeln",
+    "frage": "Wie viele theoretische Regeln entstehen bei vier binären Bedingungen?",
+    "antwort": "16 Regeln, berechnet als (2^4)",
     "falseAnswers": [
-      "4 Regeln",
-      "8 Regeln",
-      "12 Regeln"
+      "Vier Regeln aus den vier Bedingungen",
+      "Acht Regeln aus den möglichen Kombinationen",
+      "Zwölf Regeln aus Bedingungen und Aktionen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1853,
     "questionType": "choice",
-    "frage": "Was ist ein häufiger Fehler bei Entscheidungstabellen?",
-    "antwort": "Unvollständige oder widersprüchliche Regeln",
+    "frage": "Welcher Fehler tritt bei Entscheidungstabellen häufig auf?",
+    "antwort": "Unvollständige oder widersprüchliche Entscheidungsregeln",
     "falseAnswers": [
-      "Vollständige Regeln",
-      "Widerspruchsfreie Regeln",
-      "Beliebige Regeln"
+      "Vollständig erfasste und nachvollziehbare Entscheidungsregeln",
+      "Widerspruchsfreie Regeln mit eindeutigen Aktionen",
+      "Beliebige Regeln ohne fachliche oder logische Bedeutung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1854,
     "questionType": "choice",
-    "frage": "Was ist ein weiterer häufiger Fehler?",
-    "antwort": "Fehlende oder falsche Bedingungen",
+    "frage": "Welcher weitere Fehler kann in einer Entscheidungstabelle auftreten?",
+    "antwort": "Fehlende oder fachlich falsche Bedingungen",
     "falseAnswers": [
-      "Vorhandene Bedingungen",
-      "Richtige Bedingungen",
-      "Beliebige Bedingungen"
+      "Vollständig erfasste relevante Bedingungen",
+      "Fachlich korrekt formulierte Bedingungen",
+      "Beliebige Bedingungen ohne Bezug zu den Regeln"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1855,
     "questionType": "choice",
-    "frage": "Was ist eine vollständige Entscheidungstabelle?",
-    "antwort": "Alle möglichen Bedingungskombinationen sind enthalten",
+    "frage": "Wann gilt eine Entscheidungstabelle als vollständig?",
+    "antwort": "Alle möglichen Bedingungskombinationen sind berücksichtigt",
     "falseAnswers": [
-      "Nur einige Bedingungskombinationen sind enthalten",
-      "Keine Bedingungskombinationen sind enthalten",
-      "Beliebige Bedingungskombinationen sind enthalten"
+      "Nur einige Bedingungskombinationen sind berücksichtigt",
+      "Keine Bedingungskombinationen sind in der Tabelle enthalten",
+      "Beliebige Kombinationen sind ohne Prüfung ausgewählt"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1856,
     "questionType": "choice",
-    "frage": "Was ist eine widerspruchsfreie Entscheidungstabelle?",
-    "antwort": "Keine zwei Regeln führen zu unterschiedlichen Aktionen bei gleichen Bedingungen",
+    "frage": "Wann gilt eine Entscheidungstabelle als widerspruchsfrei?",
+    "antwort": "Gleiche Bedingungen führen nicht zu unterschiedlichen Aktionen",
     "falseAnswers": [
-      "Zwei Regeln führen zu unterschiedlichen Aktionen",
-      "Alle Regeln führen zu unterschiedlichen Aktionen",
-      "Beliebige Regeln führen zu Aktionen"
+      "Gleiche Bedingungen führen zu unterschiedlichen Aktionen",
+      "Jede Regel führt unabhängig von Bedingungen anders aus",
+      "Beliebige Bedingungen führen zu beliebigen Aktionen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1857,
     "questionType": "choice",
-    "frage": "Was ist eine reduzierte Entscheidungstabelle?",
-    "antwort": "Eine Tabelle mit entfernten redundanten Regeln",
+    "frage": "Was kennzeichnet eine reduzierte Entscheidungstabelle?",
+    "antwort": "Eine Tabelle ohne redundante oder überflüssige Regeln",
     "falseAnswers": [
-      "Eine Tabelle mit zusätzlichen Regeln",
-      "Eine Tabelle mit beliebigen Regeln",
-      "Eine Tabelle ohne Regeln"
+      "Eine Tabelle mit zusätzlich erzeugten Entscheidungsregeln",
+      "Eine Tabelle mit beliebig ausgewählten Entscheidungsregeln",
+      "Eine Tabelle ohne jegliche Entscheidungsregeln"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1858,
     "questionType": "choice",
-    "frage": "Wann kann eine Entscheidungstabelle reduziert werden?",
-    "antwort": "Wenn Bedingungen für die Aktion irrelevant sind",
+    "frage": "Unter welcher Voraussetzung kann eine Entscheidungstabelle reduziert werden?",
+    "antwort": "Wenn bestimmte Bedingungen für die Aktion unerheblich sind",
     "falseAnswers": [
-      "Wenn Bedingungen immer relevant sind",
-      "Wenn Bedingungen beliebig sind",
-      "Wenn Bedingungen nie relevant sind"
+      "Wenn jede Bedingung für die Aktion relevant bleibt",
+      "Wenn Bedingungen unabhängig von Regeln beliebig gewählt werden",
+      "Wenn keine Bedingung für eine Aktion relevant ist"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1859,
     "questionType": "choice",
-    "frage": "Was ist ein Vorteil von Entscheidungstabellen?",
-    "antwort": "Kompakte Darstellung komplexer Regelwerke",
+    "frage": "Welchen Vorteil bieten Entscheidungstabellen bei komplexen Regelwerken?",
+    "antwort": "Kompakte und nachvollziehbare Darstellung komplexer Regeln",
     "falseAnswers": [
-      "Unklare Darstellung einfacher Regelwerke",
-      "Beliebige Darstellung",
-      "Keine Darstellung"
+      "Unklare Darstellung selbst einfacher Entscheidungsregeln",
+      "Beliebige Darstellung ohne systematische Regelzuordnung",
+      "Keine Darstellung von Bedingungen und zugehörigen Aktionen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1860,
     "questionType": "choice",
-    "frage": "Was ist ein Nachteil von Entscheidungstabellen?",
-    "antwort": "Bei vielen Bedingungen sehr groß",
+    "frage": "Welcher Nachteil kann bei vielen Bedingungen in Entscheidungstabellen entstehen?",
+    "antwort": "Die Tabelle kann sehr groß und unübersichtlich werden",
     "falseAnswers": [
-      "Bei wenigen Bedingungen sehr groß",
-      "Bei beliebigen Bedingungen",
-      "Kein Nachteil"
+      "Die Tabelle wird bereits bei wenigen Bedingungen sehr groß",
+      "Die Größe hängt ausschließlich von den verwendeten Aktionen ab",
+      "Entscheidungstabellen besitzen unabhängig von Bedingungen keinen Nachteil"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1861,
     "questionType": "choice",
-    "frage": "Was ist ein Anwendungsfall für Entscheidungstabellen?",
-    "antwort": "Geschäftsregeln mit mehreren Bedingungen",
+    "frage": "Für welchen Anwendungsfall eignen sich Entscheidungstabellen besonders?",
+    "antwort": "Für Geschäftsregeln mit mehreren Bedingungen und Aktionen",
     "falseAnswers": [
-      "Einfache Berechnungen",
-      "Datenflussanalyse",
-      "Klassendiagramme"
+      "Für einfache Berechnungen ohne Entscheidungsregeln",
+      "Für die ausschließliche Analyse technischer Datenflüsse",
+      "Für die Darstellung von Klassen und ihren Methoden"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1862,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Werkzeug für Entscheidungstabellen?",
-    "antwort": "Spezialisierte Tools oder Tabellenkalkulation",
+    "frage": "Welche Werkzeuge eignen sich zur Erstellung von Entscheidungstabellen?",
+    "antwort": "Spezialisierte Werkzeuge oder geeignete Tabellenkalkulationen",
     "falseAnswers": [
-      "Texteditoren",
-      "Präsentationssoftware",
-      "Grafiksoftware"
+      "Einfache Texteditoren ohne Tabellenunterstützung",
+      "Präsentationssoftware ohne Regelprüfungsfunktionen",
+      "Grafiksoftware ohne strukturierte Entscheidungslogik"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1863,
     "questionType": "choice",
-    "frage": "Was ist wichtig bei der Erstellung von Entscheidungstabellen?",
-    "antwort": "Vollständigkeit und Widerspruchsfreiheit",
+    "frage": "Welche Qualitätsmerkmale sind bei Entscheidungstabellen besonders wichtig?",
+    "antwort": "Vollständigkeit und Widerspruchsfreiheit aller Regeln",
     "falseAnswers": [
-      "Unvollständigkeit und Widersprüche",
-      "Beliebigkeit",
-      "Komplexität"
+      "Unvollständigkeit und widersprüchliche Entscheidungsregeln",
+      "Beliebige Auswahl von Bedingungen und Aktionen",
+      "Maximale Komplexität ohne Prüfung der Regelabdeckung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1864,
     "questionType": "choice",
-    "frage": "Was ist eine erweiterte Entscheidungstabelle?",
-    "antwort": "Eine Tabelle mit mehr als Ja/Nein-Alternativen",
+    "frage": "Was kennzeichnet eine erweiterte Entscheidungstabelle?",
+    "antwort": "Sie enthält mehr als binäre Ja-Nein-Alternativen",
     "falseAnswers": [
-      "Eine Tabelle mit nur Ja/Nein-Alternativen",
-      "Eine Tabelle ohne Alternativen",
-      "Eine Tabelle mit beliebigen Alternativen"
+      "Sie enthält ausschließlich binäre Ja-Nein-Alternativen",
+      "Sie enthält überhaupt keine Bedingungen oder Alternativen",
+      "Sie verwendet beliebige Alternativen ohne definierte Bedeutung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1865,
     "questionType": "choice",
-    "frage": "Was ist eine begrenzte Entscheidungstabelle?",
-    "antwort": "Eine Tabelle mit nur Ja/Nein-Alternativen",
+    "frage": "Was kennzeichnet eine begrenzte Entscheidungstabelle?",
+    "antwort": "Sie verwendet ausschließlich binäre Ja-Nein-Alternativen",
     "falseAnswers": [
-      "Eine Tabelle mit mehr Alternativen",
-      "Eine Tabelle ohne Alternativen",
-      "Eine Tabelle mit beliebigen Alternativen"
+      "Sie verwendet mehrere unterschiedliche Ausprägungen je Bedingung",
+      "Sie enthält keine Bedingungen und keine Alternativen",
+      "Sie verwendet beliebige Alternativen ohne festgelegte Werte"
     ],
     "category": "Programmierung"
   },
-  {
+ {
     "nr": 1866,
     "questionType": "choice",
-    "frage": "Was ist ein Entscheidungsbaum?",
-    "antwort": "Eine alternative Darstellung zu Entscheidungstabellen",
+    "frage": "Was ist ein Entscheidungsbaum in der strukturierten Analyse?",
+    "antwort": "Eine alternative hierarchische Darstellung von Entscheidungsregeln",
     "falseAnswers": [
-      "Eine Art von Entscheidungstabelle",
-      "Ein Datenflussplan",
-      "Ein Klassendiagramm"
+      "Eine tabellarische Darstellung derselben Entscheidungsregeln",
+      "Ein Diagramm zur Darstellung von Datenflüssen",
+      "Ein Diagramm zur Darstellung von Klassenbeziehungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1867,
     "questionType": "choice",
-    "frage": "Was ist der Unterschied zwischen Entscheidungstabelle und -baum?",
-    "antwort": "Tabelle: tabellarisch, Baum: hierarchisch",
+    "frage": "Worin unterscheiden sich Entscheidungstabelle und Entscheidungsbaum hauptsächlich?",
+    "antwort": "Die Tabelle ist tabellarisch, der Baum hierarchisch",
     "falseAnswers": [
-      "Kein Unterschied",
-      "Tabelle: hierarchisch, Baum: tabellarisch",
-      "Beliebiger Unterschied"
+      "Beide Darstellungen besitzen dieselbe grafische Struktur",
+      "Die Tabelle ist hierarchisch, der Baum tabellarisch",
+      "Der Unterschied hängt ausschließlich von der Software ab"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1868,
     "questionType": "choice",
-    "frage": "Wann ist eine Entscheidungstabelle besser als ein Baum?",
-    "antwort": "Bei vielen Bedingungen mit klaren Kombinationen",
+    "frage": "Wann eignet sich eine Entscheidungstabelle besser als ein Entscheidungsbaum?",
+    "antwort": "Bei vielen Bedingungen und klaren Kombinationen",
     "falseAnswers": [
-      "Bei wenigen Bedingungen",
-      "Bei beliebigen Bedingungen",
-      "Nie besser"
+      "Bei wenigen Bedingungen ohne Regelkombinationen",
+      "Bei beliebigen Bedingungen ohne definierte Aktionen",
+      "Eine Entscheidungstabelle ist grundsätzlich nie besser"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1869,
     "questionType": "choice",
-    "frage": "Wann ist ein Entscheidungsbaum besser als eine Tabelle?",
-    "antwort": "Bei sequentiellen Entscheidungen",
+    "frage": "Wann eignet sich ein Entscheidungsbaum besser als eine Entscheidungstabelle?",
+    "antwort": "Bei logisch aufeinanderfolgenden Entscheidungen",
     "falseAnswers": [
-      "Bei parallelen Entscheidungen",
-      "Bei beliebigen Entscheidungen",
-      "Nie besser"
+      "Bei vollständig unabhängigen parallelen Entscheidungen",
+      "Bei beliebigen Entscheidungen ohne Reihenfolge",
+      "Ein Entscheidungsbaum ist grundsätzlich nie besser"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1870,
     "questionType": "choice",
-    "frage": "Was ist eine indifferente Regel?",
-    "antwort": "Eine Regel, bei der die Aktion unabhängig von einer Bedingung ist",
+    "frage": "Was kennzeichnet eine indifferente Regel in einer Entscheidungstabelle?",
+    "antwort": "Die Aktion hängt nicht von einer Bedingung ab",
     "falseAnswers": [
-      "Eine Regel, bei der die Aktion abhängig ist",
-      "Eine Regel ohne Aktion",
-      "Eine Regel ohne Bedingung"
+      "Die Aktion hängt zwingend von der Bedingung ab",
+      "Die Regel enthält keine auszuführende Aktion",
+      "Die Regel enthält überhaupt keine prüfbare Bedingung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1871,
     "questionType": "choice",
-    "frage": "Was ist eine Prüfsumme bei Entscheidungstabellen?",
-    "antwort": "Eine Kontrolle auf Vollständigkeit der Regeln",
+    "frage": "Welchen Zweck hat eine Prüfsumme bei Entscheidungstabellen?",
+    "antwort": "Sie prüft die Vollständigkeit der erfassten Regeln",
     "falseAnswers": [
-      "Eine Kontrolle auf Richtigkeit der Aktionen",
-      "Eine Kontrolle auf Beliebigkeit",
-      "Keine Kontrolle"
+      "Sie prüft ausschließlich die fachliche Richtigkeit jeder Aktion",
+      "Sie bestätigt die beliebige Auswahl von Regelkombinationen",
+      "Sie führt keine Prüfung der Entscheidungstabelle durch"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1872,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Symbol für 'Ja' in Entscheidungstabellen?",
-    "antwort": "J oder Y",
+    "frage": "Welche Kennzeichnung wird in Entscheidungstabellen häufig für „Ja“ verwendet?",
+    "antwort": "J oder Y als Ja-Kennzeichnung",
     "falseAnswers": [
-      "N oder N",
-      "X oder -",
-      "Beliebiges Symbol"
+      "N oder N als Nein-Kennzeichnung",
+      "X oder ein Bindestrich als Aktionsmarkierung",
+      "Ein beliebiges Zeichen ohne festgelegte Bedeutung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1873,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Symbol für 'Nein' in Entscheidungstabellen?",
-    "antwort": "N oder N",
+    "frage": "Welche Kennzeichnung wird in Entscheidungstabellen häufig für „Nein“ verwendet?",
+    "antwort": "N als Nein-Kennzeichnung",
     "falseAnswers": [
-      "J oder Y",
-      "X oder -",
-      "Beliebiges Symbol"
+      "J oder Y als Ja-Kennzeichnung",
+      "X oder ein Bindestrich als Aktionsmarkierung",
+      "Ein beliebiges Zeichen ohne festgelegte Bedeutung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1874,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Symbol für 'Aktion wird ausgeführt'?",
-    "antwort": "X",
+    "frage": "Welche Kennzeichnung wird häufig verwendet, wenn eine Aktion ausgeführt wird?",
+    "antwort": "X als Markierung für ausgeführte Aktionen",
     "falseAnswers": [
-      "J oder Y",
-      "N oder N",
-      "Beliebiges Symbol"
+      "J oder Y als Bedingungskennzeichnung",
+      "N als Kennzeichnung einer nicht erfüllten Bedingung",
+      "Ein beliebiges Zeichen ohne festgelegte Bedeutung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1875,
     "questionType": "choice",
-    "frage": "Was ist Pseudocode?",
-    "antwort": "Eine informelle Beschreibung eines Algorithmus in natürlicher Sprache",
+    "frage": "Was ist Pseudocode bei der Planung von Algorithmen?",
+    "antwort": "Eine informelle Beschreibung eines Algorithmus",
     "falseAnswers": [
-      "Eine Programmiersprache",
-      "Ein Flussdiagramm",
-      "Ein Strukturdiagramm"
+      "Eine eigenständige und direkt ausführbare Programmiersprache",
+      "Ein grafisches Flussdiagramm mit standardisierten Symbolen",
+      "Ein Strukturdiagramm zur Darstellung von Programmblöcken"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1876,
     "questionType": "choice",
-    "frage": "Was ist der Hauptzweck von Pseudocode?",
-    "antwort": "Logik eines Algorithmus vor der Implementierung planen",
+    "frage": "Welchem Hauptzweck dient Pseudocode bei der Softwareentwicklung?",
+    "antwort": "Die Algorithmuslogik vor der Implementierung planen",
     "falseAnswers": [
-      "Direkt ausführbarer Code",
-      "Dokumentation für Benutzer",
-      "Grafische Darstellung"
+      "Direkt ausführbaren Programmcode ohne Übersetzung erzeugen",
+      "Ausschließlich eine Benutzeranleitung für Software erstellen",
+      "Programmabläufe ausschließlich grafisch darstellen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1877,
     "questionType": "choice",
-    "frage": "Ist Pseudocode ausführbar?",
-    "antwort": "Nein, er muss in eine Programmiersprache übersetzt werden",
+    "frage": "Ist Pseudocode ohne Übersetzung direkt ausführbar?",
+    "antwort": "Nein, er muss in Programmcode übersetzt werden",
     "falseAnswers": [
-      "Ja, er ist direkt ausführbar",
-      "Nur in bestimmten Fällen",
-      "Beliebig"
+      "Ja, Pseudocode ist direkt ausführbarer Programmcode",
+      "Nur bestimmte Pseudocode-Varianten sind grundsätzlich ausführbar",
+      "Pseudocode kann unabhängig von einer Implementierung ausgeführt werden"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1878,
     "questionType": "choice",
-    "frage": "Welches Keyword wird für Zuweisung verwendet?",
-    "antwort": "SET oder ←",
+    "frage": "Welche Schreibweise kennzeichnet eine Zuweisung im Pseudocode?",
+    "antwort": "SET oder der Zuweisungspfeil (←)",
     "falseAnswers": [
-      "GET",
-      "PRINT",
-      "INPUT"
+      "GET zum Abrufen eines Eingabewerts",
+      "PRINT zur Ausgabe eines Ergebnisses",
+      "INPUT zum Einlesen eines Eingabewerts"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1879,
     "questionType": "choice",
-    "frage": "Welches Keyword wird für Eingabe verwendet?",
-    "antwort": "INPUT oder READ",
+    "frage": "Welche Schlüsselwörter kennzeichnen eine Eingabe im Pseudocode?",
+    "antwort": "INPUT oder READ zum Einlesen von Daten",
     "falseAnswers": [
-      "PRINT",
-      "OUTPUT",
-      "WRITE"
+      "PRINT zur Ausgabe eines Ergebnisses",
+      "OUTPUT zur Ausgabe eines Ergebnisses",
+      "WRITE zum Speichern oder Ausgeben von Daten"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1880,
     "questionType": "choice",
-    "frage": "Welches Keyword wird für Bedingungen verwendet?",
-    "antwort": "IF-THEN-ELSE",
+    "frage": "Welche Schlüsselwortstruktur wird für Bedingungen im Pseudocode verwendet?",
+    "antwort": "IF-THEN-ELSE für bedingte Verzweigungen",
     "falseAnswers": [
-      "FOR-TO",
-      "WHILE-DO",
-      "REPEAT-UNTIL"
+      "FOR-TO für eine Zählschleife",
+      "WHILE-DO für eine kopfgesteuerte Schleife",
+      "REPEAT-UNTIL für eine fußgesteuerte Schleife"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1881,
     "questionType": "choice",
-    "frage": "Welches Keyword wird für Schleifen verwendet?",
-    "antwort": "WHILE-DO oder FOR-TO",
+    "frage": "Welche Schlüsselwortstrukturen werden für Schleifen im Pseudocode verwendet?",
+    "antwort": "WHILE-DO oder FOR-TO für Schleifen",
     "falseAnswers": [
-      "IF-THEN",
-      "INPUT-OUTPUT",
-      "SET-GET"
+      "IF-THEN für bedingte Verzweigungen",
+      "INPUT-OUTPUT für Ein- und Ausgabe",
+      "SET-GET für Zuweisung und Datenabruf"
     ],
     "category": "Programmierung"
   },
@@ -22598,228 +22598,228 @@
   {
     "nr": 1884,
     "questionType": "choice",
-    "frage": "Was bedeutet 'x ← 5'?",
-    "antwort": "Der Variable x wird der Wert 5 zugewiesen",
+    "frage": "Was bewirkt die Pseudocode-Anweisung „x ← 5“?",
+    "antwort": "Der Variablen x wird der Wert 5 zugewiesen",
     "falseAnswers": [
-      "x ist gleich 5",
-      "5 wird zu x addiert",
-      "x wird mit 5 multipliziert"
+      "Die Variable x ist dauerhaft gleich 5",
+      "Der Wert 5 wird zu x addiert",
+      "Der Wert von x wird mit 5 multipliziert"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1885,
     "questionType": "choice",
-    "frage": "Was bedeutet 'PRINT x'?",
-    "antwort": "Der Wert von x wird ausgegeben",
+    "frage": "Was bewirkt die Pseudocode-Anweisung „PRINT x“?",
+    "antwort": "Der aktuelle Wert von x wird ausgegeben",
     "falseAnswers": [
-      "x wird eingelesen",
-      "x wird gelöscht",
-      "x wird geändert"
+      "Ein neuer Wert wird in x eingelesen",
+      "Der gespeicherte Wert von x wird gelöscht",
+      "Der gespeicherte Wert von x wird verändert"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1886,
     "questionType": "choice",
-    "frage": "Was bedeutet 'INPUT x'?",
-    "antwort": "Ein Wert wird von der Eingabe in x gespeichert",
+    "frage": "Was bewirkt die Pseudocode-Anweisung „INPUT x“?",
+    "antwort": "Ein Eingabewert wird in x gespeichert",
     "falseAnswers": [
-      "x wird ausgegeben",
-      "x wird gelöscht",
-      "x wird geändert"
+      "Der aktuelle Wert von x wird ausgegeben",
+      "Der gespeicherte Wert von x wird gelöscht",
+      "Der vorhandene Wert von x wird automatisch verändert"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1887,
     "questionType": "choice",
-    "frage": "Was ist eine Sequenz?",
-    "antwort": "Eine Folge von Anweisungen",
+    "frage": "Was bezeichnet eine Sequenz in einem Algorithmus?",
+    "antwort": "Eine festgelegte Folge nacheinander ausgeführter Anweisungen",
     "falseAnswers": [
-      "Eine Entscheidung",
-      "Eine Schleife",
-      "Ein Unterprogramm"
+      "Eine bedingte Entscheidung zwischen mehreren Ablaufwegen",
+      "Eine wiederholte Ausführung abhängig von einer Bedingung",
+      "Ein separat definiertes und aufgerufenes Unterprogramm"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1888,
     "questionType": "choice",
-    "frage": "Was ist eine Alternative?",
-    "antwort": "Eine Wenn-Dann-Entscheidung",
+    "frage": "Was bezeichnet eine Alternative in einem Algorithmus?",
+    "antwort": "Eine Wenn-Dann-Entscheidung mit bedingter Ausführung",
     "falseAnswers": [
-      "Eine Folge von Anweisungen",
-      "Eine Schleife",
-      "Ein Unterprogramm"
+      "Eine lineare Folge mehrerer Anweisungen",
+      "Eine wiederholte Ausführung innerhalb einer Schleife",
+      "Ein separat definiertes und aufgerufenes Unterprogramm"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1889,
     "questionType": "choice",
-    "frage": "Was ist eine Iteration?",
-    "antwort": "Eine Schleife oder Wiederholung",
+    "frage": "Was bezeichnet eine Iteration in einem Algorithmus?",
+    "antwort": "Eine wiederholte Ausführung von Anweisungen",
     "falseAnswers": [
-      "Eine Folge von Anweisungen",
-      "Eine Entscheidung",
-      "Ein Unterprogramm"
+      "Eine einmalige Folge mehrerer Anweisungen",
+      "Eine einmalige Entscheidung zwischen zwei Alternativen",
+      "Ein separat definiertes und aufgerufenes Unterprogramm"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1890,
     "questionType": "choice",
-    "frage": "Wie viele Ausgänge hat eine IF-Anweisung?",
-    "antwort": "Zwei (THEN und ELSE)",
+    "frage": "Wie viele mögliche Ablaufzweige besitzt eine vollständige IF-THEN-ELSE-Anweisung?",
+    "antwort": "Zwei Zweige: THEN und ELSE",
     "falseAnswers": [
-      "Einer",
-      "Drei",
-      "Beliebig viele"
+      "Ein einziger Zweig ohne Alternativpfad",
+      "Drei Zweige unabhängig von den Bedingungen",
+      "Beliebig viele Zweige ohne weitere Verzweigungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1891,
     "questionType": "choice",
-    "frage": "Was ist eine WHILE-Schleife?",
-    "antwort": "Eine Schleife, die solange läuft, wie eine Bedingung wahr ist",
+    "frage": "Wie arbeitet eine WHILE-Schleife im Pseudocode?",
+    "antwort": "Sie läuft, solange ihre Bedingung wahr ist",
     "falseAnswers": [
-      "Eine Schleife, die einmal läuft",
-      "Eine Schleife, die nie läuft",
-      "Eine Schleife ohne Bedingung"
+      "Sie wird unabhängig von Bedingungen genau einmal ausgeführt",
+      "Sie wird unabhängig von der Bedingung niemals ausgeführt",
+      "Sie läuft dauerhaft ohne Prüf- oder Abbruchbedingung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1892,
     "questionType": "choice",
-    "frage": "Was ist eine FOR-Schleife?",
-    "antwort": "Eine Schleife mit fester Anzahl von Durchläufen",
+    "frage": "Was kennzeichnet eine FOR-Schleife im Pseudocode?",
+    "antwort": "Eine Schleife mit festgelegtem Zählbereich",
     "falseAnswers": [
-      "Eine Schleife ohne Bedingung",
-      "Eine Schleife, die einmal läuft",
-      "Eine Schleife, die nie läuft"
+      "Eine Schleife ohne Bedingung oder Zählbereich",
+      "Eine Schleife mit grundsätzlich genau einem Durchlauf",
+      "Eine Schleife, die grundsätzlich niemals ausgeführt wird"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1893,
     "questionType": "choice",
-    "frage": "Was ist eine REPEAT-UNTIL-Schleife?",
-    "antwort": "Eine Schleife, die mindestens einmal ausgeführt wird",
+    "frage": "Was kennzeichnet eine REPEAT-UNTIL-Schleife im Pseudocode?",
+    "antwort": "Sie wird mindestens einmal ausgeführt",
     "falseAnswers": [
-      "Eine Schleife, die nie ausgeführt wird",
-      "Eine Schleife ohne Bedingung",
-      "Eine Schleife mit fester Anzahl"
+      "Sie kann vollständig übersprungen werden",
+      "Sie besitzt keine Prüf- oder Abbruchbedingung",
+      "Sie besitzt immer eine feste Durchlaufanzahl"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1894,
     "questionType": "choice",
-    "frage": "Was ist ein Array?",
-    "antwort": "Eine geordnete Liste von Werten",
+    "frage": "Was bezeichnet ein Array in der Programmierung?",
+    "antwort": "Eine geordnete Sammlung gleichartiger oder verwandter Werte",
     "falseAnswers": [
-      "Eine einzelne Variable",
-      "Eine Funktion",
-      "Eine Bedingung"
+      "Eine einzelne Variable ohne weitere Elementstruktur",
+      "Eine Funktion zur Verarbeitung von Eingabewerten",
+      "Eine Bedingung zur Steuerung eines Programmablaufs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1895,
     "questionType": "choice",
-    "frage": "Wie wird ein Array deklariert?",
-    "antwort": "DECLARE arrayName AS ARRAY",
+    "frage": "Wie wird ein Array im verwendeten Pseudocode deklariert?",
+    "antwort": "Mit DECLARE arrayName AS ARRAY",
     "falseAnswers": [
-      "SET arrayName",
-      "PRINT arrayName",
-      "INPUT arrayName"
+      "Mit SET arrayName zur Wertzuweisung",
+      "Mit PRINT arrayName zur Ausgabe",
+      "Mit INPUT arrayName zur Dateneingabe"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1896,
     "questionType": "choice",
-    "frage": "Wie wird auf ein Array-Element zugegriffen?",
-    "antwort": "arrayName[index]",
+    "frage": "Wie greift man im Pseudocode auf ein bestimmtes Array-Element zu?",
+    "antwort": "Mit arrayName[index] über den Elementindex",
     "falseAnswers": [
-      "arrayName",
-      "arrayName()",
-      "arrayName{}"
+      "Mit arrayName ohne Angabe eines Elements",
+      "Mit arrayName() als Funktionsaufruf",
+      "Mit arrayName{} als Blocknotation"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1897,
     "questionType": "choice",
-    "frage": "Was ist eine Funktion?",
+    "frage": "Was bezeichnet eine Funktion in der strukturierten Programmierung?",
     "antwort": "Ein benannter Codeblock, der einen Wert zurückgibt",
     "falseAnswers": [
-      "Eine Variable",
-      "Eine Bedingung",
-      "Eine Schleife"
+      "Eine Variable zur Speicherung eines einzelnen Werts",
+      "Eine Bedingung zur Auswahl eines Programmzweigs",
+      "Eine Schleife zur wiederholten Ausführung von Anweisungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1898,
     "questionType": "choice",
-    "frage": "Was ist eine Prozedur?",
+    "frage": "Was bezeichnet eine Prozedur in der strukturierten Programmierung?",
     "antwort": "Ein benannter Codeblock ohne Rückgabewert",
     "falseAnswers": [
-      "Eine Variable",
-      "Eine Bedingung",
-      "Eine Schleife"
+      "Eine Variable zur Speicherung eines einzelnen Werts",
+      "Eine Bedingung zur Auswahl eines Programmzweigs",
+      "Eine Schleife zur wiederholten Ausführung von Anweisungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1899,
     "questionType": "choice",
-    "frage": "Wie wird eine Funktion aufgerufen?",
-    "antwort": "CALL functionName() oder functionName()",
+    "frage": "Wie wird eine Funktion im Pseudocode üblicherweise aufgerufen?",
+    "antwort": "Mit CALL functionName() oder functionName()",
     "falseAnswers": [
-      "PRINT functionName",
-      "INPUT functionName",
-      "SET functionName"
+      "Mit PRINT functionName zur Funktionsausgabe",
+      "Mit INPUT functionName zur Dateneingabe",
+      "Mit SET functionName zur Wertzuweisung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1900,
     "questionType": "choice",
-    "frage": "Was ist ein Parameter?",
-    "antwort": "Ein Wert, der an eine Funktion übergeben wird",
+    "frage": "Was bezeichnet ein Parameter beim Aufruf einer Funktion?",
+    "antwort": "Ein an die Funktion übergebener Eingabewert",
     "falseAnswers": [
-      "Eine Variable",
-      "Eine Bedingung",
-      "Eine Schleife"
+      "Eine Variable ohne Bezug zum Funktionsaufruf",
+      "Eine Bedingung zur Steuerung des gesamten Programms",
+      "Eine Schleife zur wiederholten Ausführung von Anweisungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1901,
     "questionType": "choice",
-    "frage": "Was ist ein Rückgabewert?",
-    "antwort": "Der Wert, den eine Funktion zurückgibt",
+    "frage": "Was bezeichnet der Rückgabewert einer Funktion?",
+    "antwort": "Den Wert, den die Funktion an den Aufrufer zurückgibt",
     "falseAnswers": [
-      "Ein Parameter",
-      "Eine Variable",
-      "Eine Bedingung"
+      "Einen Eingabewert, der an die Funktion übergeben wird",
+      "Eine lokale Variable ohne Rückgabe an den Aufrufer",
+      "Eine Bedingung zur Auswahl eines Programmzweigs"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1902,
     "questionType": "choice",
-    "frage": "Was ist eine boolesche Variable?",
-    "antwort": "Eine Variable mit den Werten TRUE oder FALSE",
+    "frage": "Was kennzeichnet eine boolesche Variable in der Programmierung?",
+    "antwort": "Sie kann die Werte TRUE oder FALSE speichern",
     "falseAnswers": [
-      "Eine Variable mit Zahlen",
-      "Eine Variable mit Text",
-      "Eine Variable mit Arrays"
+      "Sie speichert ausschließlich numerische Werte",
+      "Sie speichert ausschließlich Zeichenketten oder Texte",
+      "Sie speichert ausschließlich mehrere Werte als Array"
     ],
     "category": "Programmierung"
   },
@@ -22862,120 +22862,120 @@
   {
     "nr": 1906,
     "questionType": "choice",
-    "frage": "Was ist eine Konstante?",
-    "antwort": "Ein Wert, der sich nicht ändert",
+    "frage": "Was bezeichnet eine Konstante in der Programmierung?",
+    "antwort": "Ein Wert, der während der Ausführung unverändert bleibt",
     "falseAnswers": [
-      "Eine Variable",
-      "Eine Funktion",
-      "Eine Prozedur"
+      "Eine Variable mit jederzeit änderbarem Inhalt",
+      "Eine Funktion zur Verarbeitung von Eingabewerten",
+      "Eine Prozedur zur Ausführung von Anweisungen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1907,
     "questionType": "choice",
-    "frage": "Wie wird eine Konstante deklariert?",
-    "antwort": "CONSTANT name = wert",
+    "frage": "Wie wird eine Konstante im verwendeten Pseudocode deklariert?",
+    "antwort": "Mit CONSTANT name = wert",
     "falseAnswers": [
-      "SET name = wert",
-      "DECLARE name",
-      "INPUT name"
+      "Mit SET name = wert zur Zuweisung",
+      "Mit DECLARE name zur Variablendeklaration",
+      "Mit INPUT name zur Dateneingabe"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1908,
     "questionType": "choice",
-    "frage": "Was ist ein Vorteil von Pseudocode?",
-    "antwort": "Unabhängig von Programmiersprache",
+    "frage": "Welchen Vorteil bietet Pseudocode bei der Algorithmusplanung?",
+    "antwort": "Er bleibt unabhängig von einer Programmiersprache",
     "falseAnswers": [
-      "Abhängig von Programmiersprache",
-      "Direkt ausführbar",
-      "Kein Vorteil"
+      "Er ist an eine Programmiersprache gebunden",
+      "Er kann ohne Übersetzung direkt ausgeführt werden",
+      "Er bietet bei der Planung keinen praktischen Vorteil"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1909,
     "questionType": "choice",
-    "frage": "Was ist ein Nachteil von Pseudocode?",
-    "antwort": "Nicht direkt ausführbar",
+    "frage": "Welchen Nachteil hat Pseudocode gegenüber echtem Programmcode?",
+    "antwort": "Er ist ohne Übersetzung nicht direkt ausführbar",
     "falseAnswers": [
-      "Direkt ausführbar",
-      "Beliebig",
-      "Kein Nachteil"
+      "Er ist bereits ohne Übersetzung direkt ausführbar",
+      "Er kann unabhängig von jeder Logik beliebig formuliert werden",
+      "Er besitzt gegenüber Programmcode grundsätzlich keinen Nachteil"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1910,
     "questionType": "choice",
-    "frage": "Was ist wichtig bei Pseudocode?",
-    "antwort": "Konsistente und klare Syntax",
+    "frage": "Welche Eigenschaft ist bei der Formulierung von Pseudocode wichtig?",
+    "antwort": "Eine klare und konsistente Syntax",
     "falseAnswers": [
-      "Beliebige Syntax",
-      "Unklare Syntax",
-      "Keine Syntax"
+      "Eine beliebige Syntax ohne gemeinsame Regeln",
+      "Eine unklare Syntax mit wechselnden Bedeutungen",
+      "Der vollständige Verzicht auf syntaktische Strukturen"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1911,
     "questionType": "choice",
-    "frage": "Was ist ein häufiges Anwendungsgebiet?",
-    "antwort": "Algorithmen-Design und Planung",
+    "frage": "Wofür wird Pseudocode häufig in der Softwareentwicklung eingesetzt?",
+    "antwort": "Für Entwurf und Planung von Algorithmen",
     "falseAnswers": [
-      "Dokumentation für Benutzer",
-      "Grafische Darstellung",
-      "Datenanalyse"
+      "Für ausschließlich technische Benutzerdokumentationen",
+      "Für ausschließlich grafische Diagrammdarstellungen",
+      "Für die direkte Analyse großer Datenbestände"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1912,
     "questionType": "choice",
-    "frage": "Was ist ein Nested IF?",
+    "frage": "Was bezeichnet ein Nested IF im Pseudocode?",
     "antwort": "Eine IF-Anweisung innerhalb einer anderen IF-Anweisung",
     "falseAnswers": [
-      "Eine IF-Anweisung ohne ELSE",
-      "Eine IF-Anweisung mit ELSE",
-      "Eine IF-Anweisung ohne Bedingung"
+      "Eine IF-Anweisung ohne möglichen ELSE-Zweig",
+      "Eine IF-Anweisung mit genau einem ELSE-Zweig",
+      "Eine IF-Anweisung ohne formulierte Prüfbedingung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1913,
     "questionType": "choice",
-    "frage": "Was ist eine CASE-Anweisung?",
-    "antwort": "Eine Mehrfachauswahl (Switch-Case)",
+    "frage": "Was bezeichnet eine CASE-Anweisung im Pseudocode?",
+    "antwort": "Eine Mehrfachauswahl nach dem Switch-Case-Prinzip",
     "falseAnswers": [
-      "Eine einfache Entscheidung",
-      "Eine Schleife",
-      "Eine Funktion"
+      "Eine einfache Entscheidung mit genau zwei Zweigen",
+      "Eine Schleife zur wiederholten Ausführung von Anweisungen",
+      "Eine Funktion zur Rückgabe eines einzelnen Werts"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1914,
     "questionType": "choice",
-    "frage": "Was ist ein häufiger Schleifenfehler?",
-    "antwort": "Endlosschleife durch fehlende Abbruchbedingung",
+    "frage": "Welcher häufige Fehler kann bei der Programmierung von Schleifen entstehen?",
+    "antwort": "Eine Endlosschleife durch fehlende Abbruchbedingung",
     "falseAnswers": [
-      "Zu schnelle Schleife",
-      "Zu langsame Schleife",
-      "Beliebige Schleife"
+      "Eine Schleife wird aufgrund ihrer Logik zu schnell",
+      "Eine Schleife wird aufgrund ihrer Logik zu langsam",
+      "Eine Schleife besitzt eine beliebige, aber korrekte Ausführung"
     ],
     "category": "Programmierung"
   },
   {
     "nr": 1915,
     "questionType": "choice",
-    "frage": "Was ist eine Endlosschleife?",
-    "antwort": "Eine Schleife, die nie endet",
+    "frage": "Was bezeichnet man als Endlosschleife?",
+    "antwort": "Eine Schleife, deren Abbruchbedingung nie erfüllt wird",
     "falseAnswers": [
-      "Eine Schleife, die einmal endet",
-      "Eine Schleife, die nie startet",
-      "Eine Schleife ohne Bedingung"
+      "Eine Schleife, die nach einem Durchlauf endet",
+      "Eine Schleife, deren Startbedingung niemals erfüllt wird",
+      "Eine Schleife ohne Bedingung, die automatisch beendet wird"
     ],
     "category": "Programmierung"
   },
@@ -32890,5 +32890,19 @@
       "help"
     ],
     "category": "Betriebssysteme"
+  },
+ {
+    "nr": 9999,
+    "questionType": "choice",
+    "frage": "Du hast Glück! Such dir deine Belohnung aus!",
+    "antwort": "+ 2 Leben",
+    "falseAnswers": [
+      "+ 3 Überspringen",
+      "+ 3 50:50",
+      "+ 1000 Punkte"
+    ],
+    "category": "U are lucky"
   }
+  
+  
 ]

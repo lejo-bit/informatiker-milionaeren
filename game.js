@@ -64,6 +64,56 @@ export function getDisplayedCorrectAnswers(q, maxAnswers = 2) {
 }
 
 /**
+ * Determines whether the given question is the special "reward" question
+ * (nr 9999) where the player picks a bonus instead of answering.
+ *
+ * @param {object} q - The question object.
+ * @returns {boolean} True if this is the reward question.
+ */
+export function isRewardQuestion(q) {
+  return !!q && q.nr === 9999;
+}
+
+/**
+ * Maps a reward option's text to a reward key used by applyReward().
+ *
+ * @param {string} text - The reward option text.
+ * @returns {string} One of: "lives", "skip", "fifty", "points".
+ */
+export function getRewardKey(text) {
+  const t = String(text || "").toLowerCase();
+  if (t.includes("leben")) return "lives";
+  if (t.includes("überspringen") || t.includes("uberspringen")) return "skip";
+  if (t.includes("50:50") || t.includes("5050")) return "fifty";
+  if (t.includes("punkte")) return "points";
+  return "points";
+}
+
+/**
+ * Applies a reward to the player's state.
+ *
+ * @param {string} rewardKey - One of: "lives", "skip", "fifty", "points".
+ * @returns {string} A human-readable confirmation message.
+ */
+export function applyReward(rewardKey) {
+  switch (rewardKey) {
+    case "lives":
+      state.lives += 2;
+      return "🎉 Du hast +2 Leben erhalten!";
+    case "skip":
+      state.skipsLeft += 3;
+      return "🎉 Du hast +3 Überspringen erhalten!";
+    case "fifty":
+      state.fiftyFiftyLeft += 3;
+      return "🎉 Du hast +3 50:50 erhalten!";
+    case "points":
+    default:
+      state.score += 1000;
+      return "🎉 Du hast +1000 Punkte erhalten!";
+  }
+}
+
+/**
  * Loads questions from fragen.json and initializes the game.
  * Shows the start screen on success, or an error message on failure.
  *
@@ -215,26 +265,49 @@ export function renderQuestion() {
 
     choiceContainer.classList.remove("hidden");
 
-    // Build the options array: correct answer + false answers, shuffled.
-    // NOTE: q.antwort is expected to be a string for choice questions.
-    // If it were an array, we'd need to handle it differently.
-    const correctAnswerText = Array.isArray(q.antwort)
-      ? q.antwort[0]
-      : q.antwort;
+    if (isRewardQuestion(q)) {
+      // --- Special reward question (nr 9999) ---
+      // All options are valid rewards; the player picks one to receive it.
+      const rewardTexts = [
+        q.antwort,
+        ...(q.falseAnswers || [])
+      ].filter(t => typeof t === "string" && t.trim() !== "");
 
-    const options = shuffleArray([
-      { text: correctAnswerText, isCorrect: true },
-      ...(q.falseAnswers || []).map(f => ({ text: f, isCorrect: false }))
-    ]);
+      const options = shuffleArray(rewardTexts.map(text => ({ text })));
 
-    options.forEach((opt, index) => {
-      const btn = choiceButtons[index];
-      if (!btn) return;
-      btn.textContent = opt.text;
-      btn.dataset.isCorrect = opt.isCorrect ? "true" : "false";
-      btn.disabled = false;
-      btn.className = "choiceBtn";
-    });
+      options.forEach((opt, index) => {
+        const btn = choiceButtons[index];
+        if (!btn) return;
+        btn.textContent = opt.text;
+        btn.dataset.isCorrect = "true";
+        btn.dataset.reward = getRewardKey(opt.text);
+        btn.disabled = false;
+        btn.className = "choiceBtn";
+      });
+    } else {
+      // --- Normal multiple-choice question setup ---
+      // Build the options array: correct answer + false answers, shuffled.
+      // NOTE: q.antwort is expected to be a string for choice questions.
+      // If it were an array, we'd need to handle it differently.
+      const correctAnswerText = Array.isArray(q.antwort)
+        ? q.antwort[0]
+        : q.antwort;
+
+      const options = shuffleArray([
+        { text: correctAnswerText, isCorrect: true },
+        ...(q.falseAnswers || []).map(f => ({ text: f, isCorrect: false }))
+      ]);
+
+      options.forEach((opt, index) => {
+        const btn = choiceButtons[index];
+        if (!btn) return;
+        btn.textContent = opt.text;
+        btn.dataset.isCorrect = opt.isCorrect ? "true" : "false";
+        btn.dataset.reward = "";
+        btn.disabled = false;
+        btn.className = "choiceBtn";
+      });
+    }
   }
 
   startTimer();
@@ -251,6 +324,7 @@ export function handleFiftyFifty() {
 
   const q = state.questions[state.currentIndex];
   if (!q || q.questionType !== "choice") return;
+  if (isRewardQuestion(q)) return;
 
   const choiceButtons = document.querySelectorAll(".choiceBtn");
   const wrongButtons = Array.from(choiceButtons).filter(
@@ -336,26 +410,41 @@ export function handleAnswer() {
       return;
     }
 
-    isCorrect = state.selectedChoice.dataset.isCorrect === "true";
-    if (isCorrect) {
-      message = "✅ Richtig! Das ist die korrekte Antwort.";
+    if (isRewardQuestion(q)) {
+      // --- Special reward question (nr 9999) ---
+      // The player picks a reward; apply it and advance like a correct answer.
+      const rewardKey = state.selectedChoice.dataset.reward || "points";
+      message = applyReward(rewardKey);
       resultBox.className = "result correct-result";
+      isCorrect = true;
+
+      // Disable all choice buttons and highlight the chosen one
+      document.querySelectorAll(".choiceBtn").forEach(btn => {
+        btn.disabled = true;
+      });
+      state.selectedChoice.classList.add("correct");
     } else {
-      message = `❌ Nicht ganz.<br>
-        <div class="highlight-correct">
-          Richtige Antwort: <span>${q.antwort}</span>
-        </div>`;
-      resultBox.className = "result wrong-result";
+      isCorrect = state.selectedChoice.dataset.isCorrect === "true";
+      if (isCorrect) {
+        message = "✅ Richtig! Das ist die korrekte Antwort.";
+        resultBox.className = "result correct-result";
+      } else {
+        message = `❌ Nicht ganz.<br>
+          <div class="highlight-correct">
+            Richtige Antwort: <span>${q.antwort}</span>
+          </div>`;
+        resultBox.className = "result wrong-result";
+      }
+
+      // Disable all choice buttons and highlight the correct one
+      document.querySelectorAll(".choiceBtn").forEach(btn => {
+        btn.disabled = true;
+        if (btn.dataset.isCorrect === "true") btn.classList.add("correct");
+      });
+
+      // Mark the user's wrong selection
+      if (!isCorrect) state.selectedChoice.classList.add("wrong");
     }
-
-    // Disable all choice buttons and highlight the correct one
-    document.querySelectorAll(".choiceBtn").forEach(btn => {
-      btn.disabled = true;
-      if (btn.dataset.isCorrect === "true") btn.classList.add("correct");
-    });
-
-    // Mark the user's wrong selection
-    if (!isCorrect) state.selectedChoice.classList.add("wrong");
   }
 
   state.isAnswerSubmitted = true;
@@ -368,22 +457,26 @@ export function handleAnswer() {
 
   if (isCorrect) {
     // --- Scoring ---
-    let basePoints = 100;
-    if (q.questionType === "open") {
-      const elapsed = state.initialTimerValue - state.timer;
-      if (elapsed > 30) basePoints = Math.max(0, 100 - (elapsed - 30) * 2);
-    }
-    state.score += Math.round(basePoints * getStreakMultiplier());
-    state.consecutiveCorrectAnswers += 1;
+    // The reward question (nr 9999) grants its own reward (lives, skips,
+    // 50:50, or points) and does NOT add base points or increment the streak.
+    if (!isRewardQuestion(q)) {
+      let basePoints = 100;
+      if (q.questionType === "open") {
+        const elapsed = state.initialTimerValue - state.timer;
+        if (elapsed > 30) basePoints = Math.max(0, 100 - (elapsed - 30) * 2);
+      }
+      state.score += Math.round(basePoints * getStreakMultiplier());
+      state.consecutiveCorrectAnswers += 1;
 
-    // Combo reward every 5 correct answers
-    if (state.consecutiveCorrectAnswers % 5 === 0) {
-      grantComboReward();
-    }
+      // Combo reward every 5 correct answers
+      if (state.consecutiveCorrectAnswers % 5 === 0) {
+        grantComboReward();
+      }
 
-    // Streak visual effect at milestones (5, 10, 15)
-    if ([5, 10, 15].includes(state.consecutiveCorrectAnswers)) {
-      showStreakEffect(state.consecutiveCorrectAnswers);
+      // Streak visual effect at milestones (5, 10, 15)
+      if ([5, 10, 15].includes(state.consecutiveCorrectAnswers)) {
+        showStreakEffect(state.consecutiveCorrectAnswers);
+      }
     }
   } else {
     // --- Wrong answer: reset streak, lose a life ---
@@ -464,6 +557,22 @@ export function handleTimeout() {
 
   const q = state.questions[state.currentIndex];
   const resultBox = document.getElementById("resultBox");
+
+  if (isRewardQuestion(q)) {
+    // --- Special reward question (nr 9999) ---
+    // Missing the reward question is not penalized: no life lost,
+    // no streak reset. Just advance to the next question.
+    document.querySelectorAll(".choiceBtn").forEach(btn => {
+      btn.disabled = true;
+    });
+
+    resultBox.textContent = "⏰ Zeit abgelaufen! Du hast deine Belohnung verpasst.";
+    resultBox.classList.remove("hidden");
+
+    updateHud(getStreakMultiplier);
+    goToNextQuestionWithDelay();
+    return;
+  }
 
   state.consecutiveCorrectAnswers = 0;
   hideComboBanner();
