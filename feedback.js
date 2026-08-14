@@ -38,7 +38,7 @@ export function initFeedback() {
     <div class="feedback-modal-content">
       <button class="feedback-close-btn" id="feedbackCloseBtn" aria-label="Schliessen">&times;</button>
       <h2>Feedback</h2>
-      <p class="feedback-subtitle">Hilf uns, besser zu werden!</p>
+      <p class="feedback-subtitle">Was bedrückt dich?</p>
       <textarea id="feedbackInput" class="feedback-input" placeholder="Deine Nachricht..." rows="4"></textarea>
       <button id="feedbackSendBtn" class="feedback-send-btn">Senden</button>
       <p id="feedbackSuccess" class="feedback-success hidden">Danke für dein Feedback!</p>
