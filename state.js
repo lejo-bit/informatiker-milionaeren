@@ -28,8 +28,8 @@ export const state = {
   fiftyFiftyLeft: 1,      // Number of 50:50 uses remaining
 
   // --- Timer state ---
-  timer: 30,              // Current countdown value (seconds)
-  initialTimerValue: 30,  // Starting value for the current question's timer
+  timer: 60,              // Current countdown value (seconds)
+  initialTimerValue: 60,  // Starting value for the current question's timer
   timerInterval: null,    // Reference to the setInterval for the countdown
   delayInterval: null,    // Reference to the setTimeout for correct-answer delay
   errorDelayInterval: null, // Reference to the setTimeout for wrong-answer delay
@@ -62,8 +62,8 @@ export function resetGameState() {
   state.fiftyFiftyUsedOnCurrentQuestion = false;
 
   // Reset timer values to defaults
-  state.timer = 30;
-  state.initialTimerValue = 30;
+  state.timer = 60;
+  state.initialTimerValue = 60;
 
   // Clear timer/interval references to prevent stale callbacks
   state.timerInterval = null;

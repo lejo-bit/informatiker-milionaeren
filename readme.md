@@ -37,8 +37,7 @@ Bei offenen Fragen kann die `antwort`-Komponente entweder ein String oder ein Ar
   - 40 % Chance: **+1 50:50**
   - 40 % Chance: **+1 Überspringen**
   - 20 % Chance: **+1 Leben**
-- **Multiple-Choice**: 30 Sekunden Zeitlimit; Basiswert 100 Punkte (multipliziert mit dem Streak-Faktor).
-- **Offene Fragen**: 60 Sekunden Zeitlimit. Volle 100 Punkte innerhalb der ersten 30 Sekunden; danach -2 Punkte pro verbleibender Sekunde.
+- **Multiple-Choice & Offene Fragen**: 60 Sekunden Zeitlimit; Basiswert 100 Punkte (multipliziert mit dem Streak-Faktor). Zeitabhängige Punktzahl: Volle 100 Punkte innerhalb der ersten 30 Sekunden, danach -2 Punkte pro verbleibender Sekunde.
 - **Fehler / Timeout**: Zurücksetzen der Serie auf 0, Verlust von 1 Leben sowie Auslösen visueller Schadensteffekte (Bildschirmzittern + roter Blitz).
 - **Automatischer Fortschritt**: Nach einer richtigen Antwort wird nach einer 2-sekündigen Verzögerung zur nächsten Frage gewechselt. Nach einer falschen Antwort oder einem Timeout erscheint ein „Nächste Frage"-Button und die Frage wird nach 5 bzw. 15 Sekunden automatisch übersprungen.
 

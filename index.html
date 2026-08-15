@@ -39,7 +39,7 @@
       <div class="stats-bar">
         <div>❤️ <span id="lives">3</span></div>
         <div>⭐ Punkte: <span id="score">0</span> <span id="multiplierBadge" class="multiplier-badge hidden">x1.0</span></div>
-        <div>⏱️ <span id="timer">30</span>s</div>
+        <div>⏱️ <span id="timer">60</span>s</div>
         <div class="timer-bar-container">
           <div id="timerBar" class="timer-bar"></div>
         </div>
@@ -144,8 +144,8 @@
   <!-- Script loading order matters: checker.js must load before numbers.js
        (numbers.js depends on normalize() from checker.js), and both must
        load before main.js (which is an ES module that imports game.js). -->
-  <script src="checker.js"></script>
-  <script src="numbers.js"></script>
-  <script type="module" src="main.js"></script>
+  <script src="checker.js?v=2"></script>
+  <script src="numbers.js?v=2"></script>
+  <script type="module" src="main.js?v=2"></script>
 </body>
 </html>

@@ -206,8 +206,8 @@ export function renderQuestion() {
   const q = state.questions[state.currentIndex];
   state.selectedChoice = null;
 
-  // Set timer based on question type: 30s for choice, 60s for open
-  state.initialTimerValue = q.questionType === "choice" ? 30 : 60;
+  // Set timer for all question types: 60 seconds each
+  state.initialTimerValue = 60;
   state.timer = state.initialTimerValue;
   updateHud(getStreakMultiplier);
 
@@ -461,10 +461,9 @@ export function handleAnswer() {
     // 50:50, or points) and does NOT add base points or increment the streak.
     if (!isRewardQuestion(q)) {
       let basePoints = 100;
-      if (q.questionType === "open") {
-        const elapsed = state.initialTimerValue - state.timer;
-        if (elapsed > 30) basePoints = Math.max(0, 100 - (elapsed - 30) * 2);
-      }
+      // Time penalty: after 30 seconds, lose 2 points per second (applies to all question types)
+      const elapsed = state.initialTimerValue - state.timer;
+      if (elapsed > 30) basePoints = Math.max(0, 100 - (elapsed - 30) * 2);
       state.score += Math.round(basePoints * getStreakMultiplier());
       state.consecutiveCorrectAnswers += 1;
 
