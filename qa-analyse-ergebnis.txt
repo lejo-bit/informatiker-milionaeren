@@ -1,0 +1,79 @@
+Fragen gesamt: 2766
+Typen: {"choice":2626,"open":140}
+Kategorien: {"Hardware":163,"Betriebssysteme":97,"Netzwerke":205,"IT-Sicherheit":106,"Datenbanken":220,"Wirtschaft & Soziales":4,"IT-Grundlagen":20,"Logik":52,"Programmierung":700,"IT-Geschichte":14,"Gaming & Medien":112,"Künstliche Intelligenz":15,"IT-Unternehmen":20,"Wirtschaft & Software":828,"Kommunikation & Präsentation":47,"Projektmanagement":136,"Mathematik":26,"U are lucky":1}
+Erste nr: 1, Letzte nr: 9999
+
+=== Fragen > 30 Wörter (0) ===
+(keine)
+
+=== Antworten > 15 Wörter (0) ===
+(keine)
+
+=== FalseAnswers > 15 Wörter (4) ===
+462[0]: 16 W | Zugriff auf sämtliche Daten, die aufgrund der eigenen Rolle grundsätzlich für die gesamte Abteilung freigegeben sind
+488[0]: 17 W | Personenbezogene Daten möglichst umfassend sammeln, damit sie für zukünftige und noch nicht festgelegte Zwecke verwendet werden können
+488[1]: 18 W | Personenbezogene Daten nur so lange speichern, wie sie für den jeweiligen Verarbeitungszweck oder eine gesetzliche Aufbewahrungspflicht benötigt werden
+489[0]: 16 W | Nur die für einen bestimmten Zweck unbedingt erforderlichen Daten erheben und dauerhaft auf unnötige Angaben verzichten
+
+=== Text-Duplikate (61) ===
+1084 -> Duplikat von 640
+1085 -> Duplikat von 641
+1179 -> Duplikat von 481
+1391 -> Duplikat von 1365
+1596 -> Duplikat von 1549
+1604 -> Duplikat von 1557
+1605 -> Duplikat von 1558
+1606 -> Duplikat von 1559
+1607 -> Duplikat von 1560
+1608 -> Duplikat von 1561
+1609 -> Duplikat von 1562
+1610 -> Duplikat von 1563
+1611 -> Duplikat von 1564
+1612 -> Duplikat von 1565
+1613 -> Duplikat von 1566
+1614 -> Duplikat von 1567
+1615 -> Duplikat von 1568
+1616 -> Duplikat von 1569
+1617 -> Duplikat von 1570
+1618 -> Duplikat von 1571
+1619 -> Duplikat von 1572
+1620 -> Duplikat von 1573
+1621 -> Duplikat von 1574
+1622 -> Duplikat von 1575
+1623 -> Duplikat von 1576
+1624 -> Duplikat von 1577
+1625 -> Duplikat von 1578
+1626 -> Duplikat von 1579
+1627 -> Duplikat von 1580
+1628 -> Duplikat von 1581
+1629 -> Duplikat von 1582
+1630 -> Duplikat von 1583
+1631 -> Duplikat von 1584
+1638 -> Duplikat von 1591
+1835 -> Duplikat von 1821
+1922 -> Duplikat von 1736
+1906 -> Duplikat von 1906
+1907 -> Duplikat von 1907
+1908 -> Duplikat von 1908
+1909 -> Duplikat von 1909
+1910 -> Duplikat von 1910
+1911 -> Duplikat von 1911
+1912 -> Duplikat von 1912
+1913 -> Duplikat von 1913
+1914 -> Duplikat von 1914
+1915 -> Duplikat von 1915
+1967 -> Duplikat von 1779
+2251 -> Duplikat von 2039
+2252 -> Duplikat von 2040
+2253 -> Duplikat von 2041
+2254 -> Duplikat von 2043
+2287 -> Duplikat von 1332
+2290 -> Duplikat von 2122
+2301 -> Duplikat von 2292
+2307 -> Duplikat von 2265
+2310 -> Duplikat von 2293
+2359 -> Duplikat von 2344
+2382 -> Duplikat von 2344
+2400 -> Duplikat von 2142
+2526 -> Duplikat von 2485
+2638 -> Duplikat von 2637

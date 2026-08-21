@@ -1,0 +1,1434 @@
+[
+  {
+    "nr": 5103,
+    "questionType": "open",
+    "frage": "Was ist das Ergebnis von 3x + 2x?",
+    "antwort": "5x",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5104,
+    "questionType": "open",
+    "frage": "Wie lautet der Wert von 2x + 3 for x = 4?",
+    "antwort": "11",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5105,
+    "questionType": "open",
+    "frage": "Was ergibt 7a - 3a?",
+    "antwort": "4a",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5106,
+    "questionType": "open",
+    "frage": "Wie lautet die Lösung von x + 5 = 12?",
+    "antwort": [
+      "x = 7",
+      "7"
+    ],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5107,
+    "questionType": "open",
+    "frage": "Wie lautet die Lösung von x - 8 = 3?",
+    "antwort": ["x = 11", "11"],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5108,
+    "questionType": "open",
+    "frage": "Wie lautet die Lösung von 3x = 18?",
+    "antwort": ["x = 6", "6"],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5109,
+    "questionType": "open",
+    "frage": "Wie lautet die Lösung von x ÷ 4 = 5?",
+    "antwort": ["x = 20", "20"],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5110,
+    "questionType": "open",
+    "frage": "Wie lautet die Lösung von 2x + 4 = 12?",
+    "antwort": ["x = 4", "4"],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5111,
+    "questionType": "open",
+    "frage": "Wie lautet die Lösung von 5x - 10 = 15?",
+    "antwort": ["x = 5", "5"],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5112,
+    "questionType": "open",
+    "frage": "Was ergibt 4 · (x + 2)?",
+    "antwort": ["4x + 8", "4x+8"],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5113,
+    "questionType": "open",
+    "frage": "Was ergibt 3 · (2x - 1)?",
+    "antwort": "6x - 3",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5114,
+    "questionType": "open",
+    "frage": "Was ist die erste Potenz von x?",
+    "antwort": "x",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5115,
+    "questionType": "open",
+    "frage": "Was ergibt x^2 · x^3?",
+    "antwort": "x^5",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5116,
+    "questionType": "open",
+    "frage": "Was ergibt a^6 ÷ a^2?",
+    "antwort": "a^4",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5117,
+    "questionType": "open",
+    "frage": "Was ist die Quadratwurzel aus 49?",
+    "antwort": "7",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5118,
+    "questionType": "open",
+    "frage": "Was ist die Quadratwurzel aus 81?",
+    "antwort": "9",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5119,
+    "questionType": "open",
+    "frage": "Wie lautet die binomische Formel for (a + b)^2?",
+    "antwort": "a^2 + 2ab + b^2",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5120,
+    "questionType": "open",
+    "frage": "Wie lautet die binomische Formel for (a - b)^2?",
+    "antwort": "a^2 - 2ab + b^2",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5121,
+    "questionType": "open",
+    "frage": "Was ergibt (x + 3)(x + 2)?",
+    "antwort": "x^2 + 5x + 6",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5122,
+    "questionType": "open",
+    "frage": "Was ist der größte gemeinsame Faktor von 12 und 18?",
+    "antwort": "6",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5123,
+    "questionType": "open",
+    "frage": "Was ist das kleinste gemeinsame Vielfache von 4 und 6?",
+    "antwort": "12",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5124,
+    "questionType": "open",
+    "frage": "Wie lautet die Lösung von x² = 25?",
+    "antwort": "x = 5",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5125,
+    "questionType": "open",
+    "frage": "Wie lautet die Normalform einer linearen Funktion?",
+    "antwort": "y = mx + b",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5126,
+    "questionType": "open",
+    "frage": "Wie groß ist die Steigung der Funktion y = 3x + 2?",
+    "antwort": "3",
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5127,
+    "questionType": "open",
+    "frage": "Wie lautet die Nullstelle von y = x - 7?",
+    "antwort": ["x = 7", "7"],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5128,
+    "questionType": "open",
+    "frage": "Wie viele Lösungen besitzt ein lineares Gleichungssystem mit genau einem Schnittpunkt?",
+    "antwort": [
+      "Eine Lösung",
+      "1"
+    ],
+    "category": "Mathematik"
+  },
+  {
+    "nr": 5131,
+    "questionType": "open",
+    "frage": "Welche Maßeinheit gibt die Bildwiederholfrequenz eines Monitors an?",
+    "antwort": [
+      "Hertz",
+      "Hz",
+      "Bildwiederholrate",
+      "Frequenz"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5134,
+    "questionType": "open",
+    "frage": "Wie nennt man die physikalische Auflösung eines Monitors in Pixeln pro Zoll?",
+    "antwort": [
+      "Pixeldichte",
+      "PPI"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5137,
+    "questionType": "open",
+    "frage": "Wie lautet die deutsche Abkürzung for eine unterbrechungsfreie Stromversorgung?",
+    "antwort": [
+      "USV",
+      "Unterbrechungsfreie Stromversorgung",
+      "USV-Anlage"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5138,
+    "questionType": "open",
+    "frage": "Welcher Druckertyp nutzt Hitze und speziell beschichtetes Papier?",
+    "antwort": [
+      "Thermodirektdrucker",
+      "Thermodrucker",
+      "Thermischer Drucker"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5139,
+    "questionType": "open",
+    "frage": "Welches Bauteil kühlt die CPU direkt durch Wärmeleitung?",
+    "antwort": [
+      "Kühlkörper",
+      "CPU-Kühlkörper",
+      "Prozessorkühlkörper",
+      "Heatspreader"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5140,
+    "questionType": "open",
+    "frage": "Wie heißt der Sockel for moderne AMD-Desktop-Prozessoren der Ryzen-7000er-Serie?",
+    "antwort": [
+      "AM5",
+      "AMD-Sockel AM5",
+      "Socket AM5",
+      "LGA1718"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5141,
+    "questionType": "open",
+    "frage": "Welche Tastatur-Verbindung gilt als am wenigsten anfällig for Latenz?",
+    "antwort": [
+      "USB-Kabelverbindung",
+      "Kabelgebundene USB-Verbindung",
+      "USB-Anschluss",
+      "USB"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5142,
+    "questionType": "open",
+    "frage": "Wie nennt man den Hauptplatinen-Chip, der die grundlegende Systemstart-Firmware enthält?",
+    "antwort": [
+      "BIOS",
+      "UEFI"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5143,
+    "questionType": "open",
+    "frage": "Welcher Farbraum wird primär for Druckmedien genutzt?",
+    "antwort": [
+      "CMYK",
+      "Cyan-Magenta-Yellow-Key",
+      "Vierfarbsystem"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5144,
+    "questionType": "open",
+    "frage": "Welche Akku-Technologie wird standardmäßig in mobilen IT-Geräten verbaut?",
+    "antwort": [
+      "Lithium-Ionen",
+      "Li-Ion",
+      "Lithium-Ionen-Akku",
+      "Li-Ionen-Technologie"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5146,
+    "questionType": "open",
+    "frage": "Welcher Bussystem-Standard ermöglicht Datenraten von bis zu 40 Gbit/s über Typ-C?",
+    "antwort": [
+      "Thunderbolt 4",
+      "USB4",
+      "Thunderbolt"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5147,
+    "questionType": "open",
+    "frage": "Welcher Druckertyp verwendet flüssige Tinte?",
+    "antwort": [
+      "Tintenstrahldrucker",
+      "Inkjet-Drucker",
+      "Tintenstrahl-Drucker",
+      "Inkjet"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5148,
+    "questionType": "open",
+    "frage": "Welche Gehäuse-Bauform ist bei Standard-Büro-PCs am weitesten verbreitet?",
+    "antwort": [
+      "Mid-Tower",
+      "ATX-Mid-Tower",
+      "Midi-Tower",
+      "ATX-Gehäuse"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5149,
+    "questionType": "open",
+    "frage": "Welches Bauteil wandelt elektrische Signale for Glasfaserverbindungen in optische Signale um?",
+    "antwort": [
+      "Transceiver",
+      "Optischer Transceiver",
+      "SFP-Modul",
+      "Medienkonverter"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5150,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung TCP?",
+    "antwort": [
+      "Transmission Control Protocol",
+      "Übertragungssteuerungsprotokoll",
+      "Protokoll zur Übertragungssteuerung"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5151,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung IP?",
+    "antwort": [
+      "Internet Protocol",
+      "Internetprotokoll",
+      "Protokoll der Internetschicht"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5152,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung HTTP?",
+    "antwort": [
+      "Hypertext Transfer Protocol",
+      "Hypertext-Übertragungsprotokoll",
+      "Protokoll für Webübertragung"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5153,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung HTTPS?",
+    "antwort": [
+      "Hypertext Transfer Protocol Secure",
+      "Sicheres Hypertext-Übertragungsprotokoll",
+      "Verschlüsseltes Webübertragungsprotokoll"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5154,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung FTP?",
+    "antwort": [
+      "File Transfer Protocol",
+      "Dateiübertragungsprotokoll",
+      "Protokoll zur Dateiübertragung",
+      "Dateitransfer-Protokoll"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5155,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung SFTP?",
+    "antwort": [
+      "SSH File Transfer Protocol",
+      "Sicheres Dateiübertragungsprotokoll",
+      "Secure File Transfer Protocol",
+      "Verschlüsseltes Dateiübertragungsprotokoll"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5156,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung SSH?",
+    "antwort": [
+      "Secure Shell",
+      "Sichere Shell",
+      "Verschlüsselte Fernzugriffsshell",
+      "Sicheres Fernzugriffsprotokoll"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5157,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung DNS?",
+    "antwort": [
+      "Domain Name System",
+      "Domänennamenssystem",
+      "Namensdienst für Internetadressen"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5158,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung DHCP?",
+    "antwort": [
+      "Dynamic Host Configuration Protocol",
+      "Dynamisches Hostkonfigurationsprotokoll",
+      "Protokoll für automatische Netzwerkkonfiguration"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5159,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung NAT?",
+    "antwort": [
+      "Network Address Translation",
+      "Netzwerkadressübersetzung",
+      "Übersetzung von Netzwerkadressen"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5160,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung VPN?",
+    "antwort": [
+      "Virtual Private Network",
+      "Virtuelles privates Netzwerk",
+      "Verschlüsseltes privates Netzwerk"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5161,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung LAN?",
+    "antwort": [
+      "Local Area Network",
+      "Lokales Netzwerk im Nahbereich",
+      "Lokales Rechnernetz"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5162,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung WAN?",
+    "antwort": [
+      "Wide Area Network",
+      "Weitverkehrsnetzwerk",
+      "Weitbereichsnetzwerk"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5163,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung WLAN?",
+    "antwort": [
+      "Wireless Local Area Network",
+      "Drahtloses lokales Netzwerk",
+      "Kabelloses Rechnernetz"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5164,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung MAC?",
+    "antwort": [
+      "Media Access Control",
+      "Medienzugriffssteuerung",
+      "Hardwareadressierung im Netzwerk"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5165,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung URL?",
+    "antwort": [
+      "Uniform Resource Locator",
+      "Einheitlicher Ressourcenzeiger"
+    ],
+    "category": "IT-Grundlagen"
+  },
+  {
+    "nr": 5166,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung URI?",
+    "antwort": [
+      "Uniform Resource Identifier",
+      "Einheitlicher Ressourcenbezeichner",
+      "Ressourcenkennung im Internet",
+      "Eindeutige Ressourcenkennung"
+    ],
+    "category": "IT-Grundlagen"
+  },
+  {
+    "nr": 5167,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung HTML?",
+    "antwort": [
+      "Hypertext Markup Language",
+      "Hypertext-Auszeichnungssprache",
+      "Auszeichnungssprache für Webseiten",
+      "Webseiten-Struktursprache"
+    ],
+    "category": "IT-Grundlagen"
+  },
+  {
+    "nr": 5168,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung CSS?",
+    "antwort": [
+      "Cascading Style Sheets",
+      "Kaskadierende Stilvorlagen",
+      "Stylesheet-Sprache für Webseiten",
+      "Gestaltungssprache für Webseiten"
+    ],
+    "category": "IT-Grundlagen"
+  },
+  {
+    "nr": 5169,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung XML?",
+    "antwort": [
+      "Extensible Markup Language",
+      "Erweiterbare Auszeichnungssprache",
+      "Strukturierte Auszeichnungssprache",
+      "Datenbeschreibungssprache"
+    ],
+    "category": "IT-Grundlagen"
+  },
+  {
+    "nr": 5170,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung JSON?",
+    "antwort": [
+      "JavaScript Object Notation",
+      "JavaScript-Objektnotation"
+    ],
+    "category": "IT-Grundlagen"
+  },
+  {
+    "nr": 5171,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung API?",
+    "antwort": [
+      "Application Programming Interface",
+      "Programmierschnittstelle"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 5172,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung CPU?",
+    "antwort": [
+      "Central Processing Unit",
+      "Zentrale Verarbeitungseinheit"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5173,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung GPU?",
+    "antwort": [
+      "Graphics Processing Unit",
+      "Grafikprozessoreinheit",
+      "Grafikprozessor",
+      "Grafische Verarbeitungseinheit"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5174,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung RAM?",
+    "antwort": [
+      "Random Access Memory",
+      "Arbeitsspeicher",
+      "Direktzugriffsspeicher"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5175,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung ROM?",
+    "antwort": [
+      "Read-Only Memory",
+      "Nur-Lese-Speicher",
+      "Festwertspeicher"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5176,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung BIOS?",
+    "antwort": [
+      "Basic Input/Output System",
+      "Einfaches Ein-/Ausgabesystem",
+      "Grundlegendes Eingabe-Ausgabe-System"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5177,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung UEFI?",
+    "antwort": [
+      "Unified Extensible Firmware Interface",
+      "Erweiterte Firmware-Schnittstelle",
+      "Einheitliche Firmware-Schnittstelle"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5178,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung SSD?",
+    "antwort": [
+      "Solid State Drive",
+      "Halbleiterlaufwerk",
+      "Flash-Speicherlaufwerk"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5179,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung HDD?",
+    "antwort": [
+      "Hard Disk Drive",
+      "Festplattenlaufwerk"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5180,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung USB?",
+    "antwort": [
+      "Universal Serial Bus",
+      "Universeller serieller Bus"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5181,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung HDMI?",
+    "antwort": [
+      "High Definition Multimedia Interface",
+      "Hochauflösende Multimediaschnittstelle"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5182,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung RAID?",
+    "antwort": [
+      "Redundant Array of Independent Disks",
+      "Redundanter Verbund unabhängiger Festplatten",
+      "Redundantes Speichersystem"
+    ],
+    "category": "Hardware"
+  },
+  {
+    "nr": 5183,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung SQL?",
+    "antwort": [
+      "Structured Query Language",
+      "Strukturierte Abfragesprache"
+    ],
+    "category": "Datenbanken"
+  },
+  {
+    "nr": 5184,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung DBMS?",
+    "antwort": [
+      "Database Management System",
+      "Datenbankmanagementsystem",
+      "Datenbankverwaltungssystem",
+      "System zur Datenbankverwaltung"
+    ],
+    "category": "Datenbanken"
+  },
+  {
+    "nr": 5185,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung CRUD?",
+    "antwort": [
+      "Create Read Update Delete",
+      "Erstellen Lesen Ändern Löschen"
+    ],
+    "category": "Datenbanken"
+  },
+  {
+    "nr": 5186,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung ACID bei Datenbanken?",
+    "antwort": [
+      "Atomicity Consistency Isolation Durability",
+      "Atomarität Konsistenz Isolation Dauerhaftigkeit"
+    ],
+    "category": "Datenbanken"
+  },
+  {
+    "nr": 5187,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung OS?",
+    "antwort": [
+      "Operating System",
+      "Betriebssystem"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5188,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung GUI?",
+    "antwort": [
+      "Graphical User Interface",
+      "Grafische Benutzeroberfläche",
+      "Grafische Anwenderschnittstelle"      
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5189,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung CLI?",
+    "antwort": [
+      "Command-Line Interface",
+      "Kommandozeilenschnittstelle",
+      "Befehlszeilenschnittstelle",
+      "Textbasierte Benutzerschnittstelle"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5190,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung IDE in der Programmierung?",
+    "antwort": [
+      "Integrated Development Environment",
+      "Integrierte Entwicklungsumgebung",
+      "Programmierentwicklungsumgebung",
+      "Softwareentwicklungsumgebung"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 5191,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung SDK?",
+    "antwort": [
+      "Software Development Kit",
+      "Softwareentwicklungskit",
+      "Entwicklungswerkzeugsammlung"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 5192,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung JVM?",
+    "antwort": [
+      "Java Virtual Machine",
+      "Virtuelle Java-Maschine",
+      "Java-Laufzeitmaschine",
+      "Virtuelle Java Maschine"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 5193,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung JRE?",
+    "antwort": [
+      "Java Runtime Environment",
+      "Java-Laufzeitumgebung",
+      "Laufzeitumgebung für Java"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 5194,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung JDK?",
+    "antwort": [
+      "Java Development Kit",
+      "Java-Entwicklungskit",
+      "Java Entwicklungsumgebung",
+      "Java-Programmierwerkzeugsammlung"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 5195,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung OOP?",
+    "antwort": [
+      "Object-Oriented Programming",
+      "Objektorientierte Programmierung",
+      "Objektbasierter Programmieransatz"
+    ],
+    "category": "Programmierung"
+  },
+  {
+    "nr": 5196,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung IoT?",
+    "antwort": [
+      "Internet of Things",
+      "Internet der Dinge"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5197,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung CDN?",
+    "antwort": [
+      "Content Delivery Network",
+      "Inhaltsverteilungsnetzwerk",
+      "Verteilnetzwerk für Inhalte"
+    ],
+    "category": "Netzwerke"
+  },
+  {
+    "nr": 5198,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung ERP?",
+    "antwort": [
+      "Enterprise Resource Planning",
+      "Unternehmensressourcenplanung",
+      "Ressourcenplanung im Unternehmen",
+      "Unternehmensverwaltungssystem"
+    ],
+    "category": "Wirtschaft & Software"
+  },
+  {
+    "nr": 5199,
+    "questionType": "open",
+    "frage": "Wofür steht die Abkürzung CRM?",
+    "antwort": [
+      "Customer Relationship Management",
+      "Kundenbeziehungsmanagement",
+      "Kundenverwaltungssystem",
+      "Verwaltung von Kundenbeziehungen"
+    ],
+    "category": "Wirtschaft & Software"
+  },
+  {
+    "nr": 5200,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD- oder PowerShell-Befehl zeigt Dateien und Ordner an?",
+    "antwort": [
+      "dir",
+      "Get-ChildItem",
+      "ls",
+      "gci"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5201,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD- oder PowerShell-Befehl wechselt das aktuelle Verzeichnis?",
+    "antwort": [
+      "cd",
+      "Set-Location",
+      "chdir",
+      "sl"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5202,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl erstellt einen neuen Ordner?",
+    "antwort": [
+      "mkdir",
+      "md",
+      "New-Item -ItemType Directory",
+      "New-Item -Type Directory"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5203,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl löscht einen Ordner?",
+    "antwort": [
+      "rmdir",
+      "rd",
+      "Remove-Item",
+      "Remove-Item -Recurse"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5204,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl löscht eine Datei?",
+    "antwort": [
+      "del",
+      "erase",
+      "Remove-Item",
+      "rm"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5205,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl leert den Inhalt des Terminals?",
+    "antwort": [
+      "cls",
+      "Clear-Host",
+      "clear",
+      "Clear"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5206,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl zeigt die IP-Konfiguration an?",
+    "antwort": [
+      "ipconfig",
+      "ipconfig /all"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5207,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl prüft die Erreichbarkeit eines Netzwerkgeräts?",
+    "antwort": [
+      "ping",
+      "Test-Connection"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5208,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl zeigt den Weg zu einem Netzwerkziel?",
+    "antwort": [
+      "tracert"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5209,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell fragt DNS-Informationen zu einer Domain ab?",
+    "antwort": [
+      "nslookup",
+      "Resolve-DnsName"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5210,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl zeigt aktive Netzwerkverbindungen an?",
+    "antwort": [
+      "netstat",
+      "Get-NetTCPConnection"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5211,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl zeigt laufende Prozesse an?",
+    "antwort": [
+      "tasklist",
+      "Get-Process",
+      "ps",
+      "gps"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5212,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl beendet einen laufenden Prozess?",
+    "antwort": [
+      "taskkill",
+      "Stop-Process",
+      "kill"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5213,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl zeigt den Computernamen an?",
+    "antwort": [
+      "hostname",
+      "$env:COMPUTERNAME"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5214,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl zeigt den aktuell angemeldeten Benutzer?",
+    "antwort": [
+      "whoami"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5215,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl zeigt detaillierte Systeminformationen an?",
+    "antwort": [
+      "systeminfo",
+      "Get-ComputerInfo"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5216,
+    "questionType": "open",
+    "frage": "Welches Windows PowerShell-Cmdlet zeigt Hilfe zu Befehlen an?",
+    "antwort": [
+      "Get-Help",
+      "help",
+      "man"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5217,
+    "questionType": "open",
+    "frage": "Welches Windows PowerShell-Cmdlet sucht verfügbare Befehle?",
+    "antwort": [
+      "Get-Command",
+      "gcm"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5218,
+    "questionType": "open",
+    "frage": "Welches Windows PowerShell-Cmdlet listet Dateien und Ordner auf?",
+    "antwort": [
+      "Get-ChildItem",
+      "dir",
+      "ls",
+      "gci"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5219,
+    "questionType": "open",
+    "frage": "Welches Windows PowerShell-Cmdlet liest den Inhalt einer Datei?",
+    "antwort": [
+      "Get-Content",
+      "gc",
+      "cat",
+      "type"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5220,
+    "questionType": "open",
+    "frage": "Welches Windows PowerShell-Cmdlet schreibt neuen Inhalt in eine Datei?",
+    "antwort": [
+      "Set-Content"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5221,
+    "questionType": "open",
+    "frage": "Welches Windows PowerShell-Cmdlet hängt Inhalt an eine Datei an?",
+    "antwort": [
+      "Add-Content",
+      "ac"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5222,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl kopiert Dateien oder Ordner?",
+    "antwort": [
+      "Copy-Item",
+      "copy",
+      "cp",
+      "xcopy"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5223,
+    "questionType": "open",
+    "frage": "Welcher Windows CMD oder Powershell Befehl verschiebt Dateien oder Ordner?",
+    "antwort": [
+      "Move-Item",
+      "move",
+      "mv"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5224,
+    "questionType": "open",
+    "frage": "Welcher PowerShell-Befehl benennt eine Datei um?",
+    "antwort": [
+      "Rename-Item",
+      "ren"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5225,
+    "questionType": "open",
+    "frage": "Welches PowerShell-Cmdlet entfernt Dateien oder Ordner?",
+    "antwort": [
+      "Remove-Item",
+      "ri",
+      "rm",
+      "del"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5226,
+    "questionType": "open",
+    "frage": "Welches PowerShell-Cmdlet erstellt Dateien oder Ordner?",
+    "antwort": [
+      "New-Item",
+      "ni"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5227,
+    "questionType": "open",
+    "frage": "Welches PowerShell-Cmdlet zeigt Windows-Dienste an?",
+    "antwort": [
+      "Get-Service",
+      "gsv"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5228,
+    "questionType": "open",
+    "frage": "Welches PowerShell-Cmdlet startet einen Dienst?",
+    "antwort": [
+      "Start-Service",
+      "sasv"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5229,
+    "questionType": "open",
+    "frage": "Welches PowerShell-Cmdlet beendet einen Dienst?",
+    "antwort": [
+      "Stop-Service",
+      "spsv"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5230,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl zeigt unter Linux Dateien und Ordner an?",
+    "antwort": [
+      "ls",
+      "Get-ChildItem",
+      "dir",
+      "gci"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5231,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl zeigt unter Linux das aktuelle Verzeichnis?",
+    "antwort": [
+      "pwd",
+      "Get-Location"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5232,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl wechselt unter Linux das Verzeichnis?",
+    "antwort": [
+      "cd",
+      "Set-Location",
+      "chdir",
+      "sl"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5233,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl erstellt unter Linux einen Ordner?",
+    "antwort": [
+      "mkdir",
+      "New-Item -ItemType Directory"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5234,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl erstellt unter Linux eine leere Datei?",
+    "antwort": [
+      "touch",
+      "New-Item -ItemType File"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5235,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl löscht unter Linux eine Datei?",
+    "antwort": [
+      "rm",
+      "Remove-Item",
+      "del",
+      "erase"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5236,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl kopiert unter Linux Dateien?",
+    "antwort": [
+      "cp",
+      "Copy-Item",
+      "copy"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5237,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl verschiebt unter Linux Dateien?",
+    "antwort": [
+      "mv",
+      "Move-Item",
+      "move"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5238,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl zeigt unter Linux den Dateiinhalt an?",
+    "antwort": [
+      "cat",
+      "Get-Content",
+      "gc",
+      "type"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5239,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl sucht unter Linux nach Textmustern?",
+    "antwort": [
+      "grep",
+      "Select-String",
+      "sls"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5240,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl sucht unter Linux nach Dateien?",
+    "antwort": [
+      "find",
+      "Get-ChildItem -Recurse"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5241,
+    "questionType": "open",
+    "frage": "Welcher Linux-Befehl ändert Datei- oder Ordnerrechte?",
+    "antwort": [
+      "chmod"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5242,
+    "questionType": "open",
+    "frage": "Welcher Linux-Befehl ändert den Besitzer einer Datei?",
+    "antwort": [
+      "chown"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5243,
+    "questionType": "open",
+    "frage": "Welcher Linux-Befehl führt einen Befehl mit Administratorrechten aus?",
+    "antwort": [
+      "sudo"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5244,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl zeigt unter Linux laufende Prozesse?",
+    "antwort": [
+      "ps",
+      "Get-Process",
+      "gps"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5245,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl beendet unter Linux einen Prozess?",
+    "antwort": [
+      "kill",
+      "Stop-Process"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5246,
+    "questionType": "open",
+    "frage": "Welcher Linux-Befehl zeigt den freien Speicherplatz von Dateisystemen?",
+    "antwort": [
+      "df"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5247,
+    "questionType": "open",
+    "frage": "Welcher Linux-Befehl zeigt den Speicherverbrauch von Ordnern?",
+    "antwort": [
+      "du"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5248,
+    "questionType": "open",
+    "frage": "Welcher Linux-Befehl zeigt Netzwerkadressen und Schnittstellen an?",
+    "antwort": [
+      "ip addr",
+      "ip a"
+    ],
+    "category": "Betriebssysteme"
+  },
+  {
+    "nr": 5249,
+    "questionType": "open",
+    "frage": "Welcher Bash- oder PowerShell-Befehl öffnet unter Linux die Hilfe?",
+    "antwort": [
+      "man",
+      "Get-Help",
+      "help"
+    ],
+    "category": "Betriebssysteme"
+  }
+ 
+]

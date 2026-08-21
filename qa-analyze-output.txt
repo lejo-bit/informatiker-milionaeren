@@ -1,0 +1,361 @@
+=== falseAnswers >15 Wörter ===
+nr 462: "Zugriff auf sämtliche Daten, die aufgrund der eigenen Rolle grundsätzlich für die gesamte Abteilung freigegeben sind" (16 Wörter)
+nr 488: "Personenbezogene Daten möglichst umfassend sammeln, damit sie für zukünftige und noch nicht festgelegte Zwecke verwendet werden können" (17 Wörter)
+nr 488: "Personenbezogene Daten nur so lange speichern, wie sie für den jeweiligen Verarbeitungszweck oder eine gesetzliche Aufbewahrungspflicht benötigt werden" (18 Wörter)
+nr 489: "Nur die für einen bestimmten Zweck unbedingt erforderlichen Daten erheben und dauerhaft auf unnötige Angaben verzichten" (16 Wörter)
+
+=== Kategorie "U are lucky" ===
+{"nr":9999,"questionType":"choice","frage":"Du hast Glück! Such dir deine Belohnung aus!","antwort":"+ 2 Leben","falseAnswers":["+3 Überspringen","+3 50:50","+1000 Punkte"],"category":"U are lucky"}
+
+=== Duplikate (exakt gleicher Fragetext) ===
+51, 263 => welche aufgabe hat ein dateisystem
+308, 309 => wie wird das symbol ausgesprochen
+347, 348 => was bedeutet der quantor
+481, 1179 => welche informationen gelten nach der dsgvo als personenbezogene daten
+622, 2678 => wofuer steht die abkuerzung html
+640, 1084 => welche css eigenschaft aendert die textfarbe
+641, 1085 => welche css eigenschaft aendert die hintergrundfarbe
+1321, 2040, 2252 => was ist der zieleinkaufspreis
+1322, 2282 => was ist der wareneinsatz
+1323, 2281 => was ist die handelsspanne
+1332, 2287 => wann wird eine gutschrift erstellt
+1333, 2288 => was ist ein lieferschein
+1334, 2289 => was ist eine bestellung
+1335, 2122, 2290 => was ist eine auftragsbestaetigung
+1336, 2291 => was ist ein zahlungsziel
+1337, 2292, 2301 => was ist eine mahnung
+1338, 2293, 2310 => was ist ein mahnbescheid
+1339, 2294 => was ist der unterschied zwischen angebot und rechnung
+1340, 2295 => was ist der unterschied zwischen rabatt und skonto
+1341, 2276 => was ist der kalkulationsfaktor
+1342, 2277 => was ist der kalkulationszuschlag
+1343, 2042 => was ist der bezugspreis
+1344, 2043, 2254 => was sind bezugskosten
+1346, 2278 => was ist der verkaufspreis
+1347, 2268 => was ist ein mengenrabatt
+1348, 2269 => was ist ein treuerabatt
+1349, 2270 => was ist ein saisonrabatt
+1350, 2271 => was ist ein personalrabatt
+1351, 2272 => was ist ein skontosatz
+1352, 2273 => was ist eine skontofrist
+1353, 2274 => was ist ein barzahlungspreis
+1354, 2275 => was ist ein kreditpreis
+1365, 1391 => was ist die annuitaetenmethode
+1525, 1599 => wie wird eine 1 n beziehung im relationalen datenbankmodell umgesetzt
+1546, 1593 => was ist eine 1 1 kardinalitaet
+1547, 1594 => was ist eine 1 n kardinalitaet
+1548, 1595 => was ist eine n m kardinalitaet
+1549, 1596 => welches beispiel passt zu 1 1
+1557, 1604 => welche bezeichnung ist fuer mitarbeiter projekt korrekt
+1558, 1605 => welche bezeichnung ist fuer autor buch korrekt
+1559, 1606 => welche bezeichnung ist fuer abteilung mitarbeiter korrekt
+1560, 1607 => welche kardinalitaet hat ein auto hat ein kennzeichen
+1561, 1608 => welche kardinalitaet hat ein kunde bestellt mehrere produkte
+1562, 1609 => welche kardinalitaet hat studenten belegen kurse
+1563, 1610 => welche kardinalitaet hat ein arzt behandelt mehrere patienten
+1564, 1611 => welche kardinalitaet hat ein patient wird von mehreren aerzten behandelt
+1565, 1612 => welche kardinalitaet hat ein land hat eine hauptstadt
+1566, 1613 => welche kardinalitaet hat eine klasse hat mehrere schueler
+1567, 1614 => welche kardinalitaet hat schueler besuchen mehrere kurse
+1568, 1615 => welche kardinalitaet hat ein buch hat mehrere autoren
+1569, 1616 => welche kardinalitaet hat ein produkt gehoert zu einer kategorie
+1570, 1617 => welche kardinalitaet hat eine kategorie hat mehrere produkte
+1571, 1618 => welche kardinalitaet hat ein mitarbeiter arbeitet in einer abteilung
+1572, 1619 => welche kardinalitaet hat eine abteilung hat mehrere mitarbeiter
+1573, 1620 => welche kardinalitaet hat ein mitarbeiter arbeitet an mehreren projekten
+1574, 1621 => welche kardinalitaet hat ein projekt hat mehrere mitarbeiter
+1575, 1622 => welche bezeichnung ist fuer lieferant produkt korrekt
+1576, 1623 => welche bezeichnung ist fuer kunde adresse korrekt
+1577, 1624 => welche bezeichnung ist fuer bestellung produkt korrekt
+1578, 1625 => welche bezeichnung ist fuer kurs student korrekt
+1579, 1626 => welche bezeichnung ist fuer film schauspieler korrekt
+1580, 1627 => welche bezeichnung ist fuer unternehmen mitarbeiter korrekt
+1581, 1628 => welche bezeichnung ist fuer team spieler korrekt
+1582, 1629 => welche bezeichnung ist fuer album lied korrekt
+1583, 1630 => welche bezeichnung ist fuer hersteller produkt korrekt
+1584, 1631 => was ist wichtig bei der kardinalitaetsbestimmung
+1591, 1638 => was bedeutet 0 n bei kardinalitaet
+1592, 1639 => was bedeutet 1 1 bei kardinalitaet
+1659, 1725, 1754, 1958, 2000 => was ist ein weiterer haeufiger fehler
+1736, 1922 => was ist bpmn
+1742, 1928 => was ist ein and gateway
+1758, 2146 => was ist ein stakeholder
+1779, 1967 => welchen wesentlichen vorteil bietet bpmn bei der prozessmodellierung
+1821, 1835 => worin unterscheiden sich programmablaufplan und struktogramm hauptsaechlich
+1906, 1906 => was bezeichnet eine konstante in der programmierung
+1907, 1907 => wie wird eine konstante im verwendeten pseudocode deklariert
+1908, 1908 => welchen vorteil bietet pseudocode bei der algorithmusplanung
+1909, 1909 => welchen nachteil hat pseudocode gegenueber echtem programmcode
+1910, 1910 => welche eigenschaft ist bei der formulierung von pseudocode wichtig
+1911, 1911 => wofuer wird pseudocode haeufig in der softwareentwicklung eingesetzt
+1912, 1912 => was bezeichnet ein nested if im pseudocode
+1913, 1913 => was bezeichnet eine case anweisung im pseudocode
+1914, 1914 => welcher haeufige fehler kann bei der programmierung von schleifen entstehen
+1915, 1915 => was bezeichnet man als endlosschleife
+2039, 2251 => was ist der listeneinkaufspreis
+2041, 2253 => was ist der bareinkaufspreis
+2135, 2483 => was ist ein abnahmeprotokoll
+2142, 2400 => was ist ein meilenstein
+2145, 2428 => was ist ein auftraggeber
+2150, 2399 => was ist ein gantt diagramm
+2265, 2307 => was ist ein rabatt
+2344, 2359, 2382 => was ist ein tarifvertrag
+2407, 2482 => was ist ein pruefprotokoll
+2457, 2459 => was ist ein benutzerkonto
+2485, 2526 => was ist ein testergebnis
+2637, 2638 => wie lautet die binomische formel for a b 2
+
+=== Gleiche antwort+falseAnswers-Kombinationen (Templates) ===
+1, 2, 3 => befehle verarbeiten|daten zwischenspeichern|sicherheitsluecke schliessen|uhren s (3 Fragen)
+5, 6, 7, 8 => daten zwischenspeichern|daten dauerhaft speichern|software aktualisieren|netzwer (4 Fragen)
+9, 10, 11 => daten dauerhaft speichern|spannung umwandeln|daten sichern|verbindung tunneln (3 Fragen)
+13, 14, 15 => spannung umwandeln|komponenten verbinden|lan geraete verbinden|netzwerk segmenti (3 Fragen)
+17, 18, 19, 20 => komponenten verbinden|bilder berechnen|netzwerke verbinden|adressen umsetzen (4 Fragen)
+21, 22, 23 => bilder berechnen|waerme ableiten|verkehr filtern|wlan benennen (3 Fragen)
+313, 315, 318 => falsch|wahr|unbekannt|beides (3 Fragen)
+314, 316, 319 => wahr|falsch|unbekannt|beides (3 Fragen)
+1560, 1565, 1569, 1607, 1612, 1616 => 1 1|1 n|n m|keine (6 Fragen)
+1561, 1563, 1566, 1570, 1571, 1572, 1608, 1610, 1613, 1617, 1618, 1619 => 1 n|1 1|n m|keine (12 Fragen)
+1562, 1564, 1567, 1568, 1573, 1574, 1609, 1611, 1614, 1615, 1620, 1621 => n m|1 1|1 n|keine (12 Fragen)
+2344, 2359, 2382 => ein vertrag zwischen arbeitgeber und gewerkschaft|ein vertrag zwischen arbeitgeb (3 Fragen)
+2585, 2612, 2613, 2614 => blizzard entertainment|valve|epic games|id software (4 Fragen)
+
+=== Verdächtige Distraktoren (fachfremd/absurd) ===
+nr 17: "Adressen umsetzen"
+nr 18: "Adressen umsetzen"
+nr 19: "Adressen umsetzen"
+nr 20: "Adressen umsetzen"
+nr 24: "IP-Adressen vergeben"
+nr 29: "Zugangsdaten stehlen"
+nr 33: "Daten erpressen"
+nr 51: "IP-Adressen vergeben"
+nr 57: "IP-Adressen vergeben"
+nr 61: "MAC-Adressen ermitteln"
+nr 84: "IP-Adressen automatisch vergeben"
+nr 88: "Private IP-Adressen dauerhaft registrieren"
+nr 90: "IP-Adressen per DHCP vergeben"
+nr 92: "IP-Adressen im LAN ersetzen"
+nr 95: "IP-Adressen per DHCP vergeben"
+nr 107: "IP-Adressen zuweisen"
+nr 110: "IP-Adressen automatisch vergeben"
+nr 110: "MAC-Adressen anderer Geräte verwalten"
+nr 114: "IP-Adressen per DHCP vergeben"
+nr 116: "Domänennamen in IP-Adressen auflösen"
+nr 116: "IP-Adressen automatisch verteilen"
+nr 118: "DNS-Namen in IP-Adressen auflösen"
+nr 119: "IP-Adressen per DHCP vergeben"
+nr 121: "IP-Adressen vergeben"
+nr 121: "Adressen umsetzen"
+nr 125: "MAC-Adressen ermitteln"
+nr 133: "Zugangsdaten stehlen"
+nr 135: "IP-Adressen automatisch vergeben"
+nr 137: "Daten erpressen"
+nr 139: "MAC-Adressen und Switchports"
+nr 139: "IP-Adressen und Subnetzmasken"
+nr 156: "IP-Adressen an Clients verteilen"
+nr 157: "Projektinteressen vertreten"
+nr 176: "IP-Adressen automatisch vergeben"
+nr 179: "MAC-Adressen über DNS auflösen"
+nr 185: "Adressen umsetzen"
+nr 186: "Private Adressen per NAT umsetzen"
+nr 192: "Hostnamen in IP-Adressen auflösen"
+nr 196: "IP-Adressen automatisch vergeben"
+nr 197: "Zugangsdaten stehlen"
+nr 199: "MAC-Adressen vollständig verbergen"
+nr 201: "Daten erpressen"
+nr 252: "Die Internetgeschwindigkeit des Computers messen"
+nr 258: "Netzwerkadressen"
+nr 455: "Technische Organisationsmodelle zur standardisierten Verwaltung von IT-Prozessen und Sicherheitsrichtlinien"
+nr 461: "Urlaubsantrag"
+nr 504: "IP-Adressen berechnen"
+nr 509: "MAC-Adressen vergeben"
+nr 514: "IP-Adressen verschlüsseln"
+nr 535: "Die verfügbaren IP-Adressen werden automatisch an die Endgeräte verteilt"
+nr 683: "Allein gegen Freunde"
+nr 711: "Übersetzung privater IP-Adressen in eine öffentliche IP-Adresse"
+nr 711: "Automatische Vergabe von IP-Adressen an Netzwerkgeräte"
+nr 714: "Einen lokalen Netzwerkdienst zur automatischen Vergabe von IP-Adressen"
+nr 726: "Er enthält die gelernten Parameter und Beispiele eines trainierten Modells"
+nr 727: "Netzwerkverbindungen unabhängig von Protokollen und Adressen weiterleiten"
+nr 779: "Hallihallo!"
+nr 824: "Die Anzahl der Instanzen einer Klasse dauerhaft auf eins begrenzen"
+nr 925: "Sie messen nur allgemeine Performance ohne Belastungsszenarien"
+nr 1036: "Attribut, dessen Wert berechnet wird"
+nr 1038: "Attribut, dessen Wert aus anderen Werten berechnet wird"
+nr 1066: "Alle definierten Subtypen enthalten keine Instanzen"
+nr 1066: "Der Supertyp darf grundsätzlich keine Instanzen enthalten"
+nr 1070: "Betriebssystem zur Verwaltung von Hardware und Prozessen"
+nr 1138: "Betriebssystem zur Verwaltung von Webserverprozessen"
+nr 1179: "Ausschließlich Namen und private Wohnadressen"
+nr 1202: "Grundsätzlich bei jedem Unternehmen unabhängig von dessen Verarbeitung"
+nr 1202: "Grundsätzlich bei keinem Unternehmen unabhängig von dessen Verarbeitung"
+nr 1295: "Zur Beantragung und Verwaltung von Urlaubsansprüchen"
+nr 1300: "Vor allem Urlaubsansprüche vollständig ausschöpfen, sobald dies möglich ist"
+nr 1338: "Freundliche Erinnerung an offene Zahlung"
+nr 1443: "Zeichen für datenschutzfreundliche Produkte oder Dienstleistungen"
+nr 1455: "Hundert Prozent der gesamten Zeit"
+nr 1536: "Eine Instanz mit mehreren anderen Instanzen"
+nr 1536: "Mehrere Instanzen mit mehreren anderen"
+nr 1536: "Keine Verknüpfung zwischen Instanzen"
+nr 1545: "Beziehungstabelle vergessen"
+nr 1546: "Mehrere Instanzen sind mit einer verknüpft"
+nr 1547: "Mehrere Instanzen sind mit mehreren verknüpft"
+nr 1548: "Mehrere Instanzen sind mit einer verknüpft"
+nr 1593: "Eine Instanz ist mit vielen Instanzen verbunden"
+nr 1593: "Viele Instanzen sind mit vielen Instanzen verbunden"
+nr 1594: "Viele Instanzen sind mit vielen Instanzen verknüpft"
+nr 1595: "Eine Instanz ist nur mit mehreren Instanzen verknüpft"
+nr 1679: "Durch einen einmaligen Test ohne Beispieldaten"
+nr 1951: "Eine Raute für eine Prozessentscheidung"
+nr 1962: "Zur Modellierung und Analyse von Geschäftsprozessen"
+nr 2293: "Eine freundliche Erinnerung"
+nr 2310: "Eine freundliche Erinnerung"
+nr 2346: "Vertretung der Arbeitgeberinteressen"
+nr 2346: "Vertretung der Gewerkschaftsinteressen"
+nr 2346: "Vertretung der Staatsinteressen"
+nr 2356: "Ein Ausgleich der Interessen bei sozialen Fragen"
+nr 2356: "Ein Ausgleich der Interessen bei personellen Fragen"
+nr 2356: "Ein Ausgleich der Interessen bei wirtschaftlichen Fragen"
+nr 2361: "Ein Tarifvertrag über Urlaub"
+
+=== Alle Open Fragen (nr: frage | antwort) ===
+nr 2621 [Mathematik] | Was ist das Ergebnis von 3x + 2x? => "5x"
+nr 2622 [Mathematik] | Wie lautet der Wert von 2x + 3 for x = 4? => "11"
+nr 2623 [Mathematik] | Was ergibt 7a - 3a? => "4a"
+nr 2624 [Mathematik] | Wie lautet die Lösung von x + 5 = 12? => ["x = 7","7"]
+nr 2625 [Mathematik] | Wie lautet die Lösung von x - 8 = 3? => ["x = 11","11"]
+nr 2626 [Mathematik] | Wie lautet die Lösung von 3x = 18? => ["x = 6","6"]
+nr 2627 [Mathematik] | Wie lautet die Lösung von x ÷ 4 = 5? => ["x = 20","20"]
+nr 2628 [Mathematik] | Wie lautet die Lösung von 2x + 4 = 12? => ["x = 4","4"]
+nr 2629 [Mathematik] | Wie lautet die Lösung von 5x - 10 = 15? => ["x = 5","5"]
+nr 2630 [Mathematik] | Was ergibt 4 · (x + 2)? => ["4x + 8","4x+8"]
+nr 2631 [Mathematik] | Was ergibt 3 · (2x - 1)? => "6x - 3"
+nr 2632 [Mathematik] | Was ist die erste Potenz von x? => "x"
+nr 2633 [Mathematik] | Was ergibt x^2 · x^3? => "x^5"
+nr 2634 [Mathematik] | Was ergibt a^6 ÷ a^2? => "a^4"
+nr 2635 [Mathematik] | Was ist die Quadratwurzel aus 49? => "7"
+nr 2636 [Mathematik] | Was ist die Quadratwurzel aus 81? => "9"
+nr 2637 [Mathematik] | Wie lautet die binomische Formel for (a + b)^2? => "a^2 + 2ab + b^2"
+nr 2638 [Mathematik] | Wie lautet die binomische Formel for (a - b)^2? => "a^2 - 2ab + b^2"
+nr 2639 [Mathematik] | Was ergibt (x + 3)(x + 2)? => "x^2 + 5x + 6"
+nr 2640 [Mathematik] | Was ist der größte gemeinsame Faktor von 12 und 18? => "6"
+nr 2641 [Mathematik] | Was ist das kleinste gemeinsame Vielfache von 4 und 6? => "12"
+nr 2642 [Mathematik] | Wie lautet die Lösung von x² = 25? => "x = 5"
+nr 2643 [Mathematik] | Wie lautet die Normalform einer linearen Funktion? => "y = mx + b"
+nr 2644 [Mathematik] | Wie groß ist die Steigung der Funktion y = 3x + 2? => "3"
+nr 2645 [Mathematik] | Wie lautet die Nullstelle von y = x - 7? => ["x = 7","7"]
+nr 2646 [Mathematik] | Wie viele Lösungen besitzt ein lineares Gleichungssystem mit genau einem Schnittpunkt? => ["Eine Lösung","1"]
+nr 2647 [Hardware] | Welche Maßeinheit gibt die Bildwiederholfrequenz eines Monitors an? => ["Hertz","Hz","Bildwiederholrate","Frequenz"]
+nr 2648 [Hardware] | Wie nennt man die physikalische Auflösung eines Monitors in Pixeln pro Zoll? => ["Pixeldichte","PPI"]
+nr 2649 [Hardware] | Wie lautet die deutsche Abkürzung for eine unterbrechungsfreie Stromversorgung? => ["USV","Unterbrechungsfreie Stromversorgung","USV-Anlage"]
+nr 2650 [Hardware] | Welcher Druckertyp nutzt Hitze und speziell beschichtetes Papier? => ["Thermodirektdrucker","Thermodrucker","Thermischer Drucker"]
+nr 2651 [Hardware] | Welches Bauteil kühlt die CPU direkt durch Wärmeleitung? => ["Kühlkörper","CPU-Kühlkörper","Prozessorkühlkörper","Heatspreader"]
+nr 2652 [Hardware] | Wie heißt der Sockel for moderne AMD-Desktop-Prozessoren der Ryzen-7000er-Serie? => ["AM5","AMD-Sockel AM5","Socket AM5","LGA1718"]
+nr 2653 [Hardware] | Welche Tastatur-Verbindung gilt als am wenigsten anfällig for Latenz? => ["USB-Kabelverbindung","Kabelgebundene USB-Verbindung","USB-Anschluss","USB"]
+nr 2654 [Hardware] | Wie nennt man den Hauptplatinen-Chip, der die grundlegende Systemstart-Firmware enthält? => ["BIOS","UEFI"]
+nr 2655 [Hardware] | Welcher Farbraum wird primär for Druckmedien genutzt? => ["CMYK","Cyan-Magenta-Yellow-Key","Vierfarbsystem"]
+nr 2656 [Hardware] | Welche Akku-Technologie wird standardmäßig in mobilen IT-Geräten verbaut? => ["Lithium-Ionen","Li-Ion","Lithium-Ionen-Akku","Li-Ionen-Technologie"]
+nr 2657 [Hardware] | Welcher Bussystem-Standard ermöglicht Datenraten von bis zu 40 Gbit/s über Typ-C? => ["Thunderbolt 4","USB4","Thunderbolt"]
+nr 2658 [Hardware] | Welcher Druckertyp verwendet flüssige Tinte? => ["Tintenstrahldrucker","Inkjet-Drucker","Tintenstrahl-Drucker","Inkjet"]
+nr 2659 [Hardware] | Welche Gehäuse-Bauform ist bei Standard-Büro-PCs am weitesten verbreitet? => ["Mid-Tower","ATX-Mid-Tower","Midi-Tower","ATX-Gehäuse"]
+nr 2660 [Hardware] | Welches Bauteil wandelt elektrische Signale for Glasfaserverbindungen in optische Signale um? => ["Transceiver","Optischer Transceiver","SFP-Modul","Medienkonverter"]
+nr 2661 [Netzwerke] | Wofür steht die Abkürzung TCP? => ["Transmission Control Protocol","Übertragungssteuerungsprotokoll","Protokoll zur Übertragungssteuerung"]
+nr 2662 [Netzwerke] | Wofür steht die Abkürzung IP? => ["Internet Protocol","Internetprotokoll","Protokoll der Internetschicht"]
+nr 2663 [Netzwerke] | Wofür steht die Abkürzung HTTP? => ["Hypertext Transfer Protocol","Hypertext-Übertragungsprotokoll","Protokoll für Webübertragung"]
+nr 2664 [Netzwerke] | Wofür steht die Abkürzung HTTPS? => ["Hypertext Transfer Protocol Secure","Sicheres Hypertext-Übertragungsprotokoll","Verschlüsseltes Webübertragungsprotokoll"]
+nr 2665 [Netzwerke] | Wofür steht die Abkürzung FTP? => ["File Transfer Protocol","Dateiübertragungsprotokoll","Protokoll zur Dateiübertragung","Dateitransfer-Protokoll"]
+nr 2666 [Netzwerke] | Wofür steht die Abkürzung SFTP? => ["SSH File Transfer Protocol","Sicheres Dateiübertragungsprotokoll","Secure File Transfer Protocol","Verschlüsseltes Dateiübertragungsprotokoll"]
+nr 2667 [Netzwerke] | Wofür steht die Abkürzung SSH? => ["Secure Shell","Sichere Shell","Verschlüsselte Fernzugriffsshell","Sicheres Fernzugriffsprotokoll"]
+nr 2668 [Netzwerke] | Wofür steht die Abkürzung DNS? => ["Domain Name System","Domänennamenssystem","Namensdienst für Internetadressen"]
+nr 2669 [Netzwerke] | Wofür steht die Abkürzung DHCP? => ["Dynamic Host Configuration Protocol","Dynamisches Hostkonfigurationsprotokoll","Protokoll für automatische Netzwerkkonfiguration"]
+nr 2670 [Netzwerke] | Wofür steht die Abkürzung NAT? => ["Network Address Translation","Netzwerkadressübersetzung","Übersetzung von Netzwerkadressen"]
+nr 2671 [Netzwerke] | Wofür steht die Abkürzung VPN? => ["Virtual Private Network","Virtuelles privates Netzwerk","Verschlüsseltes privates Netzwerk"]
+nr 2672 [Netzwerke] | Wofür steht die Abkürzung LAN? => ["Local Area Network","Lokales Netzwerk im Nahbereich","Lokales Rechnernetz"]
+nr 2673 [Netzwerke] | Wofür steht die Abkürzung WAN? => ["Wide Area Network","Weitverkehrsnetzwerk","Weitbereichsnetzwerk"]
+nr 2674 [Netzwerke] | Wofür steht die Abkürzung WLAN? => ["Wireless Local Area Network","Drahtloses lokales Netzwerk","Kabelloses Rechnernetz"]
+nr 2675 [Netzwerke] | Wofür steht die Abkürzung MAC? => ["Media Access Control","Medienzugriffssteuerung","Hardwareadressierung im Netzwerk"]
+nr 2676 [IT-Grundlagen] | Wofür steht die Abkürzung URL? => ["Uniform Resource Locator","Einheitlicher Ressourcenzeiger"]
+nr 2677 [IT-Grundlagen] | Wofür steht die Abkürzung URI? => ["Uniform Resource Identifier","Einheitlicher Ressourcenbezeichner","Ressourcenkennung im Internet","Eindeutige Ressourcenkennung"]
+nr 2678 [IT-Grundlagen] | Wofür steht die Abkürzung HTML? => ["Hypertext Markup Language","Hypertext-Auszeichnungssprache","Auszeichnungssprache für Webseiten","Webseiten-Struktursprache"]
+nr 2679 [IT-Grundlagen] | Wofür steht die Abkürzung CSS? => ["Cascading Style Sheets","Kaskadierende Stilvorlagen","Stylesheet-Sprache für Webseiten","Gestaltungssprache für Webseiten"]
+nr 2680 [IT-Grundlagen] | Wofür steht die Abkürzung XML? => ["Extensible Markup Language","Erweiterbare Auszeichnungssprache","Strukturierte Auszeichnungssprache","Datenbeschreibungssprache"]
+nr 2681 [IT-Grundlagen] | Wofür steht die Abkürzung JSON? => ["JavaScript Object Notation","JavaScript-Objektnotation"]
+nr 2682 [Programmierung] | Wofür steht die Abkürzung API? => ["Application Programming Interface","Programmierschnittstelle"]
+nr 2683 [Hardware] | Wofür steht die Abkürzung CPU? => ["Central Processing Unit","Zentrale Verarbeitungseinheit"]
+nr 2684 [Hardware] | Wofür steht die Abkürzung GPU? => ["Graphics Processing Unit","Grafikprozessoreinheit","Grafikprozessor","Grafische Verarbeitungseinheit"]
+nr 2685 [Hardware] | Wofür steht die Abkürzung RAM? => ["Random Access Memory","Arbeitsspeicher","Direktzugriffsspeicher"]
+nr 2686 [Hardware] | Wofür steht die Abkürzung ROM? => ["Read-Only Memory","Nur-Lese-Speicher","Festwertspeicher"]
+nr 2687 [Hardware] | Wofür steht die Abkürzung BIOS? => ["Basic Input/Output System","Einfaches Ein-/Ausgabesystem","Grundlegendes Eingabe-Ausgabe-System"]
+nr 2688 [Hardware] | Wofür steht die Abkürzung UEFI? => ["Unified Extensible Firmware Interface","Erweiterte Firmware-Schnittstelle","Einheitliche Firmware-Schnittstelle"]
+nr 2689 [Hardware] | Wofür steht die Abkürzung SSD? => ["Solid State Drive","Halbleiterlaufwerk","Flash-Speicherlaufwerk"]
+nr 2690 [Hardware] | Wofür steht die Abkürzung HDD? => ["Hard Disk Drive","Festplattenlaufwerk"]
+nr 2691 [Hardware] | Wofür steht die Abkürzung USB? => ["Universal Serial Bus","Universeller serieller Bus"]
+nr 2692 [Hardware] | Wofür steht die Abkürzung HDMI? => ["High Definition Multimedia Interface","Hochauflösende Multimediaschnittstelle"]
+nr 2693 [Hardware] | Wofür steht die Abkürzung RAID? => ["Redundant Array of Independent Disks","Redundanter Verbund unabhängiger Festplatten","Redundantes Speichersystem"]
+nr 2694 [Datenbanken] | Wofür steht die Abkürzung SQL? => ["Structured Query Language","Strukturierte Abfragesprache"]
+nr 2695 [Datenbanken] | Wofür steht die Abkürzung DBMS? => ["Database Management System","Datenbankmanagementsystem","Datenbankverwaltungssystem","System zur Datenbankverwaltung"]
+nr 2696 [Datenbanken] | Wofür steht die Abkürzung CRUD? => ["Create Read Update Delete","Erstellen Lesen Ändern Löschen"]
+nr 2697 [Datenbanken] | Wofür steht die Abkürzung ACID bei Datenbanken? => ["Atomicity Consistency Isolation Durability","Atomarität Konsistenz Isolation Dauerhaftigkeit"]
+nr 2698 [Betriebssysteme] | Wofür steht die Abkürzung OS? => ["Operating System","Betriebssystem"]
+nr 2699 [Betriebssysteme] | Wofür steht die Abkürzung GUI? => ["Graphical User Interface","Grafische Benutzeroberfläche","Grafische Anwenderschnittstelle"]
+nr 2700 [Betriebssysteme] | Wofür steht die Abkürzung CLI? => ["Command-Line Interface","Kommandozeilenschnittstelle","Befehlszeilenschnittstelle","Textbasierte Benutzerschnittstelle"]
+nr 2701 [Programmierung] | Wofür steht die Abkürzung IDE in der Programmierung? => ["Integrated Development Environment","Integrierte Entwicklungsumgebung","Programmierentwicklungsumgebung","Softwareentwicklungsumgebung"]
+nr 2702 [Programmierung] | Wofür steht die Abkürzung SDK? => ["Software Development Kit","Softwareentwicklungskit","Entwicklungswerkzeugsammlung"]
+nr 2703 [Programmierung] | Wofür steht die Abkürzung JVM? => ["Java Virtual Machine","Virtuelle Java-Maschine","Java-Laufzeitmaschine","Virtuelle Java Maschine"]
+nr 2704 [Programmierung] | Wofür steht die Abkürzung JRE? => ["Java Runtime Environment","Java-Laufzeitumgebung","Laufzeitumgebung für Java"]
+nr 2705 [Programmierung] | Wofür steht die Abkürzung JDK? => ["Java Development Kit","Java-Entwicklungskit","Java Entwicklungsumgebung","Java-Programmierwerkzeugsammlung"]
+nr 2706 [Programmierung] | Wofür steht die Abkürzung OOP? => ["Object-Oriented Programming","Objektorientierte Programmierung","Objektbasierter Programmieransatz"]
+nr 2707 [Netzwerke] | Wofür steht die Abkürzung IoT? => ["Internet of Things","Internet der Dinge"]
+nr 2708 [Netzwerke] | Wofür steht die Abkürzung CDN? => ["Content Delivery Network","Inhaltsverteilungsnetzwerk","Verteilnetzwerk für Inhalte"]
+nr 2709 [Wirtschaft & Software] | Wofür steht die Abkürzung ERP? => ["Enterprise Resource Planning","Unternehmensressourcenplanung","Ressourcenplanung im Unternehmen","Unternehmensverwaltungssystem"]
+nr 2710 [Wirtschaft & Software] | Wofür steht die Abkürzung CRM? => ["Customer Relationship Management","Kundenbeziehungsmanagement","Kundenverwaltungssystem","Verwaltung von Kundenbeziehungen"]
+nr 2711 [Betriebssysteme] | Welcher Windows CMD- oder PowerShell-Befehl zeigt Dateien und Ordner an? => ["dir","Get-ChildItem","ls","gci"]
+nr 2712 [Betriebssysteme] | Welcher Windows CMD- oder PowerShell-Befehl wechselt das aktuelle Verzeichnis? => ["cd","Set-Location","chdir","sl"]
+nr 2713 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl erstellt einen neuen Ordner? => ["mkdir","md","New-Item -ItemType Directory","New-Item -Type Directory"]
+nr 2714 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl löscht einen Ordner? => ["rmdir","rd","Remove-Item","Remove-Item -Recurse"]
+nr 2715 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl löscht eine Datei? => ["del","erase","Remove-Item","rm"]
+nr 2716 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl leert den Inhalt des Terminals? => ["cls","Clear-Host","clear","Clear"]
+nr 2717 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl zeigt die IP-Konfiguration an? => ["ipconfig","ipconfig /all"]
+nr 2718 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl prüft die Erreichbarkeit eines Netzwerkgeräts? => ["ping","Test-Connection"]
+nr 2719 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl zeigt den Weg zu einem Netzwerkziel? => ["tracert"]
+nr 2720 [Betriebssysteme] | Welcher Windows CMD oder Powershell fragt DNS-Informationen zu einer Domain ab? => ["nslookup","Resolve-DnsName"]
+nr 2721 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl zeigt aktive Netzwerkverbindungen an? => ["netstat","Get-NetTCPConnection"]
+nr 2722 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl zeigt laufende Prozesse an? => ["tasklist","Get-Process","ps","gps"]
+nr 2723 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl beendet einen laufenden Prozess? => ["taskkill","Stop-Process","kill"]
+nr 2724 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl zeigt den Computernamen an? => ["hostname","$env:COMPUTERNAME"]
+nr 2725 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl zeigt den aktuell angemeldeten Benutzer? => ["whoami"]
+nr 2726 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl zeigt detaillierte Systeminformationen an? => ["systeminfo","Get-ComputerInfo"]
+nr 2727 [Betriebssysteme] | Welches Windows PowerShell-Cmdlet zeigt Hilfe zu Befehlen an? => ["Get-Help","help","man"]
+nr 2728 [Betriebssysteme] | Welches Windows PowerShell-Cmdlet sucht verfügbare Befehle? => ["Get-Command","gcm"]
+nr 2729 [Betriebssysteme] | Welches Windows PowerShell-Cmdlet listet Dateien und Ordner auf? => ["Get-ChildItem","dir","ls","gci"]
+nr 2730 [Betriebssysteme] | Welches Windows PowerShell-Cmdlet liest den Inhalt einer Datei? => ["Get-Content","gc","cat","type"]
+nr 2731 [Betriebssysteme] | Welches Windows PowerShell-Cmdlet schreibt neuen Inhalt in eine Datei? => ["Set-Content"]
+nr 2732 [Betriebssysteme] | Welches Windows PowerShell-Cmdlet hängt Inhalt an eine Datei an? => ["Add-Content","ac"]
+nr 2733 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl kopiert Dateien oder Ordner? => ["Copy-Item","copy","cp","xcopy"]
+nr 2734 [Betriebssysteme] | Welcher Windows CMD oder Powershell Befehl verschiebt Dateien oder Ordner? => ["Move-Item","move","mv"]
+nr 2735 [Betriebssysteme] | Welcher PowerShell-Befehl benennt eine Datei um? => ["Rename-Item","ren"]
+nr 2736 [Betriebssysteme] | Welches PowerShell-Cmdlet entfernt Dateien oder Ordner? => ["Remove-Item","ri","rm","del"]
+nr 2737 [Betriebssysteme] | Welches PowerShell-Cmdlet erstellt Dateien oder Ordner? => ["New-Item","ni"]
+nr 2738 [Betriebssysteme] | Welches PowerShell-Cmdlet zeigt Windows-Dienste an? => ["Get-Service","gsv"]
+nr 2739 [Betriebssysteme] | Welches PowerShell-Cmdlet startet einen Dienst? => ["Start-Service","sasv"]
+nr 2740 [Betriebssysteme] | Welches PowerShell-Cmdlet beendet einen Dienst? => ["Stop-Service","spsv"]
+nr 2741 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl zeigt unter Linux Dateien und Ordner an? => ["ls","Get-ChildItem","dir","gci"]
+nr 2742 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl zeigt unter Linux das aktuelle Verzeichnis? => ["pwd","Get-Location"]
+nr 2743 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl wechselt unter Linux das Verzeichnis? => ["cd","Set-Location","chdir","sl"]
+nr 2744 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl erstellt unter Linux einen Ordner? => ["mkdir","New-Item -ItemType Directory"]
+nr 2745 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl erstellt unter Linux eine leere Datei? => ["touch","New-Item -ItemType File"]
+nr 2746 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl löscht unter Linux eine Datei? => ["rm","Remove-Item","del","erase"]
+nr 2747 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl kopiert unter Linux Dateien? => ["cp","Copy-Item","copy"]
+nr 2748 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl verschiebt unter Linux Dateien? => ["mv","Move-Item","move"]
+nr 2749 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl zeigt unter Linux den Dateiinhalt an? => ["cat","Get-Content","gc","type"]
+nr 2750 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl sucht unter Linux nach Textmustern? => ["grep","Select-String","sls"]
+nr 2751 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl sucht unter Linux nach Dateien? => ["find","Get-ChildItem -Recurse"]
+nr 2752 [Betriebssysteme] | Welcher Linux-Befehl ändert Datei- oder Ordnerrechte? => ["chmod"]
+nr 2753 [Betriebssysteme] | Welcher Linux-Befehl ändert den Besitzer einer Datei? => ["chown"]
+nr 2754 [Betriebssysteme] | Welcher Linux-Befehl führt einen Befehl mit Administratorrechten aus? => ["sudo"]
+nr 2755 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl zeigt unter Linux laufende Prozesse? => ["ps","Get-Process","gps"]
+nr 2756 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl beendet unter Linux einen Prozess? => ["kill","Stop-Process"]
+nr 2757 [Betriebssysteme] | Welcher Linux-Befehl zeigt den freien Speicherplatz von Dateisystemen? => ["df"]
+nr 2758 [Betriebssysteme] | Welcher Linux-Befehl zeigt den Speicherverbrauch von Ordnern? => ["du"]
+nr 2759 [Betriebssysteme] | Welcher Linux-Befehl zeigt Netzwerkadressen und Schnittstellen an? => ["ip addr","ip a"]
+nr 2760 [Betriebssysteme] | Welcher Bash- oder PowerShell-Befehl öffnet unter Linux die Hilfe? => ["man","Get-Help","help"]

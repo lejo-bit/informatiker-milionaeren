@@ -1,0 +1,5 @@
+Q>30:0 A>15:0 F>15:4 Total:2766
+F>15 nr462 (16): Zugriff auf sämtliche Daten, die aufgrund der eigenen Rolle grundsätzlich für di
+F>15 nr488 (17): Personenbezogene Daten möglichst umfassend sammeln, damit sie für zukünftige und
+F>15 nr488 (18): Personenbezogene Daten nur so lange speichern, wie sie für den jeweiligen Verarb
+F>15 nr489 (16): Nur die für einen bestimmten Zweck unbedingt erforderlichen Daten erheben und da
