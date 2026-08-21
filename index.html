@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=6" />
 </head>
 <body>
   <div class="container">
@@ -43,6 +43,9 @@
         <div class="timer-bar-container">
           <div id="timerBar" class="timer-bar"></div>
         </div>
+        <div>🔥 <span id="streakCounter">0</span></div>
+        <span id="categoryStreak" class="category-streak hidden"></span>
+        <span id="bossesDefeated" class="bosses-defeated hidden"></span>
         <!-- Category Badge: shows the current question's category -->
         <div id="category-badge" class="category-badge">Kategorie: Laden...</div>
       </div>
@@ -53,8 +56,12 @@
       <!-- Result Feedback Box: shows correct/wrong feedback after answering -->
       <div id="resultBox" class="result hidden"></div>
 
+      <!-- Boss Fight Banner: flashes when a boss question appears -->
+      <div id="bossBanner" class="boss-banner hidden"></div>
+
       <!-- Question Prompt: displays the current question text -->
       <div class="question-box">
+        <div id="bossBadge" class="boss-badge hidden">👹 BOSS</div>
         <div id="questionText">Frage wird geladen...</div>
       </div>
 
@@ -88,6 +95,7 @@
       <h2>Spiel vorbei!</h2>
       <p id="gameOverCorrectAnswer" class="game-over-answer hidden"></p>
       <p>Erreichte Punkte: <span id="finalScore">0</span></p>
+      <p>Persönlicher Rekord: <span id="personalBest">0</span></p>
       <p id="finalTitle" class="game-over-title">Titel: <strong>Anfänger</strong></p>
       <button id="restartBtn">Noch einmal spielen</button>
     </div>
@@ -144,8 +152,8 @@
   <!-- Script loading order matters: checker.js must load before numbers.js
        (numbers.js depends on normalize() from checker.js), and both must
        load before main.js (which is an ES module that imports game.js). -->
-  <script src="checker.js?v=2"></script>
-  <script src="numbers.js?v=2"></script>
-  <script type="module" src="main.js?v=2"></script>
+  <script src="checker.js?v=6"></script>
+  <script src="numbers.js?v=6"></script>
+  <script type="module" src="main.js?v=6"></script>
 </body>
 </html>

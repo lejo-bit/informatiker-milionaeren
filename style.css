@@ -16,6 +16,7 @@ body {
   justify-content: center;
   padding: 20px;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* ===== CONTAINER ===== */
@@ -1164,4 +1165,174 @@ body.streak-15::after {
   #gameOver h2 {
     font-size: 22px;
   }
+}
+
+/* ===== BOSS FIGHT ===== */
+/* Flashing banner that appears when a boss question shows up */
+.boss-banner {
+  background: linear-gradient(135deg, #7b1fa2 0%, #c62828 100%);
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 40px;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 12px 0 4px;
+  box-shadow: 0 4px 20px rgba(198, 40, 40, 0.5);
+  animation: bossBannerShake 0.6s ease-out, bossBannerPulse 0.8s ease-in-out 0.4s 3;
+}
+
+@keyframes bossBannerShake {
+  0% { opacity: 0; transform: translateX(0) scale(0.8); }
+  25% { transform: translateX(-8px) scale(1.05); }
+  50% { transform: translateX(8px) scale(1); }
+  75% { transform: translateX(-4px) scale(1.02); }
+  100% { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+@keyframes bossBannerPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+/* Persistent badge next to the question during a boss fight */
+.boss-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #7b1fa2, #c62828);
+  color: white;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  margin-right: 10px;
+  vertical-align: middle;
+  box-shadow: 0 2px 10px rgba(198, 40, 40, 0.4);
+  animation: bossBannerPulse 1.2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+/* Red glow on the question box during a boss fight */
+#game .question-box:has(.boss-badge:not(.hidden)) {
+  border-color: #c62828;
+  box-shadow: 0 0 0 3px rgba(198, 40, 40, 0.25), 0 4px 14px rgba(0, 0, 0, 0.02);
+}
+
+/* ===== HUD STREAK / CATEGORY / BOSS COUNTERS ===== */
+/* Streak counter turns orange when hot (5+ streak) */
+#streakCounter.hot {
+  background: #ff9800 !important;
+  color: white !important;
+  box-shadow: 0 0 12px rgba(255, 152, 0, 0.6);
+}
+
+.category-streak {
+  background: #e3f2fd !important;
+  color: #0d47a1 !important;
+  font-weight: 700;
+  border-radius: 40px;
+  padding: 2px 10px;
+  line-height: 24px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.bosses-defeated {
+  background: #f3e5f5 !important;
+  color: #6a1b9a !important;
+  font-weight: 800;
+  border-radius: 40px;
+  padding: 2px 10px;
+  line-height: 24px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* ===== CONFETTI CANVAS ===== */
+#confettiCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* ===== FLOATING SCORE POPUP ===== */
+.score-popup {
+  position: fixed;
+  /* Viewport coords from getBoundingClientRect() match position:fixed's
+     containing block, so popups stay on-screen even when the page scrolls. */
+  translate: -50% -50%;
+  pointer-events: none;
+  font-weight: 900;
+  font-size: 26px;
+  color: #2e7d32;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  animation: popupFloat 1.1s ease-out forwards;
+  z-index: 9999;
+  white-space: nowrap;
+}
+
+.score-popup.popup-green {
+  color: #2e7d32;
+}
+
+.score-popup.popup-gold {
+  color: #ffb300;
+  font-size: 32px;
+  text-shadow: 0 0 18px rgba(255, 179, 0, 0.8);
+}
+
+@keyframes popupFloat {
+  0% {
+    opacity: 0;
+    transform: translateY(6px) scale(0.7);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-8px) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-46px) scale(1);
+  }
+}
+
+/* ===== GAME OVER PERSONAL BEST ===== */
+#personalBest {
+  background: #fff9c4;
+  padding: 4px 16px;
+  border-radius: 60px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #f57f17;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+/* ===== TEST-ONLY STREAK SIMULATOR BUTTON ===== */
+#streakTestBtn {
+  background: #4b2e83;
+  border: 2px dashed #b39ddb;
+  color: #e0d5f5;
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+  box-shadow: none;
+}
+#streakTestBtn:hover {
+  background: #5e3f9e;
+  transform: scale(1.05);
+}
+#streakTestBtn:active {
+  transform: scale(0.95);
+}
+#streakTestBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+  transform: none;
 }

@@ -18,7 +18,10 @@ import { state } from "./state.js";
  * @returns {string} The player's title.
  */
 export function getPlayerTitle(points) {
-  if (points >= 10001) return "OVERDEITY!!!";
+  if (points >= 30001) return "ZENO";
+  if (points >= 20001) return "CHUCK NORRIS";
+  if (points >= 15001) return "KEANU KNEES!";
+  if (points >= 10001) return "OVERDEITY";
   if (points >= 9001) return "LET HIM COOK!";
   if (points >= 7001) return "OMFG!";
   if (points >= 5001) return "Godling";
@@ -82,6 +85,35 @@ export function updateHud(getStreakMultiplier) {
     const percentage = Math.max(0, (state.timer / state.initialTimerValue) * 100);
     timerBar.style.width = `${percentage}%`;
     timerBar.classList.toggle("warning", state.timer <= 5);
+  }
+
+  // --- Streak counter ---
+  const streakCounterEl = document.getElementById("streakCounter");
+  if (streakCounterEl) {
+    streakCounterEl.textContent = state.consecutiveCorrectAnswers;
+    streakCounterEl.classList.toggle("hot", state.consecutiveCorrectAnswers >= 5);
+  }
+
+  // --- Category streak ---
+  const categoryStreakEl = document.getElementById("categoryStreak");
+  if (categoryStreakEl) {
+    if (state.categoryStreak >= 2) {
+      categoryStreakEl.textContent = `🗂️ ${state.categoryStreak}x Kombi`;
+      categoryStreakEl.classList.remove("hidden");
+    } else {
+      categoryStreakEl.classList.add("hidden");
+    }
+  }
+
+  // --- Bosses defeated ---
+  const bossesDefeatedEl = document.getElementById("bossesDefeated");
+  if (bossesDefeatedEl) {
+    if (state.bossesDefeated > 0) {
+      bossesDefeatedEl.textContent = `👹 ${state.bossesDefeated}`;
+      bossesDefeatedEl.classList.remove("hidden");
+    } else {
+      bossesDefeatedEl.classList.add("hidden");
+    }
   }
 
   // --- Skips ---
@@ -215,6 +247,48 @@ export function hideComboBanner() {
   const banner = document.getElementById("comboBanner");
   if (banner) banner.classList.add("hidden");
   if (state.comboTimeout) clearTimeout(state.comboTimeout);
+}
+
+/**
+ * Shows the "BOSS FIGHT!" intro banner when a boss question appears.
+ * The banner auto-hides after a short delay.
+ */
+export function showBossIntro() {
+  const banner = document.getElementById("bossBanner");
+  if (!banner) return;
+
+  banner.textContent = "👹 BOSS-KAMPF! 👹";
+  banner.classList.remove("hidden");
+
+  if (state.bossBannerTimeout) clearTimeout(state.bossBannerTimeout);
+  state.bossBannerTimeout = setTimeout(() => {
+    banner.classList.add("hidden");
+  }, 2500);
+}
+
+/**
+ * Shows the persistent boss badge next to the question text while a
+ * boss question is active.
+ */
+export function showBossBadge() {
+  const badge = document.getElementById("bossBadge");
+  if (badge) badge.classList.remove("hidden");
+}
+
+/**
+ * Hides the boss badge (used when leaving a boss question).
+ */
+export function clearBossBadge() {
+  const badge = document.getElementById("bossBadge");
+  if (badge) badge.classList.add("hidden");
+
+  const banner = document.getElementById("bossBanner");
+  if (banner) banner.classList.add("hidden");
+
+  if (state.bossBannerTimeout) {
+    clearTimeout(state.bossBannerTimeout);
+    state.bossBannerTimeout = null;
+  }
 }
 
 /**

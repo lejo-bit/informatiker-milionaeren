@@ -18,7 +18,8 @@ import {
   handleSkip,
   handleFiftyFifty,
   goToNextQuestionAfterError,
-  restartGame
+  restartGame,
+  simulateStreakTest
 } from "./game.js";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -36,6 +37,42 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("skipBtn").addEventListener("click", handleSkip);
   document.getElementById("nextBtn").addEventListener("click", goToNextQuestionAfterError);
   document.getElementById("restartBtn").addEventListener("click", restartGame);
+
+  // TEST-ONLY helper: builds a small test-controls bar with the
+  // streak simulator button. The button is intentionally NOT in the
+  // static HTML so it never appears in production — it is only
+  // injected when the page is served from a local dev server
+  // (localhost or 127.0.0.1), e.g. via a local HTTP server.
+  function createStreakTestControls() {
+    const gameEl = document.getElementById("game");
+    if (!gameEl || document.getElementById("streakTestBtn")) return;
+
+    const bar = document.createElement("div");
+    bar.className = "buttons test-controls";
+
+    const btn = document.createElement("button");
+    btn.id = "streakTestBtn";
+    btn.className = "test-btn";
+    btn.textContent = "🧪 Streak-Test";
+
+    btn.addEventListener("click", () => {
+      if (state.isAnswerSubmitted) return;
+      simulateStreakTest();
+    });
+
+    bar.appendChild(btn);
+    gameEl.appendChild(bar);
+  }
+
+  const isLocalDev =
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1" ||
+    window.location.hostname === "[::1]" ||
+    window.location.protocol === "file:";
+
+  if (isLocalDev) {
+    createStreakTestControls();
+  }
 
   // --- Choice button click handler ---
   // For multiple-choice questions, clicking an answer automatically

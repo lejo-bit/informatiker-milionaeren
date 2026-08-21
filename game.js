@@ -18,9 +18,57 @@ import {
   clearStreakEffect,
   showComboBanner,
   hideComboBanner,
-  getPlayerTitle
+  getPlayerTitle,
+  showBossIntro,
+  showBossBadge,
+  clearBossBadge
 } from "./ui.js";
+import { spawnConfetti, clearConfetti, showScorePopup } from "./effects.js";
 import { saveScoreFirebase, fetchScoresFirebase } from "./firebase.js";
+
+// Game configuration constants
+const BOSS_INTERVAL = 10;      // Every 10th question is a boss question
+const BOSS_TIMER = 30;         // Boss questions have a 30-second timer
+const BOSS_POINT_MULTIPLIER = 2; // Boss questions award 2x base points
+const TIMER_RAMP_STEP = 5;     // Normal timer shrinks by 5s per boss defeated
+const TIMER_MIN = 40;          // Normal timer never goes below 40s
+const CATEGORY_COMBO_THRESHOLD = 3; // Category bonus after 3 same-category correct
+const CATEGORY_BONUS = 50;     // Bonus points per category-combo answer
+
+/**
+ * Returns the current timer value for the given question.
+ * Normal questions use 60s minus the difficulty ramp (5s per boss
+ * defeated, min 40s). Boss questions always use a strict 30s timer.
+ *
+ * @param {object} q - The question object (may have an isBoss flag).
+ * @returns {number} Timer value in seconds.
+ */
+export function getQuestionTimer(q) {
+  if (q && q.isBoss) return BOSS_TIMER;
+  const baseTimer = 60 - state.bossesDefeated * TIMER_RAMP_STEP;
+  return Math.max(TIMER_MIN, baseTimer);
+}
+
+/**
+ * Marks every 10th question in the deck as a boss question.
+ * The reward question (nr 9999) is always excluded from being a boss.
+ * Flags are set on the in-memory shuffled deck only — no question
+ * data in fragen.json is modified.
+ */
+export function markBossQuestions() {
+  let normalCount = 0;
+  state.bossQuestionCount = 0;
+
+  state.questions.forEach(q => {
+    if (isRewardQuestion(q)) return;
+    q.isBoss = false;
+    normalCount++;
+    if (normalCount % BOSS_INTERVAL === 0) {
+      q.isBoss = true;
+      state.bossQuestionCount++;
+    }
+  });
+}
 
 /**
  * Returns the current streak multiplier based on consecutive correct answers.
@@ -179,6 +227,7 @@ export function startGame() {
   resetGameState();
   hideComboBanner();
   clearStreakEffect();
+  clearConfetti();
 
   state.questions = shuffleArray(state.questions);
   if (state.questions.length === 0) {
@@ -187,6 +236,8 @@ export function startGame() {
     errorEl.classList.remove("hidden");
     return;
   }
+
+  markBossQuestions();
 
   document.getElementById("startScreen").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
@@ -206,8 +257,17 @@ export function renderQuestion() {
   const q = state.questions[state.currentIndex];
   state.selectedChoice = null;
 
-  // Set timer for all question types: 60 seconds each
-  state.initialTimerValue = 60;
+  // Show boss intro banner + badge for boss questions
+  if (q && q.isBoss) {
+    showBossIntro();
+    showBossBadge();
+  } else {
+    clearBossBadge();
+  }
+
+  // Set timer: boss questions use 30s, normal questions use the
+  // ramped timer (60s minus 5s per boss defeated, min 40s)
+  state.initialTimerValue = getQuestionTimer(q);
   state.timer = state.initialTimerValue;
   updateHud(getStreakMultiplier);
 
@@ -374,6 +434,57 @@ export function grantComboReward() {
 }
 
 /**
+ * TEST-ONLY: Simulates a correct answer to preview streak features
+ * (multiplier growth, confetti, combo rewards, streak milestone effects).
+ * It does NOT advance to the next question — spam the button to build streaks.
+ */
+export function simulateStreakTest() {
+  const q = state.questions[state.currentIndex];
+  const prevMultiplier = getStreakMultiplier();
+
+  state.consecutiveCorrectAnswers += 1;
+
+  // Simulate scoring like a normal correct answer
+  const basePoints = 100;
+  const totalMultiplier = getStreakMultiplier();
+  const pointsEarned = Math.round(basePoints * totalMultiplier);
+  state.score += pointsEarned;
+
+  const popupAnchor = document.getElementById("answerInput");
+  const popupText = getStreakMultiplier() > 1.0
+    ? `+${pointsEarned} ⚡`
+    : `+${pointsEarned}`;
+  showScorePopup(popupText, popupAnchor);
+
+  // Confetti celebration for high multipliers (2.0+, i.e. 6+ streak)
+  if (getStreakMultiplier() >= 2.0) {
+    spawnConfetti(100, 1.2);
+  }
+
+  // Combo reward every 5 correct answers
+  if (state.consecutiveCorrectAnswers % 5 === 0) {
+    grantComboReward();
+  }
+
+  // Streak visual effect at milestones (5, 10, 15)
+  if ([5, 10, 15].includes(state.consecutiveCorrectAnswers)) {
+    showStreakEffect(state.consecutiveCorrectAnswers);
+  }
+
+  // Highlight multiplier change with a popup
+  if (getStreakMultiplier() > prevMultiplier) {
+    showScorePopup(`Multiplikator ${getStreakMultiplier()}x!`, popupAnchor, "gold", -70);
+  }
+
+  // Reset & restart the countdown so the test button never lets
+  // the timer expire while spamming the streak simulator.
+  state.timer = state.initialTimerValue;
+  startTimer();
+  updateHud(getStreakMultiplier);
+  void q;
+}
+
+/**
  * Handles answer submission for both open-ended and multiple-choice questions.
  * Validates the answer, updates score/streak/lives, shows feedback,
  * and transitions to the next question (or ends the game if lives run out).
@@ -464,8 +575,48 @@ export function handleAnswer() {
       // Time penalty: after 30 seconds, lose 2 points per second (applies to all question types)
       const elapsed = state.initialTimerValue - state.timer;
       if (elapsed > 30) basePoints = Math.max(0, 100 - (elapsed - 30) * 2);
-      state.score += Math.round(basePoints * getStreakMultiplier());
+
+      // Boss questions award 2x base points (on top of the streak multiplier)
+      const totalMultiplier = getStreakMultiplier() * (q.isBoss ? BOSS_POINT_MULTIPLIER : 1);
+      const pointsEarned = Math.round(basePoints * totalMultiplier);
+      state.score += pointsEarned;
       state.consecutiveCorrectAnswers += 1;
+
+      // Category streak: track consecutive correct answers in the same category
+      const categoryName = q.category || q.kategorie || "Allgemein";
+      if (state.lastCategory === categoryName) {
+        state.categoryStreak += 1;
+      } else {
+        state.categoryStreak = 1;
+      }
+      state.lastCategory = categoryName;
+
+      // Determine popup anchor: the clicked choice button, or the answer input
+      const popupAnchor = state.selectedChoice || document.getElementById("answerInput");
+
+      // Category combo bonus: +50 extra when 3+ same-category answers in a row
+      if (state.categoryStreak >= CATEGORY_COMBO_THRESHOLD) {
+        state.score += CATEGORY_BONUS;
+        showScorePopup(`+${CATEGORY_BONUS} Kategorie-Combo!`, popupAnchor, "green");
+      }
+
+      // Boss defeated: golden popup + big confetti burst + difficulty ramp
+      if (q.isBoss) {
+        state.bossesDefeated += 1;
+        showScorePopup(`BOSS BESIEGT! +${pointsEarned}`, popupAnchor, "gold");
+        spawnConfetti(150, 1.5);
+      } else {
+        // Normal correct answer: floating score popup (with ⚡ on multiplier)
+        const popupText = getStreakMultiplier() > 1.0
+          ? `+${pointsEarned} ⚡`
+          : `+${pointsEarned}`;
+        showScorePopup(popupText, popupAnchor);
+      }
+
+      // Confetti celebration for high multipliers (2.0+, i.e. 6+ streak)
+      if (getStreakMultiplier() >= 2.0) {
+        spawnConfetti(100, 1.2);
+      }
 
       // Combo reward every 5 correct answers
       if (state.consecutiveCorrectAnswers % 5 === 0) {
@@ -478,8 +629,10 @@ export function handleAnswer() {
       }
     }
   } else {
-    // --- Wrong answer: reset streak, lose a life ---
+    // --- Wrong answer: reset streak & category streak, lose a life ---
     state.consecutiveCorrectAnswers = 0;
+    state.categoryStreak = 0;
+    state.lastCategory = "";
     hideComboBanner();
     clearStreakEffect();
     state.lives -= 1;
@@ -574,6 +727,8 @@ export function handleTimeout() {
   }
 
   state.consecutiveCorrectAnswers = 0;
+  state.categoryStreak = 0;
+  state.lastCategory = "";
   hideComboBanner();
   clearStreakEffect();
   state.lives -= 1;
@@ -668,12 +823,35 @@ export function endGame(q = null) {
   }
 
   clearStreakEffect();
+  clearConfetti();
+
+  // Personal best: track the highest score ever achieved (persisted
+  // in localStorage across sessions) and celebrate with a confetti
+  // burst when the player beats their previous record.
+  const previousBest = state.personalBest;
+  if (state.score > previousBest) {
+    state.personalBest = state.score;
+    try {
+      localStorage.setItem("quizPersonalBest", String(state.personalBest));
+    } catch {
+      // localStorage unavailable — ignore
+    }
+  }
 
   document.getElementById("game")?.classList.add("hidden");
   document.getElementById("gameOver")?.classList.remove("hidden");
 
   const finalScoreEl = document.getElementById("finalScore");
   if (finalScoreEl) finalScoreEl.textContent = state.score;
+
+  // Show the personal best in the game-over screen if the element exists
+  const personalBestEl = document.getElementById("personalBest");
+  if (personalBestEl) personalBestEl.textContent = state.personalBest;
+
+  // Big celebration if the player just hit a new personal best
+  if (state.personalBest > previousBest && state.personalBest > 0) {
+    spawnConfetti(200, 1.8);
+  }
 
   const finalTitleEl = document.getElementById("finalTitle");
   if (finalTitleEl) finalTitleEl.innerHTML = `Titel: <strong>${getPlayerTitle(state.score)}</strong>`;
@@ -707,8 +885,10 @@ export function restartGame() {
   resetGameState();
   hideComboBanner();
   clearStreakEffect();
+  clearConfetti();
 
   state.questions = shuffleArray([...state.allQuestions]);
+  markBossQuestions();
 
   document.getElementById("gameOver").classList.add("hidden");
   document.getElementById("game").classList.remove("hidden");
