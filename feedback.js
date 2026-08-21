@@ -7,8 +7,8 @@
  * screens, it sends 0 as the "nr".
  */
 
-import { state } from "./state.js";
-import { startTimer, goToNextQuestionAfterError, goToNextQuestionWithDelay } from "./game.js";
+import { state } from "./state.js?v=7";
+import { startTimer, goToNextQuestionAfterError, goToNextQuestionWithDelay } from "./game.js?v=7";
 
 // Tracks whether the game was paused by the feedback modal
 let gameWasPaused = false;

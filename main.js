@@ -8,9 +8,17 @@
  * It imports shared state from state.js and game functions from game.js.
  */
 
-import { state } from "./state.js";
-import { fetchScoresFirebase } from "./firebase.js";
-import { initFeedback } from "./feedback.js";
+// NOTE: The ?v=7 query parameters are intentional cache-busters.
+// Without them, GitHub Pages can serve stale cached copies of old
+// module versions while main.js itself is freshly fetched (because
+// main.js is loaded with ?v=... in index.html). This caused the
+// deployed SyntaxError ("does not provide an export named
+// 'simulateStreakTest'") because the cached game.js was older than
+// the freshly-fetched main.js. Bump the version when changing any
+// module's exports/imports so all modules reload together.
+import { state } from "./state.js?v=7";
+import { fetchScoresFirebase } from "./firebase.js?v=7";
+import { initFeedback } from "./feedback.js?v=7";
 import {
   loadQuestions,
   startGame,
@@ -20,7 +28,7 @@ import {
   goToNextQuestionAfterError,
   restartGame,
   simulateStreakTest
-} from "./game.js";
+} from "./game.js?v=7";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Load questions from fragen.json and fetch leaderboard scores

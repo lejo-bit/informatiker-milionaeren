@@ -8,7 +8,7 @@
  * game.js and firebase.js.
  */
 
-import { state } from "./state.js";
+import { state } from "./state.js?v=7";
 
 /**
  * Returns a player title based on the given score.

@@ -10,7 +10,10 @@
  * and Firebase functions from firebase.js.
  */
 
-import { state, resetGameState } from "./state.js";
+// NOTE: ?v=7 cache-busters keep all modules in sync on GitHub Pages.
+// Stale cached module copies caused a deployed SyntaxError.
+// Bump these versions together with main.js.
+import { state, resetGameState } from "./state.js?v=7";
 import {
   updateHud,
   triggerDamageEffects,
@@ -22,9 +25,9 @@ import {
   showBossIntro,
   showBossBadge,
   clearBossBadge
-} from "./ui.js";
-import { spawnConfetti, clearConfetti, showScorePopup } from "./effects.js";
-import { saveScoreFirebase, fetchScoresFirebase } from "./firebase.js";
+} from "./ui.js?v=7";
+import { spawnConfetti, clearConfetti, showScorePopup } from "./effects.js?v=7";
+import { saveScoreFirebase, fetchScoresFirebase } from "./firebase.js?v=7";
 
 // Game configuration constants
 const BOSS_INTERVAL = 10;      // Every 10th question is a boss question

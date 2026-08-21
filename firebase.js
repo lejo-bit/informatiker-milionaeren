@@ -12,7 +12,7 @@
  * Firebase hasn't been initialized yet (e.g. offline or config error).
  */
 
-import { renderScoreTable } from "./ui.js";
+import { renderScoreTable } from "./ui.js?v=7";
 
 /**
  * Saves a player's score to the Firestore "scores" collection.
